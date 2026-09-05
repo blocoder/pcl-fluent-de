@@ -10,10 +10,10 @@ vor allen anderen lädt.
 
 ---
 
-## Warum es das gibt
+## Warum eine eigene deutsche Übersetzung?
 
 Ich betreibe seit 2025 eine Community auf FluentCommunity. Die deutsche
-Übersetzung von wordpress.org war da, aber sie stand mir ständig im Weg.
+Übersetzung von wordpress.org war da, aber sie gefiel mir nicht.
 
 Ein *Space* hieß bei ihr **„Raum“**. Das ist nicht falsch übersetzt, es ist nur
 falsch für das, was meine Mitglieder vor sich haben: Sie diskutieren in Foren,
@@ -29,11 +29,11 @@ nebeneinander auf derselben Seite. Nach jedem Update ein Stück mehr.
 in `wp-content/languages/loco/` ab. Auf einer zweiten Installation fängt man
 von vorn an.
 
-Beides löst sich an derselben Stelle: **Wer zuerst lädt, gewinnt.** Dieses
-Plugin lädt seine Kataloge auf `plugins_loaded` mit Priorität 1 – bevor
-FluentCommunity die erste Übersetzung anfordert und bevor das Sprachpaket zum
-Zug kommt. Die eigene Fassung steht damit vorn, das Sprachpaket füllt nur noch
-Lücken, und die Kataloge liegen im Plugin und wandern mit ihm.
+Die Lösung: **Wer zuerst lädt, gewinnt.** Dieses Plugin lädt seine Kataloge
+auf `plugins_loaded` mit Priorität 1 – bevor FluentCommunity die erste
+Übersetzung anfordert und bevor das Sprachpaket zum Zug kommt. Die eigene
+Fassung steht damit vorn, das Sprachpaket füllt nur noch Lücken, und die
+Kataloge liegen im Plugin und wandern mit ihm.
 
 Aus einer Handvoll geänderter Zeichenketten sind über 5.000 geworden.
 
@@ -41,33 +41,41 @@ Aus einer Handvoll geänderter Zeichenketten sind über 5.000 geworden.
 
 ## Was drin ist
 
-| Katalog | übersetzt |
-|---|---:|
-| `fluent-community` | 3.065 |
-| `fluent-community-pro` | 409 |
-| `fluent-messaging` | 366 |
-| `fluent-player` | 763 |
-| `fluent-player-pro` | 590 |
+Stand: 05.09.2026, abgeglichen mit diesen Plugin-Versionen.
 
-**5.193 Zeichenketten. Acht sind offen** – und die bleiben es: Es sind
-Plugin-Kopfzeilen (Produktname, Adresse, Autorenname), die man nicht
-übersetzt. Jede trägt einen Übersetzerkommentar, warum sie leer steht.
+| Katalog | Plugin-Version | übersetzt |
+|---|---|---:|
+| `fluent-community` | 2.9.1 | 3.065 |
+| `fluent-community-pro` | 2.9.1 | 409 |
+| `fluent-messaging` | 2.9.0 | 366 |
+| `fluent-player` | 1.4.0 | 763 |
+| `fluent-player-pro` | 1.4.0 | 590 |
 
-Nur `de_DE`. Eine Sie-Fassung gibt es nicht.
+**5.193 Zeichenketten. Acht sind offen:** Plugin-Kopfzeilen (Produktname,
+Adresse, Autorenname), die man nicht übersetzt. Jede trägt einen
+Übersetzerkommentar, warum sie leer steht.
+
+Ein Katalog gehört zu einer Plugin-Version: Ändert der Hersteller den
+englischen Text, ist das für gettext ein neuer Schlüssel, und der alte fällt
+aus dem Katalog. Auf einer älteren Plugin-Version können einzelne
+Zeichenketten deshalb englisch erscheinen. Am besten erst die Fluent-Plugins
+aktualisieren, dann dieses hier.
+
+Nur `de_DE`. Eine formale Sie-Fassung gibt es nicht.
 
 ---
 
 ## Wie übersetzt wurde
 
-**Sie überschreibt die offizielle Übersetzung.** Das ist der Zweck, nicht ein
-Nebeneffekt. Das Sprachpaket von wordpress.org bleibt installiert und aktiv –
-es deckt rund 950 Zeichenketten ab, die sonst englisch blieben. Es kommt nur
-noch dort zum Zug, wo dieses Plugin nichts hat.
+**Meine Übersetzung überschreibt die offizielle Version.** Das ist Absicht.
+Das Sprachpaket von wordpress.org bleibt installiert und aktiv – es deckt rund
+950 Zeichenketten ab, die sonst englisch blieben. Es kommt nur noch dort zum
+Zug, wo dieses Plugin nichts hat.
 
-**Du-Form**, durchgehend, mit großem „Du“. Eine Community duzt sich.
+**Du-Form**, durchgehend, mit großem „Du“.
 
 **`Space` heißt Forum**, `Spaces` heißt Foren, `Space Group` heißt
-Foren-Gruppe. Das ist die Entscheidung, an der alles angefangen hat.
+Foren-Gruppe.
 
 **Ein eigenes Glossar sorgt für Konsistenz.** `Member` ist immer Mitglied, nie
 Nutzer. `Student` ist Teilnehmer oder Teilnehmende, Plural bevorzugt.
@@ -78,8 +86,7 @@ Eindeutschung verwirrt dort mehr, als sie hilft.
 Ein Sonderfall, der zeigt, wie fein das wird: **`User` heißt Mitglied oder
 Benutzer, je nach Ebene.** Geht es um ein WordPress-Konto – Rollen, Login,
 Benutzerverwaltung –, heißt es Benutzer, wie im WordPress-Kern. Geht es um die
-Person in der Community, heißt es Mitglied. Das kann kein Suchen-und-Ersetzen
-entscheiden, das geht nur Zeichenkette für Zeichenkette.
+Person in der Community, heißt es Mitglied.
 
 **Jede Zeichenkette ist von Hand nachgearbeitet.** Kein maschineller
 Durchlauf. Wo das Original unklar ist, steht auf Deutsch, was gemeint ist –
@@ -105,8 +112,8 @@ richtige Adresse eintragen; wer es festnageln will, setzt
 
 **Es hält drei Textdomains auf Englisch.** Für `fluent-crm`,
 `fluentcampaign-pro` und `easy-code-manager` ist die deutsche Fassung nach
-meinem Urteil schlechter als das Original. Statt Dateien wegzuräumen, die ein
-Update wiederbringt, wird das Laden unterbunden.
+meinem Urteil schlechter als das Original. Das Laden dieser deutschen
+Übersetzungen wird unterbunden.
 
 Beides lässt sich über Filter anpassen:
 
@@ -128,8 +135,7 @@ Die Seite muss auf `de_DE` stehen. In der Plugin-Liste steht danach, welche
 Kataloge tatsächlich greifen – das erspart die Suche, wenn eine Datei fehlt
 oder die Sprache nicht passt.
 
-Es ist nicht nötig, das Sprachpaket von wordpress.org zu deinstallieren. Im
-Gegenteil: Es soll bleiben.
+Es ist nicht nötig, das Sprachpaket von wordpress.org zu deinstallieren.
 
 **Voraussetzungen:** WordPress 6.5+, PHP 7.4+.
 
