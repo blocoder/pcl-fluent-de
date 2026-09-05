@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Bundle-Konfiguration für Loco Translate.
+
+  Ohne diese Datei sähe Loco hier nur ein Plugin mit der Textdomain
+  "pcl-fluent-de" und böte an, dessen eigene drei Meldungen zu übersetzen. Die
+  Kataloge, um die es geht, gehören fremden Textdomains — Loco muss also
+  ausdrücklich erfahren, dass dieses Bundle sie mitbringt.
+
+  Damit bleibt Loco Translate als Editor nutzbar: PC’L bearbeitet die Dateien
+  hier im Plugin, und genau die werden auch ausgeliefert. Kein zweiter Stand
+  in wp-content/languages/loco/ mehr, der auseinanderlaufen kann.
+
+  Die Vorlagen (.pot) liegen jeweils im Quell-Plugin, nicht hier — sie kommen
+  mit dessen Updates und werden nicht mitgepflegt.
+-->
+<bundle name="PC’L Übersetzungen für Fluent-Plugins" min-version="2.6.0">
+
+  <domain name="fluent-community">
+    <project name="FluentCommunity" slug="fluent-community">
+      <source>
+        <directory>../fluent-community/app</directory>
+        <directory>../fluent-community/includes</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>../fluent-community/language/fluent-community.pot</file>
+      </template>
+    </project>
+  </domain>
+
+  <domain name="fluent-community-pro">
+    <project name="FluentCommunity Pro" slug="fluent-community-pro">
+      <source>
+        <directory>../fluent-community-pro/app</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>../fluent-community-pro/language/fluent-community-pro.pot</file>
+      </template>
+    </project>
+  </domain>
+
+  <domain name="fluent-messaging">
+    <project name="FluentMessaging" slug="fluent-messaging">
+      <source>
+        <directory>../fluent-messaging/app</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>../fluent-messaging/language/fluent-messaging.pot</file>
+      </template>
+    </project>
+  </domain>
+
+  <domain name="fluent-player">
+    <project name="FluentPlayer" slug="fluent-player">
+      <source>
+        <directory>../fluent-player/app</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>../fluent-player/language/fluent-player.pot</file>
+      </template>
+    </project>
+  </domain>
+
+  <domain name="fluent-player-pro">
+    <project name="FluentPlayer Pro" slug="fluent-player-pro">
+      <source>
+        <directory>../fluent-player-pro/app</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>../fluent-player-pro/language/fluent-player-pro.pot</file>
+      </template>
+    </project>
+  </domain>
+
+</bundle>

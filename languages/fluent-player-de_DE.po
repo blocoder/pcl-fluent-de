@@ -1,0 +1,3577 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FluentPlayer\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fluent-player\n"
+"POT-Creation-Date: 2026-09-03T20:04:39+02:00\n"
+"PO-Revision-Date: 2026-07-25 15:07+0000\n"
+"Last-Translator: Peter Claus Lamprecht\n"
+"Language-Team: Deutsch\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Domain: fluent-player\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.2; wp-6.9.1; php-8.5.1-nmm1\n"
+
+#. Plugin Name of the plugin
+#: fluent-player.php
+msgid "FluentPlayer – Video Player With Forms & Lead Capture"
+msgstr "FluentPlayer – Videoplayer mit Formularen und Lead-Erfassung"
+
+#. Description of the plugin
+#: fluent-player.php
+msgid "FluentPlayer - A Media Player for WordPress"
+msgstr "FluentPlayer – ein Media-Player für WordPress"
+
+# bewusst nicht uebersetzt: Autorennamen aus dem Plugin-Header.
+#. Author of the plugin
+#: fluent-player.php
+msgid "techjewel, wpmanageninja"
+msgstr ""
+
+# bewusst nicht uebersetzt: URL aus dem Plugin-Header.
+#. Author URI of the plugin
+#: fluent-player.php
+msgid "https://fluentplayer.com"
+msgstr ""
+
+#: app/Blocks/FluentCommunityMediaBlock.php:541 app/Blocks/MediaBlock.php:371
+#: app/Hooks/Handlers/DedicatedPlayerPage.php:75
+#: app/Hooks/Handlers/DedicatedPlayerPage.php:80
+#: app/Services/Translations/admin-translations.php:212
+msgid "Private"
+msgstr "Privat"
+
+#: app/Blocks/FluentCommunityMediaBlock.php:827
+msgid "Invalid nonce"
+msgstr "Die Sicherheitsprüfung (Nonce) ist fehlgeschlagen."
+
+#: app/Blocks/FluentCommunityMediaBlock.php:834 app/Models/Media.php:31
+msgid "Invalid media ID"
+msgstr "Ungültige Medien-ID"
+
+#: app/Blocks/FluentCommunityMediaBlock.php:841
+#: app/Blocks/FluentCommunityMediaBlock.php:858
+#: app/Http/Controllers/MediaController.php:134
+#: app/Http/Controllers/MediaController.php:446
+#: app/Http/Controllers/MediaController.php:461
+#: app/Http/Controllers/MediaController.php:476
+#: app/Services/Translations/admin-translations.php:157
+msgid "Media not found"
+msgstr "Medium nicht gefunden"
+
+#: app/Blocks/FluentCommunityMediaBlock.php:855
+#: app/Hooks/Handlers/AbstractBehaviorHandler.php:96
+msgid "Too many requests"
+msgstr "Zu viele Anfragen"
+
+#: app/Blocks/FluentCommunityMediaBlock.php:864
+#: app/Services/MediaRenderer.php:417 app/Services/MediaRenderer.php:444
+msgid "This media is password protected."
+msgstr "Dieses Medium ist passwortgeschützt."
+
+#: app/Blocks/MediaBlock.php:242
+msgid "Please select a media to display."
+msgstr "Bitte wähle ein Medium zur Anzeige."
+
+#: app/EmailProviders/AbstractEmailProvider.php:135
+#: app/Integrations/AbstractIntegration.php:238
+msgid "This action is not implemented"
+msgstr "Diese Aktion ist nicht umgesetzt"
+
+#: app/EmailProviders/AbstractEmailProvider.php:146
+msgid "Field validation not implemented for this provider"
+msgstr "Für diesen Anbieter ist keine Feldprüfung umgesetzt"
+
+#: app/Helpers/BulkActionHelper.php:114
+msgid "No items were updated"
+msgstr "Es wurde nichts aktualisiert"
+
+#. translators: %d is the number of items updated.
+#: app/Helpers/BulkActionHelper.php:119
+#, php-format
+msgid "%d item updated"
+msgid_plural "%d items updated"
+msgstr[0] "%d Eintrag aktualisiert"
+msgstr[1] "%d Einträge aktualisiert"
+
+#. translators: 1: number updated, 2: total selected.
+#: app/Helpers/BulkActionHelper.php:123
+#, php-format
+msgid "%1$d of %2$d items updated"
+msgstr "%1$d von %2$d Einträgen aktualisiert"
+
+#. translators: %s: minimum recommended FluentPlayer Pro version
+#: app/Hooks/actions.php:55
+#, php-format
+msgid ""
+"Your FluentPlayer Pro is outdated. Please update FluentPlayer Pro to version"
+" %s or higher for full compatibility."
+msgstr ""
+"Dein FluentPlayer Pro ist veraltet. Bitte aktualisiere auf Version %s oder "
+"höher, damit alles zusammenpasst."
+
+#: app/Hooks/actions.php:253
+msgid "Send collected emails to any external service via webhooks."
+msgstr ""
+"Erfasste E-Mail-Adressen per Webhook an einen beliebigen externen Dienst "
+"schicken."
+
+#: app/Hooks/actions.php:259
+msgid ""
+"Connect FluentPlayer with Mailchimp to add email subscribers to your lists."
+msgstr ""
+"Verbinde FluentPlayer mit Mailchimp, um Abonnenten in Deine Listen "
+"aufzunehmen."
+
+#: app/Hooks/Handlers/AbstractBehaviorHandler.php:70
+msgid "An unexpected error occurred"
+msgstr "Es ist ein unerwarteter Fehler aufgetreten"
+
+#: app/Hooks/Handlers/AbstractBehaviorHandler.php:85
+#: app/Hooks/Handlers/AbstractBehaviorHandler.php:91
+msgid "Security check failed"
+msgstr "Die Sicherheitsprüfung (Nonce) ist fehlgeschlagen"
+
+#: app/Hooks/Handlers/AbstractBehaviorHandler.php:101
+msgid "Reporting is disabled for this visitor"
+msgstr "Für diesen Besucher ist die Auswertung abgeschaltet"
+
+#: app/Hooks/Handlers/AbstractBehaviorHandler.php:106
+#: app/Hooks/Handlers/AbstractBehaviorHandler.php:116
+msgid "Invalid media"
+msgstr "Ungültiges Medium"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:51
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:34 app/Views/admin/menu.php:21
+msgid "FluentPlayer"
+msgstr "FluentPlayer"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:54
+msgid "FluentPlayer Pro"
+msgstr "FluentPlayer Pro"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:71
+#: app/Hooks/Handlers/AdminMenuHandler.php:72
+#: app/Hooks/Handlers/AdminMenuHandler.php:278
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:33
+#: app/PageBuilders/Elementor/ElementorMediaWidget.php:45
+#: app/Services/Behavior/TimelineFields.php:148
+#: app/Services/Translations/admin-translations.php:152
+msgid "Media"
+msgstr "Medien"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:128
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:41
+msgid "All Media"
+msgstr "Alle Medien"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:133
+#: app/Hooks/Handlers/AdminMenuHandler.php:299 app/Views/admin/menu.php:41
+#: app/Views/player/controls/settings-menu.php:36
+#: app/Views/player/controls/settings-menu.php:41
+msgid "Settings"
+msgstr "Einstellungen"
+
+#. translators: 1: 5-star rating link to the WP.org reviews page, 2: heart
+#. symbol, 3: link to WordPress.org.
+#: app/Hooks/Handlers/AdminMenuHandler.php:214
+#, php-format
+msgid ""
+"If you like the plugin please rate FluentPlayer %1$s on %3$s to help us "
+"spread the word %2$s from the FluentPlayer team."
+msgstr ""
+"Wenn Dir das Plugin gefällt, bewerte FluentPlayer %1$s auf %3$s %2$s und "
+"hilf uns, es bekannter zu machen. Danke vom FluentPlayer-Team."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:283
+#: app/Services/Translations/admin-translations.php:203
+msgid "Playlists"
+msgstr "Playlists"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:293
+#: app/Services/Translations/admin-translations.php:27
+msgid "Analytics"
+msgstr "Analysen"
+
+#: app/Hooks/Handlers/DedicatedPlayerPage.php:76
+#: app/Services/Translations/admin-translations.php:98
+msgid "Draft"
+msgstr "Entwurf"
+
+#: app/Hooks/Handlers/DedicatedPlayerPage.php:77
+#: app/Services/Translations/admin-translations.php:187
+msgid "Pending"
+msgstr "Ausstehend"
+
+#: app/Hooks/Handlers/DedicatedPlayerPage.php:78
+#: app/Services/Translations/admin-translations.php:234
+msgid "Scheduled"
+msgstr "Geplant"
+
+#: app/Hooks/Handlers/EmailCollectionHandler.php:95
+#: app/Hooks/Handlers/EmailCollectionHandler.php:414
+msgid "Email collected successfully"
+msgstr "E-Mail-Adresse erfasst"
+
+#: app/Hooks/Handlers/EmailCollectionHandler.php:151
+msgid "Invalid preset"
+msgstr "Ungültiges Preset"
+
+#: app/Hooks/Handlers/EmailCollectionHandler.php:160
+#: app/Hooks/Handlers/EmailCollectionHandler.php:165
+#: app/Hooks/Handlers/EmailCollectionHandler.php:171
+msgid "Invalid layer"
+msgstr "Ungültiger Layer"
+
+#: app/Hooks/Handlers/EmailCollectionHandler.php:177
+msgid "Invalid type"
+msgstr "Ungültiger Typ"
+
+#: app/Hooks/Handlers/EmailCollectionHandler.php:266
+msgid "Invalid email address"
+msgstr "Ungültige E-Mail-Adresse"
+
+#: app/Hooks/Handlers/EmailCollectionHandler.php:270
+msgid "Media ID is required"
+msgstr "Die Medien-ID ist erforderlich"
+
+#: app/Hooks/Handlers/EmailCollectionHandler.php:275
+msgid "Preset is required"
+msgstr "Ein Preset ist erforderlich"
+
+#: app/Hooks/Handlers/EmailCollectionHandler.php:280
+msgid "Layer ID is required"
+msgstr "Die Layer-ID ist erforderlich"
+
+#: app/Hooks/Handlers/EmailCollectionHandler.php:291
+msgid "Invalid request"
+msgstr "Ungültige Anfrage"
+
+#: app/Hooks/Handlers/EmailCollectionHandler.php:384
+msgid "Too many email submissions. Please try again later."
+msgstr "Zu viele Einsendungen. Bitte versuche es später noch einmal."
+
+#: app/Hooks/Handlers/EmailCollectionHandler.php:413
+msgid "Please check your inbox to confirm your email address."
+msgstr ""
+"Bitte bestätige Deine E-Mail-Adresse über die Nachricht in Deinem Postfach."
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:32
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:35
+msgid "FluentPlayer Media"
+msgstr "FluentPlayer-Medien"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:36
+msgid "Add New"
+msgstr "Neu"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:37
+msgid "Add New Media"
+msgstr "Neues Medium"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:38
+msgid "New Media"
+msgstr "Neues Medium"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:39
+msgid "Edit Media"
+msgstr "Medium bearbeiten"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:40
+msgid "View Media"
+msgstr "Medium ansehen"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:42
+msgid "Search Media"
+msgstr "Medien durchsuchen"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:43
+msgid "Parent Media:"
+msgstr "Übergeordnetes Medium:"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:44
+#: app/Services/Behavior/TimelineFields.php:151
+msgid "No media found."
+msgstr "Keine Medien gefunden."
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:45
+msgid "No media found in Trash."
+msgstr "Keine Medien im Papierkorb."
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:63
+msgid "Custom post type for FluentPlayer media items."
+msgstr "Eigener Inhaltstyp für FluentPlayer-Medien."
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:316
+msgid "FluentPlayer Media Editor"
+msgstr "FluentPlayer-Medien-Editor"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:325
+msgid "Add New FluentPlayer Media"
+msgstr "Neues FluentPlayer-Medium"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:370
+#: app/Services/Translations/admin-translations.php:36
+#: app/Services/Translations/frontend-translations.php:5
+msgid "Back"
+msgstr "Zurück"
+
+#: app/Hooks/Handlers/ProgressionHandler.php:29
+#: app/Hooks/Handlers/UnlockHandler.php:30
+msgid "Session expired. Please refresh and try again."
+msgstr ""
+"Die Sitzung ist abgelaufen. Bitte lade die Seite neu und versuche es noch "
+"einmal."
+
+#: app/Hooks/Handlers/ProgressionHandler.php:34
+msgid "You must be logged in to track course progress."
+msgstr "Für die Aufzeichnung des Kursfortschritts musst Du angemeldet sein."
+
+#: app/Hooks/Handlers/ProgressionHandler.php:40
+#: app/Hooks/Handlers/UnlockHandler.php:39
+msgid "Media not found."
+msgstr "Medium nicht gefunden."
+
+#: app/Hooks/Handlers/UnlockHandler.php:48
+msgid "Please enter the password."
+msgstr "Bitte gib das Passwort ein."
+
+#: app/Hooks/Handlers/UnlockHandler.php:52
+msgid "Too many attempts. Please try again later."
+msgstr "Zu viele Versuche. Bitte versuche es später noch einmal."
+
+#: app/Hooks/Handlers/UnlockHandler.php:57
+msgid "Incorrect password."
+msgstr "Falsches Passwort."
+
+#: app/Http/Controllers/EmailProviderController.php:75
+#: app/Http/Controllers/EmailProviderController.php:120
+#: app/Http/Controllers/IntegrationController.php:54
+#: app/Http/Controllers/IntegrationController.php:97
+msgid "Validation failed"
+msgstr "Die Prüfung ist fehlgeschlagen"
+
+#: app/Http/Controllers/EmailProviderController.php:86
+#: app/Http/Controllers/EmailProviderController.php:252
+#: app/Services/EmailProviderService.php:127
+#: app/Services/EmailProviderService.php:255
+#: app/Services/EmailProviderService.php:658
+msgid "Invalid provider"
+msgstr "Ungültiger Anbieter"
+
+#: app/Http/Controllers/EmailProviderController.php:99
+msgid "Settings saved successfully"
+msgstr "Die Einstellungen wurden gespeichert"
+
+#: app/Http/Controllers/EmailProviderController.php:195
+msgid "Failed to export emails"
+msgstr "Der Export der E-Mail-Adressen ist fehlgeschlagen"
+
+#: app/Http/Controllers/EmailProviderController.php:245
+msgid "Field value is required"
+msgstr "Ein Feldwert ist erforderlich"
+
+#: app/Http/Controllers/IntegrationController.php:33
+msgid "Failed to load integrations"
+msgstr "Die Integrationen konnten nicht geladen werden"
+
+#: app/Http/Controllers/IntegrationController.php:60
+#: app/Http/Controllers/IntegrationController.php:103
+msgid "Integration key is required"
+msgstr "Der Integrationsschlüssel ist erforderlich"
+
+#: app/Http/Controllers/IntegrationController.php:73
+msgid "Integration settings saved successfully"
+msgstr "Die Einstellungen der Integration wurden gespeichert"
+
+#: app/Http/Controllers/IntegrationController.php:77
+msgid "Failed to save integration settings"
+msgstr "Die Einstellungen der Integration konnten nicht gespeichert werden"
+
+#: app/Http/Controllers/IntegrationController.php:115
+msgid "Connection test successful"
+msgstr "Verbindungstest erfolgreich"
+
+#: app/Http/Controllers/IntegrationController.php:117
+msgid "Failed to test integration connection"
+msgstr "Die Verbindung der Integration konnte nicht getestet werden"
+
+#: app/Http/Controllers/IntegrationController.php:132
+msgid "Failed to load integration fields"
+msgstr "Die Felder der Integration konnten nicht geladen werden"
+
+#: app/Http/Controllers/LayerController.php:25
+msgid "Failed to load forms"
+msgstr "Die Formulare konnten nicht geladen werden"
+
+#: app/Http/Controllers/LayerController.php:45
+msgid "Failed to load form preview"
+msgstr "Die Formularvorschau konnte nicht geladen werden"
+
+#: app/Http/Controllers/LayerController.php:63
+msgid "Failed to load shortcode preview"
+msgstr "Die Shortcode-Vorschau konnte nicht geladen werden"
+
+#: app/Http/Controllers/MediaController.php:59
+msgid "A media id is required."
+msgstr "Eine Medien-ID ist erforderlich."
+
+#: app/Http/Controllers/MediaController.php:78
+msgid "A playlist id is required."
+msgstr "Eine Playlist-ID ist erforderlich."
+
+#: app/Http/Controllers/MediaController.php:118
+msgid "Media Created"
+msgstr "Medium angelegt"
+
+#: app/Http/Controllers/MediaController.php:125
+msgid "Failed to save media"
+msgstr "Das Medium konnte nicht gespeichert werden"
+
+#: app/Http/Controllers/MediaController.php:152
+msgid "Media Updated"
+msgstr "Medium aktualisiert"
+
+#: app/Http/Controllers/MediaController.php:159
+msgid "Failed to update media"
+msgstr "Das Medium konnte nicht aktualisiert werden"
+
+#: app/Http/Controllers/MediaController.php:427
+msgid "Tags are a Pro feature"
+msgstr "Tags gibt es nur in Pro"
+
+#: app/Http/Controllers/MediaController.php:455
+msgid "Media moved to trash"
+msgstr "Medium in den Papierkorb verschoben"
+
+#: app/Http/Controllers/MediaController.php:470
+msgid "Media restored"
+msgstr "Medium wiederhergestellt"
+
+#: app/Http/Controllers/MediaController.php:485
+msgid "Media permanently deleted"
+msgstr "Medium endgültig gelöscht"
+
+#: app/Http/Controllers/MediaController.php:516
+msgid "URL is required"
+msgstr "Die URL ist erforderlich"
+
+#: app/Http/Controllers/MediaController.php:520
+msgid "Invalid URL"
+msgstr "Ungültige URL"
+
+#: app/Http/Controllers/MediaController.php:590
+msgid "Could not fetch metadata for this URL"
+msgstr "Für diese URL konnten keine Metadaten geladen werden"
+
+#: app/Http/Controllers/MediaController.php:705
+msgid "Hover preview cleanup could not delete the storyboard images."
+msgstr ""
+"Beim Aufräumen der Hover-Vorschau ließen sich die Storyboard-Bilder nicht "
+"löschen."
+
+#: app/Http/Controllers/MediaController.php:709
+msgid ""
+"Hover preview cleanup could not delete the previous storyboard attachment."
+msgstr ""
+"Beim Aufräumen der Hover-Vorschau ließ sich der vorherige Storyboard-Anhang "
+"nicht löschen."
+
+#: app/Http/Controllers/MigrationController.php:40
+msgid "Failed to detect Presto Player data."
+msgstr "Presto-Player-Daten konnten nicht erkannt werden."
+
+#: app/Http/Controllers/MigrationController.php:61
+msgid "Failed to scan Presto Player data."
+msgstr "Die Presto-Player-Daten konnten nicht durchsucht werden."
+
+#: app/Http/Controllers/MigrationController.php:74
+msgid "Preset migration requires FluentPlayer Pro."
+msgstr "Die Übernahme der Presets erfordert FluentPlayer Pro."
+
+#: app/Http/Controllers/MigrationController.php:85
+msgid "Preset migration failed."
+msgstr "Die Übernahme der Presets ist fehlgeschlagen."
+
+#: app/Http/Controllers/MigrationController.php:99
+msgid "Settings migration failed."
+msgstr "Die Übernahme der Einstellungen ist fehlgeschlagen."
+
+#: app/Http/Controllers/MigrationController.php:114
+msgid "No media IDs provided."
+msgstr "Keine Medien-IDs angegeben."
+
+#: app/Http/Controllers/MigrationController.php:123
+msgid "Media migration failed."
+msgstr "Die Übernahme der Medien ist fehlgeschlagen."
+
+#: app/Http/Controllers/MigrationController.php:136
+msgid "Playlist migration requires FluentPlayer Pro."
+msgstr "Die Übernahme der Playlists erfordert FluentPlayer Pro."
+
+#: app/Http/Controllers/MigrationController.php:145
+msgid "Playlist migration failed."
+msgstr "Die Übernahme der Playlists ist fehlgeschlagen."
+
+#: app/Http/Controllers/MigrationController.php:158
+msgid "Analytics migration requires FluentPlayer Pro."
+msgstr "Die Übernahme der Analysedaten erfordert FluentPlayer Pro."
+
+#: app/Http/Controllers/MigrationController.php:169
+msgid "Visits already migrated."
+msgstr "Die Aufrufe wurden bereits übernommen."
+
+#: app/Http/Controllers/MigrationController.php:183
+msgid "Visits migration failed."
+msgstr "Die Übernahme der Aufrufe ist fehlgeschlagen."
+
+#: app/Http/Controllers/MigrationController.php:197
+msgid "Email submission migration requires FluentPlayer Pro."
+msgstr "Die Übernahme der E-Mail-Einsendungen erfordert FluentPlayer Pro."
+
+#: app/Http/Controllers/MigrationController.php:207
+msgid "Email submission migration failed."
+msgstr "Die Übernahme der E-Mail-Einsendungen ist fehlgeschlagen."
+
+#: app/Http/Controllers/MigrationController.php:222
+msgid "No post IDs provided."
+msgstr "Keine Beitrags-IDs angegeben."
+
+#: app/Http/Controllers/MigrationController.php:229
+msgid "Content rewrite failed."
+msgstr "Das Umschreiben der Inhalte ist fehlgeschlagen."
+
+#: app/Http/Controllers/MigrationController.php:258
+msgid "Migration has been reset."
+msgstr "Die Übernahme wurde zurückgesetzt."
+
+#: app/Http/Controllers/MigrationController.php:267
+msgid "Migration reset failed."
+msgstr "Das Zurücksetzen der Übernahme ist fehlgeschlagen."
+
+#: app/Http/Controllers/SettingsController.php:25
+msgid "Failed to load settings. Please try again."
+msgstr ""
+"Die Einstellungen konnten nicht geladen werden. Bitte versuche es noch "
+"einmal."
+
+#: app/Http/Controllers/SettingsController.php:46
+msgid "Settings updated successfully"
+msgstr "Die Einstellungen wurden aktualisiert"
+
+#: app/Http/Controllers/SettingsController.php:51
+msgid "Failed to update settings. Please try again."
+msgstr ""
+"Die Einstellungen konnten nicht gespeichert werden. Bitte versuche es noch "
+"einmal."
+
+#: app/Http/Controllers/SettingsController.php:66
+msgid "Settings have been reset to defaults"
+msgstr "Die Einstellungen wurden auf die Standardwerte zurückgesetzt"
+
+#: app/Http/Controllers/SettingsController.php:71
+msgid "Failed to reset settings. Please try again."
+msgstr ""
+"Die Einstellungen konnten nicht zurückgesetzt werden. Bitte versuche es noch"
+" einmal."
+
+#: app/Http/Controllers/SmartcodeController.php:39
+msgid "Failed to load shortcodes"
+msgstr "Die Shortcodes konnten nicht geladen werden"
+
+#: app/Http/Controllers/YouTubeController.php:30
+msgid "Channel ID is required"
+msgstr "Die Kanal-ID ist erforderlich"
+
+#: app/Http/Controllers/YouTubeController.php:38
+msgid "Invalid channel ID format"
+msgstr "Ungültiges Format der Kanal-ID"
+
+#: app/Http/Controllers/YouTubeController.php:77
+msgid "Failed to connect to YouTube"
+msgstr "Die Verbindung zu YouTube ist fehlgeschlagen"
+
+#: app/Http/Controllers/YouTubeController.php:89
+msgid "Could not retrieve subscriber count"
+msgstr "Die Zahl der Abonnenten konnte nicht ermittelt werden"
+
+#: app/Http/Controllers/YouTubeController.php:101
+msgid "Error fetching channel info. Please try again later."
+msgstr ""
+"Die Kanalinformationen konnten nicht geladen werden. Bitte versuche es "
+"später noch einmal."
+
+#: app/Integrations/FluentCrm/BehaviorConditions.php:36
+msgid "Watched Media ≥ 50%"
+msgstr "Medium zu ≥ 50 % gesehen"
+
+#: app/Integrations/FluentCrm/BehaviorConditions.php:37
+msgid "Watched Media ≥ 75%"
+msgstr "Medium zu ≥ 75 % gesehen"
+
+#: app/Integrations/FluentCrm/BehaviorConditions.php:38
+msgid "Watched Media ≥ 90%"
+msgstr "Medium zu ≥ 90 % gesehen"
+
+#: app/Integrations/FluentCrm/BehaviorConditions.php:39
+msgid "Layer Seen"
+msgstr "Layer gesehen"
+
+#: app/Integrations/FluentCrm/BehaviorConditions.php:40
+msgid "Layer Completed"
+msgstr "Layer abgeschlossen"
+
+#: app/Integrations/FluentCrm/BehaviorConditions.php:41
+msgid "Layer Skipped"
+msgstr "Layer übersprungen"
+
+# Produktname beziehungsweise Marken-Hinweis, bewusst unveraendert.
+#: app/Integrations/FluentCrm/BehaviorConditions.php:45
+#: app/Integrations/FluentCrm/LayerEventBenchmark.php:28
+#: app/Integrations/FluentCrm/LayerEventTrigger.php:28
+#: app/Integrations/FluentCrm/MediaMilestoneBenchmark.php:28
+#: app/Integrations/FluentCrm/MediaMilestoneTrigger.php:28
+#: app/PageBuilders/Elementor/ElementorMediaWidget.php:24
+#: app/PageBuilders/Elementor/ElementorPageBuilder.php:117
+msgid "Fluent Player"
+msgstr "Fluent Player"
+
+#: app/Integrations/FluentCrm/BehaviorConditions.php:63
+#: app/Integrations/FluentCrm/BehaviorConditions.php:80
+msgid "Yes"
+msgstr "Ja"
+
+#: app/Integrations/FluentCrm/BehaviorConditions.php:64
+#: app/Integrations/FluentCrm/BehaviorConditions.php:81
+msgid "No"
+msgstr "Nein"
+
+#: app/Integrations/FluentCrm/BehaviorConditions.php:66
+msgid ""
+"Server-verified watch coverage of the selected media — skipping ahead does "
+"not count"
+msgstr ""
+"Serverseitig geprüfter Anteil des gewählten Mediums – Vorspulen zählt nicht"
+
+#: app/Integrations/FluentCrm/BehaviorConditions.php:83
+msgid ""
+"Matches contacts who have this interaction recorded for a selected layer"
+msgstr ""
+"Trifft auf Kontakte zu, bei denen diese Interaktion für einen gewählten "
+"Layer festgehalten ist"
+
+#: app/Integrations/FluentCrm/EmailCaptureProvider.php:86
+msgid "Lists"
+msgstr "Listen"
+
+#: app/Integrations/FluentCrm/EmailCaptureProvider.php:88
+msgid "Select lists"
+msgstr "Listen wählen"
+
+#: app/Integrations/FluentCrm/EmailCaptureProvider.php:91
+msgid "Select the lists you want to add subscribers to"
+msgstr "Wähle die Listen, in die Abonnenten aufgenommen werden"
+
+#: app/Integrations/FluentCrm/EmailCaptureProvider.php:97
+#: app/Services/Translations/admin-translations.php:273
+msgid "Tags"
+msgstr "Tags"
+
+#: app/Integrations/FluentCrm/EmailCaptureProvider.php:99
+msgid "Select tags"
+msgstr "Tags wählen"
+
+#: app/Integrations/FluentCrm/EmailCaptureProvider.php:102
+msgid "Select the tags you want to assign to subscribers"
+msgstr "Wähle die Tags, die Abonnenten bekommen sollen"
+
+#: app/Integrations/FluentCrm/EmailCaptureProvider.php:108
+msgid "Enable double opt-in"
+msgstr "Double-Opt-in einschalten"
+
+#: app/Integrations/FluentCrm/EmailCaptureProvider.php:109
+msgid ""
+"Create the contact as pending and send FluentCRM confirmation email before "
+"treating them as subscribed."
+msgstr ""
+"Den Kontakt als wartend anlegen und erst nach der Bestätigungsmail von "
+"FluentCRM als abonniert führen."
+
+#: app/Integrations/FluentCrm/EmailCaptureProvider.php:126
+msgid "FluentCRM plugin is not installed or activated"
+msgstr "Das Plugin FluentCRM ist nicht installiert oder nicht aktiv"
+
+#: app/Integrations/FluentCrm/EmailCaptureProvider.php:170
+msgid "Confirmation email sent via FluentCRM"
+msgstr "Bestätigungsmail über FluentCRM verschickt"
+
+#: app/Integrations/FluentCrm/EmailCaptureProvider.php:171
+msgid "Contact added to FluentCRM successfully"
+msgstr "Kontakt in FluentCRM angelegt"
+
+#: app/Integrations/FluentCrm/EmailCaptureProvider.php:177
+msgid "Failed to create contact in FluentCRM"
+msgstr "Der Kontakt konnte in FluentCRM nicht angelegt werden"
+
+#: app/Integrations/FluentCrm/EmailCaptureProvider.php:223
+#: app/Integrations/FluentCrm/EmailCaptureProvider.php:265
+msgid "FluentCRM is not installed or activated"
+msgstr "FluentCRM ist nicht installiert oder nicht aktiv"
+
+#. translators: %d: number of published automations using Fluent Player
+#. triggers
+#: app/Integrations/FluentCrm/FluentCrmBehaviorModule.php:96
+#, php-format
+msgid "%d automation uses Fluent Player triggers"
+msgid_plural "%d automations use Fluent Player triggers"
+msgstr[0] "%d Automatisierung nutzt Fluent-Player-Trigger"
+msgstr[1] "%d Automatisierungen nutzen Fluent-Player-Trigger"
+
+#: app/Integrations/FluentCrm/FluentCrmBehaviorModule.php:99
+msgid "No automations use Fluent Player triggers yet"
+msgstr "Noch nutzt keine Automatisierung Fluent-Player-Trigger"
+
+#: app/Integrations/FluentCrm/Helper.php:69
+msgid ""
+"Fires once the viewer has watched at least one second of the media — a light"
+" engagement signal."
+msgstr ""
+"Löst aus, sobald mindestens eine Sekunde gesehen wurde – ein schwaches "
+"Signal für Interesse."
+
+#: app/Integrations/FluentCrm/Helper.php:70
+msgid ""
+"Fires when 25% of the media has genuinely been watched. Skipping ahead does "
+"not count, so accidental clicks are filtered out."
+msgstr ""
+"Löst aus, wenn 25 % tatsächlich gesehen wurden. Vorspulen zählt nicht, "
+"versehentliche Klicks fallen so heraus."
+
+#: app/Integrations/FluentCrm/Helper.php:71
+msgid ""
+"Fires when half of the media has genuinely been watched — a reliable "
+"indicator of real interest."
+msgstr ""
+"Löst aus, wenn die Hälfte tatsächlich gesehen wurde – ein verlässlicher "
+"Hinweis auf echtes Interesse."
+
+#: app/Integrations/FluentCrm/Helper.php:72
+msgid ""
+"Fires when 75% of the media has genuinely been watched — a highly engaged "
+"viewer, well suited to sales alerts or follow-up sequences."
+msgstr ""
+"Löst aus, wenn 75 % tatsächlich gesehen wurden – ein starkes Signal, gut für"
+" Vertriebshinweise oder Folgestrecken."
+
+#: app/Integrations/FluentCrm/Helper.php:73
+msgid ""
+"Fires at the completion threshold selected below. Viewers often skip outros,"
+" so 100% is rarely reached."
+msgstr ""
+"Löst bei der unten gewählten Abschluss-Schwelle aus. Abspänne werden oft "
+"übersprungen, 100 % wird also selten erreicht."
+
+#: app/Integrations/FluentCrm/Helper.php:103
+msgid ""
+"Safe default. Existing contacts enter this automation normally. Viewers who "
+"are not in your CRM yet are skipped — no contact is created and no actions "
+"run for them."
+msgstr ""
+"Sichere Vorgabe. Vorhandene Kontakte steigen normal ein. Wer noch nicht im "
+"CRM ist, wird übersprungen – es wird kein Kontakt angelegt und keine Aktion "
+"ausgeführt."
+
+#: app/Integrations/FluentCrm/Helper.php:108
+msgid ""
+"The viewer is added as a pending contact and receives a double opt-in email."
+" They only become subscribed after confirming — recommended where explicit "
+"consent is required, such as under GDPR."
+msgstr ""
+"Die Person wird als wartender Kontakt angelegt und bekommt eine Double-Opt-"
+"in-Mail. Erst nach der Bestätigung gilt sie als angemeldet – empfohlen, wo "
+"eine ausdrückliche Einwilligung nötig ist, etwa nach DSGVO."
+
+#: app/Integrations/FluentCrm/Helper.php:116
+msgid ""
+"The contact re-enters this automation every time this event happens again — "
+"all of its actions run again as well."
+msgstr ""
+"Der Kontakt steigt bei jedem erneuten Auftreten wieder ein – alle Aktionen "
+"laufen dann noch einmal."
+
+#: app/Integrations/FluentCrm/Helper.php:121
+msgid ""
+"Runs once per contact — good for one-time journeys like welcome emails or "
+"coupons."
+msgstr ""
+"Läuft einmal pro Kontakt – gut für einmalige Strecken wie Willkommensmails "
+"oder Gutscheine."
+
+#: app/Integrations/FluentCrm/Helper.php:149
+#: app/Services/Behavior/TimelineFields.php:46
+msgid "Started"
+msgstr "Gestartet"
+
+#: app/Integrations/FluentCrm/Helper.php:150
+msgid "Reached 25%"
+msgstr "25 % erreicht"
+
+#: app/Integrations/FluentCrm/Helper.php:151
+msgid "Reached 50%"
+msgstr "50 % erreicht"
+
+#: app/Integrations/FluentCrm/Helper.php:152
+msgid "Reached 75%"
+msgstr "75 % erreicht"
+
+#: app/Integrations/FluentCrm/Helper.php:153
+#: app/Integrations/FluentCrm/Helper.php:227
+#: app/Services/Behavior/TimelineFields.php:50
+#: app/Services/Behavior/TimelineFields.php:58
+#: app/Services/Translations/frontend-translations.php:12
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+#: app/Integrations/FluentCrm/Helper.php:165
+msgid "Skip (recommended)"
+msgstr "Überspringen (empfohlen)"
+
+#: app/Integrations/FluentCrm/Helper.php:166
+msgid "Create as pending"
+msgstr "Als wartend anlegen"
+
+#: app/Integrations/FluentCrm/Helper.php:226
+#: app/Services/Behavior/TimelineFields.php:57
+msgid "Seen"
+msgstr "Gesehen"
+
+#: app/Integrations/FluentCrm/Helper.php:228
+#: app/Services/Behavior/TimelineFields.php:59
+msgid "Skipped"
+msgstr "Übersprungen"
+
+#: app/Integrations/FluentCrm/Helper.php:235
+#: app/Services/Behavior/TimelineFields.php:77
+msgid "Ad"
+msgstr "Werbung"
+
+#: app/Integrations/FluentCrm/Helper.php:236
+#: app/Integrations/FluentCrm/Helper.php:272
+#: app/Services/Behavior/TimelineFields.php:76
+msgid "CTA"
+msgstr "CTA"
+
+#: app/Integrations/FluentCrm/Helper.php:237
+#: app/Services/Behavior/TimelineFields.php:71
+msgid "Email Capture"
+msgstr "E-Mail-Erfassung"
+
+#: app/Integrations/FluentCrm/Helper.php:238
+#: app/Services/Behavior/TimelineFields.php:72
+msgid "Form"
+msgstr "Formular"
+
+#: app/Integrations/FluentCrm/Helper.php:239
+#: app/Services/Behavior/TimelineFields.php:78
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: app/Integrations/FluentCrm/Helper.php:270
+#: app/Integrations/FluentCrm/Helper.php:309
+msgid "Email"
+msgstr "E-Mail"
+
+#: app/Integrations/FluentCrm/Helper.php:281
+msgid "Mixed"
+msgstr "Gemischt"
+
+#: app/Integrations/FluentCrm/Helper.php:282
+msgid "Icon"
+msgstr "Symbol"
+
+#: app/Integrations/FluentCrm/Helper.php:282
+msgid "Dot"
+msgstr "Punkt"
+
+#. translators: 1: hotspot count, 2: Icon/Dot/Mixed
+#: app/Integrations/FluentCrm/Helper.php:284
+#, php-format
+msgid "Hotspot(%1$d) - %2$s"
+msgstr "Hotspot (%1$d) – %2$s"
+
+#: app/Integrations/FluentCrm/Helper.php:286
+#: app/Views/Layers/LayerRenderer.php:240
+msgid "Hotspot"
+msgstr "Hotspot"
+
+#: app/Integrations/FluentCrm/Helper.php:289
+msgid "Ad #Video"
+msgstr "Werbung #Video"
+
+#: app/Integrations/FluentCrm/Helper.php:290
+msgid "Ad #Image"
+msgstr "Werbung #Bild"
+
+#: app/Integrations/FluentCrm/Helper.php:413
+msgid "Fires the first time the layer is shown to the viewer during playback."
+msgstr ""
+"Löst aus, wenn der Layer während der Wiedergabe zum ersten Mal erscheint."
+
+#: app/Integrations/FluentCrm/Helper.php:414
+msgid ""
+"What counts as completed depends on the layer type: an ad played to the end,"
+" a CTA acted on, or a form / email capture submitted."
+msgstr ""
+"Was als abgeschlossen gilt, hängt vom Layer-Typ ab: Werbung bis zum Ende "
+"abgespielt, ein CTA angeklickt oder ein Formular beziehungsweise eine "
+"E-Mail-Erfassung abgeschickt."
+
+#: app/Integrations/FluentCrm/Helper.php:415
+msgid ""
+"Fires when the viewer skips or dismisses the layer — for example an ad skip "
+"button, or closing a CTA."
+msgstr ""
+"Löst aus, wenn der Layer übersprungen oder weggeklickt wird – etwa über den "
+"Überspringen-Button bei Werbung oder das Schließen eines CTA."
+
+#: app/Integrations/FluentCrm/Helper.php:438
+msgid "What to watch"
+msgstr "Was beobachtet wird"
+
+#: app/Integrations/FluentCrm/Helper.php:443
+msgid "Target Media"
+msgstr "Betroffene Medien"
+
+#: app/Integrations/FluentCrm/Helper.php:444
+msgid ""
+"Select the Fluent Player media (video or audio) this automation applies to"
+msgstr ""
+"Wähle das Fluent-Player-Medium (Video oder Audio), für das diese "
+"Automatisierung gilt"
+
+#: app/Integrations/FluentCrm/Helper.php:445
+msgid "Any media"
+msgstr "Beliebiges Medium"
+
+#: app/Integrations/FluentCrm/Helper.php:447
+msgid "Leave empty to run for any media."
+msgstr "Leer lassen, um es für jedes Medium auszuführen."
+
+#: app/Integrations/FluentCrm/Helper.php:451
+msgid "Watch Milestone"
+msgstr "Wiedergabe-Meilenstein"
+
+#: app/Integrations/FluentCrm/Helper.php:459
+#: app/Services/Behavior/TimelineFields.php:169
+msgid "Completion Threshold"
+msgstr "Abschluss-Schwelle"
+
+#: app/Integrations/FluentCrm/Helper.php:480
+msgid "Which layer interaction"
+msgstr "Welche Layer-Interaktion"
+
+#: app/Integrations/FluentCrm/Helper.php:485
+msgid "Target Layers"
+msgstr "Betroffene Layer"
+
+#: app/Integrations/FluentCrm/Helper.php:486
+msgid "Select one or more layers, grouped by their media"
+msgstr "Einen oder mehrere Layer wählen, gruppiert nach ihrem Medium"
+
+#: app/Integrations/FluentCrm/Helper.php:487
+msgid "Select layers"
+msgstr "Layer wählen"
+
+#: app/Integrations/FluentCrm/Helper.php:492
+msgid "Layer Event"
+msgstr "Layer-Ereignis"
+
+#: app/Integrations/FluentCrm/Helper.php:513
+msgid "If the viewer is not in your CRM yet"
+msgstr "Wenn die Person noch nicht im CRM ist"
+
+#: app/Integrations/FluentCrm/Helper.php:527
+msgid "Allow contacts to go through this automation more than once"
+msgstr "Kontakte dürfen diese Automatisierung mehrfach durchlaufen"
+
+#: app/Integrations/FluentCrm/Helper.php:539
+msgid "If Contact Already Exists?"
+msgstr "Wenn der Kontakt schon existiert?"
+
+#: app/Integrations/FluentCrm/Helper.php:540
+msgid "Specify what happens if the subscriber already exists"
+msgstr "Lege fest, was passiert, wenn der Abonnent schon existiert"
+
+#: app/Integrations/FluentCrm/LayerEventBenchmark.php:29
+#: app/Integrations/FluentCrm/LayerEventBenchmark.php:58
+#: app/Integrations/FluentCrm/LayerEventTrigger.php:29
+msgid "Media Layer Interaction"
+msgstr "Interaktion mit einem Layer"
+
+#: app/Integrations/FluentCrm/LayerEventBenchmark.php:30
+msgid "Runs when a contact sees, completes or skips a media layer"
+msgstr ""
+"Läuft, wenn ein Kontakt einen Layer sieht, abschließt oder überspringt"
+
+#: app/Integrations/FluentCrm/LayerEventBenchmark.php:47
+#: app/Integrations/FluentCrm/MediaMilestoneBenchmark.php:48
+msgid "Entry rules"
+msgstr "Einstiegsregeln"
+
+#: app/Integrations/FluentCrm/LayerEventBenchmark.php:54
+msgid ""
+"Tip: goals can also react to inaction — pair this goal with a Wait step to "
+"follow up with contacts who never reach it."
+msgstr ""
+"Tipp: Ziele können auch auf Ausbleiben reagieren – kombiniere dieses Ziel "
+"mit einem Warten-Schritt, um Kontakte anzusprechen, die es nie erreichen."
+
+#: app/Integrations/FluentCrm/LayerEventBenchmark.php:59
+msgid ""
+"This goal completes when a contact sees, completes or skips one of the "
+"selected layers"
+msgstr ""
+"Dieses Ziel ist erreicht, wenn ein Kontakt einen der gewählten Layer sieht, "
+"abschließt oder überspringt"
+
+#: app/Integrations/FluentCrm/LayerEventTrigger.php:30
+msgid ""
+"This funnel starts when a viewer sees, completes or skips a media layer (ad,"
+" CTA, form, etc.)"
+msgstr ""
+"Dieser Funnel startet, wenn jemand einen Layer sieht, abschließt oder "
+"überspringt (Werbung, CTA, Formular und so weiter)"
+
+#: app/Integrations/FluentCrm/LayerEventTrigger.php:49
+msgid "Viewer interacts with a media layer"
+msgstr "Jemand interagiert mit einem Layer"
+
+#: app/Integrations/FluentCrm/LayerEventTrigger.php:50
+msgid ""
+"This funnel starts when a viewer sees, completes or skips one of the "
+"selected layers"
+msgstr ""
+"Dieser Funnel startet, wenn jemand einen der gewählten Layer sieht, "
+"abschließt oder überspringt"
+
+#: app/Integrations/FluentCrm/LayerEventTrigger.php:53
+#: app/Integrations/FluentCrm/MediaMilestoneTrigger.php:67
+msgid "Who can enter"
+msgstr "Wer einsteigen darf"
+
+#: app/Integrations/FluentCrm/LayerEventTrigger.php:55
+msgid "A layer event fires once per layer, so repeat views never repeat it."
+msgstr ""
+"Ein Layer-Ereignis löst einmal pro Layer aus; wiederholtes Ansehen "
+"wiederholt es nicht."
+
+#: app/Integrations/FluentCrm/LayerEventTrigger.php:56
+msgid ""
+"Allow contacts to re-enter when another targeted layer fires this event"
+msgstr ""
+"Kontakte dürfen erneut einsteigen, wenn ein anderer gewählter Layer dieses "
+"Ereignis auslöst"
+
+#: app/Integrations/FluentCrm/LayerEventTrigger.php:57
+msgid ""
+"Runs once per contact: the first targeted layer to fire enters them, later "
+"ones are skipped — good for one-time journeys like welcome emails or "
+"coupons."
+msgstr ""
+"Läuft einmal pro Kontakt: Der erste gewählte Layer, der auslöst, nimmt ihn "
+"auf, spätere werden übersprungen – gut für einmalige Strecken wie "
+"Willkommensmails oder Gutscheine."
+
+#: app/Integrations/FluentCrm/MediaMilestoneBenchmark.php:29
+#: app/Integrations/FluentCrm/MediaMilestoneBenchmark.php:59
+#: app/Integrations/FluentCrm/MediaMilestoneTrigger.php:29
+msgid "Media Milestone Reached"
+msgstr "Meilenstein erreicht"
+
+#: app/Integrations/FluentCrm/MediaMilestoneBenchmark.php:30
+msgid "Runs when a contact reaches a watch milestone on a media"
+msgstr "Läuft, wenn ein Kontakt bei einem Medium einen Meilenstein erreicht"
+
+#: app/Integrations/FluentCrm/MediaMilestoneBenchmark.php:55
+msgid ""
+"Tip: goals can also react to inaction — pair this goal with a Wait step to "
+"follow up with contacts who never reach the milestone."
+msgstr ""
+"Tipp: Ziele können auch auf Ausbleiben reagieren – kombiniere dieses Ziel "
+"mit einem Warten-Schritt, um Kontakte anzusprechen, die den Meilenstein nie "
+"erreichen."
+
+#: app/Integrations/FluentCrm/MediaMilestoneBenchmark.php:60
+msgid ""
+"This goal completes when a contact watches the selected media to the "
+"milestone"
+msgstr ""
+"Dieses Ziel ist erreicht, wenn ein Kontakt das gewählte Medium bis zum "
+"Meilenstein sieht"
+
+#: app/Integrations/FluentCrm/MediaMilestoneTrigger.php:30
+msgid "This funnel starts when a viewer reaches a watch milestone on a media"
+msgstr ""
+"Dieser Funnel startet, wenn jemand bei einem Medium einen Meilenstein "
+"erreicht"
+
+#: app/Integrations/FluentCrm/MediaMilestoneTrigger.php:63
+msgid "Viewer reaches a media milestone"
+msgstr "Jemand erreicht einen Meilenstein"
+
+#: app/Integrations/FluentCrm/MediaMilestoneTrigger.php:64
+msgid ""
+"This funnel starts when a viewer watches a Fluent Player media to the "
+"selected milestone"
+msgstr ""
+"Dieser Funnel startet, wenn jemand ein Fluent-Player-Medium bis zum "
+"gewählten Meilenstein sieht"
+
+#: app/Integrations/FluentCrm/MediaMilestoneTrigger.php:69
+msgid "A milestone fires once per media, so re-watching never repeats it."
+msgstr ""
+"Ein Meilenstein löst einmal pro Medium aus; erneutes Ansehen wiederholt ihn "
+"nicht."
+
+#: app/Integrations/FluentCrm/MediaMilestoneTrigger.php:70
+msgid ""
+"Allow contacts to re-enter when another targeted media reaches this "
+"milestone"
+msgstr ""
+"Kontakte dürfen erneut einsteigen, wenn ein anderes gewähltes Medium diesen "
+"Meilenstein erreicht"
+
+#: app/Integrations/FluentCrm/MediaMilestoneTrigger.php:71
+msgid ""
+"Runs once per contact: the first targeted media to fire enters them, later "
+"ones are skipped — good for one-time journeys like welcome emails or "
+"coupons."
+msgstr ""
+"Läuft einmal pro Kontakt: Das erste gewählte Medium, das auslöst, nimmt ihn "
+"auf, spätere werden übersprungen – gut für einmalige Strecken wie "
+"Willkommensmails oder Gutscheine."
+
+#: app/Integrations/FluentCrm/TimelineBridge.php:44
+#, php-format
+msgid "Started watching \"%s\""
+msgstr "„%s“ begonnen"
+
+#: app/Integrations/FluentCrm/TimelineBridge.php:45
+#, php-format
+msgid "Watched 25%% of \"%s\""
+msgstr "25 %% von „%s“ gesehen"
+
+#: app/Integrations/FluentCrm/TimelineBridge.php:46
+#, php-format
+msgid "Watched 50%% of \"%s\""
+msgstr "50 %% von „%s“ gesehen"
+
+#: app/Integrations/FluentCrm/TimelineBridge.php:47
+#, php-format
+msgid "Watched 75%% of \"%s\""
+msgstr "75 %% von „%s“ gesehen"
+
+#: app/Integrations/FluentCrm/TimelineBridge.php:48
+#, php-format
+msgid "Completed \"%s\""
+msgstr "„%s“ abgeschlossen"
+
+#. translators: 1: human duration, 2: "video" or "audio"
+#: app/Integrations/FluentCrm/TimelineBridge.php:76
+#, php-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: app/Integrations/FluentCrm/TimelineBridge.php:78
+msgid "audio"
+msgstr "Audio"
+
+#: app/Integrations/FluentCrm/TimelineBridge.php:78
+msgid "video"
+msgstr "Video"
+
+#. translators: 1: verified watched time, 2: media duration
+#: app/Integrations/FluentCrm/TimelineBridge.php:86
+#, php-format
+msgid "~%1$s of %2$s watched"
+msgstr "~%1$s von %2$s gesehen"
+
+#. translators: %d: completion threshold percentage
+#: app/Integrations/FluentCrm/TimelineBridge.php:95
+#, php-format
+msgid "%d%% threshold"
+msgstr "Schwelle %d %%"
+
+#: app/Integrations/FluentCrm/TimelineBridge.php:118
+#, php-format
+msgid "Saw \"%1$s\" on \"%2$s\""
+msgstr "„%1$s“ in „%2$s“ gesehen"
+
+#: app/Integrations/FluentCrm/TimelineBridge.php:119
+#, php-format
+msgid "Completed \"%1$s\" on \"%2$s\""
+msgstr "„%1$s“ in „%2$s“ abgeschlossen"
+
+#: app/Integrations/FluentCrm/TimelineBridge.php:120
+#, php-format
+msgid "Skipped \"%1$s\" on \"%2$s\""
+msgstr "„%1$s“ in „%2$s“ übersprungen"
+
+#. translators: 1: layer type label, 2: position in the media (mm:ss)
+#: app/Integrations/FluentCrm/TimelineBridge.php:177
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s"
+
+#. translators: %d: number of seconds
+#: app/Integrations/FluentCrm/TimelineBridge.php:202
+#, php-format
+msgid "%d sec"
+msgstr "%d Sek."
+
+#. translators: %d: number of minutes
+#: app/Integrations/FluentCrm/TimelineBridge.php:206
+#, php-format
+msgid "%d min"
+msgstr "%d Min."
+
+#. translators: 1: hours, 2: zero-padded minutes
+#: app/Integrations/FluentCrm/TimelineBridge.php:209
+#, php-format
+msgid "%1$dh %2$02dm"
+msgstr "%1$d Std. %2$02d Min."
+
+#: app/Integrations/FluentCrm/TimelineSettings.php:36
+msgid ""
+"Event Tracking is disabled in FluentCRM — timeline entries will not appear "
+"until it is enabled under FluentCRM → Add-ons."
+msgstr ""
+"Die Ereignisverfolgung ist in FluentCRM abgeschaltet – Verlaufseinträge "
+"erscheinen erst, wenn sie unter FluentCRM → Add-ons eingeschaltet ist."
+
+#: app/Integrations/FluentCrm/TimelineSettings.php:39
+msgid "Open FluentCRM settings"
+msgstr "FluentCRM-Einstellungen öffnen"
+
+#: app/Models/Media.php:344
+msgid "You do not have permission to view this video."
+msgstr "Du darfst dieses Video nicht ansehen."
+
+#: app/Models/Media.php:345
+msgid "Please log in to view this video."
+msgstr "Bitte melde Dich an, um dieses Video zu sehen."
+
+#: app/Models/Media.php:384
+msgid ""
+"This media is private: it plays where it is embedded, but its standalone "
+"page is hidden."
+msgstr ""
+"Dieses Medium ist privat: Es spielt dort, wo es eingebettet ist, seine "
+"eigene Seite bleibt aber verborgen."
+
+#: app/Models/Media.php:386
+msgid "This media is in draft and not visible to the public."
+msgstr "Dieses Medium ist ein Entwurf und öffentlich nicht sichtbar."
+
+#: app/PageBuilders/Divi/FluentPlayerModule.php:54
+#: app/PageBuilders/Elementor/ElementorMediaWidget.php:76
+msgid "Select a Fluent Player media to display."
+msgstr "Wähle ein Fluent-Player-Medium zur Anzeige."
+
+#: app/PageBuilders/Divi/FluentPlayerPlaylistModule.php:52
+msgid "Select at least one tag to display a playlist by tags."
+msgstr "Wähle mindestens einen Tag, um eine Playlist nach Tags anzuzeigen."
+
+#: app/PageBuilders/Divi/FluentPlayerPlaylistModule.php:75
+#: app/PageBuilders/Elementor/ElementorPlaylistWidget.php:135
+msgid "Select a Fluent Player playlist to display."
+msgstr "Wähle eine Fluent-Player-Playlist zur Anzeige."
+
+#: app/PageBuilders/Elementor/ElementorPlaylistWidget.php:25
+msgid "Fluent Player Playlist"
+msgstr "Fluent-Player-Playlist"
+
+#: app/PageBuilders/Elementor/ElementorPlaylistWidget.php:48
+msgid "Playlist"
+msgstr "Playlist"
+
+#: app/Services/Behavior/TimelineFields.php:35
+msgid ""
+"90% works well for most media since outros are often skipped. Choose 100% "
+"only when full playback must be verified, such as compliance training."
+msgstr ""
+"90 % passt für die meisten Medien, weil Abspänne oft übersprungen werden. "
+"100 % nur wählen, wenn die vollständige Wiedergabe nachgewiesen werden muss,"
+" etwa bei Pflichtschulungen."
+
+#: app/Services/Behavior/TimelineFields.php:47
+msgid "25%"
+msgstr "25 %"
+
+#: app/Services/Behavior/TimelineFields.php:48
+msgid "50%"
+msgstr "50 %"
+
+#: app/Services/Behavior/TimelineFields.php:49
+msgid "75%"
+msgstr "75 %"
+
+#: app/Services/Behavior/TimelineFields.php:121
+msgid "Log playback to contact timeline"
+msgstr "Wiedergabe im Kontaktverlauf festhalten"
+
+#: app/Services/Behavior/TimelineFields.php:122
+msgid ""
+"Records watch milestones and layer interactions on the contact profile — "
+"once per contact per media."
+msgstr ""
+"Hält Meilensteine und Layer-Interaktionen im Kontaktprofil fest – einmal pro"
+" Kontakt und Medium."
+
+#: app/Services/Behavior/TimelineFields.php:128
+msgid "Which media"
+msgstr "Welche Medien"
+
+#: app/Services/Behavior/TimelineFields.php:130
+msgid "Selected media"
+msgstr "Gewählte Medien"
+
+#: app/Services/Behavior/TimelineFields.php:131
+msgid "All media"
+msgstr "Alle Medien"
+
+#: app/Services/Behavior/TimelineFields.php:140
+msgid ""
+"Every media on the site will log to timelines, including media added later. "
+"For large libraries, Selected media keeps contact timelines meaningful."
+msgstr ""
+"Jedes Medium der Website schreibt in die Verläufe, auch später hinzugefügte."
+" Bei großen Mediatheken hält „Gewählte Medien“ die Kontaktverläufe "
+"übersichtlich."
+
+#: app/Services/Behavior/TimelineFields.php:150
+msgid "Type to search media…"
+msgstr "Tippen, um Medien zu suchen …"
+
+#: app/Services/Behavior/TimelineFields.php:160
+msgid "Milestones"
+msgstr "Meilensteine"
+
+#: app/Services/Behavior/TimelineFields.php:178
+msgid "Layer events"
+msgstr "Layer-Ereignisse"
+
+#: app/Services/Behavior/TimelineFields.php:187
+msgid "Nothing will be logged — select at least one milestone or layer event."
+msgstr ""
+"Es wird nichts festgehalten – wähle mindestens einen Meilenstein oder ein "
+"Layer-Ereignis."
+
+#: app/Services/Behavior/TimelineFields.php:199
+#: app/Services/Behavior/TimelineFields.php:236
+msgid "Which layers"
+msgstr "Welche Layer"
+
+#: app/Services/Behavior/TimelineFields.php:201
+msgid "All layers on selected media"
+msgstr "Alle Layer der gewählten Medien"
+
+#: app/Services/Behavior/TimelineFields.php:202
+msgid "Specific layers"
+msgstr "Bestimmte Layer"
+
+#: app/Services/Behavior/TimelineFields.php:216
+msgid "Layers"
+msgstr "Layer"
+
+#: app/Services/Behavior/TimelineFields.php:219
+msgid "Search layers…"
+msgstr "Layer suchen …"
+
+#: app/Services/Behavior/TimelineFields.php:220
+msgid "No layers found on the selected media."
+msgstr "Auf den gewählten Medien wurden keine Layer gefunden."
+
+#: app/Services/Behavior/TimelineFields.php:238
+msgid "All layers"
+msgstr "Alle Layer"
+
+#: app/Services/Behavior/TimelineFields.php:239
+msgid "Specific layer types"
+msgstr "Bestimmte Layer-Typen"
+
+#: app/Services/Behavior/TimelineFields.php:252
+msgid "Layer types"
+msgstr "Layer-Typen"
+
+#. translators: %d: media id whose post no longer exists
+#: app/Services/Behavior/TimelineFields.php:292
+#, php-format
+msgid "#%d (deleted)"
+msgstr "#%d (gelöscht)"
+
+#. translators: %s: stored layer id whose layer no longer exists
+#: app/Services/Behavior/TimelineFields.php:319
+#, php-format
+msgid "%s (deleted)"
+msgstr "%s (gelöscht)"
+
+#. translators: %s: provider type name
+#: app/Services/EmailCollectionService.php:66
+#, php-format
+msgid "Provider \"%s\" not found"
+msgstr "Anbieter „%s“ nicht gefunden"
+
+#: app/Services/EmailCollectionService.php:88
+#: app/Services/EmailProviderService.php:234
+msgid "Subscription successful"
+msgstr "Anmeldung erfolgreich"
+
+#: app/Services/EmailCollectionService.php:181
+msgid "Email sent successfully"
+msgstr "E-Mail verschickt"
+
+#: app/Services/EmailCollectionService.php:181
+msgid "Failed to send email"
+msgstr "Die E-Mail konnte nicht verschickt werden"
+
+#: app/Services/EmailProviderService.php:324
+msgid "No email submissions found to export"
+msgstr "Keine E-Mail-Einsendungen zum Exportieren gefunden"
+
+#: app/Services/EmailProviderService.php:328
+#: app/Services/Translations/admin-translations.php:129
+msgid "ID"
+msgstr "ID"
+
+#: app/Services/EmailProviderService.php:329
+#: app/Services/Migrations/PrestoPlayer/PresetMapper.php:172
+#: app/Views/player/email-capture.php:22
+msgid "Email Address"
+msgstr "E-Mail-Adresse"
+
+#: app/Services/EmailProviderService.php:330
+msgid "Media ID"
+msgstr "Medien-ID"
+
+#: app/Services/EmailProviderService.php:331
+msgid "Preset"
+msgstr "Preset"
+
+#: app/Services/EmailProviderService.php:332
+msgid "Layer ID"
+msgstr "Layer-ID"
+
+#: app/Services/EmailProviderService.php:333
+msgid "Video Time"
+msgstr "Videozeit"
+
+#: app/Services/EmailProviderService.php:334
+msgid "IP Address"
+msgstr "IP-Adresse"
+
+#: app/Services/EmailProviderService.php:335
+msgid "Browser"
+msgstr "Browser"
+
+#: app/Services/EmailProviderService.php:336
+#: app/Services/Translations/admin-translations.php:90
+msgid "Device"
+msgstr "Gerät"
+
+#: app/Services/EmailProviderService.php:337
+msgid "User ID"
+msgstr "Mitglieds-ID"
+
+#: app/Services/EmailProviderService.php:338
+msgid "Provider Log"
+msgstr "Anbieter-Protokoll"
+
+#: app/Services/EmailProviderService.php:339
+#: app/Services/Translations/admin-translations.php:79
+msgid "Created At"
+msgstr "Angelegt am"
+
+#: app/Services/EmailProviderService.php:340
+msgid "Updated At"
+msgstr "Aktualisiert am"
+
+#: app/Services/EmailProviderService.php:511
+msgid ""
+"ZipArchive is required to export ODS files. Please enable the zip PHP "
+"extension."
+msgstr ""
+"Für den ODS-Export wird ZipArchive gebraucht. Bitte aktiviere die PHP-"
+"Erweiterung zip."
+
+#: app/Services/EmailProviderService.php:519
+msgid "Could not prepare temporary export files."
+msgstr "Die temporären Exportdateien konnten nicht vorbereitet werden."
+
+#: app/Services/EmailProviderService.php:529
+msgid "Could not prepare export content file."
+msgstr "Die Exportdatei konnte nicht vorbereitet werden."
+
+#: app/Services/EmailProviderService.php:580
+msgid "Could not create ODS archive."
+msgstr "Das ODS-Archiv konnte nicht erstellt werden."
+
+#: app/Services/IntegrationService.php:115
+#: app/Services/IntegrationService.php:131
+#: app/Services/IntegrationService.php:148
+msgid "Integration not found"
+msgstr "Integration nicht gefunden"
+
+#: app/Services/LayerService.php:77
+msgid ""
+"This is a conversational form. It will show in conversational mode on "
+"player."
+msgstr ""
+"Das ist ein dialogisches Formular. Es erscheint im Player im Dialogmodus."
+
+#: app/Services/MediaRenderer.php:450
+msgid "Password"
+msgstr "Passwort"
+
+#: app/Services/MediaRenderer.php:451
+msgid "Unlock"
+msgstr "Freischalten"
+
+#: app/Services/MediaService.php:388
+msgid "No items were selected"
+msgstr "Es wurde nichts ausgewählt"
+
+#. translators: %d is the maximum number of items per bulk request.
+#: app/Services/MediaService.php:395
+#, php-format
+msgid "You can process up to %d items at once"
+msgstr "Du kannst höchstens %d Einträge auf einmal verarbeiten"
+
+#: app/Services/MediaService.php:411
+msgid "Invalid status"
+msgstr "Ungültiger Status"
+
+#: app/Services/MediaService.php:421
+msgid "This is a Pro feature"
+msgstr "Diese Funktion gibt es nur in Pro"
+
+#: app/Services/MediaService.php:424
+msgid "Invalid bulk action"
+msgstr "Ungültige Massenaktion"
+
+#: app/Services/Migrations/PrestoPlayer/ContentRewriter.php:52
+#: app/Services/Migrations/PrestoPlayer/PlaylistMigrator.php:36
+msgid "No media mapping found. Please migrate media first."
+msgstr "Keine Medienzuordnung gefunden. Bitte übernimm zuerst die Medien."
+
+#. translators: %d: number of posts whose content was rewritten.
+#: app/Services/Migrations/PrestoPlayer/ContentRewriter.php:95
+#, php-format
+msgid "%d posts rewritten."
+msgstr "%d Beiträge umgeschrieben."
+
+#: app/Services/Migrations/PrestoPlayer/ContentRewriter.php:115
+msgid "Post not found."
+msgstr "Beitrag nicht gefunden."
+
+#: app/Services/Migrations/PrestoPlayer/MediaMigrator.php:65
+msgid "Failed to migrate this media item."
+msgstr "Dieses Medium konnte nicht übernommen werden."
+
+#. translators: 1: number of media items successfully migrated, 2: number of
+#. media items skipped.
+#: app/Services/Migrations/PrestoPlayer/MediaMigrator.php:78
+#, php-format
+msgid "%1$d media migrated, %2$d skipped."
+msgstr "%1$d Medien übernommen, %2$d übersprungen."
+
+#: app/Services/Migrations/PrestoPlayer/MediaMigrator.php:98
+msgid "Visit model not available."
+msgstr "Das Aufruf-Modell ist nicht verfügbar."
+
+#: app/Services/Migrations/PrestoPlayer/MediaMigrator.php:111
+msgid "Required visits table not found."
+msgstr "Die benötigte Aufruf-Tabelle wurde nicht gefunden."
+
+#: app/Services/Migrations/PrestoPlayer/MediaMigrator.php:121
+msgid "No media mapping found. Migrate media first."
+msgstr "Keine Medienzuordnung gefunden. Übernimm zuerst die Medien."
+
+#. translators: 1: number of visits migrated in this batch, 2: number of
+#. visits still remaining to migrate.
+#: app/Services/Migrations/PrestoPlayer/MediaMigrator.php:195
+#, php-format
+msgid "%1$d visits migrated, %2$d remaining."
+msgstr "%1$d Aufrufe übernommen, %2$d verbleiben."
+
+#: app/Services/Migrations/PrestoPlayer/MediaMigrator.php:251
+#: app/Services/Migrations/PrestoPlayer/MediaMigrator.php:281
+msgid "Imported Media"
+msgstr "Übernommene Medien"
+
+#: app/Services/Migrations/PrestoPlayer/PlaylistMigrator.php:47
+msgid "No playlists found to migrate."
+msgstr "Keine Playlists zum Übernehmen gefunden."
+
+#: app/Services/Migrations/PrestoPlayer/PlaylistMigrator.php:78
+msgid "Failed to migrate this playlist."
+msgstr "Diese Playlist konnte nicht übernommen werden."
+
+#. translators: 1: number of playlists successfully migrated, 2: number of
+#. playlists skipped.
+#: app/Services/Migrations/PrestoPlayer/PlaylistMigrator.php:91
+#, php-format
+msgid "%1$d playlists migrated, %2$d skipped."
+msgstr "%1$d Playlists übernommen, %2$d übersprungen."
+
+#: app/Services/Migrations/PrestoPlayer/PresetMapper.php:30
+msgid "Imported Preset"
+msgstr "Übernommenes Preset"
+
+#. translators: %s: preset kind, either "audio" or "video".
+#: app/Services/Migrations/PrestoPlayer/PresetMapper.php:34
+#, php-format
+msgid "Imported from Presto Player %s preset"
+msgstr "Aus dem Presto-Player-Preset %s übernommen"
+
+#: app/Services/Migrations/PrestoPlayer/PresetMapper.php:175
+#: app/Views/player/email-capture.php:23
+#: app/Views/player/youtube-subscribe.php:60
+msgid "Subscribe"
+msgstr "Abonnieren"
+
+#: app/Services/Migrations/PrestoPlayer/PresetMigrator.php:75
+msgid "Failed to migrate this preset."
+msgstr "Dieses Preset konnte nicht übernommen werden."
+
+#. translators: 1: number of presets successfully migrated, 2: number of
+#. presets skipped.
+#: app/Services/Migrations/PrestoPlayer/PresetMigrator.php:89
+#, php-format
+msgid "%1$d presets migrated, %2$d skipped."
+msgstr "%1$d Presets übernommen, %2$d übersprungen."
+
+#: app/Services/Migrations/PrestoPlayer/Scanner.php:41
+msgid "No Presto Player data found."
+msgstr "Keine Presto-Player-Daten gefunden."
+
+#: app/Services/Migrations/PrestoPlayer/Scanner.php:49
+msgid ""
+"Presto Player is installed but not active. Please activate it to migrate."
+msgstr ""
+"Presto Player ist installiert, aber nicht aktiv. Für die Übernahme muss es "
+"aktiv sein."
+
+#: app/Services/Migrations/PrestoPlayer/Scanner.php:345
+#: app/Services/Migrations/PrestoPlayer/Scanner.php:446
+#: app/Services/Migrations/PrestoPlayer/Scanner.php:485
+#: app/Services/Translations/admin-translations.php:6
+msgid "(Untitled)"
+msgstr "(ohne Titel)"
+
+#: app/Services/Migrations/PrestoPlayer/SettingsMigrator.php:37
+msgid "No Presto Player settings found to migrate."
+msgstr "Keine Presto-Player-Einstellungen zum Übernehmen gefunden."
+
+#. translators: %s: comma-separated list of settings sections that were
+#. migrated.
+#: app/Services/Migrations/PrestoPlayer/SettingsMigrator.php:62
+#, php-format
+msgid "Settings migrated: %s"
+msgstr "Einstellungen übernommen: %s"
+
+#: app/Services/PresetService.php:478
+msgid "Full-featured player with all controls and center play button"
+msgstr ""
+"Vollständiger Player mit allen Bedienelementen und Play-Button in der Mitte"
+
+#: app/Services/PresetService.php:508
+msgid "Sleek bottom bar with inline controls for a clean look"
+msgstr ""
+"Schlanke Leiste unten mit eingebetteter Steuerung für ein aufgeräumtes Bild"
+
+#: app/Services/PresetService.php:537
+msgid "Play and progress bar only — minimal distraction"
+msgstr "Nur Play-Button und Fortschrittsbalken – möglichst wenig Ablenkung"
+
+#: app/Services/PresetService.php:566
+msgid "Classic layout with progress bar on top and controls below"
+msgstr "Klassische Ansicht mit Fortschrittsbalken oben und Steuerung darunter"
+
+#: app/Services/PresetService.php:596
+msgid "Controls float over the video with a transparent overlay"
+msgstr "Die Steuerung schwebt transparent über dem Video"
+
+#: app/Services/PresetService.php:626
+msgid "No visible controls — click to play/pause"
+msgstr "Keine sichtbare Steuerung – Klick startet und pausiert"
+
+#: app/Services/PresetService.php:655
+msgid "Muted autoplay loop with no controls — ideal for background video"
+msgstr "Stumme Endlosschleife ohne Steuerung – ideal für Hintergrundvideos"
+
+#: app/Services/Smartcode/SmartcodeRegistry.php:59
+msgid "General"
+msgstr "Allgemein"
+
+#: app/Services/Smartcode/SmartcodeRegistry.php:66
+msgid "User: Display Name"
+msgstr "Mitglied: Anzeigename"
+
+#: app/Services/Smartcode/SmartcodeRegistry.php:67
+msgid "User: First Name"
+msgstr "Mitglied: Vorname"
+
+#: app/Services/Smartcode/SmartcodeRegistry.php:68
+msgid "User: Last Name"
+msgstr "Mitglied: Nachname"
+
+#: app/Services/Smartcode/SmartcodeRegistry.php:69
+msgid "User: Email"
+msgstr "Mitglied: E-Mail-Adresse"
+
+#: app/Services/Smartcode/SmartcodeRegistry.php:70
+msgid "User: Username"
+msgstr "Mitglied: Benutzername"
+
+#: app/Services/Smartcode/SmartcodeRegistry.php:71
+msgid "User: ID"
+msgstr "Mitglied: ID"
+
+#: app/Services/Smartcode/SmartcodeRegistry.php:72
+msgid "User: Role"
+msgstr "Mitglied: Rolle"
+
+#: app/Services/Smartcode/SmartcodeRegistry.php:80
+msgid "Site: Name"
+msgstr "Website: Name"
+
+#: app/Services/Smartcode/SmartcodeRegistry.php:81
+msgid "Site: Tagline"
+msgstr "Website: Untertitel"
+
+#: app/Services/Smartcode/SmartcodeRegistry.php:82
+msgid "Site: URL"
+msgstr "Website: URL"
+
+#: app/Services/Smartcode/SmartcodeRegistry.php:83
+msgid "Site: Admin Email"
+msgstr "Website: Admin-E-Mail"
+
+#: app/Services/Smartcode/SmartcodeRegistry.php:91
+msgid "Date: Today"
+msgstr "Datum: heute"
+
+#: app/Services/Smartcode/SmartcodeRegistry.php:92
+msgid "Date: Current Year"
+msgstr "Datum: aktuelles Jahr"
+
+#: app/Services/Smartcode/SmartcodeRegistry.php:93
+msgid "Date: Custom Format"
+msgstr "Datum: eigenes Format"
+
+#: app/Services/Smartcode/SmartcodeRegistry.php:101
+msgid "Media: Title"
+msgstr "Medium: Titel"
+
+#: app/Services/Smartcode/SmartcodeRegistry.php:102
+msgid "Media: Author"
+msgstr "Medium: Autor"
+
+#: app/Services/Smartcode/SmartcodeRegistry.php:103
+msgid "Media: Publish Date"
+msgstr "Medium: Veröffentlichungsdatum"
+
+#: app/Services/Smartcode/SmartcodeRegistry.php:104
+msgid "Media: ID"
+msgstr "Medium: ID"
+
+#: app/Services/Translations/admin-translations.php:4
+#, php-format
+msgid "%d item(s) selected"
+msgstr "%d Einträge ausgewählt"
+
+#: app/Services/Translations/admin-translations.php:5
+#, php-format
+msgid "%s is a Pro Feature"
+msgstr "%s gibt es nur in Pro"
+
+#: app/Services/Translations/admin-translations.php:7
+msgid "(requires Media)"
+msgstr "(benötigt Medien)"
+
+#: app/Services/Translations/admin-translations.php:8
+msgid "Actions"
+msgstr "Aktionen"
+
+#: app/Services/Translations/admin-translations.php:9
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: app/Services/Translations/admin-translations.php:10
+msgid "Add Media"
+msgstr "Medium hinzufügen"
+
+#: app/Services/Translations/admin-translations.php:11
+msgid "Add Playlist"
+msgstr "Playlist hinzufügen"
+
+#: app/Services/Translations/admin-translations.php:12
+msgid "Add Tag"
+msgstr "Tag hinzufügen"
+
+#: app/Services/Translations/admin-translations.php:13
+msgid "Add tags"
+msgstr "Tags hinzufügen"
+
+#: app/Services/Translations/admin-translations.php:14
+msgid "Add to playlist"
+msgstr "Zur Playlist hinzufügen"
+
+#: app/Services/Translations/admin-translations.php:15
+msgid "Advanced Analytics With Pro"
+msgstr "Erweiterte Analysen mit Pro"
+
+#: app/Services/Translations/admin-translations.php:16
+msgid "Advanced Storage With Pro"
+msgstr "Erweiterter Speicher mit Pro"
+
+#: app/Services/Translations/admin-translations.php:17
+msgid "Advanced email marketing integration"
+msgstr "Erweiterte Anbindung ans E-Mail-Marketing"
+
+#: app/Services/Translations/admin-translations.php:18
+msgid "Advanced integration options"
+msgstr "Erweiterte Integrationsoptionen"
+
+#: app/Services/Translations/admin-translations.php:19
+msgid "Advanced keyboard controls"
+msgstr "Erweiterte Tastatursteuerung"
+
+#: app/Services/Translations/admin-translations.php:20
+msgid "Advanced playlist layouts and positioning"
+msgstr "Erweiterte Playlist-Ansichten und Positionierung"
+
+#: app/Services/Translations/admin-translations.php:21
+msgid "All"
+msgstr "Alle"
+
+#: app/Services/Translations/admin-translations.php:22
+msgid "All Media Types"
+msgstr "Alle Medientypen"
+
+#: app/Services/Translations/admin-translations.php:23
+msgid "All Sources"
+msgstr "Alle Quellen"
+
+#: app/Services/Translations/admin-translations.php:24
+msgid "All Tags"
+msgstr "Alle Tags"
+
+#: app/Services/Translations/admin-translations.php:25
+msgid "All eligible Presto Player data has been imported."
+msgstr "Alle passenden Presto-Player-Daten wurden übernommen."
+
+#: app/Services/Translations/admin-translations.php:26
+msgid "Ambient preset is a Pro feature"
+msgstr "Das Preset Ambient gibt es nur in Pro"
+
+#: app/Services/Translations/admin-translations.php:28
+msgid "Analytics visits (for selected media)"
+msgstr "Analyse-Aufrufe (für die gewählten Medien)"
+
+#: app/Services/Translations/admin-translations.php:29
+msgid "Analytics visits imported"
+msgstr "Analyse-Aufrufe übernommen"
+
+#: app/Services/Translations/admin-translations.php:30
+msgid "Audience Retention"
+msgstr "Zuschauerbindung"
+
+#: app/Services/Translations/admin-translations.php:31
+#: app/Views/player/bottom-controls-audio.php:71
+msgid "Audio"
+msgstr "Audio"
+
+#: app/Services/Translations/admin-translations.php:32
+msgid "Automated subscriber management"
+msgstr "Automatische Verwaltung der Abonnenten"
+
+#: app/Services/Translations/admin-translations.php:33
+msgid "Automatic cleanup of expired data"
+msgstr "Automatisches Aufräumen abgelaufener Daten"
+
+#: app/Services/Translations/admin-translations.php:34
+msgid "Average Watch Time"
+msgstr "Durchschnittliche Wiedergabezeit"
+
+#: app/Services/Translations/admin-translations.php:35
+msgid "Avg Watch Time"
+msgstr "Ø Wiedergabezeit"
+
+#: app/Services/Translations/admin-translations.php:37
+msgid "Back to Settings"
+msgstr "Zurück zu den Einstellungen"
+
+#: app/Services/Translations/admin-translations.php:38
+msgid "Back to analytics"
+msgstr "Zurück zu den Analysen"
+
+#: app/Services/Translations/admin-translations.php:39
+msgid "Background color for the player control bar (leave empty for default)"
+msgstr "Hintergrundfarbe der Steuerleiste (leer lassen für den Standard)"
+
+#: app/Services/Translations/admin-translations.php:40
+msgid "Background color of the large center play button"
+msgstr "Hintergrundfarbe des großen Play-Buttons in der Mitte"
+
+#: app/Services/Translations/admin-translations.php:41
+msgid "Better performance for high-traffic sites"
+msgstr "Bessere Leistung bei viel Verkehr"
+
+#: app/Services/Translations/admin-translations.php:42
+msgid "Bottom Left"
+msgstr "Unten links"
+
+#: app/Services/Translations/admin-translations.php:43
+msgid "Bottom Right"
+msgstr "Unten rechts"
+
+#: app/Services/Translations/admin-translations.php:44
+msgid "Brand Color"
+msgstr "Markenfarbe"
+
+#: app/Services/Translations/admin-translations.php:45
+msgid "Branding"
+msgstr "Branding"
+
+#: app/Services/Translations/admin-translations.php:46
+msgid "Branding, Google Analytics"
+msgstr "Branding, Google Analytics"
+
+#: app/Services/Translations/admin-translations.php:47
+msgid "Browser Progress Tracking With Pro"
+msgstr "Fortschritt im Browser speichern mit Pro"
+
+#: app/Services/Translations/admin-translations.php:48
+msgid "Bulk action failed"
+msgstr "Die Massenaktion ist fehlgeschlagen"
+
+#: app/Services/Translations/admin-translations.php:49
+msgid "Bunny Stream"
+msgstr "Bunny Stream"
+
+#: app/Services/Translations/admin-translations.php:50
+msgid "BunnyCDN Storage"
+msgstr "BunnyCDN Storage"
+
+#: app/Services/Translations/admin-translations.php:51
+msgid "BunnyCDN Stream"
+msgstr "BunnyCDN Stream"
+
+#: app/Services/Translations/admin-translations.php:52
+msgid "BunnyCDN Stream or Storage"
+msgstr "BunnyCDN Stream oder Storage"
+
+#: app/Services/Translations/admin-translations.php:53
+#: app/Services/Translations/frontend-translations.php:6
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: app/Services/Translations/admin-translations.php:54
+msgid "Cannot migrate:"
+msgstr "Nicht übernehmbar:"
+
+#: app/Services/Translations/admin-translations.php:55
+msgid "Change Logo"
+msgstr "Logo ändern"
+
+#: app/Services/Translations/admin-translations.php:56
+msgid "Change status"
+msgstr "Status ändern"
+
+#: app/Services/Translations/admin-translations.php:57
+msgid "Clear all"
+msgstr "Alles leeren"
+
+#: app/Services/Translations/admin-translations.php:58
+msgid "Clear all filters"
+msgstr "Alle Filter zurücksetzen"
+
+#: app/Services/Translations/admin-translations.php:59
+msgid "Clear search"
+msgstr "Suche leeren"
+
+#: app/Services/Translations/admin-translations.php:60
+msgid "Clear selection"
+msgstr "Auswahl aufheben"
+
+#: app/Services/Translations/admin-translations.php:61
+msgid "Click to copy"
+msgstr "Zum Kopieren klicken"
+
+#: app/Services/Translations/admin-translations.php:62
+msgid "Click to rename"
+msgstr "Zum Umbenennen klicken"
+
+#: app/Services/Translations/admin-translations.php:63
+#: app/Services/Translations/frontend-translations.php:41
+msgid "Close"
+msgstr "Schließen"
+
+#: app/Services/Translations/admin-translations.php:64
+msgid "Cloudflare"
+msgstr "Cloudflare"
+
+#: app/Services/Translations/admin-translations.php:65
+msgid "Cloudflare R2"
+msgstr "Cloudflare R2"
+
+#: app/Services/Translations/admin-translations.php:66
+msgid "Cloudflare R2 Storage"
+msgstr "Cloudflare R2 Storage"
+
+#: app/Services/Translations/admin-translations.php:67
+msgid "Cloudflare Stream"
+msgstr "Cloudflare Stream"
+
+#: app/Services/Translations/admin-translations.php:68
+msgid "Color of the large center play button icon"
+msgstr "Farbe des Symbols des großen Play-Buttons"
+
+#: app/Services/Translations/admin-translations.php:69
+msgid "Columns"
+msgstr "Spalten"
+
+#: app/Services/Translations/admin-translations.php:70
+msgid "Coming Soon!"
+msgstr "Kommt bald!"
+
+#: app/Services/Translations/admin-translations.php:71
+msgid "Compares first-time viewers with viewers who watched before."
+msgstr ""
+"Vergleicht neue Zuschauende mit denen, die schon einmal zugesehen haben."
+
+#: app/Services/Translations/admin-translations.php:72
+msgid "Completion Rate"
+msgstr "Abschlussquote"
+
+#: app/Services/Translations/admin-translations.php:73
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#: app/Services/Translations/admin-translations.php:74
+msgid "Connect with Mailchimp email marketing platform"
+msgstr "Mit der E-Mail-Marketing-Plattform Mailchimp verbinden"
+
+#: app/Services/Translations/admin-translations.php:75
+msgid "Connect with powerful third-party services including:"
+msgstr "Anbindung an leistungsfähige Dienste, darunter:"
+
+#: app/Services/Translations/admin-translations.php:76
+msgid "Control Bar Color"
+msgstr "Farbe der Steuerleiste"
+
+#: app/Services/Translations/admin-translations.php:77
+msgid "Country"
+msgstr "Land"
+
+#: app/Services/Translations/admin-translations.php:78
+msgid "Create new"
+msgstr "Neu anlegen"
+
+#: app/Services/Translations/admin-translations.php:80
+msgid "Custom date ranges"
+msgstr "Eigene Zeiträume"
+
+#: app/Services/Translations/admin-translations.php:81
+msgid "Custom webhook configurations"
+msgstr "Eigene Webhook-Konfigurationen"
+
+#: app/Services/Translations/admin-translations.php:82
+msgid "Data validation failed. Please try again."
+msgstr ""
+"Die Prüfung der Daten ist fehlgeschlagen. Bitte versuche es noch einmal."
+
+#: app/Services/Translations/admin-translations.php:83
+msgid "Delete"
+msgstr "Löschen"
+
+#: app/Services/Translations/admin-translations.php:84
+msgid "Delete Imported Data & Clear History"
+msgstr "Übernommene Daten löschen und Verlauf leeren"
+
+#: app/Services/Translations/admin-translations.php:85
+msgid "Delete Permanently"
+msgstr "Endgültig löschen"
+
+#: app/Services/Translations/admin-translations.php:86
+msgid "Delete imported data"
+msgstr "Übernommene Daten löschen"
+
+#: app/Services/Translations/admin-translations.php:87
+msgid "Delete permanently"
+msgstr "Endgültig löschen"
+
+#: app/Services/Translations/admin-translations.php:88
+msgid "Delete this tag?"
+msgstr "Diesen Tag löschen?"
+
+#: app/Services/Translations/admin-translations.php:89
+msgid "Detailed viewer analytics"
+msgstr "Ausführliche Zuschauer-Analysen"
+
+#: app/Services/Translations/admin-translations.php:91
+msgid "Device Distribution"
+msgstr "Verteilung nach Gerät"
+
+#: app/Services/Translations/admin-translations.php:92
+msgid "Device and browser statistics"
+msgstr "Statistik zu Geräten und Browsern"
+
+#: app/Services/Translations/admin-translations.php:93
+msgid "Discard"
+msgstr "Verwerfen"
+
+#: app/Services/Translations/admin-translations.php:94
+msgid "Display a YouTube subscribe button below YouTube videos"
+msgstr "Unter YouTube-Videos einen Abonnieren-Button anzeigen"
+
+#: app/Services/Translations/admin-translations.php:95
+msgid "Distraction-free, no player controls"
+msgstr "Ohne Ablenkung, ohne Steuerung"
+
+#: app/Services/Translations/admin-translations.php:96
+msgid "Do not deactivate Presto Player until these are imported."
+msgstr "Presto Player erst deaktivieren, wenn diese übernommen sind."
+
+#: app/Services/Translations/admin-translations.php:97
+msgid "Done"
+msgstr "Fertig"
+
+#: app/Services/Translations/admin-translations.php:99
+msgid "Duration"
+msgstr "Dauer"
+
+#: app/Services/Translations/admin-translations.php:100
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: app/Services/Translations/admin-translations.php:101
+msgid "Email Submissions"
+msgstr "E-Mail-Einsendungen"
+
+#: app/Services/Translations/admin-translations.php:102
+msgid "Email submissions imported"
+msgstr "E-Mail-Einsendungen übernommen"
+
+#: app/Services/Translations/admin-translations.php:103
+msgid "End date"
+msgstr "Enddatum"
+
+#: app/Services/Translations/admin-translations.php:104
+msgid "Ending soon"
+msgstr "Läuft bald ab"
+
+#: app/Services/Translations/admin-translations.php:105
+msgid "Engagement metrics"
+msgstr "Kennzahlen zur Beteiligung"
+
+#: app/Services/Translations/admin-translations.php:106
+msgid "Enhance user experience with browser-based progress tracking:"
+msgstr "Mit browserseitiger Fortschrittsspeicherung besser bedienbar:"
+
+#: app/Services/Translations/admin-translations.php:107
+msgid "Enhanced email capture capabilities"
+msgstr "Erweiterte E-Mail-Erfassung"
+
+#: app/Services/Translations/admin-translations.php:108
+msgid "Enter tag name"
+msgstr "Tag-Namen eingeben"
+
+#: app/Services/Translations/admin-translations.php:109
+msgid "Export"
+msgstr "Export"
+
+#: app/Services/Translations/admin-translations.php:110
+msgid "External URL"
+msgstr "Externe URL"
+
+#: app/Services/Translations/admin-translations.php:111
+#, php-format
+msgid "Expired more than %d days ago"
+msgstr "Vor mehr als %d Tagen abgelaufen"
+
+#: app/Services/Translations/admin-translations.php:112
+msgid "Expired within the last day"
+msgstr "Innerhalb des letzten Tages abgelaufen"
+
+#: app/Services/Translations/admin-translations.php:113
+msgid "Failed to load analytics stats"
+msgstr "Die Analysedaten konnten nicht geladen werden"
+
+#: app/Services/Translations/admin-translations.php:114
+msgid "Faster progress restoration"
+msgstr "Schnelleres Wiederherstellen des Fortschritts"
+
+#: app/Services/Translations/admin-translations.php:115
+msgid "Filters"
+msgstr "Filter"
+
+#: app/Services/Translations/admin-translations.php:116
+msgid ""
+"For YouTube media, transparency in this color appears as a frosted blur "
+"while paused"
+msgstr ""
+"Bei YouTube-Medien erscheint Transparenz in dieser Farbe im pausierten "
+"Zustand als milchige Unschärfe"
+
+#: app/Services/Translations/admin-translations.php:117
+msgid "Full appearance customization"
+msgstr "Vollständige Anpassung des Aussehens"
+
+#: app/Services/Translations/admin-translations.php:118
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: app/Services/Translations/admin-translations.php:119
+msgid "Geographic data"
+msgstr "Geodaten"
+
+#: app/Services/Translations/admin-translations.php:120
+msgid ""
+"Get detailed insights into your media performance with Advanced Analytics."
+msgstr ""
+"Mit den erweiterten Analysen bekommst Du ausführliche Einblicke in die "
+"Leistung Deiner Medien."
+
+#: app/Services/Translations/admin-translations.php:121
+msgid "Global Settings"
+msgstr "Globale Einstellungen"
+
+#: app/Services/Translations/admin-translations.php:122
+msgid "Global settings (branding)"
+msgstr "Globale Einstellungen (Branding)"
+
+#: app/Services/Translations/admin-translations.php:123
+msgid "Global settings (branding, Google Analytics)"
+msgstr "Globale Einstellungen (Branding, Google Analytics)"
+
+#: app/Services/Translations/admin-translations.php:124
+msgid "Global settings imported"
+msgstr "Globale Einstellungen übernommen"
+
+#: app/Services/Translations/admin-translations.php:125
+msgid "Gumlet"
+msgstr "Gumlet"
+
+#: app/Services/Translations/admin-translations.php:126
+msgid "Gumlet Live"
+msgstr "Gumlet Live"
+
+#: app/Services/Translations/admin-translations.php:127
+msgid "Gumlet Stream"
+msgstr "Gumlet Stream"
+
+#: app/Services/Translations/admin-translations.php:128
+msgid "Gumlet Video"
+msgstr "Gumlet Video"
+
+#: app/Services/Translations/admin-translations.php:130
+#, php-format
+msgid "In %d days"
+msgstr "In %d Tagen"
+
+#: app/Services/Translations/admin-translations.php:131
+msgid "In 1 day"
+msgstr "In 1 Tag"
+
+#: app/Services/Translations/admin-translations.php:132
+msgid "Import from Presto Player"
+msgstr "Aus Presto Player übernehmen"
+
+#: app/Services/Translations/admin-translations.php:133
+msgid "Imported"
+msgstr "Übernommen"
+
+#: app/Services/Translations/admin-translations.php:134
+msgid "Importing..."
+msgstr "Wird übernommen …"
+
+#: app/Services/Translations/admin-translations.php:135
+msgid "Integrations"
+msgstr "Integrationen"
+
+#: app/Services/Translations/admin-translations.php:136
+msgid "Keep Data, Clear History Only"
+msgstr "Daten behalten, nur den Verlauf leeren"
+
+#: app/Services/Translations/admin-translations.php:137
+#, php-format
+msgid "Keyboard shortcut: %s"
+msgstr "Tastenkürzel: %s"
+
+#: app/Services/Translations/admin-translations.php:138
+msgid "Last checked"
+msgstr "Zuletzt geprüft"
+
+#: app/Services/Translations/admin-translations.php:139
+msgid "Less than 1 day remaining"
+msgstr "Weniger als 1 Tag übrig"
+
+#: app/Services/Translations/admin-translations.php:140
+msgid "Let's Go Home"
+msgstr "Zurück zum Anfang"
+
+#: app/Services/Translations/admin-translations.php:141
+msgid "License Key"
+msgstr "Lizenzschlüssel"
+
+#: app/Services/Translations/admin-translations.php:142
+msgid "License active"
+msgstr "Lizenz aktiv"
+
+#: app/Services/Translations/admin-translations.php:143
+msgid "License in grace period"
+msgstr "Lizenz in der Kulanzfrist"
+
+#: app/Services/Translations/admin-translations.php:144
+msgid "Licensing"
+msgstr "Lizenz"
+
+#: app/Services/Translations/admin-translations.php:145
+msgid "Lists media with the most views and watch time."
+msgstr ""
+"Zeigt die Medien mit den meisten Aufrufen und der längsten Wiedergabezeit."
+
+#: app/Services/Translations/admin-translations.php:146
+msgid "Lists the media this viewer watched most."
+msgstr "Zeigt die Medien, die diese Person am meisten gesehen hat."
+
+#: app/Services/Translations/admin-translations.php:147
+msgid "Lists viewers with the most views and watch time."
+msgstr ""
+"Zeigt die Zuschauenden mit den meisten Aufrufen und der längsten "
+"Wiedergabezeit."
+
+#: app/Services/Translations/admin-translations.php:148
+msgid "Location Breakdown"
+msgstr "Aufschlüsselung nach Ort"
+
+#: app/Services/Translations/admin-translations.php:149
+msgid "Logo Image"
+msgstr "Logo-Bild"
+
+#: app/Services/Translations/admin-translations.php:150
+msgid "Mailchimp integration"
+msgstr "Mailchimp-Anbindung"
+
+#: app/Services/Translations/admin-translations.php:151
+msgid "Manage Tags"
+msgstr "Tags verwalten"
+
+#: app/Services/Translations/admin-translations.php:153
+msgid "Media Analytics"
+msgstr "Medien-Analysen"
+
+#: app/Services/Translations/admin-translations.php:154
+msgid "Media Analytics by"
+msgstr "Medien-Analysen nach"
+
+#: app/Services/Translations/admin-translations.php:155
+msgid "Media List"
+msgstr "Medienliste"
+
+#: app/Services/Translations/admin-translations.php:156
+msgid "Media Type"
+msgstr "Medientyp"
+
+#: app/Services/Translations/admin-translations.php:158
+msgid "Migration Complete!"
+msgstr "Übernahme abgeschlossen!"
+
+#: app/Services/Translations/admin-translations.php:159
+msgid "Migration Completed with Warnings"
+msgstr "Übernahme abgeschlossen, mit Warnungen"
+
+#: app/Services/Translations/admin-translations.php:160
+msgid "More"
+msgstr "Mehr"
+
+#: app/Services/Translations/admin-translations.php:161
+msgid "More Integrations With Pro"
+msgstr "Mehr Integrationen mit Pro"
+
+#: app/Services/Translations/admin-translations.php:162
+msgid "More actions"
+msgstr "Weitere Aktionen"
+
+#: app/Services/Translations/admin-translations.php:163
+msgid "Move this to trash?"
+msgstr "In den Papierkorb verschieben?"
+
+#: app/Services/Translations/admin-translations.php:164
+msgid "Move to Trash"
+msgstr "In den Papierkorb"
+
+#: app/Services/Translations/admin-translations.php:165
+msgid "Muted autoplay background video"
+msgstr "Stummes Hintergrundvideo mit Autoplay"
+
+#: app/Services/Translations/admin-translations.php:166
+msgid "Mux"
+msgstr "Mux"
+
+#: app/Services/Translations/admin-translations.php:167
+msgid "Mux Live"
+msgstr "Mux Live"
+
+#: app/Services/Translations/admin-translations.php:168
+msgid "Mux Stream"
+msgstr "Mux Stream"
+
+#: app/Services/Translations/admin-translations.php:169
+msgid "Mux Video"
+msgstr "Mux Video"
+
+#: app/Services/Translations/admin-translations.php:170
+msgid ""
+"New eligible Presto Player items were found. Use Run Again to review and "
+"import them."
+msgstr ""
+"Es wurden neue passende Presto-Player-Einträge gefunden. Mit „Erneut "
+"ausführen“ ansehen und übernehmen."
+
+#: app/Services/Translations/admin-translations.php:171
+msgid "New vs Returning Viewers"
+msgstr "Neue gegen wiederkehrende Zuschauende"
+
+#: app/Services/Translations/admin-translations.php:172
+msgid "Next: Review Selection"
+msgstr "Weiter: Auswahl prüfen"
+
+#: app/Services/Translations/admin-translations.php:173
+msgid "No Presto Player data found in this site's database."
+msgstr ""
+"In der Datenbank dieser Website wurden keine Presto-Player-Daten gefunden."
+
+#: app/Services/Translations/admin-translations.php:174
+msgid "No additional server requests needed"
+msgstr "Keine zusätzlichen Serveranfragen nötig"
+
+#: app/Services/Translations/admin-translations.php:175
+msgid "No data"
+msgstr "Keine Daten"
+
+#: app/Services/Translations/admin-translations.php:176
+msgid "No media found matching your filters."
+msgstr "Keine Medien passen zu den Filtern."
+
+#: app/Services/Translations/admin-translations.php:177
+msgid "No retention data available"
+msgstr "Keine Daten zur Zuschauerbindung vorhanden"
+
+#: app/Services/Translations/admin-translations.php:178
+msgid "No retention data available for this media yet"
+msgstr "Für dieses Medium gibt es noch keine Daten zur Zuschauerbindung"
+
+#: app/Services/Translations/admin-translations.php:179
+msgid "No retention data for this user yet"
+msgstr "Für dieses Mitglied gibt es noch keine Daten zur Zuschauerbindung"
+
+#: app/Services/Translations/admin-translations.php:180
+msgid "No supported Presto Player data found to migrate."
+msgstr "Keine unterstützten Presto-Player-Daten zum Übernehmen gefunden."
+
+#: app/Services/Translations/admin-translations.php:181
+msgid "No tags found"
+msgstr "Keine Tags gefunden"
+
+#: app/Services/Translations/admin-translations.php:182
+msgid "No top media data available"
+msgstr "Keine Daten zu den Top-Medien vorhanden"
+
+#: app/Services/Translations/admin-translations.php:183
+msgid "No top users data available"
+msgstr "Keine Daten zu den Top-Zuschauenden vorhanden"
+
+#: app/Services/Translations/admin-translations.php:184
+msgid "Oops! You are lost."
+msgstr "Hier gibt es nichts."
+
+#: app/Services/Translations/admin-translations.php:185
+msgid "PNG/JPEG, min 24x24px. Shown on branded content."
+msgstr "PNG/JPEG, mindestens 24 × 24 px. Erscheint auf gebrandeten Inhalten."
+
+#: app/Services/Translations/admin-translations.php:186
+msgid "Page"
+msgstr "Seite"
+
+#: app/Services/Translations/admin-translations.php:188
+msgid "Performance"
+msgstr "Leistung"
+
+#: app/Services/Translations/admin-translations.php:189
+msgid "Performance Over Time"
+msgstr "Leistung im Zeitverlauf"
+
+#: app/Services/Translations/admin-translations.php:190
+msgid "Performance metric"
+msgstr "Leistungskennzahl"
+
+#: app/Services/Translations/admin-translations.php:191
+msgid "Permanently delete the selected items? This cannot be undone."
+msgstr ""
+"Die gewählten Einträge endgültig löschen? Das lässt sich nicht rückgängig "
+"machen."
+
+#: app/Services/Translations/admin-translations.php:192
+msgid "Permanently delete this? This cannot be undone."
+msgstr "Endgültig löschen? Das lässt sich nicht rückgängig machen."
+
+#: app/Services/Translations/admin-translations.php:193
+msgid "Pick a playlist or type to create"
+msgstr "Playlist wählen oder tippen, um eine anzulegen"
+
+#: app/Services/Translations/admin-translations.php:194
+msgid "Pick tags to remove"
+msgstr "Tags zum Entfernen wählen"
+
+#: app/Services/Translations/admin-translations.php:195
+msgid "Play Button Background Color"
+msgstr "Hintergrundfarbe Play-Button"
+
+#: app/Services/Translations/admin-translations.php:196
+msgid "Play Button Background Color hex value"
+msgstr "Hex-Wert Hintergrundfarbe Play-Button"
+
+#: app/Services/Translations/admin-translations.php:197
+msgid "Play Button Color"
+msgstr "Farbe Play-Button"
+
+#: app/Services/Translations/admin-translations.php:198
+msgid "Play Button Color hex value"
+msgstr "Hex-Wert Farbe Play-Button"
+
+#: app/Services/Translations/admin-translations.php:199
+#: app/Views/player/logo.php:37
+msgid "Player Logo"
+msgstr "Player-Logo"
+
+#: app/Services/Translations/admin-translations.php:200
+msgid "Playlist analytics and tracking"
+msgstr "Analysen und Auswertung für Playlists"
+
+#: app/Services/Translations/admin-translations.php:201
+msgid "Playlist is a Pro Feature"
+msgstr "Playlists gibt es nur in Pro"
+
+#: app/Services/Translations/admin-translations.php:202
+msgid "Playlist templates and presets"
+msgstr "Vorlagen und Presets für Playlists"
+
+#: app/Services/Translations/admin-translations.php:204
+msgid "Popup blocks"
+msgstr "Popup-Blöcke"
+
+# Produktname beziehungsweise Marken-Hinweis, bewusst unveraendert.
+#: app/Services/Translations/admin-translations.php:205
+#: app/Services/Translations/frontend-translations.php:32
+msgid "Powered by FluentPlayer"
+msgstr "Powered by FluentPlayer"
+
+#: app/Services/Translations/admin-translations.php:206
+msgid "Presets"
+msgstr "Presets"
+
+#: app/Services/Translations/admin-translations.php:207
+msgid ""
+"Presto Player is installed but not active. Please activate it before "
+"migrating."
+msgstr ""
+"Presto Player ist installiert, aber nicht aktiv. Bitte aktiviere es vor der "
+"Übernahme."
+
+#: app/Services/Translations/admin-translations.php:208
+msgid "Presto Player is no longer installed on this site."
+msgstr "Presto Player ist auf dieser Website nicht mehr installiert."
+
+#: app/Services/Translations/admin-translations.php:209
+msgid "Previously Imported from Presto Player"
+msgstr "Früher aus Presto Player übernommen"
+
+#: app/Services/Translations/admin-translations.php:210
+msgid "Privacy-Enhanced Mode"
+msgstr "Datenschutzfreundlicher Modus"
+
+#: app/Services/Translations/admin-translations.php:211
+msgid "Privacy-friendly local storage"
+msgstr "Datenschutzfreundlicher lokaler Speicher"
+
+#: app/Services/Translations/admin-translations.php:213
+msgid "Private media"
+msgstr "Private Medien"
+
+#: app/Services/Translations/admin-translations.php:214
+msgid "Pro"
+msgstr "Pro"
+
+#: app/Services/Translations/admin-translations.php:215
+msgid "Pro feature"
+msgstr "Pro-Funktion"
+
+#: app/Services/Translations/admin-translations.php:216
+msgid "Professional email marketing tools"
+msgstr "Professionelle Werkzeuge fürs E-Mail-Marketing"
+
+#: app/Services/Translations/admin-translations.php:217
+msgid "Public"
+msgstr "Öffentlich"
+
+#: app/Services/Translations/admin-translations.php:218
+msgid "Re-import existing items (overwrites current data)"
+msgstr ""
+"Vorhandene Einträge erneut übernehmen (überschreibt die aktuellen Daten)"
+
+#: app/Services/Translations/admin-translations.php:219
+msgid "Real-time monitoring"
+msgstr "Überwachung in Echtzeit"
+
+#: app/Services/Translations/admin-translations.php:220
+msgid "Reduce server load with client-side tracking"
+msgstr "Serverlast senken durch Auswertung im Browser"
+
+#: app/Services/Translations/admin-translations.php:221
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+#: app/Services/Translations/admin-translations.php:222
+msgid "Remove"
+msgstr "Entfernen"
+
+#: app/Services/Translations/admin-translations.php:223
+msgid "Remove tags"
+msgstr "Tags entfernen"
+
+#: app/Services/Translations/admin-translations.php:224
+msgid "Restore"
+msgstr "Wiederherstellen"
+
+#: app/Services/Translations/admin-translations.php:225
+msgid "Retention data will be available after more views are collected"
+msgstr ""
+"Daten zur Zuschauerbindung gibt es, sobald mehr Aufrufe zusammengekommen "
+"sind"
+
+#: app/Services/Translations/admin-translations.php:226
+msgid "Retention will appear after views are collected"
+msgstr "Die Zuschauerbindung erscheint, sobald Aufrufe zusammengekommen sind"
+
+#: app/Services/Translations/admin-translations.php:227
+msgid "Review Migration"
+msgstr "Übernahme prüfen"
+
+#: app/Services/Translations/admin-translations.php:228
+msgid "Rewrite Content References"
+msgstr "Verweise in Inhalten umschreiben"
+
+#: app/Services/Translations/admin-translations.php:229
+msgid "Rewrite blocks/shortcodes in"
+msgstr "Blöcke und Shortcodes umschreiben in"
+
+#: app/Services/Translations/admin-translations.php:230
+msgid "Run Again"
+msgstr "Erneut ausführen"
+
+#: app/Services/Translations/admin-translations.php:231
+msgid "Save"
+msgstr "Speichern"
+
+#: app/Services/Translations/admin-translations.php:232
+msgid "Save & Continue"
+msgstr "Speichern und weiter"
+
+#: app/Services/Translations/admin-translations.php:233
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: app/Services/Translations/admin-translations.php:235
+msgid "Seamless looping playback"
+msgstr "Nahtlose Endlosschleife"
+
+#: app/Services/Translations/admin-translations.php:236
+msgid "Search"
+msgstr "Suchen"
+
+#: app/Services/Translations/admin-translations.php:237
+msgid "Search by title..."
+msgstr "Nach Titel suchen …"
+
+#: app/Services/Translations/admin-translations.php:238
+msgid "Search..."
+msgstr "Suchen …"
+
+#: app/Services/Translations/admin-translations.php:239
+msgid "Select All"
+msgstr "Alles auswählen"
+
+#: app/Services/Translations/admin-translations.php:240
+msgid "Select Media to Import"
+msgstr "Medien zum Übernehmen wählen"
+
+#: app/Services/Translations/admin-translations.php:241
+msgid "Select Presets to Import"
+msgstr "Presets zum Übernehmen wählen"
+
+#: app/Services/Translations/admin-translations.php:242
+msgid "Select bulk action"
+msgstr "Massenaktion wählen"
+
+#: app/Services/Translations/admin-translations.php:243
+msgid "Select or Upload Logo"
+msgstr "Logo wählen oder hochladen"
+
+#: app/Services/Translations/admin-translations.php:244
+msgid "Select specific media"
+msgstr "Bestimmte Medien wählen"
+
+#: app/Services/Translations/admin-translations.php:245
+msgid "Select specific presets"
+msgstr "Bestimmte Presets wählen"
+
+#: app/Services/Translations/admin-translations.php:246
+msgid ""
+"Select what you want to import. Your Presto Player data will not be "
+"modified."
+msgstr ""
+"Wähle, was übernommen werden soll. Deine Presto-Player-Daten bleiben "
+"unverändert."
+
+#: app/Services/Translations/admin-translations.php:247
+msgid "Selected:"
+msgstr "Ausgewählt:"
+
+#: app/Services/Translations/admin-translations.php:248
+msgid "Send emails to any external service via webhooks"
+msgstr ""
+"E-Mail-Adressen per Webhook an einen beliebigen externen Dienst schicken"
+
+#: app/Services/Translations/admin-translations.php:249
+msgid "Set status"
+msgstr "Status setzen"
+
+#: app/Services/Translations/admin-translations.php:250
+msgid "Settings imported:"
+msgstr "Einstellungen übernommen:"
+
+#: app/Services/Translations/admin-translations.php:251
+msgid "Setup required to complete migration:"
+msgstr "Für den Abschluss der Übernahme ist noch etwas einzurichten:"
+
+#: app/Services/Translations/admin-translations.php:252
+msgid "ShortCode"
+msgstr "Shortcode"
+
+#: app/Services/Translations/admin-translations.php:253
+msgid "Show 'Powered by FluentPlayer' branding"
+msgstr "Hinweis „Powered by FluentPlayer“ anzeigen"
+
+#: app/Services/Translations/admin-translations.php:254
+msgid "Show Subscribe Button"
+msgstr "Abonnieren-Button anzeigen"
+
+#: app/Services/Translations/admin-translations.php:255
+msgid ""
+"Show or hide the FluentPlayer credit in the player menu and capture emails."
+msgstr ""
+"Den FluentPlayer-Hinweis im Player-Menü und bei der E-Mail-Erfassung ein- "
+"oder ausblenden."
+
+#: app/Services/Translations/admin-translations.php:256
+msgid ""
+"Shows how much of the watched media this user typically watches before "
+"dropping off."
+msgstr "Zeigt, wie viel dieses Mitglied im Schnitt sieht, bevor es abbricht."
+
+#: app/Services/Translations/admin-translations.php:257
+msgid "Shows how viewer engagement changes throughout playback."
+msgstr "Zeigt, wie sich die Aufmerksamkeit im Lauf der Wiedergabe verändert."
+
+#: app/Services/Translations/admin-translations.php:258
+msgid "Shows how views are split by device type."
+msgstr "Zeigt, wie sich die Aufrufe auf die Gerätetypen verteilen."
+
+#: app/Services/Translations/admin-translations.php:259
+msgid "Shows how views or watch time change over time."
+msgstr "Zeigt, wie sich Aufrufe oder Wiedergabezeit im Zeitverlauf verändern."
+
+#: app/Services/Translations/admin-translations.php:260
+msgid "Shows where your viewers are located."
+msgstr "Zeigt, wo Deine Zuschauenden sind."
+
+#: app/Services/Translations/admin-translations.php:261
+msgid "Shuffle and continuous play options"
+msgstr "Zufallswiedergabe und Dauerwiedergabe"
+
+#: app/Services/Translations/admin-translations.php:262
+msgid "Sidebar"
+msgstr "Seitenleiste"
+
+#: app/Services/Translations/admin-translations.php:263
+msgid "Some items were not imported because they require FluentPlayer Pro:"
+msgstr ""
+"Einige Einträge wurden nicht übernommen, weil sie FluentPlayer Pro "
+"erfordern:"
+
+#: app/Services/Translations/admin-translations.php:264
+msgid "Something went wrong"
+msgstr "Da ist etwas schiefgegangen"
+
+#: app/Services/Translations/admin-translations.php:265
+msgid "Source"
+msgstr "Quelle"
+
+#: app/Services/Translations/admin-translations.php:266
+msgid "Source Provider"
+msgstr "Quell-Anbieter"
+
+#: app/Services/Translations/admin-translations.php:267
+msgid "Start Import"
+msgstr "Übernahme starten"
+
+#: app/Services/Translations/admin-translations.php:268
+msgid "Start date"
+msgstr "Startdatum"
+
+#: app/Services/Translations/admin-translations.php:269
+msgid "Status"
+msgstr "Status"
+
+#: app/Services/Translations/admin-translations.php:270
+msgid "Storage"
+msgstr "Speicher"
+
+#: app/Services/Translations/admin-translations.php:271
+msgid "Store or stream your media from external storage services:"
+msgstr "Medien aus externen Speicherdiensten ablegen oder ausliefern:"
+
+#: app/Services/Translations/admin-translations.php:272
+msgid "Store playback progress in browser storage"
+msgstr "Wiedergabefortschritt im Browser speichern"
+
+#: app/Services/Translations/admin-translations.php:274
+msgid "Tags to add"
+msgstr "Tags zum Hinzufügen"
+
+#: app/Services/Translations/admin-translations.php:275
+msgid "Tags to remove"
+msgstr "Tags zum Entfernen"
+
+#: app/Services/Translations/admin-translations.php:276
+msgid "Target playlist"
+msgstr "Ziel-Playlist"
+
+#: app/Services/Translations/admin-translations.php:277
+msgid "The Ambient Preset is a Pro Feature"
+msgstr "Das Preset Ambient gibt es nur in Pro"
+
+#: app/Services/Translations/admin-translations.php:278
+msgid "This color will be used as the primary color for player controls"
+msgstr "Diese Farbe wird als Hauptfarbe der Steuerung verwendet"
+
+#: app/Services/Translations/admin-translations.php:279
+msgid "This is a Pro Feature"
+msgstr "Das gibt es nur in Pro"
+
+#: app/Services/Translations/admin-translations.php:280
+msgid ""
+"This will NOT modify or delete your Presto Player data. You can safely keep "
+"both plugins."
+msgstr ""
+"Deine Presto-Player-Daten werden dabei nicht geändert oder gelöscht. Du "
+"kannst beide Plugins behalten."
+
+#: app/Services/Translations/admin-translations.php:281
+msgid ""
+"This will modify existing post content to replace Presto Player blocks with "
+"FluentPlayer blocks."
+msgstr ""
+"Damit werden bestehende Beitragsinhalte geändert: Presto-Player-Blöcke "
+"werden durch FluentPlayer-Blöcke ersetzt."
+
+#: app/Services/Translations/admin-translations.php:282
+msgid "Title"
+msgstr "Titel"
+
+#: app/Services/Translations/admin-translations.php:283
+msgid "Toggle columns"
+msgstr "Spalten ein- und ausblenden"
+
+#: app/Services/Translations/admin-translations.php:284
+msgid "Top Left"
+msgstr "Oben links"
+
+#: app/Services/Translations/admin-translations.php:285
+msgid "Top Media"
+msgstr "Top-Medien"
+
+#: app/Services/Translations/admin-translations.php:286
+msgid "Top Right"
+msgstr "Oben rechts"
+
+#: app/Services/Translations/admin-translations.php:287
+msgid "Top Viewers"
+msgstr "Top-Zuschauende"
+
+#: app/Services/Translations/admin-translations.php:288
+msgid "Top Watched Media"
+msgstr "Meistgesehene Medien"
+
+#: app/Services/Translations/admin-translations.php:289
+msgid "Total View"
+msgstr "Aufrufe gesamt"
+
+#: app/Services/Translations/admin-translations.php:290
+msgid "Total Views"
+msgstr "Aufrufe gesamt"
+
+#: app/Services/Translations/admin-translations.php:291
+msgid "Total Watch Time"
+msgstr "Wiedergabezeit gesamt"
+
+#: app/Services/Translations/admin-translations.php:292
+msgid "Trash"
+msgstr "Papierkorb"
+
+#: app/Services/Translations/admin-translations.php:293
+msgid "Type or pick tags"
+msgstr "Tags eingeben oder wählen"
+
+#: app/Services/Translations/admin-translations.php:294
+msgid "Unique Viewers"
+msgstr "Eindeutige Zuschauende"
+
+#: app/Services/Translations/admin-translations.php:295
+msgid "Unlimited playlists and media"
+msgstr "Unbegrenzt Playlists und Medien"
+
+#: app/Services/Translations/admin-translations.php:296
+msgid "Unlock advanced features and capabilities with FluentPlayer Pro."
+msgstr "Mit FluentPlayer Pro schaltest Du erweiterte Funktionen frei."
+
+#: app/Services/Translations/admin-translations.php:297
+msgid "Unsaved Changes"
+msgstr "Ungespeicherte Änderungen"
+
+#: app/Services/Translations/admin-translations.php:298
+#: app/Views/admin/menu.php:48
+msgid "Upgrade to Pro"
+msgstr "Auf Pro wechseln"
+
+#: app/Services/Translations/admin-translations.php:299
+msgid ""
+"Upgrade to Pro to create beautiful playlists with advanced features "
+"including:"
+msgstr ""
+"Wechsle auf Pro für schöne Playlists mit erweiterten Funktionen, darunter:"
+
+#: app/Services/Translations/admin-translations.php:300
+msgid "Upgrade to Pro to remove the FluentPlayer branding."
+msgstr "Wechsle auf Pro, um den FluentPlayer-Hinweis zu entfernen."
+
+#: app/Services/Translations/admin-translations.php:301
+#, php-format
+msgid "Upgrade to Pro to use %s integration for email capture."
+msgstr ""
+"Wechsle auf Pro, um die %s-Anbindung für die E-Mail-Erfassung zu nutzen."
+
+#: app/Services/Translations/admin-translations.php:302
+msgid ""
+"Upgrade to Pro to use the Ambient preset for muted, looping, control-free "
+"background video."
+msgstr ""
+"Wechsle auf Pro für das Preset Ambient: stumme Hintergrundvideos in "
+"Endlosschleife, ganz ohne Steuerung."
+
+#: app/Services/Translations/admin-translations.php:303
+msgid "Upload"
+msgstr "Hochladen"
+
+#: app/Services/Translations/admin-translations.php:304
+msgid "Uploaded"
+msgstr "Hochgeladen"
+
+#: app/Services/Translations/admin-translations.php:305
+msgid "Updates & Support"
+msgstr "Updates und Support"
+
+#: app/Services/Translations/admin-translations.php:306
+msgid "Use this logo"
+msgstr "Dieses Logo verwenden"
+
+#: app/Services/Translations/admin-translations.php:307
+msgid "User"
+msgstr "Mitglied"
+
+#: app/Services/Translations/admin-translations.php:308
+msgid "User Retention"
+msgstr "Bindung des Mitglieds"
+
+#: app/Services/Translations/admin-translations.php:309
+msgid "User not found"
+msgstr "Mitglied nicht gefunden"
+
+#: app/Services/Translations/admin-translations.php:310
+msgid "Video"
+msgstr "Video"
+
+#: app/Services/Translations/admin-translations.php:311
+msgid "Video tags (requires FluentPlayer Pro)"
+msgstr "Video-Tags (erfordert FluentPlayer Pro)"
+
+#: app/Services/Translations/admin-translations.php:312
+msgid "View"
+msgstr "Ansehen"
+
+#: app/Services/Translations/admin-translations.php:313
+msgid "View Imported Media"
+msgstr "Übernommene Medien ansehen"
+
+#: app/Services/Translations/admin-translations.php:314
+msgid "Views"
+msgstr "Aufrufe"
+
+#: app/Services/Translations/admin-translations.php:315
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: app/Services/Translations/admin-translations.php:316
+msgid "Watch Time"
+msgstr "Wiedergabezeit"
+
+#: app/Services/Translations/admin-translations.php:317
+msgid "Watch time tracking"
+msgstr "Auswertung der Wiedergabezeit"
+
+#: app/Services/Translations/admin-translations.php:318
+msgid "Watermark settings"
+msgstr "Einstellungen für das Wasserzeichen"
+
+#: app/Services/Translations/admin-translations.php:319
+msgid "Webhook integration"
+msgstr "Webhook-Anbindung"
+
+#: app/Services/Translations/admin-translations.php:320
+msgid ""
+"When enabled, YouTube won't store information about visitors on your website"
+" unless they play the video"
+msgstr ""
+"Wenn aktiviert, speichert YouTube erst dann Informationen über Besucher, "
+"wenn diese das Video abspielen"
+
+#: app/Services/Translations/admin-translations.php:321
+msgid "Will import:"
+msgstr "Wird übernommen:"
+
+#: app/Services/Translations/admin-translations.php:322
+msgid "Works across browser sessions"
+msgstr "Funktioniert über Browsersitzungen hinweg"
+
+#: app/Services/Translations/admin-translations.php:323
+msgid "You have unsaved changes in Settings. What would you like to do?"
+msgstr ""
+"In den Einstellungen gibt es ungespeicherte Änderungen. Was soll damit "
+"geschehen?"
+
+#: app/Services/Translations/admin-translations.php:324
+msgid "YouTube"
+msgstr "YouTube"
+
+#: app/Services/Translations/admin-translations.php:325
+msgid "Youtube"
+msgstr "YouTube"
+
+#: app/Services/Translations/admin-translations.php:326
+msgid "analytics visits imported"
+msgstr "Analyse-Aufrufe übernommen"
+
+#: app/Services/Translations/admin-translations.php:327
+msgid "email submissions"
+msgstr "E-Mail-Einsendungen"
+
+#: app/Services/Translations/admin-translations.php:328
+msgid "email submissions imported"
+msgstr "E-Mail-Einsendungen übernommen"
+
+#: app/Services/Translations/admin-translations.php:329
+msgid "emails"
+msgstr "E-Mail-Adressen"
+
+#: app/Services/Translations/admin-translations.php:330
+msgid "issues encountered:"
+msgstr "Probleme aufgetreten:"
+
+#: app/Services/Translations/admin-translations.php:331
+msgid "media items"
+msgstr "Medien"
+
+#: app/Services/Translations/admin-translations.php:332
+msgid "media items imported"
+msgstr "Medien übernommen"
+
+#: app/Services/Translations/admin-translations.php:333
+msgid "of"
+msgstr "von"
+
+#: app/Services/Translations/admin-translations.php:334
+msgid "playlists"
+msgstr "Playlists"
+
+#: app/Services/Translations/admin-translations.php:335
+msgid "playlists found"
+msgstr "Playlists gefunden"
+
+#: app/Services/Translations/admin-translations.php:336
+msgid "playlists imported"
+msgstr "Playlists übernommen"
+
+#: app/Services/Translations/admin-translations.php:337
+msgid "posts"
+msgstr "Beiträge"
+
+#: app/Services/Translations/admin-translations.php:338
+msgid "posts rewritten"
+msgstr "Beiträge umgeschrieben"
+
+#: app/Services/Translations/admin-translations.php:339
+msgid "posts updated"
+msgstr "Beiträge aktualisiert"
+
+#: app/Services/Translations/admin-translations.php:340
+msgid "posts with Presto Player blocks"
+msgstr "Beiträge mit Presto-Player-Blöcken"
+
+#: app/Services/Translations/admin-translations.php:341
+msgid "presets"
+msgstr "Presets"
+
+#: app/Services/Translations/admin-translations.php:342
+msgid "presets imported"
+msgstr "Presets übernommen"
+
+#: app/Services/Translations/admin-translations.php:343
+msgid "skipped"
+msgstr "übersprungen"
+
+#: app/Services/Translations/admin-translations.php:344
+msgid "visits"
+msgstr "Aufrufe"
+
+#: app/Services/Translations/frontend-translations.php:4
+#, php-format
+msgid "%1$d/%2$d completed"
+msgstr "%1$d/%2$d abgeschlossen"
+
+#: app/Services/Translations/frontend-translations.php:7
+msgid "Cancel autoplay"
+msgstr "Autoplay abbrechen"
+
+#: app/Services/Translations/frontend-translations.php:8
+msgid "Caption"
+msgstr "Untertitel"
+
+#: app/Services/Translations/frontend-translations.php:9
+#: app/Views/player/controls/caption-button.php:51
+#: app/Views/player/controls/caption-button.php:57
+#: app/Views/player/controls/caption-button.php:64
+#: app/Views/player/controls/caption-button.php:69
+#: app/Views/player/controls/caption-toggle-button.php:12
+#: app/Views/player/controls/settings-menu.php:120
+#: app/Views/player/controls/settings-menu.php:122
+#: app/Views/player/controls/settings-menu.php:130
+msgid "Captions"
+msgstr "Untertitel"
+
+#: app/Services/Translations/frontend-translations.php:10
+#: app/Views/player/controls/chapters-menu.php:11
+#: app/Views/player/controls/chapters-menu.php:16
+msgid "Chapters"
+msgstr "Kapitel"
+
+#: app/Services/Translations/frontend-translations.php:11
+msgid "Complete previous lessons to unlock this content"
+msgstr "Schließe die vorherigen Lektionen ab, um diesen Inhalt freizuschalten"
+
+#: app/Services/Translations/frontend-translations.php:13
+msgid "Continue"
+msgstr "Weiter"
+
+#: app/Services/Translations/frontend-translations.php:14
+msgid "Copy Link"
+msgstr "Link kopieren"
+
+#: app/Services/Translations/frontend-translations.php:15
+msgid "Copy Link at Current Time"
+msgstr "Link zur aktuellen Stelle kopieren"
+
+#: app/Services/Translations/frontend-translations.php:16
+msgid "Error submitting email. Please try again."
+msgstr ""
+"Die E-Mail-Adresse konnte nicht übermittelt werden. Bitte versuche es noch "
+"einmal."
+
+#: app/Services/Translations/frontend-translations.php:17
+msgid "Error: Unable to submit email. Please try again later."
+msgstr ""
+"Fehler: Die E-Mail-Adresse ließ sich nicht übermitteln. Bitte versuche es "
+"später noch einmal."
+
+#: app/Services/Translations/frontend-translations.php:18
+msgid "Loading"
+msgstr "Wird geladen"
+
+#: app/Services/Translations/frontend-translations.php:19
+msgid "Loop"
+msgstr "Endlosschleife"
+
+#: app/Services/Translations/frontend-translations.php:20
+msgid "Mark as Complete"
+msgstr "Als abgeschlossen markieren"
+
+#: app/Services/Translations/frontend-translations.php:21
+#, php-format
+msgid "Media will resume in %ds"
+msgstr "Weiter geht es in %ds"
+
+#: app/Services/Translations/frontend-translations.php:22
+msgid "Next Video"
+msgstr "Nächstes Video"
+
+#: app/Services/Translations/frontend-translations.php:23
+#: app/Views/player/controls/caption-button.php:73
+msgid "Off"
+msgstr "Aus"
+
+#: app/Services/Translations/frontend-translations.php:24
+msgid "Picture-in-Picture"
+msgstr "Bild-in-Bild"
+
+#: app/Services/Translations/frontend-translations.php:25
+msgid "Play Ad"
+msgstr "Werbung abspielen"
+
+#: app/Services/Translations/frontend-translations.php:26
+msgid "Playback Speed"
+msgstr "Abspielgeschwindigkeit"
+
+#: app/Services/Translations/frontend-translations.php:27
+msgid "Playing again in"
+msgstr "Wiederholung in"
+
+#: app/Services/Translations/frontend-translations.php:28
+msgid "Playing next"
+msgstr "Als Nächstes"
+
+#: app/Services/Translations/frontend-translations.php:29
+msgid "Please check your internet connection or verify the video source."
+msgstr "Prüfe Deine Internetverbindung oder die Videoquelle."
+
+#: app/Services/Translations/frontend-translations.php:30
+msgid "Please enter a valid email address"
+msgstr "Bitte gib eine gültige E-Mail-Adresse ein"
+
+#: app/Services/Translations/frontend-translations.php:31
+msgid "Please enter your email address"
+msgstr "Bitte gib Deine E-Mail-Adresse ein"
+
+#: app/Services/Translations/frontend-translations.php:33
+msgid "Press ESC to cancel"
+msgstr "ESC drücken zum Abbrechen"
+
+#: app/Services/Translations/frontend-translations.php:34
+msgid "Selected Language"
+msgstr "Gewählte Sprache"
+
+#: app/Services/Translations/frontend-translations.php:35
+#: app/Views/Layers/LayerRenderer.php:369 app/Views/player/cta-overlay.php:43
+#: app/Views/player/cta-overlay.php:44 app/Views/player/email-capture.php:72
+msgid "Skip"
+msgstr "Überspringen"
+
+#: app/Services/Translations/frontend-translations.php:36
+msgid "Submitting..."
+msgstr "Wird übermittelt …"
+
+#: app/Services/Translations/frontend-translations.php:37
+msgid "Try Again"
+msgstr "Erneut versuchen"
+
+#: app/Services/Translations/frontend-translations.php:38
+msgid "Unable to play video"
+msgstr "Das Video kann nicht abgespielt werden"
+
+#: app/Services/Translations/frontend-translations.php:39
+msgid "Untitled"
+msgstr "Ohne Titel"
+
+#: app/Services/Translations/frontend-translations.php:40
+#: app/Views/player.php:191
+msgid "Media player"
+msgstr "Media-Player"
+
+#: app/Services/Translations/frontend-translations.php:42
+msgid "Loading media…"
+msgstr "Medien werden geladen …"
+
+#: app/Services/Translations/frontend-translations.php:43
+msgid "Unable to load media."
+msgstr "Die Medien konnten nicht geladen werden."
+
+#. translators: %s: chapter title
+#: app/Services/Translations/frontend-translations.php:45
+#, php-format
+msgid "Jump to the chapter now playing: %s"
+msgstr "Zum gerade laufenden Kapitel springen: %s"
+
+#: app/Views/admin/menu.php:27
+msgid "Toggle navigation menu"
+msgstr "Navigationsmenü umschalten"
+
+#: app/Views/admin/menu.php:51
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: app/Views/admin/menu.php:56
+msgid "Docs"
+msgstr "Doku"
+
+#: app/Views/Layers/LayerRenderer.php:139
+msgid "Email address"
+msgstr "E-Mail-Adresse"
+
+#: app/Views/Layers/LayerRenderer.php:186
+#: app/Views/Layers/LayerRenderer.php:192
+msgid "Advertisement"
+msgstr "Werbung"
+
+#: app/Views/Layers/LayerRenderer.php:332
+msgid "No form selected"
+msgstr "Kein Formular gewählt"
+
+#: app/Views/Layers/LayerRenderer.php:360
+msgid "Unsupported form type"
+msgstr "Formulartyp wird nicht unterstützt"
+
+#: app/Views/Layers/LayerRenderer.php:407
+msgid "No shortcode configured"
+msgstr "Kein Shortcode hinterlegt"
+
+#: app/Views/player/action-bar-overlay.php:21
+msgid "Like this content?"
+msgstr "Gefällt Dir das?"
+
+#: app/Views/player/action-bar-overlay.php:97
+msgid "Close action bar"
+msgstr "Aktionsleiste schließen"
+
+#: app/Views/player/bottom-controls.php:95
+#: app/Views/player/bottom-controls.php:226
+#: app/Views/player/bottom-controls.php:364
+#: app/Views/player/bottom-controls.php:476
+#: app/Views/player/bottom-controls.php:637
+msgid "LIVE"
+msgstr "LIVE"
+
+#: app/Views/player/controls/caption-toggle-button.php:18
+msgid "Closed-Captions Off"
+msgstr "Untertitel aus"
+
+#: app/Views/player/controls/caption-toggle-button.php:19
+msgid "Closed-Captions On"
+msgstr "Untertitel an"
+
+#: app/Views/player/controls/fullscreen-button.php:10
+msgid "Fullscreen"
+msgstr "Vollbild"
+
+#: app/Views/player/controls/fullscreen-button.php:16
+msgid "Enter Fullscreen"
+msgstr "Vollbildmodus"
+
+#: app/Views/player/controls/fullscreen-button.php:17
+msgid "Exit Fullscreen"
+msgstr "Vollbildmodus verlassen"
+
+#: app/Views/player/controls/next-track.php:13
+#: app/Views/player/controls/next-track.php:18
+msgid "Next track"
+msgstr "Nächster Titel"
+
+#: app/Views/player/controls/pip-button.php:10
+msgid "Picture in Picture"
+msgstr "Bild-in-Bild"
+
+#: app/Views/player/controls/pip-button.php:16
+msgid "Enter PiP"
+msgstr "Bild-im-Bild-Modus"
+
+#: app/Views/player/controls/pip-button.php:17
+msgid "Exit PiP"
+msgstr "Bild-im-Bild-Modus beenden"
+
+#: app/Views/player/controls/play-button.php:10
+#: app/Views/player/controls/play-button.php:16
+msgid "Play"
+msgstr "Abspielen"
+
+#: app/Views/player/controls/play-button.php:17
+msgid "Pause"
+msgstr "Pause"
+
+#: app/Views/player/controls/playlist-toggle.php:15
+#: app/Views/player/controls/playlist-toggle.php:20
+msgid "Toggle Playlist"
+msgstr "Playlist ein-/ausblenden"
+
+#: app/Views/player/controls/prev-track.php:13
+#: app/Views/player/controls/prev-track.php:18
+msgid "Previous track"
+msgstr "Vorheriger Titel"
+
+#: app/Views/player/controls/quality-menu.php:12
+#: app/Views/player/controls/quality-menu.php:17
+#: app/Views/player/controls/settings-menu.php:96
+#: app/Views/player/controls/settings-menu.php:98
+#: app/Views/player/controls/settings-menu.php:106
+msgid "Quality"
+msgstr "Qualität"
+
+#: app/Views/player/controls/seek-backward.php:10
+msgid "Backward 10 seconds"
+msgstr "10 Sekunden zurück"
+
+#: app/Views/player/controls/seek-backward.php:15
+msgid "Backward 10s"
+msgstr "10 Sek. zurück"
+
+#: app/Views/player/controls/seek-forward.php:10
+msgid "Forward 10 seconds"
+msgstr "10 Sekunden vorwärts"
+
+#: app/Views/player/controls/seek-forward.php:15
+msgid "Forward 10s"
+msgstr "10 Sek. vorwärts"
+
+#: app/Views/player/controls/settings-menu.php:47
+#: app/Views/player/controls/settings-menu.php:49
+#: app/Views/player/controls/settings-menu.php:57
+msgid "Playback"
+msgstr "Wiedergabe"
+
+#: app/Views/player/controls/settings-menu.php:71
+#: app/Views/player/controls/settings-menu.php:73
+#: app/Views/player/controls/settings-menu.php:80
+msgid "Accessibility"
+msgstr "Barrierefreiheit"
+
+#: app/Views/player/controls/settings-menu.php:83
+#: app/Views/player/controls/settings-menu.php:84
+msgid "Announcements"
+msgstr "Ankündigungen"
+
+#: app/Views/player/controls/settings-menu.php:87
+#: app/Views/player/controls/settings-menu.php:88
+msgid "Keyboard Animations"
+msgstr "Tastatur-Animationen"
+
+#: app/Views/player/controls/speed-menu.php:11
+#: app/Views/player/controls/speed-menu.php:16
+msgid "Speed"
+msgstr "Abspielgeschwindigkeit"
+
+#: app/Views/player/controls/time-slider.php:14
+msgid "Seek"
+msgstr "Suchlauf"
+
+#: app/Views/player/controls/volume-controls.php:10
+#: app/Views/player/controls/volume-controls.php:18
+msgid "Mute"
+msgstr "Ton aus"
+
+#: app/Views/player/controls/volume-controls.php:17
+msgid "Unmute"
+msgstr "Ton an"
+
+#: app/Views/player/controls/volume-controls.php:22
+msgid "Volume"
+msgstr "Lautstärke"
+
+#: app/Views/player/cta-overlay.php:34
+msgid "Call to action"
+msgstr "Call to Action"
+
+#: app/Views/player/email-capture.php:21
+msgid "Sign up to continue watching"
+msgstr "Melde Dich an, um weiterzuschauen"
+
+#: app/Views/player/email-capture.php:26
+msgid "We respect your privacy. Unsubscribe at any time."
+msgstr ""
+"Wir gehen sorgsam mit Deinen Daten um. Du kannst Dich jederzeit abmelden."
+
+#: app/Views/player/email-capture.php:46
+msgid "Email signup"
+msgstr "Anmeldung per E-Mail"
+
+#: app/Views/player/email-capture.php:71
+msgid "Skip email signup"
+msgstr "Anmeldung überspringen"
+
+#: app/Views/player/language-controls.php:29
+msgid "Language"
+msgstr "Sprache"
+
+#: app/Views/player/language-controls.php:37
+msgid "Language Options"
+msgstr "Spracheinstellungen"
+
+#: app/Views/player/muted-preview-overlay.php:30
+msgid "Play with sound"
+msgstr "Mit Ton abspielen"
+
+#: app/Views/player/youtube-subscribe.php:53
+msgid "Subscribe on YouTube"
+msgstr "Auf YouTube abonnieren"
+
+#~ msgid "%1$s (#%2$d)"
+#~ msgstr "%1$s (#%2$d)"
+
+#~ msgid "Edit the playlist in the canvas; its settings appear below."
+#~ msgstr ""
+#~ "Die Playlist auf der Arbeitsfläche bearbeiten; ihre Einstellungen erscheinen"
+#~ " darunter."
+
+#~ msgid "Media #%d"
+#~ msgstr "Medium #%d"
+
+#~ msgid "Playlist #%d"
+#~ msgstr "Playlist #%d"
+
+#~ msgid "Select Media"
+#~ msgstr "Medium wählen"
+
+#~ msgid "Select Playlist"
+#~ msgstr "Playlist wählen"
+
+#~ msgid ""
+#~ "The player settings below edit this media and apply everywhere it is used."
+#~ msgstr ""
+#~ "Die Player-Einstellungen unten ändern dieses Medium und gelten überall, wo "
+#~ "es verwendet wird."
+
+#~ msgid "This media is private and only visible to editors."
+#~ msgstr "Dieses Medium ist privat und nur für Redakteure sichtbar."

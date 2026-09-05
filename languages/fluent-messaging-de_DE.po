@@ -1,0 +1,1670 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Fluent Messaging\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fluent-messaging\n"
+"POT-Creation-Date: 2026-09-03T20:04:38+02:00\n"
+"PO-Revision-Date: 2026-07-28 08:27+0000\n"
+"Last-Translator: Peter Claus Lamprecht\n"
+"Language-Team: Deutsch\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Domain: fluent-messaging\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.3; wp-6.9.4; php-8.5.3-nmm1\n"
+
+# bewusst nicht uebersetzt: Produktname aus dem Plugin-Header.
+#. Plugin Name of the plugin
+#: fluent-messaging.php
+msgid "Fluent Messaging"
+msgstr ""
+
+# bewusst nicht uebersetzt: URL aus dem Plugin-Header.
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: fluent-messaging.php
+msgid "https://fluentcommunity.co"
+msgstr ""
+
+#. Description of the plugin
+#: fluent-messaging.php
+msgid "Chat Plugin for FluentCommunity"
+msgstr "Chat-Plugin für FluentCommunity"
+
+# bewusst nicht uebersetzt: Autorenname aus dem Plugin-Header.
+#. Author of the plugin
+#: fluent-messaging.php
+msgid "techjewel"
+msgstr ""
+
+#: app/Hooks/Handlers/ChatAppHandler.php:58
+#: app/Hooks/Handlers/ChatAppHandler.php:324
+msgid "Chat"
+msgstr "Chat"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:156
+#: app/Hooks/Handlers/ChatAppHandler.php:407
+msgid "Message"
+msgstr "Chat-Nachricht"
+
+#. translators: %d is the number of characters remaining
+#: app/Hooks/Handlers/ChatAppHandler.php:231
+#, php-format
+msgid "%d character remaining"
+msgstr "%d Zeichen übrig"
+
+#. translators: %d is the number of characters remaining
+#: app/Hooks/Handlers/ChatAppHandler.php:233
+#, php-format
+msgid "%d characters remaining"
+msgstr "%d Zeichen übrig"
+
+#. translators: %d is the number of members
+#: app/Hooks/Handlers/ChatAppHandler.php:235
+#, php-format
+msgid "%d member"
+msgstr "%d Mitglied"
+
+#. translators: %d is the number of members
+#: app/Hooks/Handlers/ChatAppHandler.php:237
+#, php-format
+msgid "%d members"
+msgstr "%d Mitglieder"
+
+#. translators: %s are user display names who are typing
+#: app/Hooks/Handlers/ChatAppHandler.php:239
+#, php-format
+msgid "%s and %s are typing..."
+msgstr "%s und %s schreiben gerade …"
+
+#. translators: %1$s is the user display name, %2$s is the number of other
+#. users typing
+#: app/Hooks/Handlers/ChatAppHandler.php:241
+#, php-format
+msgid "%s and %s others are typing..."
+msgstr "%s und %s weitere schreiben gerade …"
+
+#. translators: %s is the display name of the user who blocked you
+#: app/Hooks/Handlers/ChatAppHandler.php:243
+#, php-format
+msgid "%s blocked you"
+msgstr "%s hat Dich blockiert"
+
+#. translators: %s is the user display name who is typing
+#: app/Hooks/Handlers/ChatAppHandler.php:245
+#, php-format
+msgid "%s is typing..."
+msgstr "%s schreibt gerade …"
+
+#. translators: %s is the number of unread messages
+#: app/Hooks/Handlers/ChatAppHandler.php:247
+#, php-format
+msgid "%s unread message"
+msgstr "%s ungelesene Nachricht"
+
+#. translators: %s is the number of days, e.g. "3d" for 3 days ago
+#: app/Hooks/Handlers/ChatAppHandler.php:249
+#, php-format
+msgid "%sd"
+msgstr "%s T."
+
+#. translators: %s is the number of hours, e.g. "5h" for 5 hours ago
+#: app/Hooks/Handlers/ChatAppHandler.php:251
+#, php-format
+msgid "%sh"
+msgstr "%s Std."
+
+#. translators: %s is the number of minutes, e.g. "2m" for 2 minutes ago
+#: app/Hooks/Handlers/ChatAppHandler.php:253
+#, php-format
+msgid "%sm"
+msgstr "%s Min."
+
+#. translators: %s is the number of months, e.g. "3mo" for 3 months ago
+#: app/Hooks/Handlers/ChatAppHandler.php:255
+#, php-format
+msgid "%smo"
+msgstr "%s Mon."
+
+#. translators: %s is the number of unread messages
+#: app/Hooks/Handlers/ChatAppHandler.php:257
+#, php-format
+msgid "%s unread messages"
+msgstr "%s ungelesene Nachrichten"
+
+#. translators: %s is the number of weeks, e.g. "2w" for 2 weeks ago
+#: app/Hooks/Handlers/ChatAppHandler.php:259
+#, php-format
+msgid "%sw"
+msgstr "%s Wo."
+
+#. translators: %s is the number of years, e.g. "1y" for 1 year ago
+#: app/Hooks/Handlers/ChatAppHandler.php:261
+#, php-format
+msgid "%sy"
+msgstr "%s J."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:262
+msgid "About"
+msgstr "Über"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:263
+msgid "Active now"
+msgstr "Gerade aktiv"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:264
+msgid "Admin"
+msgstr "Admin"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:265
+msgid "AM"
+msgstr "AM"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:266
+msgid "An admin has blocked you from this chat"
+msgstr "Ein Admin hat Dich aus diesem Chat ausgeschlossen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:267
+msgid "Apr"
+msgstr "Apr"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:268
+msgid "April"
+msgstr "April"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:269
+msgid "at"
+msgstr "um"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:270
+msgid "Aug"
+msgstr "Aug"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:271
+msgid "August"
+msgstr "August"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:272
+msgid "Add emoji"
+msgstr "Emoji einfügen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:274
+msgid "Emoji picker"
+msgstr "Emoji-Auswahl"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:275
+msgid "Search results"
+msgstr "Suchergebnisse"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:276
+msgid ""
+"When search results are available, press up or down to select and enter to "
+"choose."
+msgstr ""
+"Sobald es Suchergebnisse gibt, mit den Pfeiltasten nach oben und unten "
+"auswählen und mit der Eingabetaste bestätigen."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:277
+msgid "Categories"
+msgstr "Kategorien"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:278
+msgid "Favorites"
+msgstr "Favoriten"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:279
+msgid "Loading…"
+msgstr "Laden …"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:280
+msgid "Could not load emoji."
+msgstr "Die Emojis konnten nicht geladen werden."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:281
+msgid "Your browser does not support color emoji."
+msgstr "Dein Browser unterstützt keine farbigen Emojis."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:282
+msgid "Skin tones"
+msgstr "Hauttöne"
+
+#. translators: {skinTone} is replaced with the current skin tone name
+#: app/Hooks/Handlers/ChatAppHandler.php:284
+msgid "Choose a skin tone (currently {skinTone})"
+msgstr "Hautton wählen (aktuell {skinTone})"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:285
+msgid "When expanded, press up or down to select and enter to choose."
+msgstr ""
+"Im geöffneten Zustand mit den Pfeiltasten nach oben und unten auswählen und "
+"mit der Eingabetaste bestätigen."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:286
+msgid "Default"
+msgstr "Standard"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:287
+msgid "Light"
+msgstr "Hell"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:288
+msgid "Medium-Light"
+msgstr "Mittelhell"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:289
+msgid "Medium"
+msgstr "Mittel"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:290
+msgid "Medium-Dark"
+msgstr "Mitteldunkel"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:291
+msgid "Dark"
+msgstr "Dunkel"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:292
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:293
+msgid "Smileys and emoticons"
+msgstr "Smileys und Emoticons"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:294
+msgid "People and body"
+msgstr "Menschen und Körper"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:295
+msgid "Animals and nature"
+msgstr "Tiere und Natur"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:296
+msgid "Food and drink"
+msgstr "Essen und Trinken"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:297
+msgid "Travel and places"
+msgstr "Reisen und Orte"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:298
+msgid "Activities"
+msgstr "Aktivitäten"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:299
+msgid "Objects"
+msgstr "Objekte"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:300
+msgid "Symbols"
+msgstr "Symbole"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:301
+msgid "Flags"
+msgstr "Flaggen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:302
+msgid "Add Members"
+msgstr "Mitglieder hinzufügen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:303
+msgid "Add reaction"
+msgstr "Reagieren"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:304
+msgid "ago"
+msgstr "her"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:305
+msgid "An error occurred"
+msgstr "Es ist ein Fehler aufgetreten"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:306
+msgid ""
+"Are you sure you want to block this user? They will no longer be able to "
+"message you."
+msgstr ""
+"Dieses Mitglied wirklich blockieren? Es kann Dir dann keine Nachrichten mehr"
+" schicken."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:307
+msgid ""
+"Are you sure you want to delete this conversation? All messages will be "
+"permanently removed."
+msgstr ""
+"Diesen Chat wirklich löschen? Alle Nachrichten werden endgültig entfernt."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:308
+msgid ""
+"Are you sure you want to delete this group? All messages will be permanently"
+" removed."
+msgstr ""
+"Diese Gruppe wirklich löschen? Alle Nachrichten werden endgültig entfernt."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:309
+msgid "Are you sure you want to delete this message?"
+msgstr "Diese Nachricht wirklich löschen?"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:310
+msgid "Are you sure you want to leave this chat?"
+msgstr "Diesen Chat wirklich verlassen?"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:311
+msgid "Are you sure you want to leave this group?"
+msgstr "Diese Gruppe wirklich verlassen?"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:312
+msgid "Are you sure?"
+msgstr "Bist Du sicher?"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:313
+msgid "Attach file"
+msgstr "Datei anhängen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:314
+msgid "Attachment"
+msgstr "Anhang"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:315
+msgid "Authentication nonce not found"
+msgstr "Die Sicherheitsprüfung (Nonce) ist fehlgeschlagen."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:316
+msgid "Back"
+msgstr "Zurück"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:317
+msgid "Badge"
+msgstr "Sticker"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:318
+msgid "Block"
+msgstr "Blockieren"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:319
+msgid "Block from Chat"
+msgstr "Vom Chat ausschließen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:320
+msgid ""
+"Block this member from the chat? They can read messages but cannot send."
+msgstr ""
+"Dieses Mitglied aus dem Chat ausschließen? Es kann dann mitlesen, aber "
+"nichts mehr schreiben."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:321
+msgid "Block User"
+msgstr "Blockieren"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:322
+msgid "Blocked"
+msgstr "Geblockt"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:323
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:325
+msgid "Chat info"
+msgstr "Chat-Info"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:326
+msgid "Chats"
+msgstr "Chats"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:327
+msgid "Click to retry"
+msgstr "Zum erneuten Versuch klicken"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:328
+msgid "Close"
+msgstr "Schließen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:329
+msgid "Choose a conversation from the list to start messaging"
+msgstr "Wähle einen Chat aus der Liste oder starte einen neuen Chat"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:330
+#: app/Services/Integrations/CrmSendMessageAction.php:25
+msgid "Community"
+msgstr "Forum"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:331
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:332
+msgid "Conversation"
+msgstr "Chat"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:333
+msgid "Conversation deleted successfully"
+msgstr "Chat gelöscht"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:334
+msgid "Conversations"
+msgstr "Chats"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:335
+msgid "Create group"
+msgstr "Gruppe erstellen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:336
+msgid "Creating..."
+msgstr "Wird erstellt …"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:337
+msgid "day"
+msgstr "Tag"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:338
+msgid "days"
+msgstr "Tage"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:339
+msgid "Dec"
+msgstr "Dez"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:340
+msgid "December"
+msgstr "Dezember"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:341
+msgid "Delete"
+msgstr "Löschen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:342
+msgid "Delete Conversation"
+msgstr "Chat löschen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:343
+msgid "Delete Group"
+msgstr "Gruppe löschen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:344
+msgid "Delete message"
+msgstr "Nachricht löschen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:345
+msgid "Delivered"
+msgstr "Zugestellt"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:346
+msgid "Details"
+msgstr "Details"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:347
+msgid "Direct Messages"
+msgstr "Direkt-Nachrichten"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:348
+msgid "Dismiss Admin"
+msgstr "Admin-Rolle entziehen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:349
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:350
+msgid "Emoji"
+msgstr "Emoji"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:351
+msgid "Enter a group name"
+msgstr "Gib einen Gruppennamen ein"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:352
+#: app/Services/PluginManager/Updater.php:317
+msgid "Error"
+msgstr "Fehler"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:353
+msgid "Failed to delete message. Please try again."
+msgstr ""
+"Die Nachricht konnte nicht gelöscht werden. Bitte versuche es noch einmal."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:354
+msgid "Feb"
+msgstr "Feb"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:355
+msgid "February"
+msgstr "Februar"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:356
+msgid "Friday"
+msgstr "Freitag"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:357
+msgid "Failed to join chat. Please try again."
+msgstr ""
+"Der Beitritt zum Chat hat nicht geklappt. Bitte versuche es noch einmal."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:358
+msgid "Failed to leave chat. Please try again."
+msgstr ""
+"Der Chat konnte nicht verlassen werden. Bitte versuche es noch einmal."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:359
+msgid "Failed to send message. Please try again."
+msgstr ""
+"Die Nachricht konnte nicht gesendet werden. Bitte versuche es noch einmal."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:360
+msgid "Failed to update block status. Please try again."
+msgstr ""
+"Der Blockierstatus konnte nicht geändert werden. Bitte versuche es noch "
+"einmal."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:361
+msgid "Failed to upload image"
+msgstr "Das Bild konnte nicht hochgeladen werden"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:362
+msgid "Failed to add member"
+msgstr "Das Mitglied konnte nicht hinzugefügt werden"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:363
+msgid "Failed to create group"
+msgstr "Die Gruppe konnte nicht erstellt werden"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:364
+msgid "Failed to delete group"
+msgstr "Die Gruppe konnte nicht gelöscht werden"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:365
+msgid "Failed to leave group"
+msgstr "Die Gruppe konnte nicht verlassen werden"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:366
+msgid "Failed to remove member"
+msgstr "Das Mitglied konnte nicht entfernt werden"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:367
+msgid "Failed to rename"
+msgstr "Umbenennen fehlgeschlagen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:368
+msgid "Failed to send"
+msgstr "Senden fehlgeschlagen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:369
+msgid "Failed to update admin role"
+msgstr "Die Admin-Rolle konnte nicht geändert werden"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:370
+msgid "File"
+msgstr "Datei"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:371
+msgid "Files"
+msgstr "Dateien"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:372
+msgid "Fluent Messaging is not properly initialized"
+msgstr "Fluent Messaging ist nicht richtig initialisiert"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:373
+msgid "Group"
+msgstr "Gruppe"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:374
+msgid "Group details"
+msgstr "Gruppendetails"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:375
+msgid "Group Name"
+msgstr "Gruppenname"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:376
+msgid "Groups"
+msgstr "Gruppen-Chats"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:377
+msgid "Hide details"
+msgstr "Details ausblenden"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:378
+msgid "hour"
+msgstr "Stunde"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:379
+msgid "hours"
+msgstr "Stunden"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:380
+msgid "Image"
+msgstr "Bild"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:381
+msgid "Images"
+msgstr "Bilder"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:382
+msgid "Info"
+msgstr "Info"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:383
+msgid "Invalid JSON response"
+msgstr "Ungültige JSON-Antwort"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:384
+msgid "Jan"
+msgstr "Jan"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:385
+msgid "January"
+msgstr "Januar"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:386
+msgid "Join Chat"
+msgstr "Chat beitreten"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:387
+msgid "Jul"
+msgstr "Jul"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:388
+msgid "July"
+msgstr "Juli"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:389
+msgid "Jump to message"
+msgstr "Zur Nachricht springen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:390
+msgid "Jun"
+msgstr "Jun"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:391
+msgid "June"
+msgstr "Juni"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:392
+msgid "Just now"
+msgstr "Gerade eben"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:393
+msgid "Last seen"
+msgstr "Zuletzt online"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:394
+msgid "Leave Chat"
+msgstr "Chat verlassen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:395
+msgid "Leave Group"
+msgstr "Gruppe verlassen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:396
+msgid "Less"
+msgstr "Weniger"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:397
+msgid "Load More"
+msgstr "Mehr laden"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:398
+msgid "Mar"
+msgstr "Mär"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:399
+msgid "March"
+msgstr "März"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:400
+msgid "May"
+msgstr "Mai"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:401
+msgid "Loading more..."
+msgstr "Mehr wird geladen …"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:402
+msgid "Loading..."
+msgstr "Wird geladen …"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:403
+msgid "Make Admin"
+msgstr "Zum Admin machen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:404
+msgid "member"
+msgstr "Mitglied"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:405
+msgid "members"
+msgstr "Mitglieder"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:406
+msgid "Members"
+msgstr "Mitglieder"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:408
+msgid "Messages"
+msgstr "Chat"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:409
+msgid "Messaging is disabled"
+msgstr "Messaging ist abgeschaltet"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:410
+msgid "Minimize"
+msgstr "Verkleinern"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:411
+msgid "Monday"
+msgstr "Montag"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:412
+msgid "Messaging is not available for you in this chat"
+msgstr "Du kannst in diesem Chat nicht schreiben"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:413
+msgid "Messaging is not available in this chat"
+msgstr "In diesem Chat kann nicht geschrieben werden"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:414
+msgid "minute"
+msgstr "Minute"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:415
+msgid "minutes"
+msgstr "Minuten"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:416
+msgid "month"
+msgstr "Monat"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:417
+msgid "months"
+msgstr "Monate"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:418
+msgid "More"
+msgstr "Mehr"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:419
+msgid "More actions"
+msgstr "Weitere Aktionen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:420
+msgid "More Actions"
+msgstr "Weitere Aktionen (Gefahrenzone)"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:421
+msgid "More options"
+msgstr "Mehr …"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:422
+msgid "New Group"
+msgstr "Neue Gruppe"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:423
+msgid "New Message"
+msgstr "Neue Chat-Nachricht"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:424
+msgid "Next"
+msgstr "Weiter"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:425
+msgid "No"
+msgstr "Nein"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:426
+msgid "No conversations yet"
+msgstr "Kein Chat gefunden …"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:427
+msgid "No messages yet"
+msgstr "Noch keine Nachrichten"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:428
+msgid "Network error"
+msgstr "Netzwerkfehler"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:429
+msgid "No results found"
+msgstr "Keine Ergebnisse"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:430
+msgid "Nov"
+msgstr "Nov"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:431
+msgid "November"
+msgstr "November"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:432
+msgid "now"
+msgstr "jetzt"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:433
+msgid "No results found. Try a different search."
+msgstr "Keine Ergebnisse. Versuch es mit einer anderen Suche."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:434
+msgid "No users found"
+msgstr "Keine Mitglieder gefunden"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:435
+msgid "Now"
+msgstr "Jetzt"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:436
+msgid "Offline"
+msgstr "Offline"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:437
+msgid "OK"
+msgstr "OK"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:438
+msgid "Open chat"
+msgstr "Chat öffnen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:439
+msgid "Open full chat"
+msgstr "Chat in voller Größe öffnen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:440
+msgid "Open messaging"
+msgstr "Messaging öffnen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:441
+msgid "Oct"
+msgstr "Okt"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:442
+msgid "October"
+msgstr "Oktober"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:443
+msgid "Online"
+msgstr "Online"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:444
+msgid "Only images are supported"
+msgstr "Es werden nur Bilder unterstützt"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:445
+msgid "Looking for matching members"
+msgstr "Einen Moment, es wird nach Mitgliedern gesucht …"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:446
+msgid "PM"
+msgstr "PM"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:447
+msgid "Preview"
+msgstr "Vorschau"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:448
+msgid "Read"
+msgstr "Gelesen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:449
+msgid "Remove"
+msgstr "Entfernen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:450
+msgid "Remove Member"
+msgstr "Mitglied entfernen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:451
+msgid "Remove this member from the group?"
+msgstr "Dieses Mitglied aus der Gruppe entfernen?"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:452
+msgid "Rename Group"
+msgstr "Gruppe umbenennen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:453
+msgid "Reply"
+msgstr "Antworten"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:454
+msgid "Reply to message"
+msgstr "Antworten auf:"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:455
+msgid "Request failed"
+msgstr "Anfrage fehlgeschlagen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:456
+msgid "Request timeout"
+msgstr "Zeitüberschreitung"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:457
+msgid "Save"
+msgstr "Speichern"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:458
+msgid "Saturday"
+msgstr "Samstag"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:459
+msgid "Search"
+msgstr "Suche"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:460
+msgid "Sep"
+msgstr "Sep"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:461
+msgid "September"
+msgstr "September"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:462
+msgid "Select a conversation"
+msgstr "Wähle einen Chat"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:463
+msgid "Selected members"
+msgstr "Ausgewählte Mitglieder"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:464
+msgid "Search conversations"
+msgstr "Suche …"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:465
+msgid "Find a member to send a message"
+msgstr "Suche ein Mitglied, dem Du schreiben möchtest"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:466
+msgid "Search by name or username"
+msgstr "Nach Name oder Benutzername suchen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:467
+msgid "Search messages"
+msgstr "Nachrichten durchsuchen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:468
+msgid "Search users"
+msgstr "Mitglieder suchen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:469
+msgid "Searching..."
+msgstr "Wird gesucht …"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:470
+msgid "Send"
+msgstr "Abschicken"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:471
+msgid "Send message"
+msgstr "Abschicken"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:472
+msgid "Sending..."
+msgstr "Wird gesendet …"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:473
+msgid "Sent"
+msgstr "Gesendet"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:474
+msgid "Show details"
+msgstr "Details anzeigen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:475
+msgid "Show less"
+msgstr "Weniger anzeigen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:476
+msgid "Show more"
+msgstr "Mehr anzeigen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:477
+msgid "Show unreads only"
+msgstr "Nur ungelesene Nachrichten"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:478
+msgid "Showing unreads only"
+msgstr "Nur ungelesene Nachrichten"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:479
+msgid "Something went wrong"
+msgstr "Da ist etwas schiefgegangen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:480
+msgid "Spaces"
+msgstr "Foren-Chats"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:481
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:482
+msgid "Start a conversation"
+msgstr "Starte einen Chat"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:483
+msgid "Start a new conversation to get started"
+msgstr "Starte einen neuen Chat"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:484
+msgid "Start the conversation by sending a message"
+msgstr "Schreib die erste Nachricht"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:485
+msgid "This action cannot be undone."
+msgstr "Das lässt sich nicht rückgängig machen."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:486
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:487
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:488
+msgid "This user is unavailable"
+msgstr "Dieses Mitglied ist nicht erreichbar"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:489
+msgid "Thread"
+msgstr "Chat"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:490
+msgid "Threads"
+msgstr "Chats"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:491
+msgid "To:"
+msgstr "An:"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:492
+msgid "Today"
+msgstr "Heute"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:493
+msgid "Try a different search term"
+msgstr "Versuch es mit einem anderen Suchbegriff"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:494
+msgid "Try again"
+msgstr "Erneut versuchen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:495
+msgid "Type a message..."
+msgstr "Schreibe hier Deine Nachricht …"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:496
+msgid "Unavailable"
+msgstr "Nicht erreichbar"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:497
+msgid "Unblock"
+msgstr "Blockierung aufheben"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:498
+msgid "Unblock from Chat"
+msgstr "Ausschluss aufheben"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:499
+msgid "Unblock User"
+msgstr "Blockierung aufheben"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:500
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:501
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:502
+msgid "Upload"
+msgstr "Hochladen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:503
+msgid "Upload image"
+msgstr "Bild auswählen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:504
+msgid "User"
+msgstr "Mitglied"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:505
+msgid "Username"
+msgstr "Benutzername"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:506
+msgid "Users"
+msgstr "Mitglieder"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:507
+msgid "Verified"
+msgstr "Verifiziert"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:508
+msgid "View Profile"
+msgstr "Zum Profil"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:509
+msgid "View Space"
+msgstr "Zum Forum"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:510
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:511
+msgid "week"
+msgstr "Woche"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:512
+msgid "weeks"
+msgstr "Wochen"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:513
+msgid "Write your message..."
+msgstr "Schreibe Deine Nachricht …"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:514
+msgid "year"
+msgstr "Jahr"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:515
+msgid "years"
+msgstr "Jahre"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:516
+msgid "Yes"
+msgstr "Ja"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:517
+msgid "Yesterday"
+msgstr "Gestern"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:518
+msgid "You"
+msgstr "Du"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:519
+#: app/Http/Controllers/ChatController.php:1139
+msgid "You have blocked this user"
+msgstr "Du hast dieses Mitglied geblockt"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:520
+msgid "You have left this chat"
+msgstr "Du hast diesen Chat verlassen."
+
+#: app/Http/Controllers/ChatController.php:265
+#: app/Http/Controllers/ChatController.php:289
+#: app/Http/Controllers/ChatController.php:378
+#: app/Http/Controllers/ChatController.php:760
+#: app/Http/Controllers/ChatController.php:1676
+msgid "This chat thread could not be found or is no longer active"
+msgstr "Dieser Chat wurde nicht gefunden oder ist nicht mehr aktiv"
+
+#: app/Http/Controllers/ChatController.php:271
+#: app/Http/Controllers/ChatController.php:297
+#: app/Http/Controllers/ChatController.php:355
+#: app/Http/Controllers/ChatController.php:543
+msgid "You are not allowed to view this thread"
+msgstr "Du darfst diesen Chat nicht sehen"
+
+#: app/Http/Controllers/ChatController.php:386
+#: app/Http/Controllers/ChatController.php:392
+msgid "You are not allowed to send message to this thread"
+msgstr "Du darfst in diesem Chat nicht schreiben"
+
+#: app/Http/Controllers/ChatController.php:399
+#: app/Http/Controllers/ChatController.php:766
+msgid "You can no longer send messages in this conversation"
+msgstr "Du kannst in diesem Chat keine Nachrichten mehr schicken"
+
+#: app/Http/Controllers/ChatController.php:419
+#: app/Http/Controllers/ChatController.php:780
+msgid "You are not allowed to send messages in this thread"
+msgstr "Du darfst in diesem Chat keine Nachrichten schreiben"
+
+#: app/Http/Controllers/ChatController.php:454
+msgid "Image shared in chat"
+msgstr "Im Chat geteiltes Bild"
+
+#: app/Http/Controllers/ChatController.php:556
+msgid "System messages cannot be deleted"
+msgstr "Systemnachrichten lassen sich nicht löschen"
+
+#: app/Http/Controllers/ChatController.php:576
+msgid "You are not allowed to delete this message"
+msgstr "Du darfst diese Nachricht nicht löschen"
+
+#: app/Http/Controllers/ChatController.php:586
+msgid "Message deleted successfully"
+msgstr "Nachricht gelöscht"
+
+#: app/Http/Controllers/ChatController.php:597
+msgid "You are not allowed to react to this message"
+msgstr "Du darfst auf diese Nachricht nicht reagieren"
+
+#: app/Http/Controllers/ChatController.php:610
+msgid "System messages cannot be reacted to"
+msgstr "Auf Systemnachrichten kann nicht reagiert werden"
+
+#: app/Http/Controllers/ChatController.php:617
+msgid "Emoji is required"
+msgstr "Ein Emoji ist erforderlich"
+
+#: app/Http/Controllers/ChatController.php:624
+msgid "Invalid reaction emoji"
+msgstr "Ungültiges Reaktions-Emoji"
+
+#: app/Http/Controllers/ChatController.php:687
+msgid "You are not allowed to create thread in this community"
+msgstr "Du darfst in dieser Community keinen Chat beginnen"
+
+#: app/Http/Controllers/ChatController.php:693
+msgid "Thread already exist in this community"
+msgstr "Diesen Chat gibt es in dieser Community schon"
+
+#: app/Http/Controllers/ChatController.php:749
+msgid "You can not create thread with yourself"
+msgstr "Du kannst keinen Chat mit Dir selbst beginnen"
+
+#: app/Http/Controllers/ChatController.php:806
+msgid "You are not allowed to initiate a message"
+msgstr "Du darfst keine Nachricht beginnen"
+
+#: app/Http/Controllers/ChatController.php:814
+#: app/Services/ChatHelper.php:1148
+#, php-format
+msgid "Chat between %1$s & %2$s"
+msgstr "Chat zwischen %1$s und %2$s"
+
+#: app/Http/Controllers/ChatController.php:926
+msgid "You are not allowed to search for users"
+msgstr "Du darfst nicht nach Mitgliedern suchen"
+
+#: app/Http/Controllers/ChatController.php:968
+msgid "You are not allowed to view this thread members"
+msgstr "Du darfst die Mitglieder dieses Chats nicht sehen"
+
+#: app/Http/Controllers/ChatController.php:1052
+msgid "You are not a member of this community"
+msgstr "Du bist kein Mitglied dieser Community"
+
+#: app/Http/Controllers/ChatController.php:1070
+msgid "You have joined the thread"
+msgstr "Du bist dem Chat beigetreten."
+
+#: app/Http/Controllers/ChatController.php:1070
+msgid "You are already in this thread"
+msgstr "Du bist in diesem Chat bereits dabei"
+
+#: app/Http/Controllers/ChatController.php:1092
+msgid "You have left the thread"
+msgstr "Du hast den Chat verlassen."
+
+#: app/Http/Controllers/ChatController.php:1092
+#: app/Http/Controllers/ChatController.php:1139
+#: app/Http/Controllers/ChatController.php:1170
+msgid "You are not in this thread"
+msgstr "Du bist in diesem Chat nicht dabei"
+
+#: app/Http/Controllers/ChatController.php:1111
+msgid "You have been blocked from this chat"
+msgstr "Du wurdest aus diesem Chat ausgeschlossen"
+
+#: app/Http/Controllers/ChatController.php:1120
+#: app/Http/Controllers/ChatController.php:1148
+msgid "Blocking is only available in direct messages"
+msgstr "Blockieren geht nur in Direkt-Nachrichten"
+
+#: app/Http/Controllers/ChatController.php:1170
+msgid "You have unblocked this user"
+msgstr "Du hast dieses Mitglied nicht mehr geblockt"
+
+#: app/Http/Controllers/ChatController.php:1181
+#: app/Http/Controllers/ChatController.php:1213
+msgid "This action is not available for direct messages"
+msgstr "Diese Aktion gibt es für Direkt-Nachrichten nicht"
+
+#: app/Http/Controllers/ChatController.php:1184
+#: app/Http/Controllers/ChatController.php:1216
+msgid "You are not allowed to moderate this chat"
+msgstr "Du darfst diesen Chat nicht moderieren"
+
+#: app/Http/Controllers/ChatController.php:1189
+msgid "This member cannot be blocked"
+msgstr "Dieses Mitglied lässt sich nicht blockieren"
+
+#: app/Http/Controllers/ChatController.php:1193
+msgid "Admins and moderators cannot be blocked from this chat"
+msgstr "Admins und Moderatoren lassen sich nicht aus diesem Chat ausschließen"
+
+#: app/Http/Controllers/ChatController.php:1197
+msgid "This member is not in this chat"
+msgstr "Dieses Mitglied ist nicht in diesem Chat"
+
+#: app/Http/Controllers/ChatController.php:1201
+msgid "Member has been blocked from this chat"
+msgstr "Das Mitglied wurde aus diesem Chat ausgeschlossen"
+
+#: app/Http/Controllers/ChatController.php:1222
+msgid "Member has been unblocked"
+msgstr "Der Ausschluss wurde aufgehoben"
+
+#: app/Http/Controllers/ChatController.php:1235
+#: app/Http/Controllers/ChatController.php:1243
+msgid "This thread could not be found or cannot be deleted"
+msgstr "Dieser Chat wurde nicht gefunden oder lässt sich nicht löschen"
+
+#: app/Http/Controllers/ChatController.php:1255
+msgid "You are not authorized to delete this thread"
+msgstr "Du darfst diesen Chat nicht löschen"
+
+#: app/Http/Controllers/ChatController.php:1264
+msgid "Thread deleted successfully"
+msgstr "Chat gelöscht"
+
+#: app/Http/Controllers/ChatController.php:1274
+msgid "Only moderators can create groups"
+msgstr "Nur Moderatoren können Gruppen anlegen"
+
+#: app/Http/Controllers/ChatController.php:1291
+msgid "At least one member is required"
+msgstr "Mindestens ein Mitglied ist erforderlich"
+
+#: app/Http/Controllers/ChatController.php:1333
+msgid "Only group admins can update the group"
+msgstr "Nur Gruppen-Admins können die Gruppe ändern"
+
+#: app/Http/Controllers/ChatController.php:1347
+msgid "Nothing to update"
+msgstr "Nichts zu aktualisieren"
+
+#: app/Http/Controllers/ChatController.php:1374
+msgid "Only group admins can add members"
+msgstr "Nur Gruppen-Admins können Mitglieder hinzufügen"
+
+#: app/Http/Controllers/ChatController.php:1386
+msgid "No members provided"
+msgstr "Keine Mitglieder angegeben"
+
+#: app/Http/Controllers/ChatController.php:1426
+msgid "Only group admins can remove members"
+msgstr "Nur Gruppen-Admins können Mitglieder entfernen"
+
+#: app/Http/Controllers/ChatController.php:1432
+msgid "Use leave to exit the group"
+msgstr "Zum Verlassen der Gruppe „Gruppe verlassen“ benutzen"
+
+#: app/Http/Controllers/ChatController.php:1439
+msgid "The group creator cannot be removed from the group"
+msgstr "Wer die Gruppe angelegt hat, lässt sich nicht aus ihr entfernen"
+
+#: app/Http/Controllers/ChatController.php:1447
+msgid "Member not found"
+msgstr "Mitglied nicht gefunden"
+
+#: app/Http/Controllers/ChatController.php:1481
+msgid "Only group admins can change admin roles"
+msgstr "Nur Gruppen-Admins können Admin-Rollen ändern"
+
+#: app/Http/Controllers/ChatController.php:1490
+msgid "The group creator is always an admin"
+msgstr "Wer die Gruppe angelegt hat, ist immer Admin"
+
+#: app/Http/Controllers/ChatController.php:1502
+msgid "No change applied"
+msgstr "Nichts geändert"
+
+#: app/Http/Controllers/ChatController.php:1532
+#: app/Http/Controllers/ChatController.php:1547
+msgid "You are not a member of this group"
+msgstr "Du bist kein Mitglied dieser Gruppe"
+
+#: app/Http/Controllers/ChatController.php:1539
+msgid "The group creator cannot leave. Delete the group instead."
+msgstr ""
+"Wer die Gruppe angelegt hat, kann sie nicht verlassen. Lösche stattdessen "
+"die Gruppe."
+
+#: app/Http/Controllers/ChatController.php:1575
+msgid "Only group admins can delete the group"
+msgstr "Nur Gruppen-Admins können die Gruppe löschen"
+
+#: app/Http/Controllers/ChatController.php:1608
+msgid "You are not allowed to view this group members"
+msgstr "Du darfst die Mitglieder dieser Gruppe nicht sehen"
+
+#: app/Http/Controllers/ChatController.php:1682
+msgid "You are not allowed to upload a file"
+msgstr "Du darfst keine Datei hochladen"
+
+#: app/Services/ChatHelper.php:442
+msgid "Group title is required"
+msgstr "Der Gruppenname ist erforderlich"
+
+#: app/Services/ChatHelper.php:458
+msgid "At least one valid member is required to create a group"
+msgstr "Für eine Gruppe wird mindestens ein gültiges Mitglied gebraucht"
+
+#: app/Services/ChatHelper.php:486 app/Services/ChatHelper.php:528
+#: app/Services/ChatHelper.php:575 app/Services/ChatHelper.php:618
+#: app/Services/ChatHelper.php:659
+msgid "Someone"
+msgstr "Jemand"
+
+#: app/Services/ChatHelper.php:487
+#, php-format
+msgid "%s created the group"
+msgstr "%s hat die Gruppe erstellt"
+
+#: app/Services/ChatHelper.php:535
+#, php-format
+msgid "%1$s added %2$s"
+msgstr "%1$s hat %2$s hinzugefügt"
+
+#: app/Services/ChatHelper.php:569 app/Services/ChatHelper.php:620
+msgid "A member"
+msgstr "Ein Mitglied"
+
+#: app/Services/ChatHelper.php:572
+#, php-format
+msgid "%s left the group"
+msgstr "%s hat die Gruppe verlassen"
+
+#: app/Services/ChatHelper.php:576
+#, php-format
+msgid "%1$s removed %2$s"
+msgstr "%1$s hat %2$s entfernt"
+
+#: app/Services/ChatHelper.php:595
+msgid "User is not an active member of this group"
+msgstr "Das Mitglied gehört dieser Gruppe nicht aktiv an"
+
+#: app/Services/ChatHelper.php:623
+#, php-format
+msgid "%1$s made %2$s an admin"
+msgstr "%1$s hat %2$s zum Admin gemacht"
+
+#: app/Services/ChatHelper.php:624
+#, php-format
+msgid "%1$s dismissed %2$s as admin"
+msgstr "%1$s hat %2$s die Admin-Rolle entzogen"
+
+#: app/Services/ChatHelper.php:640
+#, php-format
+msgid "renamed the group from \"%1$s\" to \"%2$s\""
+msgstr "hat die Gruppe von „%1$s“ in „%2$s“ umbenannt"
+
+#: app/Services/ChatHelper.php:650
+msgid "updated the group icon"
+msgstr "hat das Gruppenbild geändert"
+
+#: app/Services/ChatHelper.php:877
+msgid "Unknown User"
+msgstr "Unbekanntes Mitglied"
+
+#: app/Services/ChatHelper.php:1142
+msgid "Sender or recipient not found"
+msgstr "Absender oder Empfänger nicht gefunden"
+
+#: app/Services/ChatHelper.php:1156
+msgid "This conversation is blocked"
+msgstr "Dieser Chat ist blockiert"
+
+#: app/Services/ChatHelper.php:1162
+msgid "Message body is empty"
+msgstr "Die Nachricht ist leer"
+
+#: app/Services/EmailNotificationMail.php:46
+msgid "1 new message in your inbox"
+msgstr "1 neue Chat-Nachricht für Dich!"
+
+#: app/Services/EmailNotificationMail.php:49
+#, php-format
+msgid "%s new messages in your inbox"
+msgstr "%s neue Nachrichten in Deinem Postfach"
+
+#: app/Services/EmailNotificationMail.php:164
+#, php-format
+msgid "Hi %s,"
+msgstr "Hallo %s,"
+
+#: app/Services/EmailNotificationMail.php:168
+msgid "You have a new message waiting for you in your inbox."
+msgstr "Du hast eine neue Chat-Nachricht erhalten."
+
+#: app/Services/EmailNotificationMail.php:170
+#, php-format
+msgid "You have %s new messages waiting for you in your inbox."
+msgstr "Du hast %s neue Chat-Nachrichten erhalten."
+
+#: app/Services/EmailNotificationMail.php:174
+msgid "View All Messages"
+msgstr "Alle Nachrichten ansehen"
+
+#: app/Services/EmailNotificationMail.php:194
+msgid "Email subject or body is empty."
+msgstr "Betreff oder Text der E-Mail ist leer."
+
+#: app/Services/Integrations/CrmSendMessageAction.php:26
+#: app/Services/Integrations/CrmSendMessageAction.php:39
+msgid "Send Message to Community Member"
+msgstr "Nachricht an ein Community-Mitglied senden"
+
+#: app/Services/Integrations/CrmSendMessageAction.php:27
+#: app/Services/Integrations/CrmSendMessageAction.php:40
+msgid "Send Inbox Message to FluentCommunity Messaging"
+msgstr "Postfach-Nachricht an FluentCommunity Messaging senden"
+
+#: app/Services/Integrations/CrmSendMessageAction.php:44
+msgid "Message to send"
+msgstr "Zu sendende Nachricht"
+
+#: app/Services/Integrations/CrmSendMessageAction.php:47
+msgid "Please write your message as markdown format"
+msgstr "Schreibe Deine Nachricht in Markdown."
+
+#: app/Services/Integrations/CrmSendMessageAction.php:48
+msgid ""
+"You can use markdown syntax in the message body. For example: **bold text**,"
+" *italic text*, [link](https://example.com), etc."
+msgstr ""
+"Im Nachrichtentext kannst Du Markdown verwenden. Zum Beispiel: **fetter "
+"Text**, *kursiver Text*, [Link](https://example.com) und so weiter."
+
+#: app/Services/Integrations/CrmSendMessageAction.php:55
+msgid "Select send from Admin/Moderator"
+msgstr "Absender wählen: Admin oder Moderator"
+
+#: app/Services/Integrations/CrmSendMessageAction.php:56
+msgid "Select Sender"
+msgstr "Absender wählen"
+
+#: app/Services/PluginManager/PluginUpdater.php:117
+msgid "Check Update"
+msgstr "Update prüfen"
+
+#: app/Services/PluginManager/PluginUpdater.php:225
+msgid "No data found for this plugin"
+msgstr "Für dieses Plugin wurden keine Daten gefunden"
+
+#: app/Services/PluginManager/PluginUpdater.php:313
+msgid ""
+"The downloaded update does not match its published checksum, so it was not "
+"installed. Please try again, and contact support if this keeps happening."
+msgstr ""
+"Die heruntergeladene Aktualisierung passt nicht zur veröffentlichten "
+"Prüfsumme und wurde deshalb nicht installiert. Bitte versuche es noch einmal"
+" und wende Dich an den Support, wenn das öfter vorkommt."
+
+#: app/Services/PluginManager/Updater.php:317
+msgid "You do not have permission to install plugin updates"
+msgstr "Du darfst keine Plugin-Updates installieren"
+
+#: app/Views/email/message.php:31
+#, php-format
+msgid "%s ago"
+msgstr "vor %s"
+
+#~ msgid "Add members"
+#~ msgstr "Mitglieder hinzufügen"
+
+#~ msgid "Block user"
+#~ msgstr "Blockieren"
+
+#~ msgid "Communities"
+#~ msgstr "Foren-Chats"
+
+#~ msgid "Delete conversation"
+#~ msgstr "Chat löschen"
+
+#~ msgid "Delete group"
+#~ msgstr "Gruppe löschen"
+
+#~ msgid "Dismiss admin"
+#~ msgstr "Admin-Rolle entziehen"
+
+#~ msgid "Group name"
+#~ msgstr "Gruppenname"
+
+#~ msgid "Join chat"
+#~ msgstr "Chat beitreten"
+
+#~ msgid "Leave chat"
+#~ msgstr "Chat verlassen"
+
+#~ msgid "Leave group"
+#~ msgstr "Gruppe verlassen"
+
+#~ msgid "Load more"
+#~ msgstr "Mehr laden"
+
+#~ msgid "Make admin"
+#~ msgstr "Zum Admin machen"
+
+#~ msgid "New message"
+#~ msgstr "Neue Chat-Nachricht"
+
+#~ msgid "Please wait while we search for users..."
+#~ msgstr "Einen Moment, es wird nach Mitgliedern gesucht …"
+
+#~ msgid "Remove member"
+#~ msgstr "Mitglied entfernen"
+
+#~ msgid "Rename group"
+#~ msgstr "Gruppe umbenennen"
+
+#~ msgid "Search for someone to send them a direct message"
+#~ msgstr "Suche ein Mitglied, um ihm eine Direkt-Nachricht zu schicken"
+
+#~ msgid "Search for someone..."
+#~ msgstr "Suche Mitglied …"
+
+#~ msgid "Unblock user"
+#~ msgstr "Blockierung aufheben"
+
+#~ msgid "View Community"
+#~ msgstr "Zum Forum"

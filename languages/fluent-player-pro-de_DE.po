@@ -1,0 +1,3063 @@
+# Copyright (C) 2026 WPManageNinja
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: FluentPlayer Pro 1.3.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fluent-player-pro\n"
+"POT-Creation-Date: 2026-09-03T20:04:40+02:00\n"
+"PO-Revision-Date: 2026-08-01T16:52:51+00:00\n"
+"Last-Translator: PC'L\n"
+"Language-Team: Deutsch\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: fluent-player-pro\n"
+"X-Generator: WP-CLI 2.12.0\n"
+
+# bewusst nicht uebersetzt: Produktname aus dem Plugin-Header.
+#. Plugin Name of the plugin
+#: fluent-player-pro.php
+msgid "FluentPlayer Pro"
+msgstr ""
+
+# bewusst nicht uebersetzt: URL aus dem Plugin-Header.
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: fluent-player-pro.php
+msgid "https://fluentplayer.com"
+msgstr ""
+
+#. Description of the plugin
+#: fluent-player-pro.php
+msgid ""
+"Pro extension for FluentPlayer - Adds advanced integrations and features"
+msgstr ""
+"Pro-Erweiterung für FluentPlayer – ergänzt zusätzliche Integrationen und "
+"Funktionen"
+
+# bewusst nicht uebersetzt: Autorenname aus dem Plugin-Header.
+#. Author of the plugin
+#: fluent-player-pro.php
+msgid "WPManageNinja"
+msgstr ""
+
+#: app/Blocks/PlaylistBlock.php:26 app/Hooks/Handlers/FluentPlaylistCPT.php:44
+msgid "Fluent Playlist"
+msgstr "Fluent Playlist"
+
+#: app/Blocks/PlaylistBlock.php:27
+msgid "Add a FluentPlayer playlist to your content"
+msgstr "Eine FluentPlayer-Playlist in den Inhalt einfügen"
+
+#: app/Blocks/PlaylistBlock.php:108
+msgid "Back"
+msgstr "Zurück"
+
+#: app/Blocks/PlaylistBlock.php:158
+msgid "Please select a playlist to display."
+msgstr "Bitte wähle eine Playlist zur Anzeige."
+
+#: app/Blocks/PlaylistBlock.php:208
+msgid "Please select at least one tag to display playlist by tags."
+msgstr ""
+"Bitte wähle mindestens einen Tag, um eine Playlist nach Tags anzuzeigen."
+
+#: app/EmailProviders/MailchimpProvider.php:31
+#: app/EmailProviders/MailchimpProvider.php:296
+msgid "API key is required for Mailchimp"
+msgstr "Für Mailchimp ist ein API-Key erforderlich"
+
+#: app/EmailProviders/MailchimpProvider.php:62
+#: app/Integrations/BunnyCDNStreamIntegration.php:141
+#: app/Integrations/GumletIntegration.php:118
+msgid "API Key"
+msgstr "API-Key"
+
+#: app/EmailProviders/MailchimpProvider.php:64
+msgid "Enter your Mailchimp API key"
+msgstr "Gib Deinen Mailchimp-API-Key ein"
+
+#: app/EmailProviders/MailchimpProvider.php:65
+msgid "You can create a new key on your Mailchimp account page."
+msgstr "Einen neuen Key legst Du in Deinem Mailchimp-Konto an."
+
+#: app/EmailProviders/MailchimpProvider.php:67
+msgid "Get My API Key"
+msgstr "API-Key holen"
+
+#: app/EmailProviders/MailchimpProvider.php:73
+msgid "Mailing List"
+msgstr "Verteiler"
+
+#: app/EmailProviders/MailchimpProvider.php:75
+msgid "Select a list"
+msgstr "Liste wählen"
+
+#: app/EmailProviders/MailchimpProvider.php:84 app/Services/TagService.php:13
+msgid "Tags"
+msgstr "Tags"
+
+#: app/EmailProviders/MailchimpProvider.php:85
+msgid "tag1, tag2, tag3"
+msgstr "tag1, tag2, tag3"
+
+#: app/EmailProviders/MailchimpProvider.php:86
+msgid "Enter comma-separated tags to apply to new subscribers"
+msgstr "Tags durch Komma trennen; sie werden neuen Abonnenten zugewiesen"
+
+#: app/EmailProviders/MailchimpProvider.php:103
+msgid "Mailchimp configuration is incomplete"
+msgstr "Die Mailchimp-Konfiguration ist unvollständig"
+
+#: app/EmailProviders/MailchimpProvider.php:159
+msgid "List ID is required to fetch tags"
+msgstr "Zum Laden der Tags ist eine Listen-ID erforderlich"
+
+#: app/EmailProviders/MailchimpProvider.php:180
+#: app/EmailProviders/MailchimpProvider.php:232
+msgid "Mailchimp API key not configured"
+msgstr "Es ist kein Mailchimp-API-Key hinterlegt"
+
+#: app/EmailProviders/MailchimpProvider.php:192
+msgid "Failed to retrieve Mailchimp lists"
+msgstr "Die Mailchimp-Listen konnten nicht geladen werden"
+
+#: app/EmailProviders/MailchimpProvider.php:209
+msgid "Mailchimp lists retrieved successfully"
+msgstr "Mailchimp-Listen geladen"
+
+#: app/EmailProviders/MailchimpProvider.php:244
+msgid "Failed to retrieve Mailchimp tags"
+msgstr "Die Mailchimp-Tags konnten nicht geladen werden"
+
+#: app/EmailProviders/MailchimpProvider.php:261
+msgid "Mailchimp tags retrieved successfully"
+msgstr "Mailchimp-Tags geladen"
+
+#: app/EmailProviders/MailchimpProvider.php:304
+msgid "Invalid Mailchimp API key"
+msgstr "Ungültiger Mailchimp-API-Key"
+
+#: app/EmailProviders/MailchimpProvider.php:309
+msgid "Mailchimp API key is valid"
+msgstr "Der Mailchimp-API-Key ist gültig"
+
+#: app/EmailProviders/WebhookProvider.php:38
+#: app/Hooks/Handlers/AnalyticsHandler.php:106
+#: app/Http/Controllers/AnalyticsController.php:62
+#: app/Http/Controllers/AnalyticsController.php:123
+#: app/Http/Controllers/AnalyticsController.php:606
+#: app/Http/Controllers/BunnyCDNController.php:33
+#: app/Http/Controllers/BunnyCDNController.php:119
+#: app/Http/Controllers/BunnyCDNController.php:160
+#: app/Http/Controllers/BunnyCDNController.php:203
+#: app/Http/Controllers/BunnyCDNController.php:222
+#: app/Http/Controllers/BunnyCDNController.php:262
+#: app/Http/Controllers/BunnyCDNController.php:326
+#: app/Http/Controllers/BunnyCDNController.php:379
+#: app/Http/Controllers/BunnyCDNController.php:431
+#: app/Http/Controllers/BunnyCDNController.php:482
+#: app/Http/Controllers/BunnyCDNController.php:499
+#: app/Http/Controllers/BunnyCDNController.php:506
+#: app/Http/Controllers/BunnyCDNStorageController.php:29
+#: app/Http/Controllers/BunnyCDNStorageController.php:90
+#: app/Http/Controllers/BunnyCDNStorageController.php:104
+#: app/Http/Controllers/BunnyCDNStorageController.php:175
+#: app/Http/Controllers/BunnyCDNStorageController.php:229
+#: app/Http/Controllers/BunnyCDNStorageController.php:281
+#: app/Http/Controllers/BunnyCDNStorageController.php:337
+#: app/Http/Controllers/MuxController.php:103
+#: app/Http/Controllers/MuxController.php:383
+#: app/Http/Controllers/SubtitleController.php:115
+msgid "Validation failed"
+msgstr "Die Prüfung ist fehlgeschlagen"
+
+#: app/EmailProviders/WebhookProvider.php:112
+msgid "Enable Webhooks"
+msgstr "Webhooks einschalten"
+
+#: app/EmailProviders/WebhookProvider.php:113
+msgid "Enable webhook integration to send email submissions to external URLs"
+msgstr ""
+"Webhooks einschalten, um E-Mail-Einsendungen an externe Adressen zu schicken"
+
+#: app/EmailProviders/WebhookProvider.php:119
+msgid "Webhook Configurations"
+msgstr "Webhook-Konfigurationen"
+
+#: app/EmailProviders/WebhookProvider.php:120
+msgid "Configure webhook endpoints to send email data"
+msgstr "Webhook-Endpunkte für den Versand der E-Mail-Daten einrichten"
+
+#: app/EmailProviders/WebhookProvider.php:121
+msgid "Add Webhook"
+msgstr "Webhook hinzufügen"
+
+#: app/EmailProviders/WebhookProvider.php:127
+msgid "Webhook Name"
+msgstr "Name des Webhooks"
+
+#: app/EmailProviders/WebhookProvider.php:128
+msgid "Enter a name for this webhook"
+msgstr "Gib diesem Webhook einen Namen"
+
+#: app/EmailProviders/WebhookProvider.php:134
+msgid "Request URL"
+msgstr "Anfrage-URL"
+
+#: app/EmailProviders/WebhookProvider.php:135
+msgid "https://your-webhook-endpoint.com"
+msgstr "https://your-webhook-endpoint.com"
+
+#: app/EmailProviders/WebhookProvider.php:141
+msgid "Request Method"
+msgstr "Anfrage-Methode"
+
+#: app/EmailProviders/WebhookProvider.php:152
+msgid "Email Field Name"
+msgstr "Name des E-Mail-Feldes"
+
+#: app/EmailProviders/WebhookProvider.php:154
+msgid ""
+"The name of the field that will contain the email address in the request"
+msgstr "Name des Feldes, in dem die E-Mail-Adresse in der Anfrage steht"
+
+#: app/EmailProviders/WebhookProvider.php:159
+msgid "Headers"
+msgstr "Header"
+
+#: app/EmailProviders/WebhookProvider.php:160
+msgid "Add Header"
+msgstr "Header hinzufügen"
+
+#: app/EmailProviders/WebhookProvider.php:165
+msgid "Header Name"
+msgstr "Name des Headers"
+
+#: app/EmailProviders/WebhookProvider.php:170
+msgid "Header Value"
+msgstr "Wert des Headers"
+
+#: app/EmailProviders/WebhookProvider.php:180
+msgid "Select Webhook"
+msgstr "Webhook wählen"
+
+#: app/EmailProviders/WebhookProvider.php:182
+msgid "Select a webhook endpoint"
+msgstr "Einen Webhook-Endpunkt wählen"
+
+#: app/EmailProviders/WebhookProvider.php:183
+msgid "Choose a webhook to send data to"
+msgstr "Wähle den Webhook, an den die Daten gehen"
+
+#: app/EmailProviders/WebhookProvider.php:214
+msgid "No webhooks are configured"
+msgstr "Es sind keine Webhooks eingerichtet"
+
+#: app/EmailProviders/WebhookProvider.php:234
+msgid "Webhook URL is not configured"
+msgstr "Es ist keine Webhook-URL hinterlegt"
+
+#: app/EmailProviders/WebhookProvider.php:260
+msgid "All webhook requests failed"
+msgstr "Alle Webhook-Anfragen sind fehlgeschlagen"
+
+#. translators: %s: comma-separated list of failed webhook names
+#: app/EmailProviders/WebhookProvider.php:269
+#, php-format
+msgid "Some webhooks failed: %s"
+msgstr "Einige Webhooks sind fehlgeschlagen: %s"
+
+#: app/EmailProviders/WebhookProvider.php:281
+msgid "All webhooks sent successfully"
+msgstr "Alle Webhooks wurden verschickt"
+
+#: app/Hooks/Handlers/AnalyticsHandler.php:70
+#: app/Hooks/Handlers/AnalyticsHandler.php:120
+msgid "Security check failed"
+msgstr "Die Sicherheitsprüfung (Nonce) ist fehlgeschlagen"
+
+#: app/Hooks/Handlers/AnalyticsHandler.php:82
+msgid "Too many requests"
+msgstr "Zu viele Anfragen"
+
+#: app/Hooks/Handlers/AnalyticsHandler.php:128
+msgid "Invalid media"
+msgstr "Ungültiges Medium"
+
+#: app/Hooks/Handlers/AnalyticsHandler.php:141
+msgid "Visit recorded successfully"
+msgstr "Aufruf gespeichert"
+
+#: app/Hooks/Handlers/AnalyticsHandler.php:148
+#: app/Http/Controllers/BunnyCDNStorageController.php:259
+#: app/Http/Controllers/CloudflareStreamController.php:40
+#: app/Http/Controllers/GumletController.php:51
+#: app/Http/Controllers/GumletController.php:76
+#: app/Http/Controllers/GumletController.php:118
+#: app/Http/Controllers/GumletController.php:143
+#: app/Http/Controllers/GumletController.php:173
+#: app/Http/Controllers/GumletController.php:198
+#: app/Http/Controllers/GumletController.php:228
+#: app/Http/Controllers/GumletController.php:253
+#: app/Http/Controllers/GumletController.php:278
+#: app/Http/Controllers/MuxController.php:53
+#: app/Http/Controllers/MuxController.php:84
+#: app/Http/Controllers/MuxController.php:136
+#: app/Http/Controllers/MuxController.php:178
+#: app/Http/Controllers/MuxController.php:209
+#: app/Http/Controllers/MuxController.php:250
+#: app/Http/Controllers/MuxController.php:275
+#: app/Http/Controllers/MuxController.php:350
+#: app/Http/Controllers/MuxController.php:405
+#: app/Http/Controllers/MuxController.php:444
+#: app/Http/Controllers/MuxController.php:498
+#: app/Http/Controllers/MuxController.php:522
+#: app/Http/Controllers/MuxController.php:574
+#: app/Http/Controllers/MuxController.php:605
+#: app/Http/Controllers/MuxController.php:636
+#: app/Http/Controllers/MuxController.php:667
+#: app/Http/Controllers/MuxController.php:691
+#: app/Http/Controllers/MuxController.php:717
+#: app/Http/Controllers/MuxController.php:748
+#: app/Http/Controllers/MuxController.php:781
+#: app/Http/Controllers/MuxController.php:805
+#: app/Http/Controllers/MuxController.php:827
+#: app/Http/Controllers/MuxController.php:858
+#: app/Http/Controllers/MuxController.php:884
+#: app/Http/Controllers/MuxController.php:919
+#: app/Http/Controllers/SubtitleController.php:298
+#: app/Http/Controllers/SubtitleController.php:342
+#: app/Http/Controllers/SubtitleController.php:459
+#: app/Http/Controllers/SubtitleController.php:711
+#: app/Http/Controllers/SubtitleController.php:785
+msgid "An unexpected error occurred"
+msgstr "Es ist ein unerwarteter Fehler aufgetreten"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:41
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:43
+msgid "Fluent Playlists"
+msgstr "Fluent Playlists"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:42
+#: app/Layouts/BasePlaylistLayout.php:263
+#: app/Views/playlist/layouts/grid.php:18
+#: app/Views/playlist/layouts/standard.php:21
+msgid "Playlist"
+msgstr "Playlist"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:45
+msgid "Add New"
+msgstr "Neu"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:46
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:481
+msgid "Add New Playlist"
+msgstr "Neue Playlist hinzufügen"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:47
+msgid "New Playlist"
+msgstr "Neue Playlist"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:48
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:477
+msgid "Edit Playlist"
+msgstr "Playlist bearbeiten"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:49
+msgid "View Playlist"
+msgstr "Playlist ansehen"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:50
+msgid "All Playlists"
+msgstr "Alle Playlists"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:51
+msgid "Search Playlists"
+msgstr "Playlists durchsuchen"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:52
+msgid "Parent Playlist:"
+msgstr "Übergeordnete Playlist:"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:53
+msgid "No playlists found."
+msgstr "Keine Playlists gefunden."
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:54
+msgid "No playlists found in Trash."
+msgstr "Keine Playlists im Papierkorb."
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:70
+msgid "Custom post type for FluentPlayer playlists."
+msgstr "Eigener Inhaltstyp für FluentPlayer-Playlists."
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:281
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:286
+msgid "Private"
+msgstr "Privat"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:282
+msgid "Draft"
+msgstr "Entwurf"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:283
+msgid "Pending"
+msgstr "Ausstehend"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php:284
+msgid "Scheduled"
+msgstr "Geplant"
+
+#: app/Hooks/Handlers/FreeDependencyNotice.php:47
+msgid ""
+"FluentPlayer Pro requires the free FluentPlayer plugin to be installed and "
+"activated."
+msgstr ""
+"FluentPlayer Pro setzt voraus, dass das kostenlose Plugin FluentPlayer "
+"installiert und aktiv ist."
+
+#: app/Hooks/Handlers/FreeDependencyNotice.php:54
+msgid ""
+"FluentPlayer Pro requires a newer version of the free FluentPlayer plugin. "
+"Please update FluentPlayer."
+msgstr ""
+"FluentPlayer Pro braucht eine neuere Fassung des kostenlosen Plugins "
+"FluentPlayer. Bitte aktualisiere FluentPlayer."
+
+#. translators: %s: minimum required free FluentPlayer version
+#: app/Hooks/Handlers/FreeDependencyNotice.php:90
+#, php-format
+msgid ""
+"FluentPlayer Pro requires the free FluentPlayer plugin version %s or higher."
+" Please update FluentPlayer."
+msgstr ""
+"FluentPlayer Pro setzt das kostenlose Plugin FluentPlayer in Version %s oder"
+" höher voraus. Bitte aktualisiere FluentPlayer."
+
+#: app/Hooks/Handlers/ModalHandler.php:50
+msgid "Invalid nonce"
+msgstr "Die Sicherheitsprüfung (Nonce) ist fehlgeschlagen."
+
+#: app/Hooks/Handlers/ModalHandler.php:56
+msgid "Invalid media ID"
+msgstr "Ungültige Medien-ID"
+
+#: app/Hooks/Handlers/ModalHandler.php:62
+#: app/Hooks/Handlers/ModalHandler.php:70
+#: app/Hooks/Handlers/ModalHandler.php:88
+#: app/Hooks/Handlers/ModalHandler.php:99
+#: app/Hooks/Handlers/ModalHandler.php:111
+#: app/Http/Controllers/SubtitleController.php:99
+#: app/Http/Controllers/SubtitleController.php:201
+#: app/Http/Controllers/SubtitleController.php:270
+#: app/Http/Controllers/SubtitleController.php:318
+#: app/Http/Controllers/SubtitleController.php:364
+#: app/Http/Controllers/SubtitleController.php:478
+#: app/Http/Controllers/SubtitleController.php:727
+#: app/Services/SubtitleService.php:195
+msgid "Media not found"
+msgstr "Medium nicht gefunden"
+
+#: app/Hooks/Handlers/ModalShortcodeHandler.php:59
+msgid "Play video"
+msgstr "Video abspielen"
+
+#: app/Hooks/Handlers/PlaylistShortcodeHandler.php:113
+msgid "This playlist is password protected. Enter the password to view it."
+msgstr ""
+"Diese Playlist ist passwortgeschützt. Gib das Passwort ein, um sie zu sehen."
+
+#: app/Http/Controllers/AnalyticsController.php:28
+#: app/Http/Controllers/AnalyticsController.php:217
+#: app/Http/Controllers/AnalyticsController.php:491
+#: app/Http/Controllers/AnalyticsController.php:528
+#: app/Http/Controllers/AnalyticsController.php:565
+msgid "Invalid date format"
+msgstr "Ungültiges Datumsformat"
+
+#: app/Http/Controllers/AnalyticsController.php:41
+msgid "Failed to load analytics stats."
+msgstr "Die Analysedaten konnten nicht geladen werden."
+
+#: app/Http/Controllers/AnalyticsController.php:102
+msgid "Failed to load top videos."
+msgstr "Die Top-Videos konnten nicht geladen werden."
+
+#: app/Http/Controllers/AnalyticsController.php:135
+msgid "Failed to load top users."
+msgstr "Die Top-Zuschauenden konnten nicht geladen werden."
+
+#: app/Http/Controllers/AnalyticsController.php:152
+#: app/Http/Controllers/AnalyticsController.php:185
+#: app/Http/Controllers/AnalyticsController.php:251
+#: app/Http/Controllers/AnalyticsController.php:284
+#: app/Http/Controllers/AnalyticsController.php:317
+#: app/Http/Controllers/AnalyticsController.php:623
+msgid "Invalid video ID"
+msgstr "Ungültige Video-ID"
+
+#: app/Http/Controllers/AnalyticsController.php:168
+msgid "Failed to load video stats."
+msgstr "Die Videodaten konnten nicht geladen werden."
+
+#: app/Http/Controllers/AnalyticsController.php:197
+msgid "Failed to load video retention data."
+msgstr "Die Bindungsdaten des Videos konnten nicht geladen werden."
+
+#: app/Http/Controllers/AnalyticsController.php:234
+msgid "Failed to load retention data."
+msgstr "Die Bindungsdaten konnten nicht geladen werden."
+
+#: app/Http/Controllers/AnalyticsController.php:267
+msgid "Failed to load video device data."
+msgstr "Die Gerätedaten des Videos konnten nicht geladen werden."
+
+#: app/Http/Controllers/AnalyticsController.php:300
+msgid "Failed to load video location data."
+msgstr "Die Ortsdaten des Videos konnten nicht geladen werden."
+
+#: app/Http/Controllers/AnalyticsController.php:330
+msgid "Failed to load video top users."
+msgstr "Die Top-Zuschauenden des Videos konnten nicht geladen werden."
+
+#: app/Http/Controllers/AnalyticsController.php:347
+#: app/Http/Controllers/AnalyticsController.php:373
+#: app/Http/Controllers/AnalyticsController.php:402
+#: app/Http/Controllers/AnalyticsController.php:454
+#: app/Http/Controllers/AnalyticsController.php:623
+msgid "Invalid user ID"
+msgstr "Ungültige Mitglieds-ID"
+
+#: app/Http/Controllers/AnalyticsController.php:356
+msgid "Failed to load user."
+msgstr "Das Mitglied konnte nicht geladen werden."
+
+#: app/Http/Controllers/AnalyticsController.php:385
+msgid "Failed to load user stats."
+msgstr "Die Daten des Mitglieds konnten nicht geladen werden."
+
+#: app/Http/Controllers/AnalyticsController.php:437
+msgid "Failed to load user top videos."
+msgstr "Die Top-Videos des Mitglieds konnten nicht geladen werden."
+
+#: app/Http/Controllers/AnalyticsController.php:471
+msgid "Failed to load user retention data."
+msgstr "Die Bindungsdaten des Mitglieds konnten nicht geladen werden."
+
+#: app/Http/Controllers/AnalyticsController.php:508
+msgid "Failed to load location data."
+msgstr "Die Ortsdaten konnten nicht geladen werden."
+
+#: app/Http/Controllers/AnalyticsController.php:545
+msgid "Failed to load device data."
+msgstr "Die Gerätedaten konnten nicht geladen werden."
+
+#: app/Http/Controllers/AnalyticsController.php:582
+msgid "Failed to load new vs returning viewers data."
+msgstr ""
+"Die Daten zu neuen und wiederkehrenden Zuschauenden konnten nicht geladen "
+"werden."
+
+#: app/Http/Controllers/AnalyticsController.php:617
+msgid "Invalid scope for performance over time."
+msgstr "Ungültiger Bereich für die Leistung im Zeitverlauf."
+
+#: app/Http/Controllers/AnalyticsController.php:650
+msgid "Failed to load performance over time data."
+msgstr "Die Daten zur Leistung im Zeitverlauf konnten nicht geladen werden."
+
+#: app/Http/Controllers/BunnyCDNController.php:76
+msgid "Failed to load Bunny videos"
+msgstr "Die Bunny-Videos konnten nicht geladen werden"
+
+#: app/Http/Controllers/BunnyCDNController.php:99
+msgid "Failed to load Bunny libraries"
+msgstr "Die Bunny-Bibliotheken konnten nicht geladen werden"
+
+#: app/Http/Controllers/BunnyCDNController.php:139
+msgid "Failed to load Bunny collections"
+msgstr "Die Bunny-Sammlungen konnten nicht geladen werden"
+
+#: app/Http/Controllers/BunnyCDNController.php:181
+msgid "Failed to create Bunny collection"
+msgstr "Die Bunny-Sammlung konnte nicht angelegt werden"
+
+#: app/Http/Controllers/BunnyCDNController.php:223
+#: app/Http/Controllers/BunnyCDNController.php:500
+#: app/Http/Controllers/GumletController.php:163
+msgid "Title is required"
+msgstr "Der Titel ist erforderlich"
+
+#: app/Http/Controllers/BunnyCDNController.php:240
+msgid "Failed to create Bunny video"
+msgstr "Das Bunny-Video konnte nicht angelegt werden"
+
+#: app/Http/Controllers/BunnyCDNController.php:280
+#: app/Http/Controllers/GumletController.php:102
+#: app/Http/Controllers/MuxController.php:303
+msgid "Invalid attachment ID or not a supported media file"
+msgstr "Ungültige Anhang-ID oder kein unterstütztes Medienformat"
+
+#: app/Http/Controllers/BunnyCDNController.php:304
+msgid "Failed to upload Bunny video"
+msgstr "Das Bunny-Video konnte nicht hochgeladen werden"
+
+#: app/Http/Controllers/BunnyCDNController.php:342
+#: app/Http/Controllers/BunnyCDNController.php:507
+#: app/Http/Controllers/CloudflareStreamController.php:78
+#: app/Http/Controllers/CloudflareStreamController.php:110
+#: app/Integrations/BunnyCDNStreamIntegration.php:391
+#: app/Integrations/BunnyCDNStreamIntegration.php:500
+#: app/Integrations/BunnyCDNStreamIntegration.php:543
+msgid "Video ID is required"
+msgstr "Die Video-ID ist erforderlich"
+
+#: app/Http/Controllers/BunnyCDNController.php:357
+msgid "Failed to delete Bunny video"
+msgstr "Das Bunny-Video konnte nicht gelöscht werden"
+
+#: app/Http/Controllers/BunnyCDNController.php:396
+#: app/Http/Controllers/BunnyCDNController.php:446
+msgid "Collection ID is required"
+msgstr "Die Sammlungs-ID ist erforderlich"
+
+#: app/Http/Controllers/BunnyCDNController.php:410
+msgid "Failed to update Bunny collection"
+msgstr "Die Bunny-Sammlung konnte nicht aktualisiert werden"
+
+#: app/Http/Controllers/BunnyCDNController.php:460
+msgid "Failed to delete Bunny collection"
+msgstr "Die Bunny-Sammlung konnte nicht gelöscht werden"
+
+#: app/Http/Controllers/BunnyCDNController.php:522
+msgid "Failed to update Bunny video"
+msgstr "Das Bunny-Video konnte nicht aktualisiert werden"
+
+#: app/Http/Controllers/BunnyCDNStorageController.php:45
+#: app/Http/Controllers/BunnyCDNStorageController.php:111
+#: app/Http/Controllers/BunnyCDNStorageController.php:119
+#: app/Http/Controllers/BunnyCDNStorageController.php:190
+#: app/Http/Controllers/BunnyCDNStorageController.php:239
+#: app/Http/Controllers/BunnyCDNStorageController.php:296
+#: app/Http/Controllers/BunnyCDNStorageController.php:354
+msgid "Invalid file path"
+msgstr "Ungültiger Dateipfad"
+
+#: app/Http/Controllers/BunnyCDNStorageController.php:67
+msgid "Failed to load Bunny storage videos"
+msgstr "Die Videos aus dem Bunny-Speicher konnten nicht geladen werden"
+
+#: app/Http/Controllers/BunnyCDNStorageController.php:105
+#: app/Services/BunnyCDNStorageService.php:355
+#: app/Services/BunnyCDNStorageService.php:516
+msgid "File name is required"
+msgstr "Der Dateiname ist erforderlich"
+
+#: app/Http/Controllers/BunnyCDNStorageController.php:148
+msgid "Video uploaded successfully"
+msgstr "Video hochgeladen"
+
+#: app/Http/Controllers/BunnyCDNStorageController.php:154
+msgid "Failed to upload video to Bunny storage"
+msgstr "Das Video konnte nicht in den Bunny-Speicher hochgeladen werden"
+
+#: app/Http/Controllers/BunnyCDNStorageController.php:205
+#: app/Integrations/BunnyCDNStreamIntegration.php:520
+msgid "Video deleted successfully"
+msgstr "Video gelöscht"
+
+#: app/Http/Controllers/BunnyCDNStorageController.php:209
+msgid "Failed to delete Bunny storage video"
+msgstr "Das Video konnte nicht aus dem Bunny-Speicher gelöscht werden"
+
+#: app/Http/Controllers/BunnyCDNStorageController.php:249
+msgid "Invalid or expired stream token"
+msgstr "Ungültiges oder abgelaufenes Stream-Token"
+
+#: app/Http/Controllers/BunnyCDNStorageController.php:260
+msgid "Please try again later."
+msgstr "Bitte versuche es später noch einmal."
+
+#: app/Http/Controllers/BunnyCDNStorageController.php:315
+msgid "Failed to load Bunny storage video"
+msgstr "Das Video aus dem Bunny-Speicher konnte nicht geladen werden"
+
+#: app/Http/Controllers/BunnyCDNStorageController.php:371
+msgid "Failed to create Bunny storage directory"
+msgstr "Das Verzeichnis im Bunny-Speicher konnte nicht angelegt werden"
+
+#: app/Http/Controllers/CloudflareStreamController.php:49
+msgid "Attachment ID is required"
+msgstr "Die Anhang-ID ist erforderlich"
+
+#: app/Http/Controllers/CloudflareStreamController.php:64
+msgid "Video ID and name are required"
+msgstr "Video-ID und Name sind erforderlich"
+
+#: app/Http/Controllers/CloudflareStreamController.php:132
+msgid "Invalid signature"
+msgstr "Ungültige Signatur"
+
+#: app/Http/Controllers/GumletController.php:66
+#: app/Http/Controllers/GumletController.php:133
+#: app/Http/Controllers/GumletController.php:158
+#: app/Http/Controllers/GumletController.php:188
+msgid "Invalid asset ID"
+msgstr "Ungültige Asset-ID"
+
+#: app/Http/Controllers/GumletController.php:95
+#: app/Services/GumletService.php:276
+msgid "A valid attachment is required"
+msgstr "Ein gültiger Anhang ist erforderlich"
+
+#: app/Http/Controllers/GumletController.php:243
+#: app/Http/Controllers/GumletController.php:268
+msgid "Invalid live asset ID"
+msgstr "Ungültige Live-Asset-ID"
+
+#. translators: %s: human readable time difference, e.g. "2 mins"
+#: app/Http/Controllers/LicenseController.php:113
+#, php-format
+msgid "%s ago"
+msgstr "vor %s"
+
+#: app/Http/Controllers/LicenseController.php:181
+msgid "Your license key has been successfully updated"
+msgstr "Dein Lizenzschlüssel wurde aktualisiert"
+
+#: app/Http/Controllers/LicenseController.php:223
+msgid "Your license key has been successfully deactivated"
+msgstr "Dein Lizenzschlüssel wurde deaktiviert"
+
+#: app/Http/Controllers/MuxController.php:69
+#: app/Http/Controllers/MuxController.php:194
+msgid "Asset ID is required"
+msgstr "Die Asset-ID ist erforderlich"
+
+#: app/Http/Controllers/MuxController.php:72
+#: app/Http/Controllers/MuxController.php:155
+#: app/Http/Controllers/MuxController.php:197
+#: app/Http/Controllers/MuxController.php:228
+#: app/Http/Controllers/MuxController.php:338
+#: app/Http/Controllers/MuxController.php:371
+#: app/Http/Controllers/MuxController.php:429
+#: app/Http/Controllers/MuxController.php:432
+#: app/Http/Controllers/MuxController.php:468
+#: app/Http/Controllers/MuxController.php:471
+#: app/Http/Controllers/MuxController.php:593
+#: app/Http/Controllers/MuxController.php:624
+#: app/Http/Controllers/MuxController.php:655
+#: app/Http/Controllers/MuxController.php:736
+#: app/Http/Controllers/MuxController.php:846
+#: app/Http/Controllers/MuxController.php:907
+msgid "Invalid ID format"
+msgstr "Ungültiges ID-Format"
+
+#: app/Http/Controllers/MuxController.php:152
+#: app/Http/Controllers/MuxController.php:225
+#: app/Http/Controllers/MuxController.php:368
+#: app/Http/Controllers/MuxController.php:423
+#: app/Http/Controllers/MuxController.php:426
+#: app/Http/Controllers/MuxController.php:462
+#: app/Http/Controllers/MuxController.php:465
+#: app/Http/Controllers/MuxController.php:590
+#: app/Http/Controllers/MuxController.php:621
+#: app/Http/Controllers/MuxController.php:652
+#: app/Http/Controllers/MuxController.php:733
+#: app/Http/Controllers/MuxController.php:843
+#: app/Http/Controllers/MuxController.php:904
+msgid "ID is required"
+msgstr "Die ID ist erforderlich"
+
+#: app/Http/Controllers/MuxController.php:294
+#: app/Http/Controllers/R2Controller.php:33
+msgid "An attachment is required"
+msgstr "Ein Anhang ist erforderlich"
+
+#: app/Http/Controllers/MuxController.php:320
+msgid "Failed to upload to Mux"
+msgstr "Der Upload zu Mux ist fehlgeschlagen"
+
+#: app/Http/Controllers/MuxController.php:335
+msgid "Upload ID is required"
+msgstr "Die Upload-ID ist erforderlich"
+
+#: app/Http/Controllers/MuxController.php:958
+msgid "Webhook processing failed"
+msgstr "Die Verarbeitung des Webhooks ist fehlgeschlagen"
+
+#: app/Http/Controllers/PlaylistController.php:39
+msgid "Failed to save playlist"
+msgstr "Die Playlist konnte nicht gespeichert werden"
+
+#: app/Http/Controllers/PlaylistController.php:48
+#: app/Http/Controllers/PlaylistController.php:83
+#: app/Http/Controllers/PlaylistController.php:98
+#: app/Http/Controllers/PlaylistController.php:113
+#: app/Services/BulkActionService.php:119
+msgid "Playlist not found"
+msgstr "Playlist nicht gefunden"
+
+#: app/Http/Controllers/PlaylistController.php:61
+msgid "Failed to update playlist"
+msgstr "Die Playlist konnte nicht aktualisiert werden"
+
+#: app/Http/Controllers/PlaylistController.php:92
+msgid "Playlist moved to trash"
+msgstr "Playlist in den Papierkorb verschoben"
+
+#: app/Http/Controllers/PlaylistController.php:107
+msgid "Playlist restored"
+msgstr "Playlist wiederhergestellt"
+
+#: app/Http/Controllers/PlaylistController.php:122
+msgid "Playlist permanently deleted"
+msgstr "Playlist endgültig gelöscht"
+
+#: app/Http/Controllers/PresetController.php:46
+msgid "Preset created successfully"
+msgstr "Preset angelegt"
+
+#: app/Http/Controllers/PresetController.php:52
+msgid "Failed to create preset"
+msgstr "Das Preset konnte nicht angelegt werden"
+
+#: app/Http/Controllers/PresetController.php:67
+#: app/Http/Controllers/PresetController.php:123
+msgid "Preset not found"
+msgstr "Preset nicht gefunden"
+
+#: app/Http/Controllers/PresetController.php:82
+msgid "Preset updated successfully"
+msgstr "Preset aktualisiert"
+
+#: app/Http/Controllers/PresetController.php:88
+msgid "Failed to update preset"
+msgstr "Das Preset konnte nicht aktualisiert werden"
+
+#: app/Http/Controllers/PresetController.php:128
+msgid "Cannot delete reserved preset"
+msgstr "Ein reserviertes Preset lässt sich nicht löschen"
+
+#: app/Http/Controllers/PresetController.php:135
+msgid "Preset deleted successfully"
+msgstr "Preset gelöscht"
+
+#: app/Http/Controllers/R2Controller.php:38
+msgid "The selected media file could not be found on the server"
+msgstr "Die gewählte Mediendatei wurde auf dem Server nicht gefunden"
+
+#. translators: %s: comma-separated list of allowed file extensions
+#: app/Http/Controllers/R2Controller.php:48
+#: app/Services/BunnyCDNStorageService.php:449
+#, php-format
+msgid "Invalid file format. Allowed formats: %s"
+msgstr "Ungültiges Dateiformat. Erlaubt sind: %s"
+
+#: app/Http/Controllers/R2Controller.php:70
+msgid "Video uploaded to Cloudflare R2"
+msgstr "Video zu Cloudflare R2 hochgeladen"
+
+#: app/Http/Controllers/R2Controller.php:85
+#: app/Http/Controllers/R2Controller.php:221
+msgid "Cloudflare R2 is not connected"
+msgstr "Cloudflare R2 ist nicht verbunden"
+
+#: app/Http/Controllers/R2Controller.php:130
+msgid "A folder name is required"
+msgstr "Ein Ordnername ist erforderlich"
+
+#: app/Http/Controllers/R2Controller.php:139
+msgid "Folder created"
+msgstr "Ordner angelegt"
+
+#: app/Http/Controllers/R2Controller.php:154
+msgid "An object key is required"
+msgstr "Ein Objektschlüssel ist erforderlich"
+
+#: app/Http/Controllers/R2Controller.php:162
+msgid "File deleted"
+msgstr "Datei gelöscht"
+
+#: app/Http/Controllers/R2Controller.php:177 app/Services/R2Service.php:526
+msgid "A folder is required"
+msgstr "Ein Ordner ist erforderlich"
+
+#: app/Http/Controllers/R2Controller.php:185
+msgid "Folder deleted"
+msgstr "Ordner gelöscht"
+
+#: app/Http/Controllers/R2Controller.php:201
+msgid "Source folder and new name are required"
+msgstr "Ausgangsordner und neuer Name sind erforderlich"
+
+#: app/Http/Controllers/R2Controller.php:209
+msgid "Folder renamed"
+msgstr "Ordner umbenannt"
+
+#: app/Http/Controllers/SubtitleController.php:32
+#: app/Http/Controllers/TimedContentController.php:35
+msgid "You are not allowed to edit this media."
+msgstr "Du darfst dieses Medium nicht bearbeiten."
+
+#: app/Http/Controllers/SubtitleController.php:39
+msgid "A valid YouTube video ID is required"
+msgstr "Eine gültige YouTube-Video-ID ist erforderlich"
+
+#: app/Http/Controllers/SubtitleController.php:44
+msgid "The saved media source does not contain a valid YouTube video ID."
+msgstr "Die gespeicherte Medienquelle enthält keine gültige YouTube-Video-ID."
+
+#: app/Http/Controllers/SubtitleController.php:48
+msgid "The requested YouTube video ID does not match the saved media source."
+msgstr ""
+"Die angefragte YouTube-Video-ID passt nicht zur gespeicherten Medienquelle."
+
+#: app/Http/Controllers/SubtitleController.php:93
+#: app/Http/Controllers/SubtitleController.php:265
+#: app/Http/Controllers/SubtitleController.php:313
+#: app/Http/Controllers/SubtitleController.php:359
+#: app/Http/Controllers/SubtitleController.php:472
+#: app/Http/Controllers/SubtitleController.php:722
+msgid "Media ID is required"
+msgstr "Die Medien-ID ist erforderlich"
+
+#: app/Http/Controllers/SubtitleController.php:131
+msgid "Invalid attachment"
+msgstr "Ungültiger Anhang"
+
+#: app/Http/Controllers/SubtitleController.php:158
+msgid "This subtitle is already attached to the media."
+msgstr "Dieser Untertitel hängt bereits an diesem Medium."
+
+#: app/Http/Controllers/SubtitleController.php:170
+msgid "Subtitle uploaded successfully"
+msgstr "Untertitel hochgeladen"
+
+#: app/Http/Controllers/SubtitleController.php:175
+msgid "Failed to upload subtitle"
+msgstr "Der Untertitel konnte nicht hochgeladen werden"
+
+#: app/Http/Controllers/SubtitleController.php:195
+msgid "Media ID & Subtitle ID is required"
+msgstr "Medien-ID und Untertitel-ID sind erforderlich"
+
+#: app/Http/Controllers/SubtitleController.php:210
+msgid "Subtitle removed successfully"
+msgstr "Untertitel entfernt"
+
+#: app/Http/Controllers/SubtitleController.php:213
+msgid "No subtitles found"
+msgstr "Keine Untertitel gefunden"
+
+#: app/Http/Controllers/SubtitleController.php:226
+msgid "Subtitle not found"
+msgstr "Untertitel nicht gefunden"
+
+#: app/Http/Controllers/SubtitleController.php:232
+msgid "Failed to delete subtitle attachment"
+msgstr "Der Untertitel-Anhang konnte nicht gelöscht werden"
+
+#: app/Http/Controllers/SubtitleController.php:242
+msgid "Hover preview removed."
+msgstr "Hover-Vorschau entfernt."
+
+#: app/Http/Controllers/SubtitleController.php:253
+msgid "Failed to remove subtitle"
+msgstr "Der Untertitel konnte nicht entfernt werden"
+
+#: app/Http/Controllers/SubtitleController.php:278
+#: app/Http/Controllers/SubtitleController.php:486
+msgid "YouTube subtitle import is only available for YouTube media."
+msgstr "Der Untertitel-Import von YouTube geht nur bei YouTube-Medien."
+
+#: app/Http/Controllers/SubtitleController.php:326
+#: app/Http/Controllers/SubtitleController.php:372
+msgid "Vimeo captions are only available for Vimeo media."
+msgstr "Vimeo-Untertitel gibt es nur für Vimeo-Medien."
+
+#: app/Http/Controllers/SubtitleController.php:381
+#: app/Http/Controllers/SubtitleController.php:500
+msgid "At least one caption track is required"
+msgstr "Mindestens eine Untertitelspur ist erforderlich"
+
+#: app/Http/Controllers/SubtitleController.php:386
+#: app/Http/Controllers/SubtitleController.php:506
+#, php-format
+msgid "You can import up to %d subtitle tracks at once."
+msgstr "Du kannst höchstens %d Untertitelspuren auf einmal übernehmen."
+
+#: app/Http/Controllers/SubtitleController.php:597
+#: app/Http/Controllers/SubtitleController.php:641
+#: app/Http/Controllers/SubtitleController.php:694
+#: app/Http/Controllers/SubtitleController.php:769
+#: app/Services/SubtitleService.php:636
+msgid "Hover preview queued. Reload or refresh status in a moment."
+msgstr ""
+"Die Hover-Vorschau ist eingereiht. Lade die Seite gleich neu oder "
+"aktualisiere den Status."
+
+#: app/Http/Controllers/SubtitleController.php:599
+msgid ""
+"Hover preview could not be queued because the subtitle service is not "
+"configured."
+msgstr ""
+"Die Hover-Vorschau ließ sich nicht einreihen, weil der Untertitel-Dienst "
+"nicht eingerichtet ist."
+
+#: app/Http/Controllers/SubtitleController.php:622
+#: app/Http/Controllers/SubtitleController.php:773
+#: app/Services/SubtitleService.php:642
+msgid "Hover preview could not be queued right now."
+msgstr "Die Hover-Vorschau ließ sich gerade nicht einreihen."
+
+#: app/Http/Controllers/SubtitleController.php:632
+#, php-format
+msgid "%d selected subtitle was already imported"
+msgid_plural "%d selected subtitles were already imported"
+msgstr[0] "%d gewählter Untertitel war bereits übernommen"
+msgstr[1] "%d gewählte Untertitel waren bereits übernommen"
+
+#: app/Http/Controllers/SubtitleController.php:657
+msgid "No subtitles could be imported."
+msgstr "Es konnten keine Untertitel übernommen werden."
+
+#: app/Http/Controllers/SubtitleController.php:660
+#, php-format
+msgid "None of the selected subtitles could be imported. Failed: %d."
+msgstr ""
+"Keiner der gewählten Untertitel ließ sich übernehmen. Fehlgeschlagen: %d."
+
+#: app/Http/Controllers/SubtitleController.php:667
+#, php-format
+msgid "Already imported: %d."
+msgstr "Bereits übernommen: %d."
+
+#: app/Http/Controllers/SubtitleController.php:681
+#, php-format
+msgid "%d subtitle(s) imported successfully"
+msgstr "%d Untertitel übernommen"
+
+#: app/Http/Controllers/SubtitleController.php:687
+#, php-format
+msgid "Skipped: %d. Failed: %d."
+msgstr "Übersprungen: %d. Fehlgeschlagen: %d."
+
+#: app/Http/Controllers/SubtitleController.php:735
+msgid "YouTube hover preview generation is only available for YouTube media."
+msgstr "Die Hover-Vorschau von YouTube geht nur bei YouTube-Medien."
+
+#: app/Http/Controllers/SubtitleController.php:747
+#: app/Http/Controllers/SubtitleController.php:751
+#: app/Services/SubtitleService.php:215
+msgid "Hover preview is already enabled."
+msgstr "Die Hover-Vorschau ist bereits eingeschaltet."
+
+#: app/Http/Controllers/SubtitleController.php:756
+msgid "Subtitle service is not configured."
+msgstr "Der Untertitel-Dienst ist nicht eingerichtet."
+
+#: app/Http/Controllers/TagController.php:22
+#: app/Http/Controllers/TagController.php:59
+msgid "Tag name is required"
+msgstr "Der Tag-Name ist erforderlich"
+
+#: app/Http/Controllers/TagController.php:32
+msgid "Tag created successfully"
+msgstr "Tag angelegt"
+
+#: app/Http/Controllers/TagController.php:41
+msgid "Both old and new tag names are required"
+msgstr "Alter und neuer Tag-Name sind erforderlich"
+
+#: app/Http/Controllers/TagController.php:51
+msgid "Tag renamed successfully"
+msgstr "Tag umbenannt"
+
+#: app/Http/Controllers/TagController.php:69
+msgid "Tag deleted successfully"
+msgstr "Tag gelöscht"
+
+#: app/Http/Controllers/TimedContentController.php:73
+msgid "Timed content updated"
+msgstr "Zeitgesteuerter Inhalt aktualisiert"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:57
+msgid "Storage User Name is required"
+msgstr "Der Speicher-Benutzername ist erforderlich"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:61
+msgid "Storage Hostname is required"
+msgstr "Der Speicher-Hostname ist erforderlich"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:65
+msgid "Storage Password is required"
+msgstr "Das Speicher-Passwort ist erforderlich"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:82
+#: app/Integrations/BunnyCDNStreamIntegration.php:72
+#: app/Integrations/CloudflareStreamIntegration.php:104
+#: app/Integrations/GumletIntegration.php:77
+#: app/Integrations/MuxIntegration.php:91
+#: app/Integrations/R2Integration.php:117
+msgid "Setup Instructions"
+msgstr "Einrichtungshinweise"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:84
+msgid "BunnyCDN Storage Setup Guide"
+msgstr "BunnyCDN-Storage einrichten"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:87
+#: app/Integrations/BunnyCDNStreamIntegration.php:77
+msgid "Step 1: Create BunnyCDN Account"
+msgstr "Schritt 1: BunnyCDN-Konto anlegen"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:88
+#: app/Integrations/BunnyCDNStreamIntegration.php:78
+msgid ""
+"If you don't have a BunnyCDN account yet, visit the BunnyCDN website and "
+"create a new account."
+msgstr ""
+"Wenn Du noch kein BunnyCDN-Konto hast, lege auf der BunnyCDN-Website eins "
+"an."
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:92
+#: app/Integrations/BunnyCDNStreamIntegration.php:82
+msgid "Visit BunnyCDN"
+msgstr "Zu BunnyCDN"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:96
+msgid "Step 2: Create Storage Zone"
+msgstr "Schritt 2: Storage-Zone anlegen"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:97
+msgid ""
+"In your BunnyCDN dashboard, navigate to Storage and create a new Storage "
+"Zone. This will be used to store your video files."
+msgstr ""
+"Gehe im BunnyCDN-Dashboard auf Storage und lege eine neue Storage-Zone an. "
+"Dort liegen später Deine Videodateien."
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:99
+msgid "Choose a region closest to your audience for better performance."
+msgstr "Wähle die Region, die Deinem Publikum am nächsten liegt."
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:102
+msgid "Step 3: Get Storage Credentials"
+msgstr "Schritt 3: Zugangsdaten holen"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:103
+msgid ""
+"After creating the storage zone, you'll get the FTP/Storage credentials "
+"including username and password."
+msgstr ""
+"Nach dem Anlegen der Storage-Zone bekommst Du die FTP- beziehungsweise "
+"Storage-Zugangsdaten mit Benutzername und Passwort."
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:105
+msgid "These credentials are different from your account login credentials."
+msgstr "Diese Zugangsdaten sind nicht Deine Konto-Anmeldedaten."
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:108
+msgid "Step 4: Note the Hostname"
+msgstr "Schritt 4: Hostname notieren"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:109
+msgid ""
+"The storage hostname is typically \"storage.bunnycdn.com\" but may vary "
+"based on your region."
+msgstr ""
+"Der Storage-Hostname lautet meist „storage.bunnycdn.com“, kann je nach "
+"Region aber abweichen."
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:111
+msgid ""
+"If you're using a custom pull zone, you'll need to use that hostname "
+"instead."
+msgstr "Bei einer eigenen Pull-Zone nimmst Du stattdessen deren Hostname."
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:114
+#: app/Integrations/BunnyCDNStreamIntegration.php:108
+msgid "Step 5: Configure Integration"
+msgstr "Schritt 5: Integration einrichten"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:115
+msgid ""
+"Enter your storage username, hostname, and password in the fields below and "
+"enable the integration."
+msgstr ""
+"Trage Benutzername, Hostname und Passwort unten ein und schalte die "
+"Integration ein."
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:119
+#: app/Integrations/BunnyCDNStreamIntegration.php:113
+msgid "Step 6: Secure Your Videos (Optional)"
+msgstr "Schritt 6: Videos absichern (optional)"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:120
+msgid ""
+"To protect your videos with signed URLs, enable Token Authentication on your"
+" Storage Pull Zone and enter the security key below."
+msgstr ""
+"Um Deine Videos mit signierten URLs zu schützen, schalte in der Storage-"
+"Pull-Zone die Token-Authentifizierung ein und trage den Sicherheitsschlüssel"
+" unten ein."
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:122
+msgid ""
+"Go to CDN → Pull Zones → Your Pull Zone → Security → Enable \"Token "
+"Authentication\" → Copy the Token Authentication Key and paste it in the "
+"\"CDN Security Key\" field below."
+msgstr ""
+"Gehe zu CDN → Pull Zones → Deine Pull-Zone → Security → „Token "
+"Authentication“ einschalten → den Token-Authentication-Key kopieren und "
+"unten in „CDN-Sicherheitsschlüssel“ einfügen."
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:125
+msgid "Step 7: Test Connection"
+msgstr "Schritt 7: Verbindung testen"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:126
+#: app/Integrations/BunnyCDNStreamIntegration.php:126
+msgid ""
+"After saving your settings, use the \"Test Connection\" button to verify "
+"that the integration is working correctly."
+msgstr ""
+"Nach dem Speichern prüfst Du mit „Verbindung testen“, ob die Integration "
+"läuft."
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:135
+msgid "Enable BunnyCDN Storage"
+msgstr "BunnyCDN-Storage einschalten"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:136
+msgid "Enable BunnyCDN Storage integration for video file storage"
+msgstr "BunnyCDN-Storage als Ablage für Videodateien einschalten"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:141
+msgid "Storage User Name"
+msgstr "Speicher-Benutzername"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:143
+msgid "Your BunnyCDN Storage User name"
+msgstr "Dein BunnyCDN-Storage-Benutzername"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:144
+msgid "Enter your storage user name"
+msgstr "Gib Deinen Speicher-Benutzernamen ein"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:149
+msgid "Storage Hostname"
+msgstr "Speicher-Hostname"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:151
+msgid "Your BunnyCDN Storage hostname (e.g., storage.bunnycdn.com)"
+msgstr "Dein BunnyCDN-Storage-Hostname (z. B. storage.bunnycdn.com)"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:152
+msgid "storage.bunnycdn.com"
+msgstr "storage.bunnycdn.com"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:158
+msgid "Storage Password"
+msgstr "Speicher-Passwort"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:160
+msgid "Your BunnyCDN Storage password/API key"
+msgstr "Dein BunnyCDN-Storage-Passwort beziehungsweise API-Key"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:161
+msgid "Enter your storage password"
+msgstr "Gib Dein Speicher-Passwort ein"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:166
+msgid "CDN Hostname (Pull Zone)"
+msgstr "CDN-Hostname (Pull-Zone)"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:168
+msgid ""
+"Your linked Pull Zone hostname for public video delivery (e.g., "
+"myzone.b-cdn.net). If empty, videos will be served through the WordPress "
+"proxy."
+msgstr ""
+"Der Hostname Deiner verknüpften Pull-Zone für die öffentliche Auslieferung "
+"(z. B. myzone.b-cdn.net). Bleibt das Feld leer, laufen die Videos über den "
+"WordPress-Proxy."
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:169
+msgid "myzone.b-cdn.net"
+msgstr "myzone.b-cdn.net"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:174
+msgid "CDN Security Key"
+msgstr "CDN-Sicherheitsschlüssel"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:176
+msgid ""
+"The Token Authentication Key from your Pull Zone security settings. Required"
+" for signed URLs."
+msgstr ""
+"Der Token-Authentication-Key aus den Sicherheitseinstellungen Deiner Pull-"
+"Zone. Für signierte URLs erforderlich."
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:177
+msgid "Enter your Pull Zone token authentication key"
+msgstr "Gib den Token-Authentication-Key Deiner Pull-Zone ein"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:201
+msgid "All storage credentials are required"
+msgstr "Alle Speicher-Zugangsdaten sind erforderlich"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:209
+msgid "Failed to connect to BunnyCDN Storage. Please check your credentials."
+msgstr ""
+"Die Verbindung zu BunnyCDN-Storage ist fehlgeschlagen. Bitte prüfe die "
+"Zugangsdaten."
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:227
+#: app/Integrations/BunnyCDNStorageIntegration.php:272
+#: app/Services/BunnyCDNStorageService.php:99
+msgid "BunnyCDN Storage integration is not enabled"
+msgstr "Die BunnyCDN-Storage-Integration ist nicht eingeschaltet"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:262
+#: app/Integrations/BunnyCDNStreamIntegration.php:239
+msgid "Invalid action"
+msgstr "Ungültige Aktion"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:281
+msgid "BunnyCDN storage credentials are not configured"
+msgstr "Es sind keine BunnyCDN-Storage-Zugangsdaten hinterlegt"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:361
+#: app/Integrations/BunnyCDNStreamIntegration.php:434
+msgid "No file was uploaded"
+msgstr "Es wurde keine Datei hochgeladen"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:375
+msgid "Could not read uploaded file"
+msgstr "Die hochgeladene Datei ließ sich nicht lesen"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:409
+#: app/Integrations/BunnyCDNStorageIntegration.php:434
+#: app/Integrations/BunnyCDNStorageIntegration.php:496
+msgid "File path is required"
+msgstr "Der Dateipfad ist erforderlich"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:445
+msgid "File deleted successfully"
+msgstr "Datei gelöscht"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:462
+msgid "Folder path is required"
+msgstr "Der Ordnerpfad ist erforderlich"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:478
+msgid "Folder created successfully"
+msgstr "Ordner angelegt"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php:527
+#: app/Services/BunnyCDNStorageService.php:390
+#: app/Services/SubtitleService.php:50
+msgid "File not found"
+msgstr "Datei nicht gefunden"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:55
+#: app/Integrations/BunnyCDNStreamIntegration.php:165
+#: app/Integrations/GumletIntegration.php:51
+msgid "API Key is required"
+msgstr "Der API-Key ist erforderlich"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:74
+msgid "BunnyCDN Stream Setup Guide"
+msgstr "BunnyCDN-Stream einrichten"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:86
+msgid "Step 2: Access Account Settings"
+msgstr "Schritt 2: Kontoeinstellungen öffnen"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:87
+msgid ""
+"Once logged in, navigate to your account settings to find the API section."
+msgstr ""
+"Nach der Anmeldung findest Du den API-Bereich in den Kontoeinstellungen."
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:89
+msgid ""
+"Click on profile icon of the top left and select Account Settings then API "
+"Key from the menu in your BunnyCDN dashboard."
+msgstr ""
+"Klicke im BunnyCDN-Dashboard oben links auf das Profilsymbol, dann auf "
+"Account Settings und im Menü auf API Key."
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:92
+msgid "Get API Key"
+msgstr "API-Key holen"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:96
+msgid "Step 3: Copy API Key"
+msgstr "Schritt 3: API-Key kopieren"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:97
+msgid ""
+"In the API section, generate a new API key or copy your existing one. This "
+"key will be used to authenticate API requests."
+msgstr ""
+"Erzeuge im API-Bereich einen neuen API-Key oder kopiere den vorhandenen. "
+"Damit werden die API-Anfragen authentifiziert."
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:99
+msgid "Keep this API key secure and never share it publicly."
+msgstr "Halte diesen API-Key geheim und gib ihn nie öffentlich weiter."
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:102
+msgid "Step 4: Create Stream Library"
+msgstr "Schritt 4: Stream-Bibliothek anlegen"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:103
+msgid ""
+"Create a new Stream library in your BunnyCDN dashboard if you haven't "
+"already. This is where your videos will be stored."
+msgstr ""
+"Lege im BunnyCDN-Dashboard eine Stream-Bibliothek an, falls noch nicht "
+"geschehen. Dort liegen später Deine Videos."
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:105
+msgid "You can create multiple libraries for different projects or purposes."
+msgstr "Du kannst mehrere Bibliotheken für verschiedene Projekte anlegen."
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:109
+msgid ""
+"Enter your API key in the field below and enable the integration. The system"
+" will automatically test the connection."
+msgstr ""
+"Trage den API-Key unten ein und schalte die Integration ein. Die Verbindung "
+"wird automatisch geprüft."
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:114
+msgid ""
+"To protect your videos with signed URLs, enable Token Authentication on your"
+" Stream library in the BunnyCDN dashboard. FluentPlayer will automatically "
+"sign all video requests."
+msgstr ""
+"Um Deine Videos mit signierten URLs zu schützen, schalte in der Stream-"
+"Bibliothek im BunnyCDN-Dashboard die Token-Authentifizierung ein. "
+"FluentPlayer signiert dann alle Videoanfragen automatisch."
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:116
+msgid "Go to Stream → Your Library → Security → Enable \"Token Authentication\"."
+msgstr ""
+"Gehe zu Stream → Deine Bibliothek → Security → „Token Authentication“ "
+"einschalten."
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:119
+msgid "Step 7: Configure Allowed Referrers"
+msgstr "Schritt 7: Erlaubte Referrer eintragen"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:120
+msgid ""
+"If you enable \"Block None Referrer\" on your Stream library, you must add "
+"your website domain to the Allowed Referrers list, otherwise all video "
+"requests will be blocked."
+msgstr ""
+"Wenn Du in der Stream-Bibliothek „Block None Referrer“ einschaltest, musst "
+"Du die Domain Deiner Website in die Liste der erlaubten Referrer eintragen –"
+" sonst werden alle Videoanfragen blockiert."
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:122
+msgid ""
+"Go to Stream → Your Library → Security → Allowed Referrers → Add your domain"
+" (e.g., yourdomain.com)."
+msgstr ""
+"Gehe zu Stream → Deine Bibliothek → Security → Allowed Referrers → Deine "
+"Domain eintragen (z. B. deine-domain.de)."
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:125
+msgid "Step 8: Test Connection"
+msgstr "Schritt 8: Verbindung testen"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:135
+msgid "Enable BunnyCDN Stream"
+msgstr "BunnyCDN-Stream einschalten"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:136
+msgid "Enable BunnyCDN Stream integration for video hosting"
+msgstr "BunnyCDN-Stream als Videohosting einschalten"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:143
+msgid "Your BunnyCDN API key from the account settings"
+msgstr "Dein BunnyCDN-API-Key aus den Kontoeinstellungen"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:144
+msgid "Enter your BunnyCDN API key"
+msgstr "Gib Deinen BunnyCDN-API-Key ein"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:173
+msgid "Invalid API key. Please check your BunnyCDN credentials."
+msgstr "Ungültiger API-Key. Bitte prüfe Deine BunnyCDN-Zugangsdaten."
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:191
+#: app/Integrations/BunnyCDNStreamIntegration.php:249
+#: app/Services/BunnyCDNService.php:79
+msgid "BunnyCDN Stream integration is not enabled"
+msgstr "Die BunnyCDN-Stream-Integration ist nicht eingeschaltet"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:198
+#: app/Integrations/BunnyCDNStreamIntegration.php:256
+msgid "API Key is not configured"
+msgstr "Es ist kein API-Key hinterlegt"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:329
+#: app/Integrations/BunnyCDNStreamIntegration.php:387
+#: app/Integrations/BunnyCDNStreamIntegration.php:430
+#: app/Integrations/BunnyCDNStreamIntegration.php:496
+#: app/Integrations/BunnyCDNStreamIntegration.php:539
+#: app/Integrations/BunnyCDNStreamIntegration.php:581
+msgid "Library ID is required"
+msgstr "Die Bibliotheks-ID ist erforderlich"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:343
+#: app/Integrations/BunnyCDNStreamIntegration.php:400
+#: app/Integrations/BunnyCDNStreamIntegration.php:443
+#: app/Integrations/BunnyCDNStreamIntegration.php:509
+#: app/Integrations/BunnyCDNStreamIntegration.php:552
+#: app/Integrations/BunnyCDNStreamIntegration.php:590
+#: app/Services/BunnyCDNService.php:102
+msgid "Library API key not found. Please refresh your BunnyCDN settings."
+msgstr ""
+"Der API-Key der Bibliothek wurde nicht gefunden. Bitte lade Deine BunnyCDN-"
+"Einstellungen neu."
+
+#: app/Integrations/BunnyCDNStreamIntegration.php:465
+msgid "Failed to create video record"
+msgstr "Der Videoeintrag konnte nicht angelegt werden"
+
+#: app/Integrations/CloudflareStreamIntegration.php:47
+msgid "Cloudflare Account ID is required"
+msgstr "Die Cloudflare-Konto-ID ist erforderlich"
+
+#: app/Integrations/CloudflareStreamIntegration.php:51
+msgid "Cloudflare API Token is required"
+msgstr "Das Cloudflare-API-Token ist erforderlich"
+
+#: app/Integrations/CloudflareStreamIntegration.php:69
+msgid "Account ID and API Token are required"
+msgstr "Konto-ID und API-Token sind erforderlich"
+
+#: app/Integrations/CloudflareStreamIntegration.php:76
+msgid ""
+"Could not connect to Cloudflare Stream. Please check your Account ID and API"
+" Token."
+msgstr ""
+"Die Verbindung zu Cloudflare Stream ist fehlgeschlagen. Bitte prüfe Konto-ID"
+" und API-Token."
+
+#: app/Integrations/CloudflareStreamIntegration.php:106
+msgid "Cloudflare Stream Setup Guide"
+msgstr "Cloudflare Stream einrichten"
+
+#: app/Integrations/CloudflareStreamIntegration.php:109
+msgid "Step 1: Create an API Token"
+msgstr "Schritt 1: API-Token anlegen"
+
+#: app/Integrations/CloudflareStreamIntegration.php:110
+msgid ""
+"In the Cloudflare dashboard: Manage Account → Account API Tokens → Create "
+"Token → give the token a name → set Policy to \"Entire Account\" → search "
+"for \"Stream\" → grant Read and Write access → create the token."
+msgstr ""
+"Im Cloudflare-Dashboard: Manage Account → Account API Tokens → Create Token "
+"→ Namen vergeben → Policy auf „Entire Account“ setzen → nach „Stream“ suchen"
+" → Lese- und Schreibrecht geben → Token anlegen."
+
+#: app/Integrations/CloudflareStreamIntegration.php:114
+msgid "Open Account API Tokens"
+msgstr "Account API Tokens öffnen"
+
+#: app/Integrations/CloudflareStreamIntegration.php:116
+msgid "The token is shown only once — copy it now."
+msgstr "Das Token wird nur einmal angezeigt – kopiere es jetzt."
+
+#: app/Integrations/CloudflareStreamIntegration.php:119
+msgid "Step 2: Paste your Account ID + API Token below"
+msgstr "Schritt 2: Konto-ID und API-Token unten einfügen"
+
+#: app/Integrations/CloudflareStreamIntegration.php:120
+msgid ""
+"Copy your Account ID (shown in the Stream page sidebar of the Cloudflare "
+"dashboard) and the API Token you just created, then paste both into the "
+"fields below."
+msgstr ""
+"Kopiere Deine Konto-ID (steht in der Seitenleiste der Stream-Seite im "
+"Cloudflare-Dashboard) und das eben angelegte API-Token und füge beides unten"
+" ein."
+
+#: app/Integrations/CloudflareStreamIntegration.php:124
+msgid "Open Cloudflare Stream"
+msgstr "Cloudflare Stream öffnen"
+
+#: app/Integrations/CloudflareStreamIntegration.php:133
+msgid "Enable Cloudflare Stream"
+msgstr "Cloudflare Stream einschalten"
+
+#: app/Integrations/CloudflareStreamIntegration.php:134
+msgid "Enable Cloudflare Stream for video hosting and adaptive streaming"
+msgstr ""
+"Cloudflare Stream für Videohosting und adaptives Streaming einschalten"
+
+#: app/Integrations/CloudflareStreamIntegration.php:139
+#: app/Integrations/R2Integration.php:167
+msgid "Cloudflare Account ID"
+msgstr "Cloudflare-Konto-ID"
+
+#: app/Integrations/CloudflareStreamIntegration.php:141
+msgid "Found on the Stream page sidebar in your Cloudflare dashboard."
+msgstr "Steht in der Seitenleiste der Stream-Seite im Cloudflare-Dashboard."
+
+#: app/Integrations/CloudflareStreamIntegration.php:142
+msgid "Enter your Account ID"
+msgstr "Gib Deine Konto-ID ein"
+
+#: app/Integrations/CloudflareStreamIntegration.php:147
+msgid "Cloudflare API Token"
+msgstr "Cloudflare-API-Token"
+
+#: app/Integrations/CloudflareStreamIntegration.php:149
+msgid ""
+"An API Token with Stream Read + Edit permissions. Also used to mint playback"
+" tokens for private videos."
+msgstr ""
+"Ein API-Token mit Lese- und Schreibrecht für Stream. Es erzeugt auch die "
+"Wiedergabe-Token für private Videos."
+
+#: app/Integrations/CloudflareStreamIntegration.php:150
+msgid "Enter your API Token"
+msgstr "Gib Dein API-Token ein"
+
+#: app/Integrations/GumletIntegration.php:54
+msgid "Workspace ID is required"
+msgstr "Die Workspace-ID ist erforderlich"
+
+#: app/Integrations/GumletIntegration.php:61
+msgid "Signing Secret is required when signed URLs are enabled."
+msgstr ""
+"Bei eingeschalteten signierten URLs ist das Signatur-Secret erforderlich."
+
+#: app/Integrations/GumletIntegration.php:79
+msgid "Gumlet Setup Guide"
+msgstr "Gumlet einrichten"
+
+#: app/Integrations/GumletIntegration.php:82
+msgid "Step 1: Create Gumlet Account"
+msgstr "Schritt 1: Gumlet-Konto anlegen"
+
+#: app/Integrations/GumletIntegration.php:83
+msgid ""
+"If you don't have a Gumlet account yet, visit the Gumlet website and sign "
+"up."
+msgstr ""
+"Wenn Du noch kein Gumlet-Konto hast, registriere Dich auf der Gumlet-"
+"Website."
+
+#: app/Integrations/GumletIntegration.php:87
+msgid "Sign up for Gumlet"
+msgstr "Bei Gumlet registrieren"
+
+#: app/Integrations/GumletIntegration.php:91
+msgid "Step 2: Generate an API Key"
+msgstr "Schritt 2: API-Key erzeugen"
+
+#: app/Integrations/GumletIntegration.php:92
+msgid ""
+"In the Gumlet dashboard go to Developers > API Keys and create a key with "
+"the \"Video Admin\" role."
+msgstr ""
+"Gehe im Gumlet-Dashboard auf Developers > API Keys und lege einen Key mit "
+"der Rolle „Video Admin“ an."
+
+#: app/Integrations/GumletIntegration.php:94
+msgid "Keep your API Key secure and never share it publicly."
+msgstr "Halte Deinen API-Key geheim und gib ihn nie öffentlich weiter."
+
+#: app/Integrations/GumletIntegration.php:97
+msgid "Step 3: Copy your Collection ID"
+msgstr "Schritt 3: Collection-ID kopieren"
+
+#: app/Integrations/GumletIntegration.php:98
+msgid ""
+"Open your Video collection in the dashboard and copy its ID (also shown as "
+"the Workspace / Source ID). It is used to list and upload videos."
+msgstr ""
+"Öffne Deine Video-Collection im Dashboard und kopiere ihre ID (erscheint "
+"auch als Workspace- oder Source-ID). Damit werden Videos aufgelistet und "
+"hochgeladen."
+
+#: app/Integrations/GumletIntegration.php:102
+msgid "Step 4: Configure & Test"
+msgstr "Schritt 4: Einrichten und testen"
+
+#: app/Integrations/GumletIntegration.php:103
+msgid ""
+"Enter your API Key and Collection ID below, enable the integration, save, "
+"then use \"Test Connection\"."
+msgstr ""
+"Trage API-Key und Collection-ID unten ein, schalte die Integration ein, "
+"speichere und nutze dann „Verbindung testen“."
+
+#: app/Integrations/GumletIntegration.php:112
+msgid "Enable Gumlet"
+msgstr "Gumlet einschalten"
+
+#: app/Integrations/GumletIntegration.php:113
+msgid "Enable Gumlet integration for video hosting, streaming, and live"
+msgstr "Gumlet für Videohosting, Streaming und Live einschalten"
+
+#: app/Integrations/GumletIntegration.php:120
+msgid "Your Gumlet API Key from Developers > API Keys (Video Admin role)."
+msgstr "Dein Gumlet-API-Key aus Developers > API Keys (Rolle „Video Admin“)."
+
+#: app/Integrations/GumletIntegration.php:121
+msgid "Enter your Gumlet API Key"
+msgstr "Gib Deinen Gumlet-API-Key ein"
+
+#: app/Integrations/GumletIntegration.php:126
+msgid "Collection ID"
+msgstr "Collection-ID"
+
+#: app/Integrations/GumletIntegration.php:128
+msgid ""
+"Your Gumlet Video collection ID (also shown as the Workspace / Source ID). "
+"Used to list and upload videos."
+msgstr ""
+"Die ID Deiner Gumlet-Video-Collection (erscheint auch als Workspace- oder "
+"Source-ID). Damit werden Videos aufgelistet und hochgeladen."
+
+#: app/Integrations/GumletIntegration.php:129
+msgid "e.g. 6a4cdf8a752204b8a639acef"
+msgstr "z. B. 6a4cdf8a752204b8a639acef"
+
+#: app/Integrations/GumletIntegration.php:134
+msgid "Live Source ID"
+msgstr "Live-Source-ID"
+
+#: app/Integrations/GumletIntegration.php:135
+msgid ""
+"Optional. Only needed for Live streaming — the Live video source ID from "
+"your Gumlet dashboard."
+msgstr ""
+"Optional. Nur für Live-Streaming nötig – die Live-Video-Source-ID aus Deinem"
+" Gumlet-Dashboard."
+
+#: app/Integrations/GumletIntegration.php:136
+msgid "Optional — for Live streaming"
+msgstr "Optional – für Live-Streaming"
+
+#: app/Integrations/GumletIntegration.php:141
+#: app/Integrations/MuxIntegration.php:153
+msgid "Enable Signed URLs"
+msgstr "Signierte URLs einschalten"
+
+#: app/Integrations/GumletIntegration.php:142
+msgid "Use secure signed URLs for private/protected video playback."
+msgstr ""
+"Signierte URLs für die Wiedergabe privater und geschützter Videos verwenden."
+
+#: app/Integrations/GumletIntegration.php:147
+msgid "Signing Secret"
+msgstr "Signatur-Secret"
+
+#: app/Integrations/GumletIntegration.php:148
+msgid ""
+"The signing secret from your Gumlet workspace Video Protection settings. "
+"Used to mint short-lived playback tokens for private assets."
+msgstr ""
+"Das Signatur-Secret aus den Video-Protection-Einstellungen Deines Gumlet-"
+"Workspace. Damit werden kurzlebige Wiedergabe-Token für private Inhalte "
+"erzeugt."
+
+#: app/Integrations/GumletIntegration.php:149
+msgid "Paste your signing secret"
+msgstr "Füge Dein Signatur-Secret ein"
+
+#: app/Integrations/GumletIntegration.php:171
+msgid "API Key and Workspace ID are required"
+msgstr "API-Key und Workspace-ID sind erforderlich"
+
+#: app/Integrations/GumletIntegration.php:179
+msgid ""
+"Could not connect to Gumlet. Please check your API Key and Workspace ID."
+msgstr ""
+"Die Verbindung zu Gumlet ist fehlgeschlagen. Bitte prüfe API-Key und "
+"Workspace-ID."
+
+#: app/Integrations/GumletIntegration.php:188
+msgid "Could not connect to Gumlet. Please check your credentials."
+msgstr ""
+"Die Verbindung zu Gumlet ist fehlgeschlagen. Bitte prüfe Deine Zugangsdaten."
+
+#: app/Integrations/GumletIntegration.php:198
+#: app/Services/GumletService.php:68
+msgid "Gumlet integration is not enabled"
+msgstr "Die Gumlet-Integration ist nicht eingeschaltet"
+
+#: app/Integrations/GumletIntegration.php:204
+msgid "Gumlet credentials are not configured"
+msgstr "Es sind keine Gumlet-Zugangsdaten hinterlegt"
+
+#. translators: %s: detected Fluent Player video title
+#: app/Integrations/LearnDash/LearnDashIntegration.php:195
+#, php-format
+msgid ""
+"The Fluent Player video \"%s\" in this lesson will drive progression — "
+"watched coverage is verified on the server."
+msgstr ""
+"Das Fluent-Player-Video „%s“ in dieser Lektion steuert den Fortschritt – der"
+" gesehene Anteil wird auf dem Server geprüft."
+
+#: app/Integrations/LearnDash/LearnDashIntegration.php:198
+msgid ""
+"Add a Fluent Player block to this lesson, then enable this to drive "
+"progression from it."
+msgstr ""
+"Füge dieser Lektion einen Fluent-Player-Block hinzu und schalte das hier "
+"ein, damit er den Fortschritt steuert."
+
+#: app/Integrations/LearnDash/LearnDashIntegration.php:203
+msgid "Use Fluent Player Video"
+msgstr "Fluent-Player-Video verwenden"
+
+#: app/Integrations/LearnDash/LearnDashIntegration.php:210
+msgid "The Fluent Player video in this lesson will be used for progression."
+msgstr "Das Fluent-Player-Video dieser Lektion steuert den Fortschritt."
+
+#: app/Integrations/LearnDash/LearnDashIntegration.php:221
+msgid "Required watched %"
+msgstr "Erforderlicher gesehener Anteil in %"
+
+#: app/Integrations/LearnDash/LearnDashIntegration.php:223
+msgid ""
+"How much distinct coverage must be watched to complete. Seeking to the end "
+"will not satisfy it."
+msgstr ""
+"Wie viel tatsächlich gesehen sein muss, damit die Lektion zählt. Ans Ende zu"
+" springen genügt nicht."
+
+#: app/Integrations/LearnDash/LearnDashIntegration.php:231
+msgid "Prevent skipping ahead"
+msgstr "Vorspulen verhindern"
+
+#: app/Integrations/LearnDash/LearnDashIntegration.php:233
+msgid ""
+"Learners cannot seek past what they have watched. Completion stays server-"
+"verified regardless."
+msgstr ""
+"Teilnehmende können nicht über das Gesehene hinaus springen. Der Abschluss "
+"wird ohnehin auf dem Server geprüft."
+
+#: app/Integrations/LearnDash/LearnDashIntegration.php:237
+msgid "Disable seeking ahead of watched content."
+msgstr "Das Vorspulen über das Gesehene hinaus abschalten."
+
+#: app/Integrations/LearnDash/LearnDashIntegration.php:244
+msgid "Maximum playback speed"
+msgstr "Höchste Abspielgeschwindigkeit"
+
+#: app/Integrations/LearnDash/LearnDashIntegration.php:246
+msgid "Cap playback speed so learners cannot rush the video."
+msgstr ""
+"Die Abspielgeschwindigkeit begrenzen, damit niemand das Video durchjagt."
+
+#: app/Integrations/LearnDash/LearnDashIntegration.php:249
+msgid "No limit"
+msgstr "Ohne Begrenzung"
+
+#: app/Integrations/MuxIntegration.php:55
+msgid "Token ID is required"
+msgstr "Die Token-ID ist erforderlich"
+
+#: app/Integrations/MuxIntegration.php:58
+msgid "Token Secret is required"
+msgstr "Das Token-Secret ist erforderlich"
+
+#: app/Integrations/MuxIntegration.php:64
+msgid "Signing Key ID is required when signed URLs are enabled."
+msgstr ""
+"Bei eingeschalteten signierten URLs ist die Signaturschlüssel-ID "
+"erforderlich."
+
+#: app/Integrations/MuxIntegration.php:67
+msgid "Signing Private Key is required when signed URLs are enabled."
+msgstr ""
+"Bei eingeschalteten signierten URLs ist der private Signaturschlüssel "
+"erforderlich."
+
+#: app/Integrations/MuxIntegration.php:75
+msgid ""
+"Signing Private Key is not a valid RSA private key. Paste the base64-encoded"
+" key from your Mux signing key."
+msgstr ""
+"Der private Signaturschlüssel ist kein gültiger RSA-Schlüssel. Füge den "
+"base64-kodierten Schlüssel aus Deinem Mux-Signaturschlüssel ein."
+
+#: app/Integrations/MuxIntegration.php:93
+msgid "Mux Setup Guide"
+msgstr "Mux einrichten"
+
+#: app/Integrations/MuxIntegration.php:96
+msgid "Step 1: Create Mux Account"
+msgstr "Schritt 1: Mux-Konto anlegen"
+
+#: app/Integrations/MuxIntegration.php:97
+msgid ""
+"If you don't have a Mux account yet, visit the Mux website and sign up."
+msgstr ""
+"Wenn Du noch kein Mux-Konto hast, registriere Dich auf der Mux-Website."
+
+#: app/Integrations/MuxIntegration.php:101
+msgid "Sign up for Mux"
+msgstr "Bei Mux registrieren"
+
+#: app/Integrations/MuxIntegration.php:105
+msgid "Step 2: Generate API Credentials"
+msgstr "Schritt 2: API-Zugangsdaten erzeugen"
+
+#: app/Integrations/MuxIntegration.php:106
+msgid ""
+"Go to Settings > API Access Tokens in your Mux dashboard and create a new "
+"token with \"Mux Video\" permissions (Read + Write)."
+msgstr ""
+"Gehe im Mux-Dashboard auf Settings > API Access Tokens und lege ein Token "
+"mit „Mux Video“-Rechten an (Lesen und Schreiben)."
+
+#: app/Integrations/MuxIntegration.php:110
+msgid "Step 3: Copy Token ID & Secret"
+msgstr "Schritt 3: Token-ID und Secret kopieren"
+
+#: app/Integrations/MuxIntegration.php:111
+msgid ""
+"Copy the Token ID and Token Secret shown after creation. The secret is only "
+"shown once, so save it securely."
+msgstr ""
+"Kopiere die Token-ID und das Token-Secret, die nach dem Anlegen erscheinen. "
+"Das Secret wird nur einmal gezeigt – bewahre es sicher auf."
+
+#: app/Integrations/MuxIntegration.php:113
+msgid "Keep your Token Secret secure and never share it publicly."
+msgstr "Halte Dein Token-Secret geheim und gib es nie öffentlich weiter."
+
+#: app/Integrations/MuxIntegration.php:116
+msgid "Step 4: Configure Integration"
+msgstr "Schritt 4: Integration einrichten"
+
+#: app/Integrations/MuxIntegration.php:117
+msgid "Enter your Token ID and Token Secret below and enable the integration."
+msgstr ""
+"Trage Token-ID und Token-Secret unten ein und schalte die Integration ein."
+
+#: app/Integrations/MuxIntegration.php:121
+msgid "Step 5: Test Connection"
+msgstr "Schritt 5: Verbindung testen"
+
+#: app/Integrations/MuxIntegration.php:122
+msgid ""
+"After saving, use the \"Test Connection\" button to verify everything is "
+"working."
+msgstr "Prüfe nach dem Speichern mit „Verbindung testen“, ob alles läuft."
+
+#: app/Integrations/MuxIntegration.php:131
+msgid "Enable Mux"
+msgstr "Mux einschalten"
+
+#: app/Integrations/MuxIntegration.php:132
+msgid "Enable Mux integration for video hosting and streaming"
+msgstr "Mux für Videohosting und Streaming einschalten"
+
+#: app/Integrations/MuxIntegration.php:137
+msgid "Token ID"
+msgstr "Token-ID"
+
+#: app/Integrations/MuxIntegration.php:139
+msgid "Your Mux API Token ID from Settings > API Access Tokens"
+msgstr "Deine Mux-API-Token-ID aus Settings > API Access Tokens"
+
+#: app/Integrations/MuxIntegration.php:140
+msgid "Enter your Mux Token ID"
+msgstr "Gib Deine Mux-Token-ID ein"
+
+#: app/Integrations/MuxIntegration.php:145
+msgid "Token Secret"
+msgstr "Token-Secret"
+
+#: app/Integrations/MuxIntegration.php:147
+msgid "Your Mux API Token Secret"
+msgstr "Dein Mux-API-Token-Secret"
+
+#: app/Integrations/MuxIntegration.php:148
+msgid "Enter your Mux Token Secret"
+msgstr "Gib Dein Mux-Token-Secret ein"
+
+#: app/Integrations/MuxIntegration.php:154
+msgid ""
+"Use signed URLs for private/protected video playback. Requires a signing key"
+" to be generated."
+msgstr ""
+"Signierte URLs für die Wiedergabe privater und geschützter Videos verwenden."
+" Dafür wird ein Signaturschlüssel gebraucht."
+
+#: app/Integrations/MuxIntegration.php:159
+msgid "Signing Key ID"
+msgstr "Signaturschlüssel-ID"
+
+#: app/Integrations/MuxIntegration.php:160
+msgid ""
+"The Key ID (kid) from your Mux signing key. Create one in the Mux dashboard "
+"under Settings → Signing Keys."
+msgstr ""
+"Die Key-ID (kid) Deines Mux-Signaturschlüssels. Anlegen im Mux-Dashboard "
+"unter Settings → Signing Keys."
+
+#: app/Integrations/MuxIntegration.php:161
+msgid "Paste your signing key ID"
+msgstr "Füge Deine Signaturschlüssel-ID ein"
+
+#: app/Integrations/MuxIntegration.php:167
+msgid "Signing Private Key"
+msgstr "Privater Signaturschlüssel"
+
+#: app/Integrations/MuxIntegration.php:168
+msgid ""
+"The RS256 private key (PEM) shown once when the signing key was created. "
+"Stored for use when minting playback JWTs for signed streams."
+msgstr ""
+"Der private RS256-Schlüssel (PEM), der beim Anlegen einmalig gezeigt wurde. "
+"Er wird gespeichert und erzeugt die Wiedergabe-JWTs für signierte Streams."
+
+#: app/Integrations/MuxIntegration.php:169
+msgid "Paste your signing private key"
+msgstr "Füge Deinen privaten Signaturschlüssel ein"
+
+#: app/Integrations/MuxIntegration.php:175
+msgid "Enable Auto Captions"
+msgstr "Automatische Untertitel einschalten"
+
+#: app/Integrations/MuxIntegration.php:176
+msgid ""
+"Automatically generate captions for uploaded videos using Mux's AI "
+"transcription."
+msgstr ""
+"Untertitel für hochgeladene Videos automatisch über die KI-Transkription von"
+" Mux erzeugen."
+
+#: app/Integrations/MuxIntegration.php:181
+msgid "Auto Caption Language"
+msgstr "Sprache der automatischen Untertitel"
+
+#: app/Integrations/MuxIntegration.php:182
+msgid "Default language for auto-generated captions."
+msgstr "Standardsprache für automatisch erzeugte Untertitel."
+
+#: app/Integrations/MuxIntegration.php:196
+msgid "Webhook Secret"
+msgstr "Webhook-Secret"
+
+#. translators: %s: webhook URL
+#: app/Integrations/MuxIntegration.php:199
+#, php-format
+msgid ""
+"Your Mux webhook signing secret. Set your webhook URL in the Mux dashboard "
+"to: %s"
+msgstr ""
+"Dein Mux-Webhook-Signatur-Secret. Trage im Mux-Dashboard diese Webhook-URL "
+"ein: %s"
+
+#: app/Integrations/MuxIntegration.php:202
+msgid "Enter your Mux webhook signing secret"
+msgstr "Gib Dein Mux-Webhook-Signatur-Secret ein"
+
+#: app/Integrations/MuxIntegration.php:207
+msgid "Mux Data Environment Key"
+msgstr "Mux-Data-Environment-Key"
+
+#: app/Integrations/MuxIntegration.php:208
+msgid ""
+"Optional. Enable Mux Data playback quality analytics by entering your "
+"environment key from the Mux Data dashboard."
+msgstr ""
+"Optional. Trage den Environment-Key aus dem Mux-Data-Dashboard ein, um die "
+"Auswertung der Wiedergabequalität einzuschalten."
+
+#: app/Integrations/MuxIntegration.php:209
+msgid "e.g. abc123def456"
+msgstr "z. B. abc123def456"
+
+#: app/Integrations/MuxIntegration.php:212
+msgid "How to find your Env Key"
+msgstr "So findest Du Deinen Env-Key"
+
+#: app/Integrations/MuxIntegration.php:234
+msgid "Token ID and Token Secret are required"
+msgstr "Token-ID und Token-Secret sind erforderlich"
+
+#: app/Integrations/MuxIntegration.php:242
+#: app/Integrations/MuxIntegration.php:251
+msgid "Could not connect to Mux. Please check your credentials."
+msgstr ""
+"Die Verbindung zu Mux ist fehlgeschlagen. Bitte prüfe Deine Zugangsdaten."
+
+#: app/Integrations/MuxIntegration.php:261 app/Services/MuxService.php:46
+msgid "Mux integration is not enabled"
+msgstr "Die Mux-Integration ist nicht eingeschaltet"
+
+#: app/Integrations/MuxIntegration.php:269
+msgid "Mux credentials are not configured"
+msgstr "Es sind keine Mux-Zugangsdaten hinterlegt"
+
+#: app/Integrations/R2Integration.php:73
+msgid "Account ID is required"
+msgstr "Die Konto-ID ist erforderlich"
+
+#: app/Integrations/R2Integration.php:74
+msgid "Access Key ID is required"
+msgstr "Die Access-Key-ID ist erforderlich"
+
+#: app/Integrations/R2Integration.php:75
+msgid "Secret Access Key is required"
+msgstr "Der Secret Access Key ist erforderlich"
+
+#: app/Integrations/R2Integration.php:76
+msgid "Bucket name is required"
+msgstr "Der Bucket-Name ist erforderlich"
+
+#: app/Integrations/R2Integration.php:77
+msgid ""
+"Public URL is required — enable the bucket's Public Development URL or "
+"attach a custom domain."
+msgstr ""
+"Die öffentliche URL ist erforderlich – schalte die Public Development URL "
+"des Buckets ein oder hänge eine eigene Domain daran."
+
+#: app/Integrations/R2Integration.php:89
+msgid "Account ID may only contain letters and numbers."
+msgstr "Die Konto-ID darf nur Buchstaben und Ziffern enthalten."
+
+#: app/Integrations/R2Integration.php:92
+msgid "Bucket name may only contain letters, numbers, dots and hyphens."
+msgstr ""
+"Der Bucket-Name darf nur Buchstaben, Ziffern, Punkte und Bindestriche "
+"enthalten."
+
+#: app/Integrations/R2Integration.php:100
+msgid "Public URL must be a valid http(s) URL."
+msgstr "Die öffentliche URL muss eine gültige http(s)-Adresse sein."
+
+#: app/Integrations/R2Integration.php:119
+msgid "Cloudflare R2 Setup Guide"
+msgstr "Cloudflare R2 einrichten"
+
+#: app/Integrations/R2Integration.php:122
+msgid "Step 1: Create an R2 Bucket"
+msgstr "Schritt 1: R2-Bucket anlegen"
+
+#: app/Integrations/R2Integration.php:123
+msgid ""
+"In your Cloudflare dashboard open R2 and create a bucket for your videos."
+msgstr ""
+"Öffne im Cloudflare-Dashboard R2 und lege einen Bucket für Deine Videos an."
+
+#: app/Integrations/R2Integration.php:127
+msgid "Open Cloudflare R2"
+msgstr "Cloudflare R2 öffnen"
+
+#: app/Integrations/R2Integration.php:131
+msgid "Step 2: Create an R2 API Token"
+msgstr "Schritt 2: R2-API-Token anlegen"
+
+#: app/Integrations/R2Integration.php:132
+msgid ""
+"Create an R2 API token with Object Read & Write permission. Copy the Access "
+"Key ID and Secret Access Key."
+msgstr ""
+"Lege ein R2-API-Token mit Lese- und Schreibrecht für Objekte an. Kopiere "
+"Access Key ID und Secret Access Key."
+
+#: app/Integrations/R2Integration.php:134
+msgid "The Secret Access Key is shown only once — store it safely."
+msgstr ""
+"Der Secret Access Key wird nur einmal angezeigt – bewahre ihn sicher auf."
+
+#: app/Integrations/R2Integration.php:137
+msgid "Step 3: Find your Account ID"
+msgstr "Schritt 3: Konto-ID finden"
+
+#: app/Integrations/R2Integration.php:138
+msgid ""
+"Your Account ID is in the R2 overview; the S3 endpoint is https://<account-"
+"id>.r2.cloudflarestorage.com."
+msgstr ""
+"Deine Konto-ID steht in der R2-Übersicht; der S3-Endpunkt lautet "
+"https://<account-id>.r2.cloudflarestorage.com."
+
+#: app/Integrations/R2Integration.php:142
+msgid "Step 4: Enable public delivery (required)"
+msgstr "Schritt 4: Öffentliche Auslieferung einschalten (erforderlich)"
+
+#: app/Integrations/R2Integration.php:143
+msgid ""
+"Videos are served from a public URL. Enable the bucket's Public Development "
+"URL (https://pub-xxxx.r2.dev) or attach a custom domain, then enter it as "
+"the Public URL below."
+msgstr ""
+"Videos werden über eine öffentliche URL ausgeliefert. Schalte die Public "
+"Development URL des Buckets ein (https://pub-xxxx.r2.dev) oder hänge eine "
+"eigene Domain daran und trage sie unten als öffentliche URL ein."
+
+#: app/Integrations/R2Integration.php:147
+msgid "R2 public bucket docs"
+msgstr "Dokumentation zu öffentlichen R2-Buckets"
+
+#: app/Integrations/R2Integration.php:151
+msgid "Step 5: Allow browser uploads (CORS)"
+msgstr "Schritt 5: Uploads aus dem Browser erlauben (CORS)"
+
+#: app/Integrations/R2Integration.php:152
+msgid ""
+"To upload from the editor, add a CORS policy on the bucket allowing PUT from"
+" your site origin."
+msgstr ""
+"Für Uploads aus dem Editor braucht der Bucket eine CORS-Regel, die PUT von "
+"der Adresse Deiner Website erlaubt."
+
+#: app/Integrations/R2Integration.php:161
+msgid "Enable Cloudflare R2"
+msgstr "Cloudflare R2 einschalten"
+
+#: app/Integrations/R2Integration.php:162
+msgid "Enable Cloudflare R2 for video hosting"
+msgstr "Cloudflare R2 als Videohosting einschalten"
+
+#: app/Integrations/R2Integration.php:169
+msgid ""
+"Found in the Cloudflare dashboard under R2 → Overview → Account Details."
+msgstr "Steht im Cloudflare-Dashboard unter R2 → Overview → Account Details."
+
+#: app/Integrations/R2Integration.php:170
+msgid "Enter your Cloudflare Account ID"
+msgstr "Gib Deine Cloudflare-Konto-ID ein"
+
+#: app/Integrations/R2Integration.php:175
+msgid "Cloudflare Access Key"
+msgstr "Cloudflare Access Key"
+
+#: app/Integrations/R2Integration.php:177
+msgid "The Access Key ID from your R2 API token (Object Read & Write)."
+msgstr ""
+"Die Access Key ID aus Deinem R2-API-Token (Lesen und Schreiben von "
+"Objekten)."
+
+#: app/Integrations/R2Integration.php:178
+msgid "Enter your R2 Access Key"
+msgstr "Gib Deinen R2 Access Key ein"
+
+#: app/Integrations/R2Integration.php:183
+msgid "Cloudflare Secret Key"
+msgstr "Cloudflare Secret Key"
+
+#: app/Integrations/R2Integration.php:185
+msgid ""
+"The Secret Access Key from your R2 API token (shown only once). Stored "
+"encrypted."
+msgstr ""
+"Der Secret Access Key aus Deinem R2-API-Token (wird nur einmal gezeigt). "
+"Wird verschlüsselt gespeichert."
+
+#: app/Integrations/R2Integration.php:186
+msgid "Enter your R2 Secret Key"
+msgstr "Gib Deinen R2 Secret Key ein"
+
+#: app/Integrations/R2Integration.php:191
+msgid "Cloudflare Bucket Name"
+msgstr "Name des Cloudflare-Buckets"
+
+#: app/Integrations/R2Integration.php:193
+msgid "The R2 bucket that holds your videos."
+msgstr "Der R2-Bucket, in dem Deine Videos liegen."
+
+#: app/Integrations/R2Integration.php:194
+msgid "e.g. fluent-player"
+msgstr "z. B. fluent-player"
+
+#: app/Integrations/R2Integration.php:199
+msgid "Cloudflare Bucket Public URL"
+msgstr "Öffentliche URL des Cloudflare-Buckets"
+
+#: app/Integrations/R2Integration.php:201
+msgid ""
+"Required. Enable the bucket's Public Development URL (https://pub-"
+"xxxx.r2.dev) or attach a custom domain — videos are served from here."
+msgstr ""
+"Erforderlich. Schalte die Public Development URL des Buckets ein "
+"(https://pub-xxxx.r2.dev) oder hänge eine eigene Domain daran – von hier "
+"werden die Videos ausgeliefert."
+
+#: app/Integrations/R2Integration.php:202
+msgid "https://pub-xxxxxxxx.r2.dev"
+msgstr "https://pub-xxxxxxxx.r2.dev"
+
+#: app/Integrations/R2Integration.php:207
+msgid "Bucket Sub-Folder (Optional)"
+msgstr "Unterordner im Bucket (optional)"
+
+#: app/Integrations/R2Integration.php:209
+msgid "Restrict uploads/browsing to a folder prefix inside the bucket."
+msgstr "Uploads und Ansicht auf einen Ordner im Bucket beschränken."
+
+#: app/Integrations/R2Integration.php:210
+msgid "e.g. videos"
+msgstr "z. B. videos"
+
+#: app/Integrations/R2Integration.php:294
+msgid "All R2 credentials are required"
+msgstr "Alle R2-Zugangsdaten sind erforderlich"
+
+#: app/Integrations/R2Integration.php:305
+msgid ""
+"Failed to connect to Cloudflare R2. Please check your credentials and "
+"bucket."
+msgstr ""
+"Die Verbindung zu Cloudflare R2 ist fehlgeschlagen. Bitte prüfe Zugangsdaten"
+" und Bucket."
+
+#: app/Layouts/GridPlaylistLayout.php:90
+#: app/Layouts/StandardPlaylistLayout.php:88
+msgid "video"
+msgstr "Video"
+
+#: app/Layouts/GridPlaylistLayout.php:90
+#: app/Layouts/StandardPlaylistLayout.php:89
+msgid "videos"
+msgstr "Videos"
+
+#: app/Libraries/BunnyCDNStorage.php:103
+#, php-format
+msgid "Resource not found: %s"
+msgstr "Ressource nicht gefunden: %s"
+
+#: app/Libraries/BunnyCDNStorage.php:107
+msgid "Authentication failed. Please check your API key."
+msgstr "Die Authentifizierung ist fehlgeschlagen. Bitte prüfe Deinen API-Key."
+
+#: app/Libraries/BunnyCDNStorage.php:116 app/Libraries/BunnyCDNStorage.php:418
+#, php-format
+msgid "API error (HTTP %d): %s"
+msgstr "API-Fehler (HTTP %d): %s"
+
+#: app/Libraries/BunnyCDNStorage.php:161
+#, php-format
+msgid "Failed to decode JSON response: %s"
+msgstr "Die JSON-Antwort ließ sich nicht lesen: %s"
+
+#: app/Libraries/BunnyCDNStorage.php:227
+msgid "Could not connect to BunnyCDN storage."
+msgstr "Die Verbindung zum BunnyCDN-Speicher ist fehlgeschlagen."
+
+#: app/Libraries/BunnyCDNStorage.php:248
+#, php-format
+msgid "File not found on storage: %s"
+msgstr "Datei im Speicher nicht gefunden: %s"
+
+#: app/Libraries/BunnyCDNStorage.php:252
+msgid "Storage authentication failed. Please check your API key."
+msgstr ""
+"Die Anmeldung am Speicher ist fehlgeschlagen. Bitte prüfe Deinen API-Key."
+
+#: app/Libraries/BunnyCDNStorage.php:414 app/Services/BunnyCDNService.php:431
+#, php-format
+msgid "Upload failed: %s"
+msgstr "Upload fehlgeschlagen: %s"
+
+#: app/Libraries/CloudflareStream.php:86
+msgid "The selected file could not be read."
+msgstr "Die gewählte Datei ließ sich nicht lesen."
+
+#: app/Libraries/CloudflareStream.php:116
+msgid "Cloudflare Stream upload failed."
+msgstr "Der Upload zu Cloudflare Stream ist fehlgeschlagen."
+
+#: app/Libraries/CloudflareStream.php:194
+msgid "Cloudflare Stream API request failed."
+msgstr "Die API-Anfrage an Cloudflare Stream ist fehlgeschlagen."
+
+#: app/Libraries/Gumlet.php:177
+msgid "The upload file could not be read"
+msgstr "Die hochzuladende Datei ließ sich nicht lesen"
+
+#: app/Libraries/Gumlet.php:183
+msgid "Could not open the upload file"
+msgstr "Die hochzuladende Datei ließ sich nicht öffnen"
+
+#: app/Libraries/Gumlet.php:206
+msgid "Uploading the file to storage failed"
+msgstr "Der Upload in den Speicher ist fehlgeschlagen"
+
+#: app/Libraries/Gumlet.php:310
+msgid "Gumlet API request failed"
+msgstr "Die API-Anfrage an Gumlet ist fehlgeschlagen"
+
+#: app/Models/Playlist.php:36
+msgid "Invalid playlist ID"
+msgstr "Ungültige Playlist-ID"
+
+#. translators: %d: playlist number
+#: app/Models/Playlist.php:134
+#, php-format
+msgid "Playlist %d"
+msgstr "Playlist %d"
+
+#: app/Services/BulkActionService.php:60 app/Services/BulkActionService.php:84
+msgid "No valid tags provided"
+msgstr "Keine gültigen Tags angegeben"
+
+#: app/Services/BulkActionService.php:110
+msgid "No eligible media to add"
+msgstr "Keine passenden Medien zum Hinzufügen"
+
+#. translators: 1: number of items, 2: playlist title.
+#: app/Services/BulkActionService.php:128
+#, php-format
+msgid "Added %1$d item(s) to \"%2$s\""
+msgstr "%1$d Einträge zu „%2$s“ hinzugefügt"
+
+#: app/Services/BulkActionService.php:143
+msgid "Failed to create playlist"
+msgstr "Die Playlist konnte nicht angelegt werden"
+
+#. translators: 1: number of items, 2: playlist title.
+#: app/Services/BulkActionService.php:149
+#, php-format
+msgid "Created \"%2$s\" with %1$d item(s)"
+msgstr "„%2$s“ mit %1$d Einträgen angelegt"
+
+#: app/Services/BunnyCDNService.php:20
+msgid "BunnyCDN Stream integration not found"
+msgstr "Die BunnyCDN-Stream-Integration wurde nicht gefunden"
+
+#: app/Services/BunnyCDNService.php:379
+#: app/Services/BunnyCDNStorageService.php:432 app/Services/MuxService.php:241
+msgid "WordPress attachment file not found"
+msgstr "Die WordPress-Anhangdatei wurde nicht gefunden"
+
+#: app/Services/BunnyCDNService.php:385
+#: app/Services/BunnyCDNStorageService.php:438 app/Services/MuxService.php:246
+msgid "File is empty or cannot be read"
+msgstr "Die Datei ist leer oder lässt sich nicht lesen"
+
+#: app/Services/BunnyCDNService.php:394 app/Services/MuxService.php:281
+msgid "Could not open file for reading"
+msgstr "Die Datei ließ sich nicht zum Lesen öffnen"
+
+#: app/Services/BunnyCDNStorageService.php:49
+msgid "BunnyCDN Storage integration not found"
+msgstr "Die BunnyCDN-Storage-Integration wurde nicht gefunden"
+
+#: app/Services/BunnyCDNStorageService.php:426
+msgid "Invalid attachment ID"
+msgstr "Ungültige Anhang-ID"
+
+#: app/Services/BunnyCDNStorageService.php:572
+msgid "Directory name is required"
+msgstr "Der Verzeichnisname ist erforderlich"
+
+#: app/Services/CloudflareStreamService.php:142
+msgid "Invalid attachment."
+msgstr "Ungültiger Anhang."
+
+#: app/Services/GumletService.php:37
+msgid "Gumlet integration not found"
+msgstr "Die Gumlet-Integration wurde nicht gefunden"
+
+#: app/Services/GumletService.php:94
+msgid "Gumlet Workspace ID is not configured"
+msgstr "Es ist keine Gumlet-Workspace-ID hinterlegt"
+
+#: app/Services/GumletService.php:182
+msgid "A source URL is required to import into Gumlet"
+msgstr "Für den Import nach Gumlet ist eine Quell-URL erforderlich"
+
+#: app/Services/GumletService.php:246 app/Services/GumletService.php:294
+msgid "Gumlet Collection ID is not configured"
+msgstr "Es ist keine Gumlet-Collection-ID hinterlegt"
+
+#: app/Services/GumletService.php:256 app/Services/GumletService.php:304
+msgid "Gumlet did not return an upload URL"
+msgstr "Gumlet hat keine Upload-URL geliefert"
+
+#: app/Services/GumletService.php:281
+msgid "The attachment file could not be found"
+msgstr "Die Anhangdatei wurde nicht gefunden"
+
+#: app/Services/GumletService.php:429
+msgid ""
+"A Gumlet Live Source ID is required. Add it in the Gumlet integration "
+"settings."
+msgstr ""
+"Eine Gumlet-Live-Source-ID ist erforderlich. Trage sie in den Gumlet-"
+"Einstellungen ein."
+
+#: app/Services/GumletService.php:435
+msgid "Could not build the live stream request"
+msgstr "Die Anfrage für den Live-Stream ließ sich nicht bauen"
+
+#: app/Services/GumletService.php:665
+msgid ""
+"Video processing failed on Gumlet. Check that the source is reachable and "
+"valid."
+msgstr ""
+"Die Videoverarbeitung bei Gumlet ist fehlgeschlagen. Prüfe, ob die Quelle "
+"erreichbar und gültig ist."
+
+#: app/Services/MuxService.php:27
+msgid "Mux integration not found"
+msgstr "Die Mux-Integration wurde nicht gefunden"
+
+#: app/Services/MuxService.php:257
+msgid "Failed to create Mux upload URL"
+msgstr "Die Mux-Upload-URL konnte nicht erzeugt werden"
+
+#. translators: %d: HTTP status code
+#: app/Services/MuxService.php:314
+#, php-format
+msgid "Mux upload failed (HTTP %d)"
+msgstr "Der Upload zu Mux ist fehlgeschlagen (HTTP %d)"
+
+#: app/Services/MuxService.php:898
+msgid "Failed to generate signing key"
+msgstr "Der Signaturschlüssel konnte nicht erzeugt werden"
+
+#: app/Services/MuxService.php:912
+msgid "Signing key generated and saved successfully"
+msgstr "Signaturschlüssel erzeugt und gespeichert"
+
+#: app/Services/PlaylistService.php:27
+msgid "Please update the free FluentPlayer plugin to use bulk actions."
+msgstr ""
+"Für Massenaktionen musst Du das kostenlose Plugin FluentPlayer "
+"aktualisieren."
+
+#: app/Services/PlaylistService.php:36
+msgid "No items were selected"
+msgstr "Es wurde nichts ausgewählt"
+
+#. translators: %d is the maximum number of items per bulk request.
+#: app/Services/PlaylistService.php:43
+#, php-format
+msgid "You can process up to %d items at once"
+msgstr "Du kannst höchstens %d Einträge auf einmal verarbeiten"
+
+#: app/Services/PlaylistService.php:74
+msgid "Invalid status"
+msgstr "Ungültiger Status"
+
+#: app/Services/PlaylistService.php:89
+msgid "Invalid bulk action"
+msgstr "Ungültige Massenaktion"
+
+#: app/Services/PluginManager/FluentLicensing.php:316
+msgid "expired at"
+msgstr "abgelaufen am"
+
+#: app/Services/PluginManager/FluentLicensing.php:317
+msgid "expired"
+msgstr "abgelaufen"
+
+#: app/Services/PluginManager/FluentLicensing.php:319
+msgid "license has been"
+msgstr "Lizenz ist"
+
+#: app/Services/PluginManager/FluentLicensing.php:320
+msgid "Click Here to Renew Your License"
+msgstr "Hier klicken, um die Lizenz zu verlängern"
+
+#: app/Services/PluginManager/PluginUpdater.php:78
+msgid "Check Update"
+msgstr "Update prüfen"
+
+#: app/Services/PluginManager/PluginUpdater.php:218
+msgid "No data found for this plugin"
+msgstr "Für dieses Plugin wurden keine Daten gefunden"
+
+#: app/Services/PluginManager/UpdateVerifier.php:231
+msgid ""
+"The downloaded update does not match its signature, so it was not installed."
+" Please try again, and contact support if this keeps happening."
+msgstr ""
+"Die heruntergeladene Aktualisierung passt nicht zu ihrer Signatur und wurde "
+"deshalb nicht installiert. Bitte versuche es noch einmal und wende Dich an "
+"den Support, wenn das öfter vorkommt."
+
+#: app/Services/PluginManager/UpdateVerifier.php:253
+msgid "The update manifest is malformed, so the update was not installed."
+msgstr ""
+"Das Update-Manifest ist fehlerhaft, die Aktualisierung wurde deshalb nicht "
+"installiert."
+
+#: app/Services/PluginManager/UpdateVerifier.php:260
+msgid ""
+"This update is not signed by WPManageNinja, so it was not installed. Please "
+"contact support before installing it by hand."
+msgstr ""
+"Diese Aktualisierung ist nicht von WPManageNinja signiert und wurde deshalb "
+"nicht installiert. Bitte wende Dich an den Support, bevor Du sie von Hand "
+"installierst."
+
+#: app/Services/PluginManager/UpdateVerifier.php:266
+msgid ""
+"This update package is for a different plugin, so it was not installed."
+msgstr ""
+"Dieses Update-Paket gehört zu einem anderen Plugin und wurde deshalb nicht "
+"installiert."
+
+#: app/Services/PluginManager/UpdateVerifier.php:270
+msgid "The update manifest has no version, so the update was not installed."
+msgstr ""
+"Das Update-Manifest nennt keine Version, die Aktualisierung wurde deshalb "
+"nicht installiert."
+
+#: app/Services/PluginManager/UpdateVerifier.php:283
+msgid ""
+"The offered update is older than the version advertised, so it was not "
+"installed."
+msgstr ""
+"Die angebotene Aktualisierung ist älter als die angekündigte Version und "
+"wurde deshalb nicht installiert."
+
+#. translators: 1: offered version number, 2: installed version number
+#: app/Services/PluginManager/UpdateVerifier.php:292
+#, php-format
+msgid ""
+"The server offered version %1$s, which is older than the installed %2$s, so "
+"it was not installed."
+msgstr ""
+"Der Server hat Version %1$s angeboten, älter als die installierte %2$s; sie "
+"wurde deshalb nicht installiert."
+
+#: app/Services/PluginManager/UpdateVerifier.php:299
+msgid ""
+"The update manifest has no valid checksum, so the update was not installed."
+msgstr ""
+"Das Update-Manifest hat keine gültige Prüfsumme, die Aktualisierung wurde "
+"deshalb nicht installiert."
+
+#: app/Services/PluginManager/UpdateVerifier.php:319
+msgid ""
+"This update was served without a signature, so it was not installed. Please "
+"try again later, and contact support if this keeps happening."
+msgstr ""
+"Diese Aktualisierung kam ohne Signatur und wurde deshalb nicht installiert. "
+"Bitte versuche es später noch einmal und wende Dich an den Support, wenn das"
+" öfter vorkommt."
+
+#: app/Services/PluginManager/UpdateVerifier.php:325
+msgid ""
+"The update manifest could not be read, so the update was not installed."
+msgstr ""
+"Das Update-Manifest ließ sich nicht lesen, die Aktualisierung wurde deshalb "
+"nicht installiert."
+
+#: app/Services/R2Service.php:200
+msgid "Upload source file not found or not readable"
+msgstr ""
+"Die hochzuladende Quelldatei wurde nicht gefunden oder ist nicht lesbar"
+
+#: app/Services/R2Service.php:215
+msgid "Could not read the upload source file"
+msgstr "Die hochzuladende Quelldatei ließ sich nicht lesen"
+
+#: app/Services/R2Service.php:230
+msgid "Failed to upload the file to R2"
+msgstr "Die Datei konnte nicht nach R2 hochgeladen werden"
+
+#: app/Services/R2Service.php:267
+msgid "Failed to list R2 objects"
+msgstr "Die R2-Objekte konnten nicht aufgelistet werden"
+
+#: app/Services/R2Service.php:488
+msgid "Failed to create the folder"
+msgstr "Der Ordner konnte nicht angelegt werden"
+
+#: app/Services/R2Service.php:503
+msgid "Object key is required"
+msgstr "Der Objektschlüssel ist erforderlich"
+
+#: app/Services/R2Service.php:539 app/Services/R2Service.php:587
+msgid "Failed to list folder contents"
+msgstr "Der Ordnerinhalt konnte nicht aufgelistet werden"
+
+#. translators: %d: maximum object count
+#: app/Services/R2Service.php:544
+#, php-format
+msgid ""
+"This folder has more than %d items. Delete it from the Cloudflare dashboard "
+"instead."
+msgstr ""
+"Dieser Ordner enthält mehr als %d Einträge. Lösche ihn stattdessen im "
+"Cloudflare-Dashboard."
+
+#: app/Services/R2Service.php:570
+msgid "A source folder is required"
+msgstr "Ein Ausgangsordner ist erforderlich"
+
+#. translators: %d: maximum object count
+#: app/Services/R2Service.php:592
+#, php-format
+msgid ""
+"This folder has more than %d items. Rename it from the Cloudflare dashboard "
+"instead."
+msgstr ""
+"Dieser Ordner enthält mehr als %d Einträge. Benenne ihn stattdessen im "
+"Cloudflare-Dashboard um."
+
+#: app/Services/SubtitleService.php:56
+msgid "Invalid file type. Only .vtt and .srt files are allowed"
+msgstr "Ungültiger Dateityp. Erlaubt sind nur .vtt und .srt"
+
+#: app/Services/SubtitleService.php:60
+msgid "File too large. Maximum size is 5MB"
+msgstr "Die Datei ist zu groß. Höchstens 5 MB"
+
+#: app/Services/SubtitleService.php:153
+msgid "English"
+msgstr "Englisch"
+
+#: app/Services/SubtitleService.php:154
+msgid "Spanish"
+msgstr "Spanisch"
+
+#: app/Services/SubtitleService.php:155
+msgid "French"
+msgstr "Französisch"
+
+#: app/Services/SubtitleService.php:156
+msgid "German"
+msgstr "Deutsch"
+
+#: app/Services/SubtitleService.php:157
+msgid "Italian"
+msgstr "Italienisch"
+
+#: app/Services/SubtitleService.php:158
+msgid "Portuguese"
+msgstr "Portugiesisch"
+
+#: app/Services/SubtitleService.php:159
+msgid "Russian"
+msgstr "Russisch"
+
+#: app/Services/SubtitleService.php:160
+msgid "Japanese"
+msgstr "Japanisch"
+
+#: app/Services/SubtitleService.php:161
+msgid "Korean"
+msgstr "Koreanisch"
+
+#: app/Services/SubtitleService.php:162
+msgid "Chinese"
+msgstr "Chinesisch"
+
+#: app/Services/SubtitleService.php:163
+msgid "Arabic"
+msgstr "Arabisch"
+
+#: app/Services/SubtitleService.php:164
+msgid "Hindi"
+msgstr "Hindi"
+
+#: app/Services/SubtitleService.php:167
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: app/Services/SubtitleService.php:206 app/Services/SubtitleService.php:263
+msgid "Hover preview enabled."
+msgstr "Hover-Vorschau eingeschaltet."
+
+#: app/Services/SubtitleService.php:220
+msgid "Generating hover preview..."
+msgstr "Hover-Vorschau wird erzeugt …"
+
+#: app/Services/SubtitleService.php:231 app/Services/SubtitleService.php:234
+#: app/Services/SubtitleService.php:1105
+msgid "Hover preview could not be generated right now."
+msgstr "Die Hover-Vorschau ließ sich gerade nicht erzeugen."
+
+#: app/Services/SubtitleService.php:252 app/Services/SubtitleService.php:255
+msgid "Hover preview could not be saved right now."
+msgstr "Die Hover-Vorschau ließ sich gerade nicht speichern."
+
+#: app/Services/SubtitleService.php:303
+msgid "Subtitle service is disabled"
+msgstr "Der Untertitel-Dienst ist abgeschaltet"
+
+#: app/Services/SubtitleService.php:309
+msgid "Subtitle service URL must use HTTPS"
+msgstr "Die URL des Untertitel-Dienstes muss HTTPS verwenden"
+
+#: app/Services/SubtitleService.php:314
+msgid "Subtitle service URL is not configured"
+msgstr "Es ist keine URL für den Untertitel-Dienst hinterlegt"
+
+#: app/Services/SubtitleService.php:321
+msgid "Subtitle service request could not be prepared"
+msgstr "Die Anfrage an den Untertitel-Dienst ließ sich nicht vorbereiten"
+
+#: app/Services/SubtitleService.php:359
+msgid "Subtitle service response exceeded the allowed size limit"
+msgstr "Die Antwort des Untertitel-Dienstes war größer als erlaubt"
+
+#: app/Services/SubtitleService.php:371 app/Services/SubtitleService.php:373
+msgid "Subtitle service request failed"
+msgstr "Die Anfrage an den Untertitel-Dienst ist fehlgeschlagen"
+
+#: app/Services/SubtitleService.php:738
+msgid "Could not determine the Vimeo video ID."
+msgstr "Die Vimeo-Video-ID ließ sich nicht ermitteln."
+
+#: app/Services/SubtitleService.php:748
+msgid "Failed to reach Vimeo."
+msgstr "Vimeo ist nicht erreichbar."
+
+#: app/Services/SubtitleService.php:752
+msgid ""
+"Vimeo returned no captions for this video. It may be private or embedding-"
+"restricted."
+msgstr ""
+"Vimeo liefert für dieses Video keine Untertitel. Es ist womöglich privat "
+"oder für die Einbettung gesperrt."
+
+#: app/Services/SubtitleService.php:1114 app/Services/SubtitleService.php:1145
+#: app/Services/SubtitleService.php:1167 app/Services/SubtitleService.php:1180
+msgid "Hover preview images could not be downloaded right now."
+msgstr "Die Bilder der Hover-Vorschau ließen sich gerade nicht herunterladen."
+
+#: app/Services/SubtitleService.php:1130
+msgid "Hover preview images could not be prepared right now."
+msgstr "Die Bilder der Hover-Vorschau ließen sich gerade nicht vorbereiten."
+
+#: app/Services/SubtitleService.php:1194
+msgid "Hover preview images could not be saved right now."
+msgstr "Die Bilder der Hover-Vorschau ließen sich gerade nicht speichern."
+
+#: app/Services/SubtitleService.php:1326
+msgid "Hover preview cleanup could not delete the storyboard images."
+msgstr ""
+"Beim Aufräumen der Hover-Vorschau ließen sich die Storyboard-Bilder nicht "
+"löschen."
+
+#: app/Services/SubtitleService.php:1330
+msgid "Hover preview cleanup could not delete the storyboard attachment."
+msgstr ""
+"Beim Aufräumen der Hover-Vorschau ließ sich der Storyboard-Anhang nicht "
+"löschen."
+
+#: app/Services/TagService.php:14
+msgid "Tag"
+msgstr "Tag"
+
+#: app/Services/TagService.php:120 app/Services/TagService.php:135
+msgid "A tag with that name already exists"
+msgstr "Einen Tag mit diesem Namen gibt es bereits"
+
+#: app/Services/TagService.php:130 app/Services/TagService.php:145
+msgid "Tag not found"
+msgstr "Tag nicht gefunden"
+
+#: app/Utils/Provider/Mailchimp.php:237
+msgid "Subscriber added but failed to add tags"
+msgstr "Der Abonnent wurde angelegt, die Tags ließen sich aber nicht zuweisen"
+
+#: app/Utils/Provider/Webhook.php:198
+msgid "Webhook sent successfully"
+msgstr "Webhook verschickt"
+
+#: app/Views/chapters-strip.php:33 app/Views/chapters-strip.php:45
+msgid "Chapters"
+msgstr "Kapitel"
+
+#: app/Views/chapters-strip.php:35
+msgid "Jump to the chapter now playing"
+msgstr "Zum gerade laufenden Kapitel springen"
+
+#: app/Views/chapters-strip.php:37
+msgid "Now playing"
+msgstr "Läuft gerade"
+
+#: app/Views/chapters-strip.php:42
+msgid "Scroll chapters left"
+msgstr "Kapitel nach links scrollen"
+
+#. translators: 1: chapter title, 2: chapter start timestamp, e.g. 2:40
+#: app/Views/chapters-strip.php:61
+#, php-format
+msgid "%1$s, starts at %2$s"
+msgstr "%1$s, beginnt bei %2$s"
+
+#: app/Views/chapters-strip.php:71
+msgid "Scroll chapters right"
+msgstr "Kapitel nach rechts scrollen"
+
+#: app/Views/playlist.php:22
+msgid "This playlist is empty. Please add media items."
+msgstr "Diese Playlist ist leer. Bitte füge Medien hinzu."
+
+#: app/Views/playlist/grid/content.php:39
+msgid "Search videos…"
+msgstr "Videos suchen …"
+
+#: app/Views/playlist/grid/content.php:40
+msgid "Search videos by title"
+msgstr "Videos nach Titel suchen"
+
+#: app/Views/playlist/grid/content.php:41
+#: app/Views/playlist/grid/content.php:89
+msgid "Clear search"
+msgstr "Suche leeren"
+
+#. translators: 1: number of videos matching the search, 2: total videos, 3:
+#. "video" or "videos"
+#: app/Views/playlist/grid/content.php:49
+#, php-format
+msgid "%1$s of %2$s %3$s"
+msgstr "%1$s von %2$s %3$s"
+
+#: app/Views/playlist/grid/content.php:65
+#: app/Views/playlist/learning/footer.php:17
+msgid "Previous"
+msgstr "Zurück"
+
+#: app/Views/playlist/grid/content.php:69
+msgid "of"
+msgstr "von"
+
+#: app/Views/playlist/grid/content.php:73
+#: app/Views/playlist/learning/footer.php:25
+msgid "Next"
+msgstr "Weiter"
+
+#: app/Views/playlist/grid/content.php:86
+msgid "No videos found"
+msgstr "Keine Videos gefunden"
+
+#: app/Views/playlist/grid/content.php:87
+msgid "Try a different search term"
+msgstr "Versuch es mit einem anderen Suchbegriff"
+
+#: app/Views/playlist/grid/grid-item.php:62
+#: app/Views/playlist/learning/lesson-item.php:50
+#, php-format
+msgid "%s%% watched"
+msgstr "%s %% gesehen"
+
+#: app/Views/playlist/grid/modal.php:24
+msgid "Video player"
+msgstr "Videoplayer"
+
+#: app/Views/playlist/grid/modal.php:27
+msgid "Close"
+msgstr "Schließen"
+
+#: app/Views/playlist/grid/modal.php:34
+msgid "Previous video"
+msgstr "Vorheriges Video"
+
+#: app/Views/playlist/grid/modal.php:37
+msgid "Next video"
+msgstr "Nächstes Video"
+
+#: app/Views/playlist/layouts/learning.php:26
+msgid "Toggle sidebar"
+msgstr "Seitenleiste umschalten"
+
+#: app/Views/playlist/layouts/standard.php:30
+msgid "Show playlist"
+msgstr "Playlist anzeigen"
+
+#: app/Views/playlist/learning/content.php:17
+msgid "Course Chapters"
+msgstr "Kurskapitel"
+
+#: app/Views/playlist/learning/content.php:32
+msgid "Lessons"
+msgstr "Lektionen"
+
+#: app/Views/playlist/learning/footer.php:21
+msgid "Mark as Complete"
+msgstr "Als abgeschlossen markieren"
+
+#: app/Views/playlist/learning/header.php:19
+msgid "completed"
+msgstr "abgeschlossen"
+
+#: app/Views/playlist/learning/header.php:20
+msgid "lessons"
+msgstr "Lektionen"
+
+#: app/Views/playlist/learning/header.php:29
+msgid "Course progress"
+msgstr "Kursfortschritt"
+
+#: app/Views/playlist/learning/player.php:23
+msgid "Lesson"
+msgstr "Lektion"
+
+#: app/Views/playlist/learning/player.php:32
+msgid "Lesson progress"
+msgstr "Fortschritt der Lektion"
+
+#: app/Views/playlist/standard/sidebar.php:22
+msgid "Close playlist"
+msgstr "Playlist schließen"
+
+#~ msgid "Your Fluent Player Pro license has been activated successfully."
+#~ msgstr "Deine Fluent-Player-Pro-Lizenz ist jetzt aktiv."
+
+#~ msgid "An unexpected error occurred while activating the license."
+#~ msgstr "Beim Aktivieren der Lizenz ist ein unerwarteter Fehler aufgetreten."
+
+#~ msgid "Your Fluent Player Pro license has been deactivated."
+#~ msgstr "Deine Fluent-Player-Pro-Lizenz wurde deaktiviert."
+
+#~ msgid "An unexpected error occurred while deactivating the license."
+#~ msgstr "Beim Deaktivieren der Lizenz ist ein unerwarteter Fehler aufgetreten."
+
+#~ msgid "An unexpected error occurred while fetching the license details."
+#~ msgstr "Beim Abrufen der Lizenzdaten ist ein unerwarteter Fehler aufgetreten."
+
+#~ msgid "License key is required for activation."
+#~ msgstr "Für die Aktivierung ist ein Lizenzschlüssel erforderlich."
+
+#, php-format
+#~ msgid ""
+#~ "The license for %s has been disabled. Please contact support for assistance."
+#~ msgstr "Die Lizenz für %s wurde deaktiviert. Bitte wende Dich an den Support."
+
+#, php-format
+#~ msgid "The %1$s license needs to be activated. %2$s"
+#~ msgstr "Die Lizenz für %1$s muss aktiviert werden. %2$s"
+
+#~ msgid "Click here to activate"
+#~ msgstr "Hier klicken zum Aktivieren"
+
+#, php-format
+#~ msgid "Your %1$s license has expired at %2$s. Please %3$s"
+#~ msgstr "Deine Lizenz für %1$s ist am %2$s abgelaufen. Bitte %3$s"
+
+#~ msgid "Click here to renew your license"
+#~ msgstr "Hier klicken, um die Lizenz zu verlängern"
+
+#~ msgid "License API request failed."
+#~ msgstr "Die Anfrage an die Lizenz-API ist fehlgeschlagen."
+
+#~ msgid "License API returned an empty or invalid response."
+#~ msgstr "Die Lizenz-API hat eine leere oder ungültige Antwort geliefert."

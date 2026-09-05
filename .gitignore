@@ -1,0 +1,6 @@
+# Erzeugnisse: .mo und .l10n.php entstehen aus den .po und stecken im Release.
+*.mo
+*.l10n.php
+
+# Loco-Sicherungen
+*.po~
