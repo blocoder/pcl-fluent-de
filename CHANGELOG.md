@@ -7,6 +7,11 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 1.5.1
+
+In der Plugin-Liste steht jetzt **Einstellungen** neben *Deaktivieren* – der
+kurze Weg zu der Seite, auf der die Adresse der Nutzungsbedingungen liegt.
+
 ## 1.5.0
 
 **Das Plugin meldet Updates jetzt selbst.** Es fragt bei GitHub nach dem

@@ -4,7 +4,7 @@
  * Plugin URI:        https://github.com/blocoder/pcl-fluent-de
  * Update URI:        https://github.com/blocoder/pcl-fluent-de
  * Description:       Liefert die deutschen Übersetzungen für FluentCommunity, FluentCommunity Pro, FluentMessaging und FluentPlayer aus. Lädt sie vor allen anderen Katalogen, damit die eigene Fassung gewinnt und mitgelieferte Sprachpakete nur noch Lücken füllen. Legt außerdem den Zustimmungs-Link bei der Registrierung auf die echte AGB-Seite.
- * Version:           1.5.0
+ * Version:           1.5.1
  * Requires at least: 6.5
  * Requires PHP:      7.4
  * Author:            Peter Claus Lamprecht (PC’L)
@@ -251,6 +251,31 @@ function pcl_fluent_de_row_meta($links, $file) {
     return $links;
 }
 add_filter('plugin_row_meta', 'pcl_fluent_de_row_meta', 10, 2);
+
+/**
+ * „Einstellungen“ neben „Deaktivieren“ in der Plugin-Liste.
+ *
+ * Nicht `plugin_row_meta` — das ist die zweite Zeile mit „Details anzeigen“ und
+ * den Hinweisen. Die Handlungen stehen in `plugin_action_links_<datei>`, und
+ * die Vorgabe ist, den eigenen Eintrag **vorn** anzustellen: WordPress hängt
+ * „Deaktivieren“ ans Ende, und dazwischen zu rutschen liest sich falsch.
+ *
+ * Der Filtername trägt den Dateinamen relativ zum Plugin-Ordner, deshalb
+ * `plugin_basename(__FILE__)` und keine feste Zeichenkette — sonst greift der
+ * Filter nicht mehr, sobald der Ordner anders heißt.
+ */
+function pcl_fluent_de_action_links($links) {
+    $link = sprintf(
+        '<a href="%s">%s</a>',
+        esc_url(admin_url('options-general.php?page=pcl-fluent-de')),
+        esc_html__('Einstellungen', 'pcl-fluent-de')
+    );
+
+    array_unshift($links, $link);
+
+    return $links;
+}
+add_filter('plugin_action_links_' . plugin_basename(__FILE__), 'pcl_fluent_de_action_links');
 
 /* -------------------------------------------------------------------------
  * Zustimmungs-Link bei der Registrierung
