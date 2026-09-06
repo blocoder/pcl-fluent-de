@@ -2,8 +2,9 @@
 /**
  * Plugin Name:       PC’L Übersetzungen für Fluent-Plugins
  * Plugin URI:        https://github.com/blocoder/pcl-fluent-de
+ * Update URI:        https://github.com/blocoder/pcl-fluent-de
  * Description:       Liefert die deutschen Übersetzungen für FluentCommunity, FluentCommunity Pro, FluentMessaging und FluentPlayer aus. Lädt sie vor allen anderen Katalogen, damit die eigene Fassung gewinnt und mitgelieferte Sprachpakete nur noch Lücken füllen. Legt außerdem den Zustimmungs-Link bei der Registrierung auf die echte AGB-Seite.
- * Version:           1.4.3
+ * Version:           1.5.0
  * Requires at least: 6.5
  * Requires PHP:      7.4
  * Author:            Peter Claus Lamprecht (PC’L)
@@ -17,6 +18,61 @@
 if (!defined('ABSPATH')) {
     exit;
 }
+
+/* -------------------------------------------------------------------------
+ * Updates von GitHub
+ * ---------------------------------------------------------------------- */
+
+/**
+ * Warum eine mitgelieferte Bibliothek und nicht der Core-Weg?
+ *
+ * WordPress kann das seit 5.8 selbst: Der Header `Update URI` oben nennt einen
+ * Host, und der Core feuert dann `update_plugins_github.com`
+ * (wp-includes/update.php). Wer sich daran hängt, braucht keine Zeile
+ * Fremdcode.
+ *
+ * Nur muss dieser Jemand auf der Installation vorhanden sein. Dieses Plugin
+ * läuft auch dort, wo es keinen SSH-Zugang und kein WP-CLI gibt und jede
+ * Datei einzeln per FTP hochgeht — und genau dort ist ein Plugin, das seine
+ * Updates selbst mitbringt, den Unterschied wert.
+ *
+ * Der `Update URI`-Header steht trotzdem oben, und zwar aus einem zweiten
+ * Grund: Ohne ihn fragt WordPress für jedes Plugin bei wordpress.org nach.
+ * Liegt dort je ein Plugin mit dem Ordnernamen `pcl-fluent-de`, bekäme diese
+ * Installation dessen Update untergeschoben. Der Header schließt das aus.
+ *
+ * Die Bibliothek liest das neueste Release des Repos, nimmt die Versionsnummer
+ * aus dem Tag-Namen (`v1.5.0` → `1.5.0`) und lädt das angehängte ZIP.
+ * Vorabversionen überspringt sie.
+ *
+ * Was hier NICHT passiert: eine Signatur- oder Prüfsummenkontrolle. WordPress
+ * bringt dafür einen Rahmen mit (`verify_file_signature()`, Ed25519), wendet
+ * ihn aber nur auf Downloads von wordpress.org an — `wp_signature_hosts`
+ * führt github.com nicht, und `wp_signature_softfail` steht ohnehin auf true.
+ * Was schützt, ist HTTPS und GitHub. Entscheidung PC’L vom 06.09.2026; der
+ * Weg dahin wäre, das ZIP zu signieren und die `.sig` als zweites
+ * Release-Asset abzulegen.
+ */
+require_once __DIR__ . '/plugin-update-checker/plugin-update-checker.php';
+
+add_action('init', function () {
+    // Erst auf `init`, weil die Bibliothek übersetzte Meldungen ausgibt und
+    // WordPress 6.7+ jedes frühere load_textdomain() anmeckert.
+    // __FILE__ bleibt auch in der Closure diese Datei — es wird beim Übersetzen
+    // aufgelöst, nicht beim Aufruf. Die Bibliothek braucht die Hauptdatei des
+    // Plugins, um den Ordner und den Versionsstand zu finden.
+    $pruefer = \YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateChecker(
+        'https://github.com/blocoder/pcl-fluent-de/',
+        __FILE__,
+        'pcl-fluent-de'
+    );
+
+    // Ohne das lädt die Bibliothek den Quelltext-Tarball von GitHub — also den
+    // Repo-Inhalt mit den .po, aber ohne die .mo und .l10n.php, die erst
+    // package.sh erzeugt. Ein Update daraus wäre eine Installation ohne
+    // Übersetzung. Das Muster nimmt gezielt das ZIP und nichts sonst.
+    $pruefer->getVcsApi()->enableReleaseAssets('/\.zip($|[?&#])/i');
+});
 
 /**
  * Warum dieses Plugin überhaupt?

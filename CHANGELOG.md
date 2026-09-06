@@ -7,6 +7,25 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 1.5.0
+
+**Das Plugin meldet Updates jetzt selbst.** Es fragt bei GitHub nach dem
+neuesten Release, und WordPress zeigt das Update unter *Plugins* an wie bei
+jedem anderen – Einspielen mit einem Klick, automatische Updates lassen sich
+im Backend einschalten.
+
+Dafür liegt `plugin-update-checker` 5.7 von Jānis Elsts bei (MIT). Die
+Übersetzungen selbst sind unverändert.
+
+Ein Hinweis zur Ehrlichkeit: **Es findet keine Signatur- oder
+Prüfsummenkontrolle statt.** WordPress bringt dafür einen Rahmen mit, wendet
+ihn aber nur auf Downloads von wordpress.org an. Was das Paket schützt, ist
+HTTPS und GitHub – nicht mehr und nicht weniger als bei jedem anderen Plugin,
+das von GitHub aktualisiert wird.
+
+**Diese Fassung muss noch von Hand eingespielt werden.** Ab 1.5.0 meldet sich
+jede weitere von selbst.
+
 ## 1.4.3
 
 Erste öffentliche Fassung.
