@@ -41,17 +41,17 @@ Aus einer Handvoll geänderter Zeichenketten sind über 5.000 geworden.
 
 ## Was drin ist
 
-Stand: 05.09.2026, abgeglichen mit diesen Plugin-Versionen.
+Stand: 15.09.2026, abgeglichen mit diesen Plugin-Versionen.
 
 | Katalog | Plugin-Version | übersetzt |
 |---|---|---:|
-| `fluent-community` | 2.9.1 | 3.065 |
-| `fluent-community-pro` | 2.9.1 | 409 |
+| `fluent-community` | 2.10.01 | 3.153 |
+| `fluent-community-pro` | 2.10.01 | 454 |
 | `fluent-messaging` | 2.9.0 | 366 |
 | `fluent-player` | 1.4.0 | 763 |
 | `fluent-player-pro` | 1.4.0 | 590 |
 
-**5.193 Zeichenketten. Acht sind offen:** Plugin-Kopfzeilen (Produktname,
+**5.326 Zeichenketten. Acht sind offen:** Plugin-Kopfzeilen (Produktname,
 Adresse, Autorenname), die man nicht übersetzt. Jede trägt einen
 Übersetzerkommentar, warum sie leer steht.
 

@@ -7,6 +7,20 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 1.5.2
+
+**Angepasst an FluentCommunity und FluentCommunity Pro 2.10.01.** 136 neue
+Zeichenketten, vor allem für die neuen **Seiten innerhalb eines Forums**:
+Sichtbarkeit, Slug, Menüeintrag, SEO-Beschreibung und die vier Ansichten
+(Durchgehend, Standard, Klassisch, Volle Breite). Dazu die vorgerenderten
+Foren- und Kursseiten, das Aktivieren von FluentNotify und neue Beschriftungen
+für Bildschirmleser.
+
+**Reihenfolge beachten:** Auf FluentCommunity 2.9.1 erscheinen mit dieser
+Fassung drei Zeichenketten englisch, die der Hersteller in 2.10.01 ersetzt hat
+(`Edit Article`, `New Article` und der Hinweis auf blockierte
+Benachrichtigungen). Erst FluentCommunity aktualisieren, dann dieses Plugin.
+
 ## 1.5.1
 
 In der Plugin-Liste steht jetzt **Einstellungen** neben *Deaktivieren* – der

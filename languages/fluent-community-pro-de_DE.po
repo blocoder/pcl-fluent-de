@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FluentCommunity Pro\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fluent-community-pro\n"
-"POT-Creation-Date: 2026-09-03T19:35:06+02:00\n"
+"POT-Creation-Date: 2026-09-15T15:16:16+02:00\n"
 "PO-Revision-Date: 2026-07-25 15:08+0000\n"
 "Last-Translator: Peter Claus Lamprecht\n"
 "Language-Team: Deutsch\n"
@@ -127,60 +127,60 @@ msgid "Your comment has been sent for review as per community guidelines."
 msgstr "Dein Kommentar geht gemäß den Community-Regeln in die Prüfung."
 
 #. translators: %1$s is the comment title
-#: app/Hooks/Handlers/ModerationHandler.php:291
+#: app/Hooks/Handlers/ModerationHandler.php:295
 #, php-format
 msgid "A comment has been automatically flagged for review: %1$s"
 msgstr "Ein Kommentar wurde automatisch zur Prüfung markiert: %1$s"
 
 #. translators: %s is the number of other people
-#: app/Hooks/Handlers/ModerationHandler.php:308
-#: app/Hooks/Handlers/ModerationHandler.php:378
+#: app/Hooks/Handlers/ModerationHandler.php:312
+#: app/Hooks/Handlers/ModerationHandler.php:382
 #, php-format
 msgid " and %s other people"
 msgstr " und %s weitere"
 
 #. translators: %1$s is the user name, %2$s is the comment title
-#: app/Hooks/Handlers/ModerationHandler.php:315
+#: app/Hooks/Handlers/ModerationHandler.php:319
 #, php-format
 msgid "%1$s flagged a comment for your review: %2$s"
 msgstr "%1$s hat einen Kommentar zur Prüfung gemeldet: %2$s"
 
 #. translators: %1$s is the feed title
-#: app/Hooks/Handlers/ModerationHandler.php:362
+#: app/Hooks/Handlers/ModerationHandler.php:366
 #, php-format
 msgid "A post has been automatically flagged for review: %1$s"
 msgstr "Ein Beitrag wurde automatisch zur Prüfung markiert: %1$s"
 
 #. translators: %1$s is the user name, %2$s is the feed title
-#: app/Hooks/Handlers/ModerationHandler.php:385
+#: app/Hooks/Handlers/ModerationHandler.php:389
 #, php-format
 msgid "%1$s flagged a post %2$s for your review"
 msgstr "%1$s hat einen Beitrag %2$s zur Prüfung gemeldet"
 
 #. translators: %1$s is the user name, %2$s is the feed title  and %3$s space
 #. title
-#: app/Hooks/Handlers/ModerationHandler.php:393
+#: app/Hooks/Handlers/ModerationHandler.php:397
 #, php-format
 msgid "%1$s flagged a post %2$s for your review in %3$s"
 msgstr "%1$s hat einen Beitrag %2$s in %3$s zur Prüfung gemeldet"
 
 #. translators: %s is the comment excerpt (max 30 chars)
-#: app/Hooks/Handlers/ModerationHandler.php:594
+#: app/Hooks/Handlers/ModerationHandler.php:598
 #, php-format
 msgid "Comment flagged for review: %s"
 msgstr "Kommentar zur Prüfung gemeldet: %s"
 
-#: app/Hooks/Handlers/ModerationHandler.php:598
+#: app/Hooks/Handlers/ModerationHandler.php:602
 msgid "Review the comment"
 msgstr "Kommentar prüfen"
 
 #. translators: %s is the post excerpt (max 30 chars)
-#: app/Hooks/Handlers/ModerationHandler.php:653
+#: app/Hooks/Handlers/ModerationHandler.php:657
 #, php-format
 msgid "Post flagged for review: %s"
 msgstr "Beitrag zur Prüfung gemeldet: %s"
 
-#: app/Hooks/Handlers/ModerationHandler.php:657
+#: app/Hooks/Handlers/ModerationHandler.php:661
 msgid "Review the post"
 msgstr "Beitrag prüfen"
 
@@ -196,7 +196,13 @@ msgstr ""
 msgid "Welcome Banner"
 msgstr "Willkommensbanner"
 
-#: app/Hooks/Handlers/SchedulePostHandler.php:34
+#: app/Hooks/Handlers/SchedulePostHandler.php:37
+msgid "The scheduled date and time could not be read. Please pick them again."
+msgstr ""
+"Datum und Uhrzeit der Planung konnten nicht gelesen werden. Bitte wähle sie "
+"noch einmal aus."
+
+#: app/Hooks/Handlers/SchedulePostHandler.php:44
 #: app/Http/Controllers/SchedulePostsController.php:136
 msgid "Scheduled time must be at least 30 minutes from now."
 msgstr ""
@@ -336,7 +342,9 @@ msgid "Notification has been updated successfully"
 msgstr "Die Benachrichtigung wurde gespeichert"
 
 #. translators: %s: human readable time difference, e.g. "2 mins"
+#. translators: %s: human readable time difference, e.g. "3 weeks"
 #: app/Http/Controllers/LicenseController.php:72
+#: app/Modules/SeoSiteMap/AbstractPortalPreRenderer.php:534
 #, php-format
 msgid "%s ago"
 msgstr "vor %s"
@@ -349,19 +357,23 @@ msgstr "Dein Lizenzschlüssel wurde erfolgreich aktualisiert"
 msgid "Your license key has been successfully deactivated"
 msgstr "Dein Lizenzschlüssel wurde erfolgreich deaktiviert"
 
-#: app/Http/Controllers/ModerationController.php:94
+#: app/Http/Controllers/ModerationController.php:99
+msgid "The content you are trying to report could not be found."
+msgstr "Der Inhalt, den Du melden möchtest, wurde nicht gefunden."
+
+#: app/Http/Controllers/ModerationController.php:115
 msgid "This comment does not belong to the reported post."
 msgstr "Dieser Kommentar gehört nicht zum gemeldeten Beitrag."
 
-#: app/Http/Controllers/ModerationController.php:102
+#: app/Http/Controllers/ModerationController.php:123
 msgid "You cannot report this content posted by a moderator."
 msgstr "Inhalte von Moderatoren lassen sich nicht melden."
 
-#: app/Http/Controllers/ModerationController.php:119
+#: app/Http/Controllers/ModerationController.php:140
 msgid "You have already reported this content."
 msgstr "Du hast diesen Inhalt bereits gemeldet."
 
-#: app/Http/Controllers/ModerationController.php:146
+#: app/Http/Controllers/ModerationController.php:173
 msgid ""
 "Your report has been successfully submitted. A moderator will review as soon"
 " as possible."
@@ -369,22 +381,22 @@ msgstr ""
 "Dein Bericht ist eingegangen. Die Moderation sieht ihn sich so bald wie "
 "möglich an."
 
-#: app/Http/Controllers/ModerationController.php:160
-#: app/Modules/Quiz/Http/Controllers/QuizController.php:196
+#: app/Http/Controllers/ModerationController.php:194
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:201
 msgid "Invalid status value."
 msgstr "Ungültiger Statuswert."
 
-#: app/Http/Controllers/ModerationController.php:237
+#: app/Http/Controllers/ModerationController.php:281
 msgid "The comment has been unpublished and is no longer visible to others."
 msgstr ""
 "Der Kommentar wurde zurückgezogen und ist für andere nicht mehr sichtbar."
 
-#: app/Http/Controllers/ModerationController.php:238
+#: app/Http/Controllers/ModerationController.php:282
 msgid "The post has been unpublished and is no longer visible to others."
 msgstr ""
 "Der Beitrag wurde zurückgezogen und ist für andere nicht mehr sichtbar."
 
-#: app/Http/Controllers/ModerationController.php:241
+#: app/Http/Controllers/ModerationController.php:285
 msgid ""
 "The report was dismissed. The comment is published and visible to the "
 "community."
@@ -392,7 +404,7 @@ msgstr ""
 "Der Bericht wurde verworfen. Der Kommentar ist veröffentlicht und für die "
 "Community sichtbar."
 
-#: app/Http/Controllers/ModerationController.php:242
+#: app/Http/Controllers/ModerationController.php:286
 msgid ""
 "The report was dismissed. The post is published and visible to the "
 "community."
@@ -400,11 +412,11 @@ msgstr ""
 "Der Bericht wurde verworfen. Der Beitrag ist veröffentlicht und für die "
 "Community sichtbar."
 
-#: app/Http/Controllers/ModerationController.php:261
+#: app/Http/Controllers/ModerationController.php:305
 msgid "Report deleted successfully"
 msgstr "Bericht gelöscht"
 
-#: app/Http/Controllers/ModerationController.php:283
+#: app/Http/Controllers/ModerationController.php:327
 msgid "Moderation config saved successfully"
 msgstr "Moderations-Einstellungen gespeichert"
 
@@ -1042,6 +1054,12 @@ msgstr ""
 " er übersprungen, wenn der Kontakt bereits existiert."
 
 #: app/Modules/MediaGallery/Http/MediaGalleryController.php:19
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:22
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:99
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:137
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:245
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:279
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:344
 msgid "Space not found"
 msgstr "Forum nicht gefunden"
 
@@ -1174,11 +1192,15 @@ msgstr "Dieses Quiz ist noch nicht veröffentlicht"
 msgid "Answer exceeds the %d character limit"
 msgstr "Die Antwort überschreitet das Limit von %d Zeichen"
 
-#: app/Modules/Quiz/Http/Controllers/QuizController.php:182
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:141
+msgid "This quiz has no enabled questions yet."
+msgstr "Dieses Quiz hat noch keine aktivierten Fragen."
+
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:187
 msgid "Quiz has been submitted successfully"
 msgstr "Das Quiz wurde abgeschickt"
 
-#: app/Modules/Quiz/Http/Controllers/QuizController.php:207
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:212
 msgid "Quiz result updated successfully"
 msgstr "Das Quiz-Ergebnis wurde aktualisiert"
 
@@ -1189,6 +1211,222 @@ msgstr "Einfachauswahl"
 #: app/Modules/Quiz/QuizHelper.php:19
 msgid "Multiple Choice"
 msgstr "Mehrfachauswahl"
+
+#: app/Modules/SeoSiteMap/AbstractPortalPreRenderer.php:160
+msgid "Space menu"
+msgstr "Foren-Menü"
+
+#: app/Modules/SeoSiteMap/AbstractPortalPreRenderer.php:163
+#: app/Services/Analytics/AnalyticsService.php:43
+#: app/Services/Analytics/Overview.php:31
+#: app/Services/Analytics/Overview.php:50
+#: app/Services/Analytics/Spaces.php:145
+msgid "Posts"
+msgstr "Beiträge"
+
+#: app/Modules/SeoSiteMap/AbstractPortalPreRenderer.php:200
+msgid "Space Links"
+msgstr "Foren-Links"
+
+#. translators: %s is the number of likes
+#: app/Modules/SeoSiteMap/AbstractPortalPreRenderer.php:393
+#, php-format
+msgid "%s like"
+msgid_plural "%s likes"
+msgstr[0] "%s Like"
+msgstr[1] "%s Likes"
+
+#. translators: %s is the number of comments
+#: app/Modules/SeoSiteMap/AbstractPortalPreRenderer.php:407
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s Kommentar"
+msgstr[1] "%s Kommentare"
+
+#: app/Modules/SeoSiteMap/AbstractPortalPreRenderer.php:510
+msgid "Someone"
+msgstr "Jemand"
+
+#: app/Modules/SeoSiteMap/CoursePaywalls.php:138
+msgid "day"
+msgstr "Tag"
+
+#: app/Modules/SeoSiteMap/CoursePaywalls.php:139
+msgid "week"
+msgstr "Woche"
+
+#: app/Modules/SeoSiteMap/CoursePaywalls.php:140
+msgid "month"
+msgstr "Monat"
+
+#: app/Modules/SeoSiteMap/CoursePaywalls.php:141
+msgid "quarter"
+msgstr "Quartal"
+
+#: app/Modules/SeoSiteMap/CoursePaywalls.php:142
+msgid "half year"
+msgstr "Halbjahr"
+
+#: app/Modules/SeoSiteMap/CoursePaywalls.php:143
+msgid "year"
+msgstr "Jahr"
+
+#: app/Modules/SeoSiteMap/CoursePreRenderer.php:152
+msgid "Breadcrumb"
+msgstr "Pfadnavigation"
+
+#: app/Modules/SeoSiteMap/CoursePreRenderer.php:154
+msgid "Courses"
+msgstr "Kurse"
+
+#. translators: %s is the number of topics
+#: app/Modules/SeoSiteMap/CoursePreRenderer.php:190
+#, php-format
+msgid "%s Topic"
+msgid_plural "%s Topics"
+msgstr[0] "%s Abschnitt"
+msgstr[1] "%s Abschnitte"
+
+#. translators: %s is the number of lessons
+#: app/Modules/SeoSiteMap/CoursePreRenderer.php:195
+#, php-format
+msgid "%s Lesson"
+msgid_plural "%s Lessons"
+msgstr[0] "%s Lektion"
+msgstr[1] "%s Lektionen"
+
+#: app/Modules/SeoSiteMap/CoursePreRenderer.php:236
+msgid "Course Contents"
+msgstr "Kursinhalte"
+
+#. translators: %s is the number of lessons in the section
+#: app/Modules/SeoSiteMap/CoursePreRenderer.php:252
+#, php-format
+msgid "%s lesson"
+msgid_plural "%s lessons"
+msgstr[0] "%s Lektion"
+msgstr[1] "%s Lektionen"
+
+#: app/Modules/SeoSiteMap/CoursePreRenderer.php:292
+msgid "This is a private course"
+msgstr "Dies ist ein privater Kurs"
+
+#: app/Modules/SeoSiteMap/CoursePreRenderer.php:296
+msgid "Purchase access below or log in if you are already a member."
+msgstr ""
+"Kaufe unten den Zugang oder melde Dich an, wenn Du schon Mitglied bist."
+
+#: app/Modules/SeoSiteMap/CoursePreRenderer.php:298
+msgid "Members have to be invited to this course."
+msgstr "Die Mitglieder müssen zu diesem Kurs eingeladen werden."
+
+#: app/Modules/SeoSiteMap/SpacePreRenderer.php:103
+msgid "Posts pagination"
+msgstr "Seitennavigation der Beiträge"
+
+#: app/Modules/SeoSiteMap/SpacePreRenderer.php:105
+msgid "Newer posts"
+msgstr "Neuere Beiträge"
+
+#: app/Modules/SeoSiteMap/SpacePreRenderer.php:108
+msgid "Older posts"
+msgstr "Ältere Beiträge"
+
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:53
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:63
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:74
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:145
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:253
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:287
+msgid "Page not found"
+msgstr "Seite nicht gefunden"
+
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:107
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:161
+msgid "Page title is required"
+msgstr "Der Seitentitel ist erforderlich"
+
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:126
+msgid "Page has been created"
+msgstr "Die Seite wurde erstellt"
+
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:221
+msgid "Nothing to update"
+msgstr "Nichts zu aktualisieren"
+
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:234
+msgid "Page has been updated"
+msgstr "Die Seite wurde aktualisiert"
+
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:262
+msgid "Page has been deleted"
+msgstr "Die Seite wurde gelöscht"
+
+#. translators: %s is the title of the page being copied
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:297
+#, php-format
+msgid "%s (Copy)"
+msgstr "%s (Kopie)"
+
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:316
+msgid "Page has been duplicated"
+msgstr "Die Seite wurde dupliziert"
+
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:353
+msgid "No pages provided to sort"
+msgstr "Keine Seiten zum Sortieren übergeben"
+
+#: app/Modules/SpacePages/Http/Controllers/SpacePageController.php:377
+msgid "Pages have been sorted"
+msgstr "Die Seiten wurden sortiert"
+
+#: app/Modules/SpacePages/Services/SpacePageHelper.php:276
+msgid "You do not have access to view this page."
+msgstr "Du hast keinen Zugriff auf diese Seite."
+
+#: app/Modules/SpacePages/Services/SpacePageHelper.php:323
+msgid "Unified"
+msgstr "Durchgehend"
+
+#: app/Modules/SpacePages/Services/SpacePageHelper.php:324
+msgid "One surface filling the whole area, read like a course lesson. No box."
+msgstr ""
+"Eine Fläche über den ganzen Bereich, zu lesen wie eine Kurslektion. Ohne "
+"Kasten."
+
+#: app/Modules/SpacePages/Services/SpacePageHelper.php:327
+msgid "Standard"
+msgstr "Standard"
+
+#: app/Modules/SpacePages/Services/SpacePageHelper.php:328
+msgid ""
+"A card across the full width of the space, like the Members and Documents "
+"tabs."
+msgstr ""
+"Eine Karte über die volle Breite des Forums, wie bei den Reitern Mitglieder "
+"und Dokumente."
+
+#: app/Modules/SpacePages/Services/SpacePageHelper.php:331
+msgid "Classic"
+msgstr "Klassisch"
+
+#: app/Modules/SpacePages/Services/SpacePageHelper.php:332
+msgid ""
+"Reads like a normal post: a card the width of a feed post, with the space "
+"sidebar beside it."
+msgstr ""
+"Liest sich wie ein normaler Beitrag: eine Karte in der Breite eines Feed-"
+"Beitrags, daneben die Seitenleiste des Forums."
+
+#: app/Modules/SpacePages/Services/SpacePageHelper.php:335
+msgid "Full Width"
+msgstr "Volle Breite"
+
+#: app/Modules/SpacePages/Services/SpacePageHelper.php:336
+msgid "No card. Full width blocks design the page edge to edge."
+msgstr ""
+"Ohne Karte. Blöcke in voller Breite gestalten die Seite von Rand zu Rand."
 
 #: app/Modules/UserBadge/Controllers/UserBadgeController.php:36
 msgid "Title is required for all the badges"
@@ -1223,13 +1461,6 @@ msgstr "Kommentare"
 #: app/Services/Analytics/Spaces.php:153
 msgid "Members"
 msgstr "Mitglieder"
-
-#: app/Services/Analytics/AnalyticsService.php:43
-#: app/Services/Analytics/Overview.php:31
-#: app/Services/Analytics/Overview.php:50
-#: app/Services/Analytics/Spaces.php:145
-msgid "Posts"
-msgstr "Beiträge"
 
 #: app/Services/Analytics/AnalyticsService.php:47
 #: app/Services/Analytics/Overview.php:33
@@ -1952,35 +2183,35 @@ msgstr "Mehrfachauswahl"
 msgid "%s is required"
 msgstr "%s ist erforderlich"
 
-#: app/Services/ProHelper.php:251
+#: app/Services/ProHelper.php:271
 msgid "Section Title"
 msgstr "Titel des Abschnitts"
 
-#: app/Services/ProHelper.php:252
+#: app/Services/ProHelper.php:272
 msgid "Section URL"
 msgstr "URL des Abschnitts"
 
-#: app/Services/ProHelper.php:253
+#: app/Services/ProHelper.php:273
 msgid "Course Title"
 msgstr "Kurstitel"
 
-#: app/Services/ProHelper.php:254
+#: app/Services/ProHelper.php:274
 msgid "User Name"
 msgstr "Name des Mitglieds"
 
-#: app/Services/ProHelper.php:255
+#: app/Services/ProHelper.php:275
 msgid "Site Name"
 msgstr "Name der Website"
 
-#: app/Services/ProHelper.php:256
+#: app/Services/ProHelper.php:276
 msgid "Site Name with URL"
 msgstr "Name der Website mit URL"
 
-#: app/Services/ProHelper.php:263
+#: app/Services/ProHelper.php:283
 msgid "{{section.title}} is now available for you in {{course.title}}"
 msgstr "{{section.title}} steht Dir jetzt in {{course.title}} zur Verfügung"
 
-#: app/Services/ProHelper.php:264
+#: app/Services/ProHelper.php:284
 msgid ""
 "Hi {{user.display_name}},\n"
 "\n"

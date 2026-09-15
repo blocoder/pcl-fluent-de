@@ -4,7 +4,7 @@ Tags: fluentcommunity, fluentmessaging, fluentplayer, deutsch, übersetzung
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.5.1
+Stable tag: 1.5.2
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ Eine vollständige deutsche Übersetzung für FluentCommunity, FluentMessaging u
 
 == Description ==
 
-5.193 übersetzte Zeichenketten für fünf Plugins, ausgeliefert als eigenes Plugin statt über Loco Translate.
+5.326 übersetzte Zeichenketten für fünf Plugins, ausgeliefert als eigenes Plugin statt über Loco Translate.
 
 **Warum das nötig ist:** WordPress fragt für eine Textdomain mehrere Kataloge der Reihe nach ab und nimmt die erste Datei, die eine Zeichenkette kennt. Wer zuerst lädt, gewinnt. Dieses Plugin lädt auf `plugins_loaded` mit Priorität 1 – vor dem Sprachpaket von wordpress.org. Damit hält die eigene Terminologie, und das Sprachpaket füllt nur noch Lücken.
 
@@ -50,6 +50,13 @@ Ein Katalog gehört zu einer Plugin-Version. Ändert der Hersteller einen englis
 Nein, nur `de_DE` in der Du-Form.
 
 == Changelog ==
+
+= 1.5.2 =
+* Angepasst an FluentCommunity und FluentCommunity Pro 2.10.01: 136 neue Zeichenketten, vor allem die neuen Seiten innerhalb eines Forums.
+* Auf FluentCommunity 2.9.1 erscheinen drei Zeichenketten englisch, die der Hersteller in 2.10.01 ersetzt hat. Erst FluentCommunity aktualisieren, dann dieses Plugin.
+
+= 1.5.1 =
+* In der Plugin-Liste steht jetzt „Einstellungen“ neben „Deaktivieren“.
 
 = 1.5.0 =
 * Das Plugin meldet Updates jetzt selbst und holt sie von GitHub.
