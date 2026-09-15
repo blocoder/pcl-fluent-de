@@ -7,6 +7,25 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 1.5.3
+
+**Block-Editor:** Zwei Stellen waren englisch, die keine Übersetzungsdatei
+erreicht – dieses Plugin korrigiert sie jetzt direkt.
+
+- Die Überschrift des ersten Reiters heißt „Foren-Seite“, „Lektion“ und
+  „Sperrbildschirm“ statt „Space Page“, „Lesson“ und „Lockscreen“.
+  FluentCommunity gibt diese Beschriftungen als festen englischen Text aus.
+- „Kommentare aktivieren“ in der Seitenleiste einer Foren-Seite. Der Editor
+  liest seine Texte aus einer eigenen Liste, und dort fehlte genau dieser
+  Eintrag.
+
+Beide Korrekturen greifen nur, solange FluentCommunity den englischen Text
+liefert, und halten sich heraus, sobald der Hersteller sie selbst übersetzbar
+macht.
+
+Außerdem heißt die Ansicht „Unified“ für Foren-Seiten jetzt **„Lektion“** – sie
+ist ausdrücklich einer Kurslektion nachgebildet.
+
 ## 1.5.2
 
 **Angepasst an FluentCommunity und FluentCommunity Pro 2.10.01.** 136 neue

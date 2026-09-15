@@ -4,7 +4,7 @@ Tags: fluentcommunity, fluentmessaging, fluentplayer, deutsch, übersetzung
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.5.2
+Stable tag: 1.5.3
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,6 +50,11 @@ Ein Katalog gehört zu einer Plugin-Version. Ändert der Hersteller einen englis
 Nein, nur `de_DE` in der Du-Form.
 
 == Changelog ==
+
+= 1.5.3 =
+* Block-Editor: Die Reiterüberschrift heißt jetzt „Foren-Seite“, „Lektion“ und „Sperrbildschirm“ statt „Space Page“, „Lesson“ und „Lockscreen“. FluentCommunity gibt sie als festen englischen Text aus.
+* Block-Editor: „Kommentare aktivieren“ in der Seitenleiste einer Foren-Seite war englisch, weil der Schlüssel in der Textliste des Editors fehlt.
+* Die Ansicht „Unified“ für Foren-Seiten heißt jetzt „Lektion“.
 
 = 1.5.2 =
 * Angepasst an FluentCommunity und FluentCommunity Pro 2.10.01: 136 neue Zeichenketten, vor allem die neuen Seiten innerhalb eines Forums.

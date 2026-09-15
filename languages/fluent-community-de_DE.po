@@ -717,7 +717,7 @@ msgstr "Volle Breite"
 
 #: app/Hooks/Handlers/FluentBlockEditorHandler.php:422
 msgid "Unified"
-msgstr "Durchgehend"
+msgstr "Lektion"
 
 #: app/Hooks/Handlers/FluentBlockEditorHandler.php:433
 #: app/Services/TransStrings.php:1931

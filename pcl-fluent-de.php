@@ -4,7 +4,7 @@
  * Plugin URI:        https://github.com/blocoder/pcl-fluent-de
  * Update URI:        https://github.com/blocoder/pcl-fluent-de
  * Description:       Liefert die deutschen Übersetzungen für FluentCommunity, FluentCommunity Pro, FluentMessaging und FluentPlayer aus. Lädt sie vor allen anderen Katalogen, damit die eigene Fassung gewinnt und mitgelieferte Sprachpakete nur noch Lücken füllen. Legt außerdem den Zustimmungs-Link bei der Registrierung auf die echte AGB-Seite.
- * Version:           1.5.2
+ * Version:           1.5.3
  * Requires at least: 6.5
  * Requires PHP:      7.4
  * Author:            Peter Claus Lamprecht (PC’L)
@@ -276,6 +276,85 @@ function pcl_fluent_de_action_links($links) {
     return $links;
 }
 add_filter('plugin_action_links_' . plugin_basename(__FILE__), 'pcl_fluent_de_action_links');
+
+/* -------------------------------------------------------------------------
+ * Block-Editor: zwei Stellen, die der Katalog nicht erreicht
+ * ---------------------------------------------------------------------- */
+
+/**
+ * Die Reiterüberschrift im Block-Editor.
+ *
+ * FluentCommunity registriert für seinen Editor eigene Beitragstypen und gibt
+ * ihnen die Beschriftung als festen Text mit, ohne `__()`:
+ *
+ *   'fcom-dummy'      => ['label' => 'Lesson', …]       (FluentBlockEditorHandler)
+ *   'fcom-lockscreen' => ['label' => 'Lockscreen', …]
+ *   'fcom-page'       => ['label' => 'Space Page', …]   (Pro, SpacePagesModule)
+ *
+ * Der Editor zeigt diese Beschriftung als Überschrift des ersten Reiters der
+ * Seitenleiste. Kein Katalog kommt dort heran.
+ *
+ * Ersetzt wird nur, solange der Wert noch der bekannte englische Text ist.
+ * Reicht der Hersteller die Beschriftung eines Tages durch `__()`, steht dort
+ * etwas anderes, und dieser Filter hält sich heraus.
+ *
+ * Wo der Katalog das Wort schon kennt, kommt es von dort. „Foren-Seite“ gibt es
+ * im Katalog nicht, weil der Hersteller den Begriff nirgends übersetzbar
+ * anbietet – deshalb steht er hier, und nur für `de_DE`.
+ */
+function pcl_fluent_de_editor_post_types($post_types) {
+    $ersatz = array(
+        'fcom-dummy'      => array('Lesson', __('Lesson', 'fluent-community')),
+        'fcom-lockscreen' => array('Lockscreen', __('Lock Screen', 'fluent-community')),
+    );
+
+    if (determine_locale() === 'de_DE') {
+        $ersatz['fcom-page'] = array('Space Page', 'Foren-Seite');
+    }
+
+    foreach ($ersatz as $typ => $paar) {
+        list($englisch, $deutsch) = $paar;
+
+        if (!isset($post_types[$typ]['label']) || $post_types[$typ]['label'] !== $englisch) {
+            continue;
+        }
+
+        // Ohne Übersetzung im Katalog kommt __() mit dem Original zurück;
+        // dann bleibt alles, wie es war.
+        if ($deutsch === '' || $deutsch === $englisch) {
+            continue;
+        }
+
+        $post_types[$typ]['label'] = $deutsch;
+    }
+
+    return $post_types;
+}
+// Nach Pro (Priorität 10), das fcom-page erst hinzufügt.
+add_filter('fluent_community/block_editor_post_types', 'pcl_fluent_de_editor_post_types', 20);
+
+/**
+ * „Enable comments“ in der Seitenleiste einer Foren-Seite.
+ *
+ * Der Block-Editor liest seine Texte nicht aus dem Katalog, sondern aus einer
+ * eigenen Liste (`window.fcomEditorI18n`), die FluentBlockEditorHandler
+ * zusammenstellt. Was dort fehlt, zeigt das Bundle englisch – auch wenn der
+ * Katalog die Übersetzung längst kennt.
+ *
+ * In FluentCommunity 2.10.01 fehlt genau ein Schlüssel: `Enable comments` mit
+ * kleinem c. Die Liste führt nur `Enable Comments` für die Lektionen. Gemessen
+ * gegen alle 40 Texte, die das Bundle anfragt.
+ *
+ * Die Übersetzung kommt aus dem Katalog; hier wird nur die Lücke geschlossen.
+ */
+function pcl_fluent_de_editor_i18n($strings) {
+    if (!isset($strings['Enable comments'])) {
+        $strings['Enable comments'] = __('Enable comments', 'fluent-community');
+    }
+
+    return $strings;
+}
+add_filter('fluent_community/editor_i18n_strings', 'pcl_fluent_de_editor_i18n');
 
 /* -------------------------------------------------------------------------
  * Zustimmungs-Link bei der Registrierung

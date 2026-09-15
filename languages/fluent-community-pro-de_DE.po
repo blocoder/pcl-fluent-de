@@ -1387,7 +1387,7 @@ msgstr "Du hast keinen Zugriff auf diese Seite."
 
 #: app/Modules/SpacePages/Services/SpacePageHelper.php:323
 msgid "Unified"
-msgstr "Durchgehend"
+msgstr "Lektion"
 
 #: app/Modules/SpacePages/Services/SpacePageHelper.php:324
 msgid "One surface filling the whole area, read like a course lesson. No box."
