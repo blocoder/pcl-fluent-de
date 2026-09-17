@@ -1845,7 +1845,7 @@ msgstr "Listen"
 
 #: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:498
 msgid "Tags"
-msgstr "Schlagwörter"
+msgstr "Tags"
 
 #: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:509
 msgid "Visible for admin only"

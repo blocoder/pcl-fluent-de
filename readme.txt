@@ -4,7 +4,7 @@ Tags: fluentcommunity, fluentmessaging, fluentplayer, deutsch, übersetzung
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.6.0
+Stable tag: 1.6.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,6 +50,9 @@ Ein Katalog gehört zu einer Plugin-Version. Ändert der Hersteller einen englis
 Nein, nur `de_DE` in der Du-Form.
 
 == Changelog ==
+
+= 1.6.1 =
+* CRM-Profil in der Seitenleiste eines Mitgliedsprofils: Die Überschrift „Tags“ heißt wieder „Tags“ statt „Schlagwörter“, so wie in FluentCRM selbst.
 
 = 1.6.0 =
 * Das Plugin hält keine fremden Textdomains mehr auf Englisch. Bis 1.5.3 unterband es die deutschen Übersetzungen von FluentCRM, FluentCRM Pro und FluentSnippets; die Funktion `pcl_fluent_de_blocked_domains()` und der Filter `pcl_fluent_de/blocked_domains` entfallen.

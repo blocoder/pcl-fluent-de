@@ -7,6 +7,12 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 1.6.1
+
+Im CRM-Profil, das FluentCommunity Pro in der Seitenleiste eines
+Mitgliedsprofils zeigt, heißt die Überschrift „Tags“ jetzt „Tags“ statt
+„Schlagwörter“ – dieselbe Bezeichnung wie in FluentCRM. Sonst unverändert.
+
 ## 1.6.0
 
 **Keine Sperren mehr für fremde Plugins.** Bis 1.5.3 unterband das Plugin die
