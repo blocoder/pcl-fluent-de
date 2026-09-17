@@ -2,5 +2,10 @@
 *.mo
 *.l10n.php
 
+# Ausnahme: plugin-update-checker bringt eigene Kataloge mit. Das ist
+# Fremdcode, kein Erzeugnis; ohne die .mo uebersetzt die Bibliothek ihre
+# Meldungen nicht.
+!plugin-update-checker/languages/*.mo
+
 # Loco-Sicherungen
 *.po~
