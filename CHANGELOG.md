@@ -7,6 +7,18 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 1.6.0
+
+**Keine Sperren mehr für fremde Plugins.** Bis 1.5.3 unterband das Plugin die
+deutschen Übersetzungen von FluentCRM, FluentCRM Pro und FluentSnippets. Das
+entfällt, samt der Funktion `pcl_fluent_de_blocked_domains()` und dem Filter
+`pcl_fluent_de/blocked_domains`. Das Plugin kümmert sich nur noch um
+FluentCommunity, FluentCommunity Pro, FluentMessaging und FluentPlayer.
+
+**Folge nach dem Update:** FluentCRM zeigt die deutsche Fassung, die es selbst
+mitbringt, sofern keine andere Übersetzung früher lädt. Wer es englisch haben
+will, findet im README ein Snippet dafür. Die Kataloge sind unverändert.
+
 ## 1.5.3
 
 **Block-Editor:** Zwei Stellen waren englisch, die keine Übersetzungsdatei

@@ -4,7 +4,7 @@ Tags: fluentcommunity, fluentmessaging, fluentplayer, deutsch, übersetzung
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.5.3
+Stable tag: 1.6.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,7 +18,7 @@ Eine vollständige deutsche Übersetzung für FluentCommunity, FluentMessaging u
 
 **Wie übersetzt wurde:** Du-Form. `Space` heißt Forum, `Member` heißt Mitglied. Ein eigenes Glossar sorgt für Konsistenz, jede Zeichenkette ist von Hand nachgearbeitet.
 
-Das Plugin legt außerdem den Zustimmungs-Link bei der Registrierung auf die echte Seite mit den Nutzungsbedingungen und hält drei Textdomains bewusst auf Englisch.
+Das Plugin legt außerdem den Zustimmungs-Link bei der Registrierung auf die echte Seite mit den Nutzungsbedingungen.
 
 Unabhängiges Projekt, keine Verbindung zu WPManageNinja.
 
@@ -50,6 +50,10 @@ Ein Katalog gehört zu einer Plugin-Version. Ändert der Hersteller einen englis
 Nein, nur `de_DE` in der Du-Form.
 
 == Changelog ==
+
+= 1.6.0 =
+* Das Plugin hält keine fremden Textdomains mehr auf Englisch. Bis 1.5.3 unterband es die deutschen Übersetzungen von FluentCRM, FluentCRM Pro und FluentSnippets; die Funktion `pcl_fluent_de_blocked_domains()` und der Filter `pcl_fluent_de/blocked_domains` entfallen.
+* Wer FluentCRM oder FluentSnippets weiter englisch haben will, braucht dafür jetzt einen eigenen Filter (Beispiel im README). Sonst zeigt FluentCRM nach diesem Update die deutsche Fassung, die es selbst mitbringt.
 
 = 1.5.3 =
 * Block-Editor: Die Reiterüberschrift heißt jetzt „Foren-Seite“, „Lektion“ und „Sperrbildschirm“ statt „Space Page“, „Lesson“ und „Lockscreen“. FluentCommunity gibt sie als festen englischen Text aus.

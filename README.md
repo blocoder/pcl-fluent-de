@@ -110,17 +110,32 @@ woandershin. Unter *Einstellungen → PC’L Übersetzungen* lässt sich die
 richtige Adresse eintragen; wer es festnageln will, setzt
 `PCL_FLUENT_TERMS_URL` in der `wp-config.php`.
 
-**Es hält drei Textdomains auf Englisch.** Für `fluent-crm`,
-`fluentcampaign-pro` und `easy-code-manager` ist die deutsche Fassung nach
-meinem Urteil schlechter als das Original. Das Laden dieser deutschen
-Übersetzungen wird unterbunden.
-
-Beides lässt sich über Filter anpassen:
+Welche Kataloge das Plugin lädt, lässt sich über einen Filter anpassen:
 
 ```php
 add_filter( 'pcl_fluent_de/domains', function ( $domains ) { … } );
-add_filter( 'pcl_fluent_de/blocked_domains', function ( $domains ) { … } );
 ```
+
+## Fremde Übersetzungen englisch halten
+
+Bis 1.5.3 hielt das Plugin drei fremde Textdomains auf Englisch
+(`fluent-crm`, `fluentcampaign-pro`, `easy-code-manager`). **Seit 1.6.0 tut es
+das nicht mehr** – es kümmert sich nur um seine eigenen Übersetzungen. Der
+Filter `pcl_fluent_de/blocked_domains` entfällt.
+
+Wer ein Plugin weiter englisch haben will, legt das selbst fest, etwa als
+Snippet:
+
+```php
+add_filter( 'override_load_textdomain', function ( $override, $domain ) {
+	// Priorität 1: Ein späterer Callback (Loco Translate) lädt sonst schon selbst.
+	return in_array( $domain, array( 'fluent-crm', 'fluentcampaign-pro' ), true ) ? true : $override;
+}, 1, 2 );
+```
+
+Läuft das Snippet erst nach `plugins_loaded` an (FluentSnippets: Priorität 9),
+kann eine Domain bis dahin schon geladen sein; dann einmal
+`unload_textdomain( $domain )` hinterher.
 
 ---
 

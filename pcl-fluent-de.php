@@ -4,7 +4,7 @@
  * Plugin URI:        https://github.com/blocoder/pcl-fluent-de
  * Update URI:        https://github.com/blocoder/pcl-fluent-de
  * Description:       Liefert die deutschen Übersetzungen für FluentCommunity, FluentCommunity Pro, FluentMessaging und FluentPlayer aus. Lädt sie vor allen anderen Katalogen, damit die eigene Fassung gewinnt und mitgelieferte Sprachpakete nur noch Lücken füllen. Legt außerdem den Zustimmungs-Link bei der Registrierung auf die echte AGB-Seite.
- * Version:           1.5.3
+ * Version:           1.6.0
  * Requires at least: 6.5
  * Requires PHP:      7.4
  * Author:            Peter Claus Lamprecht (PC’L)
@@ -97,6 +97,13 @@ add_action('init', function () {
  *
  * Das Sprachpaket bleibt aktiv und füllt weiterhin Lücken. Das ist gewollt:
  * Es deckt rund 950 Strings ab, die sonst englisch blieben.
+ *
+ * Bis 1.5.3 hielt das Plugin außerdem drei fremde Textdomains englisch
+ * (fluent-crm, fluentcampaign-pro, easy-code-manager, Filter
+ * `pcl_fluent_de/blocked_domains`). Seit 1.6.0 kümmert es sich nur noch um
+ * seine eigenen Übersetzungen. Wer eine Domain englisch halten will, braucht
+ * dafür einen eigenen Filter auf `override_load_textdomain`; ein Beispiel
+ * steht im README.
  */
 
 /**
@@ -112,22 +119,6 @@ function pcl_fluent_de_domains() {
         'fluent-messaging',
         'fluent-player',
         'fluent-player-pro',
-    ));
-}
-
-/**
- * Textdomains, die englisch bleiben sollen.
- *
- * Nicht jede Übersetzung ist ein Gewinn. Für diese Plugins ist die deutsche
- * Fassung — ob mitgeliefert oder als Sprachpaket von wordpress.org — schlechter
- * als das Original, und ein Sprachpaket kann jederzeit unbemerkt dazukommen.
- * Hier wird das Laden unterbunden, statt hinterher Dateien wegzuräumen.
- */
-function pcl_fluent_de_blocked_domains() {
-    return apply_filters('pcl_fluent_de/blocked_domains', array(
-        'fluent-crm',
-        'fluentcampaign-pro',
-        'easy-code-manager',
     ));
 }
 
@@ -184,35 +175,6 @@ function pcl_fluent_de_load() {
     }
 }
 add_action('plugins_loaded', 'pcl_fluent_de_load', 1);
-
-/**
- * Blockierte Domains gar nicht erst laden lassen.
- *
- * load_textdomain() fragt zuerst diesen Filter. Wer true zurückgibt, sagt
- * damit „ist erledigt" — die Datei wird nicht gelesen, und __() liefert das
- * englische Original. Das greift auch für _load_textdomain_just_in_time(),
- * weil das denselben Weg nimmt.
- *
- * Priorität 1, also vor Loco Translate. Das ist nicht kosmetisch: Loco hängt
- * sich in denselben Filter und lädt seine Datei im Callback. Ein spätes true
- * käme zu spät — geladen ist geladen.
- *
- * Ob ein frühes true reicht, hängt daran, ob der spätere Callback den
- * hereingereichten Wert respektiert. Gemessen an Loco Translate 2.8.7: Er tut
- * es. Mit Priorität 1 bleibt eine blockierte Domain englisch, auch wenn im
- * Loco-Ordner noch ein Katalog dafür liegt. Verlassen sollte man sich darauf
- * trotzdem nicht auf Dauer — nach einem Loco-Update gehört es nachgeprüft:
- *
- *     wp eval "var_dump(is_textdomain_loaded('fluent-crm'));"
- */
-function pcl_fluent_de_block_textdomain($override, $domain) {
-    if (in_array($domain, pcl_fluent_de_blocked_domains(), true)) {
-        return true;
-    }
-
-    return $override;
-}
-add_filter('override_load_textdomain', 'pcl_fluent_de_block_textdomain', 1, 2);
 
 /**
  * Hinweis im Plugin-Verzeichnis, welche Kataloge tatsächlich greifen.
