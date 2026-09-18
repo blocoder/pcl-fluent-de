@@ -7,6 +7,26 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 1.7.0
+
+**Angepasst an FluentCommunity und FluentCommunity Pro 2.11.0.** 115 neue
+Zeichenketten, 99 davon in `fluent-community`, 16 in `fluent-community-pro`.
+
+Das Update bringt zwei neue Bereiche. Der Fragen-Editor der Kurse kennt jetzt
+Lückentext, Zuordnung, Bildzuordnung, Reihenfolge und Wahr/Falsch, dazu die
+Wahl zwischen „Alle auf einmal“ und „Nacheinander“. Und jedes Forum bekommt
+ein eigenes Menü aus Hauptmenü und weiteren Links.
+
+Zur Terminologie: Die beiden Spalten einer Zuordnungsfrage heißen **Vorgabe**
+und **Zuordnung**, die Leerstelle im Lückentext heißt **Lücke**. `Primary
+Menu` ist das **Hauptmenü** (die Tab-Leiste oben im Forum), `Secondary Links`
+sind die **weiteren Links** in der Unterleiste darunter.
+
+**Erst FluentCommunity aktualisieren, dann dieses Plugin.** Auf 2.10.01
+erscheinen drei Zeichenketten rund um den Forenchat englisch, weil der
+Hersteller sie in 2.11.0 ersetzt hat und sie damit aus dem Katalog gefallen
+sind.
+
 ## 1.6.1
 
 Im CRM-Profil, das FluentCommunity Pro in der Seitenleiste eines
