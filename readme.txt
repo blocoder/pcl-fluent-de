@@ -4,7 +4,7 @@ Tags: fluentcommunity, fluentmessaging, fluentplayer, deutsch, übersetzung
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.6.1
+Stable tag: 1.7.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ Eine vollständige deutsche Übersetzung für FluentCommunity, FluentMessaging u
 
 == Description ==
 
-5.326 übersetzte Zeichenketten für fünf Plugins, ausgeliefert als eigenes Plugin statt über Loco Translate.
+5.438 übersetzte Zeichenketten für fünf Plugins, ausgeliefert als eigenes Plugin statt über Loco Translate.
 
 **Warum das nötig ist:** WordPress fragt für eine Textdomain mehrere Kataloge der Reihe nach ab und nimmt die erste Datei, die eine Zeichenkette kennt. Wer zuerst lädt, gewinnt. Dieses Plugin lädt auf `plugins_loaded` mit Priorität 1 – vor dem Sprachpaket von wordpress.org. Damit hält die eigene Terminologie, und das Sprachpaket füllt nur noch Lücken.
 
@@ -50,6 +50,10 @@ Ein Katalog gehört zu einer Plugin-Version. Ändert der Hersteller einen englis
 Nein, nur `de_DE` in der Du-Form.
 
 == Changelog ==
+
+= 1.7.0 =
+* Angepasst an FluentCommunity und FluentCommunity Pro 2.11.0: 115 neue Zeichenketten. Das neue Quiz-Modul (Fragetypen, Lückentext, Zuordnung, Reihenfolge, Quiz-Aufbau) und das Menü je Forum (Hauptmenü, weitere Links, Platzierung).
+* Auf FluentCommunity 2.10.01 erscheinen drei Zeichenketten des Forenchats englisch, die der Hersteller in 2.11.0 ersetzt hat. Erst FluentCommunity aktualisieren, dann dieses Plugin.
 
 = 1.6.1 =
 * CRM-Profil in der Seitenleiste eines Mitgliedsprofils: Die Überschrift „Tags“ heißt wieder „Tags“ statt „Schlagwörter“, so wie in FluentCRM selbst.

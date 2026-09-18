@@ -4,7 +4,7 @@
  * Plugin URI:        https://github.com/blocoder/pcl-fluent-de
  * Update URI:        https://github.com/blocoder/pcl-fluent-de
  * Description:       Liefert die deutschen Übersetzungen für FluentCommunity, FluentCommunity Pro, FluentMessaging und FluentPlayer aus. Lädt sie vor allen anderen Katalogen, damit die eigene Fassung gewinnt und mitgelieferte Sprachpakete nur noch Lücken füllen. Legt außerdem den Zustimmungs-Link bei der Registrierung auf die echte AGB-Seite.
- * Version:           1.6.1
+ * Version:           1.7.0
  * Requires at least: 6.5
  * Requires PHP:      7.4
  * Author:            Peter Claus Lamprecht (PC’L)

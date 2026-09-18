@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FluentCommunity Pro\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fluent-community-pro\n"
-"POT-Creation-Date: 2026-09-15T15:16:16+02:00\n"
+"POT-Creation-Date: 2026-09-18T18:29:32+02:00\n"
 "PO-Revision-Date: 2026-07-25 15:08+0000\n"
 "Last-Translator: Peter Claus Lamprecht\n"
 "Language-Team: Deutsch\n"
@@ -382,21 +382,21 @@ msgstr ""
 "möglich an."
 
 #: app/Http/Controllers/ModerationController.php:194
-#: app/Modules/Quiz/Http/Controllers/QuizController.php:201
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:218
 msgid "Invalid status value."
 msgstr "Ungültiger Statuswert."
 
-#: app/Http/Controllers/ModerationController.php:281
+#: app/Http/Controllers/ModerationController.php:284
 msgid "The comment has been unpublished and is no longer visible to others."
 msgstr ""
 "Der Kommentar wurde zurückgezogen und ist für andere nicht mehr sichtbar."
 
-#: app/Http/Controllers/ModerationController.php:282
+#: app/Http/Controllers/ModerationController.php:285
 msgid "The post has been unpublished and is no longer visible to others."
 msgstr ""
 "Der Beitrag wurde zurückgezogen und ist für andere nicht mehr sichtbar."
 
-#: app/Http/Controllers/ModerationController.php:285
+#: app/Http/Controllers/ModerationController.php:288
 msgid ""
 "The report was dismissed. The comment is published and visible to the "
 "community."
@@ -404,7 +404,7 @@ msgstr ""
 "Der Bericht wurde verworfen. Der Kommentar ist veröffentlicht und für die "
 "Community sichtbar."
 
-#: app/Http/Controllers/ModerationController.php:286
+#: app/Http/Controllers/ModerationController.php:289
 msgid ""
 "The report was dismissed. The post is published and visible to the "
 "community."
@@ -412,11 +412,11 @@ msgstr ""
 "Der Bericht wurde verworfen. Der Beitrag ist veröffentlicht und für die "
 "Community sichtbar."
 
-#: app/Http/Controllers/ModerationController.php:305
+#: app/Http/Controllers/ModerationController.php:308
 msgid "Report deleted successfully"
 msgstr "Bericht gelöscht"
 
-#: app/Http/Controllers/ModerationController.php:327
+#: app/Http/Controllers/ModerationController.php:330
 msgid "Moderation config saved successfully"
 msgstr "Moderations-Einstellungen gespeichert"
 
@@ -638,48 +638,48 @@ msgstr "Beim Hochladen zu S3 ist ein unbekannter Fehler aufgetreten"
 msgid "Unknown error occurred when deleting from s3"
 msgstr "Beim Löschen aus S3 ist ein unbekannter Fehler aufgetreten"
 
-#: app/Modules/DocumentLibrary/DocumentModule.php:58
+#: app/Modules/DocumentLibrary/DocumentModule.php:59
 msgid "Documents"
 msgstr "Dokumente"
 
-#: app/Modules/DocumentLibrary/DocumentModule.php:72
-#: app/Modules/DocumentLibrary/DocumentModule.php:83
+#: app/Modules/DocumentLibrary/DocumentModule.php:74
+#: app/Modules/DocumentLibrary/DocumentModule.php:85
 msgid "No documents found to save. Please try again"
 msgstr "Keine Dokumente zum Speichern gefunden. Bitte versuche es erneut"
 
-#: app/Modules/DocumentLibrary/DocumentModule.php:93
+#: app/Modules/DocumentLibrary/DocumentModule.php:95
 msgid "Invalid documents found to save. Please try again"
 msgstr "Ungültige Dokumente zum Speichern gefunden. Bitte versuche es erneut"
 
-#: app/Modules/DocumentLibrary/DocumentModule.php:135
+#: app/Modules/DocumentLibrary/DocumentModule.php:137
 msgid "Document uploaded successfully"
 msgstr "Dokument hochgeladen"
 
-#: app/Modules/DocumentLibrary/DocumentModule.php:228
-#: app/Modules/DocumentLibrary/DocumentModule.php:283
+#: app/Modules/DocumentLibrary/DocumentModule.php:230
+#: app/Modules/DocumentLibrary/DocumentModule.php:285
 msgid "Document not found"
 msgstr "Dokument nicht gefunden"
 
-#: app/Modules/DocumentLibrary/DocumentModule.php:229
-#: app/Modules/DocumentLibrary/DocumentModule.php:284
+#: app/Modules/DocumentLibrary/DocumentModule.php:231
+#: app/Modules/DocumentLibrary/DocumentModule.php:286
 msgid "The document you are trying to download is not found. Please try again"
 msgstr ""
 "Das Dokument, das Du herunterzuladen versuchst, wurde nicht gefunden. Bitte "
 "versuche es erneut"
 
-#: app/Modules/DocumentLibrary/DocumentModule.php:236
+#: app/Modules/DocumentLibrary/DocumentModule.php:238
 msgid "You do not have permission to view this document"
 msgstr "Du verfügst nicht über die Rechte, dieses Dokument einzusehen"
 
-#: app/Modules/DocumentLibrary/DocumentModule.php:243
+#: app/Modules/DocumentLibrary/DocumentModule.php:245
 msgid "Please login to view this document."
 msgstr "Bitte melde Dich an, um dieses Dokument einzusehen."
 
-#: app/Modules/DocumentLibrary/DocumentModule.php:244
+#: app/Modules/DocumentLibrary/DocumentModule.php:246
 msgid "Please login."
 msgstr "Bitte anmelden."
 
-#: app/Modules/DocumentLibrary/DocumentModule.php:248
+#: app/Modules/DocumentLibrary/DocumentModule.php:250
 msgid "Permission Denied"
 msgstr "Zugriff verweigert"
 
@@ -1067,7 +1067,7 @@ msgstr "Forum nicht gefunden"
 msgid "You do not have permission to view this gallery"
 msgstr "Du darfst diese Galerie nicht sehen"
 
-#: app/Modules/MediaGallery/MediaGalleryModule.php:33
+#: app/Modules/MediaGallery/MediaGalleryModule.php:34
 msgid "Media"
 msgstr "Medien"
 
@@ -1187,30 +1187,90 @@ msgstr "Zum Abschicken des Quiz musst Du in den Kurs eingeschrieben sein."
 msgid "This quiz is not published yet"
 msgstr "Dieses Quiz ist noch nicht veröffentlicht"
 
-#: app/Modules/Quiz/Http/Controllers/QuizController.php:121
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:112
+msgid "Invalid answer submitted."
+msgstr "Ungültige Antwort abgeschickt."
+
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:128
 #, php-format
 msgid "Answer exceeds the %d character limit"
 msgstr "Die Antwort überschreitet das Limit von %d Zeichen"
 
-#: app/Modules/Quiz/Http/Controllers/QuizController.php:141
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:158
 msgid "This quiz has no enabled questions yet."
 msgstr "Dieses Quiz hat noch keine aktivierten Fragen."
 
-#: app/Modules/Quiz/Http/Controllers/QuizController.php:187
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:204
 msgid "Quiz has been submitted successfully"
 msgstr "Das Quiz wurde abgeschickt"
 
-#: app/Modules/Quiz/Http/Controllers/QuizController.php:212
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:229
 msgid "Quiz result updated successfully"
 msgstr "Das Quiz-Ergebnis wurde aktualisiert"
 
-#: app/Modules/Quiz/QuizHelper.php:15
+#: app/Modules/Quiz/QuizHelper.php:17
 msgid "Single Choice"
 msgstr "Einfachauswahl"
 
-#: app/Modules/Quiz/QuizHelper.php:19
+#: app/Modules/Quiz/QuizHelper.php:18
+msgid "One correct option"
+msgstr "Eine richtige Option"
+
+#: app/Modules/Quiz/QuizHelper.php:22
 msgid "Multiple Choice"
 msgstr "Mehrfachauswahl"
+
+#: app/Modules/Quiz/QuizHelper.php:23
+msgid "Several correct options"
+msgstr "Mehrere richtige Optionen"
+
+#: app/Modules/Quiz/QuizHelper.php:27
+msgid "True / False"
+msgstr "Wahr / Falsch"
+
+#: app/Modules/Quiz/QuizHelper.php:28
+msgid "Judge a statement"
+msgstr "Eine Aussage beurteilen"
+
+#: app/Modules/Quiz/QuizHelper.php:32
+msgid "Written Answer"
+msgstr "Freie Antwort"
+
+#: app/Modules/Quiz/QuizHelper.php:33
+msgid "Open or exact-match text"
+msgstr "Freier Text oder exakte Übereinstimmung"
+
+#: app/Modules/Quiz/QuizHelper.php:37
+msgid "Fill in the Blank"
+msgstr "Lückentext"
+
+#: app/Modules/Quiz/QuizHelper.php:38
+msgid "Complete the sentence"
+msgstr "Einen Satz vervollständigen"
+
+#: app/Modules/Quiz/QuizHelper.php:42
+msgid "Ordering"
+msgstr "Reihenfolge"
+
+#: app/Modules/Quiz/QuizHelper.php:43
+msgid "Put items in sequence"
+msgstr "Einträge in eine Reihenfolge bringen"
+
+#: app/Modules/Quiz/QuizHelper.php:47
+msgid "Matching"
+msgstr "Zuordnung"
+
+#: app/Modules/Quiz/QuizHelper.php:48
+msgid "Pair prompts with answers"
+msgstr "Vorgaben Antworten zuordnen"
+
+#: app/Modules/Quiz/QuizHelper.php:52
+msgid "Image Matching"
+msgstr "Bildzuordnung"
+
+#: app/Modules/Quiz/QuizHelper.php:53
+msgid "Pair images with labels"
+msgstr "Bildern Beschriftungen zuordnen"
 
 #: app/Modules/SeoSiteMap/AbstractPortalPreRenderer.php:160
 msgid "Space menu"
@@ -1427,6 +1487,10 @@ msgstr "Volle Breite"
 msgid "No card. Full width blocks design the page edge to edge."
 msgstr ""
 "Ohne Karte. Blöcke in voller Breite gestalten die Seite von Rand zu Rand."
+
+#: app/Modules/SpacePages/SpacePagesModule.php:105
+msgid "Space Page"
+msgstr "Foren-Seite"
 
 #: app/Modules/UserBadge/Controllers/UserBadgeController.php:36
 msgid "Title is required for all the badges"
