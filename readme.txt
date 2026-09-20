@@ -4,7 +4,7 @@ Tags: fluentcommunity, fluentmessaging, fluentplayer, deutsch, übersetzung
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.7.0
+Stable tag: 1.7.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,7 +24,7 @@ Unabhängiges Projekt, keine Verbindung zu WPManageNinja.
 
 == Installation ==
 
-1. Das ZIP aus den GitHub-Releases herunterladen.
+1. Das ZIP aus den GitHub-Releases herunterladen – aus dem Bereich „Releases“, nicht über „Code → Download ZIP“. Im Quellcode-Archiv fehlen die gebauten Kataloge.
 2. Im Backend unter Plugins → Installieren → Plugin hochladen einspielen und aktivieren.
 
 Die Seite muss auf `de_DE` stehen. Das Sprachpaket von wordpress.org muss nicht deinstalliert werden.
@@ -50,6 +50,9 @@ Ein Katalog gehört zu einer Plugin-Version. Ändert der Hersteller einen englis
 Nein, nur `de_DE` in der Du-Form.
 
 == Changelog ==
+
+= 1.7.1 =
+* Hinweis in der Verwaltung und in der Plugin-Liste, wenn das Plugin aus dem Quellcode-Archiv statt aus den Releases installiert wurde und die gebauten Kataloge deshalb fehlen.
 
 = 1.7.0 =
 * Angepasst an FluentCommunity und FluentCommunity Pro 2.11.0: 115 neue Zeichenketten. Das neue Quiz-Modul (Fragetypen, Lückentext, Zuordnung, Reihenfolge, Quiz-Aufbau) und das Menü je Forum (Hauptmenü, weitere Links, Platzierung).

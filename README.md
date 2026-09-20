@@ -8,6 +8,13 @@ vor allen anderen lädt.
 > Unabhängiges Projekt. Keine Verbindung zu WPManageNinja, den Herstellern der
 > Fluent-Plugins.
 
+> [!IMPORTANT]
+> **Nur das ZIP aus den [Releases](https://github.com/blocoder/pcl-fluent-de/releases/latest) installieren.**
+> Das Quellcode-Archiv der Repo-Startseite („Code → Download ZIP“) enthält
+> allein die `.po`-Dateien. Die daraus gebauten Kataloge (`.mo`, `.l10n.php`)
+> stecken im Release-Archiv – ohne sie übersetzt das Plugin nichts, und in der
+> Plugin-Liste steht „Keine Kataloge gefunden“.
+
 ---
 
 ## Warum eine eigene deutsche Übersetzung?
@@ -145,6 +152,10 @@ kann eine Domain bis dahin schon geladen sein; dann einmal
    herunterladen.
 2. Im Backend unter *Plugins → Installieren → Plugin hochladen* einspielen und
    aktivieren.
+
+Das ZIP steht unter *Releases* am rechten Rand der Repo-Startseite. Der grüne
+Knopf *Code → Download ZIP* daneben liefert den Quellcode ohne die gebauten
+Kataloge und damit ein Plugin, das nichts übersetzt.
 
 Die Seite muss auf `de_DE` stehen. In der Plugin-Liste steht danach, welche
 Kataloge tatsächlich greifen – das erspart die Suche, wenn eine Datei fehlt

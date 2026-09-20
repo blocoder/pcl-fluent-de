@@ -4,7 +4,7 @@
  * Plugin URI:        https://github.com/blocoder/pcl-fluent-de
  * Update URI:        https://github.com/blocoder/pcl-fluent-de
  * Description:       Liefert die deutschen Übersetzungen für FluentCommunity, FluentCommunity Pro, FluentMessaging und FluentPlayer aus. Lädt sie vor allen anderen Katalogen, damit die eigene Fassung gewinnt und mitgelieferte Sprachpakete nur noch Lücken füllen. Legt außerdem den Zustimmungs-Link bei der Registrierung auf die echte AGB-Seite.
- * Version:           1.7.0
+ * Version:           1.7.1
  * Requires at least: 6.5
  * Requires PHP:      7.4
  * Author:            Peter Claus Lamprecht (PC’L)
@@ -176,6 +176,103 @@ function pcl_fluent_de_load() {
 }
 add_action('plugins_loaded', 'pcl_fluent_de_load', 1);
 
+/* -------------------------------------------------------------------------
+ * Quellcode-Installation erkennen
+ * ---------------------------------------------------------------------- */
+
+/**
+ * Stammt dieses Plugin aus dem Quellcode-Archiv statt aus dem Release?
+ *
+ * Im Repo stehen nur die `.po`; `.mo` und `.l10n.php` entstehen beim Bauen und
+ * liegen allein im Release-Archiv. Wer auf der Repo-Startseite „Code → Download
+ * ZIP“ nimmt, bekommt deshalb ein Plugin, das vollständig aussieht – der Ordner
+ * `languages/` ist ja gefüllt – und trotzdem nichts übersetzt. Von außen ist
+ * das nicht zu sehen; gemeldet von einem Nutzer am 20.09.2026, bei drei von
+ * vier Plugins auf einmal.
+ *
+ * Erkennungszeichen ist der Ordner als Ganzes, nicht die Datei zur aktuellen
+ * Locale: mindestens eine `.po`, aber kein einziger gebauter Katalog. Eine
+ * fehlende Datei zu genau einer Locale ist etwas anderes und hat ihren eigenen
+ * Hinweis.
+ *
+ * Kein `glob()`: Eckige Klammern im Installationspfad wären dort ein Muster.
+ */
+function pcl_fluent_de_quellinstallation() {
+    static $ergebnis = null;
+
+    if (null !== $ergebnis) {
+        return $ergebnis;
+    }
+
+    $ergebnis = false;
+    $dir      = plugin_dir_path(__FILE__) . 'languages/';
+
+    if (!is_dir($dir)) {
+        return $ergebnis;
+    }
+
+    $dateien = scandir($dir);
+
+    if (!$dateien) {
+        return $ergebnis;
+    }
+
+    $po = false;
+
+    foreach ($dateien as $datei) {
+        if (substr($datei, -3) === '.mo' || substr($datei, -9) === '.l10n.php') {
+            return $ergebnis;
+        }
+        if (substr($datei, -3) === '.po') {
+            $po = true;
+        }
+    }
+
+    $ergebnis = $po;
+
+    return $ergebnis;
+}
+
+/**
+ * Der Link auf die Releases, aus denen das fertige Paket kommt.
+ */
+function pcl_fluent_de_release_link() {
+    return sprintf(
+        '<a href="https://github.com/blocoder/pcl-fluent-de/releases/latest" target="_blank" rel="noopener">%s</a>',
+        esc_html__('Releases', 'pcl-fluent-de')
+    );
+}
+
+/**
+ * Hinweis im Backend, solange die gebauten Kataloge fehlen.
+ *
+ * Auf jeder Seite der Verwaltung und ohne Wegklicken: Das Plugin tut in diesem
+ * Zustand gar nichts, und wer es installiert hat, merkt das sonst erst, wenn
+ * ihm die englische Oberfläche auffällt. Zu sehen bekommt den Hinweis nur, wer
+ * Plugins aktualisieren darf – alle anderen können ohnehin nichts ausrichten.
+ */
+function pcl_fluent_de_quellinstallation_hinweis() {
+    if (!current_user_can('update_plugins') || !pcl_fluent_de_quellinstallation()) {
+        return;
+    }
+
+    printf(
+        '<div class="notice notice-warning"><p>%s</p></div>',
+        wp_kses(
+            sprintf(
+                /* translators: %s: link to the releases page */
+                __('<strong>PC’L Übersetzungen für Fluent-Plugins:</strong> Die gebauten Kataloge fehlen, das Plugin übersetzt deshalb nichts. Es stammt offenbar aus dem Quellcode-Archiv von GitHub („Code → Download ZIP“); darin stehen nur die Ausgangsdateien. Bitte das ZIP aus den %s herunterladen und unter Plugins → Installieren → Plugin hochladen darüberspielen.', 'pcl-fluent-de'),
+                pcl_fluent_de_release_link()
+            ),
+            array(
+                'strong' => array(),
+                'a'      => array('href' => array(), 'target' => array(), 'rel' => array()),
+            )
+        )
+    );
+}
+add_action('admin_notices', 'pcl_fluent_de_quellinstallation_hinweis');
+
 /**
  * Hinweis im Plugin-Verzeichnis, welche Kataloge tatsächlich greifen.
  *
@@ -184,6 +281,18 @@ add_action('plugins_loaded', 'pcl_fluent_de_load', 1);
  */
 function pcl_fluent_de_row_meta($links, $file) {
     if (plugin_basename(__FILE__) !== $file) {
+        return $links;
+    }
+
+    // Fehlt der ganze Satz gebauter Kataloge, ist die Locale nicht die
+    // Ursache. Dann hilft nur der Hinweis auf das Release-Archiv.
+    if (pcl_fluent_de_quellinstallation()) {
+        $links[] = sprintf(
+            /* translators: %s: link to the releases page */
+            __('Kompilierte Kataloge fehlen – aus dem Quellcode-Archiv installiert, bitte das ZIP aus den %s einspielen', 'pcl-fluent-de'),
+            pcl_fluent_de_release_link()
+        );
+
         return $links;
     }
 
