@@ -1,9 +1,10 @@
 # PC’L Übersetzungen für Fluent-Plugins
 
 Eine vollständige deutsche Übersetzung für **FluentCommunity**,
-**FluentCommunity Pro**, **FluentMessaging**, **FluentPlayer** und
-**FluentPlayer Pro** – ausgeliefert als WordPress-Plugin, das seine Kataloge
-vor allen anderen lädt.
+**FluentCommunity Pro**, **FluentMessaging**, **FluentPlayer**,
+**FluentPlayer Pro**, **FluentAuth**, **FluentSMTP** und **FluentSnippets** –
+ausgeliefert als **ein** WordPress-Plugin, das seine Kataloge vor allen anderen
+lädt. Jede der acht Übersetzungen lässt sich einzeln abschalten.
 
 > Unabhängiges Projekt. Keine Verbindung zu WPManageNinja, den Herstellern der
 > Fluent-Plugins.
@@ -42,33 +43,41 @@ auf `plugins_loaded` mit Priorität 1 – bevor FluentCommunity die erste
 Fassung steht damit vorn, das Sprachpaket füllt nur noch Lücken, und die
 Kataloge liegen im Plugin und wandern mit ihm.
 
-Aus einer Handvoll geänderter Zeichenketten sind über 5.000 geworden.
+Aus einer Handvoll geänderter Zeichenketten sind 8.660 geworden, und aus einem
+Plugin für FluentCommunity eines für acht.
 
 ---
 
 ## Was drin ist
 
-Stand: 15.09.2026, abgeglichen mit diesen Plugin-Versionen.
+Stand: 22.09.2026, abgeglichen mit diesen Plugin-Versionen.
 
-| Katalog | Plugin-Version | übersetzt |
-|---|---|---:|
-| `fluent-community` | 2.10.01 | 3.153 |
-| `fluent-community-pro` | 2.10.01 | 454 |
-| `fluent-messaging` | 2.9.0 | 366 |
-| `fluent-player` | 1.4.0 | 763 |
-| `fluent-player-pro` | 1.4.0 | 590 |
+| Katalog | Plugin | Version | übersetzt | offen |
+|---|---|---|---:|---:|
+| `fluent-community` | FluentCommunity | 2.11.0 | 3.249 | – |
+| `fluent-community-pro` | FluentCommunity Pro | 2.11.0 | 470 | – |
+| `fluent-messaging` | FluentMessaging | 2.9.0 | 366 | 3 |
+| `fluent-player` | FluentPlayer | 1.4.0 | 763 | 2 |
+| `fluent-player-pro` | FluentPlayer Pro | 1.4.0 | 590 | 3 |
+| `fluent-security` | FluentAuth | 3.0.3 | 1.938 | 34 |
+| `fluent-smtp` | FluentSMTP | 2.4.0 | 802 | 25 |
+| `easy-code-manager` | FluentSnippets | 10.56 | 482 | 3 |
 
-**5.326 Zeichenketten. Acht sind offen:** Plugin-Kopfzeilen (Produktname,
-Adresse, Autorenname), die man nicht übersetzt. Jede trägt einen
-Übersetzerkommentar, warum sie leer steht.
+**8.660 Zeichenketten. 70 sind offen:** Eigennamen (`Facebook`, `Mailgun`,
+`Amazon SES`) und Plugin-Kopfzeilen – Produktname, Adresse, Autorenname –, die
+man nicht übersetzt. Jede trägt einen Übersetzerkommentar, warum sie leer
+steht.
+
+**FluentSMTP und FluentSnippets gibt es zusätzlich in der Sie-Form**, mit
+denselben Zahlen. Für die übrigen sechs Kataloge existiert nur die Du-Fassung.
+Steht die Seite auf „Deutsch (Sie)“, laden die sechs seit 2.4.0 in der
+Du-Form, statt englisch zu bleiben.
 
 Ein Katalog gehört zu einer Plugin-Version: Ändert der Hersteller den
 englischen Text, ist das für gettext ein neuer Schlüssel, und der alte fällt
 aus dem Katalog. Auf einer älteren Plugin-Version können einzelne
 Zeichenketten deshalb englisch erscheinen. Am besten erst die Fluent-Plugins
 aktualisieren, dann dieses hier.
-
-Nur `de_DE`. Eine formale Sie-Fassung gibt es nicht.
 
 ---
 
@@ -79,7 +88,8 @@ Das Sprachpaket von wordpress.org bleibt installiert und aktiv – es deckt rund
 950 Zeichenketten ab, die sonst englisch blieben. Es kommt nur noch dort zum
 Zug, wo dieses Plugin nichts hat.
 
-**Du-Form**, durchgehend, mit großem „Du“.
+**Du-Form**, durchgehend, mit großem „Du“. Für FluentSMTP und FluentSnippets
+gibt es daneben eine Sie-Fassung, die sich je Plugin erzwingen lässt.
 
 **`Space` heißt Forum**, `Spaces` heißt Foren, `Space Group` heißt
 Foren-Gruppe.
@@ -107,6 +117,31 @@ Genderschreibweisen.
 
 ---
 
+## Die Einstellungsseite
+
+Unter *Einstellungen → PC’L Übersetzungen* steht eine Zeile je Übersetzung.
+Jede kennt **drei Zustände**:
+
+| Zustand | Was passiert |
+|---|---|
+| **Deutsche Übersetzung aktiv** | Unser Katalog gilt. Vorgabe, sobald das Plugin installiert ist. |
+| **Fremde Übersetzung (WordPress, Plugin)** | Unser Katalog bleibt weg, was WordPress sonst findet, greift weiter. |
+| **Keine Übersetzung zulassen** | Das Plugin bleibt englisch, auch gegenüber dem Sprachpaket. |
+
+Die mittlere und die rechte Spalte sind nicht dasselbe: Bei „Fremde
+Übersetzung“ springt das Sprachpaket von wordpress.org ein, bei „Keine
+Übersetzung zulassen“ niemand.
+
+Ist ein Plugin nicht installiert, steht seine Zeile grau da – die Einstellung
+bleibt erhalten und greift wieder, sobald das Plugin da ist.
+
+**Anrede**, wo beide Fassungen vorliegen (FluentSMTP, FluentSnippets): „wie die
+Seite“, „immer Du“ oder „immer Sie“. Eine Seite in der Du-Form kann damit für
+ein einzelnes Plugin siezen. Fehlt die gewünschte Fassung, gilt wieder die
+Anrede der Seite, statt dass der Text englisch wird.
+
+---
+
 ## Was das Plugin außerdem tut
 
 **Es setzt den Zustimmungs-Link bei der Registrierung richtig.**
@@ -117,11 +152,20 @@ woandershin. Unter *Einstellungen → PC’L Übersetzungen* lässt sich die
 richtige Adresse eintragen; wer es festnageln will, setzt
 `PCL_FLUENT_TERMS_URL` in der `wp-config.php`.
 
-Welche Kataloge das Plugin lädt, lässt sich über einen Filter anpassen:
+**Und was ein Katalog nicht kann, bringt es mit:** deutsche Datumsangaben in
+der FluentSMTP-Verwaltung, relative Zeitangaben in FluentSnippets und die
+Fußzeile der Anmeldecode-Mails von FluentAuth. Geladen wird das nur, wenn das
+zugehörige Plugin da und die Übersetzung eingeschaltet ist.
+
+Welche Domains das Plugin überhaupt kennt, steht in einer Registry und lässt
+sich über einen Filter anpassen:
 
 ```php
-add_filter( 'pcl_fluent_de/domains', function ( $domains ) { … } );
+add_filter( 'pcl_fluent_de/registry', function ( $registry ) { … } );
 ```
+
+> [!NOTE]
+> Der frühere Filter `pcl_fluent_de/domains` ist mit 2.0.0 entfallen.
 
 ## Fremde Übersetzungen englisch halten
 
@@ -130,8 +174,9 @@ Bis 1.5.3 hielt das Plugin drei fremde Textdomains auf Englisch
 das nicht mehr** – es kümmert sich nur um seine eigenen Übersetzungen. Der
 Filter `pcl_fluent_de/blocked_domains` entfällt.
 
-Wer ein Plugin weiter englisch haben will, legt das selbst fest, etwa als
-Snippet:
+Für die acht eigenen Domains gibt es dafür den Zustand **„Keine Übersetzung
+zulassen“** auf der Einstellungsseite. Wer ein *fremdes* Plugin englisch haben
+will, legt das selbst fest, etwa als Snippet:
 
 ```php
 add_filter( 'override_load_textdomain', function ( $override, $domain ) {
@@ -157,11 +202,21 @@ Das ZIP steht unter *Releases* am rechten Rand der Repo-Startseite. Der grüne
 Knopf *Code → Download ZIP* daneben liefert den Quellcode ohne die gebauten
 Kataloge und damit ein Plugin, das nichts übersetzt.
 
-Die Seite muss auf `de_DE` stehen. In der Plugin-Liste steht danach, welche
-Kataloge tatsächlich greifen – das erspart die Suche, wenn eine Datei fehlt
-oder die Sprache nicht passt.
+Die Seite muss auf Deutsch stehen. `de_DE` ist der Normalfall; auf
+`de_DE_formal`, `de_AT` oder `de_CH` greifen die Kataloge ebenfalls – dort, wo
+es keine eigene Fassung für die Sprachvariante gibt, in der Du-Form. In der
+Plugin-Liste steht danach, welche Kataloge tatsächlich greifen und unter
+welcher Sprache – das erspart die Suche, wenn eine Datei fehlt oder die
+Sprache nicht passt.
 
-Es ist nicht nötig, das Sprachpaket von wordpress.org zu deinstallieren.
+Ein bereits aktives `pcl-fluentauth-de`, `pcl-fluentsmtp-de` oder
+`pcl-fluentsnippets-de` braucht niemand vorher abzuschalten: Solange eines
+davon läuft, hält sich dieses Plugin für dessen Übersetzung heraus. Danach
+können die drei deaktiviert und gelöscht werden.
+
+Es ist nicht nötig, das Sprachpaket von wordpress.org zu deinstallieren. Loco
+Translate darf ebenfalls stehen bleiben – eine dort gepflegte Fassung behält
+ihren Vorrang.
 
 **Voraussetzungen:** WordPress 6.5+, PHP 7.4+.
 
