@@ -7,6 +7,60 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.3.0
+
+**Anrede je Plugin erzwingbar.** Wo beide Fassungen vorliegen – zurzeit
+FluentSMTP und FluentSnippets –, lässt sich in den Einstellungen wählen: „wie
+die Seite“ (Vorgabe), „immer Du“ oder „immer Sie“. Eine Seite in der Du-Form
+kann damit für ein einzelnes Plugin die Sie-Fassung zeigen, ohne dass sonst
+etwas umschaltet. Fehlt die gewünschte Fassung, gilt wieder die Anrede der
+Seite, statt dass der Text englisch wird.
+
+## 2.2.1
+
+**Klarere Beschriftungen** in der Auswahl: „Deutsche Übersetzung aktiv“,
+„Fremde Übersetzung (WordPress, Plugin)“ und „Keine Übersetzung zulassen“.
+
+## 2.2.0
+
+**Kataloge auf Abruf.** Die Kataloge für FluentAuth, FluentSMTP und
+FluentSnippets werden erst gelesen, wenn der erste Text daraus gebraucht wird.
+Auf einer Seite, die keinen davon anzeigt, bleiben sie ungelesen – das sind
+339 KB, die bisher jeder Aufruf mitgeschleppt hat.
+
+Die übrigen fünf laden weiterhin voraus. Bei ihnen füllt das Sprachpaket von
+wordpress.org Lücken auf, und das verlangt die Reihenfolge „eigener Katalog
+zuerst“. Beim Laden auf Abruf liest WordPress genau eine Datei.
+
+## 2.1.0
+
+**Eine Einstellungsseite mit einer Zeile je Übersetzung**, unter
+Einstellungen → PC’L Übersetzungen. Ist ein Plugin nicht installiert, steht
+seine Zeile grau da – die Einstellung bleibt erhalten und greift wieder,
+sobald das Plugin da ist.
+
+## 2.0.0
+
+**Vier Plugins werden eins.** Dieses Plugin bringt jetzt auch die
+Übersetzungen für FluentAuth, FluentSMTP und FluentSnippets mit; die
+bisherigen Einzel-Plugins `pcl-fluentauth-de`, `pcl-fluentsmtp-de` und
+`pcl-fluentsnippets-de` werden beim Aktivieren deaktiviert und können
+gelöscht werden. Acht Textdomains, 8.660 Zeichenketten in der Du-Fassung.
+
+Jede Übersetzung schaltet sich selbst ein, sobald ihr Plugin installiert ist,
+und lässt sich einzeln abschalten oder ganz auf Englisch stellen. Was ein
+Katalog nicht kann – Datumsformate, die Fußzeile der Anmeldecode-Mails,
+relative Zeitangaben – wird nur noch geladen, wenn das zugehörige Plugin da
+ist.
+
+Solange eines der drei Vorgänger-Plugins noch aktiv ist, hält sich dieses für
+dessen Textdomain heraus. Die Umstellung ist damit unabhängig von der
+Reihenfolge, in der aktiviert wird.
+
+Außerdem: Beim Sprachwechsel werden die Kataloge jetzt auch für
+FluentCommunity neu geladen. Das fehlte bis 1.7.1 und betraf E-Mails an
+Empfänger mit abweichender Sprache.
+
 ## 1.7.1
 
 **Ein Hinweis, wenn die gebauten Kataloge fehlen.** Wer das Plugin aus dem
