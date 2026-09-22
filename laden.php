@@ -161,14 +161,14 @@ function pcl_fluent_de_load($locale = '') {
         // Die Datei bestimmt die Anrede, die Locale nur die Zuordnung: Wer
         // „Sie“ erzwingt, bekommt fluent-smtp-de_DE_formal.mo unter de_DE
         // geladen. Ohne erzwungene Anrede sind beide gleich.
+        //
+        // Welche Datei genau, beantwortet die Registry — für diesen Weg, den
+        // späten und die Zeile im Plugin-Verzeichnis dieselbe Antwort. Bis
+        // 2.3.1 stand der Rückfall hier noch einmal gesondert und kannte nur
+        // die erste seiner Stufen: Fehlte die Datei zur Locale der Seite
+        // selbst, wurde gar nichts geladen.
         $katalog = pcl_fluent_de_katalog_locale($domain, $locale);
         $eigen   = $dir . $domain . '-' . $katalog . '.mo';
-
-        // Fehlt die erzwungene Fassung, gilt wieder die der Seite. Lieber die
-        // andere Anrede als gar keine Übersetzung.
-        if (!is_readable($eigen) && $katalog !== $locale) {
-            $eigen = $dir . $domain . '-' . $locale . '.mo';
-        }
 
         if (!is_readable($eigen)) {
             continue;
@@ -221,36 +221,116 @@ add_action('plugins_loaded', 'pcl_fluent_de_load', 1);
 add_action('change_locale', 'pcl_fluent_de_load', 1);
 
 /**
- * Auf dem späten Weg die erzwungene Anredefassung unterschieben.
+ * Auf dem späten Weg die richtige Katalogdatei unterschieben.
  *
  * Beim Laden auf Abruf baut WordPress den Dateinamen selbst aus dem Ordner
- * und der Locale der Seite (`{$pfad}{$domain}-{$locale}.mo`). Wer eine andere
- * Anrede will, muss an dieser Stelle eingreifen — der Filter ist der einzige
- * Ort, an dem der fertige Pfad noch zu ändern ist.
+ * und der Locale der Seite (`{$pfad}{$domain}-{$locale}.mo`). Passt das nicht
+ * zu der Datei, die gelesen werden soll, muss der Pfad hier geändert werden —
+ * der Filter ist die letzte Stelle, an der das geht.
+ *
+ * Zwei Fälle, in denen die beiden auseinandergehen: eine erzwungene Anrede,
+ * und seit 2.4.0 eine Locale, für die wir keinen Katalog haben (`de_DE_formal`
+ * bei einer Domain, die es nur in der Du-Form gibt). Beide beantwortet
+ * `pcl_fluent_de_katalog_locale()`.
  *
  * Der Filter hängt nur dann etwas um, wenn es wirklich etwas umzuhängen gibt:
- * Ohne erzwungene Anrede, für eine fremde Datei oder für eine Domain auf dem
- * frühen Weg bleibt der Pfad unberührt.
+ * Stimmen die beiden überein, oder geht es um eine fremde Datei oder eine
+ * Domain auf dem frühen Weg, bleibt der Pfad unberührt.
  */
 function pcl_fluent_de_anrede_unterschieben($mofile, $domain) {
-    if (!pcl_fluent_de_eintrag($domain) || pcl_fluent_de_laedt_frueh($domain)) {
-        return $mofile;
-    }
-
-    $locale  = determine_locale();
-    $katalog = pcl_fluent_de_katalog_locale($domain, $locale);
-
-    if ($katalog === $locale) {
-        return $mofile;
-    }
-
-    $eigen = pcl_fluent_de_languages_dir() . $domain . '-' . $katalog . '.mo';
-
-    // Nur tauschen, wenn die gewünschte Fassung auch da ist. Sonst bleibt es
-    // bei der Anrede der Seite.
-    return is_readable($eigen) ? $eigen : $mofile;
+    return pcl_fluent_de_katalogdatei($mofile, $domain, determine_locale());
 }
 add_filter('load_textdomain_mofile', 'pcl_fluent_de_anrede_unterschieben', 10, 2);
+
+/**
+ * Und dasselbe an der Stelle, an der sich entscheidet, was wirklich gelesen
+ * wird — nötig, sobald die ursprünglich gesuchte Datei gar nicht existiert.
+ *
+ * `load_textdomain_mofile` allein genügt, solange die Datei, die WordPress
+ * zuerst sucht, auch da ist: `load_textdomain()` baut die Kandidatenliste aus
+ * dem gefilterten Pfad, und die erzwungene Anrede kommt so seit 2.3.0 an
+ * (am 22.09.2026 gegen die 2.3.1-Fassung nachgemessen — sie wirkt dort).
+ *
+ * Fehlt die ursprüngliche Datei, kippt das. Dann greift **Loco Translate**
+ * ein, das an `load_translation_file` hängt: Es setzt den Dateinamen aus
+ * Domain und Locale der Seite neu zusammen und schiebt ihn in seinen eigenen
+ * Ordner (`LoadHelper::filter_load_translation_file`, der Zweig `'' === $this->mofile`).
+ * Unsere Umleitung ist danach weg, und beim Controller kommen zwei Kandidaten
+ * an, die es beide nicht gibt. Am 22.09.2026 auf dev gemessen:
+ * `load_textdomain_mofile` meldete `fluent-security-de_DE.mo`, angefragt wurden
+ * `…-de_DE_formal.l10n.php` und `…-de_DE_formal.mo`.
+ *
+ * Deshalb hier ein zweiter Haken, nach Loco. Der alte bleibt trotzdem hängen:
+ * Auf WordPress 6.5 gibt es `load_translation_file` noch nicht, und das Plugin
+ * nennt 6.5 als Minimum.
+ */
+function pcl_fluent_de_katalogdatei_waehlen($file, $domain, $locale) {
+    return pcl_fluent_de_katalogdatei($file, $domain, $locale ? $locale : determine_locale());
+}
+
+// Priorität 99, und das ist kein Zierrat: **Loco Translate hängt an demselben
+// Filter mit Priorität 11** und setzt den Dateinamen aus Domain und Locale neu
+// zusammen — unsere Umleitung auf Priorität 10 war danach wieder weg. Am
+// 22.09.2026 auf dev gemessen, wo Loco installiert ist: `load_textdomain_mofile`
+// meldete `fluent-security-de_DE.mo`, und beim Controller kamen trotzdem die
+// beiden `…-de_DE_formal`-Kandidaten an. Das ist Regel 4 des Projekts in einer
+// neuen Gestalt — „Loco gewinnt gegen alles“ gilt auch hier.
+//
+// Nach Loco zu laufen nimmt ihm nichts: Angefasst wird nur, was ohnehin in
+// unserem eigenen Ordner liegt. Zeigt der Pfad in Locos Bundle unter
+// `languages/loco/plugins/`, geht er unberührt durch.
+add_filter('load_translation_file', 'pcl_fluent_de_katalogdatei_waehlen', 99, 3);
+
+/**
+ * Den Dateinamen auf die Fassung umbiegen, die für diese Domain gelten soll.
+ *
+ * Gemeinsamer Kern beider Filter. Die Endung bleibt, wie sie kam — WordPress
+ * fragt nach `.l10n.php` und `.mo` getrennt, und wer beides auf `.mo`
+ * umschreibt, nimmt der Installation die schnellere der beiden Dateien.
+ *
+ * Angefasst wird nur, was in unserem eigenen Ordner liegt und zu unserer
+ * Namensform passt. Ein Sprachpaket aus `languages/plugins/` geht unberührt
+ * durch; darüber entscheidet die Sperre, nicht dieser Filter.
+ */
+function pcl_fluent_de_katalogdatei($file, $domain, $locale) {
+    // Nur für Domains, die gerade wirklich von uns bedient werden. Steht eine
+    // auf „Fremde Übersetzung“ oder „Keine Übersetzung zulassen“, hat sie hier
+    // nichts zu suchen — sonst schöbe dieser Filter unseren Katalog genau dort
+    // unter, wo er abbestellt wurde.
+    if (!in_array($domain, pcl_fluent_de_aktive_domains(), true)) {
+        return $file;
+    }
+
+    $name = basename($file);
+
+    if (strpos($name, $domain . '-') !== 0) {
+        return $file;
+    }
+
+    $rest  = substr($name, strlen($domain) + 1);
+    $punkt = strpos($rest, '.');
+
+    if ($punkt === false) {
+        return $file;
+    }
+
+    // Liegt an der Stelle, die WordPress gerade lesen will, eine Datei, die
+    // nicht unsere ist, bleibt sie stehen. Das ist Regel 4 des Projekts:
+    // Wer eine eigene Fassung gepflegt hat — in Loco oder sonstwo —, soll sie
+    // behalten. Eingegriffen wird nur, wo gar nichts liegt.
+    $dir    = wp_normalize_path(pcl_fluent_de_languages_dir());
+    $eigene = strpos(wp_normalize_path($file), $dir) === 0;
+
+    if (!$eigene && is_readable($file)) {
+        return $file;
+    }
+
+    $katalog = pcl_fluent_de_katalog_locale($domain, $locale);
+    $eigen   = pcl_fluent_de_languages_dir() . $domain . '-' . $katalog . substr($rest, $punkt);
+
+    // Nur tauschen, wenn die gewünschte Fassung auch da ist.
+    return is_readable($eigen) ? $eigen : $file;
+}
 
 /* -------------------------------------------------------------------------
  * Fremde deutsche Kataloge fernhalten

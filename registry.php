@@ -308,21 +308,63 @@ function pcl_fluent_de_hat_anredewahl($domain) {
 }
 
 /**
+ * Liegt der gebaute Katalog für diese Domain und Locale im Paket?
+ *
+ * Gefragt wird nach der `.mo`. Die `.l10n.php` daneben entsteht im selben
+ * Bauschritt und wird mit ihr zusammen ausgeliefert; eine ohne die andere wäre
+ * ein Fehler im Paket, kein Fall, den diese Prüfung abfangen müsste.
+ */
+function pcl_fluent_de_katalog_da($domain, $locale) {
+    return is_readable(pcl_fluent_de_languages_dir() . $domain . '-' . $locale . '.mo');
+}
+
+/**
  * Die Locale, unter der der Katalog dieser Domain gelesen wird.
  *
- * Ohne erzwungene Anrede ist das die Locale der Seite. Mit erzwungener Anrede
- * die gewählte — aber nur, wenn die Seite überhaupt deutsch ist. Auf einer
- * englischen oder französischen Seite hat unsere Anredefrage keinen Sinn, und
- * ein deutscher Katalog wäre dort schlicht falsch.
+ * Drei Stufen, und genommen wird die erste, für die ein Katalog im Paket liegt:
+ *
+ *   1. Die erzwungene Anrede, falls eine gesetzt ist.
+ *   2. Die Locale der Seite.
+ *   3. Die erste Fassung, die wir für diese Domain ausliefern — die Du-Form.
+ *
+ * Stufe 3 kam am 22.09.2026 dazu, mit praesentare.com als Anlass. Die Seite
+ * läuft auf `de_DE_formal`, und `fluent-security` liefern wir nur in der
+ * Du-Form aus: Es fehlte die Datei zur Locale der Seite, und weil die Domain
+ * auf dem `sperren`-Weg läuft, durfte auch das Sprachpaket von wordpress.org
+ * nicht einspringen. Herausgekommen ist eine englische Oberfläche, obwohl ein
+ * vollständiger deutscher Katalog im selben Ordner lag. Dieselbe Abwägung wie
+ * bei der erzwungenen Anrede: lieber die andere Anrede als gar nichts.
+ *
+ * Damit ist auch der Befund vom 03.08.2026 erledigt, nach dem auf einer
+ * `de_DE_formal`-Seite `fluent-community` und `fluent-messaging` englisch
+ * blieben.
+ *
+ * Auf einer nicht-deutschen Seite passiert nichts davon — dort wäre ein
+ * deutscher Katalog schlicht falsch, und `de_AT` oder `de_CH` fallen über
+ * Stufe 3 auf die Du-Fassung, statt leer auszugehen.
  */
 function pcl_fluent_de_katalog_locale($domain, $locale) {
     if (strpos($locale, 'de_') !== 0) {
         return $locale;
     }
 
+    $eintrag = pcl_fluent_de_eintrag($domain);
+
+    if (!$eintrag) {
+        return $locale;
+    }
+
     $anrede = pcl_fluent_de_anrede($domain);
 
-    return $anrede ? $anrede : $locale;
+    foreach (array($anrede, $locale, $eintrag['anreden'][0]) as $kandidat) {
+        if ($kandidat && pcl_fluent_de_katalog_da($domain, $kandidat)) {
+            return $kandidat;
+        }
+    }
+
+    // Kein einziger Katalog da. Die Ladewege prüfen das ohnehin noch einmal;
+    // die Locale der Seite ist hier die ehrlichste Antwort.
+    return $locale;
 }
 
 /**
