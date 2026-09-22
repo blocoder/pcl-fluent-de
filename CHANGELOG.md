@@ -7,6 +7,20 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.3.1
+
+**Behoben: kritischer Fehler auf der Plugin-Seite.** Die Zeile, die anzeigt,
+welche Kataloge gerade greifen, rief eine Funktion aus der 1.x-Reihe auf, die
+es seit 2.0.0 nicht mehr gibt. Wer im Backend „Plugins“ öffnete, bekam an
+dieser Stelle statt des Hinweises eine Fehlermeldung.
+Betroffen war allein diese Übersicht – die Übersetzungen
+selbst, das Portal und die Website haben durchgehend funktioniert, und das
+Plugin blieb aktiv.
+
+Der Hinweis zählt jetzt die tatsächlich wirksamen Übersetzungen auf und
+berücksichtigt dabei die erzwungene Anrede: Steht ein Plugin auf „immer Sie“,
+nennt die Zeile den Katalog, der wirklich gelesen wird.
+
 ## 2.3.0
 
 **Anrede je Plugin erzwingbar.** Wo beide Fassungen vorliegen – zurzeit
