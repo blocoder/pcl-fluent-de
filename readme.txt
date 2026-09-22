@@ -1,18 +1,18 @@
 === PC'L Übersetzungen für Fluent-Plugins ===
 Contributors: blocoder
-Tags: fluentcommunity, fluentmessaging, fluentplayer, deutsch, übersetzung
+Tags: fluentcommunity, fluentauth, fluentsmtp, fluentsnippets, deutsch
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.7.1
+Stable tag: 2.3.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Eine vollständige deutsche Übersetzung für FluentCommunity, FluentMessaging und FluentPlayer – die vor dem offiziellen Sprachpaket lädt.
+Deutsche Übersetzungen für acht Fluent-Plugins – die vor dem offiziellen Sprachpaket laden. Jede einzeln abschaltbar.
 
 == Description ==
 
-5.438 übersetzte Zeichenketten für fünf Plugins, ausgeliefert als eigenes Plugin statt über Loco Translate.
+8.660 übersetzte Zeichenketten für acht Plugins, ausgeliefert als ein Plugin statt über Loco Translate. Für FluentSMTP und FluentSnippets zusätzlich in der Sie-Anrede.
 
 **Warum das nötig ist:** WordPress fragt für eine Textdomain mehrere Kataloge der Reihe nach ab und nimmt die erste Datei, die eine Zeichenkette kennt. Wer zuerst lädt, gewinnt. Dieses Plugin lädt auf `plugins_loaded` mit Priorität 1 – vor dem Sprachpaket von wordpress.org. Damit hält die eigene Terminologie, und das Sprachpaket füllt nur noch Lücken.
 
@@ -47,9 +47,35 @@ Ein Katalog gehört zu einer Plugin-Version. Ändert der Hersteller einen englis
 
 = Gibt es eine Sie-Fassung? =
 
-Nein, nur `de_DE` in der Du-Form.
+Für FluentSMTP und FluentSnippets ja. Steht die Seite auf `de_DE_formal`, wird sie geladen – und seit 2.3.0 lässt sie sich auch auf einer Du-Seite für diese Plugins erzwingen (Spalte „Anrede“ in den Einstellungen). Die übrigen sechs Kataloge gibt es nur in der Du-Form; dort greift dann das Sprachpaket von wordpress.org oder der Text bleibt englisch.
+
+= Kann ich einzelne Übersetzungen abschalten? =
+
+Ja, jede für sich. Drei Zustände je Plugin: „Deutsche Übersetzung aktiv“ (Vorgabe, schaltet sich ein, sobald das Plugin da ist), „Fremde Übersetzung“ (unsere Fassung weg, das Sprachpaket von wordpress.org greift weiter) und „Keine Übersetzung zulassen“ (das Plugin bleibt englisch).
 
 == Changelog ==
+
+= 2.3.0 =
+* Anrede je Plugin erzwingbar: „wie die Seite“ (Vorgabe), „immer Du“ oder „immer Sie“. Eine Seite in der Du-Form kann so für ein einzelnes Plugin die Sie-Fassung zeigen.
+* Wählbar nur dort, wo beide Fassungen vorliegen – zurzeit FluentSMTP und FluentSnippets. Fehlt die gewünschte Fassung, gilt wieder die Anrede der Seite, statt dass der Text englisch wird.
+
+= 2.2.1 =
+* Klarere Beschriftungen in der Auswahl: „Deutsche Übersetzung aktiv“, „Fremde Übersetzung (WordPress, Plugin)“ und „Keine Übersetzung zulassen“. Die Statusspalte spricht jetzt dieselbe Sprache.
+
+= 2.2.0 =
+* Die Kataloge für FluentAuth, FluentSMTP und FluentSnippets werden erst gelesen, wenn der erste Text daraus gebraucht wird. Auf einer Seite, die keinen davon anzeigt, bleiben sie ungelesen – das sind 339 KB, die bisher jeder Aufruf mitgeschleppt hat.
+* Die übrigen fünf Kataloge laden weiterhin voraus. Bei ihnen füllt das Sprachpaket von wordpress.org Lücken auf, und das verlangt eine feste Reihenfolge.
+
+= 2.1.0 =
+* Einstellungsseite: eine Zeile je Übersetzung mit den drei Zuständen, dazu Status und Anrede. Unter Einstellungen → PC’L Übersetzungen.
+* Ist ein Plugin nicht installiert, steht seine Zeile grau da – die Einstellung bleibt aber erhalten und greift wieder, sobald das Plugin da ist.
+* Die Einstellungsseite gehört jetzt dem Plugin statt der FluentCommunity-Zusatzdatei. Ohne FluentCommunity gab es bis 2.0.0 gar keine.
+
+= 2.0.0 =
+* Zusammenführung: Dieses Plugin bringt jetzt auch die Übersetzungen für FluentAuth, FluentSMTP und FluentSnippets mit. Die drei bisherigen Einzel-Plugins werden beim Aktivieren deaktiviert und können gelöscht werden.
+* Jede Übersetzung schaltet sich selbst ein, sobald das zugehörige Plugin installiert ist, und lässt sich einzeln abschalten oder ganz auf Englisch stellen.
+* Was ein Katalog nicht kann – Datumsformate, die Fußzeile der Anmeldecode-Mails, relative Zeitangaben – wird nur noch geladen, wenn das zugehörige Plugin da ist.
+* Beim Sprachwechsel werden die Kataloge jetzt auch für FluentCommunity neu geladen. Das fehlte bis 1.7.1 und betraf E-Mails an Empfänger mit abweichender Sprache.
 
 = 1.7.1 =
 * Hinweis in der Verwaltung und in der Plugin-Liste, wenn das Plugin aus dem Quellcode-Archiv statt aus den Releases installiert wurde und die gebauten Kataloge deshalb fehlen.

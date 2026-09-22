@@ -1,0 +1,2510 @@
+# Deutsche Uebersetzung fuer FluentSnippets (easy-code-manager).
+# Leitfassung ist Du; de_DE_formal entsteht daraus per derive-formal.py.
+msgid ""
+msgstr ""
+"Project-Id-Version: Fluent Snippets 10.56\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-17T09:17:22+02:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: PC'L\n"
+"Language-Team: Deutsch\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: easy-code-manager\n"
+"X-Generator: WP-CLI 2.12.0\n"
+
+# offen: Produktname (Plugin- und Autorname)
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: easy-code-manager.php app/Hooks/Handlers/AdminMenuHandler.php:100
+msgid "Fluent Snippets"
+msgstr ""
+
+# offen: URL
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: easy-code-manager.php
+msgid "https://fluentsnippets.com"
+msgstr ""
+
+#. Description of the plugin
+#: easy-code-manager.php
+msgid ""
+"Super Fast File Based Native Code Snippets (header / footer codes) Manager "
+"for WordPress"
+msgstr ""
+"Schnelle, dateibasierte Verwaltung für Code-Snippets (Code für Kopf- und "
+"Fußbereich) in WordPress"
+
+#: app/Helpers/Helper.php:650
+msgid ""
+"The snippet index could not be read, so a new Safe Mode URL could not be "
+"issued."
+msgstr ""
+"Das Snippet-Verzeichnis ließ sich nicht lesen, deshalb konnte keine neue URL"
+" für den abgesicherten Modus ausgegeben werden."
+
+#. translators: %s: script or style
+#: app/Helpers/Helper.php:855
+#, php-format
+msgid "Remove the wrapping <%s> tag"
+msgstr "Das umschließende <%s>-Tag entfernen"
+
+#. translators: 1: script or style, 2: script or style
+#: app/Helpers/Helper.php:860
+#, php-format
+msgid ""
+"FluentSnippets outputs the <%1$s> element for you and puts this snippet "
+"inside it. A second <%2$s> tag in the code ends up printed as literal text "
+"on the page, and the snippet does nothing."
+msgstr ""
+"FluentSnippets gibt das <%1$s>-Element selbst aus und setzt dieses Snippet "
+"hinein. Ein zweites <%2$s>-Tag im Code erscheint als reiner Text auf der "
+"Seite, und das Snippet bewirkt nichts."
+
+#. translators: 1: opening tag, 2: closing tag
+#: app/Helpers/Helper.php:866
+#, php-format
+msgid ""
+"Delete the opening %1$s and its matching %2$s, and keep only what was "
+"between them."
+msgstr ""
+"Das öffnende %1$s und das zugehörige %2$s löschen und nur behalten, was "
+"dazwischen stand."
+
+#: app/Helpers/Helper.php:973
+msgid "Remove the opening <?php tag"
+msgstr "Das öffnende <?php-Tag entfernen"
+
+#: app/Helpers/Helper.php:974
+msgid ""
+"FluentSnippets writes the opening PHP tag itself when it saves the file, so "
+"a second one in your code would be printed onto the page as text."
+msgstr ""
+"FluentSnippets schreibt das öffnende PHP-Tag beim Speichern selbst in die "
+"Datei. Ein zweites im Code würde als Text auf der Seite ausgegeben."
+
+#: app/Helpers/Helper.php:975
+msgid ""
+"Delete the <?php line at the very top of the snippet and keep the rest as it"
+" is."
+msgstr ""
+"Die Zeile <?php ganz oben im Snippet löschen und den Rest unverändert "
+"lassen."
+
+#: app/Helpers/Helper.php:1005 app/Services/Trans.php:205
+msgid "Snippet Name"
+msgstr "Snippet-Name"
+
+#: app/Helpers/Helper.php:1006 app/Services/Trans.php:222
+msgid "Status"
+msgstr "Status"
+
+#: app/Helpers/Helper.php:1007 app/Services/Trans.php:207
+msgid "Snippet Type"
+msgstr "Snippet-Typ"
+
+#: app/Helpers/Helper.php:1008
+msgid "Where to run"
+msgstr "Ausführungsort"
+
+#. translators: %s: name of the field that was left empty
+#: app/Helpers/Helper.php:1017
+#, php-format
+msgid "%s is required"
+msgstr "%s ist erforderlich"
+
+#: app/Helpers/Helper.php:1023
+msgid ""
+"A snippet cannot be stored without this. It is written into the file header "
+"and is what tells FluentSnippets when and how to run your code."
+msgstr ""
+"Ohne diese Angabe lässt sich ein Snippet nicht speichern. Die Angabe steht "
+"im Dateikopf und sagt FluentSnippets, wann und wie der Code laufen soll."
+
+#. translators: %s: name of the field that was left empty
+#: app/Helpers/Helper.php:1026
+#, php-format
+msgid "Fill in the %s field on the right and save again."
+msgstr "Das Feld „%s“ rechts ausfüllen und erneut speichern."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:101 app/Services/Trans.php:104
+msgid "FluentSnippets"
+msgstr "FluentSnippets"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:118
+msgid "You do not have permission to perform this action."
+msgstr "Für diese Aktion fehlt die Berechtigung."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:126
+#: app/Hooks/Handlers/AdminMenuHandler.php:231
+msgid "Invalid nonce."
+msgstr "Ungültiger Sicherheitsschlüssel (Nonce)."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:148
+#: app/Hooks/Handlers/AdminMenuHandler.php:160
+msgid "No snippets selected."
+msgstr "Keine Snippets ausgewählt."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:216
+msgid ""
+"Snippets cannot be imported on this site: wp-config.php has "
+"DISALLOW_FILE_MODS set, and importing writes a file per snippet into wp-"
+"content."
+msgstr ""
+"Auf dieser Website lassen sich keine Snippets importieren: In der wp-"
+"config.php ist DISALLOW_FILE_MODS gesetzt, und ein Import schreibt für jedes"
+" Snippet eine Datei nach wp-content."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:223
+msgid ""
+"You do not have permission to perform this action. Required Permission: "
+"unfiltered_html and install_plugins"
+msgstr ""
+"Für diese Aktion fehlt die Berechtigung. Erforderlich: unfiltered_html und "
+"install_plugins"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:241
+msgid "No file was uploaded."
+msgstr "Es wurde keine Datei hochgeladen."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:250
+msgid "The file could not be uploaded. Please try again."
+msgstr "Die Datei konnte nicht hochgeladen werden. Bitte erneut versuchen."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:259
+msgid "The uploaded file could not be read."
+msgstr "Die hochgeladene Datei konnte nicht gelesen werden."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:271
+msgid ""
+"Invalid file format. Please upload a JSON file that is exported from Fluent "
+"Snippets"
+msgstr ""
+"Ungültiges Dateiformat. Bitte eine JSON-Datei hochladen, die aus "
+"FluentSnippets exportiert wurde."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:313
+msgid "Snippet already exists"
+msgstr "Das Snippet gibt es schon"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:491
+msgid "Loading Snippets.."
+msgstr "Snippets werden geladen …"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:509
+msgid "Functions"
+msgstr "Funktionen"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:514
+msgid "Run Everywhere"
+msgstr "Überall ausführen"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:515
+msgid "Snippet gets executed everywhere (both frontend and admin area)"
+msgstr "Das Snippet läuft überall (im Frontend und im Adminbereich)"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:518
+msgid "Admin Only"
+msgstr "Nur im Adminbereich"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:519
+msgid "Snippet gets executed only in admin area (/wp-admin/)"
+msgstr "Das Snippet läuft nur im Adminbereich (/wp-admin/)"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:522
+msgid "Frontend Only"
+msgstr "Nur im Frontend"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:523
+msgid "Snippet gets executed only in frontend area"
+msgstr "Das Snippet läuft nur im Frontend"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:528
+msgid "Content"
+msgstr "Inhalt"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:533
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:534
+msgid "Only display when inserted into a post or page using shortcode"
+msgstr ""
+"Nur anzeigen, wenn es per Shortcode in einen Beitrag oder eine Seite "
+"eingefügt ist"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:537
+#: app/Hooks/Handlers/AdminMenuHandler.php:583
+msgid "Site Wide Header"
+msgstr "Kopfbereich der ganzen Website"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:538
+msgid "Insert snippet between the head tags of your website (frontend)."
+msgstr "Fügt das Snippet zwischen den head-Tags der Website ein (Frontend)."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:541
+msgid "Site Wide Body Open"
+msgstr "Nach dem öffnenden body-Tag der ganzen Website"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:542
+msgid "Insert snippet after the opening body tag of your website (frontend)."
+msgstr ""
+"Fügt das Snippet direkt nach dem öffnenden body-Tag der Website ein "
+"(Frontend)."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:545
+#: app/Hooks/Handlers/AdminMenuHandler.php:587
+msgid "Site Wide Footer"
+msgstr "Fußbereich der ganzen Website"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:546
+msgid ""
+"Insert snippet before the closing body tag of your website on all pages "
+"(frontend)."
+msgstr ""
+"Fügt das Snippet auf allen Seiten vor dem schließenden body-Tag der Website "
+"ein (Frontend)."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:549
+msgid "Before Content"
+msgstr "Vor dem Inhalt"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:550
+msgid "Insert snippet at the beginning of single post/page content."
+msgstr ""
+"Fügt das Snippet am Anfang des Inhalts einzelner Beiträge und Seiten ein."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:553
+msgid "After Content"
+msgstr "Nach dem Inhalt"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:554
+msgid "Insert snippet at the end of single post/page content."
+msgstr ""
+"Fügt das Snippet am Ende des Inhalts einzelner Beiträge und Seiten ein."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:559
+msgid "Styles"
+msgstr "Stile"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:564
+msgid "Frontend"
+msgstr "Frontend"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:565
+msgid "Add CSS on all pages (frontend)."
+msgstr "Fügt das CSS auf allen Seiten ein (Frontend)."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:568
+msgid "Backend"
+msgstr "Backend"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:569
+msgid "Apply this snippet CSS to backend (/wp-admin/)."
+msgstr "Wendet das CSS dieses Snippets im Backend an (/wp-admin/)."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:572
+msgid "Both Backend and Frontend"
+msgstr "Backend und Frontend"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:573
+msgid "Apply this snippet CSS to both backend and frontend."
+msgstr "Wendet das CSS dieses Snippets im Backend und im Frontend an."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:578
+msgid "Scripts"
+msgstr "Skripte"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:584
+msgid ""
+"Run Javascript between the head tags of your website on all pages "
+"(frontend)."
+msgstr ""
+"Führt JavaScript auf allen Seiten zwischen den head-Tags der Website aus "
+"(Frontend)."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:588
+msgid ""
+"Run Javascript before the closing body tag of your website on all pages "
+"(frontend)."
+msgstr ""
+"Führt JavaScript auf allen Seiten vor dem schließenden body-Tag der Website "
+"aus (Frontend)."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:591
+msgid "Admin Area Header"
+msgstr "Kopfbereich des Adminbereichs"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:592
+msgid "Run Javascript in admin area (/wp-admin/)."
+msgstr "Führt JavaScript im Adminbereich aus (/wp-admin/)."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:595
+msgid "Admin Area Footer"
+msgstr "Fußbereich des Adminbereichs"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:596
+msgid "Run Javascript in admin area (/wp-admin/) before the closing body tag."
+msgstr ""
+"Führt JavaScript im Adminbereich (/wp-admin/) vor dem schließenden body-Tag "
+"aus."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:623
+msgid "User"
+msgstr "Benutzer"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:627
+msgid "Logged-in"
+msgstr "Angemeldet"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:637
+msgid "User Role"
+msgstr "Benutzerrolle"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:647
+msgid "Page"
+msgstr "Seite"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:651
+msgid "Type of page"
+msgstr "Seitentyp"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:657
+msgid "Homepage"
+msgstr "Startseite"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:658
+msgid "Archive"
+msgstr "Archiv"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:659
+#: app/Hooks/Handlers/AdminMenuHandler.php:693
+msgid "Single Post/Page/CPT"
+msgstr "Einzelner Beitrag, einzelne Seite oder eigener Inhaltstyp"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:660
+msgid "Search page"
+msgstr "Suchseite"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:661
+msgid "404 page"
+msgstr "404-Seite"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:662
+msgid "Author page"
+msgstr "Autorenseite"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:666
+msgid "Post Type"
+msgstr "Inhaltstyp"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:673
+msgid "Taxonomy Page"
+msgstr "Taxonomie-Seite"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:680
+msgid "Taxonomy Term Page"
+msgstr "Seite eines Taxonomie-Begriffs"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:688
+msgid "URL"
+msgstr "URL"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:704
+msgid "Date"
+msgstr "Datum"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:709
+msgid "Date Range"
+msgstr "Datumsbereich"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:717
+msgid "Time Range"
+msgstr "Zeitraum"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:724
+msgid "Day of the week"
+msgstr "Wochentag"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:728
+msgid "Monday"
+msgstr "Montag"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:729
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:730
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:731
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:732
+msgid "Friday"
+msgstr "Freitag"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:733
+msgid "Saturday"
+msgstr "Samstag"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:734
+msgid "Sunday"
+msgstr "Sonntag"
+
+# offen: Produktname
+#: app/Hooks/Handlers/AdminMenuHandler.php:745
+msgid "FluentCRM"
+msgstr ""
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:749
+msgid "Is a CRM Contact?"
+msgstr "Ist ein CRM-Kontakt?"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:759
+msgid "Contact Tags"
+msgstr "Kontakt-Tags"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:768
+msgid "Contact Lists"
+msgstr "Kontaktlisten"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:843
+msgid "Snippets cannot be changed on this site"
+msgstr "Snippets lassen sich auf dieser Website nicht ändern"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:844
+msgid ""
+"wp-config.php has DISALLOW_FILE_MODS set. Every snippet is a file in wp-"
+"content, and that constant tells WordPress nothing may write there, so this "
+"is a deliberate setting on this site rather than anything wrong with your "
+"account. Snippets that are already active keep running."
+msgstr ""
+"In der wp-config.php ist DISALLOW_FILE_MODS gesetzt. Jedes Snippet ist eine "
+"Datei in wp-content, und diese Konstante verbietet WordPress, dort zu "
+"schreiben. Das ist also eine bewusste Einstellung dieser Website und kein "
+"Fehler am Benutzerkonto. Bereits aktive Snippets laufen weiter."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:845
+msgid ""
+"Copy your code somewhere safe before leaving this page. To make the change, "
+"either remove that line from wp-config.php, or put the snippet file on the "
+"server the same way the rest of wp-content gets there, via a deployment or "
+"version control."
+msgstr ""
+"Den Code vor dem Verlassen der Seite an einem sicheren Ort ablegen. Für die "
+"Änderung entweder diese Zeile aus der wp-config.php entfernen oder die "
+"Snippet-Datei auf demselben Weg auf den Server bringen wie den Rest von wp-"
+"content, also per Deployment oder Versionsverwaltung."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:851
+msgid "You are not allowed to save snippets on this site"
+msgstr "Das Speichern von Snippets ist auf dieser Website nicht erlaubt"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:852
+msgid ""
+"Saving a snippet means putting executable code on the site, so it needs both"
+" the install_plugins and unfiltered_html capabilities. Your account is "
+"missing at least one of them."
+msgstr ""
+"Wer ein Snippet speichert, bringt ausführbaren Code auf die Website. Dafür "
+"sind die Berechtigungen install_plugins und unfiltered_html nötig, und dem "
+"Benutzerkonto fehlt mindestens eine davon."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:853
+msgid ""
+"On a multisite, only Super Admins have unfiltered_html by default. Otherwise"
+" the usual causes are DISALLOW_UNFILTERED_HTML set in wp-config.php, or a "
+"security or role-editor plugin that has removed the capability from your "
+"role."
+msgstr ""
+"In einer Multisite haben standardmäßig nur Super-Admins unfiltered_html. "
+"Sonst liegt es meist an DISALLOW_UNFILTERED_HTML in der wp-config.php oder "
+"an einem Sicherheits- oder Rollen-Plugin, das der Rolle die Berechtigung "
+"entzogen hat."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:861
+msgid "Your security token has expired"
+msgstr "Der Sicherheitsschlüssel ist abgelaufen"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:862
+msgid ""
+"WordPress security tokens are only valid for a limited time. This page has "
+"been open for too long, or you have signed in again somewhere else since it "
+"loaded."
+msgstr ""
+"Sicherheitsschlüssel von WordPress gelten nur eine begrenzte Zeit. Die Seite"
+" war zu lange geöffnet, oder seit dem Laden gab es anderswo eine neue "
+"Anmeldung."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:863
+msgid ""
+"Copy your code somewhere safe first, then reload this page and paste it "
+"back. Reloading is what issues a fresh token. If this keeps happening, a "
+"caching layer is caching wp-admin pages and needs to be told not to."
+msgstr ""
+"Zuerst den Code an einem sicheren Ort ablegen, dann die Seite neu laden und "
+"den Code wieder einfügen. Erst das Neuladen erzeugt einen frischen "
+"Schlüssel. Passiert das immer wieder, speichert eine Cache-Schicht Seiten "
+"aus wp-admin zwischen und muss davon ausgenommen werden."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:899
+msgid "The snippet did not arrive in one piece"
+msgstr "Das Snippet ist nicht vollständig angekommen"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:900
+msgid ""
+"The editor sent your snippet, but the server received something incomplete, "
+"so nothing was saved and the previous version is still in place."
+msgstr ""
+"Der Editor hat das Snippet abgeschickt, auf dem Server kam aber nur ein Teil"
+" an. Deshalb wurde nichts gespeichert, und die vorige Fassung gilt weiter."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:901
+msgid ""
+"This is almost always a size limit on the request. Ask your host to raise "
+"post_max_size and max_input_vars, or to relax the firewall rule (often "
+"ModSecurity) that is truncating requests to wp-admin. Saving a much shorter "
+"snippet is a quick way to confirm that is what is happening."
+msgstr ""
+"Fast immer liegt das an einer Größenbegrenzung der Anfrage. Der Hoster kann "
+"post_max_size und max_input_vars erhöhen oder die Firewall-Regel lockern "
+"(oft ModSecurity), die Anfragen an wp-admin abschneidet. Ob es daran liegt, "
+"zeigt schnell ein Versuch mit einem deutlich kürzeren Snippet."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:931
+msgid "Snippet saved successfully."
+msgstr "Das Snippet wurde gespeichert."
+
+#: app/Hooks/Handlers/AdminMenuHandler.php:959
+msgid "Snippet created successfully."
+msgstr "Das Snippet wurde angelegt."
+
+#: app/Hooks/Handlers/CodeHandler.php:90
+msgid "Snippets are disabled"
+msgstr "Snippets sind deaktiviert"
+
+#: app/Hooks/Handlers/CodeHandler.php:95
+msgid "Snippet has an error"
+msgstr "Das Snippet enthält einen Fehler"
+
+#: app/Hooks/Handlers/CodeHandler.php:105
+msgid "Snippet type is not PHP Content"
+msgstr "Der Snippet-Typ ist nicht „PHP-Inhalt“"
+
+#: app/Hooks/Handlers/CodeHandler.php:109
+msgid "Snippet run at is not shortcode"
+msgstr "Das Snippet ist nicht als Shortcode eingestellt"
+
+#: app/Hooks/Handlers/CodeHandler.php:113
+msgid "Snippet status is not published"
+msgstr "Das Snippet ist nicht veröffentlicht"
+
+#: app/Hooks/Handlers/CodeHandler.php:119
+msgid "Snippet condition is not valid"
+msgstr "Die Bedingung des Snippets ist nicht erfüllt"
+
+#: app/Hooks/Handlers/CodeHandler.php:144
+msgid "Return Data is not valid. Return data need to be string or number"
+msgstr ""
+"Ungültiger Rückgabewert. Das Snippet muss eine Zeichenkette oder eine Zahl "
+"zurückgeben."
+
+#: app/Hooks/Handlers/CodeHandler.php:155
+msgid "Shortcode could not be rendered"
+msgstr "Der Shortcode konnte nicht ausgegeben werden"
+
+#: app/Hooks/Handlers/CodeHandler.php:157
+msgid "This message is only visible to site admin role"
+msgstr "Diese Meldung sehen nur Administratoren"
+
+#: app/Http/Controllers/SettingsController.php:66
+msgid ""
+"A new Safe Mode URL has been generated. The previous one no longer works."
+msgstr ""
+"Es gibt eine neue URL für den abgesicherten Modus. Die bisherige "
+"funktioniert nicht mehr."
+
+#: app/Http/Controllers/SettingsController.php:118
+msgid "Settings has been successfully updated"
+msgstr "Die Einstellungen wurden gespeichert"
+
+#: app/Http/Controllers/SettingsController.php:140
+msgid "Safe mode has been disabled"
+msgstr "Der abgesicherte Modus ist ausgeschaltet"
+
+#: app/Http/Controllers/SettingsController.php:156
+msgid "Standalone mode has been activated"
+msgstr "Der eigenständige Modus ist eingeschaltet"
+
+#: app/Http/Controllers/SettingsController.php:158
+msgid "Standalone mode has been deactivated"
+msgstr "Der eigenständige Modus ist ausgeschaltet"
+
+#: app/Http/Controllers/SnippetsController.php:143
+msgid "Snippet has been deleted successfully"
+msgstr "Das Snippet wurde gelöscht"
+
+#: app/Http/Controllers/TeamPluginsController.php:22
+#: app/Http/Controllers/TeamPluginsController.php:65
+msgid "No plugin was specified."
+msgstr "Es wurde kein Plugin angegeben."
+
+#. translators: %s: the reason activation failed.
+#: app/Http/Controllers/TeamPluginsController.php:48
+#, php-format
+msgid "The plugin was installed, but could not be activated: %s"
+msgstr "Das Plugin wurde installiert, ließ sich aber nicht aktivieren: %s"
+
+#: app/Http/Controllers/TeamPluginsController.php:56
+msgid "The plugin has been installed and activated."
+msgstr "Das Plugin wurde installiert und aktiviert."
+
+#: app/Http/Controllers/TeamPluginsController.php:76
+msgid "The plugin has been activated."
+msgstr "Das Plugin wurde aktiviert."
+
+#: app/Model/Snippet.php:347
+msgid "A snippet file with this name already exists"
+msgstr "Eine Snippet-Datei mit diesem Namen gibt es schon"
+
+#. translators: %s: snippet file name
+#: app/Model/Snippet.php:350
+#, php-format
+msgid ""
+"Snippet files are named after the snippet, and %s is taken. This normally "
+"happens when a snippet was deleted and recreated, so the numbering no longer"
+" lines up."
+msgstr ""
+"Snippet-Dateien werden nach dem Snippet benannt, und %s ist schon vergeben. "
+"Das passiert meist, wenn ein Snippet gelöscht und neu angelegt wurde und die"
+" Nummerierung nicht mehr passt."
+
+#: app/Model/Snippet.php:353
+msgid "Change the snippet name slightly and save again."
+msgstr "Den Namen des Snippets leicht ändern und erneut speichern."
+
+#: app/Services/Permissions.php:107
+msgid "Snippets are read-only on this site"
+msgstr "Snippets sind auf dieser Website schreibgeschützt"
+
+#: app/Services/Permissions.php:108
+msgid ""
+"wp-config.php has DISALLOW_FILE_MODS set, which tells WordPress that nothing"
+" may write to wp-content - and every snippet is a file in there. You can "
+"read, search and export your snippets, but not add, change, enable, disable "
+"or delete one. Snippets that are already active carry on running exactly as "
+"before. Remove that line, or deploy your change through whatever puts files "
+"on this server, to edit them here again."
+msgstr ""
+"In der wp-config.php ist DISALLOW_FILE_MODS gesetzt. Damit darf WordPress "
+"nichts nach wp-content schreiben, und jedes Snippet ist eine Datei dort. "
+"Snippets lassen sich lesen, durchsuchen und exportieren, aber nicht anlegen,"
+" ändern, aktivieren, deaktivieren oder löschen. Bereits aktive Snippets "
+"laufen unverändert weiter. Um sie hier wieder zu bearbeiten, diese Zeile "
+"entfernen oder die Änderung auf dem Weg ausrollen, auf dem sonst Dateien auf"
+" diesen Server kommen."
+
+#: app/Services/PhpValidator.php:203
+msgid "Parse error: syntax error, unexpected end of snippet."
+msgstr "Parse error: Syntaxfehler, unerwartetes Ende des Snippets."
+
+#. translators: %s: PHP function name
+#: app/Services/PhpValidator.php:217
+#, php-format
+msgid "Cannot redeclare function %s."
+msgstr "Die Funktion %s kann nicht erneut deklariert werden."
+
+#. translators: %s: PHP class name
+#: app/Services/PhpValidator.php:222
+#, php-format
+msgid "Cannot redeclare class %s."
+msgstr "Die Klasse %s kann nicht erneut deklariert werden."
+
+#. translators: %s: PHP interface name
+#: app/Services/PhpValidator.php:227
+#, php-format
+msgid "Cannot redeclare interface %s."
+msgstr "Das Interface %s kann nicht erneut deklariert werden."
+
+#. translators: %s: PHP identifier name
+#: app/Services/PhpValidator.php:232
+#, php-format
+msgid "Cannot redeclare %s."
+msgstr "%s kann nicht erneut deklariert werden."
+
+#: app/Services/PhpValidator.php:280
+msgid "Parse error: syntax error, unexpected end of snippet"
+msgstr "Parse error: Syntaxfehler, unerwartetes Ende des Snippets"
+
+#. translators: %d: line number within the snippet
+#: app/Services/SnippetErrors.php:58
+#, php-format
+msgid " on line %d"
+msgstr " in Zeile %d"
+
+#: app/Services/SnippetErrors.php:103
+msgid "This snippet has a PHP syntax error"
+msgstr "Das Snippet enthält einen PHP-Syntaxfehler"
+
+#: app/Services/SnippetErrors.php:108
+msgid ""
+"PHP could not parse the snippet, so nothing was saved. It would have taken "
+"the site down on the very next page load, because snippets run on every "
+"request."
+msgstr ""
+"PHP konnte das Snippet nicht einlesen, deshalb wurde nichts gespeichert. Es "
+"hätte die Website schon beim nächsten Seitenaufruf lahmgelegt, weil Snippets"
+" bei jeder Anfrage laufen."
+
+#: app/Services/SnippetErrors.php:109
+msgid ""
+"Look at the reported line and the one above it for a missing closing brace, "
+"semicolon, bracket or quote."
+msgstr ""
+"In der gemeldeten Zeile und der Zeile darüber nach einer fehlenden "
+"schließenden geschweiften Klammer, einem Semikolon, einer Klammer oder einem"
+" Anführungszeichen suchen."
+
+#: app/Services/SnippetErrors.php:133
+msgid ""
+"FluentSnippets checks every PHP snippet before saving it, and this one did "
+"not pass."
+msgstr ""
+"FluentSnippets prüft jedes PHP-Snippet vor dem Speichern, und dieses hat die"
+" Prüfung nicht bestanden."
+
+#: app/Services/SnippetErrors.php:134
+msgid "Correct the reported problem and save again."
+msgstr "Das gemeldete Problem beheben und erneut speichern."
+
+#: app/Services/SnippetErrors.php:151
+msgid "this name"
+msgstr "diesen Namen"
+
+#. translators: %s: PHP function name
+#: app/Services/SnippetErrors.php:155
+#, php-format
+msgid "The function %s is already declared elsewhere"
+msgstr "Die Funktion %s ist bereits an anderer Stelle deklariert"
+
+#. translators: 1: class/interface, 2: name
+#: app/Services/SnippetErrors.php:163
+#, php-format
+msgid "The %1$s %2$s is already declared elsewhere"
+msgstr "%1$s %2$s ist bereits an anderer Stelle deklariert"
+
+#: app/Services/SnippetErrors.php:173
+msgid ""
+"Something on this site already declares that name: another active snippet, "
+"your theme's functions.php, or a plugin. PHP cannot declare the same "
+"function or class twice, so activating this snippet would end in a fatal "
+"error."
+msgstr ""
+"Etwas auf dieser Website deklariert diesen Namen bereits: ein anderes "
+"aktives Snippet, die functions.php des Themes oder ein Plugin. PHP kann "
+"dieselbe Funktion oder Klasse nicht zweimal deklarieren, das Aktivieren "
+"dieses Snippets würde also mit einem schwerwiegenden Fehler enden."
+
+#: app/Services/SnippetErrors.php:174
+msgid ""
+"Give it a name nobody else is likely to use (prefix it, for example "
+"my_site_), or guard the declaration so it only happens once:"
+msgstr ""
+"Einen Namen wählen, den sonst kaum jemand benutzt (mit Präfix, zum Beispiel "
+"my_site_), oder die Deklaration so absichern, dass sie nur einmal "
+"stattfindet:"
+
+#: app/Services/SnippetErrors.php:200
+msgid ""
+"FluentSnippets runs every PHP snippet once before saving it, so that broken "
+"code can never reach your site. This one did not survive that run."
+msgstr ""
+"FluentSnippets führt jedes PHP-Snippet vor dem Speichern einmal aus, damit "
+"fehlerhafter Code nie auf die Website gelangt. Dieses hat den Probelauf "
+"nicht überstanden."
+
+#: app/Services/SnippetErrors.php:204
+msgid "The snippet calls something that is not available yet"
+msgstr "Das Snippet ruft etwas auf, das noch nicht verfügbar ist"
+
+#. translators: %s: PHP function name
+#: app/Services/SnippetErrors.php:207
+#, php-format
+msgid ""
+"Usually %s does exist, but the plugin or theme that defines it loads after "
+"the snippet is checked."
+msgstr ""
+"Meist gibt es %s durchaus, aber das Plugin oder Theme, das es definiert, "
+"wird erst nach der Prüfung des Snippets geladen."
+
+#: app/Services/SnippetErrors.php:210
+msgid ""
+"Run your code on a hook instead of at the top level, so it fires once "
+"WordPress has finished loading:"
+msgstr ""
+"Den Code in einem Hook ausführen statt auf oberster Ebene, damit er erst "
+"läuft, wenn WordPress fertig geladen ist:"
+
+#: app/Services/SnippetErrors.php:219
+msgid "The snippet uses a class that is not loaded yet"
+msgstr "Das Snippet verwendet eine Klasse, die noch nicht geladen ist"
+
+#. translators: %s: PHP class name
+#: app/Services/SnippetErrors.php:222
+#, php-format
+msgid ""
+"The class %s is normally provided by a plugin that loads after the snippet "
+"is checked."
+msgstr ""
+"Die Klasse %s stammt normalerweise aus einem Plugin, das erst nach der "
+"Prüfung des Snippets geladen wird."
+
+#: app/Services/SnippetErrors.php:225
+msgid ""
+"Move the code onto a hook, and check the class is really there before using "
+"it:"
+msgstr ""
+"Den Code in einen Hook verlegen und vor der Verwendung prüfen, ob die Klasse"
+" wirklich vorhanden ist:"
+
+#: app/Services/SnippetErrors.php:233
+msgid "The snippet failed when it was test-run"
+msgstr "Das Snippet ist beim Probelauf gescheitert"
+
+#: app/Services/SnippetErrors.php:235
+msgid ""
+"Fix the reported error. If the code is only meant to run later (on a page "
+"load, an order, a form submission), put it on a hook rather than at the top "
+"level of the snippet:"
+msgstr ""
+"Den gemeldeten Fehler beheben. Soll der Code erst später laufen (bei einem "
+"Seitenaufruf, einer Bestellung, einem abgeschickten Formular), gehört er in "
+"einen Hook statt auf die oberste Ebene des Snippets:"
+
+#: app/Services/SnippetErrors.php:250
+msgid "This snippet prints output while it loads"
+msgstr "Das Snippet gibt beim Laden etwas aus"
+
+#: app/Services/SnippetErrors.php:251
+msgid ""
+"PHP snippets are loaded on every request, before the page has decided what "
+"to send. Anything echoed at that point lands at the very top of the site and"
+" breaks headers, redirects and REST responses, so FluentSnippets refuses to "
+"save it."
+msgstr ""
+"PHP-Snippets werden bei jeder Anfrage geladen, bevor feststeht, was die "
+"Seite sendet. Was zu diesem Zeitpunkt ausgegeben wird, landet ganz oben auf "
+"der Website und stört Header, Weiterleitungen und REST-Antworten. Deshalb "
+"speichert FluentSnippets das Snippet nicht."
+
+#: app/Services/SnippetErrors.php:252
+msgid ""
+"Print inside a hook or a shortcode instead of at the top level, or change "
+"the snippet type to PHP Content, which is built for producing HTML. Also "
+"check for stray text or a blank line outside the PHP code."
+msgstr ""
+"Ausgaben in einen Hook oder Shortcode verlegen statt auf die oberste Ebene, "
+"oder den Snippet-Typ auf „PHP-Inhalt“ umstellen, der für HTML-Ausgabe "
+"gedacht ist. Außerdem auf verirrten Text oder eine Leerzeile außerhalb des "
+"PHP-Codes achten."
+
+#: app/Services/SnippetErrors.php:273
+msgid "This snippet returns a value at the top level"
+msgstr "Das Snippet gibt auf oberster Ebene einen Wert zurück"
+
+#: app/Services/SnippetErrors.php:274
+msgid ""
+"A return statement outside of any function ends the snippet right there, so "
+"anything written below it never runs, and the returned value has nowhere to "
+"go."
+msgstr ""
+"Ein return außerhalb jeder Funktion beendet das Snippet an dieser Stelle. "
+"Alles darunter läuft nie, und der zurückgegebene Wert verpufft."
+
+#: app/Services/SnippetErrors.php:275
+msgid ""
+"Move the return inside the function or hook callback it belongs to. If you "
+"meant to stop early, do that inside a hook callback instead."
+msgstr ""
+"Das return in die Funktion oder den Hook-Callback verschieben, zu dem es "
+"gehört. Soll das Snippet vorzeitig enden, das ebenfalls in einem Hook-"
+"Callback tun."
+
+#: app/Services/SnippetErrors.php:294
+msgid "The snippet could not be written to disk"
+msgstr "Das Snippet konnte nicht auf die Festplatte geschrieben werden"
+
+#. translators: %s: absolute path of the storage directory
+#: app/Services/SnippetErrors.php:297
+#, php-format
+msgid ""
+"FluentSnippets keeps each snippet as a PHP file inside %s. The web server "
+"was not allowed to write there, so nothing was saved. The previous version "
+"of this snippet is still live."
+msgstr ""
+"FluentSnippets legt jedes Snippet als PHP-Datei in %s ab. Der Webserver "
+"durfte dort nicht schreiben, deshalb wurde nichts gespeichert. Die vorige "
+"Fassung des Snippets ist weiter aktiv."
+
+#: app/Services/SnippetErrors.php:300
+msgid ""
+"Check that the folder exists and is writable by the user PHP runs as "
+"(folders 755, files 644 is the usual setup). A read-only filesystem, a "
+"container without a writable wp-content, or a security plugin that locks "
+"file changes will also cause this."
+msgstr ""
+"Prüfen, ob der Ordner existiert und für den Benutzer beschreibbar ist, unter"
+" dem PHP läuft (üblich sind 755 für Ordner und 644 für Dateien). Auch ein "
+"schreibgeschütztes Dateisystem, ein Container ohne beschreibbares wp-content"
+" oder ein Sicherheits-Plugin, das Dateiänderungen sperrt, führen dazu."
+
+#: app/Services/SnippetErrors.php:312
+msgid "This snippet no longer exists"
+msgstr "Dieses Snippet gibt es nicht mehr"
+
+#. translators: %s: snippet file name
+#: app/Services/SnippetErrors.php:315
+#, php-format
+msgid ""
+"The file %s is not in the snippet storage directory. It was most likely "
+"deleted in another browser tab, removed directly over FTP, or lost during a "
+"migration."
+msgstr ""
+"Die Datei %s liegt nicht im Snippet-Verzeichnis. Wahrscheinlich wurde sie in"
+" einem anderen Browser-Tab gelöscht, direkt per FTP entfernt oder ging bei "
+"einem Umzug verloren."
+
+#: app/Services/SnippetErrors.php:318
+msgid ""
+"Copy your code somewhere safe, go back to the snippet list and create it "
+"again."
+msgstr ""
+"Den Code an einem sicheren Ort ablegen, zur Snippet-Liste zurückgehen und "
+"das Snippet neu anlegen."
+
+#: app/Services/TeamPlugins.php:124
+msgid "You do not have permission to install plugins on this site."
+msgstr ""
+"Für das Installieren von Plugins auf dieser Website fehlt die Berechtigung."
+
+#: app/Services/TeamPlugins.php:130 app/Services/TeamPlugins.php:205
+msgid "That plugin is not one of the plugins this screen offers."
+msgstr "Dieses Plugin gehört nicht zu denen, die hier angeboten werden."
+
+#: app/Services/TeamPlugins.php:145
+msgid ""
+"WordPress could not get write access to the plugins directory. This usually "
+"means the site needs FTP credentials to install anything, in which case "
+"installing from the Plugins screen will work and this button will not."
+msgstr ""
+"WordPress bekam keinen Schreibzugriff auf das Plugin-Verzeichnis. Meist "
+"braucht die Website dann FTP-Zugangsdaten, um überhaupt etwas zu "
+"installieren. In dem Fall klappt die Installation über die Plugin-Seite, "
+"über diese Schaltfläche nicht."
+
+#. translators: %s: the error reported by WordPress.org.
+#: app/Services/TeamPlugins.php:156
+#, php-format
+msgid "WordPress.org could not be reached to fetch the plugin: %s"
+msgstr ""
+"WordPress.org war nicht erreichbar, das Plugin konnte nicht geholt werden: "
+"%s"
+
+#: app/Services/TeamPlugins.php:162
+msgid "WordPress.org did not offer a download for that plugin."
+msgstr "WordPress.org hat für dieses Plugin keinen Download angeboten."
+
+#: app/Services/TeamPlugins.php:188
+msgid ""
+"The plugin downloaded but WordPress cannot find it on disk afterwards. Check"
+" the Plugins screen before trying again."
+msgstr ""
+"Das Plugin wurde heruntergeladen, WordPress findet es danach aber nicht auf "
+"der Festplatte. Vor einem neuen Versuch die Plugin-Seite ansehen."
+
+#: app/Services/TeamPlugins.php:213
+msgid "That plugin is not installed on this site."
+msgstr "Dieses Plugin ist auf dieser Website nicht installiert."
+
+#: app/Services/TeamPlugins.php:222
+msgid "You do not have permission to activate plugins on this site."
+msgstr ""
+"Für das Aktivieren von Plugins auf dieser Website fehlt die Berechtigung."
+
+#: app/Services/TeamPlugins.php:360
+msgid ""
+"Contact forms, surveys and quizzes, built by dragging fields into place."
+msgstr ""
+"Kontaktformulare, Umfragen und Quiz, per Drag-and-drop zusammengestellt."
+
+#: app/Services/TeamPlugins.php:365
+msgid ""
+"Sends your site's mail through a real mail service, so it stops arriving in "
+"spam folders."
+msgstr ""
+"Verschickt die E-Mails der Website über einen echten Mail-Dienst, damit sie "
+"nicht mehr im Spam landen."
+
+#: app/Services/TeamPlugins.php:370
+msgid ""
+"Email lists, campaigns and automations, kept on your own site rather than "
+"rented."
+msgstr ""
+"E-Mail-Listen, Kampagnen und Automationen, auf der eigenen Website statt "
+"gemietet."
+
+#: app/Services/TeamPlugins.php:375
+msgid "Data tables you edit like a spreadsheet and place with a shortcode."
+msgstr ""
+"Datentabellen, die sich wie eine Tabellenkalkulation bearbeiten und per "
+"Shortcode einbinden lassen."
+
+#: app/Services/TeamPlugins.php:380
+msgid ""
+"Appointment scheduling that syncs both ways with Google, Outlook and Apple "
+"calendars."
+msgstr ""
+"Terminbuchung mit Abgleich in beide Richtungen mit Google-, Outlook- und "
+"Apple-Kalendern."
+
+#: app/Services/TeamPlugins.php:385
+msgid ""
+"A ticketed helpdesk that runs inside WordPress instead of a third-party "
+"inbox."
+msgstr ""
+"Ein Helpdesk mit Tickets, der in WordPress läuft statt im Postfach eines "
+"Fremdanbieters."
+
+#: app/Services/TeamPlugins.php:390
+msgid ""
+"Two-factor sign-in, magic links, and a record of every login attempt on the "
+"site."
+msgstr ""
+"Zwei-Faktor-Anmeldung, Magic Links und ein Protokoll aller Anmeldeversuche "
+"auf der Website."
+
+#: app/Services/TeamPlugins.php:395
+msgid ""
+"Spaces, courses and member feeds - a social network on your own domain."
+msgstr ""
+"Foren, Kurse und Mitglieder-Feeds, ein soziales Netzwerk auf der eigenen "
+"Domain."
+
+#: app/Services/TeamPlugins.php:400
+msgid "A shop: products, carts, subscriptions and checkout."
+msgstr "Ein Shop: Produkte, Warenkörbe, Abonnements und Kasse."
+
+#: app/Services/TeamPlugins.php:405
+msgid "Kanban boards and task lists for the people who run the site."
+msgstr ""
+"Kanban-Boards und Aufgabenlisten für die Leute, die die Website betreiben."
+
+#: app/Services/TeamPlugins.php:410
+msgid "Payment and donation forms, one-off or recurring."
+msgstr "Zahlungs- und Spendenformulare, einmalig oder wiederkehrend."
+
+#: app/Services/Trans.php:11
+msgid "(opens in a new tab)"
+msgstr "(öffnet in neuem Tab)"
+
+#: app/Services/Trans.php:12
+msgid ""
+"* As you have conditional logics enabled the code will run on init hook."
+msgstr "* Da Bedingungen aktiv sind, läuft der Code im Hook init."
+
+#: app/Services/Trans.php:13
+msgid "A fatal cannot lock you out"
+msgstr "Ein schwerwiegender Fehler sperrt niemanden aus"
+
+#: app/Services/Trans.php:14
+msgid ""
+"A line too long for the editor folds onto the next one instead of scrolling "
+"sideways."
+msgstr ""
+"Eine Zeile, die zu lang für den Editor ist, bricht in die nächste um, statt "
+"seitlich zu scrollen."
+
+#: app/Services/Trans.php:15
+msgid ""
+"A snippet runs from the moment you save it. Turn this off and every new "
+"snippet is saved as a draft instead, so nothing runs until you say so."
+msgstr ""
+"Ein Snippet läuft ab dem Moment, in dem es gespeichert wird. Ist diese "
+"Option aus, wird jedes neue Snippet stattdessen als Entwurf gespeichert und "
+"läuft erst nach der Freigabe."
+
+#: app/Services/Trans.php:16
+msgid "About"
+msgstr "Info"
+
+#: app/Services/Trans.php:17
+msgid "About block editor styles"
+msgstr "Hilfe zu Stilen im Block-Editor"
+
+#: app/Services/Trans.php:18
+msgid "About loading as a file"
+msgstr "Hilfe zum Laden als Datei"
+
+#: app/Services/Trans.php:19
+msgid "About priority"
+msgstr "Hilfe zur Priorität"
+
+#: app/Services/Trans.php:20
+msgid "About snippet groups"
+msgstr "Hilfe zu Snippet-Gruppen"
+
+#: app/Services/Trans.php:21
+msgid "About tags"
+msgstr "Hilfe zu Tags"
+
+#: app/Services/Trans.php:22
+msgid "Action"
+msgstr "Aktion"
+
+#: app/Services/Trans.php:23
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: app/Services/Trans.php:24
+#, php-format
+msgid "Activate %s"
+msgstr "%s aktivieren"
+
+#: app/Services/Trans.php:25
+msgid "Activate it on the Plugins screen"
+msgstr "Auf der Plugin-Seite aktivieren"
+
+#: app/Services/Trans.php:26
+msgid "Activating"
+msgstr "Wird aktiviert"
+
+#: app/Services/Trans.php:27
+msgid "Active"
+msgstr "Aktiv"
+
+#: app/Services/Trans.php:28
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: app/Services/Trans.php:29
+msgid "Add a new filter to run your snippet only under specific conditions."
+msgstr ""
+"Einen neuen Filter hinzufügen, damit das Snippet nur unter bestimmten "
+"Bedingungen läuft."
+
+#: app/Services/Trans.php:30
+msgid "Add another condition group"
+msgstr "Weitere Bedingungsgruppe hinzufügen"
+
+#: app/Services/Trans.php:31
+msgid "Admin only"
+msgstr "Nur im Adminbereich"
+
+#: app/Services/Trans.php:32
+msgid "Advanced Conditional Logic"
+msgstr "Erweiterte Bedingungen"
+
+#: app/Services/Trans.php:33
+msgid "After post content"
+msgstr "Nach dem Beitragsinhalt"
+
+#: app/Services/Trans.php:34
+msgid "All Snippets"
+msgstr "Alle Snippets"
+
+#: app/Services/Trans.php:35
+msgid "All snippets have been published successfully."
+msgstr "Alle Snippets wurden veröffentlicht."
+
+#: app/Services/Trans.php:36
+msgid "All tags"
+msgstr "Alle Tags"
+
+#: app/Services/Trans.php:37
+msgid "And"
+msgstr "Und"
+
+#: app/Services/Trans.php:38
+msgid "Apply"
+msgstr "Anwenden"
+
+#: app/Services/Trans.php:39
+msgid "Are you sure to delete this?"
+msgstr "Wirklich löschen?"
+
+#: app/Services/Trans.php:40
+msgid "Ascending"
+msgstr "Aufsteigend"
+
+#: app/Services/Trans.php:41
+msgid ""
+"Ask your host to allow requests to wp-admin/admin-ajax.php from your admin "
+"account, or to disable the ModSecurity rule that is firing. To confirm this "
+"is the cause, try saving a snippet containing a single harmless line. If "
+"that works, it is the content of your code that is being blocked, not the "
+"plugin."
+msgstr ""
+"Den Hoster bitten, Anfragen des Admin-Kontos an wp-admin/admin-ajax.php "
+"zuzulassen oder die auslösende ModSecurity-Regel abzuschalten. Zur Probe ein"
+" Snippet mit einer einzigen harmlosen Zeile speichern. Klappt das, wird der "
+"Inhalt des Codes blockiert, nicht das Plugin."
+
+#: app/Services/Trans.php:42
+msgid ""
+"Ask your host to raise post_max_size, or split the snippet into two smaller "
+"ones."
+msgstr ""
+"Den Hoster bitten, post_max_size zu erhöhen, oder das Snippet in zwei "
+"kleinere aufteilen."
+
+#: app/Services/Trans.php:43
+msgid "Backend Head"
+msgstr "Backend: Kopfbereich"
+
+#: app/Services/Trans.php:44
+msgid "Backend footer"
+msgstr "Backend: Fußbereich"
+
+#: app/Services/Trans.php:45
+msgid "Before post content"
+msgstr "Vor dem Beitragsinhalt"
+
+#: app/Services/Trans.php:46
+msgid "Block Editor Styles?"
+msgstr "Stile im Block-Editor?"
+
+#: app/Services/Trans.php:47
+msgid "Built with"
+msgstr "Gebaut mit"
+
+#: app/Services/Trans.php:48
+msgid "CSS code editor"
+msgstr "CSS-Code-Editor"
+
+#: app/Services/Trans.php:49
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: app/Services/Trans.php:50
+msgid ""
+"Check your PHP error log, or ask your host for the last entry in it. If the "
+"error mentions memory, raising the PHP memory limit usually resolves it."
+msgstr ""
+"Im PHP-Fehlerprotokoll nachsehen oder den Hoster nach dem letzten Eintrag "
+"fragen. Ist dort von Speicher die Rede, hilft meist ein höheres PHP-"
+"Speicherlimit."
+
+#: app/Services/Trans.php:51
+msgid ""
+"Check your internet connection and try again. If it keeps failing, an ad "
+"blocker, a VPN or a proxy in front of the site is a likely cause."
+msgstr ""
+"Die Internetverbindung prüfen und es erneut versuchen. Scheitert es weiter, "
+"sind ein Werbeblocker, ein VPN oder ein Proxy vor der Website "
+"wahrscheinliche Ursachen."
+
+#: app/Services/Trans.php:52
+msgid "Cmd / Ctrl + S to save"
+msgstr "Cmd / Strg + S zum Speichern"
+
+#: app/Services/Trans.php:53
+msgid "Code"
+msgstr "Code"
+
+#: app/Services/Trans.php:54
+msgid "Code Snippets"
+msgstr "Code-Snippets"
+
+#: app/Services/Trans.php:55
+msgid "Coming soon"
+msgstr "Demnächst"
+
+#: app/Services/Trans.php:56
+msgid "Community"
+msgstr "Community"
+
+#: app/Services/Trans.php:57
+msgid "Condition Value"
+msgstr "Bedingungswert"
+
+#: app/Services/Trans.php:58
+msgid "Contributors"
+msgstr "Mitwirkende"
+
+#: app/Services/Trans.php:59
+msgid "Copy"
+msgstr "Kopieren"
+
+#: app/Services/Trans.php:60
+msgid "Copy shortcode"
+msgstr "Shortcode kopieren"
+
+#: app/Services/Trans.php:61
+msgid "Create New"
+msgstr "Neu erstellen"
+
+#: app/Services/Trans.php:62
+msgid "Create Snippet"
+msgstr "Snippet erstellen"
+
+#: app/Services/Trans.php:63
+msgid "Create Your First Snippet"
+msgstr "Das erste Snippet erstellen"
+
+#: app/Services/Trans.php:64
+msgid "Create new group"
+msgstr "Neue Gruppe anlegen"
+
+#: app/Services/Trans.php:65
+msgid "Create new snippet"
+msgstr "Neues Snippet erstellen"
+
+#: app/Services/Trans.php:66
+msgid "Create new tag"
+msgstr "Neues Tag anlegen"
+
+#: app/Services/Trans.php:67
+msgid "Created At"
+msgstr "Erstellt am"
+
+#: app/Services/Trans.php:68
+msgid "Dark"
+msgstr "Dunkel"
+
+#: app/Services/Trans.php:69
+msgid "Days"
+msgstr "Tage"
+
+#: app/Services/Trans.php:70
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+#: app/Services/Trans.php:71
+msgid "Deactivate a snippet that causes a fatal error"
+msgstr "Snippet deaktivieren, wenn es einen schwerwiegenden Fehler auslöst"
+
+#: app/Services/Trans.php:72
+msgid "Delete"
+msgstr "Löschen"
+
+#: app/Services/Trans.php:73
+#, php-format
+msgid "Delete %s"
+msgstr "%s löschen"
+
+#: app/Services/Trans.php:74
+msgid "Delete every snippet when the plugin is uninstalled"
+msgstr "Beim Deinstallieren des Plugins alle Snippets löschen"
+
+#: app/Services/Trans.php:75
+msgid "Descending"
+msgstr "Absteigend"
+
+#: app/Services/Trans.php:76
+msgid "Description"
+msgstr "Beschreibung"
+
+#: app/Services/Trans.php:77
+msgid "Disable Safe Mode"
+msgstr "Abgesicherten Modus ausschalten"
+
+#: app/Services/Trans.php:78
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: app/Services/Trans.php:79
+msgid "Does not include (in any)"
+msgstr "Enthält keines davon"
+
+#: app/Services/Trans.php:80
+msgid "Done"
+msgstr "Fertig"
+
+#: app/Services/Trans.php:81
+msgid "Download"
+msgstr "Herunterladen"
+
+#: app/Services/Trans.php:82
+#, php-format
+msgid "Download %s"
+msgstr "%s herunterladen"
+
+#: app/Services/Trans.php:83
+msgid "Drop JSON file here or"
+msgstr "JSON-Datei hierher ziehen oder"
+
+#: app/Services/Trans.php:84
+msgid ""
+"Each one is written to wp-content/fluent-snippets and loaded from there. "
+"Nothing is fetched from the options table on the way in, so a site with two "
+"hundred snippets costs the same on a page that runs none of them as a site "
+"with two."
+msgstr ""
+"Jedes Snippet wird nach wp-content/fluent-snippets geschrieben und von dort "
+"geladen. Dafür wird nichts aus der Optionstabelle geholt. Eine Website mit "
+"zweihundert Snippets kostet deshalb auf einer Seite, auf der keines davon "
+"läuft, genauso viel wie eine mit zwei."
+
+#: app/Services/Trans.php:85
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: app/Services/Trans.php:86
+#, php-format
+msgid "Edit %s"
+msgstr "%s bearbeiten"
+
+#: app/Services/Trans.php:87
+msgid "Edit snippet"
+msgstr "Snippet bearbeiten"
+
+#: app/Services/Trans.php:88
+msgid "Empty"
+msgstr "Leer"
+
+#: app/Services/Trans.php:89
+msgid "Enable Conditional Logic"
+msgstr "Bedingungen aktivieren"
+
+#: app/Services/Trans.php:90
+msgid "Enable Load as Stylesheet File"
+msgstr "Als Stylesheet-Datei laden"
+
+#: app/Services/Trans.php:91
+msgid ""
+"Enable logic to add rules that limit where your snippet runs. Use multiple "
+"groups for different sets of rules."
+msgstr ""
+"Aktivieren, um mit Regeln festzulegen, wo das Snippet läuft. Mehrere Gruppen"
+" stehen für verschiedene Regelsätze."
+
+#: app/Services/Trans.php:92
+msgid "Enter a name"
+msgstr "Namen eingeben"
+
+#: app/Services/Trans.php:93
+msgid "Error"
+msgstr "Fehler"
+
+#: app/Services/Trans.php:94
+msgid "Error Message:"
+msgstr "Fehlermeldung:"
+
+#: app/Services/Trans.php:95
+msgid "Error:"
+msgstr "Fehler:"
+
+#: app/Services/Trans.php:96
+msgid "Everywhere"
+msgstr "Überall"
+
+#: app/Services/Trans.php:97
+msgid "Export Select Snippets"
+msgstr "Ausgewählte Snippets exportieren"
+
+#: app/Services/Trans.php:98
+msgid "Export Snippets"
+msgstr "Snippets exportieren"
+
+#: app/Services/Trans.php:99
+msgid "Export/Import"
+msgstr "Export/Import"
+
+#: app/Services/Trans.php:100
+msgid "Failed to copy shortcode"
+msgstr "Shortcode konnte nicht kopiert werden"
+
+#: app/Services/Trans.php:101
+msgid "Failed to copy the URL."
+msgstr "Die URL konnte nicht kopiert werden."
+
+#: app/Services/Trans.php:102
+msgid "Filter by snippet type"
+msgstr "Nach Snippet-Typ filtern"
+
+#: app/Services/Trans.php:103
+msgid "Filter by tag"
+msgstr "Nach Tag filtern"
+
+#: app/Services/Trans.php:105
+msgid ""
+"FluentSnippets expected a normal response and received something else, so it"
+" cannot tell whether the snippet was saved."
+msgstr ""
+"FluentSnippets hat eine normale Antwort erwartet und etwas anderes erhalten."
+" Ob das Snippet gespeichert wurde, lässt sich deshalb nicht sagen."
+
+#: app/Services/Trans.php:106
+msgid ""
+"FluentSnippets is built by WPManageNinja, who also make these. All of them "
+"are free on WordPress.org, and install from here without leaving the page."
+msgstr ""
+"FluentSnippets stammt von WPManageNinja, die auch diese Plugins entwickeln. "
+"Alle sind kostenlos auf WordPress.org und lassen sich von hier aus "
+"installieren, ohne die Seite zu verlassen."
+
+#: app/Services/Trans.php:107
+msgid "FluentSnippets is built in the open by the people below."
+msgstr "FluentSnippets wird öffentlich entwickelt, von den Menschen unten."
+
+#: app/Services/Trans.php:108
+msgid ""
+"Free, and open source under the GPL. There is no pro version, no paid add-on"
+" and no upgrade prompt - every feature is in the copy you already have."
+msgstr ""
+"Kostenlos und quelloffen unter der GPL. Es gibt keine Pro-Version, kein "
+"kostenpflichtiges Add-on und keine Upgrade-Hinweise: Jede Funktion steckt "
+"schon in der installierten Fassung."
+
+#: app/Services/Trans.php:109
+msgid "From the same team"
+msgstr "Vom selben Team"
+
+#: app/Services/Trans.php:110
+msgid "Frontend body open"
+msgstr "Frontend: nach dem öffnenden body-Tag"
+
+#: app/Services/Trans.php:111
+msgid "Frontend footer"
+msgstr "Frontend: Fußbereich"
+
+#: app/Services/Trans.php:112
+msgid "Frontend head"
+msgstr "Frontend: Kopfbereich"
+
+#: app/Services/Trans.php:113
+msgid "Frontend only"
+msgstr "Nur im Frontend"
+
+#: app/Services/Trans.php:114
+msgid "Generate a new Safe Mode URL?"
+msgstr "Neue URL für den abgesicherten Modus erzeugen?"
+
+#: app/Services/Trans.php:115
+msgid "Getting help"
+msgstr "Hilfe"
+
+#: app/Services/Trans.php:116
+msgid "Greater Than"
+msgstr "Größer als"
+
+#: app/Services/Trans.php:117
+msgid "Group"
+msgstr "Gruppe"
+
+#: app/Services/Trans.php:118
+msgid "Group your snippets to keep them organized and easy to find."
+msgstr ""
+"Snippets in Gruppen ordnen, damit sie übersichtlich und leicht zu finden "
+"sind."
+
+#: app/Services/Trans.php:119
+msgid "Grouped"
+msgstr "Gruppiert"
+
+#: app/Services/Trans.php:120
+msgid "Hide Errors"
+msgstr "Fehler ausblenden"
+
+#: app/Services/Trans.php:121
+msgid "Hide Inactives"
+msgstr "Inaktive ausblenden"
+
+#: app/Services/Trans.php:122
+msgid "How it works"
+msgstr "So funktioniert es"
+
+#: app/Services/Trans.php:123
+msgid "How to fix it"
+msgstr "So lässt es sich beheben"
+
+#: app/Services/Trans.php:124
+msgid ""
+"If a snippet throws one, it is switched off on the spot and the screen tells"
+" you which snippet, which line and what was thrown. If you are already "
+"locked out, the Safe Mode URL on the Settings screen turns every snippet off"
+" without needing the admin."
+msgstr ""
+"Löst ein Snippet einen solchen Fehler aus, wird es sofort abgeschaltet, und "
+"die Oberfläche zeigt, welches Snippet, welche Zeile und welcher Fehler. Wer "
+"schon ausgesperrt ist, schaltet mit der URL für den abgesicherten Modus aus "
+"den Einstellungen alle Snippets ab, ganz ohne Adminbereich."
+
+#: app/Services/Trans.php:125
+msgid ""
+"If you would rather not rely on a URL, this does the same thing and cannot "
+"be triggered by anyone who has not got file access:"
+msgstr ""
+"Wer sich nicht auf eine URL verlassen will: Das hier bewirkt dasselbe und "
+"lässt sich nur mit Zugriff auf die Dateien auslösen:"
+
+#: app/Services/Trans.php:126
+msgid "Import / Export Snippets"
+msgstr "Snippets importieren / exportieren"
+
+#: app/Services/Trans.php:127
+msgid "Import Snippets"
+msgstr "Snippets importieren"
+
+#: app/Services/Trans.php:128
+msgid "Imported Snippets"
+msgstr "Importierte Snippets"
+
+#: app/Services/Trans.php:129
+msgid "Inactive snippets hidden by the Hide Inactives filter"
+msgstr ""
+"Inaktive Snippets, ausgeblendet durch den Filter „Inaktive ausblenden“"
+
+#: app/Services/Trans.php:130
+msgid "Install"
+msgstr "Installieren"
+
+#: app/Services/Trans.php:131
+msgid "Install & Activate"
+msgstr "Installieren und aktivieren"
+
+#: app/Services/Trans.php:132
+msgid "Installed"
+msgstr "Installiert"
+
+#: app/Services/Trans.php:133
+msgid "Installing"
+msgstr "Wird installiert"
+
+#: app/Services/Trans.php:134
+msgid "Internal Description for this snippet"
+msgstr "Interne Beschreibung des Snippets"
+
+#: app/Services/Trans.php:135
+msgid ""
+"Issues a new URL and stops the current one working. Do this if it has been "
+"somewhere it should not have been - a shared document, a support thread, a "
+"screenshot."
+msgstr ""
+"Erzeugt eine neue URL und legt die bisherige still. Sinnvoll, wenn sie "
+"irgendwo aufgetaucht ist, wo sie nicht hingehört: in einem geteilten "
+"Dokument, einem Support-Thread, einem Screenshot."
+
+#: app/Services/Trans.php:136
+msgid "It keeps running without the plugin"
+msgstr "Der Code läuft auch ohne das Plugin weiter"
+
+#: app/Services/Trans.php:137
+msgid ""
+"It looks like you enabled Safe Mode via a URL, which means your snippets are"
+" not executing. Review your code, and once you are ready, disable Safe Mode "
+"again."
+msgstr ""
+"Der abgesicherte Modus wurde offenbar über eine URL eingeschaltet, die "
+"Snippets laufen also nicht. Den Code prüfen und den abgesicherten Modus "
+"danach wieder ausschalten."
+
+#: app/Services/Trans.php:138
+msgid ""
+"It looks like you enabled Safe Mode via a filter hook, which means your "
+"snippets are not executing. The filter hook used to enable Safe Mode is:"
+msgstr ""
+"Der abgesicherte Modus wurde offenbar über einen Filter-Hook eingeschaltet, "
+"die Snippets laufen also nicht. Eingeschaltet hat ihn dieser Filter-Hook:"
+
+#: app/Services/Trans.php:139
+msgid ""
+"It seems like you are using some hooks that may not work correctly, because "
+"this code will run after the mentioned hooks:"
+msgstr ""
+"Einige der verwendeten Hooks greifen möglicherweise nicht, weil dieser Code "
+"erst nach ihnen läuft:"
+
+#: app/Services/Trans.php:140
+msgid "JavaScript code editor"
+msgstr "JavaScript-Code-Editor"
+
+#: app/Services/Trans.php:141
+msgid "Leave a review"
+msgstr "Bewertung abgeben"
+
+#: app/Services/Trans.php:142
+msgid "Less Than"
+msgstr "Kleiner als"
+
+#: app/Services/Trans.php:143
+msgid "Light"
+msgstr "Hell"
+
+#: app/Services/Trans.php:144
+msgid "Line"
+msgstr "Zeile"
+
+#: app/Services/Trans.php:145
+msgid "List layout"
+msgstr "Listenansicht"
+
+#: app/Services/Trans.php:146
+msgid "Load as Stylesheet File"
+msgstr "Als Stylesheet-Datei laden"
+
+#: app/Services/Trans.php:147
+msgid "Load this CSS in Block Editor (Gutenberg)"
+msgstr "Dieses CSS im Block-Editor (Gutenberg) laden"
+
+#: app/Services/Trans.php:148
+msgid "Makes your snippets easier to filter."
+msgstr "Macht Snippets leichter filterbar."
+
+#: app/Services/Trans.php:149
+msgid "Menu"
+msgstr "Menü"
+
+#: app/Services/Trans.php:150
+msgid "Name"
+msgstr "Name"
+
+#: app/Services/Trans.php:151
+msgid "Name cannot be empty"
+msgstr "Der Name darf nicht leer sein"
+
+#: app/Services/Trans.php:152
+msgid "New Snippet"
+msgstr "Neues Snippet"
+
+#: app/Services/Trans.php:153
+msgid "New tag name"
+msgstr "Name des neuen Tags"
+
+#: app/Services/Trans.php:154
+msgid "Not Empty"
+msgstr "Nicht leer"
+
+#: app/Services/Trans.php:155
+msgid "OR"
+msgstr "ODER"
+
+#: app/Services/Trans.php:156
+msgid "Off"
+msgstr "Aus"
+
+#: app/Services/Trans.php:157
+msgid "On"
+msgstr "An"
+
+#: app/Services/Trans.php:158
+msgid "Only import snippets from sources you trust."
+msgstr "Nur Snippets aus vertrauenswürdigen Quellen importieren."
+
+#: app/Services/Trans.php:159
+#, php-format
+msgid "Operator for the %s condition"
+msgstr "Operator für die Bedingung „%s“"
+
+#: app/Services/Trans.php:160
+msgid "Or turn it on from wp-config.php"
+msgstr "Oder in der wp-config.php einschalten"
+
+#: app/Services/Trans.php:161
+msgid ""
+"Other people's open source, without which this would be a much smaller "
+"plugin:"
+msgstr "Quelloffene Arbeit anderer, ohne die dieses Plugin viel kleiner wäre:"
+
+#: app/Services/Trans.php:162
+msgid "PAUSED"
+msgstr "PAUSIERT"
+
+#: app/Services/Trans.php:163
+msgid "PHP code editor"
+msgstr "PHP-Code-Editor"
+
+#: app/Services/Trans.php:164
+msgid ""
+"PHP stopped while handling the save, so the snippet was not stored. The "
+"details are in your server error log, not in the browser."
+msgstr ""
+"PHP ist beim Speichern abgebrochen, das Snippet wurde nicht gespeichert. Die"
+" Einzelheiten stehen im Fehlerprotokoll des Servers, nicht im Browser."
+
+#: app/Services/Trans.php:165
+msgid "Paused"
+msgstr "Pausiert"
+
+#: app/Services/Trans.php:166
+msgid "Please enter a keyword"
+msgstr "Bitte einen Suchbegriff eingeben"
+
+#: app/Services/Trans.php:167
+msgid "Please enter a name for the snippet"
+msgstr "Bitte einen Namen für das Snippet eingeben"
+
+#: app/Services/Trans.php:168
+msgid "Please enter some code to save"
+msgstr "Bitte Code zum Speichern eingeben"
+
+#: app/Services/Trans.php:169
+msgid "Please select at least one snippet to export."
+msgstr "Bitte mindestens ein Snippet für den Export auswählen."
+
+#: app/Services/Trans.php:170
+msgid "Please select which snippets you would like to export:"
+msgstr "Bitte die Snippets für den Export auswählen:"
+
+#: app/Services/Trans.php:171
+msgid "Priority"
+msgstr "Priorität"
+
+#: app/Services/Trans.php:172
+#, php-format
+msgid "Priority %s"
+msgstr "Priorität %s"
+
+#: app/Services/Trans.php:173
+msgid "Publish"
+msgstr "Veröffentlichen"
+
+#: app/Services/Trans.php:174
+msgid "Publish All Imported Snippets"
+msgstr "Alle importierten Snippets veröffentlichen"
+
+#: app/Services/Trans.php:175
+msgid "Publish new snippets straight away"
+msgstr "Neue Snippets sofort veröffentlichen"
+
+#: app/Services/Trans.php:176
+msgid "Pull requests are welcome."
+msgstr "Pull Requests sind willkommen."
+
+#: app/Services/Trans.php:177
+msgid "Read the documentation"
+msgstr "Dokumentation lesen"
+
+#: app/Services/Trans.php:178
+msgid "Regenerate"
+msgstr "Neu erzeugen"
+
+#: app/Services/Trans.php:179
+msgid ""
+"Reload the page to see the current state of the snippet. If the response "
+"below mentions a PHP error, that is what needs fixing."
+msgstr ""
+"Die Seite neu laden, um den aktuellen Stand des Snippets zu sehen. Nennt die"
+" Antwort unten einen PHP-Fehler, muss dieser behoben werden."
+
+#: app/Services/Trans.php:180
+#, php-format
+msgid "Remove the %s condition"
+msgstr "Bedingung „%s“ entfernen"
+
+#: app/Services/Trans.php:181
+msgid "Remove this condition group"
+msgstr "Diese Bedingungsgruppe entfernen"
+
+#: app/Services/Trans.php:182
+msgid "Report a bug"
+msgstr "Fehler melden"
+
+#: app/Services/Trans.php:183
+msgid "Reset Filters"
+msgstr "Filter zurücksetzen"
+
+#: app/Services/Trans.php:184
+msgid "Runs At"
+msgstr "Ausführungsort"
+
+#: app/Services/Trans.php:185
+msgid "Safe Mode"
+msgstr "Abgesicherter Modus"
+
+#: app/Services/Trans.php:186
+msgid "Safe Mode is Enabled"
+msgstr "Der abgesicherte Modus ist eingeschaltet"
+
+#: app/Services/Trans.php:187
+msgid ""
+"Safe Mode is enabled, which means your snippets are not executing. You can "
+"disable Safe Mode by removing the following code from your wp-config.php "
+"file (or wherever it is defined):"
+msgstr ""
+"Der abgesicherte Modus ist eingeschaltet, die Snippets laufen also nicht. "
+"Ausschalten lässt er sich, indem dieser Code aus der wp-config.php (oder wo "
+"er sonst steht) entfernt wird:"
+
+#: app/Services/Trans.php:188
+msgid ""
+"Safe Mode turns every snippet off at once, without going through the admin. "
+"It is the way back in if a snippet ever locks you out of your own site - so "
+"save this URL somewhere you can reach when WordPress will not load."
+msgstr ""
+"Der abgesicherte Modus schaltet alle Snippets auf einmal ab, ohne den Umweg "
+"über den Adminbereich. Er ist der Weg zurück, falls ein Snippet einmal den "
+"Zugang zur eigenen Website versperrt. Deshalb diese URL an einem Ort "
+"ablegen, der auch dann erreichbar ist, wenn WordPress nicht lädt."
+
+#: app/Services/Trans.php:189
+msgid "Save"
+msgstr "Speichern"
+
+#: app/Services/Trans.php:190
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: app/Services/Trans.php:191
+msgid "Search"
+msgstr "Suchen"
+
+#: app/Services/Trans.php:192
+msgid "Search snippets"
+msgstr "Snippets durchsuchen"
+
+#: app/Services/Trans.php:193
+msgid "Select Operator"
+msgstr "Operator auswählen"
+
+#: app/Services/Trans.php:194
+msgid "Select Option"
+msgstr "Option auswählen"
+
+#: app/Services/Trans.php:195
+msgid "Select Snippet Group"
+msgstr "Snippet-Gruppe auswählen"
+
+#: app/Services/Trans.php:196
+msgid "Select Snippet Run Location"
+msgstr "Ausführungsort auswählen"
+
+#: app/Services/Trans.php:197
+msgid "Select Snippet Tags"
+msgstr "Snippet-Tags auswählen"
+
+#: app/Services/Trans.php:198
+msgid "Select all snippets"
+msgstr "Alle Snippets auswählen"
+
+#: app/Services/Trans.php:199
+msgid "Server error details"
+msgstr "Details zum Serverfehler"
+
+#: app/Services/Trans.php:200
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: app/Services/Trans.php:201
+msgid "Shortcode copied to clipboard"
+msgstr "Shortcode in die Zwischenablage kopiert"
+
+#: app/Services/Trans.php:202
+msgid "Show Inactive Snippets"
+msgstr "Inaktive Snippets anzeigen"
+
+#: app/Services/Trans.php:203
+msgid "Skip to main content"
+msgstr "Zum Hauptinhalt springen"
+
+#: app/Services/Trans.php:204
+msgid "Snippet Group"
+msgstr "Snippet-Gruppe"
+
+#: app/Services/Trans.php:206
+msgid "Snippet Name is required"
+msgstr "Der Snippet-Name ist erforderlich"
+
+#: app/Services/Trans.php:208
+msgid "Snippet details"
+msgstr "Snippet-Details"
+
+#: app/Services/Trans.php:209
+msgid "Snippet has been updated successfully"
+msgstr "Das Snippet wurde aktualisiert"
+
+#: app/Services/Trans.php:210
+msgid "Snippet tags"
+msgstr "Snippet-Tags"
+
+#: app/Services/Trans.php:211
+msgid "Snippets"
+msgstr "Snippets"
+
+#: app/Services/Trans.php:212
+msgid "Snippets are files"
+msgstr "Snippets sind Dateien"
+
+#: app/Services/Trans.php:213
+msgid "Something went wrong!"
+msgstr "Es ist ein Fehler aufgetreten."
+
+#: app/Services/Trans.php:214
+msgid "Something went wrong. Please check the errors."
+msgstr "Es ist ein Fehler aufgetreten. Bitte die Fehlermeldungen prüfen."
+
+#: app/Services/Trans.php:215
+msgid "Sorry, no snippets found based on your filter."
+msgstr "Zu diesem Filter gibt es keine Snippets."
+
+#: app/Services/Trans.php:216
+msgid "Sorry, this snippet could not be loaded."
+msgstr "Das Snippet konnte leider nicht geladen werden."
+
+#: app/Services/Trans.php:217
+msgid "Sort"
+msgstr "Sortieren"
+
+#: app/Services/Trans.php:218
+msgid "Sort By"
+msgstr "Sortieren nach"
+
+#: app/Services/Trans.php:219
+msgid "Standalone Mode"
+msgstr "Eigenständiger Modus"
+
+#: app/Services/Trans.php:220
+msgid ""
+"Standalone Mode writes a must-use plugin that loads your snippets directly. "
+"Deactivate FluentSnippets, or delete it, and the code you wrote carries on "
+"running. What you built is yours, not held hostage by ours."
+msgstr ""
+"Der eigenständige Modus legt ein Must-use-Plugin an, das die Snippets direkt"
+" lädt. Wird FluentSnippets deaktiviert oder gelöscht, läuft der Code weiter."
+" Was Du gebaut hast, gehört Dir und hängt nicht an unserem Plugin."
+
+#: app/Services/Trans.php:221
+msgid ""
+"Standalone Mode writes your snippets into a must-use plugin, so they keep "
+"running whether or not FluentSnippets is installed. Deactivate this plugin, "
+"or delete it, and your code carries on working."
+msgstr ""
+"Der eigenständige Modus schreibt die Snippets in ein Must-use-Plugin, damit "
+"sie weiterlaufen, ob FluentSnippets installiert ist oder nicht. Wird dieses "
+"Plugin deaktiviert oder gelöscht, läuft der Code weiter."
+
+#: app/Services/Trans.php:223
+msgid "Support forum"
+msgstr "Support-Forum"
+
+#: app/Services/Trans.php:224
+msgid "System"
+msgstr "System"
+
+#: app/Services/Trans.php:225
+msgid ""
+"Tab inserts an indent. To move on to the next control, press Escape and then"
+" Tab."
+msgstr ""
+"Tab rückt ein. Zum nächsten Bedienelement geht es mit Escape und danach Tab."
+
+#: app/Services/Trans.php:226
+msgid "Table"
+msgstr "Tabelle"
+
+#: app/Services/Trans.php:227
+msgid "Tags"
+msgstr "Tags"
+
+#: app/Services/Trans.php:228
+msgid "Thanks for installing FluentSnippets"
+msgstr "Danke für die Installation von FluentSnippets"
+
+#: app/Services/Trans.php:229
+msgid "The High-Performance Code Snippets Plugin for WordPress"
+msgstr "Das schnelle Code-Snippets-Plugin für WordPress"
+
+#: app/Services/Trans.php:230
+msgid ""
+"The browser could not complete the request. The connection dropped, the "
+"request was cancelled, or something between your browser and the site "
+"blocked it outright."
+msgstr ""
+"Der Browser konnte die Anfrage nicht abschließen. Die Verbindung ist "
+"abgerissen, die Anfrage wurde abgebrochen, oder etwas zwischen Browser und "
+"Website hat sie blockiert."
+
+#: app/Services/Trans.php:231
+msgid "The code should not start with <?php"
+msgstr "Der Code sollte nicht mit <?php beginnen"
+
+#: app/Services/Trans.php:232
+msgid ""
+"The code snippets plugin that writes to files instead of your database. "
+"Snippets load the way a small feature plugin loads - no query, no option "
+"lookup, no work on a page that does not use them."
+msgstr ""
+"Das Code-Snippets-Plugin, das in Dateien schreibt statt in die Datenbank. "
+"Snippets laden wie ein kleines Funktions-Plugin: keine Abfrage, kein "
+"Nachschlagen in den Optionen, keine Arbeit auf Seiten, die sie nicht "
+"brauchen."
+
+#: app/Services/Trans.php:233
+msgid ""
+"The current Safe Mode URL will stop working immediately. Anywhere you have "
+"saved it - a password manager, a runbook, your phone - will need the new "
+"one."
+msgstr ""
+"Die bisherige URL für den abgesicherten Modus funktioniert sofort nicht "
+"mehr. Überall, wo sie abgelegt ist (Passwortmanager, Betriebshandbuch, "
+"Handy), muss die neue hin."
+
+#: app/Services/Trans.php:234
+msgid "The lower the number, the earlier the snippet runs."
+msgstr "Je kleiner die Zahl, desto früher läuft das Snippet."
+
+#: app/Services/Trans.php:235
+msgid "The name field is required."
+msgstr "Das Feld „Name“ ist erforderlich."
+
+#: app/Services/Trans.php:236
+msgid "The request never reached your site"
+msgstr "Die Anfrage ist nie bei der Website angekommen"
+
+#: app/Services/Trans.php:237
+msgid "The secure Safe Mode URL has been copied to your clipboard."
+msgstr ""
+"Die URL für den abgesicherten Modus liegt jetzt in der Zwischenablage."
+
+#: app/Services/Trans.php:238
+msgid ""
+"The server rejected the request because of its size, so nothing was saved."
+msgstr ""
+"Der Server hat die Anfrage wegen ihrer Größe abgelehnt, deshalb wurde nichts"
+" gespeichert."
+
+#: app/Services/Trans.php:239
+msgid "The server sent back an unexpected response"
+msgstr "Der Server hat eine unerwartete Antwort geschickt"
+
+#: app/Services/Trans.php:240
+msgid "The snippet could not be saved"
+msgstr "Das Snippet konnte nicht gespeichert werden"
+
+#: app/Services/Trans.php:241
+msgid "The snippet is too large for your server to accept"
+msgstr "Das Snippet ist zu groß für den Server"
+
+#: app/Services/Trans.php:242
+msgid "The snippets are being saved as Draft. Please review and publish."
+msgstr ""
+"Die Snippets werden als Entwurf gespeichert. Bitte prüfen und "
+"veröffentlichen."
+
+#: app/Services/Trans.php:243
+#, php-format
+msgid "Theme: %s"
+msgstr "Farbschema: %s"
+
+#: app/Services/Trans.php:244
+msgid ""
+"There are no snippets on this site yet, and this screen cannot add one. Put "
+"a snippet file into wp-content/fluent-snippets and it will appear here."
+msgstr ""
+"Auf dieser Website gibt es noch keine Snippets, und hier lässt sich keines "
+"anlegen. Eine Snippet-Datei in wp-content/fluent-snippets erscheint hier von"
+" selbst."
+
+#: app/Services/Trans.php:245
+msgid ""
+"They are loaded from mu-plugins. Uninstalling FluentSnippets will not stop "
+"them; turning this off below will hand them back to the plugin."
+msgstr ""
+"Die Snippets werden aus mu-plugins geladen, ein Deinstallieren von "
+"FluentSnippets hält diese also nicht an. Wird die Option unten "
+"ausgeschaltet, übernimmt wieder das Plugin."
+
+#: app/Services/Trans.php:246
+msgid "Title"
+msgstr "Titel"
+
+#: app/Services/Trans.php:247
+msgid ""
+"Treat it like a password: anyone who opens it can switch your snippets off."
+msgstr ""
+"Wie ein Passwort behandeln: Wer die URL öffnet, kann alle Snippets "
+"abschalten."
+
+#: app/Services/Trans.php:248
+msgid "Try Reactivate"
+msgstr "Erneut aktivieren"
+
+#: app/Services/Trans.php:249
+msgid "Turn off Standalone Mode"
+msgstr "Eigenständigen Modus ausschalten"
+
+#: app/Services/Trans.php:250
+msgid "Turn on Standalone Mode"
+msgstr "Eigenständigen Modus einschalten"
+
+#: app/Services/Trans.php:251
+msgid "Type"
+msgstr "Typ"
+
+#: app/Services/Trans.php:252
+msgid ""
+"Uninstalling leaves your snippet files on disk, so reinstalling picks up "
+"where you left off. This will make removal complete instead."
+msgstr ""
+"Beim Deinstallieren bleiben die Snippet-Dateien auf der Festplatte, eine "
+"neue Installation macht also dort weiter, wo die alte aufgehört hat. Mit "
+"dieser Option wird stattdessen alles entfernt."
+
+#: app/Services/Trans.php:253
+msgid "Update Snippet"
+msgstr "Snippet aktualisieren"
+
+#: app/Services/Trans.php:254
+msgid "Updated"
+msgstr "Aktualisiert"
+
+#: app/Services/Trans.php:255
+msgid "Updated At"
+msgstr "Aktualisiert am"
+
+#: app/Services/Trans.php:256
+msgid "Updated At:"
+msgstr "Aktualisiert am:"
+
+#: app/Services/Trans.php:257
+msgid "Upload a FluentSnippets JSON file to import"
+msgstr "Eine JSON-Datei aus FluentSnippets zum Importieren hochladen"
+
+#: app/Services/Trans.php:258
+msgid "Use Shortcode to display the return or print content of this snippet:"
+msgstr ""
+"Mit diesem Shortcode lässt sich der Rückgabewert oder die Ausgabe des "
+"Snippets anzeigen:"
+
+#: app/Services/Trans.php:259
+msgid "View on WordPress.org"
+msgstr "Auf WordPress.org ansehen"
+
+#: app/Services/Trans.php:260
+msgid "View source on GitHub"
+msgstr "Quellcode auf GitHub ansehen"
+
+#: app/Services/Trans.php:261
+msgid "What the snippet printed"
+msgstr "Ausgabe des Snippets"
+
+#: app/Services/Trans.php:262
+msgid ""
+"When a snippet throws a fatal error it is switched off on the spot, and the "
+"list tells you which one and why. This is what stops one bad snippet from "
+"taking the site down with it."
+msgstr ""
+"Löst ein Snippet einen schwerwiegenden Fehler aus, wird es sofort "
+"abgeschaltet, und die Liste zeigt, welches und warum. So reißt ein "
+"fehlerhaftes Snippet nicht die ganze Website mit."
+
+#: app/Services/Trans.php:263
+msgid "When enabled, this snippet also loads in the block editor (Gutenberg)."
+msgstr "Ist das aktiv, lädt das Snippet auch im Block-Editor (Gutenberg)."
+
+#: app/Services/Trans.php:264
+msgid "When enabled, this snippet is served as a separate stylesheet file."
+msgstr ""
+"Ist das aktiv, wird das Snippet als eigene Stylesheet-Datei ausgeliefert."
+
+#: app/Services/Trans.php:265
+msgid "Where to Run?"
+msgstr "Wo soll das Snippet laufen?"
+
+#: app/Services/Trans.php:266
+msgid "Wrap long lines in the editor"
+msgstr "Lange Zeilen im Editor umbrechen"
+
+#: app/Services/Trans.php:267
+msgid "Write your CSS code here"
+msgstr "CSS-Code hier eingeben"
+
+#: app/Services/Trans.php:268
+msgid "Write your JavaScript code here"
+msgstr "JavaScript-Code hier eingeben"
+
+#: app/Services/Trans.php:269
+msgid "Write your code here..."
+msgstr "Code hier eingeben …"
+
+#: app/Services/Trans.php:270
+msgid "You can view the shortcode after you save this snippet"
+msgstr "Der Shortcode erscheint, sobald das Snippet gespeichert ist"
+
+#: app/Services/Trans.php:271
+msgid "Your Safe Mode URL"
+msgstr "URL für den abgesicherten Modus"
+
+#: app/Services/Trans.php:272
+msgid "Your Snippet Name"
+msgstr "Name des Snippets"
+
+#: app/Services/Trans.php:273
+msgid "Your server blocked this request"
+msgstr "Der Server hat die Anfrage blockiert"
+
+#: app/Services/Trans.php:274
+msgid "Your server returned an error"
+msgstr "Der Server hat einen Fehler gemeldet"
+
+#: app/Services/Trans.php:275
+msgid ""
+"Your snippet is sent to the server as raw code, and a firewall rule decided "
+"that looked like an attack. ModSecurity, Wordfence, Cloudflare and several "
+"managed hosts do this by default. The request is stopped before "
+"FluentSnippets ever sees it."
+msgstr ""
+"Das Snippet geht als roher Code an den Server, und eine Firewall-Regel hielt"
+" das für einen Angriff. ModSecurity, Wordfence, Cloudflare und etliche "
+"Managed Hoster tun das von Haus aus. Die Anfrage wird gestoppt, bevor "
+"FluentSnippets sie überhaupt sieht."
+
+#: app/Services/Trans.php:276
+msgid "Your snippets no longer depend on this plugin"
+msgstr "Die Snippets hängen nicht mehr von diesem Plugin ab"
+
+#: app/Services/Trans.php:277
+msgid ""
+"We highly recommend enabling this option. If it is disabled, your site may "
+"go down when one of your scripts has an error."
+msgstr ""
+"Diese Option sollte unbedingt eingeschaltet sein. Ist sie aus, kann die "
+"Website ausfallen, sobald ein Skript einen Fehler hat."
+
+#: app/Services/Trans.php:278
+msgid ""
+"The snippet encountered a fatal error and has been deactivated "
+"automatically. Please review your code, fix the issue, and reactivate it."
+msgstr ""
+"Das Snippet hat einen schwerwiegenden Fehler ausgelöst und wurde automatisch"
+" deaktiviert. Bitte den Code prüfen, den Fehler beheben und das Snippet "
+"wieder aktivieren."
+
+#: app/Services/Trans.php:279
+msgid "after"
+msgstr "nach"
+
+#: app/Services/Trans.php:280
+msgid "before"
+msgstr "vor"
+
+#: app/Services/Trans.php:281
+msgid "before days"
+msgstr "Tage vorher"
+
+#: app/Services/Trans.php:282
+msgid "click to upload"
+msgstr "zum Hochladen klicken"
+
+#: app/Services/Trans.php:283
+msgid "dates and relative times"
+msgstr "Datumsangaben und relative Zeiten"
+
+#: app/Services/Trans.php:284
+msgid "delete"
+msgstr "löschen"
+
+#: app/Services/Trans.php:285
+msgid "does not equal"
+msgstr "ist ungleich"
+
+#: app/Services/Trans.php:286
+msgid "does not include"
+msgstr "enthält nicht"
+
+#: app/Services/Trans.php:287
+msgid "ends with"
+msgstr "endet mit"
+
+#: app/Services/Trans.php:288
+msgid "equal"
+msgstr "ist gleich"
+
+#: app/Services/Trans.php:289
+msgid "free support, answered in public"
+msgstr "kostenloser Support, öffentlich beantwortet"
+
+#: app/Services/Trans.php:290
+msgid "how each feature works, with examples"
+msgstr "wie jede Funktion arbeitet, mit Beispielen"
+
+#: app/Services/Trans.php:291
+msgid "in the date"
+msgstr "am Datum"
+
+#: app/Services/Trans.php:292
+msgid "includes"
+msgstr "enthält"
+
+#: app/Services/Trans.php:293
+msgid "includes all of"
+msgstr "enthält alle von"
+
+#: app/Services/Trans.php:294
+msgid "includes in"
+msgstr "ist einer von"
+
+#: app/Services/Trans.php:295
+msgid "includes none of (match all)"
+msgstr "enthält keines von (alle geprüft)"
+
+#: app/Services/Trans.php:296
+msgid "it is what keeps the plugin findable"
+msgstr "damit das Plugin auffindbar bleibt"
+
+#: app/Services/Trans.php:297
+msgid "moving between them"
+msgstr "die Navigation dazwischen"
+
+#: app/Services/Trans.php:298
+msgid "not equal"
+msgstr "ist ungleich"
+
+#: app/Services/Trans.php:299
+msgid "not includes in"
+msgstr "ist keiner von"
+
+#: app/Services/Trans.php:300
+msgid "not within"
+msgstr "nicht innerhalb"
+
+#: app/Services/Trans.php:301
+msgid "on GitHub, where the fix will land"
+msgstr "auf GitHub, wo die Korrektur entsteht"
+
+#: app/Services/Trans.php:302
+msgid "searching your snippets"
+msgstr "die Suche in den Snippets"
+
+#: app/Services/Trans.php:303
+msgid "selected"
+msgstr "ausgewählt"
+
+#: app/Services/Trans.php:304
+msgid "skipped"
+msgstr "übersprungen"
+
+#: app/Services/Trans.php:305
+msgid "starts with"
+msgstr "beginnt mit"
+
+#: app/Services/Trans.php:306
+msgid "the admin screens"
+msgstr "die Verwaltungsoberfläche"
+
+#: app/Services/Trans.php:307
+msgid "the code editor"
+msgstr "der Code-Editor"
+
+#: app/Services/Trans.php:308
+msgid "the controls"
+msgstr "die Bedienelemente"
+
+#: app/Services/Trans.php:309
+msgid "the odd jobs"
+msgstr "der Kleinkram"
+
+#: app/Services/Trans.php:310
+msgid "within"
+msgstr "innerhalb"
+
+#: app/Services/Trans.php:311
+msgid "within days"
+msgstr "innerhalb von Tagen"
