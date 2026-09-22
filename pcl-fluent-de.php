@@ -4,7 +4,7 @@
  * Plugin URI:        https://github.com/blocoder/pcl-fluent-de
  * Update URI:        https://github.com/blocoder/pcl-fluent-de
  * Description:       Liefert die deutschen Übersetzungen für FluentCommunity, FluentCommunity Pro, FluentMessaging, FluentPlayer, FluentAuth, FluentSMTP und FluentSnippets aus. Lädt sie vor allen anderen Katalogen, damit die eigene Fassung gewinnt. Jede Übersetzung schaltet sich selbst ein, sobald ihr Plugin da ist, und lässt sich einzeln abschalten oder ganz auf Englisch stellen.
- * Version:           2.3.0
+ * Version:           2.3.1
  * Requires at least: 6.5
  * Requires PHP:      7.4
  * Author:            Peter Claus Lamprecht (PC’L)
@@ -223,27 +223,39 @@ function pcl_fluent_de_row_meta($links, $file) {
     }
 
     $locale  = determine_locale();
-    $dir     = plugin_dir_path(__FILE__) . 'languages/';
+    $dir     = pcl_fluent_de_languages_dir();
+    $aktiv   = pcl_fluent_de_aktive_domains();
     $geladen = array();
 
-    foreach (pcl_fluent_de_domains() as $domain) {
-        if (is_readable($dir . $domain . '-' . $locale . '.mo')) {
+    // Welche Datei gelesen wird, entscheidet nicht die Locale der Seite
+    // allein: Bei erzwungener Anrede ist es die Datei der gewählten Anrede.
+    foreach ($aktiv as $domain) {
+        $datei = $domain . '-' . pcl_fluent_de_katalog_locale($domain, $locale) . '.mo';
+
+        if (is_readable($dir . $datei)) {
             $geladen[] = $domain;
         }
     }
 
-    $links[] = $geladen
-        ? sprintf(
+    if ($geladen) {
+        $links[] = sprintf(
             /* translators: 1: locale, 2: comma separated list of text domains */
             esc_html__('Aktiv für %1$s: %2$s', 'pcl-fluent-de'),
             esc_html($locale),
             esc_html(implode(', ', $geladen))
-        )
-        : sprintf(
+        );
+    } elseif ($aktiv) {
+        // Domains sind eingeschaltet, aber keine Datei passt zur Locale.
+        $links[] = sprintf(
             /* translators: %s: locale */
             esc_html__('Keine Kataloge für %s gefunden', 'pcl-fluent-de'),
             esc_html($locale)
         );
+    } else {
+        // Kein Katalog greift – entweder ist kein übersetztes Plugin da oder
+        // alle Domains stehen auf „aus“ bzw. „englisch“.
+        $links[] = esc_html__('Zurzeit greift kein Katalog', 'pcl-fluent-de');
+    }
 
     return $links;
 }

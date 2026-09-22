@@ -4,7 +4,7 @@ Tags: fluentcommunity, fluentauth, fluentsmtp, fluentsnippets, deutsch
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.3.0
+Stable tag: 2.3.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,10 @@ Für FluentSMTP und FluentSnippets ja. Steht die Seite auf `de_DE_formal`, wird 
 Ja, jede für sich. Drei Zustände je Plugin: „Deutsche Übersetzung aktiv“ (Vorgabe, schaltet sich ein, sobald das Plugin da ist), „Fremde Übersetzung“ (unsere Fassung weg, das Sprachpaket von wordpress.org greift weiter) und „Keine Übersetzung zulassen“ (das Plugin bleibt englisch).
 
 == Changelog ==
+
+= 2.3.1 =
+* Behoben: Die Plugin-Seite im Backend lief in einen kritischen Fehler. Der Hinweis, welche Kataloge greifen, rief eine Funktion aus 1.x auf, die es seit 2.0.0 nicht mehr gibt. Betroffen war allein die Übersicht unter „Plugins“ – Übersetzung, Portal und Frontend haben durchgehend funktioniert.
+* Der Hinweis zählt jetzt die tatsächlich wirksamen Übersetzungen auf und berücksichtigt dabei die erzwungene Anrede.
 
 = 2.3.0 =
 * Anrede je Plugin erzwingbar: „wie die Seite“ (Vorgabe), „immer Du“ oder „immer Sie“. Eine Seite in der Du-Form kann so für ein einzelnes Plugin die Sie-Fassung zeigen.
