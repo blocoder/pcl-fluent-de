@@ -7,6 +7,22 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.4.0
+
+**Fehlt der Katalog zur Sprache der Seite, gilt jetzt die Du-Fassung.** Bisher
+blieb die Übersetzung in diesem Fall ganz aus, und der Text stand englisch da.
+Betroffen waren vor allem Seiten auf „Deutsch (Sie)“: Sechs der acht
+Übersetzungen gibt es nur in der Du-Form, und dort griff keine davon.
+
+Die Reihenfolge ist überall dieselbe – in der Plugin-Liste, beim Laden im
+Voraus und beim Laden auf Abruf: die erzwungene Anrede, sonst die Sprache der
+Seite, sonst die Du-Fassung. Auf einer nicht-deutschen Seite ändert sich
+nichts; dort wäre ein deutscher Katalog falsch.
+
+Der Rückfall greift auch dort, wo **Loco Translate** mitläuft. Eine Fassung,
+die in Loco gepflegt ist, behält ihren Vorrang – eingegriffen wird nur an
+Stellen, an denen gar keine Datei liegt.
+
 ## 2.3.1
 
 **Behoben: kritischer Fehler auf der Plugin-Seite.** Die Zeile, die anzeigt,
