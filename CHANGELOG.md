@@ -7,6 +7,22 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.5.0
+
+**Neu: FluentCRM.** 4.784 Zeichenketten für die kostenlose Fassung, in Du und
+in Sie. Der Katalog wird erst gelesen, wenn der erste Text daraus gebraucht
+wird – auf einer Seite ohne FluentCRM kostet er nichts.
+
+Für **FluentCRM Pro** bleibt es beim eigenen Plugin. Die Trennung verläuft
+entlang der Textdomain: `fluent-crm` hier, `fluentcampaign-pro` dort. Ein paar
+allgemeine Beschriftungen, die Pro aus der freien Domain holt – Status, Datum,
+Gesamt – sind damit mit übersetzt.
+
+**Einheitliche Namen für die Farbschemata.** „Ozeanblau“ steht jetzt in einem
+Wort, wie „Himmelblau“ daneben; aus „Smaragd-Essenz“ wurde „Smaragd“; und der
+Zusatz der dunklen Fassungen ist durchgehend klein – „(dunkel)“ statt
+teils „(Dunkel)“.
+
 ## 2.4.0
 
 **Fehlt der Katalog zur Sprache der Seite, gilt jetzt die Du-Fassung.** Bisher
