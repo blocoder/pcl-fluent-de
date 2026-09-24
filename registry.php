@@ -112,6 +112,40 @@ function pcl_fluent_de_registry() {
             'extras'  => array('fluentsnippets-relative-zeit.php'),
             'vorgaenger' => 'pcl-fluentsnippets-de/pcl-fluentsnippets-de.php',
         ),
+
+        // --- FluentCRM, nur die kostenlose Fassung -------------------------
+        //
+        // Die Grenze zwischen kostenlos und Pro ist die Textdomain-Grenze, und
+        // zwar fast lückenlos: Am 24.09.2026 auf kommunarden gemessen, wo
+        // beide laufen, ruft das Pro-Plugin `fluentcampaign-pro` 2.462-mal und
+        // `fluent-crm` 24-mal. Die 24 sind allgemeine Beschriftungen (Status,
+        // Datum, Gesamt, Bestellung) in den Funnel-Aktionen und der
+        // Voxel-Anbindung — sie werden hier mit übersetzt, was niemandem weh
+        // tut. Umgekehrt landet kein Pro-String in der freien Domain.
+        //
+        // `sperren`, weil es für `fluent-crm` **kein** deutsches Sprachpaket
+        // auf wordpress.org gibt (Stand 24.09.2026: elf Sprachen, Deutsch
+        // nicht dabei). Es gäbe also nichts zum Lückenfüllen, und der
+        // Abruf-Weg spart die 373 KB dieses Katalogs auf jeder Seite, die kein
+        // CRM anzeigt — er ist der größte im Paket.
+        //
+        // **Kein `vorgaenger`, und das ist Absicht.** `pcl-fluentcrm-de` gibt
+        // die freie Domain ab, bleibt aber für `fluentcampaign-pro` aktiv. Ein
+        // Vorgänger-Eintrag würde deshalb nie wieder aufhören zu greifen und
+        // diese Domain dauerhaft blockieren.
+        //
+        // Die Zusatzdateien `ausgaben-de.php` und `datum-de.php` bleiben
+        // drüben (Entscheidung PC’L, 24.09.2026): Sie hängen an den
+        // Admin-Seiten, nicht an der Domain, und decken dort Pro mit ab.
+        // FluentCRM arbeitet ohnehin an den Datumsangaben.
+        'fluent-crm' => array(
+            'slug'    => 'fluent-crm',
+            'titel'   => 'FluentCRM',
+            'anreden' => array('de_DE', 'de_DE_formal'),
+            'paket'   => 'sperren',
+            'extras'  => array(),
+            'vorgaenger' => '',
+        ),
     ));
 }
 

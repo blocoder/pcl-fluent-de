@@ -58,7 +58,7 @@ msgstr "Sunset Sands"
 
 #: app/Functions/Utility.php:735
 msgid "Ocean Blue"
-msgstr "Ozean Blau"
+msgstr "Ozeanblau"
 
 #: app/Functions/Utility.php:776
 msgid "Sky Blue"
@@ -66,15 +66,15 @@ msgstr "Himmelblau"
 
 #: app/Functions/Utility.php:817
 msgid "Emerald Essence"
-msgstr "Smaragd-Essenz"
+msgstr "Smaragd"
 
 #: app/Functions/Utility.php:860
 msgid "Default (Dark)"
-msgstr "Standard (Dunkel)"
+msgstr "Standard (dunkel)"
 
 #: app/Functions/Utility.php:903
 msgid "Sunset Sands (Dark)"
-msgstr "Sunset Sands (Dunkel)"
+msgstr "Sunset Sands (dunkel)"
 
 #: app/Functions/Utility.php:944
 msgid "Ocean Blue (Dark)"
@@ -86,7 +86,7 @@ msgstr "Himmelblau (dunkel)"
 
 #: app/Functions/Utility.php:1029
 msgid "Emerald Essence (Dark)"
-msgstr "Smaragd-Essenz (dunkel)"
+msgstr "Smaragd (dunkel)"
 
 #: app/Hooks/Handlers/ActivityMonitorHandler.php:43
 msgid "Your session has expired. Please log in again."

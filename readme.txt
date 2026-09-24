@@ -1,18 +1,18 @@
 === PC'L Übersetzungen für Fluent-Plugins ===
 Contributors: blocoder
-Tags: fluentcommunity, fluentauth, fluentsmtp, fluentsnippets, deutsch
+Tags: fluentcommunity, fluentcrm, fluentauth, fluentsmtp, fluentsnippets, deutsch
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.4.0
+Stable tag: 2.5.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Deutsche Übersetzungen für acht Fluent-Plugins – die vor dem offiziellen Sprachpaket laden. Jede einzeln abschaltbar.
+Deutsche Übersetzungen für neun Fluent-Plugins – die vor dem offiziellen Sprachpaket laden. Jede einzeln abschaltbar.
 
 == Description ==
 
-8.660 übersetzte Zeichenketten für acht Plugins, ausgeliefert als ein Plugin statt über Loco Translate. Für FluentSMTP und FluentSnippets zusätzlich in der Sie-Anrede.
+13.444 übersetzte Zeichenketten für neun Plugins, ausgeliefert als ein Plugin statt über Loco Translate. Für FluentCRM, FluentSMTP und FluentSnippets zusätzlich in der Sie-Anrede.
 
 **Warum das nötig ist:** WordPress fragt für eine Textdomain mehrere Kataloge der Reihe nach ab und nimmt die erste Datei, die eine Zeichenkette kennt. Wer zuerst lädt, gewinnt. Dieses Plugin lädt auf `plugins_loaded` mit Priorität 1 – vor dem Sprachpaket von wordpress.org. Damit hält die eigene Terminologie, und das Sprachpaket füllt nur noch Lücken.
 
@@ -47,13 +47,18 @@ Ein Katalog gehört zu einer Plugin-Version. Ändert der Hersteller einen englis
 
 = Gibt es eine Sie-Fassung? =
 
-Für FluentSMTP und FluentSnippets ja. Steht die Seite auf `de_DE_formal`, wird sie geladen – und seit 2.3.0 lässt sie sich auch auf einer Du-Seite für diese Plugins erzwingen (Spalte „Anrede“ in den Einstellungen). Die übrigen sechs Kataloge gibt es nur in der Du-Form; dort greift dann das Sprachpaket von wordpress.org oder der Text bleibt englisch.
+Für FluentCRM, FluentSMTP und FluentSnippets ja. Steht die Seite auf `de_DE_formal`, wird sie geladen – und seit 2.3.0 lässt sie sich auch auf einer Du-Seite für diese Plugins erzwingen (Spalte „Anrede“ in den Einstellungen). Die übrigen sechs Kataloge gibt es nur in der Du-Form; seit 2.4.0 laden sie dort in der Du-Fassung, statt englisch zu bleiben.
 
 = Kann ich einzelne Übersetzungen abschalten? =
 
 Ja, jede für sich. Drei Zustände je Plugin: „Deutsche Übersetzung aktiv“ (Vorgabe, schaltet sich ein, sobald das Plugin da ist), „Fremde Übersetzung“ (unsere Fassung weg, das Sprachpaket von wordpress.org greift weiter) und „Keine Übersetzung zulassen“ (das Plugin bleibt englisch).
 
 == Changelog ==
+
+= 2.5.0 =
+* Neu: FluentCRM. 4.784 Zeichenketten für die kostenlose Fassung, in Du und in Sie. Für FluentCRM Pro bleibt es beim eigenen Plugin.
+* Der Katalog wird erst gelesen, wenn der erste Text daraus gebraucht wird. Auf einer Seite ohne FluentCRM kostet er nichts.
+* Einheitliche Namen für die Farbschemata: „Ozeanblau“ in einem Wort wie „Himmelblau“, „Smaragd“ statt „Smaragd-Essenz“, und der Zusatz der dunklen Fassungen durchgehend klein – „(dunkel)“.
 
 = 2.4.0 =
 * Neu: Fehlt der Katalog zur Sprache der Seite, wird jetzt die Du-Fassung geladen, statt dass der Text englisch bleibt. Das betrifft vor allem Seiten auf „Deutsch (Sie)“ – dort waren bisher alle Übersetzungen englisch, die es nur in der Du-Form gibt.

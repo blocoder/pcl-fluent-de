@@ -87,4 +87,72 @@
     </project>
   </domain>
 
+  <!--
+    Die vier folgenden Domains kamen nach der Zusammenfuehrung dazu und
+    fehlten hier bis zum 24.09.2026: FluentAuth, FluentSMTP und FluentSnippets
+    seit dem 22.09., FluentCRM seit dem 24.09. Ohne ihren Block sieht Loco
+    ihre Kataloge nicht, und wer dort einen Handgriff machen will, legt einen
+    zweiten Stand in wp-content/languages/loco/ an. Die Quellordner sind am
+    24.09.2026 auf dev nachgesehen, nicht geraten.
+  -->
+
+  <domain name="fluent-security">
+    <project name="FluentAuth" slug="fluent-security">
+      <source>
+        <directory>../fluent-security/app</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>../fluent-security/language/fluent-security.pot</file>
+      </template>
+    </project>
+  </domain>
+
+  <domain name="fluent-smtp">
+    <project name="FluentSMTP" slug="fluent-smtp">
+      <source>
+        <directory>../fluent-smtp/app</directory>
+        <directory>../fluent-smtp/includes</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>../fluent-smtp/language/fluent-smtp.pot</file>
+      </template>
+    </project>
+  </domain>
+
+  <domain name="easy-code-manager">
+    <project name="FluentSnippets" slug="easy-code-manager">
+      <source>
+        <directory>../easy-code-manager/app</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>../easy-code-manager/language/easy-code-manager.pot</file>
+      </template>
+    </project>
+  </domain>
+
+  <domain name="fluent-crm">
+    <project name="FluentCRM" slug="fluent-crm">
+      <source>
+        <directory>../fluent-crm/app</directory>
+        <directory>../fluent-crm/boot</directory>
+        <directory>../fluent-crm/includes</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>../fluent-crm/language/fluent-crm.pot</file>
+      </template>
+    </project>
+  </domain>
+
 </bundle>
