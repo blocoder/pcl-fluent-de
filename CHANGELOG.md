@@ -7,6 +7,23 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.5.1
+
+**FluentSMTP 2.4.1.** Acht neue Amazon-SES-Regionen sind übersetzt: Europa
+(Zürich), Asien-Pazifik (Hyderabad, Jakarta, Malaysia), Naher Osten (VAE),
+Israel (Tel Aviv) sowie AWS GovCloud (USA-Ost) und (USA-West). Dazu die
+Testnachricht für Slack, Discord und die Benachrichtigungen, die FluentSMTP
+aus zwei Sätzen zu einem zusammengezogen hat.
+
+**Wichtig beim Einspielen:** Diese Fassung setzt **FluentSMTP 2.4.1** voraus.
+Mit 2.4.1 haben drei Zeichenketten ihren Wortlaut geändert, und ein Katalog
+schlägt immer über den Wortlaut nach. Auf einer Installation mit FluentSMTP
+2.4.0 stünden deshalb drei Stellen wieder englisch da: die Testnachricht in
+den Verbindungstests und der Eintrag „AWS GovCloud (US)“ in der
+Regionsauswahl. Wer FluentSMTP noch nicht aktualisiert hat, spielt beides
+zusammen ein oder bleibt bei 2.5.0. Alle anderen Übersetzungen des Pakets
+sind davon nicht berührt.
+
 ## 2.5.0
 
 **Neu: FluentCRM.** 4.784 Zeichenketten für die kostenlose Fassung, in Du und

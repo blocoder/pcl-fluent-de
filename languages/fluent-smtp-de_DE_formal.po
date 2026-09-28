@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FluentSMTP 2.4.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-17T09:15:47+02:00\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fluent-smtp\n"
+"POT-Creation-Date: 2026-09-28T09:47:15+02:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: PC'L\n"
 "Language-Team: Deutsch\n"
@@ -42,7 +42,7 @@ msgstr ""
 
 #. translators: 1: plugin name wrapped in <strong>, 2: link to the wp_mail()
 #. documentation
-#: app/Functions/helpers.php:1144
+#: app/Functions/helpers.php:1146
 #, php-format
 msgid ""
 "The %1$s plugin depends on the %2$s pluggable function and is not able to "
@@ -53,7 +53,7 @@ msgstr ""
 "erweitern. Bitte prüfen, ob ein anderes Plugin sie verwendet, und dieses "
 "deaktivieren, damit %1$s funktioniert."
 
-#: app/Functions/helpers.php:1151
+#: app/Functions/helpers.php:1153
 msgid "Possible Conflict: "
 msgstr "Möglicher Konflikt: "
 
@@ -384,18 +384,6 @@ msgstr "Einstellungen gespeichert."
 #: app/Http/Controllers/DiscordController.php:59
 msgid "Discord notifications are not enabled."
 msgstr "Discord-Benachrichtigungen sind nicht aktiviert."
-
-#: app/Http/Controllers/DiscordController.php:63
-#: app/Http/Controllers/SlackController.php:71
-#: app/Services/NotificationHelper.php:48
-msgid "Test message from "
-msgstr "Testnachricht von "
-
-#: app/Http/Controllers/DiscordController.php:63
-#: app/Http/Controllers/SlackController.php:71
-#: app/Services/NotificationHelper.php:49
-msgid "If you can read this, the connection is working."
-msgstr "Wenn diese Nachricht ankommt, funktioniert die Verbindung."
 
 #: app/Http/Controllers/DiscordController.php:75
 #: app/Http/Controllers/PushoverController.php:66
@@ -766,49 +754,49 @@ msgstr ""
 "Die Dokumentation konnte nicht geladen werden. Bitte gleich noch einmal "
 "versuchen."
 
-#: app/Services/Mailer/BaseHandler.php:542
+#: app/Services/Mailer/BaseHandler.php:681
 msgid "Sent using fallback connection "
 msgstr "Gesendet über die Ausweichverbindung "
 
-#: app/Services/Mailer/BaseHandler.php:545
+#: app/Services/Mailer/BaseHandler.php:684
 msgid "Tried to send using fallback but failed. "
 msgstr "Versand über die Ausweichverbindung fehlgeschlagen. "
 
-#: app/Services/Mailer/BaseHandler.php:605
+#: app/Services/Mailer/BaseHandler.php:744
 msgid "Invalid Data: Array cannot contain an object or resource."
 msgstr ""
 "Ungültige Daten: Ein Array darf weder Objekte noch Ressourcen enthalten."
 
-#: app/Services/Mailer/BaseHandler.php:612
+#: app/Services/Mailer/BaseHandler.php:751
 msgid "Invalid Data: Array cannot contain serialized data."
 msgstr "Ungültige Daten: Ein Array darf keine serialisierten Daten enthalten."
 
-#: app/Services/Mailer/BaseHandler.php:660
-#: app/Services/Mailer/BaseHandler.php:665
+#: app/Services/Mailer/BaseHandler.php:799
+#: app/Services/Mailer/BaseHandler.php:804
 msgid "Not implemented"
 msgstr "Nicht implementiert"
 
-#: app/Services/Mailer/BaseHandler.php:737
+#: app/Services/Mailer/BaseHandler.php:876
 #, php-format
 msgid "Invalid file path: %s"
 msgstr "Ungültiger Dateipfad: %s"
 
-#: app/Services/Mailer/BaseHandler.php:744
+#: app/Services/Mailer/BaseHandler.php:883
 #, php-format
 msgid "Path is not a file: %s"
 msgstr "Pfad ist keine Datei: %s"
 
-#: app/Services/Mailer/BaseHandler.php:751
+#: app/Services/Mailer/BaseHandler.php:890
 #, php-format
 msgid "File is not readable: %s"
 msgstr "Datei ist nicht lesbar: %s"
 
-#: app/Services/Mailer/BaseHandler.php:783
+#: app/Services/Mailer/BaseHandler.php:922
 msgid "Access to this file location is restricted for security reasons"
 msgstr ""
 "Der Zugriff auf diesen Speicherort ist aus Sicherheitsgründen eingeschränkt"
 
-#: app/Services/Mailer/BaseHandler.php:793
+#: app/Services/Mailer/BaseHandler.php:932
 #, php-format
 msgid "Failed to read file: %s"
 msgstr "Datei konnte nicht gelesen werden: %s"
@@ -934,14 +922,14 @@ msgstr "SMTP-Server"
 
 #: app/Services/Mailer/Providers/config.php:29
 #: app/Services/Mailer/Providers/config.php:54
-#: app/Services/Mailer/Providers/config.php:99
-#: app/Services/Mailer/Providers/config.php:116
-#: app/Services/Mailer/Providers/config.php:130
-#: app/Services/Mailer/Providers/config.php:144
-#: app/Services/Mailer/Providers/config.php:158
-#: app/Services/Mailer/Providers/config.php:172
-#: app/Services/Mailer/Providers/config.php:189
-#: app/Services/Mailer/Providers/config.php:204
+#: app/Services/Mailer/Providers/config.php:106
+#: app/Services/Mailer/Providers/config.php:123
+#: app/Services/Mailer/Providers/config.php:137
+#: app/Services/Mailer/Providers/config.php:151
+#: app/Services/Mailer/Providers/config.php:165
+#: app/Services/Mailer/Providers/config.php:179
+#: app/Services/Mailer/Providers/config.php:196
+#: app/Services/Mailer/Providers/config.php:211
 #: app/Services/TransStrings.php:291
 msgid "Read the documentation"
 msgstr "Dokumentation lesen"
@@ -1010,151 +998,179 @@ msgid "Europe (Stockholm)"
 msgstr "Europa (Stockholm)"
 
 #: app/Services/Mailer/Providers/config.php:86
+msgid "Europe (Zurich)"
+msgstr "Europa (Zürich)"
+
+#: app/Services/Mailer/Providers/config.php:87
 msgid "EU Sovereign Cloud (Germany, Brandenburg)"
 msgstr "EU Sovereign Cloud (Deutschland, Brandenburg)"
 
-#: app/Services/Mailer/Providers/config.php:87
+#: app/Services/Mailer/Providers/config.php:88
 msgid "Asia Pacific (Mumbai)"
 msgstr "Asien-Pazifik (Mumbai)"
 
-#: app/Services/Mailer/Providers/config.php:88
+#: app/Services/Mailer/Providers/config.php:89
+msgid "Asia Pacific (Hyderabad)"
+msgstr "Asien-Pazifik (Hyderabad)"
+
+#: app/Services/Mailer/Providers/config.php:90
+msgid "Asia Pacific (Jakarta)"
+msgstr "Asien-Pazifik (Jakarta)"
+
+#: app/Services/Mailer/Providers/config.php:91
+msgid "Asia Pacific (Malaysia)"
+msgstr "Asien-Pazifik (Malaysia)"
+
+#: app/Services/Mailer/Providers/config.php:92
 msgid "Asia Pacific (Seoul)"
 msgstr "Asien-Pazifik (Seoul)"
 
-#: app/Services/Mailer/Providers/config.php:89
+#: app/Services/Mailer/Providers/config.php:93
 msgid "Asia Pacific (Singapore)"
 msgstr "Asien-Pazifik (Singapur)"
 
-#: app/Services/Mailer/Providers/config.php:90
+#: app/Services/Mailer/Providers/config.php:94
 msgid "Asia Pacific (Sydney)"
 msgstr "Asien-Pazifik (Sydney)"
 
-#: app/Services/Mailer/Providers/config.php:91
+#: app/Services/Mailer/Providers/config.php:95
 msgid "Asia Pacific (Tokyo)"
 msgstr "Asien-Pazifik (Tokio)"
 
-#: app/Services/Mailer/Providers/config.php:92
+#: app/Services/Mailer/Providers/config.php:96
 msgid "Asia Pacific (Osaka)"
 msgstr "Asien-Pazifik (Osaka)"
 
-#: app/Services/Mailer/Providers/config.php:93
+#: app/Services/Mailer/Providers/config.php:97
 msgid "South America (São Paulo)"
 msgstr "Südamerika (São Paulo)"
 
-#: app/Services/Mailer/Providers/config.php:94
+#: app/Services/Mailer/Providers/config.php:98
 msgid "Middle East (Bahrain)"
 msgstr "Naher Osten (Bahrain)"
 
-#: app/Services/Mailer/Providers/config.php:95
-msgid "AWS GovCloud (US)"
-msgstr "AWS GovCloud (USA)"
+#: app/Services/Mailer/Providers/config.php:99
+msgid "Middle East (UAE)"
+msgstr "Naher Osten (VAE)"
 
-#: app/Services/Mailer/Providers/config.php:96
+#: app/Services/Mailer/Providers/config.php:100
+msgid "Israel (Tel Aviv)"
+msgstr "Israel (Tel Aviv)"
+
+#: app/Services/Mailer/Providers/config.php:101
+msgid "AWS GovCloud (US-West)"
+msgstr "AWS GovCloud (USA-West)"
+
+#: app/Services/Mailer/Providers/config.php:102
+msgid "AWS GovCloud (US-East)"
+msgstr "AWS GovCloud (USA-Ost)"
+
+#: app/Services/Mailer/Providers/config.php:103
 msgid "Africa (Cape Town)"
 msgstr "Afrika (Kapstadt)"
 
-#: app/Services/Mailer/Providers/config.php:97
+#: app/Services/Mailer/Providers/config.php:104
 msgid "China (Ningxia)"
 msgstr "China (Ningxia)"
 
-#: app/Services/Mailer/Providers/config.php:99
+#: app/Services/Mailer/Providers/config.php:106
 msgid " for how to configure Amazon SES with FluentSMTP."
 msgstr " – dort steht, wie Amazon SES in FluentSMTP eingerichtet wird."
 
 # offen: Produktname
-#: app/Services/Mailer/Providers/config.php:103
+#: app/Services/Mailer/Providers/config.php:110
 msgid "Mailgun"
 msgstr ""
 
-#: app/Services/Mailer/Providers/config.php:116
+#: app/Services/Mailer/Providers/config.php:123
 msgid " for how to configure Mailgun with FluentSMTP."
 msgstr " – dort steht, wie Mailgun in FluentSMTP eingerichtet wird."
 
 # offen: Produktname
-#: app/Services/Mailer/Providers/config.php:120
+#: app/Services/Mailer/Providers/config.php:127
 msgid "SendGrid"
 msgstr ""
 
-#: app/Services/Mailer/Providers/config.php:130
+#: app/Services/Mailer/Providers/config.php:137
 msgid " for how to configure SendGrid with FluentSMTP."
 msgstr " – dort steht, wie SendGrid in FluentSMTP eingerichtet wird."
 
 # offen: Produktname
-#: app/Services/Mailer/Providers/config.php:134
+#: app/Services/Mailer/Providers/config.php:141
 msgid "Sendinblue"
 msgstr ""
 
-#: app/Services/Mailer/Providers/config.php:144
+#: app/Services/Mailer/Providers/config.php:151
 msgid " for how to configure Sendinblue with FluentSMTP."
 msgstr " – dort steht, wie Sendinblue in FluentSMTP eingerichtet wird."
 
 # offen: Produktname
-#: app/Services/Mailer/Providers/config.php:148
+#: app/Services/Mailer/Providers/config.php:155
 msgid "SparkPost"
 msgstr ""
 
-#: app/Services/Mailer/Providers/config.php:158
+#: app/Services/Mailer/Providers/config.php:165
 msgid " for how to configure SparkPost with FluentSMTP."
 msgstr " – dort steht, wie SparkPost in FluentSMTP eingerichtet wird."
 
-#: app/Services/Mailer/Providers/config.php:162
+#: app/Services/Mailer/Providers/config.php:169
 msgid "Netcore Email API, formerly Pepipost"
 msgstr "Netcore Email API, ehemals Pepipost"
 
-#: app/Services/Mailer/Providers/config.php:172
+#: app/Services/Mailer/Providers/config.php:179
 msgid " for how to configure Netcore (formerly Pepipost) with FluentSMTP."
 msgstr ""
 " – dort steht, wie Netcore (ehemals Pepipost) in FluentSMTP eingerichtet "
 "wird."
 
 # offen: Produktname
-#: app/Services/Mailer/Providers/config.php:176
+#: app/Services/Mailer/Providers/config.php:183
 msgid "Postmark"
 msgstr ""
 
-#: app/Services/Mailer/Providers/config.php:189
+#: app/Services/Mailer/Providers/config.php:196
 msgid " for how to configure Postmark with FluentSMTP."
 msgstr " – dort steht, wie Postmark in FluentSMTP eingerichtet wird."
 
 # offen: Produktname
-#: app/Services/Mailer/Providers/config.php:193
+#: app/Services/Mailer/Providers/config.php:200
 msgid "Elastic Email"
 msgstr ""
 
-#: app/Services/Mailer/Providers/config.php:204
+#: app/Services/Mailer/Providers/config.php:211
 msgid " for how to configure Elastic Email with FluentSMTP."
 msgstr " – dort steht, wie Elastic Email in FluentSMTP eingerichtet wird."
 
 # offen: Produktname
-#: app/Services/Mailer/Providers/config.php:208
+#: app/Services/Mailer/Providers/config.php:215
 msgid "SMTP2GO"
 msgstr ""
 
-#: app/Services/Mailer/Providers/config.php:221
+#: app/Services/Mailer/Providers/config.php:228
 msgid "Gmail or Google Workspace"
 msgstr "Gmail oder Google Workspace"
 
-#: app/Services/Mailer/Providers/config.php:236
+#: app/Services/Mailer/Providers/config.php:243
 msgid ""
 "Gmail/Google Workspace is not recommended for sending mass marketing emails."
 msgstr ""
 "Für Marketing-Massenmails ist Gmail/Google Workspace nicht zu empfehlen."
 
-#: app/Services/Mailer/Providers/config.php:240
+#: app/Services/Mailer/Providers/config.php:247
 msgid "Outlook or Office 365"
 msgstr "Outlook oder Office 365"
 
-#: app/Services/Mailer/Providers/config.php:256
+#: app/Services/Mailer/Providers/config.php:263
 msgid ""
 "Outlook/Office365 is not recommended for sending mass marketing emails."
 msgstr "Für Marketing-Massenmails ist Outlook/Office365 nicht zu empfehlen."
 
 # offen: Produktname
-#: app/Services/Mailer/Providers/config.php:260
+#: app/Services/Mailer/Providers/config.php:267
 msgid "Cloudflare Email"
 msgstr ""
 
-#: app/Services/Mailer/Providers/config.php:271
+#: app/Services/Mailer/Providers/config.php:278
 msgid ""
 "Cloudflare Email Sending requires a verified domain in your Cloudflare "
 "account and an API token with Email Sending permissions."
@@ -1163,11 +1179,11 @@ msgstr ""
 "und ein API-Token mit der Berechtigung „Email Sending“ voraus."
 
 # offen: Bezeichner (PHP-Funktion)
-#: app/Services/Mailer/Providers/config.php:275
+#: app/Services/Mailer/Providers/config.php:282
 msgid "PHP mail()"
 msgstr ""
 
-#: app/Services/Mailer/Providers/config.php:286
+#: app/Services/Mailer/Providers/config.php:293
 msgid ""
 "The Default option does not use SMTP or an email service, so it will not "
 "improve email delivery on your site."
@@ -1365,7 +1381,7 @@ msgstr "Das SMTP-Passwort ist erforderlich."
 msgid "Please define FLUENTMAIL_SMTP2GO_API_KEY in wp-config.php file."
 msgstr "Bitte FLUENTMAIL_SMTP2GO_API_KEY in der wp-config.php definieren."
 
-#: app/Services/Mailer/Providers/SparkPost/Handler.php:79
+#: app/Services/Mailer/Providers/SparkPost/Handler.php:84
 msgid "SparkPost API Error"
 msgstr "SparkPost-API-Fehler"
 
@@ -1460,73 +1476,81 @@ msgstr ""
 msgid "Pushover"
 msgstr ""
 
-#: app/Services/NotificationHelper.php:148
-#: app/Services/NotificationHelper.php:186
+#. translators: %s: the site URL
+#: app/Services/NotificationHelper.php:55
+#, php-format
+msgid "Test message from %s. If you can read this, the connection is working."
+msgstr ""
+"Testnachricht von %s. Wenn diese Nachricht ankommt, funktioniert die "
+"Verbindung."
+
+#: app/Services/NotificationHelper.php:159
+#: app/Services/NotificationHelper.php:197
 msgid "Something went wrong"
 msgstr "Es ist ein Fehler aufgetreten"
 
-#: app/Services/NotificationHelper.php:278
-#: app/Services/NotificationHelper.php:338
-#: app/Services/NotificationHelper.php:402
+#: app/Services/NotificationHelper.php:289
+#: app/Services/NotificationHelper.php:349
+#: app/Services/NotificationHelper.php:413
 #, php-format
 msgid "[%s] Failed to send email"
 msgstr "[%s] E-Mail konnte nicht gesendet werden"
 
-#: app/Services/NotificationHelper.php:316
+#: app/Services/NotificationHelper.php:327
 msgid "Pushover API error"
 msgstr "Pushover-API-Fehler"
 
-#: app/Services/NotificationHelper.php:356
-#: app/Services/NotificationHelper.php:430
+#: app/Services/NotificationHelper.php:367
+#: app/Services/NotificationHelper.php:441
 msgid "Website URL:"
 msgstr "Website-URL:"
 
-#: app/Services/NotificationHelper.php:360
-#: app/Services/NotificationHelper.php:431
+#: app/Services/NotificationHelper.php:371
+#: app/Services/NotificationHelper.php:442
 msgid "Email Service:"
 msgstr "E-Mail-Anbieter:"
 
-#: app/Services/NotificationHelper.php:364
-#: app/Services/NotificationHelper.php:432
+#: app/Services/NotificationHelper.php:375
+#: app/Services/NotificationHelper.php:443
 msgid "To Email Address:"
 msgstr "Empfängeradresse:"
 
-#: app/Services/NotificationHelper.php:368
-#: app/Services/NotificationHelper.php:433
+#: app/Services/NotificationHelper.php:379
+#: app/Services/NotificationHelper.php:444
 msgid "Email Subject:"
 msgstr "Betreff:"
 
-#: app/Services/NotificationHelper.php:376
-#: app/Services/NotificationHelper.php:434
+#: app/Services/NotificationHelper.php:387
+#: app/Services/NotificationHelper.php:445
 msgid "Error Message:"
 msgstr "Fehlermeldung:"
 
-#: app/Services/NotificationHelper.php:383
-#: app/Services/NotificationHelper.php:441
+#: app/Services/NotificationHelper.php:394
+#: app/Services/NotificationHelper.php:452
 msgid "View Failed Email(s)"
 msgstr "Fehlgeschlagene E-Mails ansehen"
 
-#: app/Services/NotificationHelper.php:405
+#: app/Services/NotificationHelper.php:416
 msgid "**Website URL:** "
 msgstr "**Website-URL:** "
 
-#: app/Services/NotificationHelper.php:406
+#: app/Services/NotificationHelper.php:417
 msgid "**Email Service:** "
 msgstr "**E-Mail-Anbieter:** "
 
-#: app/Services/NotificationHelper.php:407
+#: app/Services/NotificationHelper.php:418
 msgid "**To Email Address:** "
 msgstr "**Empfängeradresse:** "
 
-#: app/Services/NotificationHelper.php:408
+#: app/Services/NotificationHelper.php:419
 msgid "**Email Subject:** "
 msgstr "**Betreff:** "
 
-#: app/Services/NotificationHelper.php:409
+#: app/Services/NotificationHelper.php:420
 msgid "**Error Message:** ```"
 msgstr "**Fehlermeldung:** ```"
 
-#: app/Services/NotificationHelper.php:410
+#: app/Services/NotificationHelper.php:421
 msgid "[View Failed Email(s)]("
 msgstr "[Fehlgeschlagene E-Mails ansehen]("
 
@@ -4054,21 +4078,30 @@ msgstr "SMTP-Einstellungen neu konfigurieren"
 msgid "Forbidden!"
 msgstr "Zugriff verweigert"
 
-#: includes/OAuth2Provider.php:192
+#: includes/OAuth2Provider.php:196
 msgid "Invalid response received from Authorization Server. Expected JSON."
 msgstr "Ungültige Antwort vom Autorisierungsserver. JSON erwartet."
 
 #. translators: %s: error description returned by the OAuth authorization
 #. server
-#: includes/OAuth2Provider.php:216
+#: includes/OAuth2Provider.php:220
 #, php-format
 msgid "Authorization Server rejected the request: %s"
 msgstr "Der Autorisierungsserver hat die Anfrage abgelehnt: %s"
 
-#: includes/OAuth2Provider.php:224
+#: includes/OAuth2Provider.php:228
 msgid ""
 "Invalid response received from Authorization Server. No access token was "
 "returned."
 msgstr ""
 "Ungültige Antwort vom Autorisierungsserver. Es wurde kein Zugriffstoken "
 "zurückgegeben."
+
+#~ msgid "Test message from "
+#~ msgstr "Testnachricht von "
+
+#~ msgid "If you can read this, the connection is working."
+#~ msgstr "Wenn diese Nachricht ankommt, funktioniert die Verbindung."
+
+#~ msgid "AWS GovCloud (US)"
+#~ msgstr "AWS GovCloud (USA)"
