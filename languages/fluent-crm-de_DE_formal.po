@@ -19557,8 +19557,8 @@ msgid ""
 "automation flows, and manage conversations — all from FluentCRM."
 msgstr ""
 "WhatsApp-Vorlagennachrichten senden, Zustellung und Lesebestätigungen "
-"verfolgen, Automationen bauen und Chats verwalten, alles aus FluentCRM "
-"heraus."
+"verfolgen, Automationen bauen und Unterhaltungen verwalten, alles aus "
+"FluentCRM heraus."
 
 #: app/Services/TransStrings.php:2389
 msgid "Send a test email"

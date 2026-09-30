@@ -7,6 +7,16 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.1
+
+**Ein Wort: „Unterhaltungen“ statt „Chats“.** In der Beschreibung des
+WhatsApp-Moduls hieß es seit 2.5.2 „Chats verwalten“. Richtig ist
+„Unterhaltungen verwalten“: Im SMS- und WhatsApp-Modul von FluentCRM heißt
+„Conversation“ durchgehend „Unterhaltung“ – so steht es auch in der
+Übersetzung von FluentCRM Pro und zwei Zeilen weiter im selben Katalog. „Chat“
+bleibt „Chat“, und in FluentMessaging heißt auch „Conversation“ weiterhin
+„Chat“. Sonst ändert sich nichts.
+
 ## 2.6.0
 
 **Deutsche Datumsangaben und zwei Textstellen in FluentCRM.** Was ein Katalog
