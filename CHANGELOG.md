@@ -7,6 +7,22 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.5.2
+
+**FluentCRM 3.2.5.** 61 neue Zeichenketten sind übersetzt, in Du und in Sie.
+Den größten Teil stellt das WhatsApp-Modul mit seinen Einstellungen, dazu
+kommen der neue Import-Modus („Neue Kontakte anlegen und vorhandene
+aktualisieren“ und seine Varianten), die Unternehmensfelder der
+Feed-Zuordnung und fünf neue Meldungen rund um die Datenbankindizes.
+
+**Wichtig beim Einspielen:** Diese Fassung setzt **FluentCRM 3.2.5** voraus.
+Mit 3.2.5 haben vier Zeichenketten ihren Wortlaut geändert, und ein Katalog
+schlägt immer über den Wortlaut nach. Auf einer Installation mit FluentCRM
+3.2.0 stünden deshalb vier Stellen wieder englisch da, darunter „Untitled“ als
+Ersatztitel einer Kampagne. Wer FluentCRM noch nicht aktualisiert hat, spielt
+beides zusammen ein oder bleibt bei 2.5.1. Alle anderen Übersetzungen des
+Pakets sind davon nicht berührt.
+
 ## 2.5.1
 
 **FluentSMTP 2.4.1.** Acht neue Amazon-SES-Regionen sind übersetzt: Europa
