@@ -7,6 +7,32 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.0
+
+**Deutsche Datumsangaben und zwei Textstellen in FluentCRM.** Was ein Katalog
+nicht erreicht, macht dieses Plugin jetzt auch für FluentCRM – so wie es das
+für FluentSMTP, FluentAuth und FluentSnippets schon tut.
+
+- **Diagramme, Datumswähler und relative Zeiten** stehen deutsch da.
+  FluentCRM formatiert sie im Browser mit dayjs, und zwar ohne Sprache; ohne
+  diesen Zusatz liest man „Friday“, „Sep 10“ und „2 days ago“, obwohl der
+  Katalog vollständig übersetzt ist. Der Trenner in den Datumsbereichen ist
+  „→“ statt eines überquellenden „bis“.
+- **Das CRM-Profil in einem FluentCommunity-Profil** zeigt Status und Zähler
+  deutsch („Abgemeldet“, „E-Mails“, „Öffnungen“, „Klicks“). FluentCommunity
+  Pro gibt beides ohne gettext aus, ein Katalog kommt dort nicht hin.
+- **Das Suchfenster der Werkzeugleiste** bekommt die drei Beschriftungen, die
+  in FluentCRMs eigener Textliste fehlen.
+
+Beides läuft nur bei deutscher Sprache und nur auf den FluentCRM-Seiten.
+Abschaltbar über die Filter `pcl_fluentcrm_de/dayjs_deutsch` und
+`pcl_fluentcrm_de/ausgaben_deutsch`.
+
+**Wer `pcl-fluentcrm-de` für FluentCRM Pro einsetzt, braucht nichts zu tun.**
+Die drei Funktionen kommen von dort und bleiben dort vorerst auch. Solange
+dieses Plugin sie noch ausliefert, hält sich `pcl-fluent-de` heraus – es gibt
+also weder doppelte Ausgaben noch eine Reihenfolge, auf die man achten müsste.
+
 ## 2.5.2
 
 **FluentCRM 3.2.5.** 61 neue Zeichenketten sind übersetzt, in Du und in Sie.
