@@ -7,6 +7,15 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.2
+
+**„Slug“ statt „Kürzel“ in FluentCommunity.** Fünf Stellen hießen noch
+„Kürzel“, alle anderen schon „Slug“: die Meldung „Der Slug darf nicht leer
+sein“ (zweimal, mit und ohne Punkt), „Ungültiger Forum-Slug“, „Slug
+bearbeiten“ und „Slug der Lektion“. Die Feldbeschriftungen mit dem Zusatz
+„Titelform, keine Leer- und Sonderzeichen“ bleiben, wie sie sind. Sonst
+ändert sich nichts; die Fassung passt zu denselben Plugin-Versionen wie 2.6.1.
+
 ## 2.6.1
 
 **Ein Wort: „Unterhaltungen“ statt „Chats“.** In der Beschreibung des

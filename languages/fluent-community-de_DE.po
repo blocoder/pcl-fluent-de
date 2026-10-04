@@ -1701,7 +1701,7 @@ msgstr "Die Onboarding-Einstellungen wurden aktualisiert."
 
 #: app/Http/Controllers/AdminController.php:535
 msgid "Slug cannot be empty"
-msgstr "Kürzel darf nicht leer sein"
+msgstr "Der Slug darf nicht leer sein"
 
 #: app/Http/Controllers/AdminController.php:541
 msgid "You cannot change the slug as it is defined in the config file"
@@ -1840,7 +1840,7 @@ msgstr "Du musst eingeloggt sein, um diese Aktion durchzuführen"
 
 #: app/Http/Controllers/FeedsController.php:38
 msgid "Invalid space slug"
-msgstr "Ungültiges Forum-Kürzel"
+msgstr "Ungültiger Forum-Slug"
 
 #: app/Http/Controllers/FeedsController.php:170
 msgid "You do not have permission to edit this feed"
@@ -6420,7 +6420,7 @@ msgstr "Quiz bearbeiten"
 
 #: app/Services/TransStrings.php:693
 msgid "Edit Slug"
-msgstr "Kürzel bearbeiten"
+msgstr "Slug bearbeiten"
 
 #: app/Services/TransStrings.php:694
 msgid "Edit Title"
@@ -11063,11 +11063,11 @@ msgstr "Slug (optional)"
 
 #: app/Services/TransStrings.php:1851
 msgid "Slug cannot be empty."
-msgstr "Das Kürzel darf nicht leer sein."
+msgstr "Der Slug darf nicht leer sein."
 
 #: app/Services/TransStrings.php:1852
 msgid "Slug of the lesson"
-msgstr "Kürzel der Lektion"
+msgstr "Slug der Lektion"
 
 #: app/Services/TransStrings.php:1853
 msgid "Slug of the topic"
