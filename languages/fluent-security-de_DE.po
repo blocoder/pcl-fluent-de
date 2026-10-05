@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FluentAuth - Auth Security Plugin 3.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fluent-security\n"
-"POT-Creation-Date: 2026-09-20T10:29:42+02:00\n"
+"POT-Creation-Date: 2026-10-05T09:56:46+02:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: PC'L\n"
 "Language-Team: Deutsch\n"
@@ -254,63 +254,63 @@ msgid "Login via URL"
 msgstr "Anmeldungen per Anmeldelink"
 
 #. translators: %s: Site URL
-#: app/Hooks/Handlers/CustomAuthHandler.php:90
-#: app/Hooks/Handlers/CustomAuthHandler.php:178
-#: app/Hooks/Handlers/CustomAuthHandler.php:241
-#: app/Hooks/Handlers/CustomAuthHandler.php:298
-#: app/Hooks/Handlers/CustomAuthHandler.php:329
+#: app/Hooks/Handlers/CustomAuthHandler.php:115
+#: app/Hooks/Handlers/CustomAuthHandler.php:203
+#: app/Hooks/Handlers/CustomAuthHandler.php:266
+#: app/Hooks/Handlers/CustomAuthHandler.php:323
+#: app/Hooks/Handlers/CustomAuthHandler.php:354
 #, php-format
 msgid "You are already logged in. <a href=\"%s\">Go to Home Page</a>"
 msgstr "Du bist bereits angemeldet. <a href=\"%s\">Zur Startseite</a>"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:141
+#: app/Hooks/Handlers/CustomAuthHandler.php:166
 msgid "Not registered?"
 msgstr "Noch nicht registriert?"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:143
+#: app/Hooks/Handlers/CustomAuthHandler.php:168
 msgid "Create an Account"
 msgstr "Konto erstellen"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:149
+#: app/Hooks/Handlers/CustomAuthHandler.php:174
 msgid "Forgot your password?"
 msgstr "Passwort vergessen?"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:151
-#: app/Hooks/Handlers/CustomAuthHandler.php:275
+#: app/Hooks/Handlers/CustomAuthHandler.php:176
+#: app/Hooks/Handlers/CustomAuthHandler.php:300
 #: app/Hooks/Handlers/LoginCustomizerHandler.php:105
 msgid "Reset Password"
 msgstr "Passwort zurücksetzen"
 
 #. translators: %s: Site URL
-#: app/Hooks/Handlers/CustomAuthHandler.php:172
+#: app/Hooks/Handlers/CustomAuthHandler.php:197
 #, php-format
 msgid "User registration is not enabled. <a href=\"%s\">Go to Home Page</a>"
 msgstr "Die Registrierung ist nicht aktiviert. <a href=\"%s\">Zur Startseite</a>"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:213
+#: app/Hooks/Handlers/CustomAuthHandler.php:238
 msgid "Signup"
 msgstr "Registrieren"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:221
+#: app/Hooks/Handlers/CustomAuthHandler.php:246
 msgid "Already have an account?"
 msgstr "Du hast bereits ein Konto?"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:223
+#: app/Hooks/Handlers/CustomAuthHandler.php:248
 #: app/Services/TransStrings.php:474
 #: app/Services/TwoFa/EmailTwoFaMethod.php:210
 #: app/Services/TwoFa/TotpTwoFaMethod.php:324
 msgid "Login"
 msgstr "Anmelden"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:348
-#: app/Hooks/Handlers/CustomAuthHandler.php:350
-#: app/Hooks/Handlers/MagicLoginHandler.php:105
-#: app/Hooks/Handlers/MagicLoginHandler.php:107
+#: app/Hooks/Handlers/CustomAuthHandler.php:373
+#: app/Hooks/Handlers/CustomAuthHandler.php:375
+#: app/Hooks/Handlers/MagicLoginHandler.php:95
+#: app/Hooks/Handlers/MagicLoginHandler.php:97
 msgid "Your Email/Username"
 msgstr "Deine E-Mail-Adresse oder Dein Benutzername"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:359
-#: app/Hooks/Handlers/MagicLoginHandler.php:113
+#: app/Hooks/Handlers/CustomAuthHandler.php:384
+#: app/Hooks/Handlers/MagicLoginHandler.php:103
 #: app/Hooks/Handlers/TotpSetupPageHandler.php:902
 #: app/Hooks/Handlers/TotpSetupPageHandler.php:913
 #: app/Hooks/Handlers/TwoFaProfileHandler.php:715
@@ -318,71 +318,71 @@ msgstr "Deine E-Mail-Adresse oder Dein Benutzername"
 msgid "Continue"
 msgstr "Weiter"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:432
-#: app/Hooks/Handlers/CustomAuthHandler.php:434
+#: app/Hooks/Handlers/CustomAuthHandler.php:457
+#: app/Hooks/Handlers/CustomAuthHandler.php:459
 #: app/Http/Controllers/SystemEmailsController.php:40
 msgid "First Name"
 msgstr "Vorname"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:438
-#: app/Hooks/Handlers/CustomAuthHandler.php:440
+#: app/Hooks/Handlers/CustomAuthHandler.php:463
+#: app/Hooks/Handlers/CustomAuthHandler.php:465
 #: app/Http/Controllers/SystemEmailsController.php:41
 msgid "Last Name"
 msgstr "Nachname"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:445
-#: app/Hooks/Handlers/CustomAuthHandler.php:447
+#: app/Hooks/Handlers/CustomAuthHandler.php:470
+#: app/Hooks/Handlers/CustomAuthHandler.php:472
 #: app/Http/Controllers/SystemEmailsController.php:44
-#: app/Services/TransStrings.php:991
+#: app/Services/TransStrings.php:992
 msgid "Username"
 msgstr "Benutzername"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:452
-#: app/Hooks/Handlers/CustomAuthHandler.php:479
+#: app/Hooks/Handlers/CustomAuthHandler.php:477
+#: app/Hooks/Handlers/CustomAuthHandler.php:504
 #: app/Services/TransStrings.php:305
 msgid "Email Address"
 msgstr "E-Mail-Adresse"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:454
-#: app/Hooks/Handlers/CustomAuthHandler.php:481
-#: app/Services/TransStrings.php:1069
+#: app/Hooks/Handlers/CustomAuthHandler.php:479
+#: app/Hooks/Handlers/CustomAuthHandler.php:506
+#: app/Services/TransStrings.php:1070
 msgid "Your Email Address"
 msgstr "Deine E-Mail-Adresse"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:459
-#: app/Hooks/Handlers/CustomAuthHandler.php:461
-#: app/Hooks/Handlers/CustomAuthHandler.php:1242
+#: app/Hooks/Handlers/CustomAuthHandler.php:484
+#: app/Hooks/Handlers/CustomAuthHandler.php:486
+#: app/Hooks/Handlers/CustomAuthHandler.php:1277
 #: app/Hooks/Handlers/LoginCustomizerHandler.php:220
 #: app/Services/LoginAssets.php:88 app/Services/TransStrings.php:618
 msgid "Password"
 msgstr "Passwort"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:702
+#: app/Hooks/Handlers/CustomAuthHandler.php:727
 msgid "Login is not enabled"
 msgstr "Die Anmeldung ist nicht aktiviert"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:710
+#: app/Hooks/Handlers/CustomAuthHandler.php:735
 msgid "Security nonce is required"
 msgstr "Sicherheits-Nonce fehlt"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:716
+#: app/Hooks/Handlers/CustomAuthHandler.php:741
 msgid "Security verification failed"
 msgstr "Sicherheitsüberprüfung fehlgeschlagen"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:723
-#: app/Http/Controllers/SettingsController.php:492
-#: app/Http/Controllers/SettingsController.php:498
-#: app/Http/Controllers/SettingsController.php:590
-#: app/Http/Controllers/SettingsController.php:594
-#: app/Http/Controllers/SettingsController.php:684
+#: app/Hooks/Handlers/CustomAuthHandler.php:748
+#: app/Http/Controllers/SettingsController.php:546
+#: app/Http/Controllers/SettingsController.php:552
+#: app/Http/Controllers/SettingsController.php:644
+#: app/Http/Controllers/SettingsController.php:648
+#: app/Http/Controllers/SettingsController.php:738
 msgid "Invalid request"
 msgstr "Ungültige Anfrage"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:729
+#: app/Hooks/Handlers/CustomAuthHandler.php:754
 msgid "Please enter your email address and password."
 msgstr "Bitte gib E-Mail-Adresse und Passwort ein."
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:764
+#: app/Hooks/Handlers/CustomAuthHandler.php:789
 msgid ""
 "<strong>Error</strong>: That username, email address or password is not "
 "correct."
@@ -390,82 +390,82 @@ msgstr ""
 "<strong>Fehler</strong>: Benutzername, E-Mail-Adresse oder Passwort ist "
 "falsch."
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:769
+#: app/Hooks/Handlers/CustomAuthHandler.php:794
 msgid "That email address and password do not match. Please try again."
 msgstr ""
 "E-Mail-Adresse und Passwort passen nicht zusammen. Bitte versuche es noch "
 "einmal."
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:800
+#: app/Hooks/Handlers/CustomAuthHandler.php:830
 msgid "User registration is not enabled"
 msgstr "Die Registrierung ist nicht aktiviert"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:806
-#: app/Hooks/Handlers/CustomAuthHandler.php:966
-#: app/Hooks/Handlers/MagicLoginHandler.php:218
+#: app/Hooks/Handlers/CustomAuthHandler.php:836
+#: app/Hooks/Handlers/CustomAuthHandler.php:1001
+#: app/Hooks/Handlers/MagicLoginHandler.php:208
 msgid ""
 "That form had been open too long. Please reload the page and try again."
 msgstr ""
 "Das Formular war zu lange offen. Bitte lade die Seite neu und versuche es "
 "noch einmal."
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:830
+#: app/Hooks/Handlers/CustomAuthHandler.php:860
 msgid ""
 "Some of the details are not right. Please check the form and try again."
 msgstr ""
 "Einige Angaben stimmen nicht. Bitte prüfe das Formular und versuche es noch "
 "einmal."
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:864
-#: app/Hooks/Handlers/CustomAuthHandler.php:869
+#: app/Hooks/Handlers/CustomAuthHandler.php:894
+#: app/Hooks/Handlers/CustomAuthHandler.php:899
 msgid "Please provide a valid name"
 msgstr "Bitte gib einen gültigen Namen ein"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:915
+#: app/Hooks/Handlers/CustomAuthHandler.php:945
 msgid "Your account has been created. You can sign in now."
 msgstr "Dein Konto ist angelegt. Du kannst Dich jetzt anmelden."
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:924
-#: app/Services/AuthService.php:227
+#: app/Hooks/Handlers/CustomAuthHandler.php:954
+#: app/Services/AuthService.php:226
 msgid "Please complete the second step to finish signing in."
 msgstr "Bitte schließe den zweiten Schritt ab, um die Anmeldung zu beenden."
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:930
+#: app/Hooks/Handlers/CustomAuthHandler.php:960
 msgid "Successfully registered to the site."
 msgstr "Du bist jetzt auf der Website registriert."
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:975
+#: app/Hooks/Handlers/CustomAuthHandler.php:1010
 msgid "Username or email is required"
 msgstr "Benutzername oder E-Mail-Adresse fehlt"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1009
+#: app/Hooks/Handlers/CustomAuthHandler.php:1044
 msgid "Please check your email for the reset link"
 msgstr "Bitte sieh in Deinem Postfach nach dem Link zum Zurücksetzen"
 
 #. translators: %s: Site Name
-#: app/Hooks/Handlers/CustomAuthHandler.php:1040
-#: app/Hooks/Handlers/CustomAuthHandler.php:1059
+#: app/Hooks/Handlers/CustomAuthHandler.php:1075
+#: app/Hooks/Handlers/CustomAuthHandler.php:1094
 #, php-format
 msgid "Reset your password for %s"
 msgstr "Passwort für %s zurücksetzen"
 
 #. translators: %s: User's first name
-#: app/Hooks/Handlers/CustomAuthHandler.php:1062
+#: app/Hooks/Handlers/CustomAuthHandler.php:1097
 #, php-format
 msgid "Hi %s,"
 msgstr "Hallo %s,"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1063
+#: app/Hooks/Handlers/CustomAuthHandler.php:1098
 msgid "Someone asked to reset the password for this account:"
 msgstr "Für dieses Konto wurde ein neues Passwort angefordert:"
 
 #. translators: %s: User's Login
-#: app/Hooks/Handlers/CustomAuthHandler.php:1065
+#: app/Hooks/Handlers/CustomAuthHandler.php:1100
 #, php-format
 msgid "Username: %s"
 msgstr "Benutzername: %s"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1067
+#: app/Hooks/Handlers/CustomAuthHandler.php:1102
 msgid ""
 "If you did not request to reset your password, please ignore this email."
 msgstr ""
@@ -473,42 +473,42 @@ msgstr ""
 "einfach."
 
 #. translators: %s: Form Field Label
-#: app/Hooks/Handlers/CustomAuthHandler.php:1117
+#: app/Hooks/Handlers/CustomAuthHandler.php:1152
 #, php-format
 msgid "%s is required"
 msgstr "%s ist erforderlich"
 
 #. translators: %s: Form Field Label
-#: app/Hooks/Handlers/CustomAuthHandler.php:1123
+#: app/Hooks/Handlers/CustomAuthHandler.php:1158
 #, php-format
 msgid "Provided %s is not a valid email"
 msgstr "%s ist keine gültige E-Mail-Adresse"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1131
+#: app/Hooks/Handlers/CustomAuthHandler.php:1166
 msgid "Password must be at least 6 characters long"
 msgstr "Das Passwort muss mindestens 6 Zeichen lang sein"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1241
-#: app/Services/TransStrings.php:992
+#: app/Hooks/Handlers/CustomAuthHandler.php:1276
+#: app/Services/TransStrings.php:993
 msgid "Username or Email Address"
 msgstr "Benutzername oder E-Mail-Adresse"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1243
+#: app/Hooks/Handlers/CustomAuthHandler.php:1278
 #: app/Services/TransStrings.php:686
 msgid "Remember Me"
 msgstr "Angemeldet bleiben"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1244
+#: app/Hooks/Handlers/CustomAuthHandler.php:1279
 #: app/Services/TransStrings.php:472
 msgid "Log In"
 msgstr "Anmelden"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1342
+#: app/Hooks/Handlers/CustomAuthHandler.php:1377
 msgid "Too many requests. Please try again later"
 msgstr "Zu viele Anfragen. Bitte versuche es später noch einmal"
 
 #. translators: %s: Site Name
-#: app/Hooks/Handlers/CustomAuthHandler.php:1361
+#: app/Hooks/Handlers/CustomAuthHandler.php:1396
 #, php-format
 msgid "Your registration verification code for %s"
 msgstr "Dein Bestätigungscode für die Registrierung bei %s"
@@ -516,14 +516,14 @@ msgstr "Dein Bestätigungscode für die Registrierung bei %s"
 #. translators: %s: First Name
 #. translators: %s: user's display name
 #. translators: %s: User's Display Name
-#: app/Hooks/Handlers/CustomAuthHandler.php:1366
-#: app/Hooks/Handlers/MagicLoginHandler.php:287
+#: app/Hooks/Handlers/CustomAuthHandler.php:1401
+#: app/Hooks/Handlers/MagicLoginHandler.php:277
 #: app/Services/TwoFa/EmailTwoFaMethod.php:298
 #, php-format
 msgid "Hello %s,"
 msgstr "Hallo %s,"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1367
+#: app/Hooks/Handlers/CustomAuthHandler.php:1402
 msgid ""
 "Thanks for signing up. Enter the code below on the registration page to "
 "finish setting up your account."
@@ -532,12 +532,12 @@ msgstr ""
 "Registrierungsseite ein, um Dein Konto fertig einzurichten."
 
 #. translators: %s: Verification code
-#: app/Hooks/Handlers/CustomAuthHandler.php:1369
+#: app/Hooks/Handlers/CustomAuthHandler.php:1404
 #, php-format
 msgid "Verification Code: %s"
 msgstr "Bestätigungscode: %s"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1371
+#: app/Hooks/Handlers/CustomAuthHandler.php:1406
 msgid ""
 "The code works for 10 minutes. If you did not ask for it, you can ignore "
 "this email."
@@ -545,27 +545,27 @@ msgstr ""
 "Der Code gilt 10 Minuten. Falls Du ihn nicht angefordert hast, kannst Du "
 "diese E-Mail ignorieren."
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1377
+#: app/Hooks/Handlers/CustomAuthHandler.php:1412
 msgid "Activate your account"
 msgstr "Konto aktivieren"
 
 #. translators: %s: Email
-#: app/Hooks/Handlers/CustomAuthHandler.php:1394
+#: app/Hooks/Handlers/CustomAuthHandler.php:1429
 #, php-format
 msgid ""
 "A verification code has been sent to %s. Please provide the code below: "
 msgstr ""
 "Wir haben einen Bestätigungscode an %s geschickt. Bitte gib ihn hier ein: "
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1397
+#: app/Hooks/Handlers/CustomAuthHandler.php:1432
 msgid "Verification Code"
 msgstr "Bestätigungscode"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1401
+#: app/Hooks/Handlers/CustomAuthHandler.php:1436
 msgid "2FA Code"
 msgstr "Bestätigungscode"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1416
+#: app/Hooks/Handlers/CustomAuthHandler.php:1451
 msgid "Complete Signup"
 msgstr "Registrierung abschließen"
 
@@ -579,7 +579,7 @@ msgid "You are already logged in."
 msgstr "Du bist bereits angemeldet."
 
 #: app/Hooks/Handlers/GoogleOneTapAuthHandler.php:172
-#: app/Hooks/Handlers/SocialAuthHandler.php:282
+#: app/Hooks/Handlers/SocialAuthHandler.php:274
 msgid ""
 "Your Google email address does not match with your current account email "
 "address. Please use the same email address"
@@ -588,11 +588,11 @@ msgstr ""
 "Deines Kontos hier überein. Bitte verwende dieselbe E-Mail-Adresse"
 
 #: app/Hooks/Handlers/GoogleOneTapAuthHandler.php:177
-#: app/Hooks/Handlers/SocialAuthHandler.php:287
+#: app/Hooks/Handlers/SocialAuthHandler.php:279
 msgid "Sorry! we could not find your valid email from Google API"
 msgstr "Von Google kam keine gültige E-Mail-Adresse zurück"
 
-#: app/Hooks/Handlers/GoogleOneTapAuthHandler.php:261
+#: app/Hooks/Handlers/GoogleOneTapAuthHandler.php:257
 msgid "An error occurred during the login process. Please try again."
 msgstr ""
 "Bei der Anmeldung ist ein Fehler aufgetreten. Bitte versuche es noch einmal."
@@ -610,7 +610,7 @@ msgid "Logo"
 msgstr "Logo"
 
 #: app/Hooks/Handlers/LoginCustomizerHandler.php:215
-#: app/Services/TransStrings.php:1070
+#: app/Services/TransStrings.php:1071
 msgid "Your Full Name"
 msgstr "Dein vollständiger Name"
 
@@ -744,23 +744,23 @@ msgstr ""
 #. translators: %d: munites
 #. translators: %d: Minite
 #: app/Hooks/Handlers/LoginSecurityHandler.php:1000
-#: app/Hooks/Handlers/MagicLoginHandler.php:208
+#: app/Hooks/Handlers/MagicLoginHandler.php:198
 #, php-format
 msgid "Too many tries. Please wait %d minutes and try again."
 msgstr ""
 "Zu viele Versuche. Bitte warte %d Minuten und versuche es dann noch einmal."
 
-#: app/Hooks/Handlers/MagicLoginHandler.php:90
-#: app/Hooks/Handlers/MagicLoginHandler.php:120
+#: app/Hooks/Handlers/MagicLoginHandler.php:80
+#: app/Hooks/Handlers/MagicLoginHandler.php:110
 #: app/Hooks/Handlers/PasskeyLoginHandler.php:177
 msgid "Or"
 msgstr "Oder"
 
-#: app/Hooks/Handlers/MagicLoginHandler.php:96
+#: app/Hooks/Handlers/MagicLoginHandler.php:86
 msgid "Login Via Magic URL"
 msgstr "Per Anmeldelink anmelden"
 
-#: app/Hooks/Handlers/MagicLoginHandler.php:102
+#: app/Hooks/Handlers/MagicLoginHandler.php:92
 msgid ""
 "Enter the email address or username associated with your account, and we'll "
 "send a magic link to your inbox."
@@ -768,15 +768,15 @@ msgstr ""
 "Gib die E-Mail-Adresse oder den Benutzernamen Deines Kontos ein. Wir "
 "schicken Dir dann einen Anmeldelink."
 
-#: app/Hooks/Handlers/MagicLoginHandler.php:125
+#: app/Hooks/Handlers/MagicLoginHandler.php:115
 msgid "Use Regular Login form"
 msgstr "Normales Anmeldeformular verwenden"
 
-#: app/Hooks/Handlers/MagicLoginHandler.php:173
+#: app/Hooks/Handlers/MagicLoginHandler.php:163
 msgid "Sign-in links are switched off on this site."
 msgstr "Anmeldelinks sind auf dieser Website abgeschaltet."
 
-#: app/Hooks/Handlers/MagicLoginHandler.php:256
+#: app/Hooks/Handlers/MagicLoginHandler.php:246
 msgid ""
 "Your account cannot use sign-in links. Please use the normal login form."
 msgstr ""
@@ -784,40 +784,40 @@ msgstr ""
 " das normale Anmeldeformular."
 
 #. translators: %s: Site Name
-#: app/Hooks/Handlers/MagicLoginHandler.php:283
-#: app/Hooks/Handlers/MagicLoginHandler.php:296
+#: app/Hooks/Handlers/MagicLoginHandler.php:273
+#: app/Hooks/Handlers/MagicLoginHandler.php:286
 #: app/Services/TwoFa/EmailTwoFaMethod.php:316
 #, php-format
 msgid "Sign in to %s"
 msgstr "Bei %s anmelden"
 
 #. translators: %s: Site Name
-#: app/Hooks/Handlers/MagicLoginHandler.php:289
+#: app/Hooks/Handlers/MagicLoginHandler.php:279
 #, php-format
 msgid "Click the link below to sign in to your %s account"
 msgstr "Klicke auf den Link unten, um Dich bei Deinem Konto auf %s anzumelden"
 
 #. translators: %d: Minute
-#: app/Hooks/Handlers/MagicLoginHandler.php:291
+#: app/Hooks/Handlers/MagicLoginHandler.php:281
 #, php-format
 msgid "This link will expire in %d minutes and can only be used once."
 msgstr "Der Link ist %d Minuten gültig und funktioniert nur einmal."
 
-#: app/Hooks/Handlers/MagicLoginHandler.php:301
+#: app/Hooks/Handlers/MagicLoginHandler.php:291
 msgid ""
 "If the button above does not work, paste this link into your web browser:"
 msgstr ""
 "Falls der Button oben nicht funktioniert, kopiere diesen Link in Deinen "
 "Browser:"
 
-#: app/Hooks/Handlers/MagicLoginHandler.php:304
+#: app/Hooks/Handlers/MagicLoginHandler.php:294
 #: app/Services/TwoFa/EmailTwoFaMethod.php:323
 msgid "If you did not make this request, you can safely ignore this email."
 msgstr ""
 "Falls Du das nicht angefordert hast, kannst Du diese E-Mail einfach "
 "ignorieren."
 
-#: app/Hooks/Handlers/MagicLoginHandler.php:354
+#: app/Hooks/Handlers/MagicLoginHandler.php:344
 msgid ""
 "We just emailed a login link to your registered email. Click the link to "
 "sign in."
@@ -826,14 +826,14 @@ msgstr ""
 "geschickt. Klicke auf den Link, um Dich anzumelden."
 
 #. translators: %s: User Email
-#: app/Hooks/Handlers/MagicLoginHandler.php:358
+#: app/Hooks/Handlers/MagicLoginHandler.php:348
 #, php-format
 msgid "We just emailed a magic link to %s. Click the link to sign in."
 msgstr ""
 "Wir haben einen Anmeldelink an %s geschickt. Klicke auf den Link, um Dich "
 "anzumelden."
 
-#: app/Hooks/Handlers/MagicLoginHandler.php:362
+#: app/Hooks/Handlers/MagicLoginHandler.php:352
 msgid "Check your inbox"
 msgstr "Sieh in Dein Postfach"
 
@@ -1004,15 +1004,15 @@ msgstr ""
 msgid "Sorry! we could not find your valid email via github"
 msgstr "Von GitHub kam keine gültige E-Mail-Adresse zurück"
 
-#: app/Hooks/Handlers/SocialAuthHandler.php:264
+#: app/Hooks/Handlers/SocialAuthHandler.php:256
 msgid "Sorry! we could not authenticate you via google"
 msgstr "Die Anmeldung über Google ist fehlgeschlagen"
 
-#: app/Hooks/Handlers/SocialAuthHandler.php:338
+#: app/Hooks/Handlers/SocialAuthHandler.php:325
 msgid "Sorry! we could not authenticate you via Facebook"
 msgstr "Die Anmeldung über Facebook ist fehlgeschlagen"
 
-#: app/Hooks/Handlers/SocialAuthHandler.php:356
+#: app/Hooks/Handlers/SocialAuthHandler.php:343
 msgid ""
 "Your Facebook email address does not match with your current account email "
 "address. Please use the same email address"
@@ -1020,38 +1020,38 @@ msgstr ""
 "Die E-Mail-Adresse Deines Facebook-Kontos stimmt nicht mit der E-Mail-"
 "Adresse Deines Kontos hier überein. Bitte verwende dieselbe E-Mail-Adresse"
 
-#: app/Hooks/Handlers/SocialAuthHandler.php:361
+#: app/Hooks/Handlers/SocialAuthHandler.php:348
 msgid "Sorry! we could not find your valid email from Facebook API"
 msgstr "Von Facebook kam keine gültige E-Mail-Adresse zurück"
 
-#: app/Hooks/Handlers/SocialAuthHandler.php:420
+#: app/Hooks/Handlers/SocialAuthHandler.php:402
 msgid "Login with"
 msgstr "Anmelden mit"
 
-#: app/Hooks/Handlers/SocialAuthHandler.php:445
+#: app/Hooks/Handlers/SocialAuthHandler.php:427
 #, php-format
 msgid "%s Google"
 msgstr "%s Google"
 
-#: app/Hooks/Handlers/SocialAuthHandler.php:457
+#: app/Hooks/Handlers/SocialAuthHandler.php:439
 #, php-format
 msgid "%s Github"
 msgstr "%s GitHub"
 
-#: app/Hooks/Handlers/SocialAuthHandler.php:468
+#: app/Hooks/Handlers/SocialAuthHandler.php:450
 #, php-format
 msgid "%s Facebook"
 msgstr "%s Facebook"
 
-#: app/Hooks/Handlers/SocialAuthHandler.php:518
+#: app/Hooks/Handlers/SocialAuthHandler.php:500
 msgid "Signup with"
 msgstr "Registrieren mit"
 
-#: app/Hooks/Handlers/SocialAuthHandler.php:654
+#: app/Hooks/Handlers/SocialAuthHandler.php:636
 msgid "Login or Signup"
 msgstr "Anmelden oder registrieren"
 
-#: app/Hooks/Handlers/SocialAuthHandler.php:655
+#: app/Hooks/Handlers/SocialAuthHandler.php:637
 msgid "Connect with"
 msgstr "Verbinden mit"
 
@@ -1146,7 +1146,7 @@ msgstr ""
 
 #: app/Hooks/Handlers/TotpSetupPageHandler.php:366
 #: app/Hooks/Handlers/TwoFaProfileHandler.php:81
-#: app/Services/TransStrings.php:968
+#: app/Services/TransStrings.php:969
 msgid "Two-Factor Authentication"
 msgstr "Zwei-Faktor-Authentifizierung"
 
@@ -1385,12 +1385,12 @@ msgstr "Diese Art der Anmeldung steht für Dein Konto nicht zur Verfügung."
 msgid "That code is not correct. Please try again."
 msgstr "Der Code ist falsch. Bitte versuche es noch einmal."
 
-#: app/Hooks/Handlers/TwoFaHandler.php:531
+#: app/Hooks/Handlers/TwoFaHandler.php:534
 msgid "Something went wrong while signing you in. Please try again."
 msgstr ""
 "Bei der Anmeldung ist etwas schiefgegangen. Bitte versuche es noch einmal."
 
-#: app/Hooks/Handlers/TwoFaHandler.php:620
+#: app/Hooks/Handlers/TwoFaHandler.php:623
 msgid ""
 "This account needs a second factor, which cannot be completed over the REST "
 "API. Sign in through the site's login page, or use an application password."
@@ -1399,17 +1399,17 @@ msgstr ""
 "API nicht abschließen. Melde Dich über die Anmeldeseite der Website an oder "
 "verwende ein Anwendungspasswort."
 
-#: app/Hooks/Handlers/TwoFaHandler.php:1122
+#: app/Hooks/Handlers/TwoFaHandler.php:1125
 msgid "Finish signing in"
 msgstr "Weiter zur Code-Eingabe"
 
 #. translators: %s: URL of the second factor form
-#: app/Hooks/Handlers/TwoFaHandler.php:1127
+#: app/Hooks/Handlers/TwoFaHandler.php:1130
 #, php-format
 msgid "Finish signing in at %s"
 msgstr "Anmeldung abschließen unter %s"
 
-#: app/Hooks/Handlers/TwoFaHandler.php:1298
+#: app/Hooks/Handlers/TwoFaHandler.php:1301
 msgid "That code is not correct."
 msgstr "Der Code ist falsch."
 
@@ -1470,7 +1470,7 @@ msgid "Set up"
 msgstr "Einrichten"
 
 #: app/Hooks/Handlers/TwoFaProfileHandler.php:281
-#: app/Services/TransStrings.php:964
+#: app/Services/TransStrings.php:965
 msgid "Turn off"
 msgstr "Ausschalten"
 
@@ -1868,7 +1868,7 @@ msgid "The snapshot has been cleared."
 msgstr "Der Snapshot wurde gelöscht."
 
 #: app/Http/Controllers/DashboardController.php:100
-#: app/Services/TransStrings.php:951
+#: app/Services/TransStrings.php:952
 msgid "Today"
 msgstr "Heute"
 
@@ -1883,7 +1883,7 @@ msgid "Last 30 days"
 msgstr "Letzte 30 Tage"
 
 #: app/Http/Controllers/DashboardController.php:115
-#: app/Services/TransStrings.php:928
+#: app/Services/TransStrings.php:929
 msgid "This month"
 msgstr "Dieser Monat"
 
@@ -1912,7 +1912,7 @@ msgstr "von %s Benutzern"
 
 #. translators: %s: a length of time, for example "3 days"
 #: app/Http/Controllers/DashboardController.php:532
-#: app/Http/Controllers/LogsController.php:72
+#: app/Http/Controllers/LogsController.php:77
 #: app/Services/Recovery/FileRecovery.php:277
 #: app/Services/Recovery/FileRecovery.php:304
 #: app/Services/Recovery/FileRecovery.php:1066
@@ -1953,11 +1953,11 @@ msgstr[1] ""
 "Gespeichert. %s wurden aus der Sperrliste entfernt, weil die Positivliste "
 "diese Adressen abdeckt."
 
-#: app/Http/Controllers/LogsController.php:202
+#: app/Http/Controllers/LogsController.php:207
 msgid "Log has been deleted"
 msgstr "Protokolleintrag gelöscht"
 
-#: app/Http/Controllers/LogsController.php:213
+#: app/Http/Controllers/LogsController.php:218
 msgid "All Logs has been deleted"
 msgstr "Alle Protokolleinträge gelöscht"
 
@@ -1994,35 +1994,35 @@ msgstr ""
 "Die Website konnte nicht gescannt werden. Bitte in ein paar Minuten noch "
 "einmal versuchen."
 
-#: app/Http/Controllers/SecurityScanController.php:403
+#: app/Http/Controllers/SecurityScanController.php:420
 msgid "Please provide the plugin or theme to check."
 msgstr "Bitte das zu prüfende Plugin oder Theme angeben."
 
-#: app/Http/Controllers/SecurityScanController.php:420
-#: app/Http/Controllers/SecurityScanController.php:878
+#: app/Http/Controllers/SecurityScanController.php:437
+#: app/Http/Controllers/SecurityScanController.php:895
 #: app/Services/Recovery/FileRecovery.php:480
 msgid "That plugin or theme is not installed on this site."
 msgstr "Dieses Plugin oder Theme ist auf dieser Website nicht installiert."
 
-#: app/Http/Controllers/SecurityScanController.php:444
+#: app/Http/Controllers/SecurityScanController.php:461
 msgid "Please provide a valid file name."
 msgstr "Bitte einen gültigen Dateinamen angeben."
 
-#: app/Http/Controllers/SecurityScanController.php:472
+#: app/Http/Controllers/SecurityScanController.php:489
 msgid "Ignore status has been updated."
 msgstr "Status „Ignorieren“ aktualisiert."
 
-#: app/Http/Controllers/SecurityScanController.php:482
-#: app/Http/Controllers/SecurityScanController.php:959
-#: app/Http/Controllers/SecurityScanController.php:1068
+#: app/Http/Controllers/SecurityScanController.php:499
+#: app/Http/Controllers/SecurityScanController.php:976
+#: app/Http/Controllers/SecurityScanController.php:1085
 msgid "Please provide a valid file name and status."
 msgstr "Bitte einen gültigen Dateinamen und Status angeben."
 
-#: app/Http/Controllers/SecurityScanController.php:508
+#: app/Http/Controllers/SecurityScanController.php:525
 msgid "Sorry, we could not compare the changes via Github API."
 msgstr "Die Änderungen ließen sich nicht über die GitHub-API vergleichen."
 
-#: app/Http/Controllers/SecurityScanController.php:561
+#: app/Http/Controllers/SecurityScanController.php:578
 msgid ""
 "There are no must-use plugins on this site, so there is nothing to record."
 msgstr ""
@@ -2030,7 +2030,7 @@ msgstr ""
 "erfassen."
 
 #. translators: %s: number of files
-#: app/Http/Controllers/SecurityScanController.php:591
+#: app/Http/Controllers/SecurityScanController.php:608
 #, php-format
 msgid "%s file recorded. You will hear about it only if it changes."
 msgid_plural ""
@@ -2038,37 +2038,37 @@ msgid_plural ""
 msgstr[0] "%s Datei erfasst. Gemeldet wird sie nur, wenn sie sich ändert."
 msgstr[1] "%s Dateien erfasst. Gemeldet werden sie nur, wenn sie sich ändern."
 
-#: app/Http/Controllers/SecurityScanController.php:695
+#: app/Http/Controllers/SecurityScanController.php:712
 msgid "This site has no must-use plugins directory."
 msgstr "Diese Website hat kein Verzeichnis für Must-Use-Plugins."
 
-#: app/Http/Controllers/SecurityScanController.php:706
-#: app/Http/Controllers/SecurityScanController.php:783
-#: app/Http/Controllers/SecurityScanController.php:903
-#: app/Http/Controllers/SecurityScanController.php:918
+#: app/Http/Controllers/SecurityScanController.php:723
+#: app/Http/Controllers/SecurityScanController.php:800
+#: app/Http/Controllers/SecurityScanController.php:920
+#: app/Http/Controllers/SecurityScanController.php:935
 msgid "This file could not be viewed for security reason."
 msgstr "Diese Datei kann aus Sicherheitsgründen nicht angezeigt werden."
 
-#: app/Http/Controllers/SecurityScanController.php:714
-#: app/Http/Controllers/SecurityScanController.php:1238
-#: app/Http/Controllers/SecurityScanController.php:1244
-#: app/Http/Controllers/SecurityScanController.php:1249
+#: app/Http/Controllers/SecurityScanController.php:731
+#: app/Http/Controllers/SecurityScanController.php:1255
+#: app/Http/Controllers/SecurityScanController.php:1261
+#: app/Http/Controllers/SecurityScanController.php:1266
 msgid "This file could not be viewed."
 msgstr "Diese Datei konnte nicht angezeigt werden."
 
-#: app/Http/Controllers/SecurityScanController.php:760
+#: app/Http/Controllers/SecurityScanController.php:777
 msgid "Invalid folder name."
 msgstr "Ungültiger Ordnername."
 
-#: app/Http/Controllers/SecurityScanController.php:835
+#: app/Http/Controllers/SecurityScanController.php:852
 msgid "Sorry, we could not fetch the original file from WordPress.org."
 msgstr "Die Originaldatei konnte nicht von WordPress.org abgerufen werden."
 
-#: app/Http/Controllers/SecurityScanController.php:866
+#: app/Http/Controllers/SecurityScanController.php:883
 msgid "Please provide the plugin or theme to view."
 msgstr "Bitte das anzuzeigende Plugin oder Theme angeben."
 
-#: app/Http/Controllers/SecurityScanController.php:965
+#: app/Http/Controllers/SecurityScanController.php:982
 msgid ""
 "This file is not part of the official release, so there is no original to "
 "put back. Look at it and decide whether it belongs there."
@@ -2077,7 +2077,7 @@ msgstr ""
 "Original zum Wiederherstellen. Bitte ansehen und entscheiden, ob sie dorthin"
 " gehört."
 
-#: app/Http/Controllers/SecurityScanController.php:995
+#: app/Http/Controllers/SecurityScanController.php:1012
 msgid ""
 "The official copy of this file could not be fetched, so nothing has been "
 "changed."
@@ -2085,7 +2085,7 @@ msgstr ""
 "Die offizielle Kopie dieser Datei konnte nicht abgerufen werden, daher wurde"
 " nichts geändert."
 
-#: app/Http/Controllers/SecurityScanController.php:1003
+#: app/Http/Controllers/SecurityScanController.php:1020
 msgid ""
 "This file cannot be written to from here. Your host or your file permissions"
 " will need to allow it."
@@ -2093,7 +2093,7 @@ msgstr ""
 "Diese Datei lässt sich von hier aus nicht schreiben. Das müssen der Hoster "
 "oder die Dateiberechtigungen zulassen."
 
-#: app/Http/Controllers/SecurityScanController.php:1020
+#: app/Http/Controllers/SecurityScanController.php:1037
 msgid ""
 "The file could not be replaced properly. Check it before relying on this "
 "site."
@@ -2102,12 +2102,12 @@ msgstr ""
 "Website weiter genutzt wird."
 
 #. translators: %s: a file path
-#: app/Http/Controllers/SecurityScanController.php:1028
+#: app/Http/Controllers/SecurityScanController.php:1045
 #, php-format
 msgid "%s has been put back to the official version."
 msgstr "%s wurde auf die offizielle Version zurückgesetzt."
 
-#: app/Http/Controllers/SecurityScanController.php:1074
+#: app/Http/Controllers/SecurityScanController.php:1091
 msgid ""
 "Only a file that is not part of the official release can be deleted. This "
 "one has an official copy, so put it back instead."
@@ -2115,7 +2115,7 @@ msgstr ""
 "Löschen lässt sich nur eine Datei, die nicht zur offiziellen Version gehört."
 " Für diese gibt es eine offizielle Kopie, also stattdessen wiederherstellen."
 
-#: app/Http/Controllers/SecurityScanController.php:1098
+#: app/Http/Controllers/SecurityScanController.php:1115
 msgid ""
 "The last scan does not list this file as one that is not part of the "
 "official release. Run the scan again, then look at it there."
@@ -2123,7 +2123,7 @@ msgstr ""
 "Der letzte Scan führt diese Datei nicht als Datei außerhalb der offiziellen "
 "Version. Scan erneut starten und die Datei dort ansehen."
 
-#: app/Http/Controllers/SecurityScanController.php:1115
+#: app/Http/Controllers/SecurityScanController.php:1132
 msgid ""
 "This file could not be deleted. Your host or your file permissions will need"
 " to allow it, and nothing has been changed."
@@ -2132,50 +2132,50 @@ msgstr ""
 "müssen der Hoster oder die Dateiberechtigungen zulassen."
 
 #. translators: %s: a file path
-#: app/Http/Controllers/SecurityScanController.php:1124
+#: app/Http/Controllers/SecurityScanController.php:1141
 #, php-format
 msgid "Permanently deleted %s from the monitoring screen."
 msgstr "%s über die Überwachungsansicht endgültig gelöscht."
 
 #. translators: %s: a file path
-#: app/Http/Controllers/SecurityScanController.php:1132
+#: app/Http/Controllers/SecurityScanController.php:1149
 #, php-format
 msgid "%s has been deleted from the server."
 msgstr "%s wurde vom Server gelöscht."
 
-#: app/Http/Controllers/SecurityScanController.php:1194
+#: app/Http/Controllers/SecurityScanController.php:1211
 msgid "This file is too large to be viewed."
 msgstr "Diese Datei ist zu groß für die Anzeige."
 
-#: app/Http/Controllers/SecurityScanController.php:1198
+#: app/Http/Controllers/SecurityScanController.php:1215
 msgid "This file is not readable."
 msgstr "Diese Datei ist nicht lesbar."
 
-#: app/Http/Controllers/SecurityScanController.php:1270
+#: app/Http/Controllers/SecurityScanController.php:1287
 msgid "Please provide a valid interval."
 msgstr "Bitte ein gültiges Intervall angeben."
 
-#: app/Http/Controllers/SecurityScanController.php:1277
+#: app/Http/Controllers/SecurityScanController.php:1294
 msgid "That is not a scanning interval."
 msgstr "Das ist kein gültiges Scan-Intervall."
 
-#: app/Http/Controllers/SecurityScanController.php:1285
+#: app/Http/Controllers/SecurityScanController.php:1302
 msgid "Schedule scan has been updated."
 msgstr "Scan-Zeitplan aktualisiert."
 
-#: app/Http/Controllers/SecurityScanController.php:1298
+#: app/Http/Controllers/SecurityScanController.php:1315
 msgid "Ignore lists have been reset successfully."
 msgstr "Ignorierlisten zurückgesetzt."
 
-#: app/Http/Controllers/SecurityScanController.php:1320
+#: app/Http/Controllers/SecurityScanController.php:1337
 msgid "API has been reset successfully."
 msgstr "API-Verbindung zurückgesetzt."
 
-#: app/Http/Controllers/SecurityScanController.php:1342
+#: app/Http/Controllers/SecurityScanController.php:1359
 msgid "This site is not waiting to be reconnected."
 msgstr "Diese Website wartet nicht auf eine erneute Verbindung."
 
-#: app/Http/Controllers/SecurityScanController.php:1361
+#: app/Http/Controllers/SecurityScanController.php:1378
 msgid ""
 "This site is still disabled on your alerts dashboard. Re-enable it there, "
 "then try again."
@@ -2183,7 +2183,7 @@ msgstr ""
 "Diese Website ist im Warnungs-Dashboard noch deaktiviert. Erst dort wieder "
 "aktivieren, dann erneut versuchen."
 
-#: app/Http/Controllers/SecurityScanController.php:1373
+#: app/Http/Controllers/SecurityScanController.php:1390
 msgid ""
 "Reporting has been switched back on, but your alerts dashboard could not be "
 "reached to confirm it. The next scheduled scan will try again."
@@ -2191,7 +2191,7 @@ msgstr ""
 "Die Meldungen sind wieder eingeschaltet, aber das Warnungs-Dashboard war zur"
 " Bestätigung nicht erreichbar. Der nächste geplante Scan versucht es erneut."
 
-#: app/Http/Controllers/SecurityScanController.php:1377
+#: app/Http/Controllers/SecurityScanController.php:1394
 msgid ""
 "Reporting has resumed. Your alerts dashboard is receiving this site again."
 msgstr ""
@@ -2199,8 +2199,8 @@ msgstr ""
 "dieser Website."
 
 #: app/Http/Controllers/SettingsController.php:83
-#: app/Http/Controllers/SettingsController.php:389
-#: app/Http/Controllers/SettingsController.php:409
+#: app/Http/Controllers/SettingsController.php:443
+#: app/Http/Controllers/SettingsController.php:463
 msgid "Settings have been updated"
 msgstr "Einstellungen aktualisiert"
 
@@ -2214,91 +2214,123 @@ msgstr "Zuerst eine Methode einschalten, die diese Rollen nutzen können: %s"
 msgid "Form Validation failed"
 msgstr "Formularprüfung fehlgeschlagen"
 
-#: app/Http/Controllers/SettingsController.php:299
+#. translators: %s: the address that was entered
+#: app/Http/Controllers/SettingsController.php:307
+#, php-format
+msgid "After signing in: %s is not on this site."
+msgstr "Nach der Anmeldung: %s liegt nicht auf dieser Website."
+
+#. translators: %s: the address that was entered
+#: app/Http/Controllers/SettingsController.php:312
+#, php-format
+msgid "After signing out: %s is not on this site."
+msgstr "Nach der Abmeldung: %s liegt nicht auf dieser Website."
+
+#. translators: 1: rule number, 2: the address that was entered
+#: app/Http/Controllers/SettingsController.php:318
+#, php-format
+msgid "Rule %1$d, after signing in: %2$s is not on this site."
+msgstr "Regel %1$d, nach der Anmeldung: %2$s liegt nicht auf dieser Website."
+
+#. translators: 1: rule number, 2: the address that was entered
+#: app/Http/Controllers/SettingsController.php:323
+#, php-format
+msgid "Rule %1$d, after signing out: %2$s is not on this site."
+msgstr "Regel %1$d, nach der Abmeldung: %2$s liegt nicht auf dieser Website."
+
+#: app/Http/Controllers/SettingsController.php:345
 msgid "Admin dashboard"
 msgstr "Admin-Dashboard"
 
-#: app/Http/Controllers/SettingsController.php:303
-#: app/Http/Controllers/SettingsController.php:313
+#: app/Http/Controllers/SettingsController.php:349
+#: app/Http/Controllers/SettingsController.php:359
 msgid "Site home page"
 msgstr "Startseite der Website"
 
-#: app/Http/Controllers/SettingsController.php:307
+#: app/Http/Controllers/SettingsController.php:353
 msgid "Their profile page"
 msgstr "Das eigene Profil"
 
-#: app/Http/Controllers/SettingsController.php:317
+#: app/Http/Controllers/SettingsController.php:363
 msgid "The login page"
 msgstr "Die Anmeldeseite"
 
-#: app/Http/Controllers/SettingsController.php:419
+#: app/Http/Controllers/SettingsController.php:430
+msgid ""
+"Redirects have to stay on this site. Use an address on this site, or a path "
+"such as /members/."
+msgstr ""
+"Weiterleitungen müssen auf dieser Website bleiben. Bitte eine Adresse dieser"
+" Website verwenden oder einen Pfad wie /members/."
+
+#: app/Http/Controllers/SettingsController.php:473
 msgid "Invalid file"
 msgstr "Ungültige Datei"
 
-#: app/Http/Controllers/SettingsController.php:442
+#: app/Http/Controllers/SettingsController.php:496
 msgid "Sorry, you can only upload JPG, PNG, GIF, WebP or BMP files."
 msgstr "Hochladen lassen sich nur JPG-, PNG-, GIF-, WebP- oder BMP-Dateien."
 
-#: app/Http/Controllers/SettingsController.php:470
-#: app/Http/Controllers/SettingsController.php:561
+#: app/Http/Controllers/SettingsController.php:524
+#: app/Http/Controllers/SettingsController.php:615
 msgid "This feature is only available in the server mode."
 msgstr "Diese Funktion ist nur im Servermodus verfügbar."
 
-#: app/Http/Controllers/SettingsController.php:485
+#: app/Http/Controllers/SettingsController.php:539
 msgid "Site has been removed successfully"
 msgstr "Website entfernt"
 
-#: app/Http/Controllers/SettingsController.php:503
+#: app/Http/Controllers/SettingsController.php:557
 msgid "Invalid site URL"
 msgstr "Ungültige Website-URL"
 
-#: app/Http/Controllers/SettingsController.php:506
+#: app/Http/Controllers/SettingsController.php:560
 msgid "Invalid callback URL"
 msgstr "Ungültige Callback-URL"
 
-#: app/Http/Controllers/SettingsController.php:536
+#: app/Http/Controllers/SettingsController.php:590
 msgid "This site already exists."
 msgstr "Diese Website ist bereits vorhanden."
 
-#: app/Http/Controllers/SettingsController.php:552
+#: app/Http/Controllers/SettingsController.php:606
 msgid "Site has been added successfully"
 msgstr "Website hinzugefügt"
 
-#: app/Http/Controllers/SettingsController.php:611
+#: app/Http/Controllers/SettingsController.php:665
 msgid "Invalid Site ID"
 msgstr "Ungültige Website-ID"
 
-#: app/Http/Controllers/SettingsController.php:615
+#: app/Http/Controllers/SettingsController.php:669
 msgid "Invalid server token"
 msgstr "Ungültiges Server-Token"
 
-#: app/Http/Controllers/SettingsController.php:623
-#: app/Http/Controllers/SettingsController.php:630
+#: app/Http/Controllers/SettingsController.php:677
+#: app/Http/Controllers/SettingsController.php:684
 msgid "Invalid user token"
 msgstr "Ungültiges Benutzer-Token"
 
-#: app/Http/Controllers/SettingsController.php:651
+#: app/Http/Controllers/SettingsController.php:705
 msgid "That sign-in link has expired. Please try again."
 msgstr "Dieser Anmeldelink ist abgelaufen. Bitte versuche es erneut."
 
-#: app/Http/Controllers/SettingsController.php:688
+#: app/Http/Controllers/SettingsController.php:742
 msgid "You do not have permission to install plugins"
 msgstr "Keine Berechtigung zum Installieren von Plugins"
 
-#: app/Http/Controllers/SettingsController.php:692
+#: app/Http/Controllers/SettingsController.php:746
 msgid "FluentSMTP is already installed as part of Fluent Mail plugin."
 msgstr "FluentSMTP ist bereits als Teil des Plugins Fluent Mail installiert."
 
-#: app/Http/Controllers/SettingsController.php:705
+#: app/Http/Controllers/SettingsController.php:759
 msgid "Plugin installation failed. Please try again."
 msgstr ""
 "Die Installation des Plugins ist fehlgeschlagen. Bitte erneut versuchen."
 
-#: app/Http/Controllers/SettingsController.php:709
+#: app/Http/Controllers/SettingsController.php:763
 msgid "FluentSMTP has been installed successfully"
 msgstr "FluentSMTP wurde installiert"
 
-#: app/Http/Controllers/SettingsController.php:772
+#: app/Http/Controllers/SettingsController.php:826
 msgid "Could not retrieve plugin download link."
 msgstr "Der Download-Link des Plugins konnte nicht abgerufen werden."
 
@@ -2516,15 +2548,15 @@ msgstr[1] ""
 msgid "User registration is disabled"
 msgstr "Die Benutzerregistrierung ist deaktiviert"
 
-#: app/Services/AuthService.php:188
+#: app/Services/AuthService.php:187
 msgid "User not found"
 msgstr "Benutzer nicht gefunden"
 
-#: app/Services/AuthService.php:198
+#: app/Services/AuthService.php:197
 msgid "You are not allowed to login."
 msgstr "Du darfst Dich nicht anmelden."
 
-#: app/Services/AuthService.php:396
+#: app/Services/AuthService.php:408
 msgid ""
 "<strong>Error</strong>: We could not create your account. Please contact the"
 " site owner."
@@ -2532,11 +2564,11 @@ msgstr ""
 "<strong>Fehler</strong>: Dein Konto konnte nicht angelegt werden. Bitte "
 "wende Dich an den Betreiber der Website."
 
-#: app/Services/AuthService.php:428
+#: app/Services/AuthService.php:512
 msgid "<strong>Error</strong>: Please enter a username."
 msgstr "<strong>Fehler</strong>: Bitte gib einen Benutzernamen ein."
 
-#: app/Services/AuthService.php:430
+#: app/Services/AuthService.php:514
 msgid ""
 "<strong>Error</strong>: That username uses characters that are not allowed. "
 "Please try another one."
@@ -2544,7 +2576,7 @@ msgstr ""
 "<strong>Fehler</strong>: Dieser Benutzername enthält unzulässige Zeichen. "
 "Bitte wähle einen anderen."
 
-#: app/Services/AuthService.php:433
+#: app/Services/AuthService.php:517
 msgid ""
 "<strong>Error</strong>: That username is already taken. Please choose "
 "another one."
@@ -2552,7 +2584,7 @@ msgstr ""
 "<strong>Fehler</strong>: Dieser Benutzername ist schon vergeben. Bitte wähle"
 " einen anderen."
 
-#: app/Services/AuthService.php:438
+#: app/Services/AuthService.php:522
 msgid ""
 "<strong>Error</strong>: That username is not available. Please choose "
 "another one."
@@ -2560,16 +2592,16 @@ msgstr ""
 "<strong>Fehler</strong>: Dieser Benutzername ist nicht verfügbar. Bitte "
 "wähle einen anderen."
 
-#: app/Services/AuthService.php:444
+#: app/Services/AuthService.php:528
 msgid "<strong>Error</strong>: Please enter your email address."
 msgstr "<strong>Fehler</strong>: Bitte gib Deine E-Mail-Adresse ein."
 
-#: app/Services/AuthService.php:446
+#: app/Services/AuthService.php:530
 msgid "<strong>Error</strong>: That email address does not look right."
 msgstr ""
 "<strong>Fehler</strong>: Diese E-Mail-Adresse sieht nicht richtig aus."
 
-#: app/Services/AuthService.php:451
+#: app/Services/AuthService.php:535
 msgid ""
 "<strong>Error:</strong> That email address already has an account. Please "
 "sign in, or reset your password."
@@ -2577,14 +2609,14 @@ msgstr ""
 "<strong>Fehler:</strong> Zu dieser E-Mail-Adresse gibt es schon ein Konto. "
 "Melde Dich an oder setze Dein Passwort zurück."
 
-#: app/Services/AuthService.php:472 app/Services/AuthService.php:489
+#: app/Services/AuthService.php:556 app/Services/AuthService.php:573
 msgid ""
 "That code does not match the one we emailed you. Please check and try again."
 msgstr ""
 "Der Code stimmt nicht mit dem überein, den wir Dir per E-Mail geschickt "
 "haben. Bitte prüfe ihn und versuche es noch einmal."
 
-#: app/Services/AuthService.php:477
+#: app/Services/AuthService.php:561
 msgid "That code has expired. Please ask for a new one."
 msgstr "Der Code ist abgelaufen. Bitte fordere einen neuen an."
 
@@ -2931,18 +2963,18 @@ msgstr[0] "%1$s Datei wurde in %2$s Plugins oder Themes geändert"
 msgstr[1] "%1$s Dateien wurden in %2$s Plugins oder Themes geändert"
 
 #: app/Services/Checks/Files/BaselineCheck.php:210
-#: app/Services/TransStrings.php:1172
+#: app/Services/TransStrings.php:1173
 msgid "new file"
 msgstr "neue Datei"
 
 #: app/Services/Checks/Files/BaselineCheck.php:211
-#: app/Services/Checks/Files/IntegrityCheck.php:218
-#: app/Services/TransStrings.php:1156
+#: app/Services/Checks/Files/IntegrityCheck.php:252
+#: app/Services/TransStrings.php:1157
 msgid "changed"
 msgstr "geändert"
 
 #: app/Services/Checks/Files/BaselineCheck.php:212
-#: app/Services/TransStrings.php:1160
+#: app/Services/TransStrings.php:1161
 msgid "deleted"
 msgstr "gelöscht"
 
@@ -3005,11 +3037,24 @@ msgstr "%s (geändert)"
 msgid "%s (new since we started watching)"
 msgstr "%s (neu seit Beginn der Überwachung)"
 
-#: app/Services/Checks/Files/IntegrityCheck.php:67
+#: app/Services/Checks/Files/IntegrityCheck.php:73
 msgid "Your WordPress files match the official release"
 msgstr "Die WordPress-Dateien stimmen mit der offiziellen Version überein"
 
-#: app/Services/Checks/Files/IntegrityCheck.php:79
+#: app/Services/Checks/Files/IntegrityCheck.php:92
+msgid ""
+"WordPress does not put folders next to wp-admin and wp-includes. Leftovers "
+"from a host move or an old backup are the usual reason, and a folder nobody "
+"remembers is also where an attacker hides things. Delete what you do not "
+"need, and mark the rest as expected."
+msgstr ""
+"WordPress legt neben wp-admin und wp-includes keine Ordner an. Meist stammen"
+" sie von einem Hosterwechsel oder einer alten Sicherung, und ein Ordner, an "
+"den sich niemand erinnert, ist auch der Ort, an dem ein Angreifer etwas "
+"versteckt. Was nicht gebraucht wird, löschen und den Rest als erwartet "
+"markieren."
+
+#: app/Services/Checks/Files/IntegrityCheck.php:93
 msgid ""
 "Core files and plugins from the directory should match the official copy "
 "exactly. A file that differs was changed on this server, and if you did not "
@@ -3021,12 +3066,24 @@ msgstr ""
 "und wenn Du das nicht warst, war es jemand anderes. Stelle diese Dateien "
 "wieder her und sieh Dir dann an, was sich nicht wiederherstellen lässt."
 
-#: app/Services/Checks/Files/IntegrityCheck.php:82
+#: app/Services/Checks/Files/IntegrityCheck.php:96
+msgid "Review folders"
+msgstr "Ordner prüfen"
+
+#: app/Services/Checks/Files/IntegrityCheck.php:96
 msgid "Put files back"
 msgstr "Dateien wiederherstellen"
 
+#. translators: %s: number of folders
+#: app/Services/Checks/Files/IntegrityCheck.php:154
+#, php-format
+msgid "%s folder in your WordPress root is not part of WordPress"
+msgid_plural "%s folders in your WordPress root are not part of WordPress"
+msgstr[0] "%s Ordner im Stammverzeichnis gehört nicht zu WordPress"
+msgstr[1] "%s Ordner im Stammverzeichnis gehören nicht zu WordPress"
+
 #. translators: %s: number of plugins or themes
-#: app/Services/Checks/Files/IntegrityCheck.php:139
+#: app/Services/Checks/Files/IntegrityCheck.php:167
 #, php-format
 msgid "%s plugin or theme is on a version WordPress.org never published"
 msgid_plural ""
@@ -3039,26 +3096,32 @@ msgstr[1] ""
 " hat"
 
 #. translators: %s: number of files
-#: app/Services/Checks/Files/IntegrityCheck.php:151
+#: app/Services/Checks/Files/IntegrityCheck.php:179
 #, php-format
 msgid "%s file differs from what WordPress.org published"
 msgid_plural "%s files differ from what WordPress.org published"
 msgstr[0] "%s Datei weicht von der Veröffentlichung auf WordPress.org ab"
 msgstr[1] "%s Dateien weichen von der Veröffentlichung auf WordPress.org ab"
 
+#. translators: %s: folder path, relative to the WordPress root
+#: app/Services/Checks/Files/IntegrityCheck.php:212
+#, php-format
+msgid "%s (folder not part of WordPress)"
+msgstr "%s (Ordner gehört nicht zu WordPress)"
+
 #. translators: %s: number of further files
-#: app/Services/Checks/Files/IntegrityCheck.php:202
+#: app/Services/Checks/Files/IntegrityCheck.php:236
 #, php-format
 msgid "and %s more file, listed under Monitoring"
 msgid_plural "and %s more files, listed under Monitoring"
 msgstr[0] "und %s weitere Datei, aufgeführt unter Überwachung"
 msgstr[1] "und %s weitere Dateien, aufgeführt unter Überwachung"
 
-#: app/Services/Checks/Files/IntegrityCheck.php:217
+#: app/Services/Checks/Files/IntegrityCheck.php:251
 msgid "not in the official release"
 msgstr "nicht in der offiziellen Version enthalten"
 
-#: app/Services/Checks/Files/IntegrityCheck.php:219
+#: app/Services/Checks/Files/IntegrityCheck.php:253
 msgid "missing"
 msgstr "fehlt"
 
@@ -3123,7 +3186,7 @@ msgstr ""
 "optional."
 
 #: app/Services/Checks/Files/UploadsExecutionCheck.php:107
-#: app/Services/TransStrings.php:959
+#: app/Services/TransStrings.php:960
 msgid "Try again"
 msgstr "Erneut versuchen"
 
@@ -3253,7 +3316,7 @@ msgstr "Das kann dieses Plugin nicht einschalten."
 msgid "Noted. This will not be counted or mentioned again."
 msgstr "Vermerkt. Das wird nicht mehr gezählt oder gemeldet."
 
-#: app/Services/Checks/SettingsCheck.php:183 app/Services/TransStrings.php:966
+#: app/Services/Checks/SettingsCheck.php:183 app/Services/TransStrings.php:967
 msgid "Turn on"
 msgstr "Einschalten"
 
@@ -3661,7 +3724,7 @@ msgid "The original file could not be fetched from WordPress.org."
 msgstr "Die Originaldatei konnte nicht von WordPress.org abgerufen werden."
 
 #. translators: %s: WordPress version number.
-#: app/Services/IntegrityChecker/CheckerService.php:341
+#: app/Services/IntegrityChecker/CheckerService.php:345
 #, php-format
 msgid ""
 "WordPress.org has not published file checksums for WordPress %s, so there is"
@@ -3675,7 +3738,7 @@ msgstr ""
 "einer Veröffentlichung. Läuft auf dieser Website keine von WordPress.org "
 "gebaute Fassung, lassen sich die Kerndateien überhaupt nicht prüfen."
 
-#: app/Services/IntegrityChecker/CheckerService.php:350
+#: app/Services/IntegrityChecker/CheckerService.php:354
 msgid ""
 "Could not reach api.wordpress.org to download the official WordPress "
 "checksums, so there was nothing to compare your core files against. This is "
@@ -3740,7 +3803,7 @@ msgstr "Die Dateien konnten auf diesem Server nicht gelesen werden"
 msgid "Could not be verified"
 msgstr "Konnte nicht überprüft werden"
 
-#: app/Services/IntegrityChecker/IntegrityHelper.php:620
+#: app/Services/IntegrityChecker/IntegrityHelper.php:636
 msgid "The last scheduled scan could not be completed."
 msgstr "Der letzte geplante Scan konnte nicht abgeschlossen werden."
 
@@ -4459,7 +4522,7 @@ msgstr ""
 "Derzeit kann jeder die Benutzernamen dieser Website abrufen. Der "
 "Benutzername ist schon die halbe Anmeldung."
 
-#: app/Services/SecurityChecks.php:284 app/Services/TransStrings.php:998
+#: app/Services/SecurityChecks.php:284 app/Services/TransStrings.php:999
 msgid "Verify email addresses on signup"
 msgstr "E-Mail-Adressen bei der Registrierung bestätigen"
 
@@ -8699,28 +8762,38 @@ msgstr ""
 "ausgesperrt."
 
 #: app/Services/TransStrings.php:903
+msgid ""
+"These addresses are not on this site, so nobody is sent to them. People land"
+" on the dashboard instead. Change them to an address on this site, or a path"
+" such as /members/."
+msgstr ""
+"Diese Adressen liegen nicht auf dieser Website, deshalb wird niemand dorthin"
+" geschickt. Personen landen stattdessen im Dashboard. Bitte eine Adresse "
+"dieser Website eintragen oder einen Pfad wie /members/."
+
+#: app/Services/TransStrings.php:904
 msgid "These addresses can never sign in, even with the right password."
 msgstr ""
 "Diese Adressen können sich nie anmelden, auch nicht mit dem richtigen "
 "Passwort."
 
-#: app/Services/TransStrings.php:904
+#: app/Services/TransStrings.php:905
 msgid "These are now on. You can change any of them in Settings."
 msgstr ""
 "Diese sind jetzt eingeschaltet. Unter „Einstellungen“ kannst Du jede davon "
 "ändern."
 
-#: app/Services/TransStrings.php:905
+#: app/Services/TransStrings.php:906
 msgid "These are set in wp-config.php, so the fields below are ignored."
 msgstr ""
 "Diese Werte sind in der wp-config.php gesetzt, die Felder unten werden daher"
 " ignoriert."
 
-#: app/Services/TransStrings.php:906
+#: app/Services/TransStrings.php:907
 msgid "These checks found nothing wrong."
 msgstr "Diese Prüfungen haben nichts Auffälliges gefunden."
 
-#: app/Services/TransStrings.php:907
+#: app/Services/TransStrings.php:908
 msgid ""
 "These extra files are in your site's main folder, where a reinstall does not"
 " reach. Open each one under Monitoring and decide whether it belongs."
@@ -8729,7 +8802,7 @@ msgstr ""
 "Neuinstallation nicht erreicht. Öffne jede unter „Überwachung“ und "
 "entscheide, ob sie dorthin gehört."
 
-#: app/Services/TransStrings.php:908
+#: app/Services/TransStrings.php:909
 msgid ""
 "These roles are emailed a code every time they sign in, starting as soon as "
 "you save. Pick at least one role."
@@ -8737,7 +8810,7 @@ msgstr ""
 "Diese Rollen erhalten ab dem Speichern bei jeder Anmeldung einen Code per "
 "E-Mail. Wähle mindestens eine Rolle."
 
-#: app/Services/TransStrings.php:909
+#: app/Services/TransStrings.php:910
 msgid ""
 "These roles are invited to set one up after they sign in, and can decline. "
 "Leave it empty and nobody is offered it."
@@ -8745,7 +8818,7 @@ msgstr ""
 "Diese Rollen werden nach der Anmeldung eingeladen, die Methode einzurichten,"
 " und können ablehnen. Bleibt das Feld leer, wird es niemandem angeboten."
 
-#: app/Services/TransStrings.php:910
+#: app/Services/TransStrings.php:911
 msgid ""
 "These roles can only sign in from an address in the list above. Other roles "
 "are not affected."
@@ -8753,7 +8826,7 @@ msgstr ""
 "Diese Rollen können sich nur von einer Adresse aus der Liste oben anmelden. "
 "Andere Rollen sind nicht betroffen."
 
-#: app/Services/TransStrings.php:911
+#: app/Services/TransStrings.php:912
 msgid ""
 "These roles can set up a passkey or the authenticator app whenever it is "
 "switched on, even if they are not in its role list."
@@ -8762,7 +8835,7 @@ msgstr ""
 "sobald die Methode eingeschaltet ist, auch wenn sie nicht in deren "
 "Rollenliste stehen."
 
-#: app/Services/TransStrings.php:912
+#: app/Services/TransStrings.php:913
 msgid ""
 "They land on the front page instead, with no admin bar. Anyone who can "
 "publish posts still gets in."
@@ -8770,17 +8843,17 @@ msgstr ""
 "Stattdessen landen sie auf der Startseite, ohne Werkzeugleiste. Wer Beiträge"
 " veröffentlichen kann, kommt weiterhin hinein."
 
-#: app/Services/TransStrings.php:913
+#: app/Services/TransStrings.php:914
 msgid "Things WordPress allows out of the box that most sites never use."
 msgstr ""
 "Funktionen, die WordPress von Haus aus erlaubt und die die meisten Websites "
 "nie nutzen."
 
-#: app/Services/TransStrings.php:914
+#: app/Services/TransStrings.php:915
 msgid "Think somebody has been in?"
 msgstr "Verdacht, dass jemand eingedrungen ist?"
 
-#: app/Services/TransStrings.php:915
+#: app/Services/TransStrings.php:916
 #, php-format
 msgid ""
 "This downloads %1s %2s from WordPress.org and replaces all of its files."
@@ -8788,13 +8861,13 @@ msgstr ""
 "Lädt %1s %2s von WordPress.org herunter und ersetzt alle zugehörigen "
 "Dateien."
 
-#: app/Services/TransStrings.php:916
+#: app/Services/TransStrings.php:917
 #, php-format
 msgid "This downloads %1s %2s from WordPress.org and replaces its folder."
 msgstr ""
 "Lädt %1s %2s von WordPress.org herunter und ersetzt den zugehörigen Ordner."
 
-#: app/Services/TransStrings.php:917
+#: app/Services/TransStrings.php:918
 #, php-format
 msgid ""
 "This downloads WordPress %s from WordPress.org and replaces every WordPress "
@@ -8803,23 +8876,23 @@ msgstr ""
 "Lädt WordPress %s von WordPress.org herunter und ersetzt alle WordPress-"
 "Dateien. Inhalte, Plugins, Themes und wp-config.php bleiben unberührt."
 
-#: app/Services/TransStrings.php:918
+#: app/Services/TransStrings.php:919
 msgid "This email"
 msgstr "Diese E-Mail"
 
-#: app/Services/TransStrings.php:919
+#: app/Services/TransStrings.php:920
 msgid "This email cannot be saved until it includes one of these placeholders"
 msgstr ""
 "Diese E-Mail kann erst gespeichert werden, wenn sie einen dieser Platzhalter"
 " enthält"
 
-#: app/Services/TransStrings.php:920
+#: app/Services/TransStrings.php:921
 msgid "This email is not sent at all. Nobody is told when the event happens."
 msgstr ""
 "Diese E-Mail wird gar nicht verschickt. Niemand erfährt, wenn das Ereignis "
 "eintritt."
 
-#: app/Services/TransStrings.php:921
+#: app/Services/TransStrings.php:922
 msgid ""
 "This emails a link. It does not stop the old password working until somebody"
 " uses it, so do step 1 first."
@@ -8827,31 +8900,31 @@ msgstr ""
 "Damit wird ein Link per E-Mail verschickt. Das alte Passwort funktioniert "
 "weiter, bis jemand den Link nutzt, also zuerst Schritt 1 erledigen."
 
-#: app/Services/TransStrings.php:922
+#: app/Services/TransStrings.php:923
 #, php-format
 msgid "This emails a password reset link to %s administrator. Send it?"
 msgstr ""
 "Damit wird ein Link zum Zurücksetzen des Passworts an %s Administrator "
 "geschickt. Senden?"
 
-#: app/Services/TransStrings.php:923
+#: app/Services/TransStrings.php:924
 #, php-format
 msgid "This emails a password reset link to %s administrators. Send it?"
 msgstr ""
 "Damit wird ein Link zum Zurücksetzen des Passworts an %s Administratoren "
 "geschickt. Senden?"
 
-#: app/Services/TransStrings.php:924
+#: app/Services/TransStrings.php:925
 msgid "This emails a password reset link to every user on this site. Send it?"
 msgstr ""
 "Damit wird ein Link zum Zurücksetzen des Passworts an alle Benutzer dieser "
 "Website geschickt. Senden?"
 
-#: app/Services/TransStrings.php:925
+#: app/Services/TransStrings.php:926
 msgid "This has to be added by hand"
 msgstr "Das muss von Hand eingetragen werden"
 
-#: app/Services/TransStrings.php:926
+#: app/Services/TransStrings.php:927
 msgid ""
 "This hides the finding without fixing anything. You can bring it back from "
 "the Dismissed tab."
@@ -8859,15 +8932,15 @@ msgstr ""
 "Damit wird der Befund nur ausgeblendet, nicht behoben. Im Tab „Ausgeblendet“"
 " kannst Du ihn zurückholen."
 
-#: app/Services/TransStrings.php:927
+#: app/Services/TransStrings.php:928
 msgid "This list is not being applied right now"
 msgstr "Diese Liste wird derzeit nicht angewendet"
 
-#: app/Services/TransStrings.php:929
+#: app/Services/TransStrings.php:930
 msgid "This one is already on."
 msgstr "Das ist bereits eingeschaltet."
 
-#: app/Services/TransStrings.php:930
+#: app/Services/TransStrings.php:931
 msgid ""
 "This only skips the lockout. Two-factor still applies and every attempt is "
 "still logged."
@@ -8875,7 +8948,7 @@ msgstr ""
 "Damit entfällt nur die Sperre. Die Zwei-Faktor-Authentifizierung gilt "
 "weiterhin, und jeder Versuch wird weiter protokolliert."
 
-#: app/Services/TransStrings.php:931
+#: app/Services/TransStrings.php:932
 msgid ""
 "This records things as they are now. You will hear about it again only if "
 "something changes."
@@ -8883,7 +8956,7 @@ msgstr ""
 "Damit wird der aktuelle Zustand festgehalten. Eine Meldung kommt erst "
 "wieder, wenn sich etwas ändert."
 
-#: app/Services/TransStrings.php:932
+#: app/Services/TransStrings.php:933
 #, php-format
 msgid ""
 "This reinstalls %s plugin or theme from WordPress.org, one after another, "
@@ -8893,7 +8966,7 @@ msgstr ""
 "Datei, die nicht zur offiziellen Kopie gehört, wird vorher in Quarantäne "
 "verschoben."
 
-#: app/Services/TransStrings.php:933
+#: app/Services/TransStrings.php:934
 #, php-format
 msgid ""
 "This reinstalls %s plugins and themes from WordPress.org, one after another,"
@@ -8903,7 +8976,7 @@ msgstr ""
 "installiert; jede Datei, die nicht zur offiziellen Kopie gehört, wird vorher"
 " in Quarantäne verschoben."
 
-#: app/Services/TransStrings.php:934
+#: app/Services/TransStrings.php:935
 msgid ""
 "This request carried the kind of information a proxy adds, but anyone can "
 "send that, so it proves nothing. Only list a proxy below if you know one is "
@@ -8913,15 +8986,15 @@ msgstr ""
 "kann aber jeder mitschicken, sie beweisen also nichts. Trage unten nur einen"
 " Proxy ein, wenn Du sicher weißt, dass es einen gibt."
 
-#: app/Services/TransStrings.php:935
+#: app/Services/TransStrings.php:936
 msgid "This server cannot encrypt"
 msgstr "Dieser Server kann nicht verschlüsseln"
 
-#: app/Services/TransStrings.php:936
+#: app/Services/TransStrings.php:937
 msgid "This site cannot use passkeys yet"
 msgstr "Diese Website kann noch keine Passkeys nutzen"
 
-#: app/Services/TransStrings.php:937
+#: app/Services/TransStrings.php:938
 msgid ""
 "This site does not let plugins edit its files, so the line has to be added "
 "by hand."
@@ -8929,13 +9002,13 @@ msgstr ""
 "Diese Website erlaubt Plugins nicht, ihre Dateien zu bearbeiten. Die Zeile "
 "muss daher von Hand eingetragen werden."
 
-#: app/Services/TransStrings.php:938
+#: app/Services/TransStrings.php:939
 #, php-format
 msgid "This site does not offer %s, so nobody can set that up."
 msgstr ""
 "Diese Website bietet %s nicht an, deshalb kann das niemand einrichten."
 
-#: app/Services/TransStrings.php:939
+#: app/Services/TransStrings.php:940
 msgid ""
 "This site has no application passwords, so nothing here is permanent. "
 "Everyone just signs in again."
@@ -8943,71 +9016,71 @@ msgstr ""
 "Diese Website hat keine Anwendungspasswörter, hier ist also nichts "
 "dauerhaft. Alle melden sich einfach neu an."
 
-#: app/Services/TransStrings.php:940
+#: app/Services/TransStrings.php:941
 msgid "This site is behind a proxy"
 msgstr "Diese Website liegt hinter einem Proxy"
 
-#: app/Services/TransStrings.php:941
+#: app/Services/TransStrings.php:942
 msgid "This site might be behind a proxy"
 msgstr "Diese Website liegt möglicherweise hinter einem Proxy"
 
-#: app/Services/TransStrings.php:942
+#: app/Services/TransStrings.php:943
 msgid "This site sees each visitor's real address. Nothing to change."
 msgstr ""
 "Diese Website sieht bei jedem Besuch die echte Adresse. Hier ist nichts zu "
 "ändern."
 
-#: app/Services/TransStrings.php:943
+#: app/Services/TransStrings.php:944
 msgid "This site sees you at"
 msgstr "Diese Website sieht Dich unter"
 
-#: app/Services/TransStrings.php:944
+#: app/Services/TransStrings.php:945
 msgid "This site was disconnected from the alerts service"
 msgstr "Diese Website wurde vom Warnungsdienst getrennt"
 
-#: app/Services/TransStrings.php:945
+#: app/Services/TransStrings.php:946
 msgid "This site's address, title and admin link"
 msgstr "Adresse, Titel und Admin-Link dieser Website"
 
-#: app/Services/TransStrings.php:946
+#: app/Services/TransStrings.php:947
 msgid "Thursday"
 msgstr "Donnerstag"
 
-#: app/Services/TransStrings.php:947
+#: app/Services/TransStrings.php:948
 msgid "Title"
 msgstr "Titel"
 
-#: app/Services/TransStrings.php:948
+#: app/Services/TransStrings.php:949
 msgid "Title Color"
 msgstr "Titelfarbe"
 
-#: app/Services/TransStrings.php:949
+#: app/Services/TransStrings.php:950
 msgid "To"
 msgstr "An"
 
-#: app/Services/TransStrings.php:950
+#: app/Services/TransStrings.php:951
 #, php-format
 msgid "To: %s"
 msgstr "An: %s"
 
-#: app/Services/TransStrings.php:952
+#: app/Services/TransStrings.php:953
 #, php-format
 msgid "Too many failed attempts. Try again in %s minutes."
 msgstr "Zu viele fehlgeschlagene Versuche. Versuche es in %s Minuten erneut."
 
-#: app/Services/TransStrings.php:953
+#: app/Services/TransStrings.php:954
 msgid "Top sources of failed & blocked attempts"
 msgstr "Häufigste Quellen fehlgeschlagener und gesperrter Versuche"
 
-#: app/Services/TransStrings.php:954
+#: app/Services/TransStrings.php:955
 msgid "Top sources of failed and blocked attempts"
 msgstr "Häufigste Quellen fehlgeschlagener und gesperrter Versuche"
 
-#: app/Services/TransStrings.php:955
+#: app/Services/TransStrings.php:956
 msgid "Totals for the selected period"
 msgstr "Summen für den gewählten Zeitraum"
 
-#: app/Services/TransStrings.php:956
+#: app/Services/TransStrings.php:957
 #, php-format
 msgid ""
 "Traffic arrives from %s, and a proxy is listed below. Check that the address"
@@ -9016,7 +9089,7 @@ msgstr ""
 "Der Datenverkehr kommt von %s, und unten ist ein Proxy eingetragen. Prüfe, "
 "ob die für Dich erfasste Adresse stimmt."
 
-#: app/Services/TransStrings.php:957
+#: app/Services/TransStrings.php:958
 #, php-format
 msgid ""
 "Traffic reaches this site from %s, an address inside your own server's "
@@ -9028,117 +9101,117 @@ msgstr ""
 "Proxy unten nicht eingetragen ist, wirken alle Besuche, als kämen sie von "
 "derselben Person."
 
-#: app/Services/TransStrings.php:958
+#: app/Services/TransStrings.php:959
 msgid "Trusted proxies"
 msgstr "Vertrauenswürdige Proxys"
 
-#: app/Services/TransStrings.php:960
+#: app/Services/TransStrings.php:961
 msgid "Try another search or clear your filters."
 msgstr "Versuche eine andere Suche oder setze die Filter zurück."
 
-#: app/Services/TransStrings.php:961
+#: app/Services/TransStrings.php:962
 msgid "Tuesday"
 msgstr "Dienstag"
 
-#: app/Services/TransStrings.php:962
+#: app/Services/TransStrings.php:963
 msgid "Turn it off"
 msgstr "Ausschalten"
 
-#: app/Services/TransStrings.php:963
+#: app/Services/TransStrings.php:964
 msgid "Turn it off in:"
 msgstr "Abschalten unter:"
 
-#: app/Services/TransStrings.php:965
+#: app/Services/TransStrings.php:966
 msgid "Turn off encryption?"
 msgstr "Verschlüsselung ausschalten?"
 
-#: app/Services/TransStrings.php:967
+#: app/Services/TransStrings.php:968
 msgid "Turn on scheduled scans"
 msgstr "Geplante Scans einschalten"
 
-#: app/Services/TransStrings.php:969
+#: app/Services/TransStrings.php:970
 msgid "Two-Factor Enrollment"
 msgstr "Zwei-Faktor-Einrichtung"
 
-#: app/Services/TransStrings.php:970
+#: app/Services/TransStrings.php:971
 msgid "Two-Factor Users"
 msgstr "Benutzer mit Zwei-Faktor-Authentifizierung"
 
-#: app/Services/TransStrings.php:971
+#: app/Services/TransStrings.php:972
 msgid "Two-factor method"
 msgstr "Zwei-Faktor-Methode"
 
-#: app/Services/TransStrings.php:972
+#: app/Services/TransStrings.php:973
 msgid "Two-factor sign-in is off"
 msgstr "Zwei-Faktor-Anmeldung ist ausgeschaltet"
 
-#: app/Services/TransStrings.php:973
+#: app/Services/TransStrings.php:974
 #, php-format
 msgid "Type %s to confirm."
 msgstr "Gib zur Bestätigung %s ein."
 
-#: app/Services/TransStrings.php:974
+#: app/Services/TransStrings.php:975
 msgid "Unable to load security checks. Please try again."
 msgstr ""
 "Die Sicherheitsprüfungen konnten nicht geladen werden. Versuche es erneut."
 
-#: app/Services/TransStrings.php:975
+#: app/Services/TransStrings.php:976
 msgid "Unable to load setup. Check your connection and try again."
 msgstr ""
 "Die Einrichtung konnte nicht geladen werden. Prüfe die Verbindung und "
 "versuche es erneut."
 
-#: app/Services/TransStrings.php:976
+#: app/Services/TransStrings.php:977
 msgid "Unavailable"
 msgstr "Nicht verfügbar"
 
-#: app/Services/TransStrings.php:977
+#: app/Services/TransStrings.php:978
 msgid "Underline"
 msgstr "Unterstrichen"
 
-#: app/Services/TransStrings.php:978
+#: app/Services/TransStrings.php:979
 msgid "Update record"
 msgstr "Erfassung aktualisieren"
 
-#: app/Services/TransStrings.php:979
+#: app/Services/TransStrings.php:980
 msgid "Update snapshot"
 msgstr "Snapshot aktualisieren"
 
-#: app/Services/TransStrings.php:980
+#: app/Services/TransStrings.php:981
 #, php-format
 msgid "Updated at %s"
 msgstr "Aktualisiert: %s"
 
-#: app/Services/TransStrings.php:981
+#: app/Services/TransStrings.php:982
 msgid "Updates as you make your choices."
 msgstr "Aktualisiert sich, während Du auswählst."
 
-#: app/Services/TransStrings.php:982
+#: app/Services/TransStrings.php:983
 msgid "Upload Image"
 msgstr "Bild hochladen"
 
-#: app/Services/TransStrings.php:983
+#: app/Services/TransStrings.php:984
 #, php-format
 msgid "Use %s"
 msgstr "%s verwenden"
 
-#: app/Services/TransStrings.php:984
+#: app/Services/TransStrings.php:985
 msgid "Use 0 to keep them forever."
 msgstr "Mit 0 werden sie dauerhaft aufbewahrt."
 
-#: app/Services/TransStrings.php:985
+#: app/Services/TransStrings.php:986
 msgid "Use a different method"
 msgstr "Andere Methode verwenden"
 
-#: app/Services/TransStrings.php:986
+#: app/Services/TransStrings.php:987
 msgid "Use the default"
 msgstr "Standard verwenden"
 
-#: app/Services/TransStrings.php:987
+#: app/Services/TransStrings.php:988
 msgid "Use the default text"
 msgstr "Standardtext verwenden"
 
-#: app/Services/TransStrings.php:988
+#: app/Services/TransStrings.php:989
 msgid ""
 "Used on the WordPress emails you have set to Your own. Leave these empty to "
 "keep whatever WordPress or your mail plugin already sends from."
@@ -9147,20 +9220,20 @@ msgstr ""
 "Leer lassen, um den Absender zu behalten, den WordPress oder Dein Mail-"
 "Plugin bereits verwendet."
 
-#: app/Services/TransStrings.php:989
+#: app/Services/TransStrings.php:990
 msgid "User"
 msgstr "Benutzer"
 
-#: app/Services/TransStrings.php:990
+#: app/Services/TransStrings.php:991
 #, php-format
 msgid "User #%s"
 msgstr "Benutzer #%s"
 
-#: app/Services/TransStrings.php:993
+#: app/Services/TransStrings.php:994
 msgid "Users"
 msgstr "Benutzer"
 
-#: app/Services/TransStrings.php:994
+#: app/Services/TransStrings.php:995
 msgid ""
 "Users in these roles cannot sign in until they have set one up. Leave it "
 "empty and it stays optional for everyone."
@@ -9168,7 +9241,7 @@ msgstr ""
 "Benutzer mit diesen Rollen können sich erst anmelden, wenn sie eine Methode "
 "eingerichtet haben. Bleibt das Feld leer, bleibt es für alle freiwillig."
 
-#: app/Services/TransStrings.php:995
+#: app/Services/TransStrings.php:996
 #, php-format
 msgid ""
 "Uses the %s value in your wp-config.php. Keep a copy of that value somewhere"
@@ -9177,47 +9250,47 @@ msgstr ""
 "Verwendet den Wert %s aus der wp-config.php. Bewahre eine Kopie dieses Werts"
 " an einem sicheren Ort auf."
 
-#: app/Services/TransStrings.php:996
+#: app/Services/TransStrings.php:997
 msgid "Verification code"
 msgstr "Bestätigungscode"
 
-#: app/Services/TransStrings.php:997
+#: app/Services/TransStrings.php:998
 msgid "Verify"
 msgstr "Bestätigen"
 
-#: app/Services/TransStrings.php:999
+#: app/Services/TransStrings.php:1000
 msgid "Versions not on WordPress.org"
 msgstr "Versionen, die es auf WordPress.org nicht gibt"
 
-#: app/Services/TransStrings.php:1000
+#: app/Services/TransStrings.php:1001
 msgid "View"
 msgstr "Ansehen"
 
-#: app/Services/TransStrings.php:1001
+#: app/Services/TransStrings.php:1002
 msgid "View File"
 msgstr "Datei ansehen"
 
-#: app/Services/TransStrings.php:1002
+#: app/Services/TransStrings.php:1003
 msgid "View instructions"
 msgstr "Anleitung ansehen"
 
-#: app/Services/TransStrings.php:1003
+#: app/Services/TransStrings.php:1004
 msgid "View recommendations"
 msgstr "Empfehlungen ansehen"
 
-#: app/Services/TransStrings.php:1004
+#: app/Services/TransStrings.php:1005
 msgid "View security checks"
 msgstr "Sicherheitsprüfungen ansehen"
 
-#: app/Services/TransStrings.php:1005
+#: app/Services/TransStrings.php:1006
 msgid "Visitor IP"
 msgstr "Besucher-IP"
 
-#: app/Services/TransStrings.php:1006
+#: app/Services/TransStrings.php:1007
 msgid "Visitor addresses come from Cloudflare"
 msgstr "Besucheradressen kommen von Cloudflare"
 
-#: app/Services/TransStrings.php:1007
+#: app/Services/TransStrings.php:1008
 msgid ""
 "Visitor addresses come from Cloudflare automatically. Only fill in the "
 "fields below if another proxy sits between Cloudflare and your server."
@@ -9226,7 +9299,7 @@ msgstr ""
 "nur aus, wenn zwischen Cloudflare und Deinem Server ein weiterer Proxy "
 "sitzt."
 
-#: app/Services/TransStrings.php:1008
+#: app/Services/TransStrings.php:1009
 msgid ""
 "Visitors connect directly, so their addresses are already correct and there "
 "is nothing to set up."
@@ -9234,158 +9307,158 @@ msgstr ""
 "Besucher verbinden sich direkt, ihre Adressen stimmen also schon, und es ist"
 " nichts einzurichten."
 
-#: app/Services/TransStrings.php:1009
+#: app/Services/TransStrings.php:1010
 msgid "Visitors connect to this site directly"
 msgstr "Besucher verbinden sich direkt mit dieser Website"
 
-#: app/Services/TransStrings.php:1010
+#: app/Services/TransStrings.php:1011
 msgid "Watching"
 msgstr "Überwacht"
 
-#: app/Services/TransStrings.php:1011
+#: app/Services/TransStrings.php:1012
 #, php-format
 msgid "Watching %s file"
 msgstr "%s Datei wird überwacht"
 
-#: app/Services/TransStrings.php:1012
+#: app/Services/TransStrings.php:1013
 #, php-format
 msgid "Watching %s file against your snapshot"
 msgstr "%s Datei wird mit Deinem Snapshot verglichen"
 
-#: app/Services/TransStrings.php:1013
+#: app/Services/TransStrings.php:1014
 #, php-format
 msgid "Watching %s files"
 msgstr "%s Dateien werden überwacht"
 
-#: app/Services/TransStrings.php:1014
+#: app/Services/TransStrings.php:1015
 #, php-format
 msgid "Watching %s files against your snapshot"
 msgstr "%s Dateien werden mit Deinem Snapshot verglichen"
 
-#: app/Services/TransStrings.php:1015
+#: app/Services/TransStrings.php:1016
 #, php-format
 msgid "Watching %s of %s"
 msgstr "%s von %s überwacht"
 
-#: app/Services/TransStrings.php:1016
+#: app/Services/TransStrings.php:1017
 msgid "We have emailed you a code. It expires in a few minutes."
 msgstr ""
 "Wir haben Dir einen Code per E-Mail geschickt. Er läuft in wenigen Minuten "
 "ab."
 
-#: app/Services/TransStrings.php:1017
+#: app/Services/TransStrings.php:1018
 msgid ""
 "We sent a code to that address. Enter it to confirm the address is yours."
 msgstr ""
 "Wir haben einen Code an diese Adresse geschickt. Gib ihn ein, um zu "
 "bestätigen, dass die Adresse Dir gehört."
 
-#: app/Services/TransStrings.php:1018
+#: app/Services/TransStrings.php:1019
 msgid "Wednesday"
 msgstr "Mittwoch"
 
-#: app/Services/TransStrings.php:1019
+#: app/Services/TransStrings.php:1020
 msgid "What it never sends"
 msgstr "Was nie verschickt wird"
 
-#: app/Services/TransStrings.php:1020
+#: app/Services/TransStrings.php:1021
 msgid "What needs doing on this site"
 msgstr "Was auf dieser Website zu tun ist"
 
-#: app/Services/TransStrings.php:1021
+#: app/Services/TransStrings.php:1022
 msgid "What the checks found on your site, and what to do about it."
 msgstr ""
 "Was die Prüfungen auf Deiner Website gefunden haben und was zu tun ist."
 
-#: app/Services/TransStrings.php:1022
+#: app/Services/TransStrings.php:1023
 msgid "What the plugin emails you about, and where it sends it."
 msgstr ""
 "Worüber das Plugin Dich per E-Mail informiert und wohin es die Mails "
 "schickt."
 
-#: app/Services/TransStrings.php:1023
+#: app/Services/TransStrings.php:1024
 msgid "What they can use"
 msgstr "Was sie nutzen können"
 
-#: app/Services/TransStrings.php:1024
+#: app/Services/TransStrings.php:1025
 msgid "What this setup did not cover, and why each item matters."
 msgstr ""
 "Was diese Einrichtung nicht abgedeckt hat und warum jeder Punkt wichtig ist."
 
-#: app/Services/TransStrings.php:1025
+#: app/Services/TransStrings.php:1026
 msgid "What this site sees now"
 msgstr "Was diese Website jetzt sieht"
 
-#: app/Services/TransStrings.php:1026
+#: app/Services/TransStrings.php:1027
 msgid "What this site would send"
 msgstr "Was diese Website senden würde"
 
-#: app/Services/TransStrings.php:1027
+#: app/Services/TransStrings.php:1028
 msgid "What to do after a break-in"
 msgstr "Was nach einem Einbruch zu tun ist"
 
-#: app/Services/TransStrings.php:1028
+#: app/Services/TransStrings.php:1029
 msgid "What to do if you think somebody has been into your site."
 msgstr ""
 "Was zu tun ist, wenn Du glaubst, dass jemand in Deine Website eingedrungen "
 "ist."
 
-#: app/Services/TransStrings.php:1029
+#: app/Services/TransStrings.php:1030
 msgid "What to send"
 msgstr "Was verschickt wird"
 
-#: app/Services/TransStrings.php:1030
+#: app/Services/TransStrings.php:1031
 msgid "What your users see after the password"
 msgstr "Was Deine Benutzer nach dem Passwort sehen"
 
-#: app/Services/TransStrings.php:1031
+#: app/Services/TransStrings.php:1032
 msgid "When"
 msgstr "Wann"
 
-#: app/Services/TransStrings.php:1032
+#: app/Services/TransStrings.php:1033
 msgid "Where people go unless a rule below says otherwise."
 msgstr ""
 "Wohin Personen geleitet werden, wenn keine Regel unten etwas anderes "
 "festlegt."
 
-#: app/Services/TransStrings.php:1033
+#: app/Services/TransStrings.php:1034
 msgid "Where people land after signing in and after signing out."
 msgstr ""
 "Wohin Personen nach dem Anmelden und nach dem Abmelden geleitet werden."
 
-#: app/Services/TransStrings.php:1034
+#: app/Services/TransStrings.php:1035
 msgid "Where people land after signing in or out"
 msgstr "Wohin Personen nach dem Anmelden oder Abmelden geleitet werden"
 
-#: app/Services/TransStrings.php:1035
+#: app/Services/TransStrings.php:1036
 msgid "Where replies land when someone answers the email."
 msgstr "Wohin Antworten gehen, wenn jemand auf die E-Mail antwortet."
 
-#: app/Services/TransStrings.php:1036
+#: app/Services/TransStrings.php:1037
 msgid "Where they go"
 msgstr "Wohin sie geleitet werden"
 
-#: app/Services/TransStrings.php:1037
+#: app/Services/TransStrings.php:1038
 msgid "Where to keep the ID and secret"
 msgstr "Wo ID und Geheimschlüssel gespeichert werden"
 
-#: app/Services/TransStrings.php:1038
+#: app/Services/TransStrings.php:1039
 msgid "Who gets the second step"
 msgstr "Wer den zweiten Schritt bekommt"
 
-#: app/Services/TransStrings.php:1039
+#: app/Services/TransStrings.php:1040
 msgid "Who has set up an authenticator app"
 msgstr "Wer eine Authenticator-App eingerichtet hat"
 
-#: app/Services/TransStrings.php:1040
+#: app/Services/TransStrings.php:1041
 msgid "Who it applies to"
 msgstr "Für wen es gilt"
 
-#: app/Services/TransStrings.php:1041
+#: app/Services/TransStrings.php:1042
 msgid "With changes"
 msgstr "Mit Änderungen"
 
-#: app/Services/TransStrings.php:1042
+#: app/Services/TransStrings.php:1043
 msgid ""
 "With emailed codes on, these roles get a code at every sign-in. With an app "
 "on, they are invited to set one up after signing in."
@@ -9394,7 +9467,7 @@ msgstr ""
 "Anmeldung einen Code. Ist eine App eingeschaltet, werden sie nach der "
 "Anmeldung eingeladen, sie einzurichten."
 
-#: app/Services/TransStrings.php:1043
+#: app/Services/TransStrings.php:1044
 msgid ""
 "With this off, WordPress decides where people go, which is usually the "
 "dashboard."
@@ -9402,7 +9475,7 @@ msgstr ""
 "Ist dies ausgeschaltet, entscheidet WordPress, wohin Personen geleitet "
 "werden, meist ins Dashboard."
 
-#: app/Services/TransStrings.php:1044
+#: app/Services/TransStrings.php:1045
 msgid ""
 "With this off, none of the sign-in buttons below appear on the login page, "
 "whatever their own switches say."
@@ -9410,21 +9483,21 @@ msgstr ""
 "Ist dies ausgeschaltet, erscheint keiner der Anmelde-Buttons unten auf der "
 "Anmeldeseite, egal wie ihre eigenen Schalter stehen."
 
-#: app/Services/TransStrings.php:1045
+#: app/Services/TransStrings.php:1046
 msgid "Within (minutes)"
 msgstr "Innerhalb von (Minuten)"
 
 # offen: nur Produktname mit Versionsplatzhalter
-#: app/Services/TransStrings.php:1046
+#: app/Services/TransStrings.php:1047
 #, php-format
 msgid "WordPress %s"
 msgstr ""
 
-#: app/Services/TransStrings.php:1047
+#: app/Services/TransStrings.php:1048
 msgid "WordPress Core"
 msgstr "WordPress-Kern"
 
-#: app/Services/TransStrings.php:1048
+#: app/Services/TransStrings.php:1049
 msgid ""
 "WordPress cannot write to your wp-config.php, which is normal on managed "
 "hosting. The line has to be added by hand."
@@ -9432,63 +9505,63 @@ msgstr ""
 "WordPress kann nicht in die wp-config.php schreiben, was bei Managed Hosting"
 " üblich ist. Die Zeile muss von Hand eingetragen werden."
 
-#: app/Services/TransStrings.php:1049
+#: app/Services/TransStrings.php:1050
 msgid "WordPress default"
 msgstr "WordPress-Standard"
 
-#: app/Services/TransStrings.php:1050
+#: app/Services/TransStrings.php:1051
 msgid "Worth doing next"
 msgstr "Als Nächstes sinnvoll"
 
-#: app/Services/TransStrings.php:1051
+#: app/Services/TransStrings.php:1052
 msgid "Yes, Remove"
 msgstr "Ja, entfernen"
 
-#: app/Services/TransStrings.php:1052
+#: app/Services/TransStrings.php:1053
 msgid "Yes, Reset"
 msgstr "Ja, zurücksetzen"
 
-#: app/Services/TransStrings.php:1053
+#: app/Services/TransStrings.php:1054
 msgid "Yes, clear it"
 msgstr "Ja, leeren"
 
-#: app/Services/TransStrings.php:1054
+#: app/Services/TransStrings.php:1055
 msgid "Yes, delete it"
 msgstr "Ja, löschen"
 
-#: app/Services/TransStrings.php:1055
+#: app/Services/TransStrings.php:1056
 msgid "Yes, disconnect"
 msgstr "Ja, trennen"
 
-#: app/Services/TransStrings.php:1056
+#: app/Services/TransStrings.php:1057
 msgid "Yes, reinstall it"
 msgstr "Ja, neu installieren"
 
-#: app/Services/TransStrings.php:1057
+#: app/Services/TransStrings.php:1058
 msgid "Yes, reinstall them"
 msgstr "Ja, neu installieren"
 
-#: app/Services/TransStrings.php:1058
+#: app/Services/TransStrings.php:1059
 msgid "Yes, restore it"
 msgstr "Ja, wiederherstellen"
 
-#: app/Services/TransStrings.php:1059
+#: app/Services/TransStrings.php:1060
 msgid "Yes, send them"
 msgstr "Ja, senden"
 
-#: app/Services/TransStrings.php:1060
+#: app/Services/TransStrings.php:1061
 msgid "Yes, sign everyone out"
 msgstr "Ja, alle abmelden"
 
-#: app/Services/TransStrings.php:1061
+#: app/Services/TransStrings.php:1062
 msgid "Yes, that is my address"
 msgstr "Ja, das ist meine Adresse"
 
-#: app/Services/TransStrings.php:1062
+#: app/Services/TransStrings.php:1063
 msgid "You"
 msgstr "Du"
 
-#: app/Services/TransStrings.php:1063
+#: app/Services/TransStrings.php:1064
 msgid ""
 "You can add your own address to the allow list later, so this can never shut"
 " you out of your own site."
@@ -9496,11 +9569,11 @@ msgstr ""
 "Deine eigene Adresse kannst Du später in die Positivliste eintragen, damit "
 "Du Dich nie selbst von Deiner Website aussperrst."
 
-#: app/Services/TransStrings.php:1064
+#: app/Services/TransStrings.php:1065
 msgid "You can change any of this later in Settings."
 msgstr "All das lässt sich später in den Einstellungen ändern."
 
-#: app/Services/TransStrings.php:1065
+#: app/Services/TransStrings.php:1066
 #, php-format
 msgid ""
 "You cannot block your own address. If you are ever locked out anyway, add %s"
@@ -9510,37 +9583,37 @@ msgstr ""
 "ausgesperrt sein, trage %s in die wp-config.php ein. Damit sind alle IP-"
 "Regeln ausgeschaltet, und Du kommst wieder hinein."
 
-#: app/Services/TransStrings.php:1066
+#: app/Services/TransStrings.php:1067
 msgid "You get an email each time someone with one of these roles signs in."
 msgstr ""
 "Du bekommst jedes Mal eine E-Mail, wenn sich jemand mit einer dieser Rollen "
 "anmeldet."
 
-#: app/Services/TransStrings.php:1067
+#: app/Services/TransStrings.php:1068
 msgid "You will need one yourself"
 msgstr "Du brauchst selbst einen zweiten Faktor"
 
-#: app/Services/TransStrings.php:1068
+#: app/Services/TransStrings.php:1069
 msgid "Your Email"
 msgstr "Deine E-Mail-Adresse"
 
-#: app/Services/TransStrings.php:1071
+#: app/Services/TransStrings.php:1072
 msgid "Your Name"
 msgstr "Dein Name"
 
-#: app/Services/TransStrings.php:1072
+#: app/Services/TransStrings.php:1073
 msgid "Your Snapshot"
 msgstr "Dein Snapshot"
 
-#: app/Services/TransStrings.php:1073
+#: app/Services/TransStrings.php:1074
 msgid "Your address is correct. Nothing to change."
 msgstr "Deine Adresse stimmt. Es gibt nichts zu ändern."
 
-#: app/Services/TransStrings.php:1074
+#: app/Services/TransStrings.php:1075
 msgid "Your address, as this site sees it"
 msgstr "Deine Adresse, wie diese Website sie sieht"
 
-#: app/Services/TransStrings.php:1075
+#: app/Services/TransStrings.php:1076
 msgid ""
 "Your choices are saved. The security checklist shows what is still worth "
 "doing."
@@ -9548,29 +9621,29 @@ msgstr ""
 "Deine Auswahl ist gespeichert. Die Sicherheits-Checkliste zeigt, was sich "
 "noch lohnt."
 
-#: app/Services/TransStrings.php:1076
+#: app/Services/TransStrings.php:1077
 #, php-format
 msgid "Your current address is %s, and it is on this list."
 msgstr "Deine aktuelle Adresse ist %s, und sie steht auf dieser Liste."
 
-#: app/Services/TransStrings.php:1077
+#: app/Services/TransStrings.php:1078
 #, php-format
 msgid "Your current address is %s."
 msgstr "Deine aktuelle Adresse ist %s."
 
-#: app/Services/TransStrings.php:1078
+#: app/Services/TransStrings.php:1079
 msgid "Your name and email address"
 msgstr "Dein Name und Deine E-Mail-Adresse"
 
-#: app/Services/TransStrings.php:1079
+#: app/Services/TransStrings.php:1080
 msgid "Your own"
 msgstr "Eigene Fassung"
 
-#: app/Services/TransStrings.php:1080
+#: app/Services/TransStrings.php:1081
 msgid "Your own address is not on the allowed list"
 msgstr "Deine eigene Adresse steht nicht auf der Positivliste"
 
-#: app/Services/TransStrings.php:1081
+#: app/Services/TransStrings.php:1082
 msgid ""
 "Your own role is on the required list, and this account does not have a "
 "passkey or an authenticator app yet. You can carry on using the site, but "
@@ -9581,14 +9654,14 @@ msgstr ""
 "kannst die Website weiter nutzen, wirst aber bei der nächsten Anmeldung zur "
 "Einrichtung aufgefordert."
 
-#: app/Services/TransStrings.php:1082
+#: app/Services/TransStrings.php:1083
 msgid ""
 "Your proxy is set in wp-config.php, so there is nothing to choose here."
 msgstr ""
 "Dein Proxy ist in der wp-config.php festgelegt, hier gibt es also nichts "
 "auszuwählen."
 
-#: app/Services/TransStrings.php:1083
+#: app/Services/TransStrings.php:1084
 msgid ""
 "Your proxy's documentation names it. Leave empty for X-Forwarded-For, which "
 "most proxies use."
@@ -9596,7 +9669,7 @@ msgstr ""
 "Der Name steht in der Dokumentation Deines Proxys. Leer lassen für "
 "X-Forwarded-For, das die meisten Proxys verwenden."
 
-#: app/Services/TransStrings.php:1084
+#: app/Services/TransStrings.php:1085
 msgid ""
 "Your server is missing OpenSSL, which this needs. Ask your host whether it "
 "can be added."
@@ -9604,29 +9677,29 @@ msgstr ""
 "Auf Deinem Server fehlt OpenSSL, das hierfür nötig ist. Frag Deinen Hoster, "
 "ob es sich nachinstallieren lässt."
 
-#: app/Services/TransStrings.php:1085
+#: app/Services/TransStrings.php:1086
 msgid "Your settings have been saved"
 msgstr "Deine Einstellungen wurden gespeichert"
 
-#: app/Services/TransStrings.php:1086
+#: app/Services/TransStrings.php:1087
 msgid "Your site or company name"
 msgstr "Name Deiner Website oder Firma"
 
-#: app/Services/TransStrings.php:1087
+#: app/Services/TransStrings.php:1088
 msgid "Your site will show a maintenance notice for a few seconds."
 msgstr "Deine Website zeigt einige Sekunden lang einen Wartungshinweis."
 
-#: app/Services/TransStrings.php:1088
+#: app/Services/TransStrings.php:1089
 msgid "Your site’s login activity and security status, in one place."
 msgstr ""
 "Anmeldeaktivität und Sicherheitsstatus Deiner Website auf einen Blick."
 
-#: app/Services/TransStrings.php:1089
+#: app/Services/TransStrings.php:1090
 msgid "Your subject and body below are sent instead of the WordPress default."
 msgstr ""
 "Betreff und Inhalt unten werden anstelle des WordPress-Standards gesendet."
 
-#: app/Services/TransStrings.php:1090
+#: app/Services/TransStrings.php:1091
 msgid ""
 "Two plugins cannot both finish a login, so sign-ins get stuck. Please use "
 "just one."
@@ -9634,7 +9707,7 @@ msgstr ""
 "Zwei Plugins können eine Anmeldung nicht gemeinsam abschließen, sie bleibt "
 "dann hängen. Bitte nur eines davon verwenden."
 
-#: app/Services/TransStrings.php:1091
+#: app/Services/TransStrings.php:1092
 #, php-format
 msgid ""
 "We just sent you an email with the API key. Please check your <b>email (%s) "
@@ -9643,7 +9716,7 @@ msgstr ""
 "Wir haben Dir gerade eine E-Mail mit dem API-Schlüssel geschickt. Sieh bitte"
 " in Deinem <b>Postfach (%s)</b> nach und gib den API-Schlüssel ein."
 
-#: app/Services/TransStrings.php:1092
+#: app/Services/TransStrings.php:1093
 #, php-format
 msgid ""
 "Provide a valid email to receive your free API key and security "
@@ -9655,7 +9728,7 @@ msgstr ""
 "unsere %s. Deine E-Mail-Adresse wird nur für die Erstellung des API-"
 "Schlüssels und für Sicherheits-Updates verwendet."
 
-#: app/Services/TransStrings.php:1093
+#: app/Services/TransStrings.php:1094
 msgid ""
 "You should receive the API key in your email. If you don't see it, please "
 "check your spam folder. If you still don't see it, please"
@@ -9663,20 +9736,20 @@ msgstr ""
 "Der API-Schlüssel sollte per E-Mail bei Dir ankommen. Falls nicht, sieh "
 "bitte im Spam-Ordner nach. Fehlt er dann immer noch, kannst Du"
 
-#: app/Services/TransStrings.php:1094
+#: app/Services/TransStrings.php:1095
 msgid ""
 "You will get an email when a scan finds a change you have not accepted."
 msgstr ""
 "Du bekommst eine E-Mail, wenn ein Scan eine Änderung findet, die Du nicht "
 "akzeptiert hast."
 
-#: app/Services/TransStrings.php:1095
+#: app/Services/TransStrings.php:1096
 msgid "Scan this site on a schedule and get an email when a file changes."
 msgstr ""
 "Scanne diese Website nach Zeitplan und erhalte eine E-Mail, wenn sich eine "
 "Datei ändert."
 
-#: app/Services/TransStrings.php:1096
+#: app/Services/TransStrings.php:1097
 msgid ""
 "Each scan compares these files with your snapshot and reports any change "
 "that was not part of an update."
@@ -9684,7 +9757,7 @@ msgstr ""
 "Jeder Scan vergleicht diese Dateien mit Deinem Snapshot und meldet jede "
 "Änderung, die nicht von einem Update stammt."
 
-#: app/Services/TransStrings.php:1097
+#: app/Services/TransStrings.php:1098
 msgid ""
 "Nothing is recorded yet. The premium and custom extensions list below offers"
 " a snapshot — it is the only way to check files WordPress.org has no copy "
@@ -9694,7 +9767,7 @@ msgstr ""
 "bietet einen Snapshot an. Nur so lassen sich Dateien prüfen, von denen "
 "WordPress.org keine Kopie hat."
 
-#: app/Services/TransStrings.php:1098
+#: app/Services/TransStrings.php:1099
 msgid ""
 "These files can run code, and nothing about the plugin or theme they belong "
 "to says it was updated. If you did not edit them yourself, treat this as "
@@ -9704,7 +9777,7 @@ msgstr ""
 " dem sie gehören, deutet auf ein Update hin. Wenn Du sie nicht selbst "
 "bearbeitet hast, geh davon aus, dass es jemand anderes getan hat."
 
-#: app/Services/TransStrings.php:1099
+#: app/Services/TransStrings.php:1100
 msgid ""
 "This deletes your snapshot, so nothing will be watching these plugins and "
 "themes until you take another one. Are you sure?"
@@ -9712,7 +9785,7 @@ msgstr ""
 "Damit wird Dein Snapshot gelöscht, und diese Plugins und Themes werden nicht"
 " mehr überwacht, bis Du einen neuen erstellst. Wirklich löschen?"
 
-#: app/Services/TransStrings.php:1100
+#: app/Services/TransStrings.php:1101
 msgid ""
 "Some plugins or themes have more files than a snapshot can hold, so part of "
 "them is not watched. A clean result only covers the files that were checked."
@@ -9721,7 +9794,7 @@ msgstr ""
 " daher wird ein Teil davon nicht überwacht. Ein sauberes Ergebnis gilt nur "
 "für die geprüften Dateien."
 
-#: app/Services/TransStrings.php:1101
+#: app/Services/TransStrings.php:1102
 msgid ""
 "A snapshot records these files as they are now, so later scans can tell you "
 "if any of them change. Updating a plugin or theme is never reported as a "
@@ -9731,7 +9804,7 @@ msgstr ""
 "Scans melden können, wenn sich eine davon ändert. Das Update eines Plugins "
 "oder Themes wird nie als Änderung gemeldet."
 
-#: app/Services/TransStrings.php:1102
+#: app/Services/TransStrings.php:1103
 msgid ""
 "This is not in your snapshot, so nothing is watching its files. It was "
 "probably installed after the snapshot was taken."
@@ -9740,7 +9813,7 @@ msgstr ""
 " überwacht. Vermutlich wurde es installiert, nachdem der Snapshot erstellt "
 "wurde."
 
-#: app/Services/TransStrings.php:1103
+#: app/Services/TransStrings.php:1104
 #, php-format
 msgid ""
 "This extension has %1s files that can run code, which is more than one "
@@ -9755,13 +9828,13 @@ msgstr ""
 "abgedeckt sein, erhöhe das Limit mit dem Filter "
 "fluent_auth/baseline_max_files."
 
-#: app/Services/TransStrings.php:1104
+#: app/Services/TransStrings.php:1105
 msgid "Your last scan was clean, so now is a good time to take one."
 msgstr ""
 "Dein letzter Scan war sauber, jetzt ist also ein guter Zeitpunkt für einen "
 "Snapshot."
 
-#: app/Services/TransStrings.php:1105
+#: app/Services/TransStrings.php:1106
 msgid ""
 "Take one after a scan you are happy with. A snapshot taken on a site that "
 "has already been broken into would treat the break-in as normal."
@@ -9770,7 +9843,7 @@ msgstr ""
 "Snapshot einer Website, in die bereits eingebrochen wurde, würde den "
 "Einbruch als Normalzustand behandeln."
 
-#: app/Services/TransStrings.php:1106
+#: app/Services/TransStrings.php:1107
 #, php-format
 msgid ""
 "%s will be deleted from the server. This cannot be undone - restore it from "
@@ -9779,7 +9852,7 @@ msgstr ""
 "%s wird vom Server gelöscht. Das lässt sich nicht rückgängig machen. Falls "
 "Du die Datei wieder brauchst, stelle sie aus einem Backup wieder her."
 
-#: app/Services/TransStrings.php:1107
+#: app/Services/TransStrings.php:1108
 msgid ""
 "Scheduled scanning stops and no more alert emails are sent. Your key is "
 "destroyed here and at the service, and there is no way back to it: "
@@ -9792,7 +9865,7 @@ msgstr ""
 "einen neuen Schlüssel per E-Mail bestätigen. Manuelle Scans dieser Website "
 "sind nicht betroffen. Trotzdem trennen?"
 
-#: app/Services/TransStrings.php:1108
+#: app/Services/TransStrings.php:1109
 msgid ""
 "This site sends its scan results to your alerts dashboard, which emails you "
 "when a file changes."
@@ -9800,7 +9873,7 @@ msgstr ""
 "Diese Website sendet ihre Scan-Ergebnisse an Dein Warnungs-Dashboard, das "
 "Dich per E-Mail benachrichtigt, wenn sich eine Datei ändert."
 
-#: app/Services/TransStrings.php:1109
+#: app/Services/TransStrings.php:1110
 msgid ""
 "This email will use the system default content. If you want to customize the"
 " email subject and body, please switch to Customized Content."
@@ -9808,7 +9881,7 @@ msgstr ""
 "Diese E-Mail verwendet den Standardinhalt des Systems. Um Betreff und Inhalt"
 " anzupassen, wechsle zu „Eigene Fassung“."
 
-#: app/Services/TransStrings.php:1110
+#: app/Services/TransStrings.php:1111
 msgid ""
 "Open each item below to see which files changed. Most changes are innocent, "
 "so look before you act."
@@ -9816,7 +9889,7 @@ msgstr ""
 "Öffne die Einträge unten, um zu sehen, welche Dateien sich geändert haben. "
 "Die meisten Änderungen sind harmlos, also erst ansehen, dann handeln."
 
-#: app/Services/TransStrings.php:1111
+#: app/Services/TransStrings.php:1112
 msgid ""
 "If you did not make these changes yourself, treat this as a break-in. "
 "Putting the files back does not sign out whoever made them, reset a password"
@@ -9828,7 +9901,7 @@ msgstr ""
 "setzt kein ihm bekanntes Passwort zurück und entfernt kein von ihm "
 "angelegtes Konto. Dafür ist der nächste Schritt da."
 
-#: app/Services/TransStrings.php:1112
+#: app/Services/TransStrings.php:1113
 msgid ""
 "This file has been deleted from the server. Run the scan again to confirm it"
 " has gone."
@@ -9836,7 +9909,7 @@ msgstr ""
 "Diese Datei wurde vom Server gelöscht. Starte den Scan erneut, um zu "
 "bestätigen, dass sie weg ist."
 
-#: app/Services/TransStrings.php:1113
+#: app/Services/TransStrings.php:1114
 msgid ""
 "Stop losing emails to spam or undelivered inboxes. FluentSMTP connects "
 "WordPress to your favorite email service (Gmail, Outlook, Amazon SES, "
@@ -9848,7 +9921,7 @@ msgstr ""
 "(Gmail, Outlook, Amazon SES, SendGrid, Mailgun usw.). Kein Ärger mehr mit "
 "wp_mail()."
 
-#: app/Services/TransStrings.php:1114
+#: app/Services/TransStrings.php:1115
 msgid ""
 "Enter your name and email and we will send you a free key. Once it is in, "
 "this site scans on a schedule and emails you when a file changes."
@@ -9857,7 +9930,7 @@ msgstr ""
 "kostenlosen Schlüssel. Sobald er eingetragen ist, scannt diese Website nach "
 "Zeitplan und benachrichtigt Dich per E-Mail, wenn sich eine Datei ändert."
 
-#: app/Services/TransStrings.php:1115
+#: app/Services/TransStrings.php:1116
 #, php-format
 msgid ""
 "Your last scan found some file changes <b>%s ago</b>. What it found is "
@@ -9866,7 +9939,7 @@ msgstr ""
 "Dein letzter Scan hat <b>vor %s</b> Dateiänderungen gefunden. Die Funde "
 "stehen unten. Starte jetzt eine Prüfung, um zu sehen, ob das noch zutrifft."
 
-#: app/Services/TransStrings.php:1116
+#: app/Services/TransStrings.php:1117
 #, php-format
 msgid ""
 "If a user fails to log in %1s times within %2s minutes, the system will "
@@ -9875,7 +9948,7 @@ msgstr ""
 "Scheitert die Anmeldung eines Benutzers %1s-mal innerhalb von %2s Minuten, "
 "sperrt das System ihn für %3s Minuten."
 
-#: app/Services/TransStrings.php:1117
+#: app/Services/TransStrings.php:1118
 msgid ""
 "These files run on every request and cannot be switched off from the plugins"
 " screen. Plenty of hosts and plugins put their own here, so this is a "
@@ -9888,7 +9961,7 @@ msgstr ""
 "eingeschleust ist, erkennt aber nur, wer sie liest. Deshalb stehen sie hier "
 "zum Lesen bereit."
 
-#: app/Services/TransStrings.php:1118
+#: app/Services/TransStrings.php:1119
 msgid ""
 "Recorded automatically the first time this site was checked. If you have "
 "since read these files yourself and are happy with them, record them again "
@@ -9899,7 +9972,7 @@ msgstr ""
 "erfasse sie erneut. Dann beginnt die Überwachung bei einem Stand, den Du "
 "tatsächlich gesehen hast."
 
-#: app/Services/TransStrings.php:1119
+#: app/Services/TransStrings.php:1120
 msgid ""
 "Open each one and read it before recording. A file that arrived here without"
 " you putting it there is one of the most common ways a way back in is left "
@@ -9909,7 +9982,7 @@ msgstr ""
 "gelandet ist, ohne dass Du sie abgelegt hast, ist einer der häufigsten Wege,"
 " eine Hintertür offen zu lassen."
 
-#: app/Services/TransStrings.php:1120
+#: app/Services/TransStrings.php:1121
 #, php-format
 msgid ""
 "These files run on every request and cannot be switched off from the plugins"
@@ -9921,7 +9994,7 @@ msgstr ""
 " bei jedem Scan. Alles, was seitdem neu ist oder sich geändert hat, steht "
 "unten."
 
-#: app/Services/TransStrings.php:1121
+#: app/Services/TransStrings.php:1122
 msgid ""
 "Get an email when there is a new FluentAuth release, plus the occasional "
 "WordPress security tip. No more than a few a month, and you can unsubscribe "
@@ -9933,7 +10006,7 @@ msgstr ""
 "Monat, und Du kannst jede davon abbestellen. Wir speichern Deinen Namen, "
 "Deine E-Mail-Adresse und die Adresse dieser Website."
 
-#: app/Services/TransStrings.php:1122
+#: app/Services/TransStrings.php:1123
 msgid ""
 "Optional: also send the PHP and WordPress versions this site runs, so we "
 "know which versions to keep supporting."
@@ -9941,7 +10014,7 @@ msgstr ""
 "Optional: auch die PHP- und WordPress-Version dieser Website senden, damit "
 "wir wissen, welche Versionen wir weiter unterstützen sollten."
 
-#: app/Services/TransStrings.php:1123
+#: app/Services/TransStrings.php:1124
 msgid ""
 "What is sent: your PHP version, your MySQL version and your WordPress "
 "version. Nothing else - not your plugins, nothing from your database, and "
@@ -9951,7 +10024,7 @@ msgstr ""
 "Version. Sonst nichts: keine Plugins, nichts aus Deiner Datenbank und nichts"
 " über die Personen, die Deine Website besuchen."
 
-#: app/Services/TransStrings.php:1124
+#: app/Services/TransStrings.php:1125
 msgid ""
 "Every action on this page is written to the activity log with your name, so "
 "a colleague can see what was done and when."
@@ -9959,7 +10032,7 @@ msgstr ""
 "Jede Aktion auf dieser Seite wird mit Deinem Namen im Aktivitätsprotokoll "
 "festgehalten, damit andere im Team sehen, was wann getan wurde."
 
-#: app/Services/TransStrings.php:1125
+#: app/Services/TransStrings.php:1126
 msgid ""
 "FluentAuth is not affected either way: the security scanner stays connected "
 "to the alerts service, and everyone's authenticator apps and recovery codes "
@@ -9970,7 +10043,7 @@ msgstr ""
 "Wiederherstellungscodes aller Benutzer funktionieren weiter. Beides ist "
 "bewusst nicht mit diesen Schlüsseln verschlüsselt."
 
-#: app/Services/TransStrings.php:1126
+#: app/Services/TransStrings.php:1127
 msgid ""
 "You will be signed out along with everyone else — there is no staying signed"
 " in through this one — so have your password to hand and sign back in "
@@ -9980,7 +10053,7 @@ msgstr ""
 "nicht möglich). Halte also Dein Passwort bereit und melde Dich gleich wieder"
 " an."
 
-#: app/Services/TransStrings.php:1127
+#: app/Services/TransStrings.php:1128
 msgid ""
 "This cannot be undone. Any OTHER plugin that encrypted something with a key "
 "derived from these — an SMTP password, a payment gateway secret, a stored "
@@ -9995,7 +10068,7 @@ msgstr ""
 "nirgends aufgelistet. Du merkst es erst, wenn eines von ihnen das "
 "Gespeicherte das nächste Mal nutzen will."
 
-#: app/Services/TransStrings.php:1128
+#: app/Services/TransStrings.php:1129
 msgid ""
 "Destroys every session on this site, so everyone is signed out on every "
 "device, and deletes every application password. You stay signed in here, and"
@@ -10005,7 +10078,7 @@ msgstr ""
 "Geräten abgemeldet werden, und löscht alle Anwendungspasswörter. Du bleibst "
 "hier angemeldet, und niemand wird per E-Mail darüber informiert."
 
-#: app/Services/TransStrings.php:1129
+#: app/Services/TransStrings.php:1130
 msgid ""
 "Nothing else is touched. Your content, your accounts and your passwords stay"
 " exactly as they are, and so do the keys and salts in wp-config.php unless "
@@ -10019,11 +10092,11 @@ msgstr ""
 "anderes Plugin damit verschlüsselt hat, etwa SMTP- oder "
 "Zahlungszugangsdaten, funktioniert also weiter."
 
-#: app/Services/TransStrings.php:1130
+#: app/Services/TransStrings.php:1131
 msgid "SIGN OUT"
 msgstr "ABMELDEN"
 
-#: app/Services/TransStrings.php:1131
+#: app/Services/TransStrings.php:1132
 msgid ""
 "Downloads this version from WordPress.org and replaces the whole folder, so "
 "a changed file you cannot see is put back along with the ones you can. "
@@ -10035,7 +10108,7 @@ msgstr ""
 " den sichtbaren zurückgesetzt. Einstellungen bleiben erhalten. Alles, was "
 "nicht zur offiziellen Kopie gehört, wird vorher in Quarantäne verschoben."
 
-#: app/Services/TransStrings.php:1132
+#: app/Services/TransStrings.php:1133
 msgid ""
 "This site is switched off on your alerts dashboard, so no emails are going "
 "out. Switch it back on there, then press the button below."
@@ -10044,7 +10117,7 @@ msgstr ""
 "keine E-Mails versendet. Schalte sie dort wieder ein und klicke dann unten "
 "auf die Schaltfläche."
 
-#: app/Services/TransStrings.php:1133
+#: app/Services/TransStrings.php:1134
 msgid ""
 "The alerts service moved to a new home, and connections made before the move"
 " could not be carried over. Nothing is wrong with this site — scanning here "
@@ -10056,11 +10129,11 @@ msgstr ""
 "funktionieren hier die ganze Zeit und funktionieren weiterhin. Für geplante "
 "Scans und Warn-E-Mails die Verbindung neu herstellen."
 
-#: app/Services/TransStrings.php:1134
+#: app/Services/TransStrings.php:1135
 msgid "The alerts service has moved"
 msgstr "Der Meldedienst ist umgezogen"
 
-#: app/Services/TransStrings.php:1135
+#: app/Services/TransStrings.php:1136
 msgid ""
 "This site was removed from your alerts dashboard, so it has been "
 "disconnected here."
@@ -10068,7 +10141,7 @@ msgstr ""
 "Diese Website wurde aus Deinem Warnungs-Dashboard entfernt, daher wurde die "
 "Verbindung hier getrennt."
 
-#: app/Services/TransStrings.php:1136
+#: app/Services/TransStrings.php:1137
 msgid ""
 "The alerts service has this site connected from somewhere else. The usual "
 "cause is a copy — a staging or backup clone made from the database, which "
@@ -10083,7 +10156,7 @@ msgstr ""
 "eigene Adresse, bevor Du sie wieder verbindest, sonst nehmen sich die beiden"
 " die Verbindung ständig gegenseitig weg."
 
-#: app/Services/TransStrings.php:1137
+#: app/Services/TransStrings.php:1138
 msgid ""
 "Your alerts dashboard no longer recognises this site, usually because it was"
 " deleted there. Scanning still works here, and you can connect again to get "
@@ -10094,7 +10167,7 @@ msgstr ""
 "Verbindung erneut herstellen, um geplante Scans und E-Mails "
 "zurückzubekommen."
 
-#: app/Services/TransStrings.php:1138
+#: app/Services/TransStrings.php:1139
 msgid ""
 "This replaces the file on your server with the copy WordPress.org published "
 "for this version. Any change made to it here is lost. Put it back?"
@@ -10103,7 +10176,7 @@ msgstr ""
 "WordPress.org für diese Version veröffentlicht hat. Jede hier vorgenommene "
 "Änderung daran geht verloren. Datei wiederherstellen?"
 
-#: app/Services/TransStrings.php:1139
+#: app/Services/TransStrings.php:1140
 msgid ""
 "You can still run a scan here whenever you like. You just will not get "
 "scheduled scans or an email when something changes."
@@ -10111,7 +10184,7 @@ msgstr ""
 "Du kannst hier weiterhin jederzeit einen Scan starten. Nur geplante Scans "
 "und E-Mails bei Änderungen entfallen."
 
-#: app/Services/TransStrings.php:1140
+#: app/Services/TransStrings.php:1141
 msgid ""
 "You can scan your site to detect unauthorized changes in your WordPress core"
 " files, plugins and themes. Everything is compared against the official "
@@ -10122,7 +10195,7 @@ msgstr ""
 "Plugins und Themes. Alles wird mit der offiziellen Version auf WordPress.org"
 " verglichen, und jede Abweichung wird zur Prüfung aufgelistet."
 
-#: app/Services/TransStrings.php:1141
+#: app/Services/TransStrings.php:1142
 msgid ""
 "Everything found is on your ignore list. Open the items below if you want to"
 " review them again."
@@ -10130,7 +10203,7 @@ msgstr ""
 "Alle Funde stehen auf Deiner Ignorierliste. Öffne die Einträge unten, wenn "
 "Du sie noch einmal prüfen möchtest."
 
-#: app/Services/TransStrings.php:1142
+#: app/Services/TransStrings.php:1143
 #, php-format
 msgid ""
 "You can use this site as the main Register/Login provider for your child "
@@ -10140,7 +10213,7 @@ msgstr ""
 "Deiner untergeordneten Websites dienen. Die vollständige Dokumentation "
 "findest Du unter %s."
 
-#: app/Services/TransStrings.php:1143
+#: app/Services/TransStrings.php:1144
 #, php-format
 msgid ""
 "This extension comes from the WordPress.org directory, but version %s has "
@@ -10156,7 +10229,7 @@ msgstr ""
 "ausgetauscht wurden: Gleiche sie mit dem Anbieter ab und installiere sie "
 "dann neu von WordPress.org."
 
-#: app/Services/TransStrings.php:1144
+#: app/Services/TransStrings.php:1145
 msgid ""
 "These did not come from WordPress.org, so there is no official copy to "
 "compare them with. That is normal for paid and custom plugins and themes, "
@@ -10167,7 +10240,7 @@ msgstr ""
 "und Themes ist das normal, bedeutet aber, dass ein Scan ihre Dateien nicht "
 "von sich aus prüfen kann."
 
-#: app/Services/TransStrings.php:1145
+#: app/Services/TransStrings.php:1146
 msgid ""
 "Please add the following code to your wp-config.php file (replace the *** "
 "with your app values)."
@@ -10175,170 +10248,170 @@ msgstr ""
 "Füge den folgenden Code in Deine wp-config.php ein (ersetze *** durch die "
 "Werte Deiner App)."
 
-#: app/Services/TransStrings.php:1146
+#: app/Services/TransStrings.php:1147
 msgid "a moment"
 msgstr "einem Moment"
 
-#: app/Services/TransStrings.php:1147
+#: app/Services/TransStrings.php:1148
 msgid "a passkey"
 msgstr "einen Passkey"
 
-#: app/Services/TransStrings.php:1148
+#: app/Services/TransStrings.php:1149
 msgid "an authenticator app"
 msgstr "eine Authenticator-App"
 
-#: app/Services/TransStrings.php:1149
+#: app/Services/TransStrings.php:1150
 msgid "and"
 msgstr "und"
 
-#: app/Services/TransStrings.php:1150
+#: app/Services/TransStrings.php:1151
 #, php-format
 msgid "and %s more"
 msgstr "und %s weitere"
 
-#: app/Services/TransStrings.php:1151
+#: app/Services/TransStrings.php:1152
 #, php-format
 msgid "and %s more file"
 msgstr "und %s weitere Datei"
 
-#: app/Services/TransStrings.php:1152
+#: app/Services/TransStrings.php:1153
 #, php-format
 msgid "and %s more files"
 msgstr "und %s weitere Dateien"
 
-#: app/Services/TransStrings.php:1153
+#: app/Services/TransStrings.php:1154
 msgid "and compare it with the one above."
 msgstr "und vergleiche sie mit der Adresse oben."
 
-#: app/Services/TransStrings.php:1154
+#: app/Services/TransStrings.php:1155
 msgid "attempts"
 msgstr "Versuche"
 
-#: app/Services/TransStrings.php:1155
+#: app/Services/TransStrings.php:1156
 msgid "capability"
 msgstr "Berechtigung"
 
-#: app/Services/TransStrings.php:1157
+#: app/Services/TransStrings.php:1158
 #, php-format
 msgid "changed %s"
 msgstr "geändert %s"
 
-#: app/Services/TransStrings.php:1158
+#: app/Services/TransStrings.php:1159
 msgid "click here"
 msgstr "Hier klicken"
 
-#: app/Services/TransStrings.php:1159
+#: app/Services/TransStrings.php:1160
 msgid "days"
 msgstr "Tage"
 
-#: app/Services/TransStrings.php:1161
+#: app/Services/TransStrings.php:1162
 msgid "e.g. 10.0.0.1, 192.168.1.0/24"
 msgstr "z. B. 10.0.0.1, 192.168.1.0/24"
 
-#: app/Services/TransStrings.php:1162
+#: app/Services/TransStrings.php:1163
 msgid "emailed codes"
 msgstr "Codes per E-Mail"
 
-#: app/Services/TransStrings.php:1163
+#: app/Services/TransStrings.php:1164
 msgid "failed attempts within"
 msgstr "fehlgeschlagene Versuche innerhalb von"
 
-#: app/Services/TransStrings.php:1164
+#: app/Services/TransStrings.php:1165
 #, php-format
 msgid "in %s plugin or theme"
 msgstr "in %s Plugin oder Theme"
 
-#: app/Services/TransStrings.php:1165
+#: app/Services/TransStrings.php:1166
 #, php-format
 msgid "in %s plugins and themes"
 msgstr "in %s Plugins und Themes"
 
-#: app/Services/TransStrings.php:1166
+#: app/Services/TransStrings.php:1167
 msgid "inside your network"
 msgstr "im eigenen Netzwerk"
 
-#: app/Services/TransStrings.php:1167
+#: app/Services/TransStrings.php:1168
 msgid "is one of"
 msgstr "ist eine von"
 
-#: app/Services/TransStrings.php:1168
+#: app/Services/TransStrings.php:1169
 msgid "last checked"
 msgstr "zuletzt geprüft"
 
-#: app/Services/TransStrings.php:1169
+#: app/Services/TransStrings.php:1170
 msgid "minutes"
 msgstr "Minuten"
 
-#: app/Services/TransStrings.php:1170
+#: app/Services/TransStrings.php:1171
 msgid "modified"
 msgstr "geändert"
 
-#: app/Services/TransStrings.php:1171
+#: app/Services/TransStrings.php:1172
 msgid "new"
 msgstr "neu"
 
-#: app/Services/TransStrings.php:1173
+#: app/Services/TransStrings.php:1174
 #, php-format
 msgid "of %s addressed"
 msgstr "von %s erledigt"
 
-#: app/Services/TransStrings.php:1174
+#: app/Services/TransStrings.php:1175
 msgid "or"
 msgstr "oder"
 
-#: app/Services/TransStrings.php:1175
+#: app/Services/TransStrings.php:1176
 msgid "passkeys"
 msgstr "Passkeys"
 
-#: app/Services/TransStrings.php:1176
+#: app/Services/TransStrings.php:1177
 msgid "role"
 msgstr "Rolle"
 
-#: app/Services/TransStrings.php:1177
+#: app/Services/TransStrings.php:1178
 msgid "signs in to"
 msgstr "landet nach der Anmeldung auf"
 
-#: app/Services/TransStrings.php:1178
+#: app/Services/TransStrings.php:1179
 msgid "signs out to"
 msgstr "landet nach der Abmeldung auf"
 
-#: app/Services/TransStrings.php:1179
+#: app/Services/TransStrings.php:1180
 msgid "start over with a different email address"
 msgstr "mit einer anderen E-Mail-Adresse neu beginnen"
 
-#: app/Services/TransStrings.php:1180
+#: app/Services/TransStrings.php:1181
 msgid "still sending"
 msgstr "wird noch gesendet"
 
-#: app/Services/TransStrings.php:1181
+#: app/Services/TransStrings.php:1182
 msgid "their"
 msgstr "ihre"
 
-#: app/Services/TransStrings.php:1182
+#: app/Services/TransStrings.php:1183
 msgid "to close"
 msgstr "schließen"
 
-#: app/Services/TransStrings.php:1183
+#: app/Services/TransStrings.php:1184
 msgid "to move"
 msgstr "navigieren"
 
-#: app/Services/TransStrings.php:1184
+#: app/Services/TransStrings.php:1185
 msgid "to open"
 msgstr "öffnen"
 
-#: app/Services/TransStrings.php:1185
+#: app/Services/TransStrings.php:1186
 msgid "unknown"
 msgstr "unbekannt"
 
-#: app/Services/TransStrings.php:1186
+#: app/Services/TransStrings.php:1187
 msgid "your administrator address"
 msgstr "die Administrator-E-Mail-Adresse"
 
-#: app/Services/TransStrings.php:1187
+#: app/Services/TransStrings.php:1188
 msgid "your site"
 msgstr "der Website"
 
-#: app/Services/TransStrings.php:1188
+#: app/Services/TransStrings.php:1189
 msgid ""
 "{admin_email} is the admin email from your site's General Settings. Separate"
 " several addresses with commas."
@@ -10346,7 +10419,7 @@ msgstr ""
 "{admin_email} ist die Administrator-E-Mail-Adresse aus den Allgemeinen "
 "Einstellungen der Website. Mehrere Adressen durch Kommas trennen."
 
-#: app/Services/TransStrings.php:1189
+#: app/Services/TransStrings.php:1190
 msgid "← Go to Website"
 msgstr "← Zur Website"
 

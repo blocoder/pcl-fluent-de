@@ -7,6 +7,20 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.3
+
+**FluentAuth 3.0.4.** Zehn neue Zeichenketten sind übersetzt. Fünf gehören zur
+Prüfung der Weiterleitungen: FluentAuth weist jetzt ab, wenn die Adresse für
+„nach der Anmeldung“ oder „nach der Abmeldung“ nicht auf dieselbe Website
+zeigt, und sagt dazu, welche Regel es betrifft. Vier gehören zu einer neuen
+Integritätsprüfung, die Ordner meldet, die neben `wp-admin` und `wp-includes`
+liegen, aber nicht zu WordPress gehören. Dazu ein Hinweis in der Oberfläche.
+
+**Diese Fassung lässt sich ohne Rücksicht auf die FluentAuth-Version
+einspielen.** 3.0.4 hat nichts umbenannt und nichts entfernt, der Katalog ist
+also nur gewachsen. Auf einer Installation mit 3.0.3 bleibt alles, wie es war;
+die zehn neuen Texte fragt sie schlicht nicht ab.
+
 ## 2.6.2
 
 **„Slug“ statt „Kürzel“ in FluentCommunity.** Fünf Stellen hießen noch
