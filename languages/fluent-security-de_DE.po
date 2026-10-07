@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FluentAuth - Auth Security Plugin 3.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fluent-security\n"
-"POT-Creation-Date: 2026-10-05T09:56:46+02:00\n"
+"POT-Creation-Date: 2026-10-07T12:30:30+02:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: PC'L\n"
 "Language-Team: Deutsch\n"
@@ -254,62 +254,62 @@ msgid "Login via URL"
 msgstr "Anmeldungen per Anmeldelink"
 
 #. translators: %s: Site URL
-#: app/Hooks/Handlers/CustomAuthHandler.php:115
-#: app/Hooks/Handlers/CustomAuthHandler.php:203
-#: app/Hooks/Handlers/CustomAuthHandler.php:266
-#: app/Hooks/Handlers/CustomAuthHandler.php:323
-#: app/Hooks/Handlers/CustomAuthHandler.php:354
+#: app/Hooks/Handlers/CustomAuthHandler.php:123
+#: app/Hooks/Handlers/CustomAuthHandler.php:211
+#: app/Hooks/Handlers/CustomAuthHandler.php:274
+#: app/Hooks/Handlers/CustomAuthHandler.php:331
+#: app/Hooks/Handlers/CustomAuthHandler.php:362
 #, php-format
 msgid "You are already logged in. <a href=\"%s\">Go to Home Page</a>"
 msgstr "Du bist bereits angemeldet. <a href=\"%s\">Zur Startseite</a>"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:166
+#: app/Hooks/Handlers/CustomAuthHandler.php:174
 msgid "Not registered?"
 msgstr "Noch nicht registriert?"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:168
+#: app/Hooks/Handlers/CustomAuthHandler.php:176
 msgid "Create an Account"
 msgstr "Konto erstellen"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:174
+#: app/Hooks/Handlers/CustomAuthHandler.php:182
 msgid "Forgot your password?"
 msgstr "Passwort vergessen?"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:176
-#: app/Hooks/Handlers/CustomAuthHandler.php:300
+#: app/Hooks/Handlers/CustomAuthHandler.php:184
+#: app/Hooks/Handlers/CustomAuthHandler.php:308
 #: app/Hooks/Handlers/LoginCustomizerHandler.php:105
 msgid "Reset Password"
 msgstr "Passwort zurücksetzen"
 
 #. translators: %s: Site URL
-#: app/Hooks/Handlers/CustomAuthHandler.php:197
+#: app/Hooks/Handlers/CustomAuthHandler.php:205
 #, php-format
 msgid "User registration is not enabled. <a href=\"%s\">Go to Home Page</a>"
 msgstr "Die Registrierung ist nicht aktiviert. <a href=\"%s\">Zur Startseite</a>"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:238
+#: app/Hooks/Handlers/CustomAuthHandler.php:246
 msgid "Signup"
 msgstr "Registrieren"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:246
+#: app/Hooks/Handlers/CustomAuthHandler.php:254
 msgid "Already have an account?"
 msgstr "Du hast bereits ein Konto?"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:248
+#: app/Hooks/Handlers/CustomAuthHandler.php:256
 #: app/Services/TransStrings.php:474
 #: app/Services/TwoFa/EmailTwoFaMethod.php:210
 #: app/Services/TwoFa/TotpTwoFaMethod.php:324
 msgid "Login"
 msgstr "Anmelden"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:373
-#: app/Hooks/Handlers/CustomAuthHandler.php:375
+#: app/Hooks/Handlers/CustomAuthHandler.php:381
+#: app/Hooks/Handlers/CustomAuthHandler.php:383
 #: app/Hooks/Handlers/MagicLoginHandler.php:95
 #: app/Hooks/Handlers/MagicLoginHandler.php:97
 msgid "Your Email/Username"
 msgstr "Deine E-Mail-Adresse oder Dein Benutzername"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:384
+#: app/Hooks/Handlers/CustomAuthHandler.php:392
 #: app/Hooks/Handlers/MagicLoginHandler.php:103
 #: app/Hooks/Handlers/TotpSetupPageHandler.php:902
 #: app/Hooks/Handlers/TotpSetupPageHandler.php:913
@@ -318,58 +318,58 @@ msgstr "Deine E-Mail-Adresse oder Dein Benutzername"
 msgid "Continue"
 msgstr "Weiter"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:457
-#: app/Hooks/Handlers/CustomAuthHandler.php:459
+#: app/Hooks/Handlers/CustomAuthHandler.php:496
+#: app/Hooks/Handlers/CustomAuthHandler.php:498
 #: app/Http/Controllers/SystemEmailsController.php:40
 msgid "First Name"
 msgstr "Vorname"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:463
-#: app/Hooks/Handlers/CustomAuthHandler.php:465
+#: app/Hooks/Handlers/CustomAuthHandler.php:502
+#: app/Hooks/Handlers/CustomAuthHandler.php:504
 #: app/Http/Controllers/SystemEmailsController.php:41
 msgid "Last Name"
 msgstr "Nachname"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:470
-#: app/Hooks/Handlers/CustomAuthHandler.php:472
+#: app/Hooks/Handlers/CustomAuthHandler.php:509
+#: app/Hooks/Handlers/CustomAuthHandler.php:511
 #: app/Http/Controllers/SystemEmailsController.php:44
 #: app/Services/TransStrings.php:992
 msgid "Username"
 msgstr "Benutzername"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:477
-#: app/Hooks/Handlers/CustomAuthHandler.php:504
+#: app/Hooks/Handlers/CustomAuthHandler.php:516
+#: app/Hooks/Handlers/CustomAuthHandler.php:543
 #: app/Services/TransStrings.php:305
 msgid "Email Address"
 msgstr "E-Mail-Adresse"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:479
-#: app/Hooks/Handlers/CustomAuthHandler.php:506
+#: app/Hooks/Handlers/CustomAuthHandler.php:518
+#: app/Hooks/Handlers/CustomAuthHandler.php:545
 #: app/Services/TransStrings.php:1070
 msgid "Your Email Address"
 msgstr "Deine E-Mail-Adresse"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:484
-#: app/Hooks/Handlers/CustomAuthHandler.php:486
-#: app/Hooks/Handlers/CustomAuthHandler.php:1277
+#: app/Hooks/Handlers/CustomAuthHandler.php:523
+#: app/Hooks/Handlers/CustomAuthHandler.php:525
+#: app/Hooks/Handlers/CustomAuthHandler.php:1321
 #: app/Hooks/Handlers/LoginCustomizerHandler.php:220
 #: app/Services/LoginAssets.php:88 app/Services/TransStrings.php:618
 msgid "Password"
 msgstr "Passwort"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:727
+#: app/Hooks/Handlers/CustomAuthHandler.php:766
 msgid "Login is not enabled"
 msgstr "Die Anmeldung ist nicht aktiviert"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:735
+#: app/Hooks/Handlers/CustomAuthHandler.php:774
 msgid "Security nonce is required"
 msgstr "Sicherheits-Nonce fehlt"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:741
+#: app/Hooks/Handlers/CustomAuthHandler.php:780
 msgid "Security verification failed"
 msgstr "Sicherheitsüberprüfung fehlgeschlagen"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:748
+#: app/Hooks/Handlers/CustomAuthHandler.php:787
 #: app/Http/Controllers/SettingsController.php:546
 #: app/Http/Controllers/SettingsController.php:552
 #: app/Http/Controllers/SettingsController.php:644
@@ -378,11 +378,11 @@ msgstr "Sicherheitsüberprüfung fehlgeschlagen"
 msgid "Invalid request"
 msgstr "Ungültige Anfrage"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:754
+#: app/Hooks/Handlers/CustomAuthHandler.php:793
 msgid "Please enter your email address and password."
 msgstr "Bitte gib E-Mail-Adresse und Passwort ein."
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:789
+#: app/Hooks/Handlers/CustomAuthHandler.php:828
 msgid ""
 "<strong>Error</strong>: That username, email address or password is not "
 "correct."
@@ -390,18 +390,18 @@ msgstr ""
 "<strong>Fehler</strong>: Benutzername, E-Mail-Adresse oder Passwort ist "
 "falsch."
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:794
+#: app/Hooks/Handlers/CustomAuthHandler.php:833
 msgid "That email address and password do not match. Please try again."
 msgstr ""
 "E-Mail-Adresse und Passwort passen nicht zusammen. Bitte versuche es noch "
 "einmal."
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:830
+#: app/Hooks/Handlers/CustomAuthHandler.php:869
 msgid "User registration is not enabled"
 msgstr "Die Registrierung ist nicht aktiviert"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:836
-#: app/Hooks/Handlers/CustomAuthHandler.php:1001
+#: app/Hooks/Handlers/CustomAuthHandler.php:875
+#: app/Hooks/Handlers/CustomAuthHandler.php:1036
 #: app/Hooks/Handlers/MagicLoginHandler.php:208
 msgid ""
 "That form had been open too long. Please reload the page and try again."
@@ -409,63 +409,62 @@ msgstr ""
 "Das Formular war zu lange offen. Bitte lade die Seite neu und versuche es "
 "noch einmal."
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:860
+#: app/Hooks/Handlers/CustomAuthHandler.php:899
 msgid ""
 "Some of the details are not right. Please check the form and try again."
 msgstr ""
 "Einige Angaben stimmen nicht. Bitte prüfe das Formular und versuche es noch "
 "einmal."
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:894
-#: app/Hooks/Handlers/CustomAuthHandler.php:899
+#: app/Hooks/Handlers/CustomAuthHandler.php:934
 msgid "Please provide a valid name"
 msgstr "Bitte gib einen gültigen Namen ein"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:945
+#: app/Hooks/Handlers/CustomAuthHandler.php:980
 msgid "Your account has been created. You can sign in now."
 msgstr "Dein Konto ist angelegt. Du kannst Dich jetzt anmelden."
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:954
+#: app/Hooks/Handlers/CustomAuthHandler.php:989
 #: app/Services/AuthService.php:226
 msgid "Please complete the second step to finish signing in."
 msgstr "Bitte schließe den zweiten Schritt ab, um die Anmeldung zu beenden."
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:960
+#: app/Hooks/Handlers/CustomAuthHandler.php:995
 msgid "Successfully registered to the site."
 msgstr "Du bist jetzt auf der Website registriert."
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1010
+#: app/Hooks/Handlers/CustomAuthHandler.php:1045
 msgid "Username or email is required"
 msgstr "Benutzername oder E-Mail-Adresse fehlt"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1044
+#: app/Hooks/Handlers/CustomAuthHandler.php:1079
 msgid "Please check your email for the reset link"
 msgstr "Bitte sieh in Deinem Postfach nach dem Link zum Zurücksetzen"
 
 #. translators: %s: Site Name
-#: app/Hooks/Handlers/CustomAuthHandler.php:1075
-#: app/Hooks/Handlers/CustomAuthHandler.php:1094
+#: app/Hooks/Handlers/CustomAuthHandler.php:1110
+#: app/Hooks/Handlers/CustomAuthHandler.php:1129
 #, php-format
 msgid "Reset your password for %s"
 msgstr "Passwort für %s zurücksetzen"
 
 #. translators: %s: User's first name
-#: app/Hooks/Handlers/CustomAuthHandler.php:1097
+#: app/Hooks/Handlers/CustomAuthHandler.php:1132
 #, php-format
 msgid "Hi %s,"
 msgstr "Hallo %s,"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1098
+#: app/Hooks/Handlers/CustomAuthHandler.php:1133
 msgid "Someone asked to reset the password for this account:"
 msgstr "Für dieses Konto wurde ein neues Passwort angefordert:"
 
 #. translators: %s: User's Login
-#: app/Hooks/Handlers/CustomAuthHandler.php:1100
+#: app/Hooks/Handlers/CustomAuthHandler.php:1135
 #, php-format
 msgid "Username: %s"
 msgstr "Benutzername: %s"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1102
+#: app/Hooks/Handlers/CustomAuthHandler.php:1137
 msgid ""
 "If you did not request to reset your password, please ignore this email."
 msgstr ""
@@ -473,42 +472,48 @@ msgstr ""
 "einfach."
 
 #. translators: %s: Form Field Label
-#: app/Hooks/Handlers/CustomAuthHandler.php:1152
+#: app/Hooks/Handlers/CustomAuthHandler.php:1187
 #, php-format
 msgid "%s is required"
 msgstr "%s ist erforderlich"
 
 #. translators: %s: Form Field Label
-#: app/Hooks/Handlers/CustomAuthHandler.php:1158
+#: app/Hooks/Handlers/CustomAuthHandler.php:1193
 #, php-format
 msgid "Provided %s is not a valid email"
 msgstr "%s ist keine gültige E-Mail-Adresse"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1166
+#. translators: %s: Form Field Label
+#: app/Hooks/Handlers/CustomAuthHandler.php:1202
+#, php-format
+msgid "Please select a valid %s"
+msgstr "Bitte für „%s“ eine gültige Auswahl treffen"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php:1210
 msgid "Password must be at least 6 characters long"
 msgstr "Das Passwort muss mindestens 6 Zeichen lang sein"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1276
+#: app/Hooks/Handlers/CustomAuthHandler.php:1320
 #: app/Services/TransStrings.php:993
 msgid "Username or Email Address"
 msgstr "Benutzername oder E-Mail-Adresse"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1278
+#: app/Hooks/Handlers/CustomAuthHandler.php:1322
 #: app/Services/TransStrings.php:686
 msgid "Remember Me"
 msgstr "Angemeldet bleiben"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1279
+#: app/Hooks/Handlers/CustomAuthHandler.php:1323
 #: app/Services/TransStrings.php:472
 msgid "Log In"
 msgstr "Anmelden"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1377
+#: app/Hooks/Handlers/CustomAuthHandler.php:1421
 msgid "Too many requests. Please try again later"
 msgstr "Zu viele Anfragen. Bitte versuche es später noch einmal"
 
 #. translators: %s: Site Name
-#: app/Hooks/Handlers/CustomAuthHandler.php:1396
+#: app/Hooks/Handlers/CustomAuthHandler.php:1440
 #, php-format
 msgid "Your registration verification code for %s"
 msgstr "Dein Bestätigungscode für die Registrierung bei %s"
@@ -516,14 +521,14 @@ msgstr "Dein Bestätigungscode für die Registrierung bei %s"
 #. translators: %s: First Name
 #. translators: %s: user's display name
 #. translators: %s: User's Display Name
-#: app/Hooks/Handlers/CustomAuthHandler.php:1401
-#: app/Hooks/Handlers/MagicLoginHandler.php:277
+#: app/Hooks/Handlers/CustomAuthHandler.php:1447
+#: app/Hooks/Handlers/MagicLoginHandler.php:281
 #: app/Services/TwoFa/EmailTwoFaMethod.php:298
 #, php-format
 msgid "Hello %s,"
 msgstr "Hallo %s,"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1402
+#: app/Hooks/Handlers/CustomAuthHandler.php:1448
 msgid ""
 "Thanks for signing up. Enter the code below on the registration page to "
 "finish setting up your account."
@@ -532,12 +537,12 @@ msgstr ""
 "Registrierungsseite ein, um Dein Konto fertig einzurichten."
 
 #. translators: %s: Verification code
-#: app/Hooks/Handlers/CustomAuthHandler.php:1404
+#: app/Hooks/Handlers/CustomAuthHandler.php:1450
 #, php-format
 msgid "Verification Code: %s"
 msgstr "Bestätigungscode: %s"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1406
+#: app/Hooks/Handlers/CustomAuthHandler.php:1452
 msgid ""
 "The code works for 10 minutes. If you did not ask for it, you can ignore "
 "this email."
@@ -545,27 +550,27 @@ msgstr ""
 "Der Code gilt 10 Minuten. Falls Du ihn nicht angefordert hast, kannst Du "
 "diese E-Mail ignorieren."
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1412
+#: app/Hooks/Handlers/CustomAuthHandler.php:1458
 msgid "Activate your account"
 msgstr "Konto aktivieren"
 
 #. translators: %s: Email
-#: app/Hooks/Handlers/CustomAuthHandler.php:1429
+#: app/Hooks/Handlers/CustomAuthHandler.php:1475
 #, php-format
 msgid ""
 "A verification code has been sent to %s. Please provide the code below: "
 msgstr ""
 "Wir haben einen Bestätigungscode an %s geschickt. Bitte gib ihn hier ein: "
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1432
+#: app/Hooks/Handlers/CustomAuthHandler.php:1478
 msgid "Verification Code"
 msgstr "Bestätigungscode"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1436
+#: app/Hooks/Handlers/CustomAuthHandler.php:1482
 msgid "2FA Code"
 msgstr "Bestätigungscode"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1451
+#: app/Hooks/Handlers/CustomAuthHandler.php:1497
 msgid "Complete Signup"
 msgstr "Registrierung abschließen"
 
@@ -647,23 +652,19 @@ msgstr ""
 msgid "Please enter your full name."
 msgstr "Bitte gib Deinen vollständigen Namen ein."
 
-#: app/Hooks/Handlers/LoginCustomizerHandler.php:429
-msgid "Please provide a full name."
-msgstr "Bitte gib einen vollständigen Namen ein."
-
-#: app/Hooks/Handlers/LoginCustomizerHandler.php:434
+#: app/Hooks/Handlers/LoginCustomizerHandler.php:425
 msgid "Please provide a valid name."
 msgstr "Bitte gib einen gültigen Namen ein."
 
-#: app/Hooks/Handlers/LoginCustomizerHandler.php:438
+#: app/Hooks/Handlers/LoginCustomizerHandler.php:429
 msgid "Please enter your password."
 msgstr "Bitte gib Dein Passwort ein."
 
-#: app/Hooks/Handlers/LoginCustomizerHandler.php:442
+#: app/Hooks/Handlers/LoginCustomizerHandler.php:433
 msgid "Those two passwords do not match."
 msgstr "Die beiden Passwörter stimmen nicht überein."
 
-#: app/Hooks/Handlers/LoginCustomizerHandler.php:446
+#: app/Hooks/Handlers/LoginCustomizerHandler.php:437
 msgid "Please agree to the terms and conditions."
 msgstr "Bitte akzeptiere die Nutzungsbedingungen."
 
@@ -784,40 +785,40 @@ msgstr ""
 " das normale Anmeldeformular."
 
 #. translators: %s: Site Name
-#: app/Hooks/Handlers/MagicLoginHandler.php:273
-#: app/Hooks/Handlers/MagicLoginHandler.php:286
+#: app/Hooks/Handlers/MagicLoginHandler.php:277
+#: app/Hooks/Handlers/MagicLoginHandler.php:290
 #: app/Services/TwoFa/EmailTwoFaMethod.php:316
 #, php-format
 msgid "Sign in to %s"
 msgstr "Bei %s anmelden"
 
 #. translators: %s: Site Name
-#: app/Hooks/Handlers/MagicLoginHandler.php:279
+#: app/Hooks/Handlers/MagicLoginHandler.php:283
 #, php-format
 msgid "Click the link below to sign in to your %s account"
 msgstr "Klicke auf den Link unten, um Dich bei Deinem Konto auf %s anzumelden"
 
 #. translators: %d: Minute
-#: app/Hooks/Handlers/MagicLoginHandler.php:281
+#: app/Hooks/Handlers/MagicLoginHandler.php:285
 #, php-format
 msgid "This link will expire in %d minutes and can only be used once."
 msgstr "Der Link ist %d Minuten gültig und funktioniert nur einmal."
 
-#: app/Hooks/Handlers/MagicLoginHandler.php:291
+#: app/Hooks/Handlers/MagicLoginHandler.php:295
 msgid ""
 "If the button above does not work, paste this link into your web browser:"
 msgstr ""
 "Falls der Button oben nicht funktioniert, kopiere diesen Link in Deinen "
 "Browser:"
 
-#: app/Hooks/Handlers/MagicLoginHandler.php:294
+#: app/Hooks/Handlers/MagicLoginHandler.php:298
 #: app/Services/TwoFa/EmailTwoFaMethod.php:323
 msgid "If you did not make this request, you can safely ignore this email."
 msgstr ""
 "Falls Du das nicht angefordert hast, kannst Du diese E-Mail einfach "
 "ignorieren."
 
-#: app/Hooks/Handlers/MagicLoginHandler.php:344
+#: app/Hooks/Handlers/MagicLoginHandler.php:348
 msgid ""
 "We just emailed a login link to your registered email. Click the link to "
 "sign in."
@@ -826,14 +827,14 @@ msgstr ""
 "geschickt. Klicke auf den Link, um Dich anzumelden."
 
 #. translators: %s: User Email
-#: app/Hooks/Handlers/MagicLoginHandler.php:348
+#: app/Hooks/Handlers/MagicLoginHandler.php:352
 #, php-format
 msgid "We just emailed a magic link to %s. Click the link to sign in."
 msgstr ""
 "Wir haben einen Anmeldelink an %s geschickt. Klicke auf den Link, um Dich "
 "anzumelden."
 
-#: app/Hooks/Handlers/MagicLoginHandler.php:352
+#: app/Hooks/Handlers/MagicLoginHandler.php:356
 msgid "Check your inbox"
 msgstr "Sieh in Dein Postfach"
 
@@ -1043,15 +1044,15 @@ msgstr "%s GitHub"
 msgid "%s Facebook"
 msgstr "%s Facebook"
 
-#: app/Hooks/Handlers/SocialAuthHandler.php:500
+#: app/Hooks/Handlers/SocialAuthHandler.php:508
 msgid "Signup with"
 msgstr "Registrieren mit"
 
-#: app/Hooks/Handlers/SocialAuthHandler.php:636
+#: app/Hooks/Handlers/SocialAuthHandler.php:644
 msgid "Login or Signup"
 msgstr "Anmelden oder registrieren"
 
-#: app/Hooks/Handlers/SocialAuthHandler.php:637
+#: app/Hooks/Handlers/SocialAuthHandler.php:645
 msgid "Connect with"
 msgstr "Verbinden mit"
 
@@ -10933,6 +10934,9 @@ msgstr "Dieser Passkey ist bereits registriert"
 msgid "This email has been sent from FluentAuth Security Plugin. Site: %s"
 msgstr ""
 "Diese E-Mail wurde vom Sicherheits-Plugin FluentAuth gesendet. Website: %s"
+
+#~ msgid "Please provide a full name."
+#~ msgstr "Bitte gib einen vollständigen Namen ein."
 
 #~ msgid "Email and Password is required"
 #~ msgstr "E-Mail-Adresse und Passwort sind erforderlich"

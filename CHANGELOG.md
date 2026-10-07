@@ -7,6 +7,20 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.4
+
+**FluentAuth 3.0.5.** Eine neue Meldung ist übersetzt: Die Prüfung eines
+Auswahlfeldes im Anmelde- und Registrierungsformular sagt jetzt, welches Feld
+sie meint.
+
+**Wichtig beim Einspielen:** Diese Fassung setzt **FluentAuth 3.0.5** voraus.
+Mit 3.0.5 ist die Meldung „Bitte gib einen vollständigen Namen ein“ durch eine
+allgemeinere ersetzt worden, und ein Katalog schlägt immer über den Wortlaut
+nach. Auf einer Installation mit FluentAuth 3.0.4 stünde diese eine Stelle im
+Registrierungsformular deshalb wieder englisch da. Wer FluentAuth noch nicht
+aktualisiert hat, spielt beides zusammen ein oder bleibt bei 2.6.3. Alle
+anderen Übersetzungen des Pakets sind davon nicht berührt.
+
 ## 2.6.3
 
 **FluentAuth 3.0.4.** Zehn neue Zeichenketten sind übersetzt. Fünf gehören zur
