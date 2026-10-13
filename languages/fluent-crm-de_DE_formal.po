@@ -2761,11 +2761,11 @@ msgstr "Die Kampagne wurde aktualisiert"
 #: app/Http/Controllers/TemplateController.php:190
 #, php-format
 msgid "[Duplicate] %s"
-msgstr "[Kopie] %s"
+msgstr "[Duplikat] %s"
 
 #: app/Http/Controllers/CampaignController.php:1753
 msgid "The campaign has been duplicated."
-msgstr "Die Kampagne wurde kopiert."
+msgstr "Die Kampagne wurde dupliziert."
 
 #: app/Http/Controllers/CampaignController.php:1772
 #: app/Http/Controllers/CampaignController.php:1778
@@ -3525,7 +3525,7 @@ msgstr "[Kopie] %s"
 
 #: app/Http/Controllers/FunnelController.php:1076
 msgid "The automation has been cloned."
-msgstr "Die Automation wurde kopiert."
+msgstr "Die Automation wurde dupliziert."
 
 #: app/Http/Controllers/FunnelController.php:1088
 msgid ""
@@ -4812,7 +4812,7 @@ msgstr "Die Vorlage wurde angelegt."
 
 #: app/Http/Controllers/TemplateController.php:215
 msgid "The template has been duplicated."
-msgstr "Die Vorlage wurde kopiert."
+msgstr "Die Vorlage wurde dupliziert."
 
 #: app/Http/Controllers/TemplateController.php:283
 msgid "The template has been updated."
@@ -11155,7 +11155,7 @@ msgstr "Klicks"
 
 #: app/Services/TransStrings.php:630
 msgid "Clone"
-msgstr "Klonen"
+msgstr "Duplizieren"
 
 #: app/Services/TransStrings.php:632
 msgid "Close Log"

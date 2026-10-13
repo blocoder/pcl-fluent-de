@@ -4,7 +4,7 @@ Tags: fluentcommunity, fluentcrm, fluentauth, fluentsmtp, fluentsnippets, deutsc
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.6.5
+Stable tag: 2.6.6
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,10 @@ Für FluentCRM, FluentSMTP und FluentSnippets ja. Steht die Seite auf `de_DE_for
 Ja, jede für sich. Drei Zustände je Plugin: „Deutsche Übersetzung aktiv“ (Vorgabe, schaltet sich ein, sobald das Plugin da ist), „Fremde Übersetzung“ (unsere Fassung weg, das Sprachpaket von wordpress.org greift weiter) und „Keine Übersetzung zulassen“ (das Plugin bleibt englisch).
 
 == Changelog ==
+
+= 2.6.6 =
+* „Clone“ heißt jetzt auch „Duplizieren“. FluentCRM benutzt zwei englische Wörter für dieselbe Sache – „Duplicate“ im Listenmenü von Kampagnen, Vorlagen, Sequenzen und Segmenten, „Clone“ im Blockmenü des Automations-Editors. Im Deutschen steht dafür ein Wort.
+* Die Bestätigungen dazu sagen einheitlich „dupliziert“, und der Titel einer Kopie heißt „[Duplikat] …“ statt „[Kopie] …“. Bei Automationen bleibt „[Kopie] …“, weil der Hersteller dort ein anderes Wort verwendet.
 
 = 2.6.5 =
 * FluentCRM 3.2.6 nachgezogen. Diese Fassung hat die englischen Texte flächendeckend umformuliert: 1.576 Zeichenketten sind neu, 2.215 entfallen. Der Katalog ist vollständig: 4.271 von 4.271 Einträgen, in Du und in Sie.

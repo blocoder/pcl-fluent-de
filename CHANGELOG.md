@@ -7,6 +7,18 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.6
+
+**„Clone“ heißt Duplizieren.** FluentCRM benutzt zwei englische Wörter für
+dieselbe Sache: „Duplicate“ im Listenmenü von Kampagnen, Vorlagen, Sequenzen
+und Segmenten, „Clone“ im Blockmenü des Automations-Editors. Im Deutschen
+steht dafür ein Wort. Die Bestätigungen sagen jetzt einheitlich „dupliziert“,
+und der Titel einer Kopie heißt „[Duplikat] …“.
+
+Eine Ausnahme mit Absicht: Bei Automationen bleibt es „[Kopie] …“, weil der
+Hersteller dort nicht „[Duplicate]“ schreibt, sondern „[Copy]“. Die
+Übersetzung spiegelt diesen Unterschied, statt ihn einzuebnen.
+
 ## 2.6.5
 
 **FluentCRM 3.2.6.** Diese Fassung hat die englischen Texte flächendeckend
