@@ -7,6 +7,36 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.5
+
+**FluentCRM 3.2.6.** Diese Fassung hat die englischen Texte flächendeckend
+umformuliert, nicht nur ergänzt: 1.576 Zeichenketten sind neu, 2.215 sind
+entfallen, davon 2.190 übersetzte. Der Katalog ist wieder vollständig – 4.271
+von 4.271 Einträgen, in Du und in Sie.
+
+**Wichtig beim Einspielen:** Diese Fassung setzt **FluentCRM 3.2.6** voraus.
+Ein Katalog schlägt immer über den Wortlaut des Originals nach; auf einer
+Installation mit FluentCRM 3.2.5 stünden deshalb rund 2.190 Texte wieder
+englisch da, darunter die Abmeldeseite und die Verwaltung der E-Mail-Einstellungen.
+Wer FluentCRM noch nicht aktualisiert hat, bleibt besser auf 2.6.4, bis das
+geschehen ist.
+
+Was dabei aufgefallen ist und in die Übersetzung eingeflossen ist:
+
+* Die Vue-Oberfläche baut Sätze aus Bausteinen („2 Tags“, „3 Kontakte“). Weil
+  ein solcher Baustein im Nominativ kommt, steht im Deutschen eine
+  Akkusativ-Präposition: „2 Tags **auf** 3 Kontakte anwenden“, nicht „zu
+  3 Kontakte hinzufügen“.
+* Beschriftungen, die nur aus einem Buchstaben bestehen, hängen am Kontext:
+  Die Ersatzinitiale im Logo-Avatar heißt „F“ wie Firmenname, der B-Zweig
+  eines A/B-Tests bleibt „B“.
+* Texte an die Kontakte – die Double-Opt-in-E-Mail, die Bestätigungsseite, die
+  Abonnementverwaltung – sprechen die Person an. Die Texte für die Verwaltung
+  bleiben anredefrei.
+
+**FluentSMTP.** „Nutzer“ heißt jetzt „Anwender“, wo die Anwender des Plugins
+gemeint sind und nicht Konten oder Mitglieder.
+
 ## 2.6.4
 
 **FluentAuth 3.0.5.** Eine neue Meldung ist übersetzt: Die Prüfung eines

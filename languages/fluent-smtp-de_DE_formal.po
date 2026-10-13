@@ -3288,7 +3288,7 @@ msgid ""
 "We build FluentSMTP in the open, and what our users tell us is what we build"
 " next."
 msgstr ""
-"Wir entwickeln FluentSMTP öffentlich, und was die Nutzer uns sagen, bauen "
+"Wir entwickeln FluentSMTP öffentlich, und was die Anwender uns sagen, bauen "
 "wir als Nächstes."
 
 #: app/Services/TransStrings.php:421

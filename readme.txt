@@ -4,7 +4,7 @@ Tags: fluentcommunity, fluentcrm, fluentauth, fluentsmtp, fluentsnippets, deutsc
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.6.4
+Stable tag: 2.6.5
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,11 @@ Für FluentCRM, FluentSMTP und FluentSnippets ja. Steht die Seite auf `de_DE_for
 Ja, jede für sich. Drei Zustände je Plugin: „Deutsche Übersetzung aktiv“ (Vorgabe, schaltet sich ein, sobald das Plugin da ist), „Fremde Übersetzung“ (unsere Fassung weg, das Sprachpaket von wordpress.org greift weiter) und „Keine Übersetzung zulassen“ (das Plugin bleibt englisch).
 
 == Changelog ==
+
+= 2.6.5 =
+* FluentCRM 3.2.6 nachgezogen. Diese Fassung hat die englischen Texte flächendeckend umformuliert: 1.576 Zeichenketten sind neu, 2.215 entfallen. Der Katalog ist vollständig: 4.271 von 4.271 Einträgen, in Du und in Sie.
+* **Wichtig beim Einspielen:** Diese Fassung setzt **FluentCRM 3.2.6** voraus. Auf einer Installation mit 3.2.5 stünden rund 2.190 Texte wieder englisch da, weil ein Katalog immer über den Wortlaut nachschlägt. Erst FluentCRM aktualisieren, dann dieses Plugin.
+* FluentSMTP: „Nutzer“ heißt jetzt „Anwender“, wo die Anwender des Plugins gemeint sind und nicht Konten oder Mitglieder.
 
 = 2.5.0 =
 * Neu: FluentCRM. 4.784 Zeichenketten für die kostenlose Fassung, in Du und in Sie. Für FluentCRM Pro bleibt es beim eigenen Plugin.
