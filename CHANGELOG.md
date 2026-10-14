@@ -7,6 +7,24 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.7
+
+**Die Hinweis-Mails von FluentAuth sind deutsch.** FluentAuth schickt der
+Verwaltung drei Mails: eine bei jeder erfolgreichen Anmeldung, eine bei einer
+gesperrten Anmeldung und einen täglichen, wöchentlichen oder monatlichen
+Anmeldebericht. Betreff, Einleitung und Beschriftungen setzt FluentAuth ohne
+Übersetzungsfunktion zusammen, deshalb erreicht sie kein Katalog. Sie werden
+jetzt beim Versand ersetzt, so wie schon die Fußzeile der Anmeldecode-Mail.
+
+Dabei werden auch zwei Werte lesbar, die bisher als Bezeichner in der Mail
+standen: Die Anmeldemethode heißt jetzt etwa „Code per E-Mail“ statt
+„two_factor_email“, die Rolle „Administrator“ statt „administrator“.
+
+Erkannt wird jede Mail am englischen Wortlaut ihrer Einleitung. Ändert
+FluentAuth diesen Wortlaut, bleibt die Mail englisch; kaputt geht dabei
+nichts. Abschalten lässt sich das wie bisher über den Filter
+`pcl_fluentauth_de/mail_korrigieren`.
+
 ## 2.6.6
 
 **„Clone“ heißt Duplizieren.** FluentCRM benutzt zwei englische Wörter für
