@@ -8560,7 +8560,7 @@ msgstr ""
 
 #: app/Services/TransStrings.php:867
 msgid "The card the message sits on."
-msgstr "Die Karte, auf der die Nachricht steht."
+msgstr "Die Kachel, auf der die Nachricht steht."
 
 #: app/Services/TransStrings.php:868
 msgid "The contents of any file"

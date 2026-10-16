@@ -4,7 +4,7 @@ Tags: fluentcommunity, fluentcrm, fluentauth, fluentsmtp, fluentsnippets, deutsc
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.6.7
+Stable tag: 2.6.8
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,11 @@ Für FluentCRM, FluentSMTP und FluentSnippets ja. Steht die Seite auf `de_DE_for
 Ja, jede für sich. Drei Zustände je Plugin: „Deutsche Übersetzung aktiv“ (Vorgabe, schaltet sich ein, sobald das Plugin da ist), „Fremde Übersetzung“ (unsere Fassung weg, das Sprachpaket von wordpress.org greift weiter) und „Keine Übersetzung zulassen“ (das Plugin bleibt englisch).
 
 == Changelog ==
+
+= 2.6.8 =
+* FluentCommunity 2.12.0, FluentCommunity Pro 2.12.0 und FluentMessaging 2.12.0 nachgezogen: 243 neue Einträge, vor allem der neue Bereich „Insights“, der hier „Analysen“ heißt.
+* „Card“ heißt jetzt durchgehend „Kachel“ statt „Karte“, Meldungen über Beiträge und Kommentare heißen „Meldung“ statt „Bericht“, und gezählte Reaktionen heißen „Likes“.
+* **Wichtig beim Einspielen:** Diese Fassung setzt **FluentCommunity 2.12.0** voraus. Auf einer Installation mit 2.11.0 stünden 38 Texte wieder englisch da, darunter die alten Analysen. Erst FluentCommunity aktualisieren, dann dieses Plugin.
 
 = 2.6.7 =
 * FluentAuth: Die drei Hinweis-Mails an die Verwaltung („Anmeldung erfolgreich“, „Anmeldung gesperrt“ und der Anmeldebericht) sind jetzt deutsch: Betreff, Einleitung und Beschriftungen. FluentAuth setzt diese Texte ohne Übersetzungsfunktion zusammen, deshalb erreicht sie kein Katalog; sie werden beim Versand ersetzt.

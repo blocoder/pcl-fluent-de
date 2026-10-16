@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FluentCommunity Pro\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fluent-community-pro\n"
-"POT-Creation-Date: 2026-09-18T18:29:32+02:00\n"
+"POT-Creation-Date: 2026-10-16T19:03:19+02:00\n"
 "PO-Revision-Date: 2026-07-25 15:08+0000\n"
 "Last-Translator: Peter Claus Lamprecht\n"
 "Language-Team: Deutsch\n"
@@ -90,15 +90,15 @@ msgstr "%1$s folgt Dir jetzt"
 msgid "%1$s - %2$s [%3$s]"
 msgstr "%1$s – %2$s [%3$s]"
 
-#: app/Hooks/Handlers/ModerationHandler.php:97
+#: app/Hooks/Handlers/ModerationHandler.php:99
 msgid "Your post has been sent for review as per community guidelines."
 msgstr "Dein Beitrag geht gemäß den Community-Regeln in die Prüfung."
 
-#: app/Hooks/Handlers/ModerationHandler.php:100
+#: app/Hooks/Handlers/ModerationHandler.php:102
 msgid "Your post contains a restricted word and has been sent for review."
 msgstr "Dein Beitrag enthält ein gesperrtes Wort und geht in die Prüfung."
 
-#: app/Hooks/Handlers/ModerationHandler.php:101
+#: app/Hooks/Handlers/ModerationHandler.php:103
 msgid ""
 "Your first post requires approval from a moderator before it becomes "
 "visible."
@@ -106,15 +106,15 @@ msgstr ""
 "Dein erster Beitrag muss von der Moderation freigegeben werden, bevor er "
 "sichtbar wird."
 
-#: app/Hooks/Handlers/ModerationHandler.php:103
+#: app/Hooks/Handlers/ModerationHandler.php:105
 msgid "Your post has been sent for review as per space guidelines."
 msgstr "Dein Beitrag geht gemäß den Regeln des Forums in die Prüfung."
 
-#: app/Hooks/Handlers/ModerationHandler.php:166
+#: app/Hooks/Handlers/ModerationHandler.php:168
 msgid "Your comment contains a restricted word and has been sent for review."
 msgstr "Dein Kommentar enthält ein gesperrtes Wort und geht in die Prüfung."
 
-#: app/Hooks/Handlers/ModerationHandler.php:167
+#: app/Hooks/Handlers/ModerationHandler.php:169
 msgid ""
 "Your first comment requires approval from a moderator before it becomes "
 "visible."
@@ -122,67 +122,80 @@ msgstr ""
 "Dein erster Kommentar muss von der Moderation freigegeben werden, bevor er "
 "sichtbar wird."
 
-#: app/Hooks/Handlers/ModerationHandler.php:168
+#: app/Hooks/Handlers/ModerationHandler.php:170
 msgid "Your comment has been sent for review as per community guidelines."
 msgstr "Dein Kommentar geht gemäß den Community-Regeln in die Prüfung."
 
 #. translators: %1$s is the comment title
-#: app/Hooks/Handlers/ModerationHandler.php:295
+#: app/Hooks/Handlers/ModerationHandler.php:297
 #, php-format
 msgid "A comment has been automatically flagged for review: %1$s"
 msgstr "Ein Kommentar wurde automatisch zur Prüfung markiert: %1$s"
 
 #. translators: %s is the number of other people
-#: app/Hooks/Handlers/ModerationHandler.php:312
-#: app/Hooks/Handlers/ModerationHandler.php:382
+#: app/Hooks/Handlers/ModerationHandler.php:314
+#: app/Hooks/Handlers/ModerationHandler.php:384
 #, php-format
 msgid " and %s other people"
 msgstr " und %s weitere"
 
 #. translators: %1$s is the user name, %2$s is the comment title
-#: app/Hooks/Handlers/ModerationHandler.php:319
+#: app/Hooks/Handlers/ModerationHandler.php:321
 #, php-format
 msgid "%1$s flagged a comment for your review: %2$s"
 msgstr "%1$s hat einen Kommentar zur Prüfung gemeldet: %2$s"
 
 #. translators: %1$s is the feed title
-#: app/Hooks/Handlers/ModerationHandler.php:366
+#: app/Hooks/Handlers/ModerationHandler.php:368
 #, php-format
 msgid "A post has been automatically flagged for review: %1$s"
 msgstr "Ein Beitrag wurde automatisch zur Prüfung markiert: %1$s"
 
 #. translators: %1$s is the user name, %2$s is the feed title
-#: app/Hooks/Handlers/ModerationHandler.php:389
+#: app/Hooks/Handlers/ModerationHandler.php:391
 #, php-format
 msgid "%1$s flagged a post %2$s for your review"
 msgstr "%1$s hat einen Beitrag %2$s zur Prüfung gemeldet"
 
 #. translators: %1$s is the user name, %2$s is the feed title  and %3$s space
 #. title
-#: app/Hooks/Handlers/ModerationHandler.php:397
+#: app/Hooks/Handlers/ModerationHandler.php:399
 #, php-format
 msgid "%1$s flagged a post %2$s for your review in %3$s"
 msgstr "%1$s hat einen Beitrag %2$s in %3$s zur Prüfung gemeldet"
 
 #. translators: %s is the comment excerpt (max 30 chars)
-#: app/Hooks/Handlers/ModerationHandler.php:598
+#: app/Hooks/Handlers/ModerationHandler.php:600
 #, php-format
 msgid "Comment flagged for review: %s"
 msgstr "Kommentar zur Prüfung gemeldet: %s"
 
-#: app/Hooks/Handlers/ModerationHandler.php:602
+#: app/Hooks/Handlers/ModerationHandler.php:604
 msgid "Review the comment"
 msgstr "Kommentar prüfen"
 
 #. translators: %s is the post excerpt (max 30 chars)
-#: app/Hooks/Handlers/ModerationHandler.php:657
+#: app/Hooks/Handlers/ModerationHandler.php:659
 #, php-format
 msgid "Post flagged for review: %s"
 msgstr "Beitrag zur Prüfung gemeldet: %s"
 
-#: app/Hooks/Handlers/ModerationHandler.php:661
+#: app/Hooks/Handlers/ModerationHandler.php:663
 msgid "Review the post"
 msgstr "Beitrag prüfen"
+
+#: app/Hooks/Handlers/ModerationHandler.php:737
+msgid "Open moderation reports"
+msgstr "Offene Meldungen"
+
+#: app/Hooks/Handlers/ModerationHandler.php:738
+#: app/Services/Insights/Cards/Moderation/TopReportedCard.php:33
+msgid "Reports"
+msgstr "Meldungen"
+
+#: app/Hooks/Handlers/ModerationHandler.php:740
+msgid "Flagged or pending"
+msgstr "Markiert oder wartend"
 
 #: app/Hooks/Handlers/PostVisibilityHandler.php:41
 msgid ""
@@ -209,7 +222,6 @@ msgstr ""
 "Der geplante Zeitpunkt muss mindestens 30 Minuten in der Zukunft liegen."
 
 #: app/Hooks/Handlers/ShortCodeHandler.php:92
-#: app/Services/Analytics/Spaces.php:53
 msgid "Total Spaces"
 msgstr "Foren gesamt"
 
@@ -218,12 +230,10 @@ msgid "Total Community Users"
 msgstr "Mitglieder gesamt"
 
 #: app/Hooks/Handlers/ShortCodeHandler.php:100
-#: app/Services/Analytics/Spaces.php:54
 msgid "Total Posts"
 msgstr "Alle Beiträge"
 
 #: app/Hooks/Handlers/ShortCodeHandler.php:104
-#: app/Services/Analytics/Spaces.php:55
 msgid "Total Comments"
 msgstr "Kommentare gesamt"
 
@@ -378,7 +388,7 @@ msgid ""
 "Your report has been successfully submitted. A moderator will review as soon"
 " as possible."
 msgstr ""
-"Dein Bericht ist eingegangen. Die Moderation sieht ihn sich so bald wie "
+"Deine Meldung ist eingegangen. Die Moderation sieht sie sich so bald wie "
 "möglich an."
 
 #: app/Http/Controllers/ModerationController.php:194
@@ -401,7 +411,7 @@ msgid ""
 "The report was dismissed. The comment is published and visible to the "
 "community."
 msgstr ""
-"Der Bericht wurde verworfen. Der Kommentar ist veröffentlicht und für die "
+"Die Meldung wurde verworfen. Der Kommentar ist veröffentlicht und für die "
 "Community sichtbar."
 
 #: app/Http/Controllers/ModerationController.php:289
@@ -409,12 +419,12 @@ msgid ""
 "The report was dismissed. The post is published and visible to the "
 "community."
 msgstr ""
-"Der Bericht wurde verworfen. Der Beitrag ist veröffentlicht und für die "
+"Die Meldung wurde verworfen. Der Beitrag ist veröffentlicht und für die "
 "Community sichtbar."
 
 #: app/Http/Controllers/ModerationController.php:308
 msgid "Report deleted successfully"
-msgstr "Bericht gelöscht"
+msgstr "Meldung gelöscht"
 
 #: app/Http/Controllers/ModerationController.php:330
 msgid "Moderation config saved successfully"
@@ -612,6 +622,14 @@ msgstr "Beitrag wurde neu geplant für %s"
 #: app/Modules/CloudStorage/BunnyCDN/BunnyCdnDriver.php:54
 msgid "Error uploading file to BunnyCDN"
 msgstr "Fehler beim Hochladen zu BunnyCDN"
+
+#: app/Modules/CloudStorage/CloudStorageModule.php:62
+msgid ""
+"The file is stored with a different storage provider or bucket than the one "
+"configured now."
+msgstr ""
+"Die Datei liegt bei einem anderen Speicheranbieter oder in einem anderen "
+"Bucket als dem jetzt eingestellten."
 
 #: app/Modules/CloudStorage/S3/CloudFlareDriver.php:38
 #: app/Modules/CloudStorage/S3/S3Driver.php:29
@@ -839,6 +857,8 @@ msgid "Course"
 msgstr "Kurs"
 
 #: app/Modules/Integrations/Paymattic/Bootstrap.php:196
+#: app/Services/Insights/Cards/Content/TopPostsCard.php:34
+#: app/Services/Insights/Cards/Content/UnansweredCard.php:37
 #: app/Services/Integrations/FluentCRM/RemoveFromSpaceAction.php:44
 msgid "Space"
 msgstr "Forum"
@@ -1277,10 +1297,10 @@ msgid "Space menu"
 msgstr "Foren-Menü"
 
 #: app/Modules/SeoSiteMap/AbstractPortalPreRenderer.php:163
-#: app/Services/Analytics/AnalyticsService.php:43
-#: app/Services/Analytics/Overview.php:31
-#: app/Services/Analytics/Overview.php:50
-#: app/Services/Analytics/Spaces.php:145
+#: app/Services/Insights/Cards/Content/TopicsCard.php:39
+#: app/Services/Insights/Cards/Content/TypesCard.php:36
+#: app/Services/Insights/Cards/Members/TopContributorsCard.php:33
+#: app/Services/Insights/Cards/Spaces/ComparisonCard.php:45
 msgid "Posts"
 msgstr "Beiträge"
 
@@ -1441,52 +1461,52 @@ msgstr "Keine Seiten zum Sortieren übergeben"
 msgid "Pages have been sorted"
 msgstr "Die Seiten wurden sortiert"
 
-#: app/Modules/SpacePages/Services/SpacePageHelper.php:276
+#: app/Modules/SpacePages/Services/SpacePageHelper.php:279
 msgid "You do not have access to view this page."
 msgstr "Du hast keinen Zugriff auf diese Seite."
 
-#: app/Modules/SpacePages/Services/SpacePageHelper.php:323
+#: app/Modules/SpacePages/Services/SpacePageHelper.php:326
 msgid "Unified"
 msgstr "Lektion"
 
-#: app/Modules/SpacePages/Services/SpacePageHelper.php:324
+#: app/Modules/SpacePages/Services/SpacePageHelper.php:327
 msgid "One surface filling the whole area, read like a course lesson. No box."
 msgstr ""
 "Eine Fläche über den ganzen Bereich, zu lesen wie eine Kurslektion. Ohne "
 "Kasten."
 
-#: app/Modules/SpacePages/Services/SpacePageHelper.php:327
+#: app/Modules/SpacePages/Services/SpacePageHelper.php:330
 msgid "Standard"
 msgstr "Standard"
 
-#: app/Modules/SpacePages/Services/SpacePageHelper.php:328
+#: app/Modules/SpacePages/Services/SpacePageHelper.php:331
 msgid ""
 "A card across the full width of the space, like the Members and Documents "
 "tabs."
 msgstr ""
-"Eine Karte über die volle Breite des Forums, wie bei den Reitern Mitglieder "
-"und Dokumente."
+"Eine Kachel über die volle Breite des Forums, wie bei den Reitern Mitglieder"
+" und Dokumente."
 
-#: app/Modules/SpacePages/Services/SpacePageHelper.php:331
+#: app/Modules/SpacePages/Services/SpacePageHelper.php:334
 msgid "Classic"
 msgstr "Klassisch"
 
-#: app/Modules/SpacePages/Services/SpacePageHelper.php:332
+#: app/Modules/SpacePages/Services/SpacePageHelper.php:335
 msgid ""
 "Reads like a normal post: a card the width of a feed post, with the space "
 "sidebar beside it."
 msgstr ""
-"Liest sich wie ein normaler Beitrag: eine Karte in der Breite eines Feed-"
+"Liest sich wie ein normaler Beitrag: eine Kachel in der Breite eines Feed-"
 "Beitrags, daneben die Seitenleiste des Forums."
 
-#: app/Modules/SpacePages/Services/SpacePageHelper.php:335
+#: app/Modules/SpacePages/Services/SpacePageHelper.php:338
 msgid "Full Width"
 msgstr "Volle Breite"
 
-#: app/Modules/SpacePages/Services/SpacePageHelper.php:336
+#: app/Modules/SpacePages/Services/SpacePageHelper.php:339
 msgid "No card. Full width blocks design the page edge to edge."
 msgstr ""
-"Ohne Karte. Blöcke in voller Breite gestalten die Seite von Rand zu Rand."
+"Ohne Kachel. Blöcke in voller Breite gestalten die Seite von Rand zu Rand."
 
 #: app/Modules/SpacePages/SpacePagesModule.php:105
 msgid "Space Page"
@@ -1512,91 +1532,6 @@ msgstr "Die E-Mail-Adresse ist erforderlich"
 msgid "Webhook has been successfully executed"
 msgstr "Webhook-Aufruf erfolgreich"
 
-#: app/Services/Analytics/AnalyticsService.php:35
-#: app/Services/Analytics/Overview.php:32
-#: app/Services/Analytics/Overview.php:42
-#: app/Services/Analytics/Spaces.php:149 app/Services/Analytics/Spaces.php:201
-msgid "Comments"
-msgstr "Kommentare"
-
-#: app/Services/Analytics/AnalyticsService.php:39
-#: app/Services/Analytics/Overview.php:30
-#: app/Services/Analytics/Overview.php:46
-#: app/Services/Analytics/Spaces.php:153
-msgid "Members"
-msgstr "Mitglieder"
-
-#: app/Services/Analytics/AnalyticsService.php:47
-#: app/Services/Analytics/Overview.php:33
-#: app/Services/Analytics/Overview.php:54
-msgid "Spaces"
-msgstr "Foren"
-
-#: app/Services/Analytics/AnalyticsService.php:304
-msgid "Time Range"
-msgstr "Tageszeit"
-
-#: app/Services/Analytics/AnalyticsService.php:308
-msgid "Mon"
-msgstr "Mo"
-
-#: app/Services/Analytics/AnalyticsService.php:312
-msgid "Tue"
-msgstr "Di"
-
-#: app/Services/Analytics/AnalyticsService.php:316
-msgid "Wed"
-msgstr "Mi"
-
-#: app/Services/Analytics/AnalyticsService.php:320
-msgid "Thu"
-msgstr "Do"
-
-#: app/Services/Analytics/AnalyticsService.php:324
-msgid "Fri"
-msgstr "Fr"
-
-#: app/Services/Analytics/AnalyticsService.php:328
-msgid "Sat"
-msgstr "Sa"
-
-#: app/Services/Analytics/AnalyticsService.php:332
-msgid "Sun"
-msgstr "So"
-
-#: app/Services/Analytics/Members.php:29 app/Services/Analytics/Spaces.php:56
-msgid "Total Members"
-msgstr "Mitglieder gesamt"
-
-#: app/Services/Analytics/Members.php:30
-msgid "Active Members"
-msgstr "Aktive Mitglieder"
-
-#: app/Services/Analytics/Members.php:31
-msgid "New Members"
-msgstr "Neue Mitglieder"
-
-#: app/Services/Analytics/Members.php:32
-msgid "Pending Members"
-msgstr "Wartende Mitglieder"
-
-#: app/Services/Analytics/Members.php:47 app/Services/Analytics/Spaces.php:81
-#: app/Services/Analytics/Spaces.php:98
-msgid "Activity"
-msgstr "Aktivität"
-
-#: app/Services/Analytics/Spaces.php:141
-msgid "Space Name"
-msgstr "Name"
-
-#: app/Services/Analytics/Spaces.php:197
-msgid "Post Title"
-msgstr "Beitrag"
-
-#: app/Services/Analytics/Spaces.php:205
-msgid "Reactions"
-msgstr "Likes"
-
 #: app/Services/BulkMemberHelper.php:26 app/Services/BulkMemberHelper.php:100
 #: app/Services/BulkMemberHelper.php:332
 #, php-format
@@ -1621,6 +1556,586 @@ msgid ""
 msgstr ""
 "%d erfolgreich hinzugefügt. Neue Benutzerkonten wurden nicht angelegt, weil "
 "Du keine Benutzer anlegen darfst."
+
+#: app/Services/Insights/Cards/Content/BookmarksCard.php:24
+msgid "Most bookmarked"
+msgstr "Am häufigsten gemerkt"
+
+#: app/Services/Insights/Cards/Content/BookmarksCard.php:29
+msgid ""
+"Posts bookmarked most often during the range. Metric: content.bookmarks."
+msgstr ""
+"Beiträge, die im Zeitraum am häufigsten gemerkt wurden. Kennzahl: "
+"content.bookmarks."
+
+#: app/Services/Insights/Cards/Content/BookmarksCard.php:35
+#: app/Services/Insights/Cards/Content/TopPostsCard.php:33
+#: app/Services/Insights/Cards/Content/UnansweredCard.php:36
+msgid "Post Title"
+msgstr "Beitrag"
+
+#: app/Services/Insights/Cards/Content/BookmarksCard.php:36
+msgid "Bookmarks"
+msgstr "Gemerkte Beiträge"
+
+#: app/Services/Insights/Cards/Content/HashtagsCard.php:15
+msgid "Hashtags"
+msgstr "Hashtags"
+
+#: app/Services/Insights/Cards/Content/HashtagsCard.php:20
+msgid ""
+"Posts created in the range per hashtag. Metric: content.topics (hashtags)."
+msgstr ""
+"Im Zeitraum erstellte Beiträge je Hashtag. Kennzahl: content.topics "
+"(hashtags)."
+
+#: app/Services/Insights/Cards/Content/TopicsCard.php:27
+msgid "Topics"
+msgstr "Kategorien"
+
+#: app/Services/Insights/Cards/Content/TopicsCard.php:32
+msgid ""
+"Posts created in the range per topic. A post with two topics counts once for"
+" each. Metric: content.topics."
+msgstr ""
+"Im Zeitraum erstellte Beiträge je Kategorie. Ein Beitrag mit zwei Kategorien"
+" zählt für jede einmal. Kennzahl: content.topics."
+
+#: app/Services/Insights/Cards/Content/TopicsCard.php:38
+msgid "Hashtag"
+msgstr "Hashtag"
+
+#: app/Services/Insights/Cards/Content/TopicsCard.php:38
+msgid "Topic"
+msgstr "Kategorie"
+
+#: app/Services/Insights/Cards/Content/TopPostsCard.php:22
+msgid "Popular Posts"
+msgstr "Beliebte Beiträge"
+
+#: app/Services/Insights/Cards/Content/TopPostsCard.php:27
+msgid ""
+"Posts created in the range, ranked by the comments and reactions they got in"
+" the range. Metric: content.top_posts."
+msgstr ""
+"Im Zeitraum erstellte Beiträge, geordnet nach den Kommentaren und Likes, die"
+" sie im Zeitraum bekommen haben. Kennzahl: content.top_posts."
+
+#: app/Services/Insights/Cards/Content/TopPostsCard.php:35
+#: app/Services/Insights/Cards/Content/UnansweredCard.php:38
+msgid "Author"
+msgstr "Autor"
+
+#: app/Services/Insights/Cards/Content/TopPostsCard.php:36
+#: app/Services/Insights/Cards/Members/TopContributorsCard.php:34
+#: app/Services/Insights/Cards/Spaces/ComparisonCard.php:46
+msgid "Comments"
+msgstr "Kommentare"
+
+#: app/Services/Insights/Cards/Content/TopPostsCard.php:37
+msgid "Reactions"
+msgstr "Likes"
+
+#: app/Services/Insights/Cards/Content/TypesCard.php:24
+msgid "Content types"
+msgstr "Beitragsarten"
+
+#: app/Services/Insights/Cards/Content/TypesCard.php:29
+msgid ""
+"Posts created in the range by kind (text, survey, document, video and so "
+"on). Metric: content.types."
+msgstr ""
+"Im Zeitraum erstellte Beiträge nach Art (Text, Umfrage, Dokument, Video und "
+"so weiter). Kennzahl: content.types."
+
+#: app/Services/Insights/Cards/Content/TypesCard.php:35
+msgid "Type"
+msgstr "Art"
+
+#: app/Services/Insights/Cards/Content/UnansweredCard.php:23
+msgid "Unanswered posts"
+msgstr "Beiträge ohne Antwort"
+
+#: app/Services/Insights/Cards/Content/UnansweredCard.php:28
+msgid ""
+"Posts from the last 30 days that nobody but the author has replied to after "
+"24 hours, newest first. Not limited to the selected range. Metric: "
+"response.unanswered."
+msgstr ""
+"Beiträge der letzten 30 Tage, auf die nach 24 Stunden niemand außer dem "
+"Autor geantwortet hat, die neuesten zuerst. Unabhängig vom gewählten "
+"Zeitraum. Kennzahl: response.unanswered."
+
+#: app/Services/Insights/Cards/Content/UnansweredCard.php:39
+msgid "Posted"
+msgstr "Veröffentlicht"
+
+#: app/Services/Insights/Cards/Courses/LessonFunnelCard.php:24
+msgid "Lesson funnel"
+msgstr "Fortschritt je Lektion"
+
+#: app/Services/Insights/Cards/Courses/LessonFunnelCard.php:29
+msgid ""
+"For the selected course (or the one with most students), the share of active"
+" students who completed each published lesson, in curriculum order. Metric: "
+"course.lesson_funnel."
+msgstr ""
+"Für den gewählten Kurs (oder den mit den meisten Teilnehmenden): der Anteil "
+"der aktiven Teilnehmenden, die die jeweilige veröffentlichte Lektion "
+"abgeschlossen haben, in der Reihenfolge des Lehrplans. Kennzahl: "
+"course.lesson_funnel."
+
+#. translators: 1: course title, 2: number of students
+#: app/Services/Insights/Cards/Courses/LessonFunnelCard.php:41
+#, php-format
+msgid "%1$s · %2$d active students"
+msgstr "%1$s · %2$d aktive Teilnehmende"
+
+#: app/Services/Insights/Cards/Courses/StudentsCard.php:22
+msgid "Students"
+msgstr "Teilnehmende"
+
+#: app/Services/Insights/Cards/Courses/StudentsCard.php:27
+msgid ""
+"Active students of the selected course (or the one with most students): the "
+"100 most recent enrollments, with progress as the course pages show it, the "
+"enrollment date and the completion date."
+msgstr ""
+"Aktive Teilnehmende des gewählten Kurses (oder des Kurses mit den meisten "
+"Teilnehmenden): die 100 jüngsten Einschreibungen, mit dem Fortschritt wie "
+"auf den Kursseiten, dem Datum der Einschreibung und dem des Abschlusses."
+
+#: app/Services/Insights/Cards/Courses/StudentsCard.php:36
+msgid "Progress"
+msgstr "Fortschritt"
+
+#: app/Services/Insights/Cards/Courses/StudentsCard.php:37
+msgid "Enrolled"
+msgstr "Eingeschrieben"
+
+#: app/Services/Insights/Cards/Courses/StudentsCard.php:38
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+#: app/Services/Insights/Cards/Engagement/ActiveMembersCard.php:26
+msgid "Daily, weekly and monthly active members"
+msgstr "Täglich, wöchentlich und monatlich aktive Mitglieder"
+
+#: app/Services/Insights/Cards/Engagement/ActiveMembersCard.php:31
+msgid ""
+"Members active on the day, in the 7 days and in the 30 days ending on each "
+"date (rolling windows, not calendar weeks). For weeks and months the value "
+"at the end of the period is shown. Metrics: members.dau, members.wau, "
+"members.mau."
+msgstr ""
+"Mitglieder, die am jeweiligen Tag, in den 7 Tagen und in den 30 Tagen bis zu"
+" diesem Datum aktiv waren (gleitende Fenster, keine Kalenderwochen). Bei "
+"Wochen und Monaten steht der Wert am Ende der Woche bzw. des Monats. "
+"Kennzahlen: members.dau, members.wau, members.mau."
+
+#: app/Services/Insights/Cards/Engagement/ActiveMembersCard.php:43
+msgid "Daily active"
+msgstr "Täglich aktiv"
+
+#: app/Services/Insights/Cards/Engagement/ActiveMembersCard.php:44
+msgid "Weekly active"
+msgstr "Wöchentlich aktiv"
+
+#: app/Services/Insights/Cards/Engagement/ActiveMembersCard.php:45
+msgid "Monthly active"
+msgstr "Monatlich aktiv"
+
+#: app/Services/Insights/Cards/Engagement/HeatmapCard.php:25
+msgid "When members are active"
+msgstr "Wann ist etwas los?"
+
+#: app/Services/Insights/Cards/Engagement/HeatmapCard.php:30
+msgid ""
+"Posts, comments, reactions and chat messages by weekday and hour, in the "
+"site timezone. Sign-ups and space creation are not counted. Metric: "
+"timing.heatmap."
+msgstr ""
+"Beiträge, Kommentare, Likes und Chat-Nachrichten nach Wochentag und Stunde, "
+"in der Zeitzone der Website. Registrierungen und neu angelegte Foren zählen "
+"nicht. Kennzahl: timing.heatmap."
+
+#: app/Services/Insights/Cards/Engagement/ParticipationCard.php:26
+msgid "Participation tiers"
+msgstr "Beteiligungsstufen"
+
+#: app/Services/Insights/Cards/Engagement/ParticipationCard.php:31
+msgid ""
+"Members at the end of the range by how many posts and comments they wrote in"
+" it. Most communities follow a 90-9-1 shape: most members read without "
+"posting. Metric: participation.tiers."
+msgstr ""
+"Mitglieder am Ende des Zeitraums, danach, wie viele Beiträge und Kommentare "
+"sie darin geschrieben haben. Die meisten Communitys folgen der 90-9-1-Regel:"
+" Die meisten Mitglieder lesen, ohne zu schreiben. Kennzahl: "
+"participation.tiers."
+
+#: app/Services/Insights/Cards/Engagement/ParticipationCard.php:38
+msgid "No posts or comments"
+msgstr "Keine Beiträge oder Kommentare"
+
+#: app/Services/Insights/Cards/Engagement/ParticipationCard.php:39
+msgid "1 to 2"
+msgstr "1 bis 2"
+
+#: app/Services/Insights/Cards/Engagement/ParticipationCard.php:40
+msgid "3 to 10"
+msgstr "3 bis 10"
+
+#: app/Services/Insights/Cards/Engagement/ParticipationCard.php:41
+msgid "11 to 50"
+msgstr "11 bis 50"
+
+#: app/Services/Insights/Cards/Engagement/ParticipationCard.php:42
+msgid "More than 50"
+msgstr "Mehr als 50"
+
+#: app/Services/Insights/Cards/Engagement/ReplyTimesCard.php:26
+msgid "Time to first reply"
+msgstr "Zeit bis zur ersten Antwort"
+
+#: app/Services/Insights/Cards/Engagement/ReplyTimesCard.php:31
+msgid ""
+"Posts created in the range by how long they waited for a reply from someone "
+"else. Metric: response.buckets."
+msgstr ""
+"Im Zeitraum erstellte Beiträge danach, wie lange sie auf eine Antwort von "
+"jemand anderem gewartet haben. Kennzahl: response.buckets."
+
+#: app/Services/Insights/Cards/Engagement/ReplyTimesCard.php:38
+msgid "Under 1 hour"
+msgstr "Unter 1 Stunde"
+
+#: app/Services/Insights/Cards/Engagement/ReplyTimesCard.php:39
+msgid "1 to 4 hours"
+msgstr "1 bis 4 Stunden"
+
+#: app/Services/Insights/Cards/Engagement/ReplyTimesCard.php:40
+msgid "4 to 24 hours"
+msgstr "4 bis 24 Stunden"
+
+#: app/Services/Insights/Cards/Engagement/ReplyTimesCard.php:41
+msgid "1 to 3 days"
+msgstr "1 bis 3 Tage"
+
+#: app/Services/Insights/Cards/Engagement/ReplyTimesCard.php:42
+msgid "Over 3 days"
+msgstr "Über 3 Tage"
+
+#: app/Services/Insights/Cards/Engagement/ReplyTimesCard.php:43
+msgid "No reply yet"
+msgstr "Noch keine Antwort"
+
+#: app/Services/Insights/Cards/Engagement/ResponsivenessCard.php:24
+msgid "Stickiness and responsiveness"
+msgstr "Bindungsquote und Antwortverhalten"
+
+#: app/Services/Insights/Cards/Engagement/ResponsivenessCard.php:29
+msgid ""
+"Stickiness is the average daily actives divided by monthly actives (10-25% "
+"is typical). Replies are the first comment by someone other than the author;"
+" posts younger than 24 hours are not judged yet. Metrics: "
+"members.stickiness, response.reply_rate, response.first_reply_median, "
+"response.within_24h."
+msgstr ""
+"Die Bindungsquote ist der Durchschnitt der täglich Aktiven geteilt durch die"
+" monatlich Aktiven (üblich sind 10 bis 25 Prozent). Als Antwort zählt der "
+"erste Kommentar von jemand anderem als dem Autor; Beiträge, die jünger als "
+"24 Stunden sind, werden noch nicht bewertet. Kennzahlen: members.stickiness,"
+" response.reply_rate, response.first_reply_median, response.within_24h."
+
+#: app/Services/Insights/Cards/Engagement/ResponsivenessCard.php:40
+msgid "Stickiness"
+msgstr "Bindungsquote"
+
+#: app/Services/Insights/Cards/Engagement/ResponsivenessCard.php:41
+#: app/Services/Insights/Cards/Spaces/ComparisonCard.php:49
+msgid "Posts answered"
+msgstr "Beiträge mit Antwort"
+
+#: app/Services/Insights/Cards/Engagement/ResponsivenessCard.php:42
+msgid "Median time to first reply"
+msgstr "Median bis zur ersten Antwort"
+
+#: app/Services/Insights/Cards/Engagement/ResponsivenessCard.php:43
+msgid "Answered within 24 hours"
+msgstr "Innerhalb von 24 Stunden beantwortet"
+
+#: app/Services/Insights/Cards/Members/AtRiskCard.php:22
+msgid "At-risk regulars"
+msgstr "Stammmitglieder auf dem Absprung"
+
+#: app/Services/Insights/Cards/Members/AtRiskCard.php:27
+msgid ""
+"Members with 5 or more posts and comments in the 60 days before the last 30 "
+"days of the range, and no activity at all in those last 30 days. Metric: "
+"members.at_risk."
+msgstr ""
+"Mitglieder mit mindestens 5 Beiträgen und Kommentaren in den 60 Tagen vor "
+"den letzten 30 Tagen des Zeitraums und ganz ohne Aktivität in diesen letzten"
+" 30 Tagen. Kennzahl: members.at_risk."
+
+#: app/Services/Insights/Cards/Members/AtRiskCard.php:35
+msgid "Earlier posts and comments"
+msgstr "Frühere Beiträge und Kommentare"
+
+#: app/Services/Insights/Cards/Members/AtRiskCard.php:36
+msgid "Last contribution"
+msgstr "Letzter Beitrag oder Kommentar"
+
+#: app/Services/Insights/Cards/Members/CohortsCard.php:24
+msgid "Retention cohorts"
+msgstr "Bindung nach Beitrittsmonat"
+
+#: app/Services/Insights/Cards/Members/CohortsCard.php:29
+msgid ""
+"Members grouped by the month they joined (up to 12 months in the range), and"
+" the share of each group active in each later month: M0 is the joining "
+"month. Active means contributed, or visited once visits are tracked. Metric:"
+" retention.cohorts."
+msgstr ""
+"Mitglieder nach dem Monat ihres Beitritts gruppiert (bis zu 12 Monate im "
+"Zeitraum), und der Anteil jeder Gruppe, der in den Folgemonaten aktiv war: "
+"M0 ist der Beitrittsmonat. Aktiv heißt beteiligt, oder im Portal gewesen, "
+"sobald Besuche erfasst werden. Kennzahl: retention.cohorts."
+
+#: app/Services/Insights/Cards/Members/GrowthCard.php:26
+msgid "Growth"
+msgstr "Wachstum"
+
+#: app/Services/Insights/Cards/Members/GrowthCard.php:31
+msgid ""
+"New members per period, and active members at the end of each period, on "
+"separate scales. Metrics: members.new, members.total."
+msgstr ""
+"Neue Mitglieder je Tag, Woche oder Monat und die aktiven Mitglieder jeweils "
+"am Ende, mit getrennten Skalen. Kennzahlen: members.new, members.total."
+
+#: app/Services/Insights/Cards/Members/GrowthCard.php:40
+msgid "New Members"
+msgstr "Neue Mitglieder"
+
+#: app/Services/Insights/Cards/Members/GrowthCard.php:41
+msgid "Total Members"
+msgstr "Mitglieder gesamt"
+
+#: app/Services/Insights/Cards/Members/HealthCard.php:24
+msgid "Activation and member status"
+msgstr "Aktivierung und Mitgliederstatus"
+
+#: app/Services/Insights/Cards/Members/HealthCard.php:29
+msgid ""
+"Share of new members who posted, commented or reacted within 7 days of "
+"joining (members younger than 7 days are not judged yet), the median time "
+"from joining to a first post, and member status now. Metrics: "
+"activation.first_contrib_7d, activation.time_to_first_post, members.total, "
+"members.pending."
+msgstr ""
+"Anteil der neuen Mitglieder, die in den ersten 7 Tagen nach dem Beitritt "
+"einen Beitrag, einen Kommentar oder ein Like hinterlassen haben (wer kürzer "
+"als 7 Tage dabei ist, wird noch nicht bewertet), der Median vom Beitritt bis"
+" zum ersten Beitrag und der Status der Mitglieder heute. Kennzahlen: "
+"activation.first_contrib_7d, activation.time_to_first_post, members.total, "
+"members.pending."
+
+#: app/Services/Insights/Cards/Members/HealthCard.php:42
+msgid "Activated within 7 days"
+msgstr "Innerhalb von 7 Tagen aktiv geworden"
+
+#: app/Services/Insights/Cards/Members/HealthCard.php:43
+msgid "Time to first post"
+msgstr "Zeit bis zum ersten Beitrag"
+
+#: app/Services/Insights/Cards/Members/HealthCard.php:44
+msgid "Active members"
+msgstr "Aktive Mitglieder"
+
+#: app/Services/Insights/Cards/Members/HealthCard.php:45
+msgid "Pending Members"
+msgstr "Wartende Mitglieder"
+
+#: app/Services/Insights/Cards/Members/HealthCard.php:46
+msgid "Blocked members"
+msgstr "Gesperrte Mitglieder"
+
+#: app/Services/Insights/Cards/Members/TopContributorsCard.php:22
+msgid "Top contributors"
+msgstr "Aktivste Mitglieder"
+
+#: app/Services/Insights/Cards/Members/TopContributorsCard.php:27
+msgid ""
+"Ranked by 3 x posts + 2 x comments + 1 x reactions given in the range. "
+"Reactions received are shown alongside. Metric: members.top_contributors."
+msgstr ""
+"Sortiert nach 3 × Beiträge + 2 × Kommentare + 1 × gegebene Likes im "
+"Zeitraum. Erhaltene Likes stehen daneben. Kennzahl: "
+"members.top_contributors."
+
+#: app/Services/Insights/Cards/Members/TopContributorsCard.php:35
+msgid "Reactions given"
+msgstr "Likes gegeben"
+
+#: app/Services/Insights/Cards/Members/TopContributorsCard.php:36
+msgid "Reactions received"
+msgstr "Likes erhalten"
+
+#: app/Services/Insights/Cards/Members/TopContributorsCard.php:37
+msgid "Score"
+msgstr "Punktzahl"
+
+#: app/Services/Insights/Cards/Moderation/OutcomeCard.php:26
+msgid "Outcome"
+msgstr "Ergebnis"
+
+#: app/Services/Insights/Cards/Moderation/OutcomeCard.php:31
+msgid ""
+"Reports made in the range by their current status. Metric: "
+"mod.reports_received."
+msgstr ""
+"Meldungen aus dem Zeitraum nach ihrem jetzigen Status. Kennzahl: "
+"mod.reports_received."
+
+#: app/Services/Insights/Cards/Moderation/OutcomeCard.php:38
+msgid "Flagged"
+msgstr "Markiert"
+
+#: app/Services/Insights/Cards/Moderation/OutcomeCard.php:39
+msgid "Pending"
+msgstr "Wartend"
+
+#: app/Services/Insights/Cards/Moderation/OutcomeCard.php:40
+msgid "Ignored"
+msgstr "Ignoriert"
+
+#: app/Services/Insights/Cards/Moderation/OutcomeCard.php:41
+msgid "Restored"
+msgstr "Wiederhergestellt"
+
+#: app/Services/Insights/Cards/Moderation/OutcomeCard.php:42
+#: app/Services/Insights/Cards/Moderation/ReportsCard.php:42
+msgid "Removed"
+msgstr "Entfernt"
+
+#: app/Services/Insights/Cards/Moderation/QueueCard.php:23
+msgid "Is moderation keeping up?"
+msgstr "Kommt die Moderation hinterher?"
+
+#: app/Services/Insights/Cards/Moderation/QueueCard.php:28
+msgid ""
+"Reports still open and content waiting for review right now; for reports "
+"made in the range, the median time to the last action on them and the share "
+"that led to removal. Metrics: mod.open, mod.pending_content, "
+"mod.resolution_median, mod.actioned_rate."
+msgstr ""
+"Stand jetzt: offene Meldungen und Inhalte, die auf Prüfung warten; für "
+"Meldungen aus dem Zeitraum der Median bis zur letzten Bearbeitung und der "
+"Anteil, der zur Entfernung geführt hat. Kennzahlen: mod.open, "
+"mod.pending_content, mod.resolution_median, mod.actioned_rate."
+
+#: app/Services/Insights/Cards/Moderation/QueueCard.php:39
+msgid "Open reports"
+msgstr "Offene Meldungen"
+
+#: app/Services/Insights/Cards/Moderation/QueueCard.php:40
+msgid "Waiting for review"
+msgstr "Wartet auf Prüfung"
+
+#: app/Services/Insights/Cards/Moderation/QueueCard.php:41
+msgid "Time to resolve"
+msgstr "Zeit bis zur Erledigung"
+
+#: app/Services/Insights/Cards/Moderation/QueueCard.php:42
+msgid "Removed after review"
+msgstr "Nach Prüfung entfernt"
+
+#: app/Services/Insights/Cards/Moderation/ReportsCard.php:27
+msgid "Reports received"
+msgstr "Eingegangene Meldungen"
+
+#: app/Services/Insights/Cards/Moderation/ReportsCard.php:32
+msgid ""
+"Reports made in each period, by where they stand now: still open, kept after"
+" review, or removed. Metric: mod.reports_received."
+msgstr ""
+"Meldungen je Tag, Woche oder Monat, nach ihrem jetzigen Stand: noch offen, "
+"nach Prüfung belassen oder entfernt. Kennzahl: mod.reports_received."
+
+#: app/Services/Insights/Cards/Moderation/ReportsCard.php:40
+msgid "Still open"
+msgstr "Noch offen"
+
+#: app/Services/Insights/Cards/Moderation/ReportsCard.php:41
+msgid "Kept"
+msgstr "Belassen"
+
+#: app/Services/Insights/Cards/Moderation/TopReportedCard.php:22
+msgid "Most reported members"
+msgstr "Am häufigsten gemeldete Mitglieder"
+
+#: app/Services/Insights/Cards/Moderation/TopReportedCard.php:27
+msgid ""
+"Authors whose posts were reported most in the range. Metric: "
+"mod.top_reported."
+msgstr ""
+"Autoren, deren Beiträge im Zeitraum am häufigsten gemeldet wurden. Kennzahl:"
+" mod.top_reported."
+
+#: app/Services/Insights/Cards/ProCard.php:65
+msgid "Member"
+msgstr "Mitglied"
+
+#: app/Services/Insights/Cards/Spaces/ComparisonCard.php:24
+msgid "Space comparison"
+msgstr "Foren im Vergleich"
+
+#: app/Services/Insights/Cards/Spaces/ComparisonCard.php:29
+msgid ""
+"Every space: members now, joins and leaves in the range (leaves are known "
+"from the day tracking started), posts and comments, members who took part, "
+"the share of members who took part, the share of posts answered, and the "
+"post trend. Metrics: space.members, space.joins, space.leaves, space.posts, "
+"space.comments, space.contributors, space.contributor_ratio, "
+"space.reply_rate."
+msgstr ""
+"Jedes Forum: Mitglieder heute, Beitritte und Austritte im Zeitraum "
+"(Austritte sind erst ab dem Tag bekannt, an dem die Erfassung begann), "
+"Beiträge und Kommentare, beteiligte Mitglieder, ihr Anteil an allen "
+"Mitgliedern, der Anteil der Beiträge mit Antwort und der Trend der Beiträge."
+" Kennzahlen: space.members, space.joins, space.leaves, space.posts, "
+"space.comments, space.contributors, space.contributor_ratio, "
+"space.reply_rate."
+
+#: app/Services/Insights/Cards/Spaces/ComparisonCard.php:41
+msgid "Space Name"
+msgstr "Name"
+
+#: app/Services/Insights/Cards/Spaces/ComparisonCard.php:42
+msgid "Members"
+msgstr "Mitglieder"
+
+#: app/Services/Insights/Cards/Spaces/ComparisonCard.php:43
+msgid "Joins"
+msgstr "Beitritte"
+
+#: app/Services/Insights/Cards/Spaces/ComparisonCard.php:44
+msgid "Leaves"
+msgstr "Austritte"
+
+#: app/Services/Insights/Cards/Spaces/ComparisonCard.php:47
+msgid "Contributors"
+msgstr "Beteiligte"
+
+#: app/Services/Insights/Cards/Spaces/ComparisonCard.php:48
+msgid "Took part"
+msgstr "Beteiligt"
+
+#: app/Services/Insights/Cards/Spaces/ComparisonCard.php:50
+msgid "Trend"
+msgstr "Trend"
 
 #: app/Services/Integrations/FluentCRM/AddBadgeAction.php:26
 msgid "Add Badge To User"
@@ -1811,107 +2326,107 @@ msgstr "URL des aktuellen Forums"
 msgid "Course Enrollment"
 msgstr "Kursanmeldung"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:144
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:148
 msgid "[FluentCommunity] Add to Space"
 msgstr "[FluentCommunity] Füge dem Forum hinzu"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:146
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:150
 msgid "Add to selected Space"
 msgstr "Füge dem ausgewählten Forum hinzu"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:149
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:153
 msgid "Will apply to the contacts who are already a registered Site User"
 msgstr "Gilt für Kontakte, die bereits ein Konto auf der Website haben"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:153
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:157
 msgid "[FluentCommunity] Remove from a Space"
 msgstr "[FluentCommunity] Entferne vom Forum"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:155
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:159
 msgid "Remove from selected Space"
 msgstr "Entferne vom ausgewählten Forum"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:168
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:172
 msgid "[FluentCommunity] Add to Course"
 msgstr "[FluentCommunity] Füge dem Kurs hinzu"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:170
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:174
 msgid "Add to selected Course"
 msgstr "Füge dem ausgewählten Kurs hinzu"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:176
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:180
 msgid "[FluentCommunity] Remove from Course"
 msgstr "[FluentCommunity] Entferne vom Kurs"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:178
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:182
 msgid "Remove from selected Course"
 msgstr "Entferne vom ausgewählten Kurs"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:193
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:197
 msgid "[FluentCommunity] Add Badge to Profile"
 msgstr "[FluentCommunity] Füge Sticker dem Profil hinzu"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:195
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:199
 msgid "Add Selected Badges to users"
 msgstr "Füge ausgewählte Sticker Mitgliedern hinzu"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:201
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:205
 msgid "[FluentCommunity] Remove Badge from Profile"
 msgstr "[FluentCommunity] Entferne Sticker vom Profil"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:203
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:207
 msgid "Remove Selected Badges from users"
 msgstr "Ausgewählte Sticker von Mitgliedern entfernen"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:249
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:253
 msgid "Selected registered users have been added to the space successfully"
 msgstr ""
 "Ausgewählte registrierte Mitglieder wurden dem Forum erfolgreich hinzugefügt"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:290
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:294
 msgid "The Badge has been added to the selected users"
 msgstr "Der Sticker wurde den ausgewählten Mitgliedern hinzugefügt"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:333
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:337
 msgid "The Badge has been removed from the selected users"
 msgstr "Der Sticker wurde von den ausgewählten Mitgliedern entfernt"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:369
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:373
 msgid "Selected users have been removed from the space successfully"
 msgstr "Ausgewählte Mitglieder wurden erfolgreich vom Forum entfernt"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:397
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:401
 msgid "Selected registered users have been added to the course successfully"
 msgstr ""
 "Ausgewählte registrierte Mitglieder wurden dem Kurs erfolgreich hinzugefügt"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:425
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:429
 msgid ""
 "Selected registered users have been removed from the course successfully"
 msgstr ""
 "Ausgewählte registrierte Mitglieder wurden erfolgreich aus dem Kurs entfernt"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:459
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:463
 msgid "CRM Profile"
 msgstr "CRM-Profil"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:462
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:466
 msgid "View Contact"
 msgstr "Kontakt ansehen"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:474
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:478
 msgid "Lifetime Value"
 msgstr "Kunden „Lifetime Value“"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:486
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:490
 msgid "Lists"
 msgstr "Listen"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:498
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:502
 msgid "Tags"
 msgstr "Tags"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:509
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:513
 msgid "Visible for admin only"
 msgstr "Sichtbar nur für den Administrator"
 
@@ -2242,7 +2757,7 @@ msgstr "URL"
 msgid "Multi Select"
 msgstr "Mehrfachauswahl"
 
-#: app/Services/ProfileFieldsService.php:164
+#: app/Services/ProfileFieldsService.php:167
 #, php-format
 msgid "%s is required"
 msgstr "%s ist erforderlich"
@@ -2294,6 +2809,39 @@ msgstr ""
 "\n"
 "Viele Grüße\n"
 "{{community.name_with_url}}"
+
+#~ msgid "Spaces"
+#~ msgstr "Foren"
+
+#~ msgid "Time Range"
+#~ msgstr "Tageszeit"
+
+#~ msgid "Mon"
+#~ msgstr "Mo"
+
+#~ msgid "Tue"
+#~ msgstr "Di"
+
+#~ msgid "Wed"
+#~ msgstr "Mi"
+
+#~ msgid "Thu"
+#~ msgstr "Do"
+
+#~ msgid "Fri"
+#~ msgstr "Fr"
+
+#~ msgid "Sat"
+#~ msgstr "Sa"
+
+#~ msgid "Sun"
+#~ msgstr "So"
+
+#~ msgid "Active Members"
+#~ msgstr "Aktive Mitglieder"
+
+#~ msgid "Activity"
+#~ msgstr "Aktivität"
 
 #~ msgid ""
 #~ "If you enable this, . The newly created user will get the welcome email send"

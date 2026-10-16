@@ -7,6 +7,25 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.8
+
+**FluentCommunity 2.12.0 ist nachgezogen**, samt Pro und FluentMessaging in
+derselben Version: 243 neue Einträge. Der größte Teil gehört zum neuen Bereich
+„Insights“, der die alten Analysen ablöst und hier wieder „Analysen“ heißt:
+Kacheln mit Kennzahlen zu Beteiligung, Wachstum, Antwortverhalten, Moderation
+und Kursen, jede mit einem Erklärtext, wie gezählt wird.
+
+Dabei sind drei Wörter vereinheitlicht. „Card“ heißt durchgehend „Kachel“
+statt „Karte“, auch in der Kachelansicht des Feeds und der Foren-Übersicht.
+Was ein Mitglied über einen Beitrag oder Kommentar meldet, ist eine
+„Meldung“, nicht mehr ein „Bericht“. Und gezählte Reaktionen heißen „Likes“,
+weil FluentCommunity darunter nur die Likes zählt.
+
+**Wichtig beim Einspielen:** Diese Fassung setzt **FluentCommunity 2.12.0**
+voraus. Auf einer Installation mit 2.11.0 stünden 38 Texte wieder englisch
+da, weil ein Katalog immer über den Wortlaut nachschlägt. Erst FluentCommunity
+aktualisieren, dann dieses Plugin.
+
 ## 2.6.7
 
 **Die Hinweis-Mails von FluentAuth sind deutsch.** FluentAuth schickt der
