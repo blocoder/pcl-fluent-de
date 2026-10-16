@@ -7,6 +7,14 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.10
+
+**In den Analysen heißen die Mitglieder, die etwas beigetragen haben,
+„Aktive Mitglieder“.** Vorher stand dort „Beteiligte Mitglieder“; als
+Adjektiv heißt das Partizip aber „betroffen“, nicht „sich beteiligend“. Die
+Spalten in den Foren-Tabellen heißen entsprechend „Aktive“ und „Anteil
+aktiv“.
+
 ## 2.6.9
 
 **In den Analysen heißt der erste Kommentar unter einem Beitrag

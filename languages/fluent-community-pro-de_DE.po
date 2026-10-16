@@ -1900,8 +1900,8 @@ msgid ""
 msgstr ""
 "Mitglieder nach dem Monat ihres Beitritts gruppiert (bis zu 12 Monate im "
 "Zeitraum), und der Anteil jeder Gruppe, der in den Folgemonaten aktiv war: "
-"M0 ist der Beitrittsmonat. Aktiv heißt beteiligt, oder im Portal gewesen, "
-"sobald Besuche erfasst werden. Kennzahl: retention.cohorts."
+"M0 ist der Beitrittsmonat. Aktiv heißt: etwas beigetragen oder, sobald "
+"Besuche erfasst werden, das Portal besucht. Kennzahl: retention.cohorts."
 
 #: app/Services/Insights/Cards/Members/GrowthCard.php:26
 msgid "Growth"
@@ -2103,10 +2103,10 @@ msgid ""
 msgstr ""
 "Jedes Forum: Mitglieder heute, Beitritte und Austritte im Zeitraum "
 "(Austritte sind erst ab dem Tag bekannt, an dem die Erfassung begann), "
-"Beiträge und Kommentare, beteiligte Mitglieder, ihr Anteil an allen "
-"Mitgliedern, der Anteil der Beiträge mit Kommentar und der Trend der "
-"Beiträge. Kennzahlen: space.members, space.joins, space.leaves, space.posts,"
-" space.comments, space.contributors, space.contributor_ratio, "
+"Beiträge und Kommentare, aktive Mitglieder, ihr Anteil an allen Mitgliedern,"
+" der Anteil der Beiträge mit Kommentar und der Trend der Beiträge. "
+"Kennzahlen: space.members, space.joins, space.leaves, space.posts, "
+"space.comments, space.contributors, space.contributor_ratio, "
 "space.reply_rate."
 
 #: app/Services/Insights/Cards/Spaces/ComparisonCard.php:41
@@ -2127,11 +2127,11 @@ msgstr "Austritte"
 
 #: app/Services/Insights/Cards/Spaces/ComparisonCard.php:47
 msgid "Contributors"
-msgstr "Beteiligte"
+msgstr "Aktive"
 
 #: app/Services/Insights/Cards/Spaces/ComparisonCard.php:48
 msgid "Took part"
-msgstr "Beteiligt"
+msgstr "Anteil aktiv"
 
 #: app/Services/Insights/Cards/Spaces/ComparisonCard.php:50
 msgid "Trend"

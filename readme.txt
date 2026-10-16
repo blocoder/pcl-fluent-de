@@ -4,7 +4,7 @@ Tags: fluentcommunity, fluentcrm, fluentauth, fluentsmtp, fluentsnippets, deutsc
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.6.9
+Stable tag: 2.6.10
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,9 @@ Für FluentCRM, FluentSMTP und FluentSnippets ja. Steht die Seite auf `de_DE_for
 Ja, jede für sich. Drei Zustände je Plugin: „Deutsche Übersetzung aktiv“ (Vorgabe, schaltet sich ein, sobald das Plugin da ist), „Fremde Übersetzung“ (unsere Fassung weg, das Sprachpaket von wordpress.org greift weiter) und „Keine Übersetzung zulassen“ (das Plugin bleibt englisch).
 
 == Changelog ==
+
+= 2.6.10 =
+* Analysen: „Contributing members“ heißt jetzt „Aktive Mitglieder“ statt „Beteiligte Mitglieder“, die Spalten in den Foren-Tabellen „Aktive“ und „Anteil aktiv“.
 
 = 2.6.9 =
 * Analysen: Der erste Kommentar unter einem Beitrag heißt jetzt „Kommentar“ statt „Antwort“, etwa „Beiträge mit Kommentar“ und „Zeit bis zum ersten Kommentar“, so wie der Feed-Filter „Ohne Kommentar“.

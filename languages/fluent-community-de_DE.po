@@ -3709,7 +3709,7 @@ msgstr ""
 #: app/Services/Insights/Cards/Overview/ActiveMembersCard.php:64
 #: app/Services/Insights/Cards/Overview/KpiCard.php:60
 msgid "Contributing members"
-msgstr "Beteiligte Mitglieder"
+msgstr "Aktive Mitglieder"
 
 #: app/Services/Insights/Cards/Overview/ActivityTrendCard.php:30
 #: app/Services/TransStrings.php:159
@@ -3855,7 +3855,7 @@ msgstr "Forum"
 
 #: app/Services/Insights/Cards/Overview/TopSpacesCard.php:64
 msgid "Contributors"
-msgstr "Beteiligte"
+msgstr "Aktive"
 
 #: app/Services/Insights/CsvExporter.php:60 app/Services/TransStrings.php:590
 msgid "Date"
@@ -13056,8 +13056,8 @@ msgstr "Sichtbar"
 msgid ""
 "Visits are tracked from %s; until then this counts members who contributed."
 msgstr ""
-"Besuche werden ab %s erfasst; bis dahin zählen hier die Mitglieder, die sich"
-" beteiligt haben."
+"Besuche werden ab %s erfasst; bis dahin zählen hier die Mitglieder, die "
+"etwas beigetragen haben."
 
 #: app/Services/TransStrings.php:2248
 msgid "Volume"
