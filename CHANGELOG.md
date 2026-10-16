@@ -7,6 +7,18 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.9
+
+**In den Analysen heißt der erste Kommentar unter einem Beitrag
+„Kommentar“, nicht „Antwort“.** Die Kacheln sagen jetzt „Beiträge mit
+Kommentar“, „Beiträge ohne Kommentar“ und „Zeit bis zum ersten Kommentar“,
+so wie der Feed-Filter „Ohne Kommentar“ schon immer. Gezählt wird weiterhin
+nur ein Kommentar von jemand anderem als dem Autor; das sagen die
+Erklärtexte. Die Antwort auf einen Kommentar bleibt „Antwort“.
+
+Aus demselben Grund heißt die Feed-Sortierung „Most Replied“ jetzt
+„Meistkommentiert“ statt „Meist beantwortet“.
+
 ## 2.6.8
 
 **FluentCommunity 2.12.0 ist nachgezogen**, samt Pro und FluentMessaging in

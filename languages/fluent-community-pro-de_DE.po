@@ -1654,7 +1654,7 @@ msgstr "Art"
 
 #: app/Services/Insights/Cards/Content/UnansweredCard.php:23
 msgid "Unanswered posts"
-msgstr "Beiträge ohne Antwort"
+msgstr "Beiträge ohne Kommentar"
 
 #: app/Services/Insights/Cards/Content/UnansweredCard.php:28
 msgid ""
@@ -1662,8 +1662,8 @@ msgid ""
 "24 hours, newest first. Not limited to the selected range. Metric: "
 "response.unanswered."
 msgstr ""
-"Beiträge der letzten 30 Tage, auf die nach 24 Stunden niemand außer dem "
-"Autor geantwortet hat, die neuesten zuerst. Unabhängig vom gewählten "
+"Beiträge der letzten 30 Tage, die nach 24 Stunden von niemandem außer dem "
+"Autor kommentiert wurden, die neuesten zuerst. Unabhängig vom gewählten "
 "Zeitraum. Kennzahl: response.unanswered."
 
 #: app/Services/Insights/Cards/Content/UnansweredCard.php:39
@@ -1796,15 +1796,15 @@ msgstr "Mehr als 50"
 
 #: app/Services/Insights/Cards/Engagement/ReplyTimesCard.php:26
 msgid "Time to first reply"
-msgstr "Zeit bis zur ersten Antwort"
+msgstr "Zeit bis zum ersten Kommentar"
 
 #: app/Services/Insights/Cards/Engagement/ReplyTimesCard.php:31
 msgid ""
 "Posts created in the range by how long they waited for a reply from someone "
 "else. Metric: response.buckets."
 msgstr ""
-"Im Zeitraum erstellte Beiträge danach, wie lange sie auf eine Antwort von "
-"jemand anderem gewartet haben. Kennzahl: response.buckets."
+"Im Zeitraum erstellte Beiträge danach, wie lange sie auf den ersten "
+"Kommentar von jemand anderem gewartet haben. Kennzahl: response.buckets."
 
 #: app/Services/Insights/Cards/Engagement/ReplyTimesCard.php:38
 msgid "Under 1 hour"
@@ -1828,11 +1828,11 @@ msgstr "Über 3 Tage"
 
 #: app/Services/Insights/Cards/Engagement/ReplyTimesCard.php:43
 msgid "No reply yet"
-msgstr "Noch keine Antwort"
+msgstr "Noch kein Kommentar"
 
 #: app/Services/Insights/Cards/Engagement/ResponsivenessCard.php:24
 msgid "Stickiness and responsiveness"
-msgstr "Bindungsquote und Antwortverhalten"
+msgstr "Bindungsquote und Kommentare auf Beiträge"
 
 #: app/Services/Insights/Cards/Engagement/ResponsivenessCard.php:29
 msgid ""
@@ -1843,10 +1843,10 @@ msgid ""
 "response.within_24h."
 msgstr ""
 "Die Bindungsquote ist der Durchschnitt der täglich Aktiven geteilt durch die"
-" monatlich Aktiven (üblich sind 10 bis 25 Prozent). Als Antwort zählt der "
-"erste Kommentar von jemand anderem als dem Autor; Beiträge, die jünger als "
-"24 Stunden sind, werden noch nicht bewertet. Kennzahlen: members.stickiness,"
-" response.reply_rate, response.first_reply_median, response.within_24h."
+" monatlich Aktiven (üblich sind 10 bis 25 Prozent). Gezählt wird der erste "
+"Kommentar von jemand anderem als dem Autor; Beiträge, die jünger als 24 "
+"Stunden sind, werden noch nicht bewertet. Kennzahlen: members.stickiness, "
+"response.reply_rate, response.first_reply_median, response.within_24h."
 
 #: app/Services/Insights/Cards/Engagement/ResponsivenessCard.php:40
 msgid "Stickiness"
@@ -1855,15 +1855,15 @@ msgstr "Bindungsquote"
 #: app/Services/Insights/Cards/Engagement/ResponsivenessCard.php:41
 #: app/Services/Insights/Cards/Spaces/ComparisonCard.php:49
 msgid "Posts answered"
-msgstr "Beiträge mit Antwort"
+msgstr "Beiträge mit Kommentar"
 
 #: app/Services/Insights/Cards/Engagement/ResponsivenessCard.php:42
 msgid "Median time to first reply"
-msgstr "Median bis zur ersten Antwort"
+msgstr "Median bis zum ersten Kommentar"
 
 #: app/Services/Insights/Cards/Engagement/ResponsivenessCard.php:43
 msgid "Answered within 24 hours"
-msgstr "Innerhalb von 24 Stunden beantwortet"
+msgstr "Innerhalb von 24 Stunden kommentiert"
 
 #: app/Services/Insights/Cards/Members/AtRiskCard.php:22
 msgid "At-risk regulars"
@@ -2104,9 +2104,9 @@ msgstr ""
 "Jedes Forum: Mitglieder heute, Beitritte und Austritte im Zeitraum "
 "(Austritte sind erst ab dem Tag bekannt, an dem die Erfassung begann), "
 "Beiträge und Kommentare, beteiligte Mitglieder, ihr Anteil an allen "
-"Mitgliedern, der Anteil der Beiträge mit Antwort und der Trend der Beiträge."
-" Kennzahlen: space.members, space.joins, space.leaves, space.posts, "
-"space.comments, space.contributors, space.contributor_ratio, "
+"Mitgliedern, der Anteil der Beiträge mit Kommentar und der Trend der "
+"Beiträge. Kennzahlen: space.members, space.joins, space.leaves, space.posts,"
+" space.comments, space.contributors, space.contributor_ratio, "
 "space.reply_rate."
 
 #: app/Services/Insights/Cards/Spaces/ComparisonCard.php:41

@@ -3614,7 +3614,7 @@ msgstr "Älteste"
 
 #: app/Services/Helper.php:2463 app/Services/TransStrings.php:1243
 msgid "Most Replied"
-msgstr "Meist beantwortet"
+msgstr "Meistkommentiert"
 
 #: app/Services/Insights/CardRegistry.php:29
 #: app/Services/TransStrings.php:1426
@@ -3644,7 +3644,7 @@ msgstr "Beteiligungsstufen"
 
 #: app/Services/Insights/CardRegistry.php:194
 msgid "Responsiveness"
-msgstr "Antwortverhalten"
+msgstr "Kommentare auf Beiträge"
 
 #: app/Services/Insights/CardRegistry.php:195
 msgid "When members are active"
@@ -3740,14 +3740,14 @@ msgid ""
 "content waiting for review and members waiting for approval, right now. "
 "Metrics: response.unanswered, mod.pending_content, members.pending."
 msgstr ""
-"Stand jetzt: Beiträge der letzten 30 Tage, die nach 24 Stunden noch auf eine"
-" Antwort warten, Inhalte, die auf Prüfung warten, und Mitglieder, die auf "
+"Stand jetzt: Beiträge der letzten 30 Tage, die nach 24 Stunden noch keinen "
+"Kommentar haben, Inhalte, die auf Prüfung warten, und Mitglieder, die auf "
 "Freischaltung warten. Kennzahlen: response.unanswered, mod.pending_content, "
 "members.pending."
 
 #: app/Services/Insights/Cards/Overview/AttentionCard.php:67
 msgid "Unanswered posts"
-msgstr "Beiträge ohne Antwort"
+msgstr "Beiträge ohne Kommentar"
 
 #: app/Services/Insights/Cards/Overview/AttentionCard.php:68
 #: app/Services/TransStrings.php:1677
@@ -3756,7 +3756,7 @@ msgstr "Antworten"
 
 #: app/Services/Insights/Cards/Overview/AttentionCard.php:70
 msgid "No reply after 24 hours, last 30 days"
-msgstr "Nach 24 Stunden ohne Antwort, letzte 30 Tage"
+msgstr "Nach 24 Stunden ohne Kommentar, letzte 30 Tage"
 
 #: app/Services/Insights/Cards/Overview/AttentionCard.php:77
 msgid "Posts and comments waiting for review"
@@ -3804,7 +3804,7 @@ msgid ""
 "content.reactions, response.reply_rate."
 msgstr ""
 "Aktive und neue Mitglieder, Beiträge, Kommentare, Likes und der Anteil der "
-"Beiträge mit Antwort, verglichen mit dem Zeitraum davor. Kennzahlen: "
+"Beiträge mit Kommentar, verglichen mit dem Zeitraum davor. Kennzahlen: "
 "members.active, members.new, content.posts, content.comments, "
 "content.reactions, response.reply_rate."
 
@@ -3816,7 +3816,7 @@ msgstr "Neue Mitglieder"
 
 #: app/Services/Insights/Cards/Overview/KpiCard.php:102
 msgid "Posts answered"
-msgstr "Beiträge mit Antwort"
+msgstr "Beiträge mit Kommentar"
 
 #: app/Services/Insights/Cards/Overview/NewMembersCard.php:35
 msgid ""
