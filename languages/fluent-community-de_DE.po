@@ -753,11 +753,11 @@ msgstr "Klassisch"
 
 #: app/Hooks/Handlers/FluentBlockEditorHandler.php:513
 msgid "Full Width"
-msgstr "Volle Breite"
+msgstr "Ohne Kachel"
 
 #: app/Hooks/Handlers/FluentBlockEditorHandler.php:514
 msgid "Unified"
-msgstr "Lektion"
+msgstr "Ganze Fläche"
 
 #: app/Hooks/Handlers/FluentBlockEditorHandler.php:525
 #: app/Services/TransStrings.php:2073

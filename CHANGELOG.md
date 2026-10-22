@@ -7,6 +7,16 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.11
+
+**Zwei Ansichten der Foren-Seiten heißen jetzt so, wie sie aussehen.**
+„Unified“ heißt „Ganze Fläche“ statt „Lektion“: eine Fläche ohne Rahmen, die
+den ganzen Hauptbereich nutzt. „Full Width“ heißt „Ohne Kachel“ statt „Volle
+Breite“: Die Kachel fällt weg, die Seite bleibt aber in der normalen Spalte.
+Unter „Volle Breite“ hätte man die breiteste Ansicht erwartet, und so heißt im
+Block-Editor schon die Ausrichtung eines Blocks. „Standard“ und „Klassisch“
+bleiben.
+
 ## 2.6.10
 
 **In den Analysen heißen die Mitglieder, die etwas beigetragen haben,

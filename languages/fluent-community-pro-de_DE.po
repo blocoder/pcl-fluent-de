@@ -1467,13 +1467,13 @@ msgstr "Du hast keinen Zugriff auf diese Seite."
 
 #: app/Modules/SpacePages/Services/SpacePageHelper.php:326
 msgid "Unified"
-msgstr "Lektion"
+msgstr "Ganze Fläche"
 
 #: app/Modules/SpacePages/Services/SpacePageHelper.php:327
 msgid "One surface filling the whole area, read like a course lesson. No box."
 msgstr ""
 "Eine Fläche über den ganzen Bereich, zu lesen wie eine Kurslektion. Ohne "
-"Kasten."
+"Rahmen."
 
 #: app/Modules/SpacePages/Services/SpacePageHelper.php:330
 msgid "Standard"
@@ -1501,7 +1501,7 @@ msgstr ""
 
 #: app/Modules/SpacePages/Services/SpacePageHelper.php:338
 msgid "Full Width"
-msgstr "Volle Breite"
+msgstr "Ohne Kachel"
 
 #: app/Modules/SpacePages/Services/SpacePageHelper.php:339
 msgid "No card. Full width blocks design the page edge to edge."
