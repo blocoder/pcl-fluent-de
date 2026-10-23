@@ -4,7 +4,7 @@ Tags: fluentcommunity, fluentcrm, fluentauth, fluentsmtp, fluentsnippets, deutsc
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.6.11
+Stable tag: 2.6.12
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,11 @@ Für FluentCRM, FluentSMTP und FluentSnippets ja. Steht die Seite auf `de_DE_for
 Ja, jede für sich. Drei Zustände je Plugin: „Deutsche Übersetzung aktiv“ (Vorgabe, schaltet sich ein, sobald das Plugin da ist), „Fremde Übersetzung“ (unsere Fassung weg, das Sprachpaket von wordpress.org greift weiter) und „Keine Übersetzung zulassen“ (das Plugin bleibt englisch).
 
 == Changelog ==
+
+= 2.6.12 =
+* FluentAuth 3.1.0 nachgezogen: 126 neue Einträge, vor allem der neue Bot-Schutz mit Cloudflare Turnstile, die Warnung bei veralteten PHP-Versionen und die Seite für den Anmeldelink.
+* FluentSnippets 10.58 nachgezogen: 39 neue Einträge, vor allem zum Anlegen und Bearbeiten von Snippets über die REST-API.
+* **Wichtig beim Einspielen:** Diese Fassung setzt **FluentAuth 3.1.0** und **FluentSnippets 10.58** voraus. Mit den Vorversionen stünden 65 Texte wieder englisch da. Erst die beiden Plugins aktualisieren, dann dieses.
 
 = 2.6.11 =
 * Foren-Seiten: Die Ansicht „Unified“ heißt jetzt „Ganze Fläche“ statt „Lektion“, die Ansicht „Full Width“ „Ohne Kachel“ statt „Volle Breite“. Die breiteste Ansicht ist „Ganze Fläche“; „Ohne Kachel“ nimmt nur die Kachel weg und bleibt in der normalen Spalte.

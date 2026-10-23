@@ -7,6 +7,22 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.12
+
+**FluentAuth 3.1.0 und FluentSnippets 10.58 sind nachgezogen.** FluentAuth
+bringt 126 neue Einträge, vor allem für den neuen Bot-Schutz mit Cloudflare
+Turnstile, eine Warnung bei veralteten PHP-Versionen und die Seite, die beim
+Einlösen eines Anmeldelinks erscheint. 19 davon sind alte Sätze, bei denen
+der Hersteller nur die Platzhalter korrigiert hat; sie behalten ihre
+Übersetzung. „Site-Key“ und „Secret-Key“ bleiben englisch, wie in der
+Oberfläche von Cloudflare. FluentSnippets bringt 39 neue Einträge, vor allem
+zum Anlegen und Bearbeiten von Snippets über die REST-API.
+
+**Wichtig beim Einspielen:** Diese Fassung setzt **FluentAuth 3.1.0** und
+**FluentSnippets 10.58** voraus. Mit den Vorversionen stünden 65 Texte wieder
+englisch da, weil ein Katalog immer über den Wortlaut nachschlägt. Erst die
+beiden Plugins aktualisieren, dann dieses.
+
 ## 2.6.11
 
 **Zwei Ansichten der Foren-Seiten heißen jetzt so, wie sie aussehen.**
