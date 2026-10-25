@@ -4,7 +4,7 @@
  * Plugin URI:        https://github.com/blocoder/pcl-fluent-de
  * Update URI:        https://github.com/blocoder/pcl-fluent-de
  * Description:       Liefert die deutschen Übersetzungen für FluentCommunity, FluentCommunity Pro, FluentMessaging, FluentPlayer, FluentAuth, FluentSMTP, FluentSnippets und FluentCRM aus. Lädt sie vor allen anderen Katalogen, damit die eigene Fassung gewinnt. Jede Übersetzung schaltet sich selbst ein, sobald ihr Plugin da ist, und lässt sich einzeln abschalten oder ganz auf Englisch stellen.
- * Version:           2.6.12
+ * Version:           2.6.13
  * Requires at least: 6.5
  * Requires PHP:      7.4
  * Author:            Peter Claus Lamprecht (PC’L)
@@ -53,14 +53,71 @@ if (!defined('ABSPATH')) {
  * Weg dahin wäre, das ZIP zu signieren und die `.sig` als zweites
  * Release-Asset abzulegen.
  */
-require_once __DIR__ . '/plugin-update-checker/plugin-update-checker.php';
+
+/**
+ * Does this request need the update checker at all?
+ *
+ * Until 2.6.12 the library was built on every request, frontend and REST API
+ * included: its files, a dozen hooks, its text domain, a look at the cron
+ * schedule. None of that does anything there.
+ *
+ * What this does NOT change: in wp-admin and admin-ajax.php the library
+ * still checks on `admin_init` once its 12 hours have passed. That is its
+ * fallback for a late cron, and it means a synchronous call to the GitHub
+ * API (3 s timeout per request) from the shared IP of the hosting, which
+ * GitHub allows 60 unauthenticated requests per hour. With the cron running
+ * on time, the cron event gets there first (it checks 20 minutes early).
+ *
+ * Every path that shows, checks or installs an update runs in one of three
+ * contexts, and only there is the library built:
+ *
+ *   is_admin()       wp-admin and admin-ajax.php: the update notice in the
+ *                    plugin list, the details popup (`plugins_api`), "update
+ *                    now" (Ajax action `update-plugin`), bulk updates through
+ *                    update.php, the manual check link. WP_ADMIN is defined
+ *                    before WordPress loads, so this is reliable on `init`.
+ *   wp_doing_cron()  wp-cron.php defines DOING_CRON before WordPress loads,
+ *                    whether a visitor, the server's cron job or a loopback
+ *                    request calls it. That carries the library's own event
+ *                    `puc_cron_check_updates-pcl-fluent-de`, core's
+ *                    `wp_update_plugins` and the background auto-update
+ *                    (`wp_maybe_auto_update`). The auto-update reads the
+ *                    `update_plugins` transient and only finds this plugin
+ *                    through the library's `site_transient_update_plugins`
+ *                    filter, and installs through its `upgrader_*` hooks.
+ *   WP-CLI           `wp plugin list|status|update` call wp_update_plugins(),
+ *                    and the library hooks into exactly these commands to
+ *                    run its own check first. (`wp cron event run` defines
+ *                    DOING_CRON before loading WordPress and is covered by
+ *                    the line above either way.)
+ *
+ * Left out on purpose: frontend, REST API, XML-RPC. Nothing there installs
+ * plugin updates. The one thing lost is this plugin in the update count of
+ * the toolbar a logged-in administrator sees on the frontend
+ * (wp_get_update_data() reads the same transient); wp-admin shows it as
+ * before. A remote management tool that updates through a frontend request
+ * (MainWP, ManageWP, Jetpack) would no longer see the update. None of the
+ * installations this plugin is made for runs one (checked 25.10.2026); if
+ * one ever does, this condition has to learn its request.
+ */
+function pcl_fluent_de_update_pruefer_noetig() {
+    return is_admin() || wp_doing_cron() || (defined('WP_CLI') && WP_CLI);
+}
 
 add_action('init', function () {
-    // Erst auf `init`, weil die Bibliothek übersetzte Meldungen ausgibt und
-    // WordPress 6.7+ jedes frühere load_textdomain() anmeckert.
-    // __FILE__ bleibt auch in der Closure diese Datei — es wird beim Übersetzen
-    // aufgelöst, nicht beim Aufruf. Die Bibliothek braucht die Hauptdatei des
-    // Plugins, um den Ordner und den Versionsstand zu finden.
+    if (!pcl_fluent_de_update_pruefer_noetig()) {
+        return;
+    }
+
+    // Loaded here and not at file level, so a frontend request does not even
+    // read the library's files.
+    require_once __DIR__ . '/plugin-update-checker/plugin-update-checker.php';
+
+    // On `init`, because the library prints translated messages and
+    // WordPress 6.7+ complains about any earlier load_textdomain().
+    // __FILE__ is still this file inside the closure: it is resolved at
+    // compile time, not when the closure runs. The library needs the main
+    // plugin file to find the folder and the installed version.
     $pruefer = \YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateChecker(
         'https://github.com/blocoder/pcl-fluent-de/',
         __FILE__,

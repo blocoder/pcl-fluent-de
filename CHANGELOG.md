@@ -7,6 +7,19 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.13
+
+**Die Update-Prüfung wird nur noch geladen, wo Updates gebraucht werden.**
+Bis 2.6.12 lud sie bei jedem Seitenaufruf, auch im Frontend und in der
+REST-API, wo sie nichts zu tun hat. Jetzt startet sie nur im Backend (auch
+über admin-ajax), im WP-Cron und in WP-CLI. Die Update-Anzeige in der
+Plugin-Liste, „Jetzt aktualisieren“, die automatischen Hintergrund-Updates
+und `wp plugin update` funktionieren wie bisher. Einzige sichtbare Folge: In
+der Werkzeugleiste, die angemeldete Administratoren im Frontend sehen, zählt
+ein verfügbares Update dieses Plugins nicht mehr mit; im Backend schon.
+
+An den Übersetzungen ändert sich nichts.
+
 ## 2.6.12
 
 **FluentAuth 3.1.0 und FluentSnippets 10.58 sind nachgezogen.** FluentAuth

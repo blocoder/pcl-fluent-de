@@ -4,7 +4,7 @@ Tags: fluentcommunity, fluentcrm, fluentauth, fluentsmtp, fluentsnippets, deutsc
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.6.12
+Stable tag: 2.6.13
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,10 @@ Für FluentCRM, FluentSMTP und FluentSnippets ja. Steht die Seite auf `de_DE_for
 Ja, jede für sich. Drei Zustände je Plugin: „Deutsche Übersetzung aktiv“ (Vorgabe, schaltet sich ein, sobald das Plugin da ist), „Fremde Übersetzung“ (unsere Fassung weg, das Sprachpaket von wordpress.org greift weiter) und „Keine Übersetzung zulassen“ (das Plugin bleibt englisch).
 
 == Changelog ==
+
+= 2.6.13 =
+* Die Update-Prüfung wird nur noch dort geladen, wo Updates angezeigt, geprüft oder eingespielt werden: im Backend (auch über admin-ajax), im WP-Cron und in WP-CLI. Im Frontend und in der REST-API hatte sie nichts zu tun und kostete trotzdem bei jedem Aufruf. Updates über die Plugin-Seite, die automatischen Hintergrund-Updates und `wp plugin update` funktionieren wie bisher. In der Werkzeugleiste, die angemeldete Administratoren im Frontend sehen, zählt ein verfügbares Update dieses Plugins nicht mehr mit; im Backend schon.
+* An den Übersetzungen ändert sich nichts.
 
 = 2.6.12 =
 * FluentAuth 3.1.0 nachgezogen: 126 neue Einträge, vor allem der neue Bot-Schutz mit Cloudflare Turnstile, die Warnung bei veralteten PHP-Versionen und die Seite für den Anmeldelink.
