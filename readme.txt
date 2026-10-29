@@ -4,7 +4,7 @@ Tags: fluentcommunity, fluentcrm, fluentauth, fluentsmtp, fluentsnippets, deutsc
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.6.16
+Stable tag: 2.6.17
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,10 @@ Für FluentCRM, FluentSMTP und FluentSnippets ja. Steht die Seite auf `de_DE_for
 Ja, jede für sich. Drei Zustände je Plugin: „Deutsche Übersetzung aktiv“ (Vorgabe, schaltet sich ein, sobald das Plugin da ist), „Fremde Übersetzung“ (unsere Fassung weg, das Sprachpaket von wordpress.org greift weiter) und „Keine Übersetzung zulassen“ (das Plugin bleibt englisch).
 
 == Changelog ==
+
+= 2.6.17 =
+* FluentCRM: „Benutzerdefinierte Felder“ in den Einstellungen, im Kontaktprofil und in den E-Mail-Einstellungen ist auf Seiten ohne FluentCRM Pro wieder deutsch. FluentCRM 3.3.0 hat den Schlüssel dafür umbenannt, die Oberfläche fragt aber den alten ab; mit Pro fiel das nicht auf. Das Plugin ergänzt den fehlenden Schlüssel, solange FluentCRM ihn nicht selbst liefert.
+* Setzt wie 2.6.14 **FluentCRM 3.3.0** voraus.
 
 = 2.6.16 =
 * FluentCRM: Der Bereich für SMS und WhatsApp heißt jetzt „Messaging“ statt „Nachrichten“, auch in Zusammensetzungen („Messaging-Modul aktivieren“, „Einstellungen > Messaging“). „Nachrichten“ war irreführend, denn E-Mails sind auch Nachrichten. Wo es um einzelne Nachrichten geht, etwa „WhatsApp-Nachrichten“ oder den Posteingang, bleibt es dabei.

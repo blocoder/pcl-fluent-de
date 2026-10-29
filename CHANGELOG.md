@@ -7,6 +7,20 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.17
+
+**FluentCRM ohne Pro: „Benutzerdefinierte Felder“ wieder deutsch.** Die
+Oberfläche von FluentCRM schlägt ihre Texte in einer eigenen Liste nach.
+Version 3.3.0 hat dort den Schlüssel „Custom Fields“ in „Custom fields“
+umbenannt, drei Stellen fragen aber weiter nach dem alten: die Seitenleiste
+der Einstellungen, das Kontaktprofil und die E-Mail-Einstellungen. Mit
+FluentCRM Pro fiel das nicht auf, weil Pro den alten Schlüssel selbst
+mitbringt. Ohne Pro stand „Custom Fields“ englisch da. Das Plugin ergänzt den
+fehlenden Schlüssel jetzt mit der vorhandenen Übersetzung, aber nur, solange
+er fehlt.
+
+Setzt wie 2.6.14 **FluentCRM 3.3.0** voraus.
+
 ## 2.6.16
 
 **FluentCRM: „Messaging“ statt „Nachrichten“.** Der Bereich für SMS und

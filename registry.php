@@ -143,7 +143,7 @@ function pcl_fluent_de_registry() {
             'titel'   => 'FluentCRM',
             'anreden' => array('de_DE', 'de_DE_formal'),
             'paket'   => 'sperren',
-            'extras'  => array('fluentcrm-datum.php', 'fluentcrm-ausgaben.php'),
+            'extras'  => array('fluentcrm-datum.php', 'fluentcrm-ausgaben.php', 'fluentcrm-map.php'),
             // Weiter kein `vorgaenger`: `pcl-fluentcrm-de` gibt nur die freie
             // Domain ab und bleibt fuer `fluentcampaign-pro` aktiv. Ein
             // Eintrag hier wuerde `fluent-crm` dauerhaft blockieren. Die
