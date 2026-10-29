@@ -4,7 +4,7 @@ Tags: fluentcommunity, fluentcrm, fluentauth, fluentsmtp, fluentsnippets, deutsc
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.6.13
+Stable tag: 2.6.14
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,10 @@ Für FluentCRM, FluentSMTP und FluentSnippets ja. Steht die Seite auf `de_DE_for
 Ja, jede für sich. Drei Zustände je Plugin: „Deutsche Übersetzung aktiv“ (Vorgabe, schaltet sich ein, sobald das Plugin da ist), „Fremde Übersetzung“ (unsere Fassung weg, das Sprachpaket von wordpress.org greift weiter) und „Keine Übersetzung zulassen“ (das Plugin bleibt englisch).
 
 == Changelog ==
+
+= 2.6.14 =
+* FluentCRM 3.3.0 nachgezogen: 114 neue Einträge, vor allem der neue Integrationskatalog, die Bestellansicht für FluentCart im Kontaktprofil, Filter für benutzerdefinierte Unternehmensfelder, Tracking-Stufen je Kampagne und die Zuordnung von WordPress-Benutzern nur über bestätigte E-Mail-Adressen. Der Katalog ist wieder vollständig: 4.346 von 4.346 Einträgen, in Du und in Sie.
+* **Wichtig beim Einspielen:** Diese Fassung setzt **FluentCRM 3.3.0** voraus. 39 Texte, die FluentCRM 3.2.6 noch abfragt, kennt der Katalog nicht mehr; auf einer Installation mit 3.2.6 stünden sie wieder englisch da. Erst FluentCRM aktualisieren, dann dieses Plugin.
 
 = 2.6.13 =
 * Die Update-Prüfung wird nur noch dort geladen, wo Updates angezeigt, geprüft oder eingespielt werden: im Backend (auch über admin-ajax), im WP-Cron und in WP-CLI. Im Frontend und in der REST-API hatte sie nichts zu tun und kostete trotzdem bei jedem Aufruf. Updates über die Plugin-Seite, die automatischen Hintergrund-Updates und `wp plugin update` funktionieren wie bisher. In der Werkzeugleiste, die angemeldete Administratoren im Frontend sehen, zählt ein verfügbares Update dieses Plugins nicht mehr mit; im Backend schon.

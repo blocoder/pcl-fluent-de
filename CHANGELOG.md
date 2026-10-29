@@ -7,6 +7,23 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.14
+
+**FluentCRM 3.3.0.** 114 Zeichenketten sind neu, 39 entfallen. Neu sind vor
+allem der Integrationskatalog mit Kategorien und Kurzbeschreibungen, eine
+Bestellansicht für FluentCart im Kontaktprofil, Filter für benutzerdefinierte
+Unternehmensfelder, Tracking-Stufen je Kampagne („Erfasst“, „Anonym“,
+„Aus“) und die Einstellung, WordPress-Benutzer nur über eine bestätigte
+E-Mail-Adresse einem Kontakt zuzuordnen. Restrict Content Pro heißt beim
+Hersteller jetzt Kadence Memberships. Der Katalog ist wieder vollständig:
+4.346 von 4.346 Einträgen, in Du und in Sie.
+
+**Wichtig beim Einspielen:** Diese Fassung setzt **FluentCRM 3.3.0** voraus.
+Ein Katalog schlägt immer über den Wortlaut des Originals nach; 39 Texte, die
+FluentCRM 3.2.6 noch abfragt, kennt er nicht mehr, und auf einer
+Installation mit 3.2.6 stünden sie wieder englisch da. Erst FluentCRM
+aktualisieren, dann dieses Plugin.
+
 ## 2.6.13
 
 **Die Update-Prüfung wird nur noch geladen, wo Updates gebraucht werden.**
