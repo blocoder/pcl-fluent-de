@@ -144,6 +144,46 @@ add_action('plugins_loaded', 'pcl_fluent_de_pfade_eintragen', 1);
 add_action('change_locale', 'pcl_fluent_de_pfade_eintragen', 1);
 
 /**
+ * Seit 2.6.15: den Ordner für jede deutsche Locale nennen, nicht nur für die,
+ * die beim Start eingetragen wurde.
+ *
+ * Der Eintrag oben gilt für genau eine Locale. Beim Sprachwechsel lädt
+ * WordPress jede schon geladene Domain sofort neu
+ * (`WP_Locale_Switcher::load_translations()`), und zwar *bevor*
+ * `change_locale` feuert — der Haken oben kommt dafür zu spät. Die Registry
+ * fällt dann auf den Pfad zurück, den das Plugin selbst gesetzt hat:
+ * FluentCRM ruft `load_plugin_textdomain()` und überschreibt damit unseren
+ * `set_custom_path()`. Gesucht wird also
+ * `fluent-crm/language/fluent-crm-de_DE_formal.mo`, die Sperre unten hält
+ * diesen fremden Pfad fern, bevor `load_textdomain_mofile` ihn umbiegen
+ * kann, und WordPress merkt sich die Domain als `NOOP_Translations` — für den
+ * Rest des Requests englisch. Am 29.10.2026 auf dev gemessen: 4.129 von 4.346
+ * Einträgen nach `switch_to_locale('de_DE_formal')`.
+ *
+ * Der Filter fragt bei jedem Nachschlagen, gilt also auch mitten im Wechsel.
+ * Nur für unsere spät ladenden Domains, nur unter einer deutschen Locale und
+ * nur, wenn der passende Katalog da ist; alles andere geht unberührt durch.
+ * `lang_dir_for_domain` gibt es seit WordPress 6.6; auf 6.5 bleibt es beim
+ * alten Verhalten.
+ */
+function pcl_fluent_de_ordner_fuer_locale($path, $domain, $locale) {
+    if (strpos((string) $locale, 'de_') !== 0) {
+        return $path;
+    }
+
+    if (!in_array($domain, pcl_fluent_de_aktive_domains(), true) || pcl_fluent_de_laedt_frueh($domain)) {
+        return $path;
+    }
+
+    if (!pcl_fluent_de_katalog_da($domain, pcl_fluent_de_katalog_locale($domain, $locale))) {
+        return $path;
+    }
+
+    return pcl_fluent_de_languages_dir();
+}
+add_filter('lang_dir_for_domain', 'pcl_fluent_de_ordner_fuer_locale', 10, 3);
+
+/**
  * Lädt die Kataloge, die den frühen Weg brauchen.
  *
  * @param string $locale Optional. Leer heißt: die gerade gültige Locale. Beim

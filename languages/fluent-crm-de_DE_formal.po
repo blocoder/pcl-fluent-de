@@ -1646,7 +1646,7 @@ msgstr "Keine Empfänger"
 #: app/Hooks/Handlers/ExternalPages.php:823
 #: app/Views/external/unsubscribe.php:44
 msgid "You have been unsubscribed from our email list."
-msgstr "Sie haben Sie von unserer E-Mail-Liste abgemeldet."
+msgstr "Sie haben sich von unserer E-Mail-Liste abgemeldet."
 
 #: app/Hooks/Handlers/ExternalPages.php:416
 #: app/Hooks/Handlers/ExternalPages.php:420
@@ -1672,7 +1672,7 @@ msgstr "Ihre E-Mail-Adresse"
 
 #: app/Hooks/Handlers/ExternalPages.php:419
 msgid "Why are you unsubscribing?"
-msgstr "Warum meldest Sie Sie ab?"
+msgstr "Warum melden Sie sich ab?"
 
 #: app/Hooks/Handlers/ExternalPages.php:481
 #: app/Hooks/Handlers/ExternalPages.php:535
@@ -20847,7 +20847,7 @@ msgid ""
 "campaigns. This quick setup wizard will help you configure the basic "
 "settings."
 msgstr ""
-"Danke, dass Sie Sie für FluentCRM entschieden haben. Der einfachere Weg, "
+"Danke, dass Sie sich für FluentCRM entschieden haben. Der einfachere Weg, "
 "E-Mail-Marketing-Kampagnen zu verwalten. Dieser Einrichtungsassistent hilft "
 "bei den Grundeinstellungen."
 

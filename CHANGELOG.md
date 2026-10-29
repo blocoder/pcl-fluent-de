@@ -7,6 +7,25 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.15
+
+**Sprachwechsel innerhalb eines Seitenaufrufs.** Wechselt WordPress mitten
+in einem Aufruf die Sprache (`switch_to_locale()`, etwa beim Versand einer
+Mail in der Sprache des Empfängers), lädt es jede schon geladene Übersetzung
+sofort neu, noch bevor ein Plugin darauf reagieren kann. Für FluentCRM und die
+anderen Plugins, deren Übersetzung erst bei Bedarf geladen wird, fand
+WordPress dabei nur den Ordner des jeweiligen Plugins, und die Übersetzung
+blieb für den Rest des Aufrufs englisch. Das betraf den Wechsel zwischen zwei
+deutschen Varianten, etwa von „Deutsch“ zu „Deutsch (Sie)“. Jetzt nennt das
+Plugin WordPress seinen Ordner für jede deutsche Sprache, nicht nur für die
+beim Start.
+
+**FluentCRM, Sie-Fassung:** Drei Sätze trugen ein falsches Pronomen. Jetzt
+heißt es „Sie haben sich von unserer E-Mail-Liste abgemeldet.“, „Warum melden
+Sie sich ab?“ und „Danke, dass Sie sich für FluentCRM entschieden haben.“
+
+Setzt wie 2.6.14 **FluentCRM 3.3.0** voraus.
+
 ## 2.6.14
 
 **FluentCRM 3.3.0.** 114 Zeichenketten sind neu, 39 entfallen. Neu sind vor
