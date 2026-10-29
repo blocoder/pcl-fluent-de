@@ -13731,11 +13731,11 @@ msgstr "MCP für KI-Agenten aktivieren"
 
 #: app/Services/TransStrings.php:1168
 msgid "Enable Message Module"
-msgstr "Nachrichtenmodul aktivieren"
+msgstr "Messaging-Modul aktivieren"
 
 #: app/Services/TransStrings.php:1169
 msgid "Enable Messaging Module"
-msgstr "Nachrichtenmodul aktivieren"
+msgstr "Messaging-Modul aktivieren"
 
 #: app/Services/TransStrings.php:1170
 msgid "Enable Multi-Threaded Email Sending"
@@ -15667,11 +15667,11 @@ msgstr "Aktualisierung der Nachrichten-Datenbank"
 
 #: app/Services/TransStrings.php:1648
 msgid "Message Module"
-msgstr "Nachrichtenmodul"
+msgstr "Messaging-Modul"
 
 #: app/Services/TransStrings.php:1649
 msgid "Message Module Settings"
-msgstr "Einstellungen des Nachrichtenmoduls"
+msgstr "Einstellungen des Messaging-Moduls"
 
 #: app/Services/TransStrings.php:1650
 msgid "Message database is up to date."
@@ -15691,11 +15691,11 @@ msgid ""
 "Messaging."
 msgstr ""
 "Nach dem Aktivieren lassen sich SMS und WhatsApp einzeln unter Einstellungen"
-" > Nachrichten einschalten."
+" > Messaging einschalten."
 
 #: app/Services/TransStrings.php:1653
 msgid "Messaging"
-msgstr "Nachrichten"
+msgstr "Messaging"
 
 #: app/Services/TransStrings.php:1654
 msgid "Migrating"
@@ -19676,7 +19676,7 @@ msgstr "Auf FluentCRM Pro upgraden und eingehende Webhooks nutzen"
 #: app/Services/TransStrings.php:2696
 msgid "Upgrade to FluentCRM Pro to Get Messaging Settings"
 msgstr ""
-"Auf FluentCRM Pro upgraden, um die Nachrichten-Einstellungen zu erhalten"
+"Auf FluentCRM Pro upgraden, um die Messaging-Einstellungen zu erhalten"
 
 #: app/Services/TransStrings.php:2697
 msgid "Upgrade to FluentCRM Pro to Get Smart Links"

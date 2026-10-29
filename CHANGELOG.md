@@ -7,6 +7,17 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.16
+
+**FluentCRM: „Messaging“ statt „Nachrichten“.** Der Bereich für SMS und
+WhatsApp heißt jetzt so wie im Original, auch in Zusammensetzungen: Menü
+„Einstellungen > Messaging“, Schalter „Messaging-Modul aktivieren“,
+„Einstellungen des Messaging-Moduls“. „Nachrichten“ war irreführend, denn
+E-Mails sind auch Nachrichten. Wo es um einzelne Nachrichten geht, etwa
+„WhatsApp-Nachrichten“ oder den Posteingang, bleibt es dabei.
+
+Setzt wie 2.6.14 **FluentCRM 3.3.0** voraus.
+
 ## 2.6.15
 
 **Sprachwechsel innerhalb eines Seitenaufrufs.** Wechselt WordPress mitten
