@@ -7,6 +7,23 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.18
+
+**Codes in Mails werden auf dem Handy nicht mehr als Telefonnummer
+verlinkt.** Mail-Apps auf Mobilgeräten machen aus einer sechsstelligen Zahl
+einen Anruf-Link. Für den Anmeldecode von FluentAuth war das schon
+abgefangen, jetzt auch für zwei weitere Fälle:
+
+- **Den Verifizierungscode der Registrierung in FluentCommunity.** Jede
+  Ziffer steht in einem eigenen Element, dazu kommt im Kopf der Mail der
+  Hinweis, keine Telefonnummern zu erkennen. Ein kopierter Code bleibt genau
+  die Ziffern, unsichtbare Zeichen kommen nicht dazu.
+- **Den 2FA-Code von FluentAuth in einer eigenen Mailvorlage.** Der Editor
+  von FluentAuth setzt den Code dort in ein zusätzliches Element, an dem die
+  bisherige Erkennung vorbeiging.
+
+Kataloge unverändert; setzt wie 2.6.14 **FluentCRM 3.3.0** voraus.
+
 ## 2.6.17
 
 **FluentCRM ohne Pro: „Benutzerdefinierte Felder“ wieder deutsch.** Die
