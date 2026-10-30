@@ -15,6 +15,11 @@
  * Schlüssel noch führt. Ohne Pro stand „Custom Fields“ englisch da (am
  * 30.10.2026 auf praesentare.com gemessen). Gemeldet an den Hersteller.
  *
+ * Seit 2.6.19 auch „list“ und „tag“: Der Knopf über der Listen- und der
+ * Schlagwort-Übersicht (`ActionMenu.js`) schlägt den Typ klein geschrieben
+ * nach, `$t("Create %s", capitalizeFirst($t(type)))`. Die Map kennt nur „List“
+ * und „Tag“, also stand dort „List anlegen“.
+ *
  * Ergänzt wird nur, was in der Map fehlt, und mit dem Text des Eintrags, den
  * der Core selbst übersetzt. Liefert Pro oder ein späteres Release den
  * Schlüssel wieder, gilt dessen Eintrag, und diese Datei tut nichts.
@@ -32,6 +37,8 @@ if (!defined('ABSPATH')) {
 function pcl_fluent_de_crm_map_eintraege() {
     return array(
         'Custom Fields' => 'Custom fields',
+        'list'          => 'List',
+        'tag'           => 'Tag',
     );
 }
 
