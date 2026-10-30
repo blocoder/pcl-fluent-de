@@ -5,7 +5,9 @@
  * Drei Dinge, die sich nicht übersetzen lassen, weil sie nicht durch
  * `__()` laufen: die Beschriftungen der Block-Editor-Beitragstypen, die
  * Textliste des Editor-Bundles und der Zustimmungs-Link bei der
- * Registrierung. Dazu die Einstellungsseite für dessen Adresse.
+ * Registrierung. Dazu die Einstellungsseite für dessen Adresse. Seit 2.6.18
+ * außerdem der Verifizierungscode der Registrierungsmail, den Mail-Apps
+ * sonst als Telefonnummer verlinken (Bausteine in `mail-codes.php`).
  *
  * Diese Datei wird nur eingebunden, wenn FluentCommunity installiert und die
  * Übersetzung dafür eingeschaltet ist — siehe `extras` in der Registry.
@@ -312,3 +314,48 @@ function pcl_fluent_de_terms_feld() {
     <?php
 }
 add_action('pcl_fluent_de/einstellungen_felder', 'pcl_fluent_de_terms_feld');
+
+/* -------------------------------------------------------------------------
+ * Verifizierungscode bei der Registrierung (seit 2.6.18)
+ * ---------------------------------------------------------------------- */
+
+require_once __DIR__ . '/mail-codes.php';
+
+/** Marks a verification mail whose code was wrapped, for the head hints. */
+const PCL_FLUENT_DE_FC_CODE_MARKE = '<!-- pcl-fluent-de: code -->';
+
+/**
+ * Wraps the digits of the signup verification code in single spans.
+ *
+ * FluentCommunity writes the code into the body as plain text ("Verification
+ * Code: 123456"), and mail apps on phones turn it into a call link. The
+ * filter hands over the code itself, so only that number is touched, once.
+ */
+function pcl_fluent_de_fc_verifizierung_body($message, $code = '') {
+    $code = (string) $code;
+    if (!is_string($message) || !preg_match('/^\d{4,10}$/', $code)) {
+        return $message;
+    }
+    if (!apply_filters('pcl_fluent_de/fc_code_entschaerfen', true)) {
+        return $message;
+    }
+
+    $neu = preg_replace('/(?<![\d#])' . $code . '(?!\d)/', pcl_fluent_de_code_ziffern($code), $message, 1, $treffer);
+
+    return $treffer ? $neu . PCL_FLUENT_DE_FC_CODE_MARKE : $message;
+}
+add_filter('fluent_community/auth/signup_verification_email_body', 'pcl_fluent_de_fc_verifizierung_body', 20, 2);
+
+/**
+ * Adds the "no phone numbers" hints to the head of a marked mail.
+ */
+function pcl_fluent_de_fc_code_mail_kopf($atts) {
+    if (!is_array($atts) || empty($atts['message']) || !is_string($atts['message'])
+        || false === strpos($atts['message'], PCL_FLUENT_DE_FC_CODE_MARKE)) {
+        return $atts;
+    }
+    $atts['message'] = pcl_fluent_de_mail_kopf_ergaenzen($atts['message']);
+
+    return $atts;
+}
+add_filter('wp_mail', 'pcl_fluent_de_fc_code_mail_kopf', 20);

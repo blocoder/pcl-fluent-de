@@ -50,38 +50,23 @@ const PCL_FLUENTAUTH_DE_CODE_MERKMAL = 'letter-spacing:\s*7px';
 /** Footer text of app/Views/magic_login/footer.php (3.0.1). */
 const PCL_FLUENTAUTH_DE_FUSS_MERKMAL = 'This email has been sent from: ';
 
+require_once __DIR__ . '/mail-codes.php';
+
 /**
  * Wraps every digit of the code paragraph in its own span.
  *
  * Only the text between the opening <p …letter-spacing: 7px…> and its </p>
- * is touched, and only if it consists of digits and whitespace.
+ * is touched, and only if it consists of digits and whitespace. Since 2.6.18
+ * one wrapping <span> around the digits is allowed: an own template saved in
+ * FluentAuth's editor puts the code into a span with the font stack
+ * (measured in a logged 2FA mail, 30.10.2026).
  */
 function pcl_fluent_de_auth_code_entschaerfen($html) {
-    $muster = '#(<p\b[^>]*' . PCL_FLUENTAUTH_DE_CODE_MERKMAL . '[^>]*>)(\s*)(\d{4,10})(\s*)(</p>)#i';
+    $muster = '#(<p\b[^>]*' . PCL_FLUENTAUTH_DE_CODE_MERKMAL . '[^>]*>)(\s*(?:<span\b[^>]*>\s*)?)(\d{4,10})(\s*(?:</span>\s*)?)(</p>)#i';
 
     return preg_replace_callback($muster, function ($m) {
-        $ziffern = '';
-        foreach (str_split($m[3]) as $ziffer) {
-            $ziffern .= '<span style="color:inherit;text-decoration:none;">' . $ziffer . '</span>';
-        }
-        return $m[1] . $m[2] . $ziffern . $m[4] . $m[5];
+        return $m[1] . $m[2] . pcl_fluent_de_code_ziffern($m[3]) . $m[4] . $m[5];
     }, $html);
-}
-
-/**
- * Adds the "no phone numbers" hints to the <head>, once.
- */
-function pcl_fluent_de_auth_head_ergaenzen($html) {
-    if (false !== stripos($html, 'format-detection') || false === stripos($html, '</head>')) {
-        return $html;
-    }
-
-    $zusatz = '<meta name="format-detection" content="telephone=no, date=no, address=no, email=no">'
-        . '<style>a[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;'
-        . 'font-size:inherit!important;font-family:inherit!important;font-weight:inherit!important;'
-        . 'line-height:inherit!important;}</style>';
-
-    return preg_replace('#</head>#i', $zusatz . '</head>', $html, 1);
 }
 
 function pcl_fluent_de_auth_mail_korrigieren($atts) {
@@ -109,7 +94,7 @@ function pcl_fluent_de_auth_mail_korrigieren($atts) {
     // The phone number fix does not depend on the language.
     if ($code) {
         $html = pcl_fluent_de_auth_code_entschaerfen($html);
-        $html = pcl_fluent_de_auth_head_ergaenzen($html);
+        $html = pcl_fluent_de_mail_kopf_ergaenzen($html);
     }
 
     $atts['message'] = $html;
