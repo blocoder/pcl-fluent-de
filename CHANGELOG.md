@@ -7,6 +7,15 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.21
+
+**Der Beitrittsknopf eines Forums in FluentCommunity heißt „Forum
+beitreten“** statt „Beitrittsanfrage stellen“, im Forenkopf, an der
+Beitragskarte, im Foren-Verzeichnis und als Vorgabe der Paywall. In
+öffentlichen Foren tritt man damit sofort bei, eine Anfrage gibt es dort
+nicht. Die Anfrage bei privaten Foren („Request Access“) heißt weiter
+„Beitrittsanfrage stellen“. Setzt wie 2.6.14 FluentCRM 3.3.0 voraus.
+
 ## 2.6.20
 
 **Öffentliche Foren in FluentCommunity:** Die Beschreibung lautet jetzt
