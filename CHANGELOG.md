@@ -7,6 +7,14 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.20
+
+**Öffentliche Foren in FluentCommunity:** Die Beschreibung lautet jetzt
+„Dieses Forum ist für alle sichtbar, auch ohne Anmeldung.“ Die bisherige
+Fassung („Alle eingeloggten Mitglieder können sehen, wer sich in diesem
+Forum aufhält …“) stimmte nicht überall: Wer die Mitglieder eines Forums
+sieht, legt jedes Forum in seinen Einstellungen selbst fest.
+
 ## 2.6.18
 
 **Codes in Mails werden auf dem Handy nicht mehr als Telefonnummer

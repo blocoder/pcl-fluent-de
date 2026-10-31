@@ -13872,9 +13872,7 @@ msgstr ""
 
 #: app/Services/TransStrings.php:2404
 msgid "Any site member can see who's in the Space and what they post."
-msgstr ""
-"Alle eingeloggten Mitglieder können sehen, wer sich in diesem Forum aufhält "
-"und was dort gepostet wird."
+msgstr "Dieses Forum ist für alle sichtbar, auch ohne Anmeldung."
 
 #: app/Services/TransStrings.php:2405
 msgid ""
