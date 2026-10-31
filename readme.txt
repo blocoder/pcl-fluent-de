@@ -4,7 +4,7 @@ Tags: fluentcommunity, fluentcrm, fluentauth, fluentsmtp, fluentsnippets, deutsc
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.6.20
+Stable tag: 2.6.21
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,10 @@ Für FluentCRM, FluentSMTP und FluentSnippets ja. Steht die Seite auf `de_DE_for
 Ja, jede für sich. Drei Zustände je Plugin: „Deutsche Übersetzung aktiv“ (Vorgabe, schaltet sich ein, sobald das Plugin da ist), „Fremde Übersetzung“ (unsere Fassung weg, das Sprachpaket von wordpress.org greift weiter) und „Keine Übersetzung zulassen“ (das Plugin bleibt englisch).
 
 == Changelog ==
+
+= 2.6.21 =
+* FluentCommunity: Der Beitrittsknopf eines Forums heißt „Forum beitreten“ statt „Beitrittsanfrage stellen“ (Forenkopf, Beitragskarte, Foren-Verzeichnis, Paywall). In öffentlichen Foren tritt man damit sofort bei, eine Anfrage gibt es dort nicht. Die Anfrage bei privaten Foren heißt weiter „Beitrittsanfrage stellen“.
+* Setzt wie 2.6.14 **FluentCRM 3.3.0** voraus, läuft auch mit 3.3.1.
 
 = 2.6.20 =
 * FluentCommunity: Öffentliche Foren beschreiben sich mit „Dieses Forum ist für alle sichtbar, auch ohne Anmeldung.“ Die bisherige Fassung behauptete, alle Angemeldeten sähen, wer im Forum ist; das legt aber jedes Forum selbst fest.

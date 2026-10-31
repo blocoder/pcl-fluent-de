@@ -8185,7 +8185,7 @@ msgstr "Einträge"
 #: app/Services/TransStrings.php:1048
 #: Modules/Integrations/FluentCart/Paywalls.php:135
 msgid "Join"
-msgstr "Beitrittsanfrage stellen"
+msgstr "Forum beitreten"
 
 #: app/Services/TransStrings.php:1049
 msgid "Join Now"
