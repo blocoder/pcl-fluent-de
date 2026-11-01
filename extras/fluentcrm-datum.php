@@ -176,12 +176,28 @@ function pcl_fluent_de_crm_dayjs_script() {
                 // (dayjs(x).locale("en")), which brought back "Aug" without
                 // a dot in the range pickers - measured on kommunarden,
                 // 17.09.2026. On these pages English is never the intent.
+                //
+                // Except for localeData(): Element Plus builds its message keys
+                // from date.locale("en").localeData().weekdaysShort() and
+                // .monthsShort(), lowercased ("mon", "jan"). Redirected to
+                // German they became "mo." and "jan.", and the picker showed
+                // raw keys like "el.datepicker.weeks.mo." (FluentCRM 3.3.1,
+                // 01.11.2026). The redirected instance therefore answers
+                // localeData() from a real English clone; format() stays German.
                 var originalLocale = Klasse.prototype.locale;
                 Klasse.prototype.locale = function (vorgabe, objekt) {
-                    if (vorgabe === 'en' && !objekt) {
-                        vorgabe = 'de';
+                    if (vorgabe !== 'en' || objekt) {
+                        return originalLocale.call(this, vorgabe, objekt);
                     }
-                    return originalLocale.call(this, vorgabe, objekt);
+                    var quelle = this;
+                    var deutsch = originalLocale.call(this, 'de');
+                    if (deutsch && typeof deutsch === 'object') {
+                        deutsch.localeData = function () {
+                            var englisch = originalLocale.call(quelle, 'en');
+                            return englisch.localeData.apply(englisch, arguments);
+                        };
+                    }
+                    return deutsch;
                 };
             });
             // Same flag name as in pcl-fluentcrm-de on purpose: whichever runs
