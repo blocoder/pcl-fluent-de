@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FluentCommunity Pro\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fluent-community-pro\n"
-"POT-Creation-Date: 2026-10-16T19:03:19+02:00\n"
+"POT-Creation-Date: 2026-11-06T14:40:34+01:00\n"
 "PO-Revision-Date: 2026-07-25 15:08+0000\n"
 "Last-Translator: Peter Claus Lamprecht\n"
 "Language-Team: Deutsch\n"
@@ -65,7 +65,7 @@ msgstr "Bereits installiert"
 msgid "Installed"
 msgstr "Installiert"
 
-#: app/Hooks/Handlers/CoreDepenedencyHandler.php:95
+#: app/Hooks/Handlers/CoreDepenedencyHandler.php:96
 msgid "Invalid plugin or file mods are disabled."
 msgstr "Ungültige Plugin- oder Datei-Mods sind deaktiviert."
 
@@ -127,73 +127,73 @@ msgid "Your comment has been sent for review as per community guidelines."
 msgstr "Dein Kommentar geht gemäß den Community-Regeln in die Prüfung."
 
 #. translators: %1$s is the comment title
-#: app/Hooks/Handlers/ModerationHandler.php:297
+#: app/Hooks/Handlers/ModerationHandler.php:298
 #, php-format
 msgid "A comment has been automatically flagged for review: %1$s"
 msgstr "Ein Kommentar wurde automatisch zur Prüfung markiert: %1$s"
 
 #. translators: %s is the number of other people
-#: app/Hooks/Handlers/ModerationHandler.php:314
-#: app/Hooks/Handlers/ModerationHandler.php:384
+#: app/Hooks/Handlers/ModerationHandler.php:315
+#: app/Hooks/Handlers/ModerationHandler.php:385
 #, php-format
 msgid " and %s other people"
 msgstr " und %s weitere"
 
 #. translators: %1$s is the user name, %2$s is the comment title
-#: app/Hooks/Handlers/ModerationHandler.php:321
+#: app/Hooks/Handlers/ModerationHandler.php:322
 #, php-format
 msgid "%1$s flagged a comment for your review: %2$s"
 msgstr "%1$s hat einen Kommentar zur Prüfung gemeldet: %2$s"
 
 #. translators: %1$s is the feed title
-#: app/Hooks/Handlers/ModerationHandler.php:368
+#: app/Hooks/Handlers/ModerationHandler.php:369
 #, php-format
 msgid "A post has been automatically flagged for review: %1$s"
 msgstr "Ein Beitrag wurde automatisch zur Prüfung markiert: %1$s"
 
 #. translators: %1$s is the user name, %2$s is the feed title
-#: app/Hooks/Handlers/ModerationHandler.php:391
+#: app/Hooks/Handlers/ModerationHandler.php:392
 #, php-format
 msgid "%1$s flagged a post %2$s for your review"
 msgstr "%1$s hat einen Beitrag %2$s zur Prüfung gemeldet"
 
 #. translators: %1$s is the user name, %2$s is the feed title  and %3$s space
 #. title
-#: app/Hooks/Handlers/ModerationHandler.php:399
+#: app/Hooks/Handlers/ModerationHandler.php:400
 #, php-format
 msgid "%1$s flagged a post %2$s for your review in %3$s"
 msgstr "%1$s hat einen Beitrag %2$s in %3$s zur Prüfung gemeldet"
 
 #. translators: %s is the comment excerpt (max 30 chars)
-#: app/Hooks/Handlers/ModerationHandler.php:600
+#: app/Hooks/Handlers/ModerationHandler.php:601
 #, php-format
 msgid "Comment flagged for review: %s"
 msgstr "Kommentar zur Prüfung gemeldet: %s"
 
-#: app/Hooks/Handlers/ModerationHandler.php:604
+#: app/Hooks/Handlers/ModerationHandler.php:605
 msgid "Review the comment"
 msgstr "Kommentar prüfen"
 
 #. translators: %s is the post excerpt (max 30 chars)
-#: app/Hooks/Handlers/ModerationHandler.php:659
+#: app/Hooks/Handlers/ModerationHandler.php:660
 #, php-format
 msgid "Post flagged for review: %s"
 msgstr "Beitrag zur Prüfung gemeldet: %s"
 
-#: app/Hooks/Handlers/ModerationHandler.php:663
+#: app/Hooks/Handlers/ModerationHandler.php:664
 msgid "Review the post"
 msgstr "Beitrag prüfen"
 
-#: app/Hooks/Handlers/ModerationHandler.php:737
+#: app/Hooks/Handlers/ModerationHandler.php:738
 msgid "Open moderation reports"
 msgstr "Offene Meldungen"
 
-#: app/Hooks/Handlers/ModerationHandler.php:738
+#: app/Hooks/Handlers/ModerationHandler.php:739
 #: app/Services/Insights/Cards/Moderation/TopReportedCard.php:33
 msgid "Reports"
 msgstr "Meldungen"
 
-#: app/Hooks/Handlers/ModerationHandler.php:740
+#: app/Hooks/Handlers/ModerationHandler.php:741
 msgid "Flagged or pending"
 msgstr "Markiert oder wartend"
 
@@ -216,28 +216,28 @@ msgstr ""
 "noch einmal aus."
 
 #: app/Hooks/Handlers/SchedulePostHandler.php:44
-#: app/Http/Controllers/SchedulePostsController.php:136
+#: app/Http/Controllers/SchedulePostsController.php:138
 msgid "Scheduled time must be at least 30 minutes from now."
 msgstr ""
 "Der geplante Zeitpunkt muss mindestens 30 Minuten in der Zukunft liegen."
 
-#: app/Hooks/Handlers/ShortCodeHandler.php:92
+#: app/Hooks/Handlers/ShortCodeHandler.php:77
 msgid "Total Spaces"
 msgstr "Foren gesamt"
 
-#: app/Hooks/Handlers/ShortCodeHandler.php:96
+#: app/Hooks/Handlers/ShortCodeHandler.php:81
 msgid "Total Community Users"
 msgstr "Mitglieder gesamt"
 
-#: app/Hooks/Handlers/ShortCodeHandler.php:100
+#: app/Hooks/Handlers/ShortCodeHandler.php:85
 msgid "Total Posts"
 msgstr "Alle Beiträge"
 
-#: app/Hooks/Handlers/ShortCodeHandler.php:104
+#: app/Hooks/Handlers/ShortCodeHandler.php:89
 msgid "Total Comments"
 msgstr "Kommentare gesamt"
 
-#: app/Hooks/Handlers/ShortCodeHandler.php:108
+#: app/Hooks/Handlers/ShortCodeHandler.php:93
 msgid "Total Likes"
 msgstr "Likes gesamt"
 
@@ -353,17 +353,17 @@ msgstr "Die Benachrichtigung wurde gespeichert"
 
 #. translators: %s: human readable time difference, e.g. "2 mins"
 #. translators: %s: human readable time difference, e.g. "3 weeks"
-#: app/Http/Controllers/LicenseController.php:72
+#: app/Http/Controllers/LicenseController.php:74
 #: app/Modules/SeoSiteMap/AbstractPortalPreRenderer.php:534
 #, php-format
 msgid "%s ago"
 msgstr "vor %s"
 
-#: app/Http/Controllers/LicenseController.php:147
+#: app/Http/Controllers/LicenseController.php:149
 msgid "Your license key has been successfully updated"
 msgstr "Dein Lizenzschlüssel wurde erfolgreich aktualisiert"
 
-#: app/Http/Controllers/LicenseController.php:166
+#: app/Http/Controllers/LicenseController.php:168
 msgid "Your license key has been successfully deactivated"
 msgstr "Dein Lizenzschlüssel wurde erfolgreich deaktiviert"
 
@@ -392,7 +392,7 @@ msgstr ""
 "möglich an."
 
 #: app/Http/Controllers/ModerationController.php:194
-#: app/Modules/Quiz/Http/Controllers/QuizController.php:218
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:276
 msgid "Invalid status value."
 msgstr "Ungültiger Statuswert."
 
@@ -430,194 +430,732 @@ msgstr "Meldung gelöscht"
 msgid "Moderation config saved successfully"
 msgstr "Moderations-Einstellungen gespeichert"
 
-#: app/Http/Controllers/ProAdminController.php:80
+#: app/Http/Controllers/ProAdminController.php:81
 msgid "The selected user could not be found."
 msgstr "Das gewählte Mitglied wurde nicht gefunden."
 
-#: app/Http/Controllers/ProAdminController.php:95
+#: app/Http/Controllers/ProAdminController.php:97
 msgid "Manager has been updated successfully"
 msgstr "Die Manager-Rollen wurden erfolgreich aktualisiert"
 
-#: app/Http/Controllers/ProAdminController.php:111
+#: app/Http/Controllers/ProAdminController.php:113
 msgid "Manager has been added successfully"
 msgstr "Die Verwaltung wurde hinzugefügt"
 
-#: app/Http/Controllers/ProAdminController.php:121
-#: app/Modules/Webhooks/WebhookModule.php:63
+#: app/Http/Controllers/ProAdminController.php:123
+#: app/Modules/Webhooks/WebhookModule.php:59
 msgid "User not found"
 msgstr "Mitglied nicht gefunden"
 
-#: app/Http/Controllers/ProAdminController.php:125
+#: app/Http/Controllers/ProAdminController.php:127
 msgid "User is not a manager"
 msgstr "Das Mitglied gehört nicht zur Verwaltung"
 
-#: app/Http/Controllers/ProAdminController.php:136
+#: app/Http/Controllers/ProAdminController.php:138
 msgid "Manager has been removed successfully"
 msgstr "Die Verwaltung wurde entfernt"
 
-#: app/Http/Controllers/ProAdminController.php:210
+#: app/Http/Controllers/ProAdminController.php:212
 msgid "Topic not found"
 msgstr "Thema nicht gefunden"
 
-#: app/Http/Controllers/ProAdminController.php:230
+#: app/Http/Controllers/ProAdminController.php:232
 msgid "Slug already exist. Please use a different slug."
 msgstr "Der Slug existiert bereits. Bitte verwende einen anderen Slug."
 
-#: app/Http/Controllers/ProAdminController.php:278
+#: app/Http/Controllers/ProAdminController.php:280
 msgid "Topic has been saved successfully"
 msgstr "Das Thema wurde erfolgreich gespeichert"
 
-#: app/Http/Controllers/ProAdminController.php:289
+#: app/Http/Controllers/ProAdminController.php:291
 msgid "No topics to reorder"
 msgstr "Keine Kategorien zum Umsortieren"
 
-#: app/Http/Controllers/ProAdminController.php:298
+#: app/Http/Controllers/ProAdminController.php:300
 msgid "Invalid reorder request. Please refresh and try again."
 msgstr ""
 "Ungültige Anfrage zum Umsortieren. Bitte lade die Seite neu und versuche es "
 "noch einmal."
 
-#: app/Http/Controllers/ProAdminController.php:324
+#: app/Http/Controllers/ProAdminController.php:326
 msgid "Topics reordered successfully"
 msgstr "Die Kategorien wurden umsortiert"
 
-#: app/Http/Controllers/ProAdminController.php:353
+#: app/Http/Controllers/ProAdminController.php:355
 msgid "Snippets settings have been saved successfully."
 msgstr "Die Snippet-Einstellungen wurden gespeichert."
 
-#: app/Http/Controllers/ProAdminController.php:370
+#: app/Http/Controllers/ProAdminController.php:372
 msgid "Topic has been deleted successfully"
 msgstr "Das Thema wurde erfolgreich gelöscht"
 
-#: app/Http/Controllers/ProAdminController.php:388
+#: app/Http/Controllers/ProAdminController.php:390
 msgid "Topics configuration has been updated successfully"
 msgstr "Die Themenkonfiguration wurde erfolgreich aktualisiert"
 
-#: app/Http/Controllers/ProAdminController.php:402
+#: app/Http/Controllers/ProAdminController.php:404
 msgid "Invalid color schema selected"
 msgstr "Ungültiges Farbschema ausgewählt"
 
-#: app/Http/Controllers/ProAdminController.php:434
+#: app/Http/Controllers/ProAdminController.php:436
 msgid "Color configuration has been updated successfully"
 msgstr "Die Farbkonfiguration wurde erfolgreich aktualisiert"
 
-#: app/Http/Controllers/ProAdminController.php:455
+#: app/Http/Controllers/ProAdminController.php:457
 msgid "Auth settings have been updated successfully"
 msgstr "Die Authentifizierungseinstellungen wurden erfolgreich aktualisiert"
 
-#: app/Http/Controllers/ProAdminController.php:473
-#: app/Http/Controllers/ProAdminController.php:498
+#: app/Http/Controllers/ProAdminController.php:475
+#: app/Http/Controllers/ProAdminController.php:500
 msgid "Lockscreen settings have been updated successfully."
 msgstr ""
 "Die Einstellungen für den Sperrbildschirm wurden erfolgreich aktualisiert."
 
-#: app/Http/Controllers/ProAdminController.php:485
+#: app/Http/Controllers/ProAdminController.php:487
 msgid "You do not have permission to manage this space."
 msgstr "Du darfst dieses Forum nicht verwalten."
 
-#: app/Http/Controllers/ProAdminController.php:538
+#: app/Http/Controllers/ProAdminController.php:540
 msgid "Welcome banner settings have been updated successfully."
 msgstr "Die Einstellungen des Willkommensbanners wurden gespeichert."
 
-#: app/Http/Controllers/ProAdminController.php:568
-#: app/Http/Controllers/ProAdminController.php:599
+#: app/Http/Controllers/ProAdminController.php:570
+#: app/Http/Controllers/ProAdminController.php:601
 msgid "CRM Tagging settings have been updated successfully"
 msgstr "Die CRM Tagging-Einstellungen wurden erfolgreich aktualisiert"
 
-#: app/Http/Controllers/ProAdminController.php:670
+#: app/Http/Controllers/ProAdminController.php:672
 msgid "Webhook not found."
 msgstr "Webhook nicht gefunden."
 
-#: app/Http/Controllers/ProAdminController.php:685
+#: app/Http/Controllers/ProAdminController.php:687
 msgid "Webhook has been saved successfully"
 msgstr "Webhook erfolgreich angelegt"
 
-#: app/Http/Controllers/ProAdminController.php:695
+#: app/Http/Controllers/ProAdminController.php:697
 #: app/Modules/Webhooks/WebhookModule.php:43
 msgid "Webhook not found"
 msgstr "Webhook nicht gefunden"
 
-#: app/Http/Controllers/ProAdminController.php:703
+#: app/Http/Controllers/ProAdminController.php:705
 msgid "Webhook has been deleted successfully"
 msgstr "Webhook erfolgreich gelöscht"
 
-#: app/Http/Controllers/ProAdminController.php:711
+#: app/Http/Controllers/ProAdminController.php:713
 msgid "Please update Fluent Messaging plugin to latest version"
 msgstr ""
 "Bitte aktualisiere das Plugin Fluent Messaging auf die neueste Version"
 
-#: app/Http/Controllers/ProAdminController.php:738
+#: app/Http/Controllers/ProAdminController.php:740
 msgid "Messaging settings have been updated successfully"
 msgstr "Die Messaging-Einstellungen wurden gespeichert"
 
-#: app/Http/Controllers/ProAdminController.php:761
+#: app/Http/Controllers/ProAdminController.php:763
 msgid "Title is required"
 msgstr "Der Titel ist erforderlich"
 
-#: app/Http/Controllers/ProAdminController.php:762
+#: app/Http/Controllers/ProAdminController.php:764
 msgid "Please select Space Group"
 msgstr "Bitte wähle eine Foren-Gruppe"
 
-#: app/Http/Controllers/ProAdminController.php:763
+#: app/Http/Controllers/ProAdminController.php:765
 msgid "Please select privacy"
 msgstr "Bitte wähle die Sichtbarkeit"
 
-#: app/Http/Controllers/ProAdminController.php:764
+#: app/Http/Controllers/ProAdminController.php:766
 msgid "Permalink is required"
 msgstr "Der Permalink ist erforderlich"
 
-#: app/Http/Controllers/ProAdminController.php:765
+#: app/Http/Controllers/ProAdminController.php:767
 msgid "Please provide a valid URL"
 msgstr "Bitte gib eine gültige URL an"
 
-#: app/Http/Controllers/ProAdminController.php:766
-#: app/Http/Controllers/ProAdminController.php:799
+#: app/Http/Controllers/ProAdminController.php:768
+#: app/Http/Controllers/ProAdminController.php:801
 msgid "Please select at least one membership for members only link"
 msgstr ""
 "Bitte wähle mindestens eine Mitgliedschaft für den Link, der nur Mitgliedern"
 " gilt"
 
-#: app/Http/Controllers/ProAdminController.php:851
+#: app/Http/Controllers/ProAdminController.php:853
 msgid "The link has been saved successfully"
 msgstr "Der Link wurde gespeichert"
 
-#: app/Http/Controllers/ProAdminController.php:866
+#: app/Http/Controllers/ProAdminController.php:868
 msgid "The link has been deleted successfully"
 msgstr "Der Link wurde gelöscht"
 
-#: app/Http/Controllers/ProAdminController.php:883
+#: app/Http/Controllers/ProAdminController.php:885
 msgid "Followers settings have been updated successfully"
 msgstr "Die Follower-Einstellungen wurden gespeichert"
 
-#: app/Http/Controllers/ProAdminController.php:926
+#: app/Http/Controllers/ProAdminController.php:928
 msgid "Custom profile fields have been saved successfully"
 msgstr "Die eigenen Profilfelder wurden gespeichert"
 
 #: app/Http/Controllers/SchedulePostsController.php:34
 #: app/Http/Controllers/SchedulePostsController.php:63
-#: app/Http/Controllers/SchedulePostsController.php:115
+#: app/Http/Controllers/SchedulePostsController.php:117
 msgid "You do not have permission to perform this action"
 msgstr "Du darfst das nicht"
 
 #: app/Http/Controllers/SchedulePostsController.php:69
 #: app/Http/Controllers/SchedulePostsController.php:85
-#: app/Http/Controllers/SchedulePostsController.php:121
+#: app/Http/Controllers/SchedulePostsController.php:123
 msgid "This is not scheduled post"
 msgstr "Das ist kein geplanter Beitrag"
 
-#: app/Http/Controllers/SchedulePostsController.php:101
+#: app/Http/Controllers/SchedulePostsController.php:103
 msgid "Post has been published"
 msgstr "Der Beitrag wurde veröffentlicht"
 
-#: app/Http/Controllers/SchedulePostsController.php:128
+#: app/Http/Controllers/SchedulePostsController.php:130
 msgid "Scheduled time is required"
 msgstr "Der geplante Zeitpunkt ist erforderlich"
 
 #. translators: %s is the scheduled time
-#: app/Http/Controllers/SchedulePostsController.php:151
+#: app/Http/Controllers/SchedulePostsController.php:153
 #, php-format
 msgid "Post has been rescheduled at %s"
 msgstr "Beitrag wurde neu geplant für %s"
+
+#: app/Modules/Certificates/CertificatePrivacy.php:57
+#: app/Modules/Certificates/CertificatePrivacy.php:67
+#: app/Modules/Certificates/CertificatePrivacy.php:87
+#: app/Modules/Certificates/CertificatesModule.php:89
+#: app/Services/ModuleTransStrings.php:85
+msgid "Certificates"
+msgstr "Zertifikate"
+
+#: app/Modules/Certificates/CertificatePrivacy.php:90
+#: app/Modules/Certificates/Views/verification.php:126
+#: app/Modules/Certificates/Views/verification.php:153
+#: app/Services/ModuleTransStrings.php:111
+msgid "Credential ID"
+msgstr "Zertifikats-ID"
+
+#: app/Modules/Certificates/CertificatePrivacy.php:91
+#: app/Modules/Certificates/VerificationPage.php:167
+#: app/Modules/Certificates/Views/verification.php:119
+#: app/Services/ModuleTransStrings.php:75
+msgid "Certificate"
+msgstr "Zertifikat"
+
+#: app/Modules/Certificates/CertificatePrivacy.php:92
+msgid "Name on the certificate"
+msgstr "Name auf dem Zertifikat"
+
+#: app/Modules/Certificates/CertificatePrivacy.php:93
+#: app/Modules/Certificates/Views/verification.php:121
+msgid "Issued on"
+msgstr "Ausgestellt am"
+
+#: app/Modules/Certificates/CertificatePrivacy.php:94
+#: app/Services/ModuleTransStrings.php:303
+msgid "Status"
+msgstr "Status"
+
+#: app/Modules/Certificates/CertificatePrivacy.php:95
+msgid "Visibility"
+msgstr "Sichtbarkeit"
+
+#: app/Modules/Certificates/CertificatePrivacy.php:96
+msgid "Verification URL"
+msgstr "Prüf-URL"
+
+#: app/Modules/Certificates/Http/Controllers/CertificateAdminController.php:64
+msgid "The certificate has been suspended."
+msgstr "Das Zertifikat wurde ausgesetzt."
+
+#: app/Modules/Certificates/Http/Controllers/CertificateAdminController.php:69
+msgid "The certificate has been reinstated."
+msgstr "Das Zertifikat ist wieder in Kraft."
+
+#: app/Modules/Certificates/Http/Controllers/CertificateAdminController.php:74
+msgid "The certificate has been revoked."
+msgstr "Das Zertifikat wurde widerrufen."
+
+#: app/Modules/Certificates/Http/Controllers/CertificateAdminController.php:79
+msgid "The certificate has been reissued with the current details."
+msgstr "Das Zertifikat wurde mit den aktuellen Angaben neu ausgestellt."
+
+#: app/Modules/Certificates/Http/Controllers/CertificateAdminController.php:99
+msgid "Certificate settings have been saved."
+msgstr "Die Zertifikatseinstellungen wurden gespeichert."
+
+#: app/Modules/Certificates/Http/Controllers/CertificateController.php:61
+msgid "You cannot view this profile."
+msgstr "Du kannst dieses Profil nicht ansehen."
+
+#: app/Modules/Certificates/Http/Controllers/CertificateController.php:93
+#: app/Modules/Certificates/Http/Controllers/CertificateController.php:103
+#: app/Modules/Certificates/Http/Controllers/OpenBadgeController.php:51
+#: app/Modules/Certificates/Services/CertificateIssuer.php:229
+#: app/Modules/Certificates/Services/CertificateIssuer.php:294
+msgid "Certificate not found."
+msgstr "Zertifikat nicht gefunden."
+
+#: app/Modules/Certificates/Http/Controllers/CertificateController.php:110
+msgid "The visibility has been updated."
+msgstr "Die Sichtbarkeit wurde aktualisiert."
+
+#: app/Modules/Certificates/Http/Controllers/CertificateController.php:118
+msgid "Too many lookups. Please try again in a few minutes."
+msgstr "Zu viele Abfragen. Bitte versuche es in ein paar Minuten noch einmal."
+
+#: app/Modules/Certificates/Http/Controllers/CertificateController.php:125
+msgid "No certificate has this ID."
+msgstr "Kein Zertifikat hat diese ID."
+
+#: app/Modules/Certificates/Http/Controllers/CertificateTemplateController.php:45
+#: app/Modules/Certificates/Http/Controllers/CertificateTemplateController.php:79
+msgid "Give the template a name."
+msgstr "Gib der Vorlage einen Namen."
+
+#: app/Modules/Certificates/Http/Controllers/CertificateTemplateController.php:59
+msgid "The template has been created."
+msgstr "Die Vorlage wurde angelegt."
+
+#: app/Modules/Certificates/Http/Controllers/CertificateTemplateController.php:98
+#: app/Modules/Certificates/Models/CertificateTemplate.php:134
+msgid "The template no longer exists."
+msgstr "Die Vorlage existiert nicht mehr."
+
+#: app/Modules/Certificates/Http/Controllers/CertificateTemplateController.php:127
+msgid "The template has been saved."
+msgstr "Die Vorlage wurde gespeichert."
+
+#: app/Modules/Certificates/Http/Controllers/CertificateTemplateController.php:137
+msgid "Restore the template before publishing it."
+msgstr "Stelle die Vorlage wieder her, bevor Du sie veröffentlichst."
+
+#. translators: %d: version number
+#: app/Modules/Certificates/Http/Controllers/CertificateTemplateController.php:147
+#, php-format
+msgid "Version %d is published. New certificates use it."
+msgstr "Version %d ist veröffentlicht. Neue Zertifikate verwenden sie."
+
+#. translators: %s: comma-separated course titles
+#: app/Modules/Certificates/Http/Controllers/CertificateTemplateController.php:170
+#, php-format
+msgid ""
+"These courses award certificates with this template: %s. Choose another "
+"template for them first."
+msgstr ""
+"Diese Kurse vergeben Zertifikate mit dieser Vorlage: %s. Wähle für sie "
+"zuerst eine andere Vorlage."
+
+#: app/Modules/Certificates/Http/Controllers/CertificateTemplateController.php:177
+msgid ""
+"Certificates were issued from this template, so it has been archived instead"
+" of deleted."
+msgstr ""
+"Mit dieser Vorlage wurden bereits Zertifikate ausgestellt, deshalb wurde sie"
+" archiviert statt gelöscht."
+
+#: app/Modules/Certificates/Http/Controllers/CertificateTemplateController.php:183
+msgid "The template has been deleted."
+msgstr "Die Vorlage wurde gelöscht."
+
+#: app/Modules/Certificates/Http/Controllers/CertificateTemplateController.php:203
+msgid "No upload file was received. Please try again."
+msgstr "Es ist keine Datei angekommen. Bitte versuche es noch einmal."
+
+#. translators: %s: maximum file size, for example 5 MB
+#: app/Modules/Certificates/Http/Controllers/CertificateTemplateController.php:209
+#, php-format
+msgid "The image must be smaller than %s."
+msgstr "Das Bild muss kleiner als %s sein."
+
+#: app/Modules/Certificates/Http/Controllers/CertificateTemplateController.php:216
+msgid "Upload a JPG, PNG or WebP image."
+msgstr "Lade ein Bild als JPG, PNG oder WebP hoch."
+
+#: app/Modules/Certificates/Http/Controllers/ManualCertificateController.php:77
+#: app/Modules/Certificates/Services/CertificateSettings.php:59
+#: app/Modules/Certificates/Services/ManualCertificates.php:57
+#: app/Modules/Certificates/Services/ManualCertificates.php:126
+msgid "Choose a published certificate template."
+msgstr "Wähle eine veröffentlichte Zertifikatsvorlage."
+
+#: app/Modules/Certificates/Http/Controllers/ManualCertificateController.php:85
+#: app/Modules/Certificates/Services/ManualCertificates.php:65
+msgid "The course could not be found."
+msgstr "Der Kurs wurde nicht gefunden."
+
+#: app/Modules/Certificates/Http/Controllers/ManualCertificateController.php:105
+msgid "Add at least one person."
+msgstr "Füge mindestens eine Person hinzu."
+
+#. translators: %d: the most people one request can issue to
+#: app/Modules/Certificates/Http/Controllers/ManualCertificateController.php:111
+#, php-format
+msgid "Send at most %d people at a time."
+msgstr "Höchstens %d Personen auf einmal."
+
+#. translators: %d: number of certificates issued
+#: app/Modules/Certificates/Http/Controllers/ManualCertificateController.php:167
+#, php-format
+msgid "%d certificate has been issued."
+msgid_plural "%d certificates have been issued."
+msgstr[0] "%d Zertifikat wurde ausgestellt."
+msgstr[1] "%d Zertifikate wurden ausgestellt."
+
+#: app/Modules/Certificates/Http/Controllers/ManualCertificateController.php:225
+msgid "The certificate has been updated."
+msgstr "Das Zertifikat wurde aktualisiert."
+
+#: app/Modules/Certificates/Http/Controllers/OpenBadgeController.php:55
+msgid "Open Badges are not available on this site."
+msgstr "Open Badges sind auf dieser Website nicht verfügbar."
+
+#: app/Modules/Certificates/Http/Controllers/OpenBadgeController.php:59
+msgid "Only a valid certificate can be downloaded as an Open Badge."
+msgstr "Nur ein gültiges Zertifikat lässt sich als Open Badge herunterladen."
+
+#: app/Modules/Certificates/Http/Controllers/OpenBadgeController.php:81
+msgid "Unknown key."
+msgstr "Unbekannter Schlüssel."
+
+#: app/Modules/Certificates/Services/CertificateBackfill.php:48
+msgid ""
+"Turn on the certificate for this course and save, then issue for past "
+"completions."
+msgstr ""
+"Schalte das Zertifikat für diesen Kurs ein und speichere, stelle dann "
+"Zertifikate für frühere Abschlüsse aus."
+
+#: app/Modules/Certificates/Services/CertificateIssuer.php:72
+#: app/Modules/Certificates/Services/CertificateIssuer.php:95
+msgid "The course has no published certificate template."
+msgstr "Der Kurs hat keine veröffentlichte Zertifikatsvorlage."
+
+#: app/Modules/Certificates/Services/CertificateIssuer.php:76
+msgid "The student could not be found."
+msgstr "Der Teilnehmer wurde nicht gefunden."
+
+#: app/Modules/Certificates/Services/CertificateIssuer.php:88
+msgid "A certificate cannot be issued for this student."
+msgstr "Für diesen Teilnehmer lässt sich kein Zertifikat ausstellen."
+
+#: app/Modules/Certificates/Services/CertificateIssuer.php:108
+msgid "This student's certificate for the course was revoked."
+msgstr "Das Zertifikat dieses Teilnehmers für den Kurs wurde widerrufen."
+
+#: app/Modules/Certificates/Services/CertificateIssuer.php:180
+msgid "Only an active certificate can be suspended."
+msgstr "Nur ein aktives Zertifikat lässt sich aussetzen."
+
+#: app/Modules/Certificates/Services/CertificateIssuer.php:192
+msgid "Only a suspended certificate can be reinstated."
+msgstr "Nur ein ausgesetztes Zertifikat lässt sich wieder in Kraft setzen."
+
+#: app/Modules/Certificates/Services/CertificateIssuer.php:207
+msgid "The certificate is already revoked."
+msgstr "Das Zertifikat ist bereits widerrufen."
+
+#: app/Modules/Certificates/Services/CertificateIssuer.php:223
+msgid "Edit a manual certificate to change it."
+msgstr "Ein manuelles Zertifikat änderst Du über „Bearbeiten“."
+
+#: app/Modules/Certificates/Services/CertificateIssuer.php:244
+msgid "A revoked certificate cannot be reissued."
+msgstr "Ein widerrufenes Zertifikat lässt sich nicht neu ausstellen."
+
+#: app/Modules/Certificates/Services/CertificateIssuer.php:251
+#: app/Modules/Certificates/Services/ManualCertificates.php:233
+msgid "The certificate template is no longer published."
+msgstr "Die Zertifikatsvorlage ist nicht mehr veröffentlicht."
+
+#. translators: %s: certificate title
+#: app/Modules/Certificates/Services/CertificateMailer.php:88
+#, php-format
+msgid "Your certificate: %s"
+msgstr "Dein Zertifikat: %s"
+
+#. translators: %s: course title
+#: app/Modules/Certificates/Services/CertificateMailer.php:90
+#, php-format
+msgid "Your certificate for %s"
+msgstr "Dein Zertifikat für %s"
+
+#. translators: %s: student's first name
+#: app/Modules/Certificates/Services/CertificateMailer.php:94
+#, php-format
+msgid "Congratulations, %s!"
+msgstr "Herzlichen Glückwunsch, %s!"
+
+#: app/Modules/Certificates/Services/CertificateMailer.php:95
+#: app/Services/ModuleTransStrings.php:94
+msgid "Congratulations!"
+msgstr "Glückwunsch!"
+
+#. translators: %s: certificate title
+#: app/Modules/Certificates/Services/CertificateMailer.php:101
+#, php-format
+msgid ""
+"You have been awarded the certificate %s. You can download it, share it, or "
+"add it to your LinkedIn profile."
+msgstr ""
+"Dir wurde das Zertifikat %s verliehen. Du kannst es herunterladen, teilen "
+"oder Deinem LinkedIn-Profil hinzufügen."
+
+#. translators: %s: course title
+#: app/Modules/Certificates/Services/CertificateMailer.php:103
+#, php-format
+msgid ""
+"You completed %s and earned a certificate. You can download it, share it, or"
+" add it to your LinkedIn profile."
+msgstr ""
+"Du hast %s abgeschlossen und ein Zertifikat erhalten. Du kannst es "
+"herunterladen, teilen oder Deinem LinkedIn-Profil hinzufügen."
+
+#: app/Modules/Certificates/Services/CertificateMailer.php:104
+msgid "View your certificate"
+msgstr "Dein Zertifikat ansehen"
+
+#: app/Modules/Certificates/Services/CertificateMailer.php:106
+msgid ""
+"This link is only for you: it also lets you download the Open Badge. To "
+"share the certificate, use the link on that page."
+msgstr ""
+"Dieser Link ist nur für Dich: Über ihn kannst Du auch das Open Badge "
+"herunterladen. Um das Zertifikat zu teilen, nutze den Link auf dieser Seite."
+
+#. translators: %s: credential ID
+#: app/Modules/Certificates/Services/CertificateMailer.php:110
+#, php-format
+msgid "Credential ID: %s"
+msgstr "Zertifikats-ID: %s"
+
+#: app/Modules/Certificates/Services/ManualCertificates.php:71
+msgid "The issue date cannot be in the future."
+msgstr "Das Ausstellungsdatum darf nicht in der Zukunft liegen."
+
+#: app/Modules/Certificates/Services/ManualCertificates.php:193
+msgid "Only manual certificates can be edited."
+msgstr "Nur manuelle Zertifikate lassen sich bearbeiten."
+
+#: app/Modules/Certificates/Services/ManualCertificates.php:197
+msgid "A revoked certificate cannot be edited."
+msgstr "Ein widerrufenes Zertifikat lässt sich nicht bearbeiten."
+
+#: app/Modules/Certificates/Services/ManualCertificates.php:463
+msgid "The account to link could not be found."
+msgstr "Das zu verknüpfende Konto wurde nicht gefunden."
+
+#: app/Modules/Certificates/Services/ManualCertificates.php:506
+msgid "Enter the person's name (at most 100 characters)."
+msgstr "Gib den Namen der Person ein (höchstens 100 Zeichen)."
+
+#: app/Modules/Certificates/Services/ManualCertificates.php:510
+msgid "Enter a valid email address."
+msgstr "Gib eine gültige E-Mail-Adresse ein."
+
+#: app/Modules/Certificates/Services/ManualCertificates.php:524
+msgid "The expiry date must be after the issue date."
+msgstr "Das Ablaufdatum muss nach dem Ausstellungsdatum liegen."
+
+#: app/Modules/Certificates/Services/OpenBadgeCredential.php:143
+msgid "Unknown status list."
+msgstr "Unbekannte Statusliste."
+
+#. translators: %s: course title
+#: app/Modules/Certificates/Services/OpenBadgeCredential.php:279
+#, php-format
+msgid "Awarded for completing the course %s."
+msgstr "Verliehen für den Abschluss des Kurses %s."
+
+#. translators: %s: course title
+#: app/Modules/Certificates/Services/OpenBadgeCredential.php:290
+#, php-format
+msgid "Complete every lesson of %s."
+msgstr "Alle Lektionen von %s abschließen."
+
+#. translators: %s: certificate name
+#: app/Modules/Certificates/Services/OpenBadgeCredential.php:312
+#, php-format
+msgid "Awarded for %s."
+msgstr "Verliehen für %s."
+
+#: app/Modules/Certificates/Services/OpenBadgeSigner.php:61
+msgid ""
+"This site cannot sign Open Badges: PHP's OpenSSL extension is missing or "
+"failed."
+msgstr ""
+"Diese Website kann keine Open Badges signieren: Die PHP-Erweiterung OpenSSL "
+"fehlt oder hat einen Fehler gemeldet."
+
+#: app/Modules/Certificates/Services/OpenBadgeSigner.php:69
+msgid "The Open Badge could not be signed."
+msgstr "Das Open Badge ließ sich nicht signieren."
+
+#: app/Modules/Certificates/Services/TemplateDesign.php:68
+msgid "The certificate design is not valid."
+msgstr "Das Zertifikatsdesign ist ungültig."
+
+#. translators: %d: maximum number of elements
+#: app/Modules/Certificates/Services/TemplateDesign.php:89
+#, php-format
+msgid "A certificate can have at most %d elements."
+msgstr "Ein Zertifikat kann höchstens %d Elemente haben."
+
+#: app/Modules/Certificates/Services/TemplateDesign.php:101
+msgid "Two elements have the same ID."
+msgstr "Zwei Elemente haben dieselbe ID."
+
+#: app/Modules/Certificates/Services/TemplateDesign.php:137
+msgid "An element has an invalid ID."
+msgstr "Ein Element hat eine ungültige ID."
+
+#: app/Modules/Certificates/Services/TemplateDesign.php:192
+msgid "The design has an unknown element type."
+msgstr "Das Design enthält einen unbekannten Elementtyp."
+
+#: app/Modules/Certificates/VerificationPage.php:168
+#: app/Services/ModuleTransStrings.php:126
+msgid "Download PNG"
+msgstr "PNG herunterladen"
+
+#: app/Modules/Certificates/VerificationPage.php:169
+#: app/Services/ModuleTransStrings.php:125
+msgid "Download PDF"
+msgstr "PDF herunterladen"
+
+#: app/Modules/Certificates/VerificationPage.php:170
+#: app/Services/ModuleTransStrings.php:244
+msgid "Print / Save as PDF"
+msgstr "Drucken / als PDF speichern"
+
+#: app/Modules/Certificates/VerificationPage.php:171
+#: app/Services/ModuleTransStrings.php:240
+msgid "Preparing…"
+msgstr "Wird vorbereitet …"
+
+#: app/Modules/Certificates/VerificationPage.php:172
+#: app/Services/ModuleTransStrings.php:325
+msgid "The download could not be created."
+msgstr "Der Download ließ sich nicht erstellen."
+
+#: app/Modules/Certificates/VerificationPage.php:173
+#: app/Services/ModuleTransStrings.php:124
+msgid "Download Open Badge"
+msgstr "Open Badge herunterladen"
+
+#: app/Modules/Certificates/Views/verification.php:22
+msgid "This certificate is valid."
+msgstr "Dieses Zertifikat ist gültig."
+
+#. translators: %s: expiry date
+#: app/Modules/Certificates/Views/verification.php:24
+#, php-format
+msgid "This certificate expired on %s."
+msgstr "Dieses Zertifikat ist am %s abgelaufen."
+
+#. translators: %s: expiry date
+#: app/Modules/Certificates/Views/verification.php:24
+msgid "This certificate has expired."
+msgstr "Dieses Zertifikat ist abgelaufen."
+
+#: app/Modules/Certificates/Views/verification.php:25
+msgid "This certificate is suspended."
+msgstr "Dieses Zertifikat ist ausgesetzt."
+
+#: app/Modules/Certificates/Views/verification.php:26
+msgid "This certificate has been revoked."
+msgstr "Dieses Zertifikat wurde widerrufen."
+
+#: app/Modules/Certificates/Views/verification.php:27
+msgid "This certificate is not valid."
+msgstr "Dieses Zertifikat ist ungültig."
+
+#. translators: 1: holder name, 2: course title or certificate name
+#: app/Modules/Certificates/Views/verification.php:32
+#, php-format
+msgid "%1$s – %2$s"
+msgstr "%1$s – %2$s"
+
+#. translators: 1: issuer, 2: issue date
+#: app/Modules/Certificates/Views/verification.php:34
+#, php-format
+msgid "Certificate issued by %1$s on %2$s."
+msgstr "Zertifikat, ausgestellt von %1$s am %2$s."
+
+#: app/Modules/Certificates/Views/verification.php:36
+#: app/Modules/Certificates/Views/verification.php:98
+msgid "Certificate verification"
+msgstr "Zertifikatsprüfung"
+
+#. translators: %s: site name
+#: app/Modules/Certificates/Views/verification.php:38
+#, php-format
+msgid "Check a certificate issued by %s."
+msgstr "Prüfe ein Zertifikat, das %s ausgestellt hat."
+
+#: app/Modules/Certificates/Views/verification.php:103
+msgid "No certificate has this ID. Check the ID and try again."
+msgstr ""
+"Kein Zertifikat hat diese ID. Prüfe die ID und versuche es noch einmal."
+
+#: app/Modules/Certificates/Views/verification.php:106
+msgid "Verify a certificate"
+msgstr "Zertifikat prüfen"
+
+#: app/Modules/Certificates/Views/verification.php:107
+msgid "Enter the credential ID printed on the certificate."
+msgstr "Gib die Zertifikats-ID ein, die auf dem Zertifikat steht."
+
+#: app/Modules/Certificates/Views/verification.php:112
+msgid "The holder keeps the details private."
+msgstr "Der Inhaber hält die Angaben privat."
+
+#: app/Modules/Certificates/Views/verification.php:118
+msgid "Awarded to"
+msgstr "Verliehen an"
+
+#: app/Modules/Certificates/Views/verification.php:119
+#: app/Modules/Integrations/Paymattic/Bootstrap.php:180
+#: app/Services/ModuleTransStrings.php:104
+msgid "Course"
+msgstr "Kurs"
+
+#: app/Modules/Certificates/Views/verification.php:120
+msgid "Issued by"
+msgstr "Ausgestellt von"
+
+#: app/Modules/Certificates/Views/verification.php:123
+msgid "Valid until"
+msgstr "Gültig bis"
+
+#: app/Modules/Certificates/Views/verification.php:127
+#: app/Services/ModuleTransStrings.php:96
+msgid "Copy"
+msgstr "Kopieren"
+
+#: app/Modules/Certificates/Views/verification.php:133
+msgid ""
+"This is your private link from the email. To share the certificate, use its "
+"verification link:"
+msgstr ""
+"Das ist Dein privater Link aus der E-Mail. Um das Zertifikat zu teilen, "
+"nutze seinen Prüflink:"
+
+#: app/Modules/Certificates/Views/verification.php:140
+#: app/Services/ModuleTransStrings.php:39
+msgid "Add to LinkedIn"
+msgstr "Zu LinkedIn hinzufügen"
+
+#: app/Modules/Certificates/Views/verification.php:141
+msgid "Only you see this button."
+msgstr "Nur Du siehst diese Schaltfläche."
+
+#: app/Modules/Certificates/Views/verification.php:155
+msgid "Verify"
+msgstr "Prüfen"
+
+#: app/Modules/Certificates/Views/verification.php:165
+msgid "Copied"
+msgstr "Kopiert"
 
 #: app/Modules/CloudStorage/BunnyCDN/BunnyCdnDriver.php:54
 msgid "Error uploading file to BunnyCDN"
@@ -674,12 +1212,12 @@ msgid "Document uploaded successfully"
 msgstr "Dokument hochgeladen"
 
 #: app/Modules/DocumentLibrary/DocumentModule.php:230
-#: app/Modules/DocumentLibrary/DocumentModule.php:285
+#: app/Modules/DocumentLibrary/DocumentModule.php:289
 msgid "Document not found"
 msgstr "Dokument nicht gefunden"
 
 #: app/Modules/DocumentLibrary/DocumentModule.php:231
-#: app/Modules/DocumentLibrary/DocumentModule.php:286
+#: app/Modules/DocumentLibrary/DocumentModule.php:290
 msgid "The document you are trying to download is not found. Please try again"
 msgstr ""
 "Das Dokument, das Du herunterzuladen versuchst, wurde nicht gefunden. Bitte "
@@ -706,35 +1244,35 @@ msgid "You do not have permission to view documents in this space."
 msgstr ""
 "Du verfügst nicht über die Rechte, Dokumente in diesem Forum einzusehen"
 
-#: app/Modules/DocumentLibrary/Http/DocumentController.php:71
-#: app/Modules/DocumentLibrary/Http/DocumentController.php:112
+#: app/Modules/DocumentLibrary/Http/DocumentController.php:72
+#: app/Modules/DocumentLibrary/Http/DocumentController.php:113
 msgid "Error while uploading the media"
 msgstr "Fehler beim Hochladen der Mediendatei"
 
-#: app/Modules/DocumentLibrary/Http/DocumentController.php:93
+#: app/Modules/DocumentLibrary/Http/DocumentController.php:94
 msgid "You do not have permission to upload documents to this lesson."
 msgstr ""
 "Du verfügst nicht über die Rechte, Dokumente für diese Lektion hochzuladen."
 
-#: app/Modules/DocumentLibrary/Http/DocumentController.php:148
+#: app/Modules/DocumentLibrary/Http/DocumentController.php:149
 msgid "Document title is required"
 msgstr "Der Titel des Dokuments ist erforderlich"
 
-#: app/Modules/DocumentLibrary/Http/DocumentController.php:183
+#: app/Modules/DocumentLibrary/Http/DocumentController.php:184
 msgid "Document updated successfully"
 msgstr "Dokument erfolgreich aktualisiert"
 
-#: app/Modules/DocumentLibrary/Http/DocumentController.php:229
+#: app/Modules/DocumentLibrary/Http/DocumentController.php:230
 msgid "Selected document has been deleted"
 msgstr "Das ausgewählte Dokument wurde gelöscht"
 
-#: app/Modules/DocumentLibrary/Http/DocumentController.php:275
+#: app/Modules/DocumentLibrary/Http/DocumentController.php:276
 msgid "Invalid document source"
 msgstr "Ungültige Dokumentenquelle"
 
-#: app/Modules/DocumentLibrary/Http/DocumentController.php:285
-#: app/Modules/DocumentLibrary/Http/DocumentController.php:298
-#: app/Modules/DocumentLibrary/Http/DocumentController.php:308
+#: app/Modules/DocumentLibrary/Http/DocumentController.php:286
+#: app/Modules/DocumentLibrary/Http/DocumentController.php:299
+#: app/Modules/DocumentLibrary/Http/DocumentController.php:309
 msgid "You do not have permission to edit this document"
 msgstr "Du verfügst nicht über die Rechte, dieses Dokument zu bearbeiten"
 
@@ -751,6 +1289,7 @@ msgid "Error loading GIFs: "
 msgstr "Die GIFs konnten nicht geladen werden: "
 
 #: app/Modules/Integrations/Paymattic/Bootstrap.php:79
+#: app/Services/ModuleTransStrings.php:210
 msgid "Name"
 msgstr "Name"
 
@@ -814,70 +1353,67 @@ msgstr "Passwort (nur für neue Benutzer)"
 msgid "Keep empty to auto generated password"
 msgstr "Leer lassen, um ein Passwort automatisch zu erzeugen"
 
-#: app/Modules/Integrations/Paymattic/Bootstrap.php:134
+#: app/Modules/Integrations/Paymattic/Bootstrap.php:125
 msgid "Auto Login & Password Reset Email (For New Users Only)"
 msgstr ""
 "Automatische Anmeldung und E-Mail zum Zurücksetzen des Passworts (nur für "
 "neue Benutzer)"
 
-#: app/Modules/Integrations/Paymattic/Bootstrap.php:135
+#: app/Modules/Integrations/Paymattic/Bootstrap.php:126
 msgid "Allow the user login automatically after Form submission"
 msgstr "Nach dem Absenden des Formulars automatisch anmelden"
 
-#: app/Modules/Integrations/Paymattic/Bootstrap.php:141
+#: app/Modules/Integrations/Paymattic/Bootstrap.php:132
 msgid "Send default WordPress welcome email to user after registration"
 msgstr ""
 "Nach der Registrierung die Standard-Willkommensmail von WordPress "
 "verschicken"
 
-#: app/Modules/Integrations/Paymattic/Bootstrap.php:147
+#: app/Modules/Integrations/Paymattic/Bootstrap.php:138
 msgid "Join/Enroll space/course on payment success only"
 msgstr ""
 "Erst nach erfolgreicher Zahlung dem Forum beitreten oder in den Kurs "
 "einschreiben"
 
-#: app/Modules/Integrations/Paymattic/Bootstrap.php:153
+#: app/Modules/Integrations/Paymattic/Bootstrap.php:144
 msgid "Remove from space/course if payment refunded"
 msgstr "Bei Rückerstattung aus Forum oder Kurs entfernen"
 
-#: app/Modules/Integrations/Paymattic/Bootstrap.php:159
+#: app/Modules/Integrations/Paymattic/Bootstrap.php:150
 msgid "Remove from space/course if subscription canceled"
 msgstr "Bei gekündigtem Abo aus Forum oder Kurs entfernen"
 
-#: app/Modules/Integrations/Paymattic/Bootstrap.php:172
+#: app/Modules/Integrations/Paymattic/Bootstrap.php:156
 msgid "Conditional Logics"
 msgstr "Bedingungen"
 
-#: app/Modules/Integrations/Paymattic/Bootstrap.php:173
+#: app/Modules/Integrations/Paymattic/Bootstrap.php:157
 msgid "Allow this integration conditionally based on your submission values"
 msgstr "Diese Integration abhängig von den Formularwerten ausführen"
 
-#: app/Modules/Integrations/Paymattic/Bootstrap.php:196
-msgid "Course"
-msgstr "Kurs"
-
-#: app/Modules/Integrations/Paymattic/Bootstrap.php:196
+#: app/Modules/Integrations/Paymattic/Bootstrap.php:180
 #: app/Services/Insights/Cards/Content/TopPostsCard.php:34
 #: app/Services/Insights/Cards/Content/UnansweredCard.php:37
 #: app/Services/Integrations/FluentCRM/RemoveFromSpaceAction.php:44
 msgid "Space"
 msgstr "Forum"
 
-#: app/Modules/Integrations/Paymattic/Bootstrap.php:207
+#: app/Modules/Integrations/Paymattic/Bootstrap.php:191
 msgid "Email Address"
 msgstr "E-Mail-Adresse"
 
-#: app/Modules/Integrations/Paymattic/Bootstrap.php:222
+#. translators: %s: plugin name
+#: app/Modules/Integrations/Paymattic/Bootstrap.php:207
 #, php-format
 msgid "%s Integration"
 msgstr "%s-Integration"
 
-#: app/Modules/Integrations/Paymattic/Bootstrap.php:247
-#: app/Modules/Integrations/Paymattic/Bootstrap.php:258
+#: app/Modules/Integrations/Paymattic/Bootstrap.php:232
+#: app/Modules/Integrations/Paymattic/Bootstrap.php:243
 msgid "No Course/Space selected"
 msgstr "Kein Kurs und kein Forum ausgewählt"
 
-#: app/Modules/Integrations/Paymattic/RemoveFromSpaceAction.php:146
+#: app/Modules/Integrations/Paymattic/RemoveFromSpaceAction.php:144
 msgid "Remove from space/spaces skipped because user/space could not be found"
 msgstr "Entfernen übersprungen, weil Mitglied oder Forum nicht gefunden wurde"
 
@@ -1136,7 +1672,7 @@ msgstr ""
 "Das App-Icon muss mindestens %1$dx%1$d Pixel groß sein. Dieses ist %2$dx%3$d"
 " Pixel groß."
 
-#: app/Modules/Pwa/PwaHelper.php:243
+#: app/Modules/Pwa/PwaHelper.php:245
 msgid "Install App"
 msgstr "App installieren"
 
@@ -1194,39 +1730,95 @@ msgstr "Scrolle nach unten und tippe auf %s"
 msgid "Hide Install App"
 msgstr "„App installieren“ ausblenden"
 
-#: app/Modules/Quiz/Http/Controllers/QuizController.php:25
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:28
 msgid "You must be enrolled in this course to view the quiz result."
 msgstr ""
 "Zum Ansehen des Quiz-Ergebnisses musst Du in den Kurs eingeschrieben sein."
 
-#: app/Modules/Quiz/Http/Controllers/QuizController.php:90
-msgid "You must be enrolled in this course to submit the quiz."
-msgstr "Zum Abschicken des Quiz musst Du in den Kurs eingeschrieben sein."
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:58
+msgid "You must be enrolled in this course to take the quiz."
+msgstr "Um das Quiz zu machen, musst Du in diesem Kurs eingeschrieben sein."
 
-#: app/Modules/Quiz/Http/Controllers/QuizController.php:96
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:64
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:140
 msgid "This quiz is not published yet"
 msgstr "Dieses Quiz ist noch nicht veröffentlicht"
 
-#: app/Modules/Quiz/Http/Controllers/QuizController.php:112
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:71
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:213
+msgid "You have used all your attempts for this quiz."
+msgstr "Du hast alle Versuche für dieses Quiz aufgebraucht."
+
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:134
+msgid "You must be enrolled in this course to submit the quiz."
+msgstr "Zum Abschicken des Quiz musst Du in den Kurs eingeschrieben sein."
+
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:155
 msgid "Invalid answer submitted."
 msgstr "Ungültige Antwort abgeschickt."
 
-#: app/Modules/Quiz/Http/Controllers/QuizController.php:128
+#. translators: %d: maximum number of characters
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:172
 #, php-format
 msgid "Answer exceeds the %d character limit"
 msgstr "Die Antwort überschreitet das Limit von %d Zeichen"
 
-#: app/Modules/Quiz/Http/Controllers/QuizController.php:158
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:193
 msgid "This quiz has no enabled questions yet."
 msgstr "Dieses Quiz hat noch keine aktivierten Fragen."
 
-#: app/Modules/Quiz/Http/Controllers/QuizController.php:204
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:262
 msgid "Quiz has been submitted successfully"
 msgstr "Das Quiz wurde abgeschickt"
 
-#: app/Modules/Quiz/Http/Controllers/QuizController.php:229
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:287
 msgid "Quiz result updated successfully"
 msgstr "Das Quiz-Ergebnis wurde aktualisiert"
+
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:322
+msgid "Give points to at least one answer."
+msgstr "Vergib für mindestens eine Antwort Punkte."
+
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:356
+msgid "The grades have been saved."
+msgstr "Die Bewertungen wurden gespeichert."
+
+#: app/Modules/Quiz/Http/Controllers/QuizController.php:375
+msgid "The student can take the quiz one more time."
+msgstr "Der Teilnehmer kann das Quiz noch einmal machen."
+
+#. translators: 1: quiz title, 2: score in percent
+#: app/Modules/Quiz/QuizGradedNotifier.php:46
+#, php-format
+msgid "Your answers in %1$s have been graded. Your score is %2$s."
+msgstr "Deine Antworten in %1$s wurden bewertet. Deine Punktzahl: %2$s."
+
+#. translators: %s: quiz title
+#: app/Modules/Quiz/QuizGradedNotifier.php:74
+#, php-format
+msgid "Your quiz has been graded: %s"
+msgstr "Dein Quiz wurde bewertet: %s"
+
+#: app/Modules/Quiz/QuizGradedNotifier.php:80
+msgid "You passed."
+msgstr "Du hast bestanden."
+
+#: app/Modules/Quiz/QuizGradedNotifier.php:82
+msgid "You did not pass this time. You can take the quiz again."
+msgstr ""
+"Diesmal hast Du nicht bestanden. Du kannst das Quiz noch einmal machen."
+
+#. translators: 1: quiz title, 2: score in percent
+#: app/Modules/Quiz/QuizGradedNotifier.php:88
+#, php-format
+msgid "Your instructor has graded your answers in %1$s. Your score is %2$s%%."
+msgstr ""
+"Deine Kursleitung hat Deine Antworten in %1$s bewertet. Deine Punktzahl: "
+"%2$s%%."
+
+#: app/Modules/Quiz/QuizGradedNotifier.php:93
+msgid "See your result"
+msgstr "Dein Ergebnis ansehen"
 
 #: app/Modules/Quiz/QuizHelper.php:17
 msgid "Single Choice"
@@ -1292,6 +1884,14 @@ msgstr "Bildzuordnung"
 msgid "Pair images with labels"
 msgstr "Bildern Beschriftungen zuordnen"
 
+#: app/Modules/Quiz/QuizHelper.php:57
+msgid "Rating Scale"
+msgstr "Bewertungsskala"
+
+#: app/Modules/Quiz/QuizHelper.php:58
+msgid "Survey answer, not scored"
+msgstr "Umfrageantwort, ohne Punkte"
+
 #: app/Modules/SeoSiteMap/AbstractPortalPreRenderer.php:160
 msgid "Space menu"
 msgstr "Foren-Menü"
@@ -1353,6 +1953,7 @@ msgid "year"
 msgstr "Jahr"
 
 #: app/Modules/SeoSiteMap/CoursePreRenderer.php:152
+#: app/Services/ModuleTransStrings.php:66
 msgid "Breadcrumb"
 msgstr "Pfadnavigation"
 
@@ -1524,31 +2125,35 @@ msgstr "Sticker erfolgreich gespeichert"
 msgid "Too many requests."
 msgstr "Zu viele Anfragen."
 
-#: app/Modules/Webhooks/WebhookModule.php:53
+#: app/Modules/Webhooks/WebhookModule.php:49
 msgid "Email is required"
 msgstr "Die E-Mail-Adresse ist erforderlich"
 
-#: app/Modules/Webhooks/WebhookModule.php:109
+#: app/Modules/Webhooks/WebhookModule.php:105
 msgid "Webhook has been successfully executed"
 msgstr "Webhook-Aufruf erfolgreich"
 
-#: app/Services/BulkMemberHelper.php:26 app/Services/BulkMemberHelper.php:100
-#: app/Services/BulkMemberHelper.php:332
+#. translators: %d: number of members added
+#: app/Services/BulkMemberHelper.php:28 app/Services/BulkMemberHelper.php:103
+#: app/Services/BulkMemberHelper.php:339
 #, php-format
 msgid "%d added successfully."
 msgstr "%d hinzugefügt."
 
-#: app/Services/BulkMemberHelper.php:154
+#. translators: %d: number of students added
+#: app/Services/BulkMemberHelper.php:158
 #, php-format
 msgid "%d student(s) added successfully."
 msgstr "%d Teilnehmende hinzugefügt."
 
-#: app/Services/BulkMemberHelper.php:208
+#. translators: %d: number of members added
+#: app/Services/BulkMemberHelper.php:213
 #, php-format
 msgid "%d member(s) added successfully."
 msgstr "%d Mitglieder hinzugefügt."
 
-#: app/Services/BulkMemberHelper.php:331
+#. translators: %d: number of members added
+#: app/Services/BulkMemberHelper.php:337
 #, php-format
 msgid ""
 "%d added successfully. New user accounts were not created because you do not"
@@ -2085,6 +2690,7 @@ msgstr ""
 " mod.top_reported."
 
 #: app/Services/Insights/Cards/ProCard.php:65
+#: app/Services/ModuleTransStrings.php:205
 msgid "Member"
 msgstr "Mitglied"
 
@@ -2383,50 +2989,50 @@ msgid "Selected registered users have been added to the space successfully"
 msgstr ""
 "Ausgewählte registrierte Mitglieder wurden dem Forum erfolgreich hinzugefügt"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:294
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:295
 msgid "The Badge has been added to the selected users"
 msgstr "Der Sticker wurde den ausgewählten Mitgliedern hinzugefügt"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:337
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:339
 msgid "The Badge has been removed from the selected users"
 msgstr "Der Sticker wurde von den ausgewählten Mitgliedern entfernt"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:373
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:375
 msgid "Selected users have been removed from the space successfully"
 msgstr "Ausgewählte Mitglieder wurden erfolgreich vom Forum entfernt"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:401
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:403
 msgid "Selected registered users have been added to the course successfully"
 msgstr ""
 "Ausgewählte registrierte Mitglieder wurden dem Kurs erfolgreich hinzugefügt"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:429
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:431
 msgid ""
 "Selected registered users have been removed from the course successfully"
 msgstr ""
 "Ausgewählte registrierte Mitglieder wurden erfolgreich aus dem Kurs entfernt"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:463
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:465
 msgid "CRM Profile"
 msgstr "CRM-Profil"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:466
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:468
 msgid "View Contact"
 msgstr "Kontakt ansehen"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:478
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:480
 msgid "Lifetime Value"
 msgstr "Kunden „Lifetime Value“"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:490
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:492
 msgid "Lists"
 msgstr "Listen"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:502
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:504
 msgid "Tags"
 msgstr "Tags"
 
-#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:513
+#: app/Services/Integrations/FluentCRM/ContactAdvancedFilter.php:515
 msgid "Visible for admin only"
 msgstr "Sichtbar nur für den Administrator"
 
@@ -2481,7 +3087,7 @@ msgstr "Sticker aus dem Profil entfernen"
 
 #: app/Services/Integrations/FluentCRM/RemoveFromCourseAction.php:24
 msgid "Remove Courses"
-msgstr "Lösche Kurse"
+msgstr "Aus Kursen austragen"
 
 #: app/Services/Integrations/FluentCRM/RemoveFromCourseAction.php:25
 msgid "Remove user from the selected courses"
@@ -2598,26 +3204,1440 @@ msgstr "Gesperrt (kein Zugriff auf die Community möglich)"
 msgid "Member is under moderation"
 msgstr "Das Mitglied steht unter Moderation"
 
-#: app/Services/ModerationService.php:143
+#. translators: %s: the word that matched
+#: app/Services/ModerationService.php:144
 #, php-format
 msgid "Word: %s"
 msgstr "Wort: %s"
 
-#: app/Services/ModerationService.php:166
+#: app/Services/ModerationService.php:168
 msgid "Global moderation settings require review"
 msgstr "Die globalen Moderations-Einstellungen müssen geprüft werden"
 
-#: app/Services/ModerationService.php:173
+#: app/Services/ModerationService.php:175
 msgid "Space moderation settings require review"
 msgstr "Die Moderations-Einstellungen des Forums müssen geprüft werden"
 
-#: app/Services/ModerationService.php:180
+#: app/Services/ModerationService.php:182
 msgid "First post requires approval"
 msgstr "Erster Beitrag muss freigegeben werden"
 
-#: app/Services/ModerationService.php:208
+#: app/Services/ModerationService.php:212
 msgid "First comment requires approval"
 msgstr "Erster Kommentar muss freigegeben werden"
+
+#: app/Services/ModuleTransStrings.php:16
+msgid "{{course.lesson_count}} lessons · completed {{course.completion_date}}"
+msgstr ""
+"{{course.lesson_count}} Lektionen · abgeschlossen am "
+"{{course.completion_date}}"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:18
+#, php-format
+msgid "%d certificate issued"
+msgstr "%d Zertifikat ausgestellt"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:20
+#, php-format
+msgid "%d certificates issued"
+msgstr "%d Zertifikate ausgestellt"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:22
+#, php-format
+msgid "%d element"
+msgstr "%d Element"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:24
+#, php-format
+msgid "%d elements"
+msgstr "%d Elemente"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:26
+#, php-format
+msgid "%d month"
+msgstr "%d Monat"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:28
+#, php-format
+msgid "%d months"
+msgstr "%d Monate"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:30
+#, php-format
+msgid "%d student completed this course before the certificate was turned on."
+msgstr ""
+"%d Teilnehmer hat diesen Kurs abgeschlossen, bevor das Zertifikat "
+"eingeschaltet war."
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:32
+#, php-format
+msgid ""
+"%d students completed this course before the certificate was turned on."
+msgstr ""
+"%d Teilnehmende haben diesen Kurs abgeschlossen, bevor das Zertifikat "
+"eingeschaltet war."
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:34
+#, php-format
+msgid "%s already has an account with this email."
+msgstr "%s hat bereits ein Konto mit dieser E-Mail-Adresse."
+
+#: app/Services/ModuleTransStrings.php:35
+msgid "Academic (Portrait)"
+msgstr "Akademisch (Hochformat)"
+
+#: app/Services/ModuleTransStrings.php:36
+msgid "Account"
+msgstr "Konto"
+
+#: app/Services/ModuleTransStrings.php:37
+msgid "Actions"
+msgstr "Aktionen"
+
+#: app/Services/ModuleTransStrings.php:38
+msgid "Add elements"
+msgstr "Elemente hinzufügen"
+
+#: app/Services/ModuleTransStrings.php:40
+msgid "Align bottom"
+msgstr "Unten ausrichten"
+
+#: app/Services/ModuleTransStrings.php:41
+msgid "Align centers horizontally"
+msgstr "Horizontal mittig ausrichten"
+
+#: app/Services/ModuleTransStrings.php:42
+msgid "Align centers vertically"
+msgstr "Vertikal mittig ausrichten"
+
+#: app/Services/ModuleTransStrings.php:43
+msgid "Align left"
+msgstr "Links ausrichten"
+
+#: app/Services/ModuleTransStrings.php:44
+msgid "Align right"
+msgstr "Rechts ausrichten"
+
+#: app/Services/ModuleTransStrings.php:45
+msgid "Align to page"
+msgstr "An der Seite ausrichten"
+
+#: app/Services/ModuleTransStrings.php:46
+msgid "Align to selection"
+msgstr "An der Auswahl ausrichten"
+
+#: app/Services/ModuleTransStrings.php:47
+msgid "Align top"
+msgstr "Oben ausrichten"
+
+#: app/Services/ModuleTransStrings.php:48
+msgid "All changes saved"
+msgstr "Alle Änderungen gespeichert"
+
+#: app/Services/ModuleTransStrings.php:49
+msgid "All courses"
+msgstr "Alle Kurse"
+
+#: app/Services/ModuleTransStrings.php:50
+msgid "All templates"
+msgstr "Alle Vorlagen"
+
+#: app/Services/ModuleTransStrings.php:51
+msgid ""
+"An expired certificate stays on record, and its verification page says it "
+"has expired."
+msgstr ""
+"Ein abgelaufenes Zertifikat bleibt erhalten, und seine Prüfseite zeigt, dass"
+" es abgelaufen ist."
+
+#: app/Services/ModuleTransStrings.php:52
+msgid "Any status"
+msgstr "Beliebiger Status"
+
+#: app/Services/ModuleTransStrings.php:53
+msgid "Archive"
+msgstr "Archivieren"
+
+#: app/Services/ModuleTransStrings.php:54
+msgid "Archived"
+msgstr "Archiviert"
+
+#: app/Services/ModuleTransStrings.php:55
+msgid "As typed"
+msgstr "Wie eingegeben"
+
+#: app/Services/ModuleTransStrings.php:56
+msgid "Automatic"
+msgstr "Automatisch"
+
+#: app/Services/ModuleTransStrings.php:57
+msgid ""
+"Automatic follows the first letter of each line. Choose a direction when a "
+"line starts with a name in another script."
+msgstr ""
+"„Automatisch“ richtet sich nach dem ersten Buchstaben jeder Zeile. Wähle "
+"eine Richtung, wenn eine Zeile mit einem Namen in einer anderen Schrift "
+"beginnt."
+
+#: app/Services/ModuleTransStrings.php:58
+msgid "Award a certificate when a student completes this course"
+msgstr "Zertifikat vergeben, wenn ein Teilnehmer diesen Kurs abschließt"
+
+#: app/Services/ModuleTransStrings.php:59
+msgid "awarded to"
+msgstr "verliehen an"
+
+#: app/Services/ModuleTransStrings.php:60
+msgid "Background"
+msgstr "Hintergrund"
+
+#: app/Services/ModuleTransStrings.php:61
+msgid "Blank"
+msgstr "Leer"
+
+#: app/Services/ModuleTransStrings.php:62
+msgid "Bold"
+msgstr "Fett"
+
+#: app/Services/ModuleTransStrings.php:63
+msgid "Bold Navy"
+msgstr "Kräftiges Marineblau"
+
+#: app/Services/ModuleTransStrings.php:64
+msgid "Border"
+msgstr "Rahmen"
+
+#: app/Services/ModuleTransStrings.php:65
+msgid "Border width"
+msgstr "Rahmenstärke"
+
+#: app/Services/ModuleTransStrings.php:67
+msgid "Bring forward"
+msgstr "Nach vorne"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:69
+#, php-format
+msgid "by %s"
+msgstr "von %s"
+
+#: app/Services/ModuleTransStrings.php:70
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: app/Services/ModuleTransStrings.php:71
+msgid "Canvas"
+msgstr "Arbeitsfläche"
+
+#: app/Services/ModuleTransStrings.php:72
+msgid "Capitalize"
+msgstr "Wortanfänge groß"
+
+#: app/Services/ModuleTransStrings.php:73
+msgid "Case"
+msgstr "Schreibweise"
+
+#: app/Services/ModuleTransStrings.php:74
+msgid "Center"
+msgstr "Mitte"
+
+#: app/Services/ModuleTransStrings.php:76
+msgid "CERTIFICATE"
+msgstr "ZERTIFIKAT"
+
+#: app/Services/ModuleTransStrings.php:77
+msgid "Certificate date"
+msgstr "Zertifikatsdatum"
+
+#: app/Services/ModuleTransStrings.php:78
+msgid "Certificate description"
+msgstr "Zertifikatsbeschreibung"
+
+#: app/Services/ModuleTransStrings.php:79
+msgid "Certificate of Achievement"
+msgstr "Leistungszertifikat"
+
+#: app/Services/ModuleTransStrings.php:80
+msgid "Certificate of Completion"
+msgstr "Abschlusszertifikat"
+
+#: app/Services/ModuleTransStrings.php:81
+msgid "CERTIFICATE OF COMPLETION"
+msgstr "ABSCHLUSSZERTIFIKAT"
+
+#: app/Services/ModuleTransStrings.php:82
+msgid "Certificate Templates"
+msgstr "Zertifikatsvorlagen"
+
+#: app/Services/ModuleTransStrings.php:83
+msgid "Certificate text"
+msgstr "Zertifikatstext"
+
+#: app/Services/ModuleTransStrings.php:84
+msgid "Certificate title"
+msgstr "Zertifikatstitel"
+
+#: app/Services/ModuleTransStrings.php:86
+msgid ""
+"Certificates were issued from this template, so it will be archived. Issued "
+"certificates are not affected."
+msgstr ""
+"Mit dieser Vorlage wurden bereits Zertifikate ausgestellt, deshalb wird sie "
+"archiviert. Ausgestellte Zertifikate bleiben unverändert."
+
+#: app/Services/ModuleTransStrings.php:87
+msgid "Choose a template"
+msgstr "Vorlage wählen"
+
+#: app/Services/ModuleTransStrings.php:88
+msgid "Choose a template to see the certificate."
+msgstr "Wähle eine Vorlage, um das Zertifikat zu sehen."
+
+#: app/Services/ModuleTransStrings.php:89
+msgid "Classic Gold"
+msgstr "Klassisch Gold"
+
+#: app/Services/ModuleTransStrings.php:90
+msgid "Color"
+msgstr "Farbe"
+
+#: app/Services/ModuleTransStrings.php:91
+msgid "Complete a course to earn your first certificate."
+msgstr "Schließe einen Kurs ab, um Dein erstes Zertifikat zu erhalten."
+
+#: app/Services/ModuleTransStrings.php:92
+msgid "Completion date"
+msgstr "Abschlussdatum"
+
+#: app/Services/ModuleTransStrings.php:93
+msgid "Congratulations"
+msgstr "Herzlichen Glückwunsch"
+
+#: app/Services/ModuleTransStrings.php:95
+msgid "Continue"
+msgstr "Weiter"
+
+#: app/Services/ModuleTransStrings.php:97
+msgid "Copy credential ID"
+msgstr "Zertifikats-ID kopieren"
+
+#: app/Services/ModuleTransStrings.php:98
+msgid "Copy holder link"
+msgstr "Link für den Inhaber kopieren"
+
+#: app/Services/ModuleTransStrings.php:99
+msgid "Copy link"
+msgstr "Link kopieren"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:101
+#, php-format
+msgid "Copy of %s"
+msgstr "Kopie von %s"
+
+#: app/Services/ModuleTransStrings.php:102
+msgid "Copy verification link"
+msgstr "Prüflink kopieren"
+
+#: app/Services/ModuleTransStrings.php:103
+msgid "Corner radius"
+msgstr "Eckenradius"
+
+#: app/Services/ModuleTransStrings.php:105
+msgid "Course (optional)"
+msgstr "Kurs (optional)"
+
+#: app/Services/ModuleTransStrings.php:106
+msgid "Course Certificate"
+msgstr "Kurszertifikat"
+
+#: app/Services/ModuleTransStrings.php:107
+msgid "Course Certificates"
+msgstr "Kurszertifikate"
+
+#: app/Services/ModuleTransStrings.php:108
+msgid "Course title"
+msgstr "Kurstitel"
+
+#: app/Services/ModuleTransStrings.php:109
+msgid "Create an account"
+msgstr "Konto anlegen"
+
+#: app/Services/ModuleTransStrings.php:110
+msgid "Create and edit"
+msgstr "Anlegen und bearbeiten"
+
+#: app/Services/ModuleTransStrings.php:112
+msgid "Credential ID copied"
+msgstr "Zertifikats-ID kopiert"
+
+#: app/Services/ModuleTransStrings.php:113
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#: app/Services/ModuleTransStrings.php:114
+msgid "Custom field"
+msgstr "Eigenes Feld"
+
+#: app/Services/ModuleTransStrings.php:115
+msgid "Custom field…"
+msgstr "Eigenes Feld …"
+
+#: app/Services/ModuleTransStrings.php:116
+#: app/Services/ProfileFieldsService.php:64
+msgid "Date"
+msgstr "Datum"
+
+#: app/Services/ModuleTransStrings.php:117
+msgid "Delete"
+msgstr "Löschen"
+
+#: app/Services/ModuleTransStrings.php:118
+msgid "Delete this template? This cannot be undone."
+msgstr "Diese Vorlage löschen? Das lässt sich nicht rückgängig machen."
+
+#: app/Services/ModuleTransStrings.php:119
+msgid "Deselect"
+msgstr "Auswahl aufheben"
+
+#: app/Services/ModuleTransStrings.php:120
+msgid ""
+"Design the artwork in a tool such as Canva at the page size, then upload it "
+"here and add the text on top."
+msgstr ""
+"Gestalte die Grafik in der Seitengröße in einem Werkzeug wie Canva, lade sie"
+" dann hier hoch und setze den Text darauf."
+
+#: app/Services/ModuleTransStrings.php:121
+msgid "Direction"
+msgstr "Richtung"
+
+#: app/Services/ModuleTransStrings.php:122
+msgid "Distribute horizontally"
+msgstr "Horizontal verteilen"
+
+#: app/Services/ModuleTransStrings.php:123
+msgid "Distribute vertically"
+msgstr "Vertikal verteilen"
+
+#: app/Services/ModuleTransStrings.php:127
+msgid "Draft saved"
+msgstr "Entwurf gespeichert"
+
+#: app/Services/ModuleTransStrings.php:128
+msgid "Duplicate"
+msgstr "Duplizieren"
+
+#: app/Services/ModuleTransStrings.php:129
+msgid "Dynamic field"
+msgstr "Dynamisches Feld"
+
+#: app/Services/ModuleTransStrings.php:130
+msgid "Each certificate gets the date the student completed the course."
+msgstr ""
+"Jedes Zertifikat erhält das Datum, an dem der Teilnehmer den Kurs "
+"abgeschlossen hat."
+
+#: app/Services/ModuleTransStrings.php:131
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:133
+#, php-format
+msgid "Edit %s"
+msgstr "%s bearbeiten"
+
+#: app/Services/ModuleTransStrings.php:134
+msgid "Edit certificate"
+msgstr "Zertifikat bearbeiten"
+
+#: app/Services/ModuleTransStrings.php:135
+msgid "Edit design"
+msgstr "Design bearbeiten"
+
+#: app/Services/ModuleTransStrings.php:136
+msgid "Elegant Serif"
+msgstr "Elegante Serife"
+
+#: app/Services/ModuleTransStrings.php:137
+msgid "Email"
+msgstr "E-Mail"
+
+#: app/Services/ModuleTransStrings.php:138
+msgid "Email the certificate to the person"
+msgstr "Zertifikat per E-Mail an die Person senden"
+
+#: app/Services/ModuleTransStrings.php:139
+msgid "Email the new member a link to set their password"
+msgstr ""
+"Dem neuen Mitglied einen Link zum Festlegen des Passworts per E-Mail senden"
+
+#: app/Services/ModuleTransStrings.php:140
+msgid "Enter a reason."
+msgstr "Gib einen Grund an."
+
+#: app/Services/ModuleTransStrings.php:141
+msgid "Every student who completed this course has a certificate."
+msgstr ""
+"Alle Teilnehmenden, die diesen Kurs abgeschlossen haben, haben ein "
+"Zertifikat."
+
+#: app/Services/ModuleTransStrings.php:142
+msgid "Expired"
+msgstr "Abgelaufen"
+
+#: app/Services/ModuleTransStrings.php:143
+msgid "Expiry date"
+msgstr "Ablaufdatum"
+
+#: app/Services/ModuleTransStrings.php:144
+msgid "Expiry date (optional)"
+msgstr "Ablaufdatum (optional)"
+
+#: app/Services/ModuleTransStrings.php:145
+msgid "Export JSON"
+msgstr "JSON exportieren"
+
+#: app/Services/ModuleTransStrings.php:146
+msgid "Field names"
+msgstr "Feldnamen"
+
+#: app/Services/ModuleTransStrings.php:147
+msgid "Fill"
+msgstr "Füllung"
+
+#: app/Services/ModuleTransStrings.php:148
+msgid "Fill the page (crop)"
+msgstr "Seite füllen (zuschneiden)"
+
+#: app/Services/ModuleTransStrings.php:149
+msgid "Fit"
+msgstr "Einpassen"
+
+#: app/Services/ModuleTransStrings.php:150
+msgid "Fit inside the page"
+msgstr "In die Seite einpassen"
+
+#: app/Services/ModuleTransStrings.php:151
+msgid "Fit to screen"
+msgstr "An Bildschirm anpassen"
+
+#: app/Services/ModuleTransStrings.php:152
+msgid "Font"
+msgstr "Schrift"
+
+#: app/Services/ModuleTransStrings.php:153
+msgid "for completing"
+msgstr "für den Abschluss von"
+
+#: app/Services/ModuleTransStrings.php:154
+msgid "for successfully completing"
+msgstr "für den erfolgreichen Abschluss von"
+
+#: app/Services/ModuleTransStrings.php:155
+msgid "Full name"
+msgstr "Vollständiger Name"
+
+#: app/Services/ModuleTransStrings.php:156
+msgid "has completed the course"
+msgstr "hat den Kurs abgeschlossen"
+
+#: app/Services/ModuleTransStrings.php:157
+msgid "has successfully completed"
+msgstr "hat erfolgreich abgeschlossen"
+
+#: app/Services/ModuleTransStrings.php:158
+msgid "Height"
+msgstr "Höhe"
+
+#: app/Services/ModuleTransStrings.php:159
+msgid "Height (pt)"
+msgstr "Höhe (pt)"
+
+#: app/Services/ModuleTransStrings.php:160
+msgid "Hide"
+msgstr "Ausblenden"
+
+#: app/Services/ModuleTransStrings.php:161
+msgid "History"
+msgstr "Verlauf"
+
+#: app/Services/ModuleTransStrings.php:162
+msgid ""
+"Holder link copied. Send it only to the holder: it opens their private view "
+"and the Open Badge download."
+msgstr ""
+"Link für den Inhaber kopiert. Schicke ihn nur an den Inhaber: Er öffnet "
+"dessen private Ansicht und den Download des Open Badge."
+
+#: app/Services/ModuleTransStrings.php:163
+msgid "ID {{certificate.credential_id}}"
+msgstr "ID {{certificate.credential_id}}"
+
+#: app/Services/ModuleTransStrings.php:164
+msgid "Image"
+msgstr "Bild"
+
+#: app/Services/ModuleTransStrings.php:165
+msgid "Import JSON"
+msgstr "JSON importieren"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:167
+#, php-format
+msgid "Imported: %s. It replaces the starter design."
+msgstr "Importiert: %s. Es ersetzt das Startdesign."
+
+#: app/Services/ModuleTransStrings.php:168
+msgid "in recognition of completing"
+msgstr "in Anerkennung des Abschlusses von"
+
+#: app/Services/ModuleTransStrings.php:169
+msgid "Insert"
+msgstr "Einfügen"
+
+#: app/Services/ModuleTransStrings.php:170
+msgid "Insert dynamic field"
+msgstr "Dynamisches Feld einfügen"
+
+#: app/Services/ModuleTransStrings.php:171
+msgid "Instructor"
+msgstr "Kursleitung"
+
+#: app/Services/ModuleTransStrings.php:172
+msgid "Instructor name"
+msgstr "Name der Kursleitung"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:174
+#, php-format
+msgid "Issue %d certificate"
+msgstr "%d Zertifikat ausstellen"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:176
+#, php-format
+msgid "Issue %d certificates"
+msgstr "%d Zertifikate ausstellen"
+
+#: app/Services/ModuleTransStrings.php:177
+msgid "Issue a certificate"
+msgstr "Ein Zertifikat ausstellen"
+
+#: app/Services/ModuleTransStrings.php:178
+msgid "Issue certificate"
+msgstr "Zertifikat ausstellen"
+
+#: app/Services/ModuleTransStrings.php:179
+msgid "Issue date"
+msgstr "Ausstellungsdatum"
+
+#: app/Services/ModuleTransStrings.php:180
+msgid "Issued"
+msgstr "Ausgestellt"
+
+#: app/Services/ModuleTransStrings.php:181
+msgid "Issued {{certificate.issue_date}} · ID {{certificate.credential_id}}"
+msgstr ""
+"Ausgestellt am {{certificate.issue_date}} · ID {{certificate.credential_id}}"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:183
+#, php-format
+msgid "Issued %1$s, skipped %2$s, failed %3$s"
+msgstr "Ausgestellt: %1$s, übersprungen: %2$s, fehlgeschlagen: %3$s"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:185
+#, php-format
+msgid "Issued %s"
+msgstr "Ausgestellt: %s"
+
+#: app/Services/ModuleTransStrings.php:186
+msgid "Italic"
+msgstr "Kursiv"
+
+#: app/Services/ModuleTransStrings.php:187
+msgid "Keyboard shortcuts"
+msgstr "Tastenkürzel"
+
+#: app/Services/ModuleTransStrings.php:188
+msgid "Landscape"
+msgstr "Querformat"
+
+#: app/Services/ModuleTransStrings.php:189
+msgid "Layers"
+msgstr "Ebenen"
+
+#: app/Services/ModuleTransStrings.php:190
+msgid "Leave"
+msgstr "Verlassen"
+
+#: app/Services/ModuleTransStrings.php:191
+msgid "Left"
+msgstr "Links"
+
+#: app/Services/ModuleTransStrings.php:192
+msgid "Left to right"
+msgstr "Links nach rechts"
+
+#: app/Services/ModuleTransStrings.php:193
+msgid "Lesson count"
+msgstr "Anzahl der Lektionen"
+
+#: app/Services/ModuleTransStrings.php:194
+msgid "Letter spacing"
+msgstr "Zeichenabstand"
+
+#: app/Services/ModuleTransStrings.php:195
+msgid "Line"
+msgstr "Linie"
+
+#: app/Services/ModuleTransStrings.php:196
+msgid "Line height"
+msgstr "Zeilenhöhe"
+
+#: app/Services/ModuleTransStrings.php:197
+msgid "Link copied"
+msgstr "Link kopiert"
+
+#: app/Services/ModuleTransStrings.php:198
+msgid "Link it to show the certificate on their profile."
+msgstr "Verknüpfe das Konto, damit das Zertifikat im Profil erscheint."
+
+#: app/Services/ModuleTransStrings.php:199
+msgid "Link to the existing account"
+msgstr "Mit dem vorhandenen Konto verknüpfen"
+
+#: app/Services/ModuleTransStrings.php:200
+msgid ""
+"LinkedIn opens its \"Add license or certification\" form. If a field is "
+"empty, paste the credential ID and the link from here."
+msgstr ""
+"LinkedIn öffnet sein Formular „Add license or certification“. Ist ein Feld "
+"leer, füge dort die Zertifikats-ID und den Link von hier ein."
+
+#: app/Services/ModuleTransStrings.php:201
+msgid "Lock"
+msgstr "Sperren"
+
+#: app/Services/ModuleTransStrings.php:202
+msgid "Long names get smaller instead of overflowing the box."
+msgstr "Lange Namen werden kleiner, statt über den Rahmen hinauszulaufen."
+
+#: app/Services/ModuleTransStrings.php:203
+msgid "lowercase"
+msgstr "kleinbuchstaben"
+
+#: app/Services/ModuleTransStrings.php:204
+msgid "Manual Certificates"
+msgstr "Manuelle Zertifikate"
+
+#: app/Services/ModuleTransStrings.php:206
+msgid "Modern Minimal"
+msgstr "Modern minimal"
+
+#: app/Services/ModuleTransStrings.php:207
+msgid "More actions"
+msgstr "Weitere Aktionen"
+
+#: app/Services/ModuleTransStrings.php:208
+msgid "Move by 1 pt"
+msgstr "Um 1 pt verschieben"
+
+#: app/Services/ModuleTransStrings.php:209
+msgid "Move by 10 pt"
+msgstr "Um 10 pt verschieben"
+
+#: app/Services/ModuleTransStrings.php:211
+msgid ""
+"Name the field, for example Duration or Location. Manual certificates ask "
+"for its value when you issue them."
+msgstr ""
+"Benenne das Feld, zum Beispiel Dauer oder Ort. Manuelle Zertifikate fragen "
+"beim Ausstellen nach seinem Wert."
+
+#: app/Services/ModuleTransStrings.php:212
+msgid "Never expires"
+msgstr "Läuft nie ab"
+
+#: app/Services/ModuleTransStrings.php:213
+msgid "New certificate template"
+msgstr "Neue Zertifikatsvorlage"
+
+#: app/Services/ModuleTransStrings.php:214
+msgid "New certificates will use this design."
+msgstr "Neue Zertifikate verwenden dieses Design."
+
+#: app/Services/ModuleTransStrings.php:215
+msgid "New Template"
+msgstr "Neue Vorlage"
+
+#: app/Services/ModuleTransStrings.php:216
+msgid "No account"
+msgstr "Kein Konto"
+
+#: app/Services/ModuleTransStrings.php:217
+msgid "No certificate templates yet. Create one from a starter design."
+msgstr "Noch keine Zertifikatsvorlagen. Lege eine aus einem Startdesign an."
+
+#: app/Services/ModuleTransStrings.php:218
+msgid "No certificates have been issued yet."
+msgstr "Es wurden noch keine Zertifikate ausgestellt."
+
+#: app/Services/ModuleTransStrings.php:219
+msgid "No certificates issued yet"
+msgstr "Noch keine Zertifikate ausgestellt"
+
+#: app/Services/ModuleTransStrings.php:220
+msgid "No certificates to show."
+msgstr "Keine Zertifikate vorhanden."
+
+#: app/Services/ModuleTransStrings.php:221
+msgid "No course"
+msgstr "Kein Kurs"
+
+#: app/Services/ModuleTransStrings.php:222
+msgid ""
+"No manual certificates yet. Issue one to anyone, with or without a course."
+msgstr ""
+"Noch keine manuellen Zertifikate. Stelle eines für eine beliebige Person "
+"aus, mit oder ohne Kurs."
+
+#: app/Services/ModuleTransStrings.php:223
+msgid "Not published"
+msgstr "Nicht veröffentlicht"
+
+#: app/Services/ModuleTransStrings.php:224
+msgid "Nothing on the page yet."
+msgstr "Noch nichts auf der Seite."
+
+#: app/Services/ModuleTransStrings.php:225
+msgid "of completion"
+msgstr "über den Abschluss"
+
+#: app/Services/ModuleTransStrings.php:226
+msgid "of Completion"
+msgstr "über den Abschluss"
+
+#: app/Services/ModuleTransStrings.php:227
+msgid "Only admins see this name. Students see the certificate."
+msgstr "Nur Admins sehen diesen Namen. Teilnehmende sehen das Zertifikat."
+
+#: app/Services/ModuleTransStrings.php:228
+msgid "Opacity"
+msgstr "Deckkraft"
+
+#: app/Services/ModuleTransStrings.php:229
+msgid "Open certificate templates"
+msgstr "Zertifikatsvorlagen öffnen"
+
+#: app/Services/ModuleTransStrings.php:230
+msgid "Open the public verification page"
+msgstr "Öffentliche Prüfseite öffnen"
+
+#: app/Services/ModuleTransStrings.php:231
+msgid "Open the verification page"
+msgstr "Prüfseite öffnen"
+
+#: app/Services/ModuleTransStrings.php:232
+msgid "Options"
+msgstr "Optionen"
+
+#: app/Services/ModuleTransStrings.php:233
+msgid "Orientation"
+msgstr "Ausrichtung"
+
+#: app/Services/ModuleTransStrings.php:234
+msgid "Page"
+msgstr "Seite"
+
+#: app/Services/ModuleTransStrings.php:235
+msgid "Past completions"
+msgstr "Frühere Abschlüsse"
+
+#: app/Services/ModuleTransStrings.php:236
+msgid "Paste"
+msgstr "Einfügen"
+
+#: app/Services/ModuleTransStrings.php:237
+msgid "Person"
+msgstr "Person"
+
+#: app/Services/ModuleTransStrings.php:238
+msgid "Portrait"
+msgstr "Hochformat"
+
+#: app/Services/ModuleTransStrings.php:239
+msgid "Position and size (pt)"
+msgstr "Position und Größe (pt)"
+
+#: app/Services/ModuleTransStrings.php:241
+msgid "presented to"
+msgstr "überreicht an"
+
+#: app/Services/ModuleTransStrings.php:242
+msgid "Preview"
+msgstr "Vorschau"
+
+#: app/Services/ModuleTransStrings.php:243
+msgid "Preview with"
+msgstr "Vorschau mit"
+
+#: app/Services/ModuleTransStrings.php:245
+msgid "Private"
+msgstr "Privat"
+
+#: app/Services/ModuleTransStrings.php:246
+msgid "Private: only confirms it is valid"
+msgstr "Privat: bestätigt nur die Gültigkeit"
+
+#: app/Services/ModuleTransStrings.php:247
+msgid "Public"
+msgstr "Öffentlich"
+
+#: app/Services/ModuleTransStrings.php:248
+msgid "Public: shows the certificate"
+msgstr "Öffentlich: zeigt das Zertifikat"
+
+#: app/Services/ModuleTransStrings.php:249
+msgid "Publish"
+msgstr "Veröffentlichen"
+
+#: app/Services/ModuleTransStrings.php:250
+msgid "Publish a certificate template first."
+msgstr "Veröffentliche zuerst eine Zertifikatsvorlage."
+
+#: app/Services/ModuleTransStrings.php:251
+msgid "Publish this template?"
+msgstr "Diese Vorlage veröffentlichen?"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:253
+#, php-format
+msgid "Published v%d"
+msgstr "Veröffentlicht: v%d"
+
+#: app/Services/ModuleTransStrings.php:254
+msgid "QR code"
+msgstr "QR-Code"
+
+#: app/Services/ModuleTransStrings.php:255
+msgid "Reason (shown to admins only)"
+msgstr "Grund (nur für Admins sichtbar)"
+
+#: app/Services/ModuleTransStrings.php:256
+msgid "Redo"
+msgstr "Wiederholen"
+
+#: app/Services/ModuleTransStrings.php:257
+msgid "Regular"
+msgstr "Normal"
+
+#: app/Services/ModuleTransStrings.php:258
+msgid "Reinstate"
+msgstr "Wieder in Kraft setzen"
+
+#: app/Services/ModuleTransStrings.php:259
+msgid "Reissue"
+msgstr "Neu ausstellen"
+
+#: app/Services/ModuleTransStrings.php:260
+msgid "Reissue certificate?"
+msgstr "Zertifikat neu ausstellen?"
+
+#: app/Services/ModuleTransStrings.php:261
+msgid "Reissue with current details"
+msgstr "Mit aktuellen Angaben neu ausstellen"
+
+#: app/Services/ModuleTransStrings.php:262
+msgid "Remove"
+msgstr "Entfernen"
+
+#: app/Services/ModuleTransStrings.php:263
+msgid "Rename template"
+msgstr "Vorlage umbenennen"
+
+#: app/Services/ModuleTransStrings.php:264
+msgid "Replace image"
+msgstr "Bild ersetzen"
+
+#: app/Services/ModuleTransStrings.php:265
+msgid "Restore"
+msgstr "Wiederherstellen"
+
+#: app/Services/ModuleTransStrings.php:266
+msgid "Revoke"
+msgstr "Widerrufen"
+
+#: app/Services/ModuleTransStrings.php:267
+msgid "Revoke certificate"
+msgstr "Zertifikat widerrufen"
+
+#: app/Services/ModuleTransStrings.php:268
+msgid "Revoked"
+msgstr "Widerrufen"
+
+#: app/Services/ModuleTransStrings.php:269
+msgid ""
+"Revoking is permanent. The verification page will show the certificate as "
+"revoked."
+msgstr ""
+"Ein Widerruf ist endgültig. Die Prüfseite zeigt das Zertifikat dann als "
+"widerrufen."
+
+#: app/Services/ModuleTransStrings.php:270
+msgid "Right"
+msgstr "Rechts"
+
+#: app/Services/ModuleTransStrings.php:271
+msgid "Right to left"
+msgstr "Rechts nach links"
+
+#: app/Services/ModuleTransStrings.php:272
+msgid "Right-to-left names"
+msgstr "Namen von rechts nach links"
+
+#: app/Services/ModuleTransStrings.php:273
+msgid "Rotate"
+msgstr "Drehen"
+
+#: app/Services/ModuleTransStrings.php:274
+msgid "Sample student"
+msgstr "Beispiel-Teilnehmer"
+
+#: app/Services/ModuleTransStrings.php:275
+msgid "Save"
+msgstr "Speichern"
+
+#: app/Services/ModuleTransStrings.php:276
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+#: app/Services/ModuleTransStrings.php:277
+msgid "Save draft"
+msgstr "Entwurf speichern"
+
+#: app/Services/ModuleTransStrings.php:278
+msgid "Save your changes first."
+msgstr "Speichere zuerst Deine Änderungen."
+
+#: app/Services/ModuleTransStrings.php:279
+msgid "Saving…"
+msgstr "Wird gespeichert …"
+
+#: app/Services/ModuleTransStrings.php:280
+msgid "Search"
+msgstr "Suchen"
+
+#: app/Services/ModuleTransStrings.php:281
+msgid "Search by name, email or credential ID"
+msgstr "Nach Name, E-Mail oder Zertifikats-ID suchen"
+
+#: app/Services/ModuleTransStrings.php:282
+msgid "Search by name, email, title or credential ID"
+msgstr "Nach Name, E-Mail, Titel oder Zertifikats-ID suchen"
+
+#: app/Services/ModuleTransStrings.php:283
+msgid "See the certificates issued for this course"
+msgstr "Die für diesen Kurs ausgestellten Zertifikate ansehen"
+
+#: app/Services/ModuleTransStrings.php:284
+msgid "Select all"
+msgstr "Alle auswählen"
+
+#: app/Services/ModuleTransStrings.php:285
+msgid "Select several elements"
+msgstr "Mehrere Elemente auswählen"
+
+#: app/Services/ModuleTransStrings.php:286
+msgid "Send backward"
+msgstr "Nach hinten"
+
+#: app/Services/ModuleTransStrings.php:287
+msgid "Serial number"
+msgstr "Seriennummer"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:289
+#, php-format
+msgid "Set when the certificate is issued: %s."
+msgstr "Wird beim Ausstellen des Zertifikats gesetzt: %s."
+
+#: app/Services/ModuleTransStrings.php:290
+msgid "Shape"
+msgstr "Form"
+
+#: app/Services/ModuleTransStrings.php:291
+msgid "Share it"
+msgstr "Teilen"
+
+#: app/Services/ModuleTransStrings.php:292
+msgid "Show"
+msgstr "Einblenden"
+
+#: app/Services/ModuleTransStrings.php:293
+msgid "Show on my profile and the verification page"
+msgstr "In meinem Profil und auf der Prüfseite zeigen"
+
+#: app/Services/ModuleTransStrings.php:294
+msgid "Shrink to fit"
+msgstr "Verkleinern, bis es passt"
+
+#: app/Services/ModuleTransStrings.php:295
+msgid "Signature"
+msgstr "Unterschrift"
+
+#: app/Services/ModuleTransStrings.php:296
+msgid "Signature image"
+msgstr "Bild der Unterschrift"
+
+#: app/Services/ModuleTransStrings.php:297
+msgid "Site name"
+msgstr "Name der Website"
+
+#: app/Services/ModuleTransStrings.php:298
+msgid "Size"
+msgstr "Größe"
+
+#: app/Services/ModuleTransStrings.php:299
+msgid "Soft Teal"
+msgstr "Sanftes Petrol"
+
+#: app/Services/ModuleTransStrings.php:300
+msgid "Some certificates could not be issued"
+msgstr "Einige Zertifikate ließen sich nicht ausstellen"
+
+#: app/Services/ModuleTransStrings.php:301
+msgid "Start from"
+msgstr "Ausgangspunkt"
+
+#: app/Services/ModuleTransStrings.php:302
+msgid "Start from scratch"
+msgstr "Leer beginnen"
+
+#: app/Services/ModuleTransStrings.php:304
+msgid "Stay"
+msgstr "Bleiben"
+
+#: app/Services/ModuleTransStrings.php:305
+msgid "Stop"
+msgstr "Stoppen"
+
+#: app/Services/ModuleTransStrings.php:306
+msgid "Stretch"
+msgstr "Strecken"
+
+#: app/Services/ModuleTransStrings.php:307
+msgid "Student"
+msgstr "Teilnehmer"
+
+#: app/Services/ModuleTransStrings.php:308
+msgid "Student first name"
+msgstr "Vorname des Teilnehmers"
+
+#: app/Services/ModuleTransStrings.php:309
+msgid "Student full name"
+msgstr "Vollständiger Name des Teilnehmers"
+
+#: app/Services/ModuleTransStrings.php:310
+msgid "Student last name"
+msgstr "Nachname des Teilnehmers"
+
+#: app/Services/ModuleTransStrings.php:311
+msgid "Suspend"
+msgstr "Aussetzen"
+
+#: app/Services/ModuleTransStrings.php:312
+msgid "Suspend certificate"
+msgstr "Zertifikat aussetzen"
+
+#: app/Services/ModuleTransStrings.php:313
+msgid "Suspended"
+msgstr "Ausgesetzt"
+
+#: app/Services/ModuleTransStrings.php:314
+msgid "Template"
+msgstr "Vorlage"
+
+#: app/Services/ModuleTransStrings.php:315
+msgid "Template name"
+msgstr "Name der Vorlage"
+
+#: app/Services/ModuleTransStrings.php:316
+msgid "Template version"
+msgstr "Version der Vorlage"
+
+#: app/Services/ModuleTransStrings.php:317
+msgid "Templates"
+msgstr "Vorlagen"
+
+#: app/Services/ModuleTransStrings.php:318
+#: app/Services/ProfileFieldsService.php:61
+msgid "Text"
+msgstr "Text"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:320
+#, php-format
+msgid ""
+"The %d certificates already issued keep the design they were issued with."
+msgstr ""
+"Die %d bereits ausgestellten Zertifikate behalten das Design, mit dem sie "
+"ausgestellt wurden."
+
+#: app/Services/ModuleTransStrings.php:321
+msgid "The certificate already issued keeps the design it was issued with."
+msgstr ""
+"Das bereits ausgestellte Zertifikat behält das Design, mit dem es "
+"ausgestellt wurde."
+
+#: app/Services/ModuleTransStrings.php:322
+msgid ""
+"The certificate is drawn again with the student's current name and the "
+"template's published version. The credential ID stays the same."
+msgstr ""
+"Das Zertifikat wird mit dem aktuellen Namen des Teilnehmers und der "
+"veröffentlichten Version der Vorlage neu erstellt. Die Zertifikats-ID bleibt"
+" gleich."
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:324
+#, php-format
+msgid "The certificate is removed from the profile of %s."
+msgstr "Das Zertifikat wird aus dem Profil von %s entfernt."
+
+#: app/Services/ModuleTransStrings.php:326
+msgid "The image could not be uploaded."
+msgstr "Das Bild ließ sich nicht hochladen."
+
+#: app/Services/ModuleTransStrings.php:327
+msgid "The Open Badge could not be created."
+msgstr "Das Open Badge ließ sich nicht erstellen."
+
+#: app/Services/ModuleTransStrings.php:328
+msgid ""
+"The Open Badge is the certificate image with a signed Open Badges 3.0 "
+"credential inside. Upload it to a badge wallet or Credly."
+msgstr ""
+"Das Open Badge ist das Bild des Zertifikats mit einem signierten Nachweis "
+"nach Open Badges 3.0 darin. Lade es in eine Badge-Wallet oder bei Credly "
+"hoch."
+
+#: app/Services/ModuleTransStrings.php:329
+msgid ""
+"The person gets the verification page link. They can view, download and "
+"share the certificate there."
+msgstr ""
+"Die Person erhält den Link zur Prüfseite. Dort kann sie das Zertifikat "
+"ansehen, herunterladen und teilen."
+
+#: app/Services/ModuleTransStrings.php:330
+msgid "The QR code links to the certificate's verification page."
+msgstr "Der QR-Code führt zur Prüfseite des Zertifikats."
+
+#: app/Services/ModuleTransStrings.php:331
+msgid "The template of this certificate no longer exists."
+msgstr "Die Vorlage dieses Zertifikats existiert nicht mehr."
+
+#: app/Services/ModuleTransStrings.php:332
+msgid ""
+"The verification page will show the certificate as suspended until you "
+"reinstate it."
+msgstr ""
+"Die Prüfseite zeigt das Zertifikat als ausgesetzt, bis Du es wieder in Kraft"
+" setzt."
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:334
+#, php-format
+msgid "These stay as issued: %s."
+msgstr "Diese bleiben wie ausgestellt: %s."
+
+#: app/Services/ModuleTransStrings.php:335
+msgid "Thickness"
+msgstr "Stärke"
+
+#: app/Services/ModuleTransStrings.php:336
+msgid "This certificate is proudly presented to"
+msgstr "Dieses Zertifikat wird verliehen an"
+
+#: app/Services/ModuleTransStrings.php:337
+msgid ""
+"This course's certificate template is missing. Choose another template. "
+"Until you do, students who complete this course do not get a certificate."
+msgstr ""
+"Die Zertifikatsvorlage dieses Kurses fehlt. Wähle eine andere Vorlage. Bis "
+"dahin erhalten Teilnehmende, die den Kurs abschließen, kein Zertifikat."
+
+#: app/Services/ModuleTransStrings.php:338
+msgid "This file is not a certificate template export."
+msgstr "Diese Datei ist kein Export einer Zertifikatsvorlage."
+
+#: app/Services/ModuleTransStrings.php:339
+msgid "This is to certify that"
+msgstr "Hiermit wird bestätigt:"
+
+#: app/Services/ModuleTransStrings.php:340
+msgid "Title"
+msgstr "Titel"
+
+#: app/Services/ModuleTransStrings.php:341
+msgid "Typography"
+msgstr "Typografie"
+
+#: app/Services/ModuleTransStrings.php:342
+msgid "Undo"
+msgstr "Rückgängig"
+
+#: app/Services/ModuleTransStrings.php:343
+msgid "Unlock"
+msgstr "Entsperren"
+
+#: app/Services/ModuleTransStrings.php:344
+msgid "Unpublished changes"
+msgstr "Unveröffentlichte Änderungen"
+
+#: app/Services/ModuleTransStrings.php:345
+msgid "Unsaved changes"
+msgstr "Ungespeicherte Änderungen"
+
+#: app/Services/ModuleTransStrings.php:346
+msgid "Upload failed"
+msgstr "Hochladen fehlgeschlagen"
+
+#: app/Services/ModuleTransStrings.php:347
+msgid "Upload image"
+msgstr "Bild hochladen"
+
+#: app/Services/ModuleTransStrings.php:348
+msgid "UPPERCASE"
+msgstr "GROSSBUCHSTABEN"
+
+#: app/Services/ModuleTransStrings.php:349
+msgid "US Letter"
+msgstr "US Letter"
+
+#: app/Services/ModuleTransStrings.php:350
+msgid "Use letters, and spaces or underscores."
+msgstr "Verwende Buchstaben sowie Leerzeichen oder Unterstriche."
+
+#: app/Services/ModuleTransStrings.php:351
+msgid "Use the latest version of the template"
+msgstr "Neueste Version der Vorlage verwenden"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:353
+#, php-format
+msgid "User #%1$s: %2$s"
+msgstr "Mitglied #%1$s: %2$s"
+
+#: app/Services/ModuleTransStrings.php:354
+msgid "Valid"
+msgstr "Gültig"
+
+#: app/Services/ModuleTransStrings.php:355
+msgid "Valid for"
+msgstr "Gültig für"
+
+#: app/Services/ModuleTransStrings.php:356
+msgid "Verification page"
+msgstr "Prüfseite"
+
+#: app/Services/ModuleTransStrings.php:357
+msgid "Very long name"
+msgstr "Sehr langer Name"
+
+#: app/Services/ModuleTransStrings.php:358
+msgid "View"
+msgstr "Anzeigen"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:360
+#, php-format
+msgid "View %s"
+msgstr "%s ansehen"
+
+#: app/Services/ModuleTransStrings.php:361
+msgid "View and share"
+msgstr "Ansehen und teilen"
+
+#: app/Services/ModuleTransStrings.php:362
+msgid "Weight"
+msgstr "Schriftstärke"
+
+#: app/Services/ModuleTransStrings.php:363
+msgid "Width"
+msgstr "Breite"
+
+#: app/Services/ModuleTransStrings.php:364
+msgid "Width (pt)"
+msgstr "Breite (pt)"
+
+#. translators: the placeholders are filled in by Pro's certificate screens (a
+#. number or a name)
+#: app/Services/ModuleTransStrings.php:366
+#, php-format
+msgid "You completed %s. Here is your certificate."
+msgstr "Du hast %s abgeschlossen. Hier ist Dein Zertifikat."
+
+#: app/Services/ModuleTransStrings.php:367
+msgid "You have completed"
+msgstr "Du hast abgeschlossen:"
+
+#: app/Services/ModuleTransStrings.php:368
+msgid "You have unsaved changes. Leave without saving?"
+msgstr "Du hast ungespeicherte Änderungen. Ohne Speichern verlassen?"
+
+#: app/Services/ModuleTransStrings.php:369
+msgid "Your text"
+msgstr "Dein Text"
+
+#: app/Services/ModuleTransStrings.php:370
+msgid "Zoom in"
+msgstr "Vergrößern"
+
+#: app/Services/ModuleTransStrings.php:371
+msgid "Zoom out"
+msgstr "Verkleinern"
+
+#: app/Services/NamedLock.php:38
+msgid "Another request is in progress. Please try again."
+msgstr "Eine andere Anfrage läuft gerade. Bitte versuche es noch einmal."
 
 #: app/Services/PluginManager/FluentLicensing.php:316
 msgid "license has been"
@@ -2725,10 +4745,6 @@ msgstr "Weitere Angaben"
 msgid "Fill in additional information about yourself."
 msgstr "Ergänze weitere Angaben zu Dir."
 
-#: app/Services/ProfileFieldsService.php:61
-msgid "Text"
-msgstr "Text"
-
 #: app/Services/ProfileFieldsService.php:62
 msgid "Textarea"
 msgstr "Mehrzeiliges Textfeld"
@@ -2736,10 +4752,6 @@ msgstr "Mehrzeiliges Textfeld"
 #: app/Services/ProfileFieldsService.php:63
 msgid "Number"
 msgstr "Zahl"
-
-#: app/Services/ProfileFieldsService.php:64
-msgid "Date"
-msgstr "Datum"
 
 #: app/Services/ProfileFieldsService.php:65
 msgid "Dropdown"
@@ -2757,7 +4769,8 @@ msgstr "URL"
 msgid "Multi Select"
 msgstr "Mehrfachauswahl"
 
-#: app/Services/ProfileFieldsService.php:167
+#. translators: %s: field label
+#: app/Services/ProfileFieldsService.php:168
 #, php-format
 msgid "%s is required"
 msgstr "%s ist erforderlich"

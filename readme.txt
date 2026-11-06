@@ -4,7 +4,7 @@ Tags: fluentcommunity, fluentcrm, fluentauth, fluentsmtp, fluentsnippets, deutsc
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.6.23
+Stable tag: 2.6.24
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,11 @@ Für FluentCRM, FluentSMTP und FluentSnippets ja. Steht die Seite auf `de_DE_for
 Ja, jede für sich. Drei Zustände je Plugin: „Deutsche Übersetzung aktiv“ (Vorgabe, schaltet sich ein, sobald das Plugin da ist), „Fremde Übersetzung“ (unsere Fassung weg, das Sprachpaket von wordpress.org greift weiter) und „Keine Übersetzung zulassen“ (das Plugin bleibt englisch).
 
 == Changelog ==
+
+= 2.6.24 =
+* FluentCommunity 2.13.0 und Pro 2.13.0: 636 neue Texte übersetzt. Neu sind vor allem die Zertifikate für abgeschlossene Kurse (Vorlagen-Editor, Prüfseite, Mail, Open Badge), Quiz mit Versuchen, Zeitlimit und Bewertung durch die Kursleitung, die neue Suche und eine Anleitung zum Freischalten blockierter Benachrichtigungen. „Instructor“ heißt jetzt „Kursleitung“.
+* FluentSMTP 2.4.5: 29 neue Texte übersetzt, vor allem zu Anhängen beim erneuten Senden.
+* Setzt **FluentCommunity 2.13.0** voraus (23 Texte von 2.12.0 sind entfallen), dazu **FluentSMTP 2.4.5**, **FluentAuth 3.1.1** und wie 2.6.14 **FluentCRM 3.3.0**, läuft auch mit 3.3.1.
 
 = 2.6.23 =
 * FluentAuth 3.1.1: fünf neue Texte übersetzt, vor allem die Warnung vor einer PHP-Version, die eine kritische Sicherheitslücke haben kann. Ein entfallener Text ist aus dem Katalog entfernt.
