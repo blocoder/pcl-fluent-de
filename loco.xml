@@ -45,6 +45,20 @@
     </project>
   </domain>
 
+  <domain name="fluent-event">
+    <project name="FluentEvent" slug="fluent-event">
+      <source>
+        <directory>../fluent-event/app</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>../fluent-event/language/fluent-event.pot</file>
+      </template>
+    </project>
+  </domain>
+
   <domain name="fluent-messaging">
     <project name="FluentMessaging" slug="fluent-messaging">
       <source>

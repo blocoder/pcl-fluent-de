@@ -151,6 +151,22 @@ function pcl_fluent_de_registry() {
             // Plugin ihre Ausgabe noch liefert.
             'vorgaenger' => '',
         ),
+
+        // --- FluentEvent (seit 2.6.25) -------------------------------------
+        //
+        // Zusatz-Plugin des Herstellers, das FluentCommunity Pro ab 2.14.0
+        // nachinstalliert (fluentapi.wpmanageninja.com, nicht wordpress.org).
+        // `sperren`, weil es kein Sprachpaket auf wordpress.org gibt, das
+        // Lücken füllen könnte. Die Oberflächentexte der Vue-App kommen über
+        // ein PHP-Array (`config/i18n.php`, `PortalHandler::strings()`), also
+        // über diesen Katalog.
+        'fluent-event' => array(
+            'slug'    => 'fluent-event',
+            'titel'   => 'FluentEvent',
+            'anreden' => array('de_DE'),
+            'paket'   => 'sperren',
+            'extras'  => array(),
+        ),
     ));
 }
 

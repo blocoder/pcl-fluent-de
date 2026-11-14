@@ -7,6 +7,22 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.25
+
+**FluentEvent ist dabei.** Das Zusatz-Plugin für Events, das FluentCommunity
+Pro ab 2.14.0 nachinstalliert, ist vollständig übersetzt: Kalender, Events,
+Gäste, Zusagen und Anmeldungen, die Erinnerungs- und Bestätigungsmails und die
+Event-Seiten im Portal. Wie unser Kalender sagt es „Event“ und „Zusage“.
+
+**FluentCommunity und Pro 2.14.0 sind nachgezogen**, 287 neue Texte: die
+Checkliste „Erste Schritte“ für Admins, Kurse mit späterem Startdatum,
+Ankündigungen per E-Mail mit eigenen Einstellungen je Forum, das Favicon und
+das Löschen von Inhalten aus der Moderation.
+
+**Wichtig beim Einspielen:** Diese Fassung setzt **FluentCommunity 2.14.0**
+voraus. Mit 2.13.0 stünden 72 Texte in FluentCommunity und 47 in Pro wieder
+englisch da. Erst FluentCommunity aktualisieren, dann dieses Plugin.
+
 ## 2.6.21
 
 **Der Beitrittsknopf eines Forums in FluentCommunity heißt „Forum

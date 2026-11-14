@@ -4,7 +4,7 @@ Tags: fluentcommunity, fluentcrm, fluentauth, fluentsmtp, fluentsnippets, deutsc
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.6.24
+Stable tag: 2.6.25
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,11 @@ Für FluentCRM, FluentSMTP und FluentSnippets ja. Steht die Seite auf `de_DE_for
 Ja, jede für sich. Drei Zustände je Plugin: „Deutsche Übersetzung aktiv“ (Vorgabe, schaltet sich ein, sobald das Plugin da ist), „Fremde Übersetzung“ (unsere Fassung weg, das Sprachpaket von wordpress.org greift weiter) und „Keine Übersetzung zulassen“ (das Plugin bleibt englisch).
 
 == Changelog ==
+
+= 2.6.25 =
+* FluentEvent 1.0.1 neu im Paket: das Zusatz-Plugin für Events, das FluentCommunity Pro ab 2.14.0 nachinstalliert, vollständig übersetzt (615 Texte). „Event“ und „Zusage“ wie im PC’L Kalender.
+* FluentCommunity und Pro 2.14.0 nachgezogen: 287 neue Texte, darunter die Checkliste „Erste Schritte“, Kurse mit späterem Startdatum, Ankündigungen per E-Mail und das Favicon.
+* **Wichtig beim Einspielen:** Diese Fassung setzt **FluentCommunity 2.14.0** voraus. Mit 2.13.0 stünden 119 Texte wieder englisch da. Erst FluentCommunity aktualisieren, dann dieses Plugin.
 
 = 2.6.24 =
 * FluentCommunity 2.13.0 und Pro 2.13.0: 636 neue Texte übersetzt. Neu sind vor allem die Zertifikate für abgeschlossene Kurse (Vorlagen-Editor, Prüfseite, Mail, Open Badge), Quiz mit Versuchen, Zeitlimit und Bewertung durch die Kursleitung, die neue Suche und eine Anleitung zum Freischalten blockierter Benachrichtigungen. „Instructor“ heißt jetzt „Kursleitung“.
