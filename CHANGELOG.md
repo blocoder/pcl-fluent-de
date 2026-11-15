@@ -23,6 +23,39 @@ das Löschen von Inhalten aus der Moderation.
 voraus. Mit 2.13.0 stünden 72 Texte in FluentCommunity und 47 in Pro wieder
 englisch da. Erst FluentCommunity aktualisieren, dann dieses Plugin.
 
+## 2.6.24
+
+**FluentCommunity und Pro 2.13.0 sind nachgezogen**, 636 neue Texte. Neu
+sind vor allem die Zertifikate für abgeschlossene Kurse (Vorlagen-Editor,
+Prüfseite, Mail, Open Badge), Quiz mit Versuchen, Zeitlimit und Bewertung
+durch die Kursleitung, die neue Suche und eine Anleitung zum Freischalten
+blockierter Benachrichtigungen. „Instructor“ heißt jetzt „Kursleitung“.
+
+**FluentSMTP 2.4.5:** 29 neue Texte, vor allem zu Anhängen beim erneuten
+Senden.
+
+Setzt **FluentCommunity 2.13.0** voraus (23 Texte von 2.12.0 sind
+entfallen), dazu **FluentSMTP 2.4.5**, **FluentAuth 3.1.1** und wie 2.6.14
+**FluentCRM 3.3.0**, läuft auch mit 3.3.1.
+
+## 2.6.23
+
+**FluentAuth 3.1.1:** fünf neue Texte, vor allem die Warnung vor einer
+PHP-Version, die eine kritische Sicherheitslücke haben kann. Ein entfallener
+Text ist aus dem Katalog entfernt. Setzt **FluentAuth 3.1.1** voraus, dazu
+wie 2.6.14 **FluentCRM 3.3.0**, läuft auch mit 3.3.1.
+
+## 2.6.22
+
+**Der Datumswähler in FluentCRM zeigt wieder Wochentage** statt Schlüsseln
+wie „el.datepicker.weeks.mo.“, ebenso die Monatsansicht. Die deutsche
+Datumsdarstellung des Plugins hatte die englischen Daten umgebogen, aus denen
+der Datumswähler seine Beschriftungen ableitet. Die Kürzel im Kopf sowie
+„Now“ und „OK“ bleiben englisch, weil FluentCRM dem Datumswähler keine
+deutschen Texte mitgibt; die Datumswerte selbst bleiben deutsch. Kataloge
+unverändert; setzt wie 2.6.14 **FluentCRM 3.3.0** voraus, läuft auch mit
+3.3.1.
+
 ## 2.6.21
 
 **Der Beitrittsknopf eines Forums in FluentCommunity heißt „Forum
