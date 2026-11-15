@@ -5371,7 +5371,7 @@ msgstr "Amzon S3 Geheimschlüssel"
 
 #: app/Services/TransStrings.php:291
 msgid "An admin sends an announcement"
-msgstr "Ein Admin schickt eine Ankündigung"
+msgstr "Foren-Rundmails von Admins"
 
 #: app/Services/TransStrings.php:292
 msgid "An email each time anyone posts here."
