@@ -7,6 +7,13 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.26
+
+**FluentCommunity:** Die Zeile für Ankündigungen in den
+Benachrichtigungs-Einstellungen heißt jetzt „Foren-Rundmails von Admins“, wie
+die Karte im Dashboard. Die übrigen Texte zum Thema sagen weiter
+„Ankündigungen per E-Mail“.
+
 ## 2.6.25
 
 **FluentEvent ist dabei.** Das Zusatz-Plugin für Events, das FluentCommunity
