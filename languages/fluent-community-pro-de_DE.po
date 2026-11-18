@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FluentCommunity Pro\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fluent-community-pro\n"
-"POT-Creation-Date: 2026-11-14T13:21:21+01:00\n"
+"POT-Creation-Date: 2026-11-18T20:10:23+01:00\n"
 "PO-Revision-Date: 2026-07-25 15:08+0000\n"
 "Last-Translator: Peter Claus Lamprecht\n"
 "Language-Team: Deutsch\n"
@@ -546,50 +546,50 @@ msgid "Please update Fluent Messaging plugin to latest version"
 msgstr ""
 "Bitte aktualisiere das Plugin Fluent Messaging auf die neueste Version"
 
-#: app/Http/Controllers/ProAdminController.php:751
+#: app/Http/Controllers/ProAdminController.php:752
 msgid "Messaging settings have been updated successfully"
 msgstr "Die Messaging-Einstellungen wurden gespeichert"
 
-#: app/Http/Controllers/ProAdminController.php:774
+#: app/Http/Controllers/ProAdminController.php:775
 msgid "Title is required"
 msgstr "Der Titel ist erforderlich"
 
-#: app/Http/Controllers/ProAdminController.php:775
+#: app/Http/Controllers/ProAdminController.php:776
 msgid "Please select Space Group"
 msgstr "Bitte wähle eine Foren-Gruppe"
 
-#: app/Http/Controllers/ProAdminController.php:776
+#: app/Http/Controllers/ProAdminController.php:777
 msgid "Please select privacy"
 msgstr "Bitte wähle die Sichtbarkeit"
 
-#: app/Http/Controllers/ProAdminController.php:777
+#: app/Http/Controllers/ProAdminController.php:778
 msgid "Permalink is required"
 msgstr "Der Permalink ist erforderlich"
 
-#: app/Http/Controllers/ProAdminController.php:778
+#: app/Http/Controllers/ProAdminController.php:779
 msgid "Please provide a valid URL"
 msgstr "Bitte gib eine gültige URL an"
 
-#: app/Http/Controllers/ProAdminController.php:779
-#: app/Http/Controllers/ProAdminController.php:812
+#: app/Http/Controllers/ProAdminController.php:780
+#: app/Http/Controllers/ProAdminController.php:813
 msgid "Please select at least one membership for members only link"
 msgstr ""
 "Bitte wähle mindestens eine Mitgliedschaft für den Link, der nur Mitgliedern"
 " gilt"
 
-#: app/Http/Controllers/ProAdminController.php:864
+#: app/Http/Controllers/ProAdminController.php:865
 msgid "The link has been saved successfully"
 msgstr "Der Link wurde gespeichert"
 
-#: app/Http/Controllers/ProAdminController.php:879
+#: app/Http/Controllers/ProAdminController.php:880
 msgid "The link has been deleted successfully"
 msgstr "Der Link wurde gelöscht"
 
-#: app/Http/Controllers/ProAdminController.php:896
+#: app/Http/Controllers/ProAdminController.php:897
 msgid "Followers settings have been updated successfully"
 msgstr "Die Follower-Einstellungen wurden gespeichert"
 
-#: app/Http/Controllers/ProAdminController.php:939
+#: app/Http/Controllers/ProAdminController.php:940
 msgid "Custom profile fields have been saved successfully"
 msgstr "Die eigenen Profilfelder wurden gespeichert"
 
@@ -1532,6 +1532,7 @@ msgstr "Inspiriert dauerhaft zu Bestleistung und Zusammenhalt"
 #: app/Services/Integrations/FluentCRM/RemoveBadgeAction.php:23
 #: app/Services/Integrations/FluentCRM/RemoveFromCourseAction.php:23
 #: app/Services/Integrations/FluentCRM/RemoveFromSpaceAction.php:23
+#: app/Services/Integrations/FluentCRM/ResetCourseProgressAction.php:24
 #: app/Services/Integrations/FluentCRM/SpaceLeaveTrigger.php:24
 #: app/Services/Integrations/FluentCRM/SpaceMembershipStatusChangeAction.php:21
 msgid "Community"
@@ -2864,6 +2865,7 @@ msgstr "Füge das Mitglied den ausgewählten Kursen hinzu"
 
 #: app/Services/Integrations/FluentCRM/AddToCourseAction.php:47
 #: app/Services/Integrations/FluentCRM/RemoveFromCourseAction.php:44
+#: app/Services/Integrations/FluentCRM/ResetCourseProgressAction.php:44
 msgid "Select Courses"
 msgstr "Wähle einen oder mehrere Kurse aus"
 
@@ -3117,6 +3119,7 @@ msgstr "Entferne das Mitglied zu(?) den ausgewählten Kursen"
 
 #: app/Services/Integrations/FluentCRM/RemoveFromCourseAction.php:64
 #: app/Services/Integrations/FluentCRM/RemoveFromSpaceAction.php:68
+#: app/Services/Integrations/FluentCRM/ResetCourseProgressAction.php:63
 #: app/Services/Integrations/FluentCRM/SpaceMembershipStatusChangeAction.php:72
 msgid "Skipped because no user found"
 msgstr "Übersprungen, weil kein Mitglied gefunden wurde"
@@ -3148,6 +3151,26 @@ msgid ""
 msgstr ""
 "Nur wenn der Kontakt bereits ein WordPress-Benutzer ist und im ausgewählten "
 "Forum Mitglied ist, wird diese Aktion ausgeführt."
+
+#: app/Services/Integrations/FluentCRM/ResetCourseProgressAction.php:25
+#: app/Services/Integrations/FluentCRM/ResetCourseProgressAction.php:39
+msgid "Reset Course Progress"
+msgstr "Kursfortschritt zurücksetzen"
+
+#: app/Services/Integrations/FluentCRM/ResetCourseProgressAction.php:26
+#: app/Services/Integrations/FluentCRM/ResetCourseProgressAction.php:40
+msgid ""
+"Reset the progress of the user in the selected courses. The user stays "
+"enrolled."
+msgstr ""
+"Setzt den Fortschritt des Mitglieds in den ausgewählten Kursen zurück. Das "
+"Mitglied bleibt eingeschrieben."
+
+#: app/Services/Integrations/FluentCRM/ResetCourseProgressAction.php:80
+msgid "Skipped because the user is not a student in the selected courses"
+msgstr ""
+"Übersprungen, weil das Mitglied in den ausgewählten Kursen nicht "
+"eingeschrieben ist"
 
 #: app/Services/Integrations/FluentCRM/SpaceLeaveTrigger.php:25
 #: app/Services/Integrations/FluentCRM/SpaceLeaveTrigger.php:35

@@ -4,7 +4,7 @@ Tags: fluentcommunity, fluentcrm, fluentauth, fluentsmtp, fluentsnippets, deutsc
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.6.26
+Stable tag: 2.6.27
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,11 @@ Für FluentCRM, FluentSMTP und FluentSnippets ja. Steht die Seite auf `de_DE_for
 Ja, jede für sich. Drei Zustände je Plugin: „Deutsche Übersetzung aktiv“ (Vorgabe, schaltet sich ein, sobald das Plugin da ist), „Fremde Übersetzung“ (unsere Fassung weg, das Sprachpaket von wordpress.org greift weiter) und „Keine Übersetzung zulassen“ (das Plugin bleibt englisch).
 
 == Changelog ==
+
+= 2.6.27 =
+* FluentCommunity und Pro 2.15.0 nachgezogen: 111 neue Texte, vor allem die Anbindung an KI-Agenten über MCP und FluentHub, Fotos mit Bildbeschreibung in Beiträgen und das neue Menü im WordPress-Backend.
+* FluentEvent 1.1.0 nachgezogen: 64 neue Texte, vor allem Plätze und Ausbuchung, Countdown bis zum Beginn und das Teilen eines Events.
+* **Wichtig beim Einspielen:** Diese Fassung setzt **FluentCommunity 2.15.0** und **FluentEvent 1.1.0** voraus. Mit FluentCommunity 2.14.0 stünden sechs Texte wieder englisch da, darunter „Upload“. Erst FluentCommunity aktualisieren, dann dieses Plugin.
 
 = 2.6.26 =
 * FluentCommunity: Die Zeile für Ankündigungen in den Benachrichtigungs-Einstellungen heißt jetzt „Foren-Rundmails von Admins“.
