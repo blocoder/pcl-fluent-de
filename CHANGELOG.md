@@ -7,6 +7,31 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.28
+
+**FluentCRM 3.3.5 nachgezogen:** 209 neue Texte, vor allem das neue
+Audit-Protokoll (experimentell, standardmäßig aus), die Anbindung an
+KI-Agenten über MCP und FluentHub, neue Filter in der Kontaktliste und weitere
+Einträge im Integrationskatalog.
+
+**Wichtig beim Einspielen:** Diese Fassung setzt **FluentCRM 3.3.5** voraus.
+Mit FluentCRM 3.3.1 stünden sieben Texte wieder englisch da, darunter die
+Klick-, Öffnungs- und Abmeldezahlen einer Kampagne. Erst FluentCRM
+aktualisieren, dann dieses Plugin.
+
+## 2.6.27
+
+**FluentCommunity und Pro 2.15.0 nachgezogen:** 111 neue Texte, vor allem die
+Anbindung an KI-Agenten über MCP und FluentHub, Fotos mit Bildbeschreibung in
+Beiträgen und das neue Menü im WordPress-Backend.
+
+**FluentEvent 1.1.0 nachgezogen:** 64 neue Texte, vor allem Plätze und
+Ausbuchung, Countdown bis zum Beginn und das Teilen eines Events.
+
+**Wichtig beim Einspielen:** Diese Fassung setzt **FluentCommunity 2.15.0**
+und **FluentEvent 1.1.0** voraus. Mit FluentCommunity 2.14.0 stünden sechs
+Texte wieder englisch da, darunter „Upload“.
+
 ## 2.6.26
 
 **FluentCommunity:** Die Zeile für Ankündigungen in den
