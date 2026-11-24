@@ -13689,7 +13689,7 @@ msgstr "Entwicklermodus erforderlich"
 
 #: app/Services/TransStrings.php:1025
 msgid "Disable"
-msgstr "Deaktivieren"
+msgstr "Deaktiviert"
 
 #: app/Services/TransStrings.php:1026
 msgid "Disable AI"
@@ -14340,7 +14340,7 @@ msgstr "Leer"
 
 #: app/Services/TransStrings.php:1185
 msgid "Enable"
-msgstr "Aktivieren"
+msgstr "Aktiviert"
 
 #: app/Services/TransStrings.php:1186
 msgid "Enable AI"
