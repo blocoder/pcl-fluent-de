@@ -7,6 +7,12 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.29
+
+**FluentCRM:** Die Auswahlfelder unter Einstellungen > Datenschutz zeigen den
+Zustand „Aktiviert“ oder „Deaktiviert“ statt der Befehle „Aktivieren“ und
+„Deaktivieren“. Setzt wie 2.6.28 **FluentCRM 3.3.5** voraus.
+
 ## 2.6.28
 
 **FluentCRM 3.3.5 nachgezogen:** 209 neue Texte, vor allem das neue
