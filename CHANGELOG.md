@@ -7,6 +7,14 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.31
+
+**FluentCommunity und FluentMessaging:** Das Blockieren eines Mitglieds heißt
+durchgehend „blockieren“ („Blockiert“, „Blockierung aufheben“) statt mal
+„blocken“, mal „blockieren“. Der Hinweis vor dem Blockieren sagt jetzt
+richtig, dass das blockierte Mitglied nicht mehr mit Dir interagieren kann.
+Setzt wie 2.6.30 **FluentCommunity 2.16.0** und **FluentEvent 1.2.0** voraus.
+
 ## 2.6.30
 
 **FluentCommunity und Pro 2.16.0 nachgezogen:** 250 neue Texte, vor allem
