@@ -7,6 +7,21 @@ sagt, ist beim Weitergeben wertlos.
 Frühere Fassungen liefen nicht öffentlich; diese Liste beginnt mit dem ersten
 veröffentlichten Stand.
 
+## 2.6.30
+
+**FluentCommunity und Pro 2.16.0 nachgezogen:** 250 neue Texte, vor allem
+Kursbewertungen mit Sternen, das Sperren eines Mitglieds samt Löschen seiner
+Inhalte, Admin-Notizen und Schnellaktionen im Profil, neue Kacheln in den
+Analysen und fünf neue Farbschemata.
+
+**FluentEvent 1.2.0 nachgezogen:** 60 neue Texte, vor allem die Warteliste für
+ausgebuchte Events, Massenaktionen für Gäste und das Duplizieren eines Events.
+
+**Wichtig beim Einspielen:** Diese Fassung setzt **FluentCommunity 2.16.0**
+und **FluentEvent 1.2.0** voraus. Mit FluentCommunity 2.15.0 stünden 25 Texte
+wieder englisch da, vor allem Titel der Analysen. Erst FluentCommunity
+aktualisieren, dann dieses Plugin.
+
 ## 2.6.29
 
 **FluentCRM:** Die Auswahlfelder unter Einstellungen > Datenschutz zeigen den
