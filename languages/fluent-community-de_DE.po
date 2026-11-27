@@ -6294,7 +6294,7 @@ msgstr "Lücke %s"
 
 #: app/Services/TransStrings.php:461
 msgid "Block"
-msgstr "Blocken"
+msgstr "Blockieren"
 
 #: app/Services/TransStrings.php:462
 msgid "Block User"
@@ -6302,16 +6302,16 @@ msgstr "Mitglied blockieren"
 
 #: app/Services/TransStrings.php:463
 msgid "Blocked"
-msgstr "Geblockt"
+msgstr "Blockiert"
 
 #: app/Services/TransStrings.php:464
 msgid ""
 "Blocking this user will hide their posts from your feed and prevent them "
 "from interacting with you. Are you sure you want to block this user?"
 msgstr ""
-"Dieses Mitglied zu blocken bewirkt, dass Du seine Beiträge nicht mehr siehst"
-" und nicht mehr mit ihm interagieren kannst. Möchtest Du das Mitglied "
-"blocken?"
+"Wenn Du dieses Mitglied blockierst, verschwinden seine Beiträge aus Deinem "
+"Feed, und es kann nicht mehr mit Dir interagieren. Möchtest Du das Mitglied "
+"blockieren?"
 
 #: app/Services/TransStrings.php:465
 msgid "Bold"
@@ -15139,7 +15139,7 @@ msgstr "Nicht verfügbar"
 
 #: app/Services/TransStrings.php:2629
 msgid "Unblock"
-msgstr "Entblocken"
+msgstr "Blockierung aufheben"
 
 #: app/Services/TransStrings.php:2630
 msgid "Uncategorized"

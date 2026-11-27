@@ -417,7 +417,7 @@ msgstr "Blockieren"
 
 #: app/Hooks/Handlers/ChatAppHandler.php:343
 msgid "Blocked"
-msgstr "Geblockt"
+msgstr "Blockiert"
 
 #: app/Hooks/Handlers/ChatAppHandler.php:344
 msgid "Cancel"
@@ -1225,7 +1225,7 @@ msgstr "Du"
 #: app/Hooks/Handlers/ChatAppHandler.php:545
 #: app/Http/Controllers/ChatController.php:1167
 msgid "You have blocked this user"
-msgstr "Du hast dieses Mitglied geblockt"
+msgstr "Du hast dieses Mitglied blockiert"
 
 #: app/Hooks/Handlers/ChatAppHandler.php:546
 msgid "You have left this chat"
@@ -1366,7 +1366,7 @@ msgstr "Moderatoren der Community lassen sich nicht blockieren"
 
 #: app/Http/Controllers/ChatController.php:1198
 msgid "You have unblocked this user"
-msgstr "Du hast dieses Mitglied nicht mehr geblockt"
+msgstr "Du hast die Blockierung aufgehoben"
 
 #: app/Http/Controllers/ChatController.php:1209
 #: app/Http/Controllers/ChatController.php:1241
